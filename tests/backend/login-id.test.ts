@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { isValidLoginId, normalizeLoginId, toInternalAuthEmail } from "../../lib/auth/login-id";
+import {
+  isValidLoginId,
+  normalizeLoginId,
+  toInternalAuthEmail,
+} from "../../src/lib/auth/login-id";
 
 describe("Login ID convention", () => {
   it("normalizes a valid Login ID into the internal identity", () => {

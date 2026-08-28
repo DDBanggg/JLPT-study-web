@@ -46,12 +46,14 @@ npm run validate-content
 Codex owns backend implementation in:
 
 ```text
-app/api/**
-lib/server/**
-lib/data/**
-lib/auth/**
-lib/progress/**
-lib/scoring/**
+src/app/api/**
+src/lib/auth/**
+src/lib/data/**
+src/lib/progress/**
+src/lib/roadmap/**
+src/lib/scoring/**
+src/lib/supabase/**
+src/lib/utils/**
 supabase/**
 scripts/content-validation/**
 tests/backend/**
@@ -60,8 +62,8 @@ tests/backend/**
 Antigravity owns later frontend work in:
 
 ```text
-frontend pages
-components/**
+src/app frontend pages
+src/components/**
 frontend presentation/styles
 tests/frontend/**
 ```
@@ -70,8 +72,7 @@ Shared/frozen areas are:
 
 ```text
 content/**
-types/**
-contracts/**
+src/types/**
 docs/specs/**
 ```
 
