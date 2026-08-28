@@ -1,5 +1,7 @@
 # MASTER PROMPT — CODEX BOOTSTRAP N3 STUDY WEB
 
+> Historical bootstrap record. It is not a current source-of-truth document. The active v1.1 contracts in `docs/specs/` add Grammar Test; always follow those specifications instead of the enum/folder examples retained here.
+
 Bạn là **Codex**, phụ trách bootstrap repository và nền tảng backend cho dự án cá nhân **N3 Study Web**.
 
 ## Mục tiêu lần chạy này

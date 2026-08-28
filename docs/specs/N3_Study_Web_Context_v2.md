@@ -1,7 +1,7 @@
 # N3 Study Web — Product Context & Learning Logic
 
 **Status:** Locked baseline before implementation  
-**Updated:** 2026-08-27
+**Updated:** 2026-08-29
 
 ## Product goal
 
@@ -53,6 +53,7 @@ Statuses are derived from task completion timestamps, not manually stored.
 
 Each learning day covers:
 - Grammar
+- Grammar Test
 - Vocabulary
 - Kanji
 - Reading
@@ -86,10 +87,21 @@ Exact N3 sources, detailed topic mapping, reading allocation, listening playlist
 - representative sampling allowed
 - no Weak Items system
 
+## Grammar Test
+
+- separate same-day test resource after Grammar;
+- 25 Grammar questions total;
+- 5 lessons per Study Day in the current N5/N4 phase;
+- 5 questions per lesson;
+- covers only Grammar learned in the same Study Day;
+- uses raw score `x / 25`;
+- does not replace or alter the next day's Daily Test.
+
 ## Normal learning flow
 
 Daily Test
 → Grammar
+→ Grammar Test
 → Vocabulary
 → Kanji
 → Reading
@@ -107,6 +119,7 @@ The next task comes from roadmap JSON, not hardcoded page logic.
 - `Next` marks current card viewed.
 - `Previous` does not remove viewed state.
 - Final explicit `Hoàn thành Grammar`.
+- Next required roadmap task is normally the same-day Grammar Test during the N5/N4 phase.
 
 ## Vocabulary
 
@@ -165,6 +178,7 @@ Listening is played **inside the web** through embedded YouTube.
 ## Tests
 
 Test categories:
+- Grammar Test
 - Daily Test
 - Weekly Test
 - Monthly Test
@@ -214,6 +228,8 @@ Example:
 Each content preparation cycle includes both:
 - learning content
 - required test content
+
+Grammar Test Day X is prepared from same-day Grammar and contains 5 questions for each of the 5 lessons in the current N5/N4 phase.
 
 Daily Test Day X is prepared from Day X-1 knowledge.
 

@@ -2,6 +2,22 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+const ALLOWED_TASK_TYPES = new Set([
+  "grammar",
+  "grammar_test",
+  "vocabulary",
+  "kanji",
+  "reading",
+  "listening",
+  "daily_test",
+  "weekly_test",
+  "monthly_test",
+  "end_test",
+  "mock_test",
+]);
+
+const ALLOWED_TEST_TYPES = new Set(["grammar", "daily", "weekly", "monthly", "end", "mock"]);
+
 async function findJsonFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
@@ -46,6 +62,11 @@ function validateRoadmap(document, file, errors) {
     if (!Array.isArray(day.tasks)) continue;
     addDuplicateErrors(day.tasks.map((task) => task.order), `task order on Day ${day.day}`, file, errors);
     addDuplicateErrors(day.tasks.map((task) => task.task_id), `task_id on Day ${day.day}`, file, errors);
+    for (const task of day.tasks) {
+      if (!ALLOWED_TASK_TYPES.has(task.type)) {
+        errors.push(`${file}: unsupported task type '${task.type}' on Day ${day.day}`);
+      }
+    }
   }
 }
 
@@ -69,10 +90,61 @@ function validateLearningPool(document, file, errors) {
 function validateTest(document, file, errors) {
   if (!Array.isArray(document.sections)) return;
 
+  if (!ALLOWED_TEST_TYPES.has(document.type)) {
+    errors.push(`${file}: unsupported test type '${document.type}'`);
+  }
+
   const questions = document.sections.flatMap((section) =>
     Array.isArray(section.questions) ? section.questions : [],
   );
   addDuplicateErrors(questions.map((question) => question.id), "question id", file, errors);
+
+  if (document.type === "grammar") {
+    const grammarSection = document.sections.find((section) => section?.id === "grammar");
+    const grammarQuestions = Array.isArray(grammarSection?.questions)
+      ? grammarSection.questions
+      : [];
+    const lessonGroups = Array.isArray(document.lesson_groups) ? document.lesson_groups : [];
+    const groupedQuestionIds = lessonGroups.flatMap((group) =>
+      Array.isArray(group?.question_ids) ? group.question_ids : [],
+    );
+    const questionIds = questions.map((question) => question.id);
+
+    if (questions.length !== 25 || grammarQuestions.length !== 25) {
+      errors.push(`${file}: grammar test must contain exactly 25 questions`);
+    }
+    if (document.sections.length !== 1 || !grammarSection) {
+      errors.push(`${file}: grammar test must contain exactly one 'grammar' section`);
+    }
+    if (grammarSection?.max_score !== 25) {
+      errors.push(`${file}: grammar test max_score must equal 25`);
+    }
+    if (questions.some((question) => question.category !== "grammar")) {
+      errors.push(`${file}: every grammar test question must use category 'grammar'`);
+    }
+    if (
+      document.coverage?.from_day !== document.study_day ||
+      document.coverage?.to_day !== document.study_day
+    ) {
+      errors.push(`${file}: grammar test coverage must equal its study_day`);
+    }
+    if (lessonGroups.length !== 5) {
+      errors.push(`${file}: grammar test must contain exactly 5 lesson_groups`);
+    }
+    addDuplicateErrors(lessonGroups.map((group) => group?.lesson), "lesson number", file, errors);
+    for (const group of lessonGroups) {
+      if (!Array.isArray(group?.question_ids) || group.question_ids.length !== 5) {
+        errors.push(`${file}: every grammar test lesson_group must contain 5 question_ids`);
+      }
+    }
+    addDuplicateErrors(groupedQuestionIds, "lesson-group question id", file, errors);
+    if (
+      groupedQuestionIds.length !== 25 ||
+      [...groupedQuestionIds].sort().join("\0") !== [...questionIds].sort().join("\0")
+    ) {
+      errors.push(`${file}: lesson_groups must reference every grammar question exactly once`);
+    }
+  }
 
   if (document.type !== "daily") return;
 

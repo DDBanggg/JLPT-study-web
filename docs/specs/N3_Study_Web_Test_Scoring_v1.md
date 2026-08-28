@@ -1,18 +1,63 @@
-# N3 Study Web — Test Scoring Rules v1
+# N3 Study Web — Test Scoring Rules v1.1
 
 **Status:** Frozen for MVP  
-**Date:** 2026-08-28
+**Scoring specification version:** 1.1
+**Date:** 2026-08-29
 
 ## 1. Scoring systems
 
-The project uses:
+The project uses three scoring categories:
 
-1. Daily Test raw score
-2. JLPT-style linear section score
+1. Grammar Test raw score;
+2. Daily Test raw score;
+3. JLPT-style linear section score for Weekly, Monthly, End, and Mock tests.
 
 The web does **not** claim to reproduce the official JLPT scaled-score algorithm.
 
-## 2. Daily Test
+## 2. Grammar Test
+
+Structure for the current N5/N4 phase:
+
+```text
+5 lessons
+5 questions per lesson
+25 questions total
+```
+
+Grammar Test checks Grammar learned in the same Study Day. Every question uses the `grammar` category.
+
+Scoring:
+
+```text
+correct     = 1
+incorrect   = 0
+unanswered  = 0
+```
+
+No negative marking and no scaling to `/60`.
+
+Example:
+
+```text
+21 correct / 25
+Displayed score = 21 / 25
+```
+
+Persist:
+
+```text
+test_type       = grammar
+score           = 21
+max_score       = 25
+language_score  = null
+reading_score   = null
+listening_score = null
+total_score     = null
+```
+
+If a future phase does not use exactly 5 lessons per Study Day, update the specification before changing the grouping rule.
+
+## 3. Daily Test
 
 Structure:
 
@@ -22,6 +67,8 @@ Vocabulary  15
 Kanji       15
 Total       45
 ```
+
+Daily Test Day X covers new knowledge from Study Day X-1.
 
 Scoring:
 
@@ -45,13 +92,16 @@ Total       39 / 45
 Persist:
 
 ```text
-score = 39
-max_score = 45
+test_type       = daily
+score           = 39
+max_score       = 45
+language_score  = null
+reading_score   = null
+listening_score = null
+total_score     = null
 ```
 
-JLPT section fields remain null.
-
-## 3. Weekly / Monthly / End / Mock
+## 4. Weekly / Monthly / End / Mock
 
 Sections:
 
@@ -62,7 +112,7 @@ Listening           0–60
 Total               0–180
 ```
 
-## 4. Linear section formula
+## 5. Linear section formula
 
 For each section:
 
@@ -82,7 +132,7 @@ Example:
 Displayed score = 43 / 60
 ```
 
-## 5. Total score
+## 6. Total score
 
 ```text
 total_score = language_score + reading_score + listening_score
@@ -97,43 +147,38 @@ Listening  44 / 60
 Total     124 / 180
 ```
 
-## 6. Why this method
+## 7. Why this method
 
 It preserves a familiar 180-point JLPT-style presentation while remaining deterministic and simple.
 
 It is an internal study metric, not an official JLPT score prediction.
 
-## 7. Unanswered questions
+## 8. Unanswered questions
 
-Unanswered = incorrect.
+Unanswered = incorrect for every test type.
 
 ```text
 option_id = null → 0 raw points
 ```
 
-## 8. Invalid section
+## 9. Invalid content
 
-A JLPT-style section must contain at least one question.
+- Grammar Test must contain 5 lesson groups, 5 questions per lesson, and 25 questions total.
+- Daily Test must contain 15 Grammar, 15 Vocabulary, and 15 Kanji questions.
+- A JLPT-style section must contain at least one question; `raw_total = 0` is invalid.
 
-`raw_total = 0` is invalid content and validation must fail.
+Invalid test content must fail validation.
 
-## 9. Retake
+## 10. Retake
 
-Only latest submitted result is retained.
-
-Example:
-
-```text
-Attempt 1: 101 / 180
-Attempt 2: 118 / 180
-Stored:    118 / 180
-```
+Only the latest submitted result is retained for every logical test.
 
 Question-level attempt history is not persisted.
 
-## 10. Review
+## 11. Review
 
 After Submit, backend returns:
+
 - selected answer;
 - correct answer;
 - correct/incorrect;
@@ -141,7 +186,7 @@ After Submit, backend returns:
 
 Review is displayed but does not require a separate attempt-history table.
 
-## 11. Project target
+## 12. Project target
 
 The project target `stable mock score 110+` means:
 
@@ -151,9 +196,9 @@ The project target `stable mock score 110+` means:
 
 It must not be presented as a guaranteed official JLPT score.
 
-## 12. Database fields
+## 13. Database field groups
 
-Daily:
+Raw-score Grammar and Daily tests:
 
 ```text
 score           integer
@@ -164,7 +209,7 @@ listening_score null
 total_score     null
 ```
 
-Weekly/Monthly/End/Mock:
+Weekly/Monthly/End/Mock tests:
 
 ```text
 score           null
@@ -175,7 +220,7 @@ listening_score integer
 total_score     integer
 ```
 
-## 13. Scoring authority
+## 14. Scoring authority
 
 Backend scoring is authoritative.
 

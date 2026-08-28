@@ -1,13 +1,14 @@
-# N3 Study Web — Frontend ↔ Backend Contract v1
+# N3 Study Web — Frontend ↔ Backend Contract v1.1
 
 **Status:** Frozen for first desktop implementation  
-**Date:** 2026-08-28
+**Contract version:** 1.1
+**Date:** 2026-08-29
 
 This contract is shared by Codex (backend), Antigravity (frontend), and ChatGPT (spec/context). Breaking changes must update this document first.
 
 ## 1. General conventions
 
-- Next.js App Router API Route Handlers live under `/app/api/**`.
+- Next.js App Router API Route Handlers live under `src/app/api/**`.
 - Frontend does not write directly to Supabase user-state tables.
 - Authenticated APIs derive `user_id` from the Supabase session; frontend never submits `user_id`.
 - API JSON uses `snake_case`.
@@ -61,6 +62,8 @@ Expected rolling-content absence is not a 404. It is returned as `content_state:
 /learn/kanji/day/[day]/quiz
 /learn/reading/day/[day]
 /learn/listening/day/[day]
+/test/grammar
+/test/grammar/[test_id]
 /test/daily
 /test/daily/[test_id]
 /test/weekly
@@ -155,6 +158,22 @@ Enums:
 content_state: available | pending
 task_state: pending | in_progress | finished
 calendar_status: finished | late_finished | not_finished | null
+```
+
+Allowed `task_type` values include:
+
+```text
+grammar
+grammar_test
+vocabulary
+kanji
+reading
+listening
+daily_test
+weekly_test
+monthly_test
+end_test
+mock_test
 ```
 
 Missing future content must return `content_state: "pending"` without crashing.
@@ -255,9 +274,9 @@ Response includes:
   "completed_at": "2026-09-10T19:30:00+07:00",
   "study_day_completed": false,
   "next_task": {
-    "task_type": "vocabulary",
-    "href": "/learn/vocabulary/day/15/list",
-    "label": "Học Vocabulary tiếp"
+    "task_type": "grammar_test",
+    "href": "/test/grammar/grammar-test-015",
+    "label": "Làm Grammar Test"
   }
 }
 ```
@@ -293,9 +312,11 @@ Backend is authoritative for replacement selection. Frontend must not invent rep
 
 ## 12. Test list
 
-### GET `/api/tests?type=daily|weekly|monthly|end|mock`
+### GET `/api/tests?type=grammar|daily|weekly|monthly|end|mock`
 
 Returns test metadata, content state, latest result, and frontend href.
+
+Allowed `type` values are `grammar`, `daily`, `weekly`, `monthly`, `end`, and `mock`.
 
 ## 13. Active test payload
 
@@ -344,6 +365,30 @@ Review item:
   "explanation_vi":"..."
 }
 ```
+
+Grammar Test uses the same submit endpoint. Its result uses raw scoring:
+
+```json
+{
+  "result": {
+    "test_id": "grammar-test-002",
+    "test_type": "grammar",
+    "score": 21,
+    "max_score": 25,
+    "language_score": null,
+    "reading_score": null,
+    "listening_score": null,
+    "total_score": null
+  },
+  "next_task": {
+    "task_type": "vocabulary",
+    "href": "/learn/vocabulary/day/2/list",
+    "label": "Học Vocabulary tiếp"
+  }
+}
+```
+
+The backend derives the task after Grammar Test from roadmap order. Vocabulary is the normal N5/N4 flow, not a hardcoded sequence.
 
 ## 15. Content Pending UX contract
 

@@ -1,5 +1,6 @@
 export type TaskType =
   | "grammar"
+  | "grammar_test"
   | "vocabulary"
   | "kanji"
   | "reading"
@@ -10,7 +11,7 @@ export type TaskType =
   | "end_test"
   | "mock_test";
 
-export type TestType = "daily" | "weekly" | "monthly" | "end" | "mock";
+export type TestType = "grammar" | "daily" | "weekly" | "monthly" | "end" | "mock";
 
 export type ContentState = "available" | "pending";
 

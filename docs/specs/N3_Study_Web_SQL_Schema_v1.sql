@@ -1,6 +1,6 @@
--- N3 Study Web — SQL Schema v1
+-- N3 Study Web — SQL Schema v1.1
 -- Status: Frozen for first desktop implementation
--- Date: 2026-08-28
+-- Date: 2026-08-29
 -- Target: Supabase PostgreSQL
 
 create extension if not exists pgcrypto;
@@ -29,7 +29,7 @@ create table if not exists public.task_progress (
   study_day integer not null check (study_day between 1 and 100),
   task_type text not null check (
     task_type in (
-      'grammar','vocabulary','kanji','reading','listening',
+      'grammar','grammar_test','vocabulary','kanji','reading','listening',
       'daily_test','weekly_test','monthly_test','end_test','mock_test'
     )
   ),
@@ -115,7 +115,7 @@ create table if not exists public.test_results (
   program_id text not null,
   study_day integer check (study_day is null or study_day between 1 and 100),
   test_id text not null,
-  test_type text not null check (test_type in ('daily','weekly','monthly','end','mock')),
+  test_type text not null check (test_type in ('grammar','daily','weekly','monthly','end','mock')),
   completed_at timestamptz not null default now(),
   score integer,
   max_score integer,
@@ -128,9 +128,9 @@ create table if not exists public.test_results (
     references public.user_programs(user_id, program_id)
     on delete cascade,
   constraint test_results_latest_only_unique unique (user_id, program_id, test_id),
-  constraint test_results_daily_or_scaled_check check (
+  constraint test_results_raw_or_scaled_check check (
     (
-      test_type = 'daily'
+      test_type in ('grammar','daily')
       and score is not null
       and max_score is not null
       and language_score is null

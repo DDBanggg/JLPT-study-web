@@ -1,7 +1,7 @@
-# N3 Study Web — Agent Handoff & Task Split v1
+# N3 Study Web — Agent Handoff & Task Split v1.1
 
 **Status:** Ready for execution  
-**Date:** 2026-08-28
+**Date:** 2026-08-29
 
 This document defines how work is split between:
 
@@ -220,12 +220,14 @@ Codex:
 
 Antigravity:
 - Grammar cards
+- Grammar Test transition
 - Vocabulary List/Quiz
 - Kanji List/Quiz
 - next-task CTA
 
 Integration proof:
 - Grammar progress survives reload
+- Grammar completion routes to a separate same-day Grammar Test
 - Known replacement survives reload
 - frozen active sets remain stable
 
@@ -249,7 +251,8 @@ Integration proof:
 
 Codex:
 - sanitized active-test payload
-- scoring
+- Grammar and Daily raw scoring
+- JLPT-style scoring
 - result upsert
 - review payload
 
@@ -262,6 +265,7 @@ Antigravity:
 
 Integration proof:
 - correct answers are not exposed before Submit
+- Grammar Test scores as raw `x / 25`
 - backend score matches spec
 - retake replaces previous result
 
@@ -365,6 +369,7 @@ Deliver:
 - test content loader
 - strip answers before active test response
 - submit validation
+- Grammar Test raw scoring
 - Daily raw scoring
 - JLPT-style linear scoring
 - review response
@@ -382,6 +387,7 @@ Deliver:
 
 Deliver:
 - schema/content validation
+- Grammar Test 5 lessons × 5 questions check
 - Daily Test 15/15/15 check
 - stable reference validation where possible
 - YouTube metadata validation
@@ -428,7 +434,7 @@ Deliver:
 - Previous/Next
 - viewed progress
 - final completion
-- next-task CTA
+- roadmap-derived Grammar Test CTA
 
 ## F5 — Vocabulary
 
@@ -481,6 +487,7 @@ Deliver:
 ## F9 — Test list pages
 
 Deliver:
+- Grammar
 - Daily
 - Weekly
 - Monthly
@@ -548,8 +555,9 @@ When Codex or Antigravity finds ambiguity:
 
 As learning content is prepared daily:
 - preserve canonical JSON schema
-- help convert source material into valid content structures
+- help convert source material directly into valid JSON without committed per-day Study Context duplication
 - keep IDs stable
+- ensure same-day Grammar Test content matches that Study Day's Grammar
 - ensure next-day test content matches previous-day knowledge
 
 ## C4 — Integration review

@@ -1,7 +1,7 @@
 # N3 Study Web — UI/UX Specification
 
 **Status:** Locked desktop-first baseline  
-**Updated:** 2026-08-27
+**Updated:** 2026-08-29
 
 ## Delivery priority
 
@@ -50,6 +50,7 @@ Learn:
 - Listening
 
 Test:
+- Grammar Test
 - Daily Test
 - Weekly Test
 - Monthly Test
@@ -78,6 +79,15 @@ Task cards:
 - show Pending / In Progress / Finished
 - reopenable after completion
 
+Grammar and Grammar Test are separate task cards with separate progress/results. Grammar Test must not be merged into Grammar progress.
+
+Example:
+
+```text
+Grammar       12 / 12  Finished
+Grammar Test  21 / 25  Finished
+```
+
 If content has not been published:
 - show `Content Pending`
 - safe pending page
@@ -88,7 +98,8 @@ If content has not been published:
 After completing a module, show a direct CTA to the next required roadmap task.
 
 Examples:
-- Grammar → Vocabulary
+- Grammar → Grammar Test
+- Grammar Test → Vocabulary
 - Vocabulary → Kanji
 - Kanji → Reading
 - Reading → Listening
@@ -105,7 +116,16 @@ Destination is roadmap-driven, not hardcoded.
 - Previous preserves viewed state
 - show `viewed / total`
 - final `Hoàn thành Grammar`
-- then show next-part CTA
+- then show `Làm Grammar Test →` when that is the next roadmap task
+
+## Grammar Test
+
+- separate test resource and Schedule task;
+- uses the shared Test Engine;
+- 25 same-day Grammar questions for the current N5/N4 phase;
+- 5 lesson groups with 5 questions per lesson;
+- displays raw score `x / 25`;
+- after submit/review, show the roadmap-derived CTA, normally `Học Vocabulary tiếp →`.
 
 ## Vocabulary
 
@@ -189,6 +209,7 @@ Normal flow should not require leaving the site.
 ## Test list pages
 
 Test categories:
+- Grammar Test
 - Daily Test
 - Weekly Test
 - Monthly Test

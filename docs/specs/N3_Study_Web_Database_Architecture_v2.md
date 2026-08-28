@@ -1,7 +1,7 @@
 # N3 Study Web — Database & System Architecture
 
 **Status:** Locked baseline before implementation  
-**Updated:** 2026-08-27
+**Updated:** 2026-08-29
 
 ## Architecture principle
 
@@ -43,8 +43,8 @@ Do not spend implementation effort on mobile until:
 ## Repository concept
 
 n3-study/
-- app/
-- components/
+- src/app/
+- src/components/
 - content/
   - roadmap/
   - grammar/
@@ -53,7 +53,7 @@ n3-study/
   - reading/
   - listening/
   - tests/
-- lib/
+- src/lib/
 - scripts/content-pipeline/
 - supabase/
 - tests/
@@ -72,6 +72,8 @@ Google Drive/manual source
 → Vercel deploy
 
 Content is produced progressively, not all 100 days upfront.
+
+Content preparation generates runtime JSON directly. Per-day Study Context Markdown is not committed or treated as source-of-truth.
 
 Missing future content is a normal supported state.
 
@@ -94,6 +96,7 @@ If content is missing:
 
 - 100-day roadmap
 - Grammar
+- Grammar Tests
 - Vocabulary
 - Kanji
 - Reading
@@ -165,6 +168,7 @@ Fields:
 
 task_type:
 - grammar
+- grammar_test
 - vocabulary
 - kanji
 - reading
@@ -267,6 +271,7 @@ Fields:
 - total_score
 
 test_type:
+- grammar
 - daily
 - weekly
 - monthly
@@ -274,6 +279,13 @@ test_type:
 - mock
 
 Only latest result is retained per logical test.
+
+Raw-score tests:
+- Grammar Test uses `score` and `max_score` with `test_type = grammar`;
+- Daily Test uses `score` and `max_score` with `test_type = daily`;
+- JLPT-style section score fields are null.
+
+Scaled tests (`weekly`, `monthly`, `end`, `mock`) use section scores and `total_score`; `score` and `max_score` are null.
 
 Submit:
 - upsert `test_results`
@@ -339,6 +351,8 @@ Migration timestamp must not falsely create Late Finished.
 
 Roadmap task order is authoritative.
 
+For a normal N5/N4 Study Day, the roadmap order is Grammar → Grammar Test → Vocabulary. The application derives this sequence rather than hardcoding it.
+
 Concept:
 `getNextRequiredTask(studyDay, currentTask)`
 
@@ -354,6 +368,7 @@ Examples:
 - `content/listening/day-015.json`
 
 Tests:
+- `content/tests/grammar/`
 - `content/tests/daily/`
 - `content/tests/weekly/`
 - `content/tests/monthly/`
@@ -372,6 +387,9 @@ Validate:
 - Vocabulary target = 50
 - Kanji pool <= 100
 - Kanji target = 30
+- Grammar Test = 25 Grammar questions
+- Grammar Test = 5 lessons × 5 questions
+- Grammar Test section max score = 25
 - Daily Test = 45 questions
 - Daily Test = 15 Grammar / 15 Vocabulary / 15 Kanji
 - answer indices

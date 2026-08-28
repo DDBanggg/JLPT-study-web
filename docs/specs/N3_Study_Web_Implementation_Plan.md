@@ -1,7 +1,7 @@
 # N3 Study Web — Implementation Plan
 
 **Status:** Ready for agent handoff planning  
-**Updated:** 2026-08-27
+**Updated:** 2026-08-29
 
 ## Delivery strategy
 
@@ -143,7 +143,9 @@ Frontend:
 - Previous/Next
 - viewed progress
 - final completion
-- next CTA
+- roadmap-derived CTA to Grammar Test
+
+Grammar Test is a separate same-day test resource. It belongs to the shared Test Engine, not the Grammar JSON or Grammar viewed state.
 
 ### Vocabulary
 Backend:
@@ -222,11 +224,12 @@ Frontend:
 - explanations
 
 Build types in order:
-1. Daily Test
-2. Weekly Test
-3. Monthly Test
-4. End Test
-5. Mock/Test
+1. Grammar Test
+2. Daily Test
+3. Weekly Test
+4. Monthly Test
+5. End Test
+6. Mock/Test
 
 Exit:
 All desktop test types use one shared engine.
@@ -285,13 +288,17 @@ Repeat.
 
 For each upcoming Study Day, prepare all roadmap-required items:
 - Grammar
+- Grammar Test — same-day, 5 lessons × 5 questions = 25
 - Vocabulary
 - Kanji
 - Reading
 - Listening
 - required Daily/Weekly/Monthly/End/Mock test
 
+Grammar Test Day X covers Grammar from Day X.
 Daily Test Day X is sourced from Day X-1 knowledge.
+
+Content is generated directly from source material into canonical JSON. Do not commit a per-day Study Context Markdown duplicate.
 
 ## Publish workflow
 
@@ -336,6 +343,7 @@ Login
 → Setup
 → Schedule Day 1
 → Grammar
+→ Grammar Test
 → Vocabulary List/Quiz
 → Kanji List/Quiz
 → Reading
@@ -357,6 +365,7 @@ Desktop MVP is ready when:
 - Sidebar collapses on every page
 - Progress/countdown works
 - Grammar works
+- Grammar Test works as a separate same-day task
 - Vocabulary works
 - Kanji works
 - Reading works
