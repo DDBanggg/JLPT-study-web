@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { ContentState } from "@/types";
+import type { ContentState } from "../../types";
 
 export type ContentLoadResult<T> =
   | { state: Extract<ContentState, "available">; data: T }

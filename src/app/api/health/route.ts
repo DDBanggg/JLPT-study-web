@@ -1,12 +1,7 @@
-import { NextResponse } from "next/server";
-
-import type { ApiSuccess } from "@/types";
+import { apiSuccess } from "@/lib/utils/api-response";
 
 type HealthData = { status: "ok" };
 
 export function GET() {
-  return NextResponse.json<ApiSuccess<HealthData>>({
-    ok: true,
-    data: { status: "ok" },
-  });
+  return apiSuccess<HealthData>({ status: "ok" });
 }
