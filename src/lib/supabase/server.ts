@@ -1,11 +1,25 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
 
-function requirePublicEnv(name: "NEXT_PUBLIC_SUPABASE_URL" | "NEXT_PUBLIC_SUPABASE_ANON_KEY") {
+function requirePublicEnv(name: "NEXT_PUBLIC_SUPABASE_URL") {
   const value = process.env[name];
 
   if (!value) {
     throw new Error(`Missing required environment variable: ${name}`);
+  }
+
+  return value;
+}
+
+function requirePublicApiKey() {
+  const value =
+    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  if (!value) {
+    throw new Error(
+      "Missing required environment variable: NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+    );
   }
 
   return value;
@@ -16,7 +30,7 @@ export async function createSupabaseServerClient() {
 
   return createServerClient(
     requirePublicEnv("NEXT_PUBLIC_SUPABASE_URL"),
-    requirePublicEnv("NEXT_PUBLIC_SUPABASE_ANON_KEY"),
+    requirePublicApiKey(),
     {
       cookies: {
         getAll: () => cookieStore.getAll(),

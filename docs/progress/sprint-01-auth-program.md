@@ -20,9 +20,9 @@ The backend remains authoritative for authentication, user identity, program dat
 - [x] Bootstrap commit created.
 - [ ] Private GitHub repository created.
 - [x] `origin` configured and `main` pushed.
-- [ ] Supabase project created.
-- [ ] Initial SQL migration applied to a fresh Supabase database.
-- [ ] Local environment variables configured without committing secrets.
+- [x] Supabase project created.
+- [x] Initial SQL migration applied to a fresh Supabase database.
+- [x] Local environment variables configured without committing secrets.
 - [ ] Vercel project connected and environment variables documented.
 
 ## Backend — Codex
@@ -49,28 +49,30 @@ The backend remains authoritative for authentication, user identity, program dat
 
 ## Acceptance criteria
 
-- [ ] Valid user can log in and retain a session after reload.
-- [ ] User without a program is redirected to `/setup`.
-- [ ] Program setup persists start date and exam date.
-- [ ] Configured user is redirected to `/schedule`.
-- [ ] Authenticated APIs derive `user_id` from the session.
-- [ ] Progress tables are not accessed directly from frontend code.
+- [x] Valid user can log in and retain a session after reload.
+- [x] User without a program is redirected to `/setup`.
+- [x] Program setup persists start date and exam date.
+- [x] Configured user is redirected to `/schedule`.
+- [x] Authenticated APIs derive `user_id` from the session.
+- [x] Progress tables are not accessed directly from frontend code.
 
 ## Required validation
 
 | Command | Status | Last result |
 | --- | --- | --- |
-| `npm run lint` | PASS | 2026-08-28 |
-| `npm run typecheck` | PASS | 2026-08-28 |
-| `npm run test` | PASS | 11 tests, 2026-08-28 |
-| `npm run build` | PASS | Auth and Program routes compiled, 2026-08-28 |
-| `npm run validate-content` | PASS | 0 published JSON files, 2026-08-28 |
+| `npm run lint` | PASS | 2026-08-29 |
+| `npm run typecheck` | PASS | 2026-08-29 |
+| `npm run test` | PASS | 12 tests, 2026-08-29 |
+| `npm run build` | PASS | Auth and Program routes compiled, 2026-08-29 |
+| `npm run validate-content` | PASS | 0 published JSON files, 2026-08-29 |
 
 ## Blockers and decisions
 
-- GitHub `origin` is configured and `main` is pushed; private visibility has not been independently verified in the local environment.
-- Supabase project and `.env.local` do not exist yet, so migration, initial account creation, and live Auth/Program acceptance tests are pending.
-- Requested initial Login ID is `bagn-11032005`; password must be supplied locally after Supabase is ready.
+- GitHub `origin` is configured and `main` is pushed. An unauthenticated GitHub API lookup returned HTTP 200 on 2026-08-29, confirming the repository is public; it still needs to be changed to private by the owner.
+- Supabase project is linked locally; migration `0001` is present both locally and remotely, and all six application tables exist.
+- Initial Login ID `bagn` was created through the server-only Admin API. Its password remains local and is not committed.
+- Live Auth verification passed: valid login, session-authenticated Program request, generic invalid-login response, logout invalidation, `/setup` redirect before setup, and `/schedule` redirect after setup.
+- Program was configured with start date `2026-08-27` and exam date `2026-12-06`; repeat setup returns `409 PROGRAM_ALREADY_CONFIGURED`.
 - Program timezone is fixed to `Asia/Ho_Chi_Minh`; Study Day is clamped to `1..100` and overdue exam countdown is clamped to `0`.
 - Vercel setup is deferred by user decision.
 - The official roadmap remains pending. Initial Program progress is correctly `0`; non-empty progress requires the official roadmap for completed-day derivation.
@@ -84,3 +86,4 @@ The backend remains authoritative for authentication, user identity, program dat
 | 2026-08-28 | Sprint tracking initialized | Commit `d6eca74` |
 | 2026-08-28 | Application code moved into `src/` | Commit `1ac5338` |
 | 2026-08-28 | Auth and Program backend implemented | Commit `9fa1c2c` |
+| 2026-08-29 | Supabase migration, Auth configuration, account bootstrap, and live Program verification completed | Migration `0001` and live API evidence |
