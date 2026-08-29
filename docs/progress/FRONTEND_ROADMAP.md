@@ -14,7 +14,7 @@ Codex is not assigned to this roadmap.
 | F2 | Login + Setup | COMPLETE | Login/setup flows consume Auth and Program APIs |
 | F3 | Schedule | COMPLETE | Study Day navigation, task cards and Content Pending render safely |
 | F4 | Grammar | COMPLETE | Grammar cards, viewed progress, completion and Grammar Test CTA |
-| F5 | Vocabulary | NOT_STARTED | List/Quiz/Known/Shuffle behavior works without frontend business logic |
+| F5 | Vocabulary | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
 | F6 | Kanji | NOT_STARTED | List/Quiz/Known/Shuffle behavior works without frontend business logic |
 | F7 | Reading | NOT_STARTED | Passage, questions and local-only comparison flow work |
 | F8 | Listening | NOT_STARTED | Embedded YouTube, fallback and manual completion work |
