@@ -10,7 +10,7 @@ Codex is not assigned to this roadmap.
 
 | ID | Milestone | Status | Exit condition |
 | --- | --- | --- | --- |
-| F1 | Desktop AppShell | NOT_STARTED | Layout, collapsible Sidebar, navigation and light visual system |
+| F1 | Desktop AppShell | COMPLETE | Layout, collapsible Sidebar, navigation and light visual system |
 | F2 | Login + Setup | NOT_STARTED | Login/setup flows consume Auth and Program APIs |
 | F3 | Schedule | NOT_STARTED | Study Day navigation, task cards and Content Pending render safely |
 | F4 | Grammar | NOT_STARTED | Grammar cards, viewed progress, completion and Grammar Test CTA |
