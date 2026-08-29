@@ -6,6 +6,11 @@ import { AppShell } from "../../src/components/layout/AppShell";
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
   usePathname: () => "/schedule",
+  useRouter: () => ({
+    push: vi.fn(),
+    replace: vi.fn(),
+    refresh: vi.fn(),
+  }),
 }));
 
 describe("AppShell Component", () => {

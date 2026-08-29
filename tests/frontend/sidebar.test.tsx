@@ -8,6 +8,11 @@ let mockPathname = "/schedule";
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
   usePathname: () => mockPathname,
+  useRouter: () => ({
+    push: vi.fn(),
+    replace: vi.fn(),
+    refresh: vi.fn(),
+  }),
 }));
 
 describe("Sidebar Component", () => {
@@ -30,6 +35,10 @@ describe("Sidebar Component", () => {
     expect(html).not.toContain('href="/learn/vocabulary/day/5/list"');
     expect(html).not.toContain('href="/test/grammar"');
     expect(html).not.toContain('href="/test/daily"');
+
+    // Logout button
+    expect(html).toContain("Đăng xuất");
+    expect(html).toContain('data-testid="sidebar-logout-button"');
   });
 
   it("auto-expands Learn group when pathname is in /learn/**", () => {
@@ -74,5 +83,6 @@ describe("Sidebar Component", () => {
     expect(html).toContain("w-[72px]");
     expect(html).not.toContain("JLPT N3 Study");
     expect(html).toContain("Mở rộng thanh điều hướng");
+    expect(html).toContain('data-testid="sidebar-logout-button"');
   });
 });

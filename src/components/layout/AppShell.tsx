@@ -2,11 +2,11 @@
 
 import React from "react";
 import { Sidebar } from "./Sidebar";
-import { TopProgressHeader, ProgramProgressData } from "./TopProgressHeader";
+import { TopProgressHeader, ProgramHeaderInput, ProgramDto, ProgramProgressData } from "./TopProgressHeader";
 
 export interface AppShellProps {
   children: React.ReactNode;
-  program?: ProgramProgressData | null;
+  program?: ProgramHeaderInput | null;
   currentStudyDay?: number;
 }
 
@@ -15,7 +15,11 @@ export function AppShell({
   program,
   currentStudyDay,
 }: AppShellProps) {
-  const activeDay = currentStudyDay ?? program?.currentStudyDay ?? 1;
+  const activeDay =
+    currentStudyDay ??
+    (program as ProgramDto | null | undefined)?.current_study_day ??
+    (program as ProgramProgressData | null | undefined)?.currentStudyDay ??
+    1;
 
   return (
     <div className="flex min-h-screen bg-slate-50 text-slate-900 font-sans antialiased">

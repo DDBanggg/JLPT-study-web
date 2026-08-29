@@ -2,7 +2,7 @@
 
 import React, { useState, useSyncExternalStore } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   ScheduleIcon,
   CalendarIcon,
@@ -17,6 +17,7 @@ import {
   ChevronRightIcon,
   SidebarCollapseIcon,
   SidebarExpandIcon,
+  LogoutIcon,
 } from "../common/Icons";
 import { Tooltip } from "../common/Tooltip";
 
@@ -84,8 +85,10 @@ export function Sidebar({
   onToggleCollapse,
   className = "",
 }: SidebarProps) {
+  const router = useRouter();
   const pathname = usePathname() || "";
   const [storeCollapsed, storeToggleCollapse, storeSetCollapse] = useSidebarCollapse();
+  const [isLoggingOut, setIsLoggingOut] = useState(false);
 
   const collapsed = controlledCollapsed !== undefined ? controlledCollapsed : storeCollapsed;
 
@@ -104,6 +107,30 @@ export function Sidebar({
       } else {
         storeSetCollapse(false);
       }
+    }
+  };
+
+  const handleLogout = async () => {
+    if (isLoggingOut) return;
+    setIsLoggingOut(true);
+    try {
+      const res = await fetch("/api/auth/logout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+      });
+      const data = await res.json();
+      if (data?.ok && data?.data?.redirect_to) {
+        router.push(data.data.redirect_to);
+        router.refresh();
+      } else {
+        router.push("/login");
+        router.refresh();
+      }
+    } catch {
+      router.push("/login");
+      router.refresh();
+    } finally {
+      setIsLoggingOut(false);
     }
   };
 
@@ -368,8 +395,30 @@ export function Sidebar({
         </div>
       </nav>
 
-      {/* Collapse / Expand Toggle Button Footer */}
-      <div className="shrink-0 border-t border-slate-100 p-3">
+      {/* Footer with Logout & Collapse Actions */}
+      <div className="shrink-0 border-t border-slate-100 p-3 space-y-1">
+        {/* Logout Button */}
+        <Tooltip
+          content={isLoggingOut ? "Đang đăng xuất..." : "Đăng xuất"}
+          disabled={!collapsed}
+          side="right"
+        >
+          <button
+            type="button"
+            onClick={handleLogout}
+            disabled={isLoggingOut}
+            className={`flex w-full items-center gap-3 rounded-lg py-2.5 text-xs font-medium text-slate-500 hover:bg-red-50 hover:text-red-600 transition-colors disabled:opacity-50 ${
+              collapsed ? "justify-center px-0 w-11 h-11 mx-auto" : "px-3"
+            }`}
+            aria-label="Đăng xuất"
+            data-testid="sidebar-logout-button"
+          >
+            <LogoutIcon className="w-5 h-5 shrink-0" />
+            {!collapsed && <span>{isLoggingOut ? "Đang đăng xuất..." : "Đăng xuất"}</span>}
+          </button>
+        </Tooltip>
+
+        {/* Collapse / Expand Toggle Button */}
         <Tooltip
           content={collapsed ? "Mở rộng sidebar" : "Thu gọn sidebar"}
           disabled={!collapsed}
