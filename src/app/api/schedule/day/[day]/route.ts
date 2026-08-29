@@ -21,9 +21,6 @@ export async function GET(
     if (result.state === "program_not_configured") {
       return apiError("PROGRAM_NOT_CONFIGURED", "Bạn chưa thiết lập chương trình học.", 409);
     }
-    if (result.state === "roadmap_pending") {
-      return apiError("CONTENT_PENDING", "Roadmap chương trình chưa được chuẩn bị.", 503);
-    }
     if (result.state === "database_error") {
       return apiError("INTERNAL_ERROR", "Không thể tải lịch học.", 500);
     }

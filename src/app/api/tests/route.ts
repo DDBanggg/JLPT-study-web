@@ -17,9 +17,6 @@ export async function GET(request: Request) {
     if (program === "error") return apiError("INTERNAL_ERROR", "Không thể tải danh sách test.", 500);
 
     const result = await getTestList(context.supabase, context.user.id, type);
-    if (result.state === "roadmap_pending") {
-      return apiError("CONTENT_PENDING", "Roadmap chưa được chuẩn bị.", 503);
-    }
     if (result.state === "database_error") {
       return apiError("INTERNAL_ERROR", "Không thể tải danh sách test.", 500);
     }

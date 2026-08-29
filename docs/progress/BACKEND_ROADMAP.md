@@ -101,9 +101,15 @@ Live verification:
 
 ## Backend implementation status
 
+Backend status: FROZEN FOR DESKTOP FRONTEND
+
 Milestones B1–B10 are complete for the currently published rolling-content set. Future
 Weekly/Monthly/End/Mock resources remain valid `Content Pending` until their JSON files are
 published; the validator and Test Engine are already prepared for them.
+
+After this freeze, backend changes are allowed only when desktop frontend integration
+demonstrates a real backend or FE/BE contract defect. Frontend presentation preferences
+or convenience changes do not reopen the backend.
 
 ## Backend validation gate
 

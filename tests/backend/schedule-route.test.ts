@@ -1,16 +1,19 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
-const { getAuthenticatedContext } = vi.hoisted(() => ({
+const { getAuthenticatedContext, getScheduleDay } = vi.hoisted(() => ({
   getAuthenticatedContext: vi.fn(),
+  getScheduleDay: vi.fn(),
 }));
 
 vi.mock("@/lib/auth/session", () => ({ getAuthenticatedContext }));
+vi.mock("@/lib/schedule/schedule", () => ({ getScheduleDay }));
 
 import { GET } from "../../src/app/api/schedule/day/[day]/route";
 
 describe("Schedule route access and input validation", () => {
   beforeEach(() => {
     getAuthenticatedContext.mockReset();
+    getScheduleDay.mockReset();
   });
 
   it("rejects an invalid Study Day before accessing the session", async () => {
@@ -36,6 +39,41 @@ describe("Schedule route access and input validation", () => {
     expect(await response.json()).toMatchObject({
       ok: false,
       error: { code: "AUTH_REQUIRED" },
+    });
+  });
+
+  it("returns roadmap pending as a successful empty schedule", async () => {
+    getAuthenticatedContext.mockResolvedValue({
+      user: { id: "user-1" },
+      supabase: {},
+    });
+    getScheduleDay.mockResolvedValue({
+      state: "available",
+      data: {
+        program_id: "jlpt_n3_100_days_v1",
+        study_day: 20,
+        total_days: 100,
+        planned_date: "2026-09-15",
+        roadmap_state: "pending",
+        phase: null,
+        title: null,
+        tasks: [],
+        next_task: null,
+      },
+    });
+
+    const response = await GET(new Request("http://localhost/api/schedule/day/20"), {
+      params: Promise.resolve({ day: "20" }),
+    });
+
+    expect(response.status).toBe(200);
+    expect(await response.json()).toEqual({
+      ok: true,
+      data: expect.objectContaining({
+        roadmap_state: "pending",
+        tasks: [],
+        next_task: null,
+      }),
     });
   });
 });

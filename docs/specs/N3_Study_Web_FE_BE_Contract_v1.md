@@ -45,7 +45,21 @@ TEST_INVALID
 INTERNAL_ERROR
 ```
 
-Expected rolling-content absence is not a 404. It is returned as `content_state: "pending"`.
+Expected rolling-content or roadmap absence is a successful response, never an error response:
+
+```json
+{"ok":true,"data":{"content_state":"pending"}}
+```
+
+```json
+{"ok":true,"data":{"roadmap_state":"pending","tasks":[],"next_task":null}}
+```
+
+Normal rolling `pending` from read endpoints must use HTTP 200 with `ok: true`; it
+must not use HTTP 404, 409, or 503. A state-changing request that cannot execute
+because its resource is pending may still be rejected with HTTP 409. `CONTENT_INVALID`,
+authentication failures, and database failures remain error responses with their
+existing status codes.
 
 ## 2. Frontend page routes
 
@@ -122,6 +136,9 @@ Returns configured program plus derived values:
 }
 ```
 
+If the program is configured but its roadmap has not been published, the endpoint
+still returns HTTP 200 with `ok: true` and `roadmap_state: "pending"`.
+
 ### POST `/api/program`
 
 Request:
@@ -178,19 +195,38 @@ mock_test
 
 Missing future content must return `content_state: "pending"` without crashing.
 
+If the Study Day roadmap itself is not prepared, the endpoint returns HTTP 200:
+
+```json
+{
+  "ok": true,
+  "data": {
+    "study_day": 20,
+    "roadmap_state": "pending",
+    "tasks": [],
+    "next_task": null
+  }
+}
+```
+
 ## 6. Calendar API
 
 ### GET `/api/calendar?month=YYYY-MM`
 
-Returns date, Study Day, and derived status.
+Returns date, Study Day, roadmap state, and derived status.
 
 ```json
-{"date":"2026-09-03","study_day":8,"status":"not_finished"}
+{"date":"2026-09-03","study_day":8,"roadmap_state":"planned","status":"not_finished"}
 ```
+
+An unprepared roadmap does not fail the entire month. Pending/future days use
+`roadmap_state: "pending"` and `status: null`; they are never derived as
+`not_finished`.
 
 ### GET `/api/calendar/day/[day]`
 
-Returns overall status and per-task progress. Calendar is read-only.
+Returns overall status and per-task progress. A roadmap-pending day returns HTTP
+200 with `status: null`, `tasks: []`, and `next_task: null`. Calendar is read-only.
 
 ## 7. Learn API
 
@@ -329,6 +365,10 @@ Backend must strip hidden grading fields before returning an active test:
 
 If unpublished, return `content_state: "pending"`.
 
+Both unpublished test content and an unprepared test roadmap return HTTP 200 with
+`ok: true` and `content_state: "pending"`. An unprepared roadmap also includes
+`roadmap_state: "pending"`.
+
 ## 14. Test submit
 
 ### POST `/api/tests/[test_id]/submit`
@@ -401,7 +441,8 @@ pending
 error
 ```
 
-`pending` is expected, not an error. Recommended text:
+`pending` is expected, not an error. Every expected pending response uses HTTP 200
+and the success envelope (`ok: true`). Recommended text:
 
 ```text
 Nội dung ngày này chưa được chuẩn bị.

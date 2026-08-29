@@ -27,7 +27,16 @@ export async function GET(
 
     const test = await getTestContext(testId);
     if (test.state === "roadmap_pending") {
-      return apiError("CONTENT_PENDING", "Roadmap chưa được chuẩn bị.", 503);
+      return apiSuccess({
+        roadmap_state: "pending",
+        content_state: "pending",
+        test_id: testId,
+        test_type: null,
+        study_day: null,
+        latest_result: null,
+        href: null,
+        content: null,
+      });
     }
     if (test.state === "not_found") return apiError("TEST_NOT_FOUND", "Không tìm thấy test.", 404);
 

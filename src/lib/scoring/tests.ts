@@ -352,7 +352,12 @@ export async function getTestList(
   type: TestType,
 ) {
   const roadmapResult = await loadProgramRoadmap();
-  if (roadmapResult.state === "pending") return { state: "roadmap_pending" as const };
+  if (roadmapResult.state === "pending") {
+    return {
+      state: "available" as const,
+      data: { type, roadmap_state: "pending" as const, tests: [] },
+    };
+  }
   const taskType = testTypeToTaskType(type);
   const locations = roadmapResult.data.days.flatMap((day) =>
     day.tasks

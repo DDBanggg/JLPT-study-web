@@ -6,7 +6,12 @@ import {
   PROGRAM_TIME_ZONE,
 } from "@/lib/progress/program-dates";
 import { PROGRAM_ID } from "@/lib/progress/program-constants";
-import { loadProgramRoadmap, type RoadmapTask } from "@/lib/roadmap/program-roadmap";
+import {
+  loadProgramRoadmap,
+  TOTAL_STUDY_DAYS,
+  type RoadmapState,
+  type RoadmapTask,
+} from "@/lib/roadmap/program-roadmap";
 import { getScheduleDay } from "@/lib/schedule/schedule";
 import type { CalendarStatus } from "@/types";
 
@@ -20,13 +25,13 @@ type CompletionRow = {
 export type CalendarDayEntry = {
   date: string;
   study_day: number;
+  roadmap_state: RoadmapState;
   status: CalendarStatus;
 };
 
 export type CalendarResult =
   | { state: "available"; data: Record<string, unknown> }
   | { state: "program_not_configured" }
-  | { state: "roadmap_pending" }
   | { state: "database_error" };
 
 export function parseCalendarMonth(value: string | null): string | null {
@@ -91,11 +96,10 @@ async function loadCalendarBase(supabase: SupabaseClient, userId: string) {
   ]);
   if (programQuery.error || progressQuery.error) return { state: "database_error" as const };
   if (!programQuery.data) return { state: "program_not_configured" as const };
-  if (roadmapResult.state === "pending") return { state: "roadmap_pending" as const };
   return {
     state: "available" as const,
     progressStartDate: (programQuery.data as { progress_start_date: string }).progress_start_date,
-    roadmap: roadmapResult.data,
+    roadmap: roadmapResult.state === "available" ? roadmapResult.data : null,
     completions: (progressQuery.data ?? []) as CompletionRow[],
   };
 }
@@ -109,21 +113,41 @@ export async function getCalendarMonth(
   const base = await loadCalendarBase(supabase, userId);
   if (base.state !== "available") return base;
 
-  const days: CalendarDayEntry[] = base.roadmap.days.flatMap((day) => {
+  const roadmapDays = base.roadmap?.days ?? Array.from(
+    { length: TOTAL_STUDY_DAYS },
+    (_, index) => ({
+      day: index + 1,
+      roadmap_state: "pending" as const,
+      tasks: [] as RoadmapTask[],
+    }),
+  );
+  const days: CalendarDayEntry[] = roadmapDays.flatMap((day) => {
     const plannedDate = addCalendarDays(base.progressStartDate, day.day - 1);
     if (!plannedDate.startsWith(`${month}-`)) return [];
     return [{
       date: plannedDate,
       study_day: day.day,
-      status: deriveCalendarStatus(
-        plannedDate,
-        day.tasks.filter((task) => task.required),
-        base.completions.filter((completion) => completion.study_day === day.day),
-        today,
-      ),
+      roadmap_state: day.roadmap_state,
+      status: day.roadmap_state === "pending"
+        ? null
+        : deriveCalendarStatus(
+          plannedDate,
+          day.tasks.filter((task) => task.required),
+          base.completions.filter((completion) => completion.study_day === day.day),
+          today,
+        ),
     }];
   });
-  return { state: "available", data: { month, days } };
+  return {
+    state: "available",
+    data: {
+      month,
+      roadmap_state: days.some((day) => day.roadmap_state === "pending")
+        ? "pending"
+        : "planned",
+      days,
+    },
+  };
 }
 
 export async function getCalendarDay(
@@ -134,17 +158,49 @@ export async function getCalendarDay(
 ): Promise<CalendarResult> {
   const base = await loadCalendarBase(supabase, userId);
   if (base.state !== "available") return base;
+  const plannedDate = addCalendarDays(base.progressStartDate, studyDay - 1);
+  if (base.roadmap === null) {
+    return {
+      state: "available",
+      data: {
+        date: plannedDate,
+        study_day: studyDay,
+        roadmap_state: "pending",
+        status: null,
+        title: null,
+        phase: null,
+        tasks: [],
+        next_task: null,
+      },
+    };
+  }
   const day = base.roadmap.days[studyDay - 1];
   if (!day || day.day !== studyDay) throw new Error("CONTENT_INVALID");
 
+  if (day.roadmap_state === "pending") {
+    return {
+      state: "available",
+      data: {
+        date: plannedDate,
+        study_day: studyDay,
+        roadmap_state: "pending",
+        status: null,
+        title: day.title,
+        phase: day.phase,
+        tasks: [],
+        next_task: null,
+      },
+    };
+  }
+
   const schedule = await getScheduleDay(supabase, userId, studyDay);
   if (schedule.state !== "available") return schedule;
-  const plannedDate = addCalendarDays(base.progressStartDate, studyDay - 1);
   return {
     state: "available",
     data: {
       date: plannedDate,
       study_day: studyDay,
+      roadmap_state: day.roadmap_state,
       status: deriveCalendarStatus(
         plannedDate,
         day.tasks.filter((task) => task.required),

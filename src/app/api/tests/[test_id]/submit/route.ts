@@ -30,7 +30,7 @@ export async function POST(
 
     const test = await getTestContext(testId);
     if (test.state === "roadmap_pending") {
-      return apiError("CONTENT_PENDING", "Roadmap chưa được chuẩn bị.", 503);
+      return apiError("CONTENT_PENDING", "Roadmap chưa được chuẩn bị.", 409);
     }
     if (test.state === "not_found") return apiError("TEST_NOT_FOUND", "Không tìm thấy test.", 404);
     if (test.content.state === "pending") {

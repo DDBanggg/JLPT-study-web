@@ -42,7 +42,11 @@ export async function GET() {
 
   const completed = await getCompletedStudyDayCount(context.supabase, context.user.id);
   if (completed.state === "pending") {
-    return apiError("CONTENT_PENDING", "Roadmap chương trình chưa được chuẩn bị.", 503);
+    return apiSuccess({
+      configured: true,
+      roadmap_state: "pending",
+      program: deriveProgramData(data as ProgramRow, 0),
+    });
   }
   if (completed.state === "error") {
     return apiError("INTERNAL_ERROR", "Không thể tính tiến độ chương trình.", 500);

@@ -10,6 +10,7 @@ import {
   loadProgramRoadmap,
   type RoadmapDay,
   type RoadmapTask,
+  TOTAL_STUDY_DAYS,
 } from "@/lib/roadmap/program-roadmap";
 import type { ContentState, TaskState, TaskType } from "@/types";
 
@@ -61,16 +62,35 @@ export type ScheduleDayDto = {
   total_days: number;
   planned_date: string;
   roadmap_state: RoadmapDay["roadmap_state"];
-  phase: string;
-  title: string;
+  phase: string | null;
+  title: string | null;
   tasks: ScheduleTaskDto[];
+  next_task?: null;
 };
 
 export type ScheduleDayResult =
   | { state: "available"; data: ScheduleDayDto }
   | { state: "program_not_configured" }
-  | { state: "roadmap_pending" }
   | { state: "database_error" };
+
+function pendingScheduleDay(
+  studyDay: number,
+  progressStartDate: string,
+  phase: string | null = null,
+  title: string | null = null,
+): ScheduleDayDto {
+  return {
+    program_id: PROGRAM_ID,
+    study_day: studyDay,
+    total_days: TOTAL_STUDY_DAYS,
+    planned_date: addCalendarDays(progressStartDate, studyDay - 1),
+    roadmap_state: "pending",
+    phase,
+    title,
+    tasks: [],
+    next_task: null,
+  };
+}
 
 function isContentDocument(value: unknown): value is ContentDocument {
   return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -190,10 +210,22 @@ export async function getScheduleDay(
   if (programError) return { state: "database_error" };
   if (!program) return { state: "program_not_configured" };
 
+  const progressStartDate = (program as { progress_start_date: string }).progress_start_date;
   const roadmapResult = await loadProgramRoadmap();
-  if (roadmapResult.state === "pending") return { state: "roadmap_pending" };
+  if (roadmapResult.state === "pending") {
+    return {
+      state: "available",
+      data: pendingScheduleDay(studyDay, progressStartDate),
+    };
+  }
   const roadmap = roadmapResult.data;
   const day = getRoadmapDay(roadmap, studyDay);
+  if (day.roadmap_state === "pending") {
+    return {
+      state: "available",
+      data: pendingScheduleDay(studyDay, progressStartDate, day.phase, day.title),
+    };
+  }
 
   const [progressQuery, grammarQuery, testQuery, content] = await Promise.all([
     supabase
@@ -247,7 +279,7 @@ export async function getScheduleDay(
       study_day: studyDay,
       total_days: roadmap.total_days,
       planned_date: addCalendarDays(
-        (program as { progress_start_date: string }).progress_start_date,
+        progressStartDate,
         studyDay - 1,
       ),
       roadmap_state: day.roadmap_state,
