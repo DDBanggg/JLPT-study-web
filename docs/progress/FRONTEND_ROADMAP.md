@@ -18,7 +18,7 @@ Codex is not assigned to this roadmap.
 | F6 | Kanji | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
 | F7 | Reading | COMPLETE | Passage, questions and local-only comparison flow work |
 | F8 | Listening | COMPLETE | Embedded YouTube, fallback and manual completion work |
-| F9 | Test list pages | NOT_STARTED | Grammar, Daily, Weekly, Monthly, End and Mock lists consume metadata API |
+| F9 | Test list pages | COMPLETE | Grammar, Daily, Weekly, Monthly, End and Mock lists consume metadata API |
 | F10 | Desktop test-taking | NOT_STARTED | Shared question UI, navigator, submit warning and review work |
 | F11 | Calendar | NOT_STARTED | Month/day views render backend-derived statuses read-only |
 | F12 | Desktop stabilization | NOT_STARTED | Chrome QA, accessibility and error/pending/loading states pass |
