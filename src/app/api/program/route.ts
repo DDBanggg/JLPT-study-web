@@ -5,6 +5,7 @@ import {
   getCompletedStudyDayCount,
   PROGRAM_ID,
 } from "@/lib/progress/program";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 import { apiError, apiSuccess, readJsonObject } from "@/lib/utils/api-response";
 
 type ProgramRow = {
@@ -78,7 +79,9 @@ export async function POST(request: Request) {
     return apiError("INVALID_INPUT", "Ngày thi phải từ ngày bắt đầu trở đi.", 400, "exam_date");
   }
 
-  const { data: existing, error: existingError } = await context.supabase
+  const admin = createSupabaseAdminClient();
+
+  const { data: existing, error: existingError } = await admin
     .from("user_programs")
     .select("id")
     .eq("user_id", context.user.id)
@@ -97,7 +100,7 @@ export async function POST(request: Request) {
     progress_start_date: progressStartDate,
     exam_date: examDate,
   };
-  const { error: insertError } = await context.supabase.from("user_programs").insert({
+  const { error: insertError } = await admin.from("user_programs").insert({
     user_id: context.user.id,
     ...row,
   });

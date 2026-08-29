@@ -1,6 +1,7 @@
 import { getAuthenticatedContext } from "@/lib/auth/session";
 import { completeLearnTask, parseLearnTaskType } from "@/lib/progress/learn-progress";
 import { hasConfiguredProgram } from "@/lib/progress/program-access";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 import { apiError, apiSuccess, readJsonObject } from "@/lib/utils/api-response";
 
 export async function POST(request: Request) {
@@ -26,7 +27,7 @@ export async function POST(request: Request) {
     if (program === "error") return apiError("INTERNAL_ERROR", "Không thể lưu hoàn thành.", 500);
 
     const result = await completeLearnTask(
-      context.supabase,
+      createSupabaseAdminClient(),
       context.user.id,
       studyDay as number,
       taskType,

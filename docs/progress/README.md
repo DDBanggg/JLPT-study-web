@@ -8,7 +8,7 @@ Progress is tracked in three independent workstreams. Product integration happen
 
 | Workstream | Owner | Current milestone | Status | Tracker |
 | --- | --- | --- | --- | --- |
-| Backend (`B*`) | Codex | B9 — Calendar backend | NOT_STARTED | [Backend roadmap](./BACKEND_ROADMAP.md) |
+| Backend (`B*`) | Codex | B1–B10 complete | COMPLETE | [Backend roadmap](./BACKEND_ROADMAP.md) |
 | Frontend (`F*`) | Antigravity | F1 — Desktop AppShell | NOT_STARTED | [Frontend roadmap](./FRONTEND_ROADMAP.md) |
 | CI/CD (`CI*`) | Repository/platform maintainer | CI1 — Repository governance | IN_PROGRESS | [CI/CD roadmap](./CICD_ROADMAP.md) |
 

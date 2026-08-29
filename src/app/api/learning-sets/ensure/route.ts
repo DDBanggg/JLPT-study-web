@@ -1,6 +1,7 @@
 import { getAuthenticatedContext } from "@/lib/auth/session";
 import { ensureLearningSet, parseLearningSetType } from "@/lib/learning-sets/learning-sets";
 import { hasConfiguredProgram } from "@/lib/progress/program-access";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 import { apiError, apiSuccess, readJsonObject } from "@/lib/utils/api-response";
 
 export async function POST(request: Request) {
@@ -21,7 +22,12 @@ export async function POST(request: Request) {
     }
     if (program === "error") return apiError("INTERNAL_ERROR", "Không thể tạo learning set.", 500);
 
-    const result = await ensureLearningSet(context.supabase, context.user.id, studyDay as number, type);
+    const result = await ensureLearningSet(
+      createSupabaseAdminClient(),
+      context.user.id,
+      studyDay as number,
+      type,
+    );
     if (result.state === "content_pending") {
       return apiError("CONTENT_PENDING", "Nội dung chưa được chuẩn bị.", 409);
     }

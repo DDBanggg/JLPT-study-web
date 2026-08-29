@@ -324,11 +324,13 @@ export async function getLatestTestResult(
 
 export async function submitTestResult(
   supabase: SupabaseClient,
+  userId: string,
   studyDay: number,
   task: RoadmapTask,
   result: TestResultDto,
 ) {
   return supabase.rpc("record_test_submission", {
+    p_user_id: userId,
     p_program_id: PROGRAM_ID,
     p_study_day: studyDay,
     p_test_id: result.test_id,

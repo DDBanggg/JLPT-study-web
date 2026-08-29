@@ -8,6 +8,7 @@ import {
   validateSubmittedAnswers,
 } from "@/lib/scoring/tests";
 import { apiError, apiSuccess, readJsonObject } from "@/lib/utils/api-response";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 
 export async function POST(
   request: Request,
@@ -40,7 +41,8 @@ export async function POST(
     if (!answers) return apiError("INVALID_INPUT", "Danh sách đáp án không hợp lệ.", 400, "answers");
     const scored = scoreTest(test.content.data, answers);
     const saved = await submitTestResult(
-      context.supabase,
+      createSupabaseAdminClient(),
+      context.user.id,
       test.location.day.day,
       test.location.task,
       scored.result,

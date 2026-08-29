@@ -188,6 +188,7 @@ export async function markKnownAndReplace(
   const replacement = selectReplacement(poolIds, activeIds, knownIds, itemId);
 
   const { data, error } = await supabase.rpc("mark_known_and_replace", {
+    p_user_id: userId,
     p_program_id: PROGRAM_ID,
     p_study_day: studyDay,
     p_item_type: type,

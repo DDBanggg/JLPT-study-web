@@ -22,8 +22,8 @@ Codex must not implement frontend UI or CI/CD. Contract changes require an expli
 | B6 | Learn progress core | COMPLETE | Learn DTOs, idempotent Grammar/task progress, Reading/Listening item completion and roadmap next-task verified live |
 | B7 | Vocabulary + Kanji state | COMPLETE | Frozen learning sets, Known replacement, stable reload and pool-exhaustion behavior verified live |
 | B8 | Shared Test Engine backend | COMPLETE | Test list/payload/submit, answer stripping, raw/JLPT-style scoring and atomic latest-result persistence verified |
-| B9 | Calendar backend | NOT_STARTED | Month/day DTOs and Finished/Late/Not Finished derivation |
-| B10 | Content validation + backend stabilization | IN_PROGRESS | Validator foundation exists; full content/security/error/integration coverage remains |
+| B9 | Calendar backend | COMPLETE | Month/day DTOs, timezone-safe Finished/Late/Not Finished derivation and Day 1–2 historical import verified live |
+| B10 | Content validation + backend stabilization | COMPLETE | API-only writes, server-only RPCs, 36 tests, content/build/db validation and isolated live integration pass |
 
 ## B5 — Completion evidence
 
@@ -77,14 +77,33 @@ Verified with a temporary isolated Supabase user, removed after the run:
 
 Validation: lint, typecheck, 28 backend tests, content validation and production build pass.
 
-## B9 — Next Codex milestone
+## B9–B10 — Completion evidence
 
-Deliver:
+Delivered:
 
-- calendar month status API;
-- calendar day detail API;
-- Finished/Late Finished/Not Finished derivation;
-- historical migration validation and utilities.
+- `GET /api/calendar?month=YYYY-MM` and `GET /api/calendar/day/[day]`;
+- Asia/Ho_Chi_Minh-aware Finished, Late Finished, Not Finished and neutral-future derivation;
+- reusable historical completion import utility that preserves existing completion rows;
+- direct authenticated writes removed from all six application tables;
+- server-only admin mutations and RPC execution for Program, progress, learning sets, Known and tests;
+- malformed input, auth, pending content, scoring, ordering, replacement, pool exhaustion and Calendar tests;
+- full lint, typecheck, content validation, production build and linked Supabase database lint gates.
+
+Live verification:
+
+- Login ID `bagn` retains start date `2026-08-27` and exam date `2026-12-06`;
+- Study Days 1 and 2 were imported with planned-date timestamps and both derive `finished`;
+- Program progress derives exactly two completed Study Days;
+- direct session write is rejected by PostgreSQL RLS with `42501`;
+- the same mutations succeed through authenticated backend APIs;
+- server-only Known/Test RPCs remain operational after hardening;
+- temporary integration user was removed after verification.
+
+## Backend implementation status
+
+Milestones B1–B10 are complete for the currently published rolling-content set. Future
+Weekly/Monthly/End/Mock resources remain valid `Content Pending` until their JSON files are
+published; the validator and Test Engine are already prepared for them.
 
 ## Backend validation gate
 

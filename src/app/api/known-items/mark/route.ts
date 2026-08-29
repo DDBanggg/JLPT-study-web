@@ -1,6 +1,7 @@
 import { getAuthenticatedContext } from "@/lib/auth/session";
 import { markKnownAndReplace, parseLearningSetType } from "@/lib/learning-sets/learning-sets";
 import { hasConfiguredProgram } from "@/lib/progress/program-access";
+import { createSupabaseAdminClient } from "@/lib/supabase/admin";
 import { apiError, apiSuccess, readJsonObject } from "@/lib/utils/api-response";
 
 export async function POST(request: Request) {
@@ -26,7 +27,7 @@ export async function POST(request: Request) {
     if (program === "error") return apiError("INTERNAL_ERROR", "Không thể cập nhật Known.", 500);
 
     const result = await markKnownAndReplace(
-      context.supabase,
+      createSupabaseAdminClient(),
       context.user.id,
       studyDay as number,
       type,
