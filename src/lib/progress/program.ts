@@ -1,6 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 
-import { loadJsonContent } from "../data/content";
+import { loadProgramRoadmap } from "../roadmap/program-roadmap";
 import {
   currentIsoDateInTimeZone,
   deriveCurrentStudyDay,
@@ -8,25 +8,14 @@ import {
   deriveProgressPercent,
   projectedDay100Date,
 } from "./program-dates";
+import { PROGRAM_ID } from "./program-constants";
 
-export const PROGRAM_ID = "jlpt_n3_100_days_v1";
+export { PROGRAM_ID } from "./program-constants";
 
 type ProgramRow = {
   program_id: string;
   progress_start_date: string;
   exam_date: string;
-};
-
-type RoadmapTask = {
-  task_id: string;
-  type: string;
-  required: boolean;
-};
-
-type Roadmap = {
-  program_id: string;
-  total_days: number;
-  days: Array<{ day: number; tasks: RoadmapTask[] }>;
 };
 
 type TaskProgressRow = {
@@ -48,8 +37,17 @@ export type CompletedStudyDaysResult =
   | { state: "pending" }
   | { state: "error" };
 
+type CompletionRoadmap = {
+  program_id: string;
+  total_days: number;
+  days: Array<{
+    day: number;
+    tasks: Array<{ task_id: string; type: string; required: boolean }>;
+  }>;
+};
+
 export function countCompletedStudyDays(
-  roadmap: Roadmap,
+  roadmap: CompletionRoadmap,
   completedTasks: TaskProgressRow[],
 ): number {
   const completedKeys = new Set(
@@ -101,15 +99,13 @@ export async function getCompletedStudyDayCount(
     return { state: "available", count: 0 };
   }
 
-  const roadmapResult = await loadJsonContent<Roadmap>("roadmap/program.json");
-  if (roadmapResult.state === "pending") {
-    return { state: "pending" };
-  }
-
-  const roadmap = roadmapResult.data;
-  if (roadmap.program_id !== PROGRAM_ID || roadmap.total_days !== 100) {
+  let roadmapResult;
+  try {
+    roadmapResult = await loadProgramRoadmap();
+  } catch {
     return { state: "error" };
   }
+  if (roadmapResult.state === "pending") return { state: "pending" };
 
-  return { state: "available", count: countCompletedStudyDays(roadmap, completedTasks) };
+  return { state: "available", count: countCompletedStudyDays(roadmapResult.data, completedTasks) };
 }

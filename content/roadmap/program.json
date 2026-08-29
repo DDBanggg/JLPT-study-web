@@ -1,0 +1,1287 @@
+{
+  "schema_version": 1,
+  "program_id": "jlpt_n3_100_days_v1",
+  "title": "100 ngày học để đỗ JLPT N3",
+  "total_days": 100,
+  "days": [
+    {
+      "day": 1,
+      "roadmap_state": "planned",
+      "phase": "n5_review",
+      "title": "N5 Review — Lesson 1–5",
+      "tasks": [
+        {
+          "task_id": "grammar_day_1",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 1,
+          "resource_id": "grammar-day-001"
+        },
+        {
+          "task_id": "grammar-test-001",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-test-001"
+        },
+        {
+          "task_id": "vocabulary_day_1",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 3,
+          "resource_id": "vocabulary-day-001"
+        },
+        {
+          "task_id": "kanji_day_1",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 4,
+          "resource_id": "kanji-day-001"
+        },
+        {
+          "task_id": "reading_day_1",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 5,
+          "resource_id": "reading-day-001"
+        },
+        {
+          "task_id": "listening_day_1",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 6,
+          "resource_id": "listening-day-001"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "roadmap_state": "planned",
+      "phase": "n5_review",
+      "title": "N5 Review — Lesson 6–10",
+      "tasks": [
+        {
+          "task_id": "daily-002",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-002"
+        },
+        {
+          "task_id": "grammar_day_2",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-002"
+        },
+        {
+          "task_id": "grammar-test-002",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-002"
+        },
+        {
+          "task_id": "vocabulary_day_2",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-002"
+        },
+        {
+          "task_id": "kanji_day_2",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-002"
+        },
+        {
+          "task_id": "reading_day_2",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-002"
+        },
+        {
+          "task_id": "listening_day_2",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-002"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "roadmap_state": "planned",
+      "phase": "n5_review",
+      "title": "N5 Review — Lesson 11–15",
+      "tasks": [
+        {
+          "task_id": "daily-003",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-003"
+        },
+        {
+          "task_id": "grammar_day_3",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-003"
+        },
+        {
+          "task_id": "grammar-test-003",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-003"
+        },
+        {
+          "task_id": "vocabulary_day_3",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-003"
+        },
+        {
+          "task_id": "kanji_day_3",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-003"
+        },
+        {
+          "task_id": "reading_day_3",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-003"
+        },
+        {
+          "task_id": "listening_day_3",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-003"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "roadmap_state": "planned",
+      "phase": "n5_review",
+      "title": "N5 Review — Lesson 16–20",
+      "tasks": [
+        {
+          "task_id": "daily-004",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-004"
+        },
+        {
+          "task_id": "grammar_day_4",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-004"
+        },
+        {
+          "task_id": "grammar-test-004",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-004"
+        },
+        {
+          "task_id": "vocabulary_day_4",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-004"
+        },
+        {
+          "task_id": "kanji_day_4",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-004"
+        },
+        {
+          "task_id": "reading_day_4",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-004"
+        },
+        {
+          "task_id": "listening_day_4",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-004"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "roadmap_state": "planned",
+      "phase": "n5_review",
+      "title": "N5 Review — Lesson 21–25",
+      "tasks": [
+        {
+          "task_id": "daily-005",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-005"
+        },
+        {
+          "task_id": "grammar_day_5",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-005"
+        },
+        {
+          "task_id": "grammar-test-005",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-005"
+        },
+        {
+          "task_id": "vocabulary_day_5",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-005"
+        },
+        {
+          "task_id": "kanji_day_5",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-005"
+        },
+        {
+          "task_id": "reading_day_5",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-005"
+        },
+        {
+          "task_id": "listening_day_5",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-005"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 Review — Lesson 26–30",
+      "tasks": [
+        {
+          "task_id": "daily-006",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-006"
+        },
+        {
+          "task_id": "grammar_day_6",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-006"
+        },
+        {
+          "task_id": "grammar-test-006",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-006"
+        },
+        {
+          "task_id": "vocabulary_day_6",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-006"
+        },
+        {
+          "task_id": "kanji_day_6",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-006"
+        },
+        {
+          "task_id": "reading_day_6",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-006"
+        },
+        {
+          "task_id": "listening_day_6",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-006"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 Review — Lesson 31–35",
+      "tasks": [
+        {
+          "task_id": "daily-007",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-007"
+        },
+        {
+          "task_id": "grammar_day_7",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-007"
+        },
+        {
+          "task_id": "grammar-test-007",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-007"
+        },
+        {
+          "task_id": "vocabulary_day_7",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-007"
+        },
+        {
+          "task_id": "kanji_day_7",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-007"
+        },
+        {
+          "task_id": "reading_day_7",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-007"
+        },
+        {
+          "task_id": "listening_day_7",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-007"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 Review — Lesson 36–40",
+      "tasks": [
+        {
+          "task_id": "daily-008",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-008"
+        },
+        {
+          "task_id": "grammar_day_8",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-008"
+        },
+        {
+          "task_id": "grammar-test-008",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-008"
+        },
+        {
+          "task_id": "vocabulary_day_8",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-008"
+        },
+        {
+          "task_id": "kanji_day_8",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-008"
+        },
+        {
+          "task_id": "reading_day_8",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-008"
+        },
+        {
+          "task_id": "listening_day_8",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-008"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 Review — Lesson 41–45",
+      "tasks": [
+        {
+          "task_id": "daily-009",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-009"
+        },
+        {
+          "task_id": "grammar_day_9",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-009"
+        },
+        {
+          "task_id": "grammar-test-009",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-009"
+        },
+        {
+          "task_id": "vocabulary_day_9",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-009"
+        },
+        {
+          "task_id": "kanji_day_9",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-009"
+        },
+        {
+          "task_id": "reading_day_9",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-009"
+        },
+        {
+          "task_id": "listening_day_9",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-009"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 Review — Lesson 46–50",
+      "tasks": [
+        {
+          "task_id": "daily-010",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-010"
+        },
+        {
+          "task_id": "grammar_day_10",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-010"
+        },
+        {
+          "task_id": "grammar-test-010",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-010"
+        },
+        {
+          "task_id": "vocabulary_day_10",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-010"
+        },
+        {
+          "task_id": "kanji_day_10",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-010"
+        },
+        {
+          "task_id": "reading_day_10",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-010"
+        },
+        {
+          "task_id": "listening_day_10",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-010"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "roadmap_state": "planned",
+      "phase": "n4_review",
+      "title": "N4 End Test",
+      "tasks": [
+        {
+          "task_id": "daily-011",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-011"
+        },
+        {
+          "task_id": "end-n4",
+          "type": "end_test",
+          "label": "N4 End Test",
+          "required": true,
+          "order": 2,
+          "resource_id": "end-n4"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 12 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 13,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 13 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 14,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 14 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 15,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 15 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 16,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 16 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 17,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 17 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 18,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 18 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 19,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 19 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 20,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 20 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 21,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 21 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 22,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 22 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 23,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 23 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 24,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 24 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 25,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 25 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 26,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 26 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 27,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 27 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 28,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 28 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 29,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 29 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 30,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 30 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 31,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 31 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 32,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 32 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 33,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 33 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 34,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 34 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 35,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 35 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 36,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 36 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 37,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 37 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 38,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 38 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 39,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 39 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 40,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 40 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 41,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 41 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 42,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 42 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 43,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 43 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 44,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 44 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 45,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 45 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 46,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 46 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 47,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 47 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 48,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 48 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 49,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 49 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 50,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 50 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 51,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 51 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 52,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 52 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 53,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 53 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 54,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 54 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 55,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 55 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 56,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 56 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 57,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 57 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 58,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 58 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 59,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 59 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 60,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 60 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 61,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 61 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 62,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 62 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 63,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 63 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 64,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 64 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 65,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 65 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 66,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 66 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 67,
+      "roadmap_state": "pending",
+      "phase": "n3_learning",
+      "title": "Study Day 67 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 68,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 68 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 69,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 69 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 70,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 70 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 71,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 71 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 72,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 72 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 73,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 73 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 74,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 74 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 75,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 75 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 76,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 76 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 77,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 77 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 78,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 78 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 79,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 79 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 80,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 80 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 81,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 81 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 82,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 82 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 83,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 83 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 84,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 84 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 85,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 85 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 86,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 86 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 87,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 87 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 88,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 88 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 89,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 89 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 90,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 90 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 91,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 91 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 92,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 92 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 93,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 93 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 94,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 94 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 95,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 95 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 96,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 96 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 97,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 97 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 98,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 98 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 99,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 99 — Planning Pending",
+      "tasks": []
+    },
+    {
+      "day": 100,
+      "roadmap_state": "pending",
+      "phase": "n3_mock",
+      "title": "Study Day 100 — Planning Pending",
+      "tasks": []
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-002",
+  "study_day": 2,
+  "items": [
+    {
+      "id": 201,
+      "structure": "N を Vます",
+      "formation": [
+        "N + を + Vます"
+      ],
+      "meaning_vi": "Đánh dấu tân ngữ trực tiếp của động từ.",
+      "usage_vi": "Dùng を sau danh từ chịu tác động trực tiếp của hành động.",
+      "examples": [
+        {
+          "jp": "わたしは本を読みます。",
+          "reading": "わたしはほんをよみます。",
+          "vi": "Tôi đọc sách."
+        },
+        {
+          "jp": "毎朝パンと卵を食べます。",
+          "reading": "まいあさぱんとたまごをたべます。",
+          "vi": "Mỗi sáng tôi ăn bánh mì và trứng."
+        }
+      ],
+      "notes_vi": [
+        "を đọc là「お」."
+      ],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 202,
+      "structure": "N (địa điểm) で Vます",
+      "formation": [
+        "Place + で + Vます"
+      ],
+      "meaning_vi": "Diễn tả nơi diễn ra hành động.",
+      "usage_vi": "で đánh dấu địa điểm thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "大学の食堂で昼ごはんを食べます。",
+          "reading": "だいがくのしょくどうでひるごはんをたべます。",
+          "vi": "Tôi ăn trưa ở nhà ăn đại học."
+        },
+        {
+          "jp": "駅で新聞を買います。",
+          "reading": "えきでしんぶんをかいます。",
+          "vi": "Tôi mua báo ở nhà ga."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 203,
+      "structure": "Vませんか",
+      "formation": [
+        "Vます → Vませんか"
+      ],
+      "meaning_vi": "Rủ hoặc mời người nghe cùng làm gì.",
+      "usage_vi": "Mẫu mời lịch sự, mềm hơn mệnh lệnh/đề nghị trực tiếp.",
+      "examples": [
+        {
+          "jp": "いっしょに神戸へ行きませんか。",
+          "reading": "いっしょにこうべへいきませんか。",
+          "vi": "Bạn đi Kobe cùng tôi không?"
+        },
+        {
+          "jp": "あしたテニスをしませんか。",
+          "reading": "あしたてにすをしませんか。",
+          "vi": "Ngày mai chơi tennis cùng tôi không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 204,
+      "structure": "Vましょう",
+      "formation": [
+        "Vます → Vましょう"
+      ],
+      "meaning_vi": "Cùng làm... / Hãy cùng...",
+      "usage_vi": "Dùng để đề nghị cùng thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "ちょっと休みましょう。",
+          "reading": "ちょっとやすみましょう。",
+          "vi": "Chúng ta nghỉ một chút nhé."
+        },
+        {
+          "jp": "あした10時に駅で会いましょう。",
+          "reading": "あしたじゅうじにえきであいましょう。",
+          "vi": "Ngày mai 10 giờ gặp nhau ở ga nhé."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 205,
+      "structure": "何も + Vません",
+      "formation": [
+        "何も + Vません / Vませんでした"
+      ],
+      "meaning_vi": "Không ... gì cả.",
+      "usage_vi": "何も đi với vị ngữ phủ định để phủ định toàn bộ đối tượng.",
+      "examples": [
+        {
+          "jp": "けさ何も食べませんでした。",
+          "reading": "けさなにもたべませんでした。",
+          "vi": "Sáng nay tôi không ăn gì cả."
+        },
+        {
+          "jp": "日曜日は何もしません。",
+          "reading": "にちようびはなにもしません。",
+          "vi": "Chủ nhật tôi không làm gì cả."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 206,
+      "structure": "N (phương tiện/công cụ) で Vます",
+      "formation": [
+        "Tool / means + で + Vます"
+      ],
+      "meaning_vi": "Bằng / bằng cách / sử dụng ... để làm.",
+      "usage_vi": "で đánh dấu công cụ, phương tiện hoặc ngôn ngữ dùng để thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "パソコンで映画を見ます。",
+          "reading": "ぱそこんでえいがをみます。",
+          "vi": "Tôi xem phim bằng máy tính."
+        },
+        {
+          "jp": "はしでごはんを食べます。",
+          "reading": "はしでごはんをたべます。",
+          "vi": "Tôi ăn cơm bằng đũa."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 207,
+      "structure": "「X」は～語で何ですか",
+      "formation": [
+        "「X」は + language + で + 何ですか"
+      ],
+      "meaning_vi": "Hỏi một từ/cụm từ nói thế nào trong ngôn ngữ khác.",
+      "usage_vi": "Dùng で để chỉ ngôn ngữ/phương tiện biểu đạt.",
+      "examples": [
+        {
+          "jp": "「Goodbye」は日本語で何ですか。",
+          "reading": "「ぐっどばい」はにほんごでなんですか。",
+          "vi": "“Goodbye” trong tiếng Nhật là gì?"
+        },
+        {
+          "jp": "「ありがとう」は英語で何ですか。",
+          "reading": "「ありがとう」はえいごでなんですか。",
+          "vi": "“Arigatou” trong tiếng Anh là gì?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 208,
+      "structure": "A は B に N を あげます",
+      "formation": [
+        "Giver + は + Receiver + に + N + を + あげます"
+      ],
+      "meaning_vi": "A cho/tặng B vật N.",
+      "usage_vi": "に đánh dấu người nhận.",
+      "examples": [
+        {
+          "jp": "わたしは木村さんに花をあげます。",
+          "reading": "わたしはきむらさんにはなをあげます。",
+          "vi": "Tôi tặng hoa cho anh Kimura."
+        },
+        {
+          "jp": "わたしは皆さんにペルーのお土産をあげました。",
+          "reading": "わたしはみなさんにぺるーのおみやげをあげました。",
+          "vi": "Tôi đã tặng mọi người quà Peru."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 209,
+      "structure": "A は B に／から N を もらいます",
+      "formation": [
+        "Receiver + は + Giver + に/から + N + を + もらいます"
+      ],
+      "meaning_vi": "A nhận N từ B.",
+      "usage_vi": "Người/tổ chức cho có thể dùng に hoặc から; から rõ nghĩa “từ”.",
+      "examples": [
+        {
+          "jp": "わたしはカリナさんにチョコレートをもらいました。",
+          "reading": "わたしはかりなさんにちょこれーとをもらいました。",
+          "vi": "Tôi nhận sô-cô-la từ Karina."
+        },
+        {
+          "jp": "ワットさんにテレビをもらいました。",
+          "reading": "わっとさんにてれびをもらいました。",
+          "vi": "Tôi nhận TV từ Watt."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 210,
+      "structure": "N1 に N2 を 貸します／教えます; N1 に N2 を 借ります／習います",
+      "formation": [
+        "Person + に + object/content + V"
+      ],
+      "meaning_vi": "Mẫu trao/nhận thông tin hoặc đồ vật giữa người với người.",
+      "usage_vi": "Hướng của hành động quyết định ai đứng trước に.",
+      "examples": [
+        {
+          "jp": "山田さんはタワポンさんに日本語を教えました。",
+          "reading": "やまださんはたわぽんさんににほんごをおしえました。",
+          "vi": "Yamada đã dạy tiếng Nhật cho Tawapon."
+        },
+        {
+          "jp": "ミラーさんはワンさんにお金を借りました。",
+          "reading": "みらーさんはわんさんにおかねをかりました。",
+          "vi": "Miller đã mượn tiền từ Wang."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 211,
+      "structure": "もう Vました／まだです",
+      "formation": [
+        "もう + Vました"
+      ],
+      "meaning_vi": "Đã ... rồi / Vẫn chưa.",
+      "usage_vi": "もう xác nhận hành động hoàn tất; trả lời phủ định thường dùng「まだです」.",
+      "examples": [
+        {
+          "jp": "もう昼ごはんを食べましたか。はい、もう食べました。",
+          "reading": "もうひるごはんをたべましたか。はい、もうたべました。",
+          "vi": "Bạn ăn trưa chưa? Rồi, tôi ăn rồi."
+        },
+        {
+          "jp": "もう新幹線の切符を買いましたか。いいえ、まだです。",
+          "reading": "もうしんかんせんのきっぷをかいましたか。いいえ、まだです。",
+          "vi": "Bạn mua vé Shinkansen chưa? Chưa."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 212,
+      "structure": "N は な-adj です／じゃありません",
+      "formation": [
+        "N + は + な-adj + です"
+      ],
+      "meaning_vi": "Miêu tả danh từ bằng tính từ な ở dạng khẳng định/phủ định.",
+      "usage_vi": "Khi đứng cuối câu, tính từ な không dùng な.",
+      "examples": [
+        {
+          "jp": "大阪はにぎやかです。",
+          "reading": "おおさかはにぎやかです。",
+          "vi": "Osaka nhộn nhịp."
+        },
+        {
+          "jp": "さくら大学は有名じゃありません。",
+          "reading": "さくらだいがくはゆうめいじゃありません。",
+          "vi": "Đại học Sakura không nổi tiếng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 213,
+      "structure": "N は い-adj です／くないです",
+      "formation": [
+        "N + は + い-adj + です"
+      ],
+      "meaning_vi": "Miêu tả bằng tính từ い; phủ định đổi い thành くない.",
+      "usage_vi": "「いい」phủ định là「よくないです」.",
+      "examples": [
+        {
+          "jp": "富士山は高いです。",
+          "reading": "ふじさんはたかいです。",
+          "vi": "Núi Phú Sĩ cao."
+        },
+        {
+          "jp": "ペキンはあまり寒くないです。",
+          "reading": "ぺきんはあまりさむくないです。",
+          "vi": "Bắc Kinh không lạnh lắm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 214,
+      "structure": "な-adj + な + N",
+      "formation": [
+        "な-adj + な + N"
+      ],
+      "meaning_vi": "Tính từ な bổ nghĩa trực tiếp cho danh từ.",
+      "usage_vi": "Phải có な giữa tính từ và danh từ.",
+      "examples": [
+        {
+          "jp": "桜はきれいな花です。",
+          "reading": "さくらはきれいなはなです。",
+          "vi": "Hoa anh đào là loài hoa đẹp."
+        },
+        {
+          "jp": "さくら大学は有名な大学です。",
+          "reading": "さくらだいがくはゆうめいなだいがくです。",
+          "vi": "Đại học Sakura là trường nổi tiếng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 215,
+      "structure": "い-adj + N",
+      "formation": [
+        "い-adj + N"
+      ],
+      "meaning_vi": "Tính từ い đứng trực tiếp trước danh từ.",
+      "usage_vi": "Giữ nguyên い khi bổ nghĩa danh từ.",
+      "examples": [
+        {
+          "jp": "富士山は高い山です。",
+          "reading": "ふじさんはたかいやまです。",
+          "vi": "Phú Sĩ là ngọn núi cao."
+        },
+        {
+          "jp": "おもしろい映画を見ました。",
+          "reading": "おもしろいえいがをみました。",
+          "vi": "Tôi đã xem một bộ phim thú vị."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 216,
+      "structure": "とても／あまり",
+      "formation": [
+        "とても + adjective affirmative"
+      ],
+      "meaning_vi": "Rất... / Không ... lắm.",
+      "usage_vi": "あまり trong mẫu này đi với phủ định.",
+      "examples": [
+        {
+          "jp": "毎日とても楽しいです。",
+          "reading": "まいにちとてもたのしいです。",
+          "vi": "Mỗi ngày rất vui."
+        },
+        {
+          "jp": "上海はあまり寒くないです。",
+          "reading": "しゃんはいはあまりさむくないです。",
+          "vi": "Thượng Hải không lạnh lắm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 217,
+      "structure": "N は どうですか",
+      "formation": [
+        "N + は + どうですか"
+      ],
+      "meaning_vi": "... thế nào?",
+      "usage_vi": "Hỏi nhận xét/trạng thái tổng quát về N.",
+      "examples": [
+        {
+          "jp": "大学の寮はどうですか。",
+          "reading": "だいがくのりょうはどうですか。",
+          "vi": "Ký túc xá đại học thế nào?"
+        },
+        {
+          "jp": "日本の食べ物はどうですか。",
+          "reading": "にほんのたべものはどうですか。",
+          "vi": "Đồ ăn Nhật thế nào?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 218,
+      "structure": "N1 は どんな N2 ですか",
+      "formation": [
+        "N1 + は + どんな + N2 + ですか"
+      ],
+      "meaning_vi": "N1 là một N2 như thế nào?",
+      "usage_vi": "どんな luôn đứng trước danh từ.",
+      "examples": [
+        {
+          "jp": "奈良はどんな町ですか。",
+          "reading": "ならはどんなまちですか。",
+          "vi": "Nara là thành phố như thế nào?"
+        },
+        {
+          "jp": "シュミットさんはどんな人ですか。",
+          "reading": "しゅみっとさんはどんなひとですか。",
+          "vi": "Schmidt là người như thế nào?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 219,
+      "structure": "S1 が、S2",
+      "formation": [
+        "Sentence 1 + が、+ Sentence 2"
+      ],
+      "meaning_vi": "... nhưng ...",
+      "usage_vi": "が nối hai vế có ý tương phản.",
+      "examples": [
+        {
+          "jp": "大学の寮は古いですが、便利です。",
+          "reading": "だいがくのりょうはふるいですが、べんりです。",
+          "vi": "Ký túc xá cũ nhưng tiện."
+        },
+        {
+          "jp": "日本語の勉強は難しいですが、おもしろいです。",
+          "reading": "にほんごのべんきょうはむずかしいですが、おもしろいです。",
+          "vi": "Học tiếng Nhật khó nhưng thú vị."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 220,
+      "structure": "S1。そして、S2",
+      "formation": [
+        "Sentence 1 + そして + Sentence 2"
+      ],
+      "meaning_vi": "Và / hơn nữa.",
+      "usage_vi": "そして nối hai thông tin cùng hướng.",
+      "examples": [
+        {
+          "jp": "町の生活はおもしろいです。そして、便利です。",
+          "reading": "まちのせいかつはおもしろいです。そして、べんりです。",
+          "vi": "Cuộc sống thành phố thú vị. Và tiện lợi."
+        },
+        {
+          "jp": "カリナさんはきれいです。そして、親切です。",
+          "reading": "かりなさんはきれいです。そして、しんせつです。",
+          "vi": "Karina đẹp và tốt bụng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 221,
+      "structure": "N が 好きです／嫌いです",
+      "formation": [
+        "N + が + 好きです/嫌いです"
+      ],
+      "meaning_vi": "Thích / không thích N.",
+      "usage_vi": "Đối tượng của 好き・嫌い dùng が.",
+      "examples": [
+        {
+          "jp": "わたしはイタリア料理が好きです。",
+          "reading": "わたしはいたりありょうりがすきです。",
+          "vi": "Tôi thích món Ý."
+        },
+        {
+          "jp": "魚が嫌いです。",
+          "reading": "さかながきらいです。",
+          "vi": "Tôi không thích cá."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 222,
+      "structure": "N が 上手です／下手です",
+      "formation": [
+        "N + が + 上手です/下手です"
+      ],
+      "meaning_vi": "Giỏi / kém về N.",
+      "usage_vi": "Đối tượng kỹ năng dùng が.",
+      "examples": [
+        {
+          "jp": "カリナさんは絵が上手です。",
+          "reading": "かりなさんはえがじょうずです。",
+          "vi": "Karina vẽ giỏi."
+        },
+        {
+          "jp": "山田さんのお父さんは歌が下手です。",
+          "reading": "やまださんのおとうさんはうたがへたです。",
+          "vi": "Bố Yamada hát không giỏi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 223,
+      "structure": "N が わかります",
+      "formation": [
+        "N + が + わかります"
+      ],
+      "meaning_vi": "Hiểu N.",
+      "usage_vi": "Đối tượng được hiểu dùng が, không dùng を.",
+      "examples": [
+        {
+          "jp": "日本語が少しわかります。",
+          "reading": "にほんごがすこしわかります。",
+          "vi": "Tôi hiểu một chút tiếng Nhật."
+        },
+        {
+          "jp": "タイ語が全然わかりません。",
+          "reading": "たいごがぜんぜんわかりません。",
+          "vi": "Tôi hoàn toàn không hiểu tiếng Thái."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 224,
+      "structure": "N が あります (có/sở hữu)",
+      "formation": [
+        "N + が + あります"
+      ],
+      "meaning_vi": "Có N (thời gian, tiền, cuộc hẹn, việc...).",
+      "usage_vi": "Ở Lesson 9, あります thường diễn tả “có” hơn là vị trí tồn tại.",
+      "examples": [
+        {
+          "jp": "細かいお金がありますか。",
+          "reading": "こまかいおかねがありますか。",
+          "vi": "Bạn có tiền lẻ không?"
+        },
+        {
+          "jp": "友達と約束があります。",
+          "reading": "ともだちとやくそくがあります。",
+          "vi": "Tôi có hẹn với bạn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 225,
+      "structure": "よく／だいたい／たくさん／少し／あまり／全然",
+      "formation": [
+        "degree/frequency adverb + predicate"
+      ],
+      "meaning_vi": "Các phó từ chỉ mức độ, lượng hoặc tần suất.",
+      "usage_vi": "あまり và 全然 trong phạm vi bài dùng với phủ định.",
+      "examples": [
+        {
+          "jp": "日本語が少しわかります。",
+          "reading": "にほんごがすこしわかります。",
+          "vi": "Tôi hiểu một chút tiếng Nhật."
+        },
+        {
+          "jp": "漢字が全然わかりません。",
+          "reading": "かんじがぜんぜんわかりません。",
+          "vi": "Tôi hoàn toàn không hiểu kanji."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 226,
+      "structure": "S1 から、S2",
+      "formation": [
+        "Reason + から、+ result"
+      ],
+      "meaning_vi": "Vì S1 nên S2.",
+      "usage_vi": "から đặt sau mệnh đề nêu lý do.",
+      "examples": [
+        {
+          "jp": "子どもの誕生日ですから、早く帰ります。",
+          "reading": "こどものたんじょうびですから、はやくかえります。",
+          "vi": "Vì là sinh nhật con nên tôi về sớm."
+        },
+        {
+          "jp": "用事がありますから、行きません。",
+          "reading": "ようじがありますから、いきません。",
+          "vi": "Vì có việc nên tôi không đi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 227,
+      "structure": "どうして ～か／～から",
+      "formation": [
+        "どうして + question"
+      ],
+      "meaning_vi": "Tại sao...? / Vì...",
+      "usage_vi": "どうして dùng hỏi lý do; câu trả lời thường kết thúc bằng から.",
+      "examples": [
+        {
+          "jp": "どうしてきのう早く帰りましたか。",
+          "reading": "どうしてきのうはやくかえりましたか。",
+          "vi": "Tại sao hôm qua bạn về sớm?"
+        },
+        {
+          "jp": "用事がありましたから。",
+          "reading": "ようじがありましたから。",
+          "vi": "Vì tôi có việc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 228,
+      "structure": "Place に N が あります",
+      "formation": [
+        "Place + に + inanimate N + が + あります"
+      ],
+      "meaning_vi": "Có đồ vật/sự vật N ở địa điểm.",
+      "usage_vi": "あります dùng cho vật vô tri/thực vật trong phạm vi bài.",
+      "examples": [
+        {
+          "jp": "あそこにコンビニがあります。",
+          "reading": "あそこにこんびにがあります。",
+          "vi": "Có cửa hàng tiện lợi ở đằng kia."
+        },
+        {
+          "jp": "テーブルの上に果物があります。",
+          "reading": "てーぶるのうえにくだものがあります。",
+          "vi": "Có trái cây trên bàn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 229,
+      "structure": "Place に N が います",
+      "formation": [
+        "Place + に + animate N + が + います"
+      ],
+      "meaning_vi": "Có người/động vật N ở địa điểm.",
+      "usage_vi": "います dùng cho người và động vật.",
+      "examples": [
+        {
+          "jp": "ロビーに佐藤さんがいます。",
+          "reading": "ろびーにさとうさんがいます。",
+          "vi": "Anh Sato ở sảnh."
+        },
+        {
+          "jp": "庭に猫がいます。",
+          "reading": "にわにねこがいます。",
+          "vi": "Có con mèo ở sân."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 230,
+      "structure": "N は Place に あります／います",
+      "formation": [
+        "N + は + Place + に + あります/います"
+      ],
+      "meaning_vi": "N ở đâu / N ở tại Place.",
+      "usage_vi": "Đưa N lên chủ đề bằng は khi đối tượng đã xác định.",
+      "examples": [
+        {
+          "jp": "郵便局は駅の近くにあります。",
+          "reading": "ゆうびんきょくはえきのちかくにあります。",
+          "vi": "Bưu điện ở gần ga."
+        },
+        {
+          "jp": "ミラーさんは会議室にいます。",
+          "reading": "みらーさんはかいぎしつにいます。",
+          "vi": "Miller ở phòng họp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 231,
+      "structure": "だれ／何 + が います／あります",
+      "formation": [
+        "Place + に + だれ/何 + が + います/ありますか"
+      ],
+      "meaning_vi": "Hỏi ai/cái gì tồn tại ở một nơi.",
+      "usage_vi": "Chọn だれ cho người, 何 cho vật.",
+      "examples": [
+        {
+          "jp": "庭にだれがいますか。だれもいません。猫がいます。",
+          "reading": "にわにだれがいますか。だれもいません。ねこがいます。",
+          "vi": "Trong vườn có ai không? Không có ai. Có một con mèo."
+        },
+        {
+          "jp": "箱の中に何がありますか。古い手紙や写真があります。",
+          "reading": "はこのなかになにがありますか。ふるいてがみやしゃしんがあります。",
+          "vi": "Trong hộp có gì? Có thư cũ, ảnh, v.v."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 232,
+      "structure": "N1 の 上／下／前／後ろ／右／左／中／外／隣／近く／間",
+      "formation": [
+        "N1 + の + position + に ..."
+      ],
+      "meaning_vi": "Các danh từ chỉ vị trí.",
+      "usage_vi": "「AとBの間」= giữa A và B; các từ vị trí hoạt động như danh từ.",
+      "examples": [
+        {
+          "jp": "本屋は郵便局と喫茶店の間にあります。",
+          "reading": "ほんやはゆうびんきょくときっさてんのあいだにあります。",
+          "vi": "Hiệu sách ở giữa bưu điện và quán cà phê."
+        },
+        {
+          "jp": "ピアノの前に女の人がいます。",
+          "reading": "ぴあののまえにおんなのひとがいます。",
+          "vi": "Có một phụ nữ trước đàn piano."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 233,
+      "structure": "N1 や N2 [など]",
+      "formation": [
+        "N1 + や + N2 + [など]"
+      ],
+      "meaning_vi": "Liệt kê không đầy đủ: N1, N2, v.v.",
+      "usage_vi": "や khác と ở chỗ danh sách chỉ là ví dụ, chưa chắc đầy đủ.",
+      "examples": [
+        {
+          "jp": "テーブルの上に果物やナイフやグラスがあります。",
+          "reading": "てーぶるのうえにくだものやないふやぐらすがあります。",
+          "vi": "Trên bàn có trái cây, dao, cốc, v.v."
+        },
+        {
+          "jp": "箱の中に古い手紙や写真などがあります。",
+          "reading": "はこのなかにふるいてがみやしゃしんなどがあります。",
+          "vi": "Trong hộp có thư cũ, ảnh, v.v."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    }
+  ]
+}

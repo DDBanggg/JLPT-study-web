@@ -1,0 +1,1205 @@
+{
+  "schema_version": 1,
+  "id": "daily-003",
+  "type": "daily",
+  "title": "Daily Test — Day 3",
+  "study_day": 3,
+  "coverage": {
+    "from_day": 2,
+    "to_day": 2
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "毎朝コーヒー＿＿飲みます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "飲みますの対象は「を」で示します。"
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "きのうスーパー＿＿牛乳と果物を買いました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "行動の場所は「で」です。"
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "いっしょにお花見を＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しませんか"
+            },
+            {
+              "id": "B",
+              "text": "しません"
+            },
+            {
+              "id": "C",
+              "text": "しました"
+            },
+            {
+              "id": "D",
+              "text": "しますから"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "誘いは Vませんか。"
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "はさみ＿＿紙を切ります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "道具は「で」です。"
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "わたしは友達＿＿プレゼントをあげました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "受け手は「に」です。"
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "もうメールを送りましたか。— いいえ、＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もうです"
+            },
+            {
+              "id": "B",
+              "text": "まだです"
+            },
+            {
+              "id": "C",
+              "text": "送りませんか"
+            },
+            {
+              "id": "D",
+              "text": "ありません"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "未完了は「まだです」。"
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "これは＿＿部屋です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きれい"
+            },
+            {
+              "id": "B",
+              "text": "きれいな"
+            },
+            {
+              "id": "C",
+              "text": "きれいの"
+            },
+            {
+              "id": "D",
+              "text": "きれく"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "な形容詞 + な + 名詞。"
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "今日はあまり＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "暑いです"
+            },
+            {
+              "id": "B",
+              "text": "暑くないです"
+            },
+            {
+              "id": "C",
+              "text": "暑いじゃありません"
+            },
+            {
+              "id": "D",
+              "text": "暑くです"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "あまり + 否定。"
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "日本語の勉強は難しいです＿＿、おもしろいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そして"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "から"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "逆接は「が」。"
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "カリナさんは絵＿＿上手です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "上手の対象は「が」。"
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "漢字が＿＿わかりません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とても"
+            },
+            {
+              "id": "B",
+              "text": "全然"
+            },
+            {
+              "id": "C",
+              "text": "たくさん"
+            },
+            {
+              "id": "D",
+              "text": "よく"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "全然 + 否定。"
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "どうしてコンサートへ行きませんか。— 約束が＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ありますから"
+            },
+            {
+              "id": "B",
+              "text": "ありますを"
+            },
+            {
+              "id": "C",
+              "text": "ありましたが"
+            },
+            {
+              "id": "D",
+              "text": "ありませんで"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "理由は ～から。"
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "テーブルの上＿＿果物があります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "存在する場所は「に」。"
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "ミラーさんは会議室＿＿います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "人の所在：NはPlaceにいます。"
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "箱の中に手紙＿＿写真などがあります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と"
+            },
+            {
+              "id": "B",
+              "text": "や"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "や～など は不完全列挙。"
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "「借ります」の意味として最も近いものはどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "cho mượn"
+            },
+            {
+              "id": "B",
+              "text": "mượn"
+            },
+            {
+              "id": "C",
+              "text": "tặng"
+            },
+            {
+              "id": "D",
+              "text": "gửi"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "借ります = mượn."
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "「にぎやか」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "yên tĩnh"
+            },
+            {
+              "id": "B",
+              "text": "nhộn nhịp"
+            },
+            {
+              "id": "C",
+              "text": "rẻ"
+            },
+            {
+              "id": "D",
+              "text": "cũ"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "にぎやか = nhộn nhịp."
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "「約束」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やくそく"
+            },
+            {
+              "id": "B",
+              "text": "やくそ"
+            },
+            {
+              "id": "C",
+              "text": "やっそく"
+            },
+            {
+              "id": "D",
+              "text": "よくそく"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "約束 = やくそく."
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "「わかります」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "biết/hiểu"
+            },
+            {
+              "id": "B",
+              "text": "mua"
+            },
+            {
+              "id": "C",
+              "text": "gặp"
+            },
+            {
+              "id": "D",
+              "text": "viết"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "わかります = hiểu."
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "「便利」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "bận"
+            },
+            {
+              "id": "B",
+              "text": "tiện lợi"
+            },
+            {
+              "id": "C",
+              "text": "nổi tiếng"
+            },
+            {
+              "id": "D",
+              "text": "khó"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "便利 = tiện lợi."
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "「後ろ」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うえ"
+            },
+            {
+              "id": "B",
+              "text": "うしろ"
+            },
+            {
+              "id": "C",
+              "text": "した"
+            },
+            {
+              "id": "D",
+              "text": "そと"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "後ろ = うしろ."
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「プレゼント」に最も近い意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "quà tặng"
+            },
+            {
+              "id": "B",
+              "text": "thư"
+            },
+            {
+              "id": "C",
+              "text": "vé"
+            },
+            {
+              "id": "D",
+              "text": "tiền"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "プレゼント = quà tặng."
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「撮ります」と一緒に使うのが自然な名詞はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "写真"
+            },
+            {
+              "id": "B",
+              "text": "水"
+            },
+            {
+              "id": "C",
+              "text": "歌"
+            },
+            {
+              "id": "D",
+              "text": "約束"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "写真を撮ります = chụp ảnh."
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「嫌い」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "thích"
+            },
+            {
+              "id": "B",
+              "text": "không thích/ghét"
+            },
+            {
+              "id": "C",
+              "text": "giỏi"
+            },
+            {
+              "id": "D",
+              "text": "bận"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "嫌い = không thích/ghét."
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「棚」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "kệ/giá"
+            },
+            {
+              "id": "B",
+              "text": "cửa"
+            },
+            {
+              "id": "C",
+              "text": "cửa sổ"
+            },
+            {
+              "id": "D",
+              "text": "hộp"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "棚 = kệ/giá."
+        },
+        {
+          "id": "q026",
+          "category": "vocabulary",
+          "prompt": "「もう」の使い方として正しいものはどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もう昼ごはんを食べました。"
+            },
+            {
+              "id": "B",
+              "text": "もう昼ごはんを食べません。だけ"
+            },
+            {
+              "id": "C",
+              "text": "もう = ngày mai"
+            },
+            {
+              "id": "D",
+              "text": "もう = ở đâu"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "もう + quá khứ diễn tả “đã ... rồi”."
+        },
+        {
+          "id": "q027",
+          "category": "vocabulary",
+          "prompt": "「元気」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "khỏe/đầy năng lượng"
+            },
+            {
+              "id": "B",
+              "text": "yên tĩnh"
+            },
+            {
+              "id": "C",
+              "text": "rẻ"
+            },
+            {
+              "id": "D",
+              "text": "nhỏ"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "元気 = khỏe, tràn đầy năng lượng."
+        },
+        {
+          "id": "q028",
+          "category": "vocabulary",
+          "prompt": "「用事」の意味はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "việc cần làm"
+            },
+            {
+              "id": "B",
+              "text": "âm nhạc"
+            },
+            {
+              "id": "C",
+              "text": "đồ uống"
+            },
+            {
+              "id": "D",
+              "text": "bản đồ"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "用事 = việc/bận việc."
+        },
+        {
+          "id": "q029",
+          "category": "vocabulary",
+          "prompt": "「冷蔵庫」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "れいぞうこ"
+            },
+            {
+              "id": "B",
+              "text": "れぞこ"
+            },
+            {
+              "id": "C",
+              "text": "れいそうご"
+            },
+            {
+              "id": "D",
+              "text": "れいぞうご"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "冷蔵庫 = れいぞうこ."
+        },
+        {
+          "id": "q030",
+          "category": "vocabulary",
+          "prompt": "「会います」の意味として最も近いものはどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "gặp"
+            },
+            {
+              "id": "B",
+              "text": "mua"
+            },
+            {
+              "id": "C",
+              "text": "gửi"
+            },
+            {
+              "id": "D",
+              "text": "mượn"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "会います = gặp."
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "「高い」の最初の漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "高"
+            },
+            {
+              "id": "B",
+              "text": "安"
+            },
+            {
+              "id": "C",
+              "text": "大"
+            },
+            {
+              "id": "D",
+              "text": "古"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "高い = たかい."
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "「やすい」に対応する漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "新"
+            },
+            {
+              "id": "B",
+              "text": "安"
+            },
+            {
+              "id": "C",
+              "text": "小"
+            },
+            {
+              "id": "D",
+              "text": "白"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "安い = やすい."
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "「新聞」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しんぶん"
+            },
+            {
+              "id": "B",
+              "text": "しんもん"
+            },
+            {
+              "id": "C",
+              "text": "あたらしぶん"
+            },
+            {
+              "id": "D",
+              "text": "しんきき"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "新聞 = しんぶん."
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "「上」の反対の位置を表す漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "下"
+            },
+            {
+              "id": "B",
+              "text": "右"
+            },
+            {
+              "id": "C",
+              "text": "外"
+            },
+            {
+              "id": "D",
+              "text": "間"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "上 ↔ 下."
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "「食べ物」の「食」の読みとしてこの語で正しいものはどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょく"
+            },
+            {
+              "id": "B",
+              "text": "た"
+            },
+            {
+              "id": "C",
+              "text": "じき"
+            },
+            {
+              "id": "D",
+              "text": "く"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "食べ物では 食べ = たべ."
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "「飲み物」の意味に関係する漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飲"
+            },
+            {
+              "id": "B",
+              "text": "食"
+            },
+            {
+              "id": "C",
+              "text": "聞"
+            },
+            {
+              "id": "D",
+              "text": "買"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "飲 = uống."
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "「近く」の漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "近"
+            },
+            {
+              "id": "B",
+              "text": "間"
+            },
+            {
+              "id": "C",
+              "text": "外"
+            },
+            {
+              "id": "D",
+              "text": "左"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "近く = ちかく."
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "「みぎ」はどの漢字ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "左"
+            },
+            {
+              "id": "B",
+              "text": "右"
+            },
+            {
+              "id": "C",
+              "text": "上"
+            },
+            {
+              "id": "D",
+              "text": "下"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "右 = みぎ."
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "「男の人」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おんなのひと"
+            },
+            {
+              "id": "B",
+              "text": "おとこのひと"
+            },
+            {
+              "id": "C",
+              "text": "おとこのこ"
+            },
+            {
+              "id": "D",
+              "text": "おんなのこ"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "男の人 = おとこのひと."
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "「手紙を書きます」の「書」は何と読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "か"
+            },
+            {
+              "id": "B",
+              "text": "よ"
+            },
+            {
+              "id": "C",
+              "text": "き"
+            },
+            {
+              "id": "D",
+              "text": "み"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "書きます = かきます."
+        },
+        {
+          "id": "q041",
+          "category": "kanji",
+          "prompt": "「新聞を読みます」の「読」は何と読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よ"
+            },
+            {
+              "id": "B",
+              "text": "き"
+            },
+            {
+              "id": "C",
+              "text": "み"
+            },
+            {
+              "id": "D",
+              "text": "はな"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "読みます = よみます."
+        },
+        {
+          "id": "q042",
+          "category": "kanji",
+          "prompt": "「友達」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ゆうたつ"
+            },
+            {
+              "id": "B",
+              "text": "ともだち"
+            },
+            {
+              "id": "C",
+              "text": "ともたつ"
+            },
+            {
+              "id": "D",
+              "text": "ゆうだち"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "友達 = ともだち."
+        },
+        {
+          "id": "q043",
+          "category": "kanji",
+          "prompt": "「写真」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しゃしん"
+            },
+            {
+              "id": "B",
+              "text": "しゃじん"
+            },
+            {
+              "id": "C",
+              "text": "うつしん"
+            },
+            {
+              "id": "D",
+              "text": "しゃま"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "写真 = しゃしん."
+        },
+        {
+          "id": "q044",
+          "category": "kanji",
+          "prompt": "「映画」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "えいか"
+            },
+            {
+              "id": "B",
+              "text": "えいが"
+            },
+            {
+              "id": "C",
+              "text": "うつが"
+            },
+            {
+              "id": "D",
+              "text": "えが"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "映画 = えいが."
+        },
+        {
+          "id": "q045",
+          "category": "kanji",
+          "prompt": "「日本語」の最後の漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "英"
+            },
+            {
+              "id": "B",
+              "text": "話"
+            },
+            {
+              "id": "C",
+              "text": "語"
+            },
+            {
+              "id": "D",
+              "text": "聞"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "日本語の「語」= ngôn ngữ."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1409 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-002",
+  "study_day": 2,
+  "target": 50,
+  "pool_size": 100,
+  "items": [
+    {
+      "id": 201,
+      "hiragana": "たべます",
+      "kanji": "食べます",
+      "meaning_vi": "ăn",
+      "examples": [
+        {
+          "jp": "パンを食べます。",
+          "reading": "ぱんをたべます。",
+          "vi": "Tôi ăn bánh mì."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 202,
+      "hiragana": "のみます",
+      "kanji": "飲みます",
+      "meaning_vi": "uống",
+      "examples": [
+        {
+          "jp": "水を飲みます。",
+          "reading": "みずをのみます。",
+          "vi": "Tôi uống nước."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 203,
+      "hiragana": "みます",
+      "kanji": "見ます",
+      "meaning_vi": "xem; nhìn",
+      "examples": [
+        {
+          "jp": "映画を見ます。",
+          "reading": "えいがをみます。",
+          "vi": "Tôi xem phim."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 204,
+      "hiragana": "ききます",
+      "kanji": "聞きます",
+      "meaning_vi": "nghe; hỏi",
+      "examples": [
+        {
+          "jp": "音楽を聞きます。",
+          "reading": "おんがくをききます。",
+          "vi": "Tôi nghe nhạc."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 205,
+      "hiragana": "よみます",
+      "kanji": "読みます",
+      "meaning_vi": "đọc",
+      "examples": [
+        {
+          "jp": "新聞を読みます。",
+          "reading": "しんぶんをよみます。",
+          "vi": "Tôi đọc báo."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 206,
+      "hiragana": "かきます",
+      "kanji": "書きます",
+      "meaning_vi": "viết",
+      "examples": [
+        {
+          "jp": "手紙を書きます。",
+          "reading": "てがみをかきます。",
+          "vi": "Tôi viết thư."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 207,
+      "hiragana": "かいます",
+      "kanji": "買います",
+      "meaning_vi": "mua",
+      "examples": [
+        {
+          "jp": "駅で新聞を買います。",
+          "reading": "えきでしんぶんをかいます。",
+          "vi": "Tôi mua báo ở nhà ga."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 208,
+      "hiragana": "とります",
+      "kanji": "撮ります",
+      "meaning_vi": "chụp",
+      "examples": [
+        {
+          "jp": "桜の写真を撮ります。",
+          "reading": "さくらのしゃしんをとります。",
+          "vi": "Tôi chụp ảnh hoa anh đào."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 209,
+      "hiragana": "します",
+      "kanji": null,
+      "meaning_vi": "làm",
+      "examples": [
+        {
+          "jp": "宿題をします。",
+          "reading": "しゅくだいをします。",
+          "vi": "Tôi làm bài tập."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 210,
+      "hiragana": "あいます",
+      "kanji": "会います",
+      "meaning_vi": "gặp",
+      "examples": [
+        {
+          "jp": "駅で友達に会います。",
+          "reading": "えきでともだちにあいます。",
+          "vi": "Tôi gặp bạn ở nhà ga."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 211,
+      "hiragana": "きります",
+      "kanji": "切ります",
+      "meaning_vi": "cắt",
+      "examples": [
+        {
+          "jp": "はさみで紙を切ります。",
+          "reading": "はさみでかみをきります。",
+          "vi": "Tôi cắt giấy bằng kéo."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 212,
+      "hiragana": "おくります",
+      "kanji": "送ります",
+      "meaning_vi": "gửi",
+      "examples": [
+        {
+          "jp": "友達にメールを送ります。",
+          "reading": "ともだちにめーるをおくります。",
+          "vi": "Tôi gửi email cho bạn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 213,
+      "hiragana": "あげます",
+      "kanji": null,
+      "meaning_vi": "cho; tặng",
+      "examples": [
+        {
+          "jp": "友達にプレゼントをあげます。",
+          "reading": "ともだちにぷれぜんとをあげます。",
+          "vi": "Tôi tặng quà cho bạn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 214,
+      "hiragana": "もらいます",
+      "kanji": null,
+      "meaning_vi": "nhận",
+      "examples": [
+        {
+          "jp": "山田さんにコートをもらいました。",
+          "reading": "やまださんにこーとをもらいました。",
+          "vi": "Tôi nhận áo khoác từ anh Yamada."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 215,
+      "hiragana": "かします",
+      "kanji": "貸します",
+      "meaning_vi": "cho mượn",
+      "examples": [
+        {
+          "jp": "友達に本を貸します。",
+          "reading": "ともだちにほんをかします。",
+          "vi": "Tôi cho bạn mượn sách."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 216,
+      "hiragana": "かります",
+      "kanji": "借ります",
+      "meaning_vi": "mượn",
+      "examples": [
+        {
+          "jp": "会社の人に自転車を借りました。",
+          "reading": "かいしゃのひとにじてんしゃをかりました。",
+          "vi": "Tôi mượn xe đạp từ người ở công ty."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 217,
+      "hiragana": "おしえます",
+      "kanji": "教えます",
+      "meaning_vi": "dạy; chỉ",
+      "examples": [
+        {
+          "jp": "先生はわたしに日本語を教えます。",
+          "reading": "せんせいはわたしににほんごをおしえます。",
+          "vi": "Giáo viên dạy tiếng Nhật cho tôi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 218,
+      "hiragana": "ならいます",
+      "kanji": "習います",
+      "meaning_vi": "học từ ai",
+      "examples": [
+        {
+          "jp": "先生に日本語を習います。",
+          "reading": "せんせいににほんごをならいます。",
+          "vi": "Tôi học tiếng Nhật với giáo viên."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 219,
+      "hiragana": "でんわをかけます",
+      "kanji": "電話をかけます",
+      "meaning_vi": "gọi điện thoại",
+      "examples": [
+        {
+          "jp": "国へ電話をかけます。",
+          "reading": "くにへでんわをかけます。",
+          "vi": "Tôi gọi điện về nước."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 220,
+      "hiragana": "もう",
+      "kanji": null,
+      "meaning_vi": "đã; rồi",
+      "examples": [
+        {
+          "jp": "もう昼ごはんを食べました。",
+          "reading": "もうひるごはんをたべました。",
+          "vi": "Tôi đã ăn trưa rồi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 221,
+      "hiragana": "きれい",
+      "kanji": null,
+      "meaning_vi": "đẹp; sạch",
+      "examples": [
+        {
+          "jp": "桜はきれいです。",
+          "reading": "さくらはきれいです。",
+          "vi": "Hoa anh đào đẹp."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 222,
+      "hiragana": "しずか",
+      "kanji": "静か",
+      "meaning_vi": "yên tĩnh",
+      "examples": [
+        {
+          "jp": "田舎は静かです。",
+          "reading": "いなかはしずかです。",
+          "vi": "Nông thôn yên tĩnh."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 223,
+      "hiragana": "にぎやか",
+      "kanji": null,
+      "meaning_vi": "nhộn nhịp",
+      "examples": [
+        {
+          "jp": "町はにぎやかです。",
+          "reading": "まちはにぎやかです。",
+          "vi": "Thành phố nhộn nhịp."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 224,
+      "hiragana": "ゆうめい",
+      "kanji": "有名",
+      "meaning_vi": "nổi tiếng",
+      "examples": [
+        {
+          "jp": "さくら大学は有名です。",
+          "reading": "さくらだいがくはゆうめいです。",
+          "vi": "Đại học Sakura nổi tiếng."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 225,
+      "hiragana": "しんせつ",
+      "kanji": "親切",
+      "meaning_vi": "tốt bụng; nhiệt tình",
+      "examples": [
+        {
+          "jp": "先生は親切です。",
+          "reading": "せんせいはしんせつです。",
+          "vi": "Giáo viên tốt bụng."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 226,
+      "hiragana": "げんき",
+      "kanji": "元気",
+      "meaning_vi": "khỏe; tràn đầy năng lượng",
+      "examples": [
+        {
+          "jp": "お母さんは元気です。",
+          "reading": "おかあさんはげんきです。",
+          "vi": "Mẹ khỏe."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 227,
+      "hiragana": "べんり",
+      "kanji": "便利",
+      "meaning_vi": "tiện lợi",
+      "examples": [
+        {
+          "jp": "町の生活は便利です。",
+          "reading": "まちのせいかつはべんりです。",
+          "vi": "Cuộc sống ở thành phố tiện lợi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 228,
+      "hiragana": "おもしろい",
+      "kanji": null,
+      "meaning_vi": "thú vị",
+      "examples": [
+        {
+          "jp": "仕事はおもしろいです。",
+          "reading": "しごとはおもしろいです。",
+          "vi": "Công việc thú vị."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 229,
+      "hiragana": "いそがしい",
+      "kanji": "忙しい",
+      "meaning_vi": "bận",
+      "examples": [
+        {
+          "jp": "毎日とても忙しいです。",
+          "reading": "まいにちとてもいそがしいです。",
+          "vi": "Mỗi ngày rất bận."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 230,
+      "hiragana": "たのしい",
+      "kanji": "楽しい",
+      "meaning_vi": "vui; thú vị",
+      "examples": [
+        {
+          "jp": "日本の生活は楽しいです。",
+          "reading": "にほんのせいかつはたのしいです。",
+          "vi": "Cuộc sống ở Nhật vui."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 231,
+      "hiragana": "すき",
+      "kanji": "好き",
+      "meaning_vi": "thích",
+      "examples": [
+        {
+          "jp": "サッカーが好きです。",
+          "reading": "さっかーがすきです。",
+          "vi": "Tôi thích bóng đá."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 232,
+      "hiragana": "きらい",
+      "kanji": "嫌い",
+      "meaning_vi": "ghét; không thích",
+      "examples": [
+        {
+          "jp": "魚が嫌いです。",
+          "reading": "さかながきらいです。",
+          "vi": "Tôi không thích cá."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 233,
+      "hiragana": "じょうず",
+      "kanji": "上手",
+      "meaning_vi": "giỏi",
+      "examples": [
+        {
+          "jp": "奥さんは料理が上手です。",
+          "reading": "おくさんはりょうりがじょうずです。",
+          "vi": "Vợ anh ấy nấu ăn giỏi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 234,
+      "hiragana": "へた",
+      "kanji": "下手",
+      "meaning_vi": "kém; không giỏi",
+      "examples": [
+        {
+          "jp": "父は歌が下手です。",
+          "reading": "ちちはうたがへたです。",
+          "vi": "Bố tôi hát không giỏi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 235,
+      "hiragana": "わかります",
+      "kanji": null,
+      "meaning_vi": "hiểu",
+      "examples": [
+        {
+          "jp": "日本語が少しわかります。",
+          "reading": "にほんごがすこしわかります。",
+          "vi": "Tôi hiểu một chút tiếng Nhật."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 236,
+      "hiragana": "あります",
+      "kanji": null,
+      "meaning_vi": "có; tồn tại (vật), có (thời gian/việc/tiền)",
+      "examples": [
+        {
+          "jp": "時間があります。",
+          "reading": "じかんがあります。",
+          "vi": "Tôi có thời gian."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 237,
+      "hiragana": "りょうり",
+      "kanji": "料理",
+      "meaning_vi": "món ăn; nấu ăn",
+      "examples": [
+        {
+          "jp": "日本料理が好きです。",
+          "reading": "にほんりょうりがすきです。",
+          "vi": "Tôi thích món Nhật."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 238,
+      "hiragana": "おんがく",
+      "kanji": "音楽",
+      "meaning_vi": "âm nhạc",
+      "examples": [
+        {
+          "jp": "クラシックの音楽が好きです。",
+          "reading": "くらしっくのおんがくがすきです。",
+          "vi": "Tôi thích nhạc cổ điển."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 239,
+      "hiragana": "じかん",
+      "kanji": "時間",
+      "meaning_vi": "thời gian",
+      "examples": [
+        {
+          "jp": "今日は時間がありません。",
+          "reading": "きょうはじかんがありません。",
+          "vi": "Hôm nay tôi không có thời gian."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 240,
+      "hiragana": "やくそく",
+      "kanji": "約束",
+      "meaning_vi": "cuộc hẹn; lời hứa",
+      "examples": [
+        {
+          "jp": "友達と約束があります。",
+          "reading": "ともだちとやくそくがあります。",
+          "vi": "Tôi có hẹn với bạn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 241,
+      "hiragana": "います",
+      "kanji": null,
+      "meaning_vi": "có; tồn tại (người/động vật)",
+      "examples": [
+        {
+          "jp": "庭に猫がいます。",
+          "reading": "にわにねこがいます。",
+          "vi": "Có con mèo ở sân."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 242,
+      "hiragana": "うえ",
+      "kanji": "上",
+      "meaning_vi": "trên",
+      "examples": [
+        {
+          "jp": "ピアノの上に花があります。",
+          "reading": "ぴあののうえにはながあります。",
+          "vi": "Có hoa trên đàn piano."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 243,
+      "hiragana": "した",
+      "kanji": "下",
+      "meaning_vi": "dưới",
+      "examples": [
+        {
+          "jp": "ベッドの下に猫がいます。",
+          "reading": "べっどのしたにねこがいます。",
+          "vi": "Có con mèo dưới giường."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 244,
+      "hiragana": "まえ",
+      "kanji": "前",
+      "meaning_vi": "trước",
+      "examples": [
+        {
+          "jp": "駅の前で会います。",
+          "reading": "えきのまえであいます。",
+          "vi": "Gặp nhau trước ga."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 245,
+      "hiragana": "うしろ",
+      "kanji": "後ろ",
+      "meaning_vi": "sau; phía sau",
+      "examples": [
+        {
+          "jp": "女の人の後ろに地図があります。",
+          "reading": "おんなのひとのうしろにちずがあります。",
+          "vi": "Có bản đồ phía sau người phụ nữ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 246,
+      "hiragana": "みぎ",
+      "kanji": "右",
+      "meaning_vi": "bên phải",
+      "examples": [
+        {
+          "jp": "町の右の上に木があります。",
+          "reading": "まちのみぎのうえにきがあります。",
+          "vi": "Có cây ở phía trên bên phải của thị trấn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 247,
+      "hiragana": "ひだり",
+      "kanji": "左",
+      "meaning_vi": "bên trái",
+      "examples": [
+        {
+          "jp": "町の左に男の人がいます。",
+          "reading": "まちのひだりにおとこのひとがいます。",
+          "vi": "Có người đàn ông bên trái thị trấn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 248,
+      "hiragana": "なか",
+      "kanji": "中",
+      "meaning_vi": "trong; bên trong",
+      "examples": [
+        {
+          "jp": "木の中に男の人と女の人がいます。",
+          "reading": "きのなかにおとこのひととおんなのひとがいます。",
+          "vi": "Trong cây có một người đàn ông và một người phụ nữ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 249,
+      "hiragana": "そと",
+      "kanji": "外",
+      "meaning_vi": "ngoài; bên ngoài",
+      "examples": [
+        {
+          "jp": "部屋の外に犬がいます。",
+          "reading": "へやのそとにいぬがいます。",
+          "vi": "Có con chó ở ngoài phòng."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 250,
+      "hiragana": "ちかく",
+      "kanji": "近く",
+      "meaning_vi": "gần",
+      "examples": [
+        {
+          "jp": "窓の近くに男の人がいます。",
+          "reading": "まどのちかくにおとこのひとがいます。",
+          "vi": "Có một người đàn ông gần cửa sổ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 251,
+      "hiragana": "すいます",
+      "kanji": "吸います",
+      "meaning_vi": "hút",
+      "examples": [
+        {
+          "jp": "たばこを吸いません。",
+          "reading": "たばこをすいません。",
+          "vi": "Tôi không hút thuốc."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 252,
+      "hiragana": "ごはん",
+      "kanji": null,
+      "meaning_vi": "cơm; bữa ăn",
+      "examples": [
+        {
+          "jp": "食堂でごはんを食べます。",
+          "reading": "しょくどうでごはんをたべます。",
+          "vi": "Tôi ăn cơm ở nhà ăn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 253,
+      "hiragana": "あさごはん",
+      "kanji": "朝ごはん",
+      "meaning_vi": "bữa sáng",
+      "examples": [
+        {
+          "jp": "毎朝朝ごはんを食べます。",
+          "reading": "まいあさあさごはんをたべます。",
+          "vi": "Mỗi sáng tôi ăn sáng."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 254,
+      "hiragana": "ひるごはん",
+      "kanji": "昼ごはん",
+      "meaning_vi": "bữa trưa",
+      "examples": [
+        {
+          "jp": "吉野山で昼ごはんを食べます。",
+          "reading": "よしのやまでひるごはんをたべます。",
+          "vi": "Tôi ăn trưa ở núi Yoshino."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 255,
+      "hiragana": "ばんごはん",
+      "kanji": "晩ごはん",
+      "meaning_vi": "bữa tối",
+      "examples": [
+        {
+          "jp": "家で晩ごはんを食べます。",
+          "reading": "いえでばんごはんをたべます。",
+          "vi": "Tôi ăn tối ở nhà."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 256,
+      "hiragana": "やさい",
+      "kanji": "野菜",
+      "meaning_vi": "rau",
+      "examples": [
+        {
+          "jp": "ここの野菜はおいしいです。",
+          "reading": "ここのやさいはおいしいです。",
+          "vi": "Rau ở đây ngon."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 257,
+      "hiragana": "くだもの",
+      "kanji": "果物",
+      "meaning_vi": "trái cây",
+      "examples": [
+        {
+          "jp": "スーパーで果物を買います。",
+          "reading": "すーぱーでくだものをかいます。",
+          "vi": "Tôi mua trái cây ở siêu thị."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 258,
+      "hiragana": "みず",
+      "kanji": "水",
+      "meaning_vi": "nước",
+      "examples": [
+        {
+          "jp": "冷たい水を飲みます。",
+          "reading": "つめたいみずをのみます。",
+          "vi": "Tôi uống nước lạnh."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 259,
+      "hiragana": "おちゃ",
+      "kanji": "お茶",
+      "meaning_vi": "trà",
+      "examples": [
+        {
+          "jp": "喫茶店でお茶を飲みます。",
+          "reading": "きっさてんでおちゃをのみます。",
+          "vi": "Tôi uống trà ở quán."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 260,
+      "hiragana": "えいが",
+      "kanji": "映画",
+      "meaning_vi": "phim",
+      "examples": [
+        {
+          "jp": "きのうおもしろい映画を見ました。",
+          "reading": "きのうおもしろいえいがをみました。",
+          "vi": "Hôm qua tôi xem một bộ phim thú vị."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 261,
+      "hiragana": "はし",
+      "kanji": null,
+      "meaning_vi": "đũa",
+      "examples": [
+        {
+          "jp": "はしでごはんを食べます。",
+          "reading": "はしでごはんをたべます。",
+          "vi": "Tôi ăn cơm bằng đũa."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 262,
+      "hiragana": "すぷーん",
+      "kanji": null,
+      "meaning_vi": "thìa",
+      "examples": [
+        {
+          "jp": "スプーンでごはんを食べます。",
+          "reading": "すぷーんでごはんをたべます。",
+          "vi": "Tôi ăn cơm bằng thìa."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 263,
+      "hiragana": "ないふ",
+      "kanji": null,
+      "meaning_vi": "dao",
+      "examples": [
+        {
+          "jp": "ナイフで肉を切ります。",
+          "reading": "ないふでにくをきります。",
+          "vi": "Tôi cắt thịt bằng dao."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 264,
+      "hiragana": "ふぉーく",
+      "kanji": null,
+      "meaning_vi": "nĩa",
+      "examples": [
+        {
+          "jp": "フォークで食べます。",
+          "reading": "ふぉーくでたべます。",
+          "vi": "Tôi ăn bằng nĩa."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 265,
+      "hiragana": "はさみ",
+      "kanji": null,
+      "meaning_vi": "kéo",
+      "examples": [
+        {
+          "jp": "はさみで紙を切ります。",
+          "reading": "はさみでかみをきります。",
+          "vi": "Tôi cắt giấy bằng kéo."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 266,
+      "hiragana": "ぱそこん",
+      "kanji": null,
+      "meaning_vi": "máy tính cá nhân",
+      "examples": [
+        {
+          "jp": "パソコンでメールを送ります。",
+          "reading": "ぱそこんでめーるをおくります。",
+          "vi": "Tôi gửi email bằng máy tính."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 267,
+      "hiragana": "めーる",
+      "kanji": null,
+      "meaning_vi": "email",
+      "examples": [
+        {
+          "jp": "もうメールを送りました。",
+          "reading": "もうめーるをおくりました。",
+          "vi": "Tôi đã gửi email rồi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 268,
+      "hiragana": "ねんがじょう",
+      "kanji": "年賀状",
+      "meaning_vi": "thiệp chúc mừng năm mới",
+      "examples": [
+        {
+          "jp": "先生に年賀状を書きます。",
+          "reading": "せんせいにねんがじょうをかきます。",
+          "vi": "Tôi viết thiệp năm mới cho giáo viên."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 269,
+      "hiragana": "ぷれぜんと",
+      "kanji": null,
+      "meaning_vi": "quà tặng",
+      "examples": [
+        {
+          "jp": "子どもにプレゼントをあげます。",
+          "reading": "こどもにぷれぜんとをあげます。",
+          "vi": "Tôi tặng quà cho trẻ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 270,
+      "hiragana": "まだ",
+      "kanji": null,
+      "meaning_vi": "vẫn chưa",
+      "examples": [
+        {
+          "jp": "いいえ、まだです。",
+          "reading": "いいえ、まだです。",
+          "vi": "Không, vẫn chưa."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 271,
+      "hiragana": "ひま",
+      "kanji": "暇",
+      "meaning_vi": "rảnh",
+      "examples": [
+        {
+          "jp": "今日は暇です。",
+          "reading": "きょうはひまです。",
+          "vi": "Hôm nay tôi rảnh."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 272,
+      "hiragana": "すてき",
+      "kanji": null,
+      "meaning_vi": "tuyệt; đẹp",
+      "examples": [
+        {
+          "jp": "すてきな部屋ですね。",
+          "reading": "すてきなへやですね。",
+          "vi": "Căn phòng đẹp nhỉ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 273,
+      "hiragana": "おおきい",
+      "kanji": "大きい",
+      "meaning_vi": "to; lớn",
+      "examples": [
+        {
+          "jp": "大きい町です。",
+          "reading": "おおきいまちです。",
+          "vi": "Đó là một thành phố lớn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 274,
+      "hiragana": "ちいさい",
+      "kanji": "小さい",
+      "meaning_vi": "nhỏ",
+      "examples": [
+        {
+          "jp": "小さい大学です。",
+          "reading": "ちいさいだいがくです。",
+          "vi": "Đó là một trường đại học nhỏ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 275,
+      "hiragana": "あたらしい",
+      "kanji": "新しい",
+      "meaning_vi": "mới",
+      "examples": [
+        {
+          "jp": "新しいカメラを買いました。",
+          "reading": "あたらしいかめらをかいました。",
+          "vi": "Tôi đã mua máy ảnh mới."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 276,
+      "hiragana": "ふるい",
+      "kanji": "古い",
+      "meaning_vi": "cũ",
+      "examples": [
+        {
+          "jp": "古いうちを買いました。",
+          "reading": "ふるいうちをかいました。",
+          "vi": "Tôi đã mua một căn nhà cũ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 277,
+      "hiragana": "あつい",
+      "kanji": "暑い",
+      "meaning_vi": "nóng (thời tiết)",
+      "examples": [
+        {
+          "jp": "今日は暑いです。",
+          "reading": "きょうはあついです。",
+          "vi": "Hôm nay trời nóng."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 278,
+      "hiragana": "さむい",
+      "kanji": "寒い",
+      "meaning_vi": "lạnh (thời tiết)",
+      "examples": [
+        {
+          "jp": "長野は寒いです。",
+          "reading": "ながのはさむいです。",
+          "vi": "Nagano lạnh."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 279,
+      "hiragana": "たかい",
+      "kanji": "高い",
+      "meaning_vi": "cao; đắt",
+      "examples": [
+        {
+          "jp": "食べ物が高いです。",
+          "reading": "たべものがたかいです。",
+          "vi": "Đồ ăn đắt."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 280,
+      "hiragana": "やすい",
+      "kanji": "安い",
+      "meaning_vi": "rẻ",
+      "examples": [
+        {
+          "jp": "この店は安いです。",
+          "reading": "このみせはやすいです。",
+          "vi": "Cửa hàng này rẻ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 281,
+      "hiragana": "すぽーつ",
+      "kanji": null,
+      "meaning_vi": "thể thao",
+      "examples": [
+        {
+          "jp": "どんなスポーツが好きですか。",
+          "reading": "どんなすぽーつがすきですか。",
+          "vi": "Bạn thích môn thể thao nào?"
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 282,
+      "hiragana": "やきゅう",
+      "kanji": "野球",
+      "meaning_vi": "bóng chày",
+      "examples": [
+        {
+          "jp": "野球が好きです。",
+          "reading": "やきゅうがすきです。",
+          "vi": "Tôi thích bóng chày."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 283,
+      "hiragana": "だんす",
+      "kanji": null,
+      "meaning_vi": "khiêu vũ",
+      "examples": [
+        {
+          "jp": "ダンスがとても上手です。",
+          "reading": "だんすがとてもじょうずです。",
+          "vi": "Khiêu vũ rất giỏi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 284,
+      "hiragana": "うた",
+      "kanji": "歌",
+      "meaning_vi": "bài hát; hát",
+      "examples": [
+        {
+          "jp": "父は歌が下手です。",
+          "reading": "ちちはうたがへたです。",
+          "vi": "Bố tôi hát không giỏi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 285,
+      "hiragana": "くらしっく",
+      "kanji": null,
+      "meaning_vi": "nhạc cổ điển",
+      "examples": [
+        {
+          "jp": "クラシックが好きです。",
+          "reading": "くらしっくがすきです。",
+          "vi": "Tôi thích nhạc cổ điển."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 286,
+      "hiragana": "こんさーと",
+      "kanji": null,
+      "meaning_vi": "buổi hòa nhạc",
+      "examples": [
+        {
+          "jp": "コンサートへ行きませんか。",
+          "reading": "こんさーとへいきませんか。",
+          "vi": "Bạn đi hòa nhạc cùng tôi không?"
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 287,
+      "hiragana": "からおけ",
+      "kanji": null,
+      "meaning_vi": "karaoke",
+      "examples": [
+        {
+          "jp": "友達とカラオケへ行きます。",
+          "reading": "ともだちとからおけへいきます。",
+          "vi": "Tôi đi karaoke với bạn."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 288,
+      "hiragana": "え",
+      "kanji": "絵",
+      "meaning_vi": "tranh; bức vẽ",
+      "examples": [
+        {
+          "jp": "カリナさんは絵が上手です。",
+          "reading": "かりなさんはえがじょうずです。",
+          "vi": "Karina vẽ giỏi."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 289,
+      "hiragana": "ようじ",
+      "kanji": "用事",
+      "meaning_vi": "việc cần làm",
+      "examples": [
+        {
+          "jp": "用事がありますから、早く帰ります。",
+          "reading": "ようじがありますから、はやくかえります。",
+          "vi": "Vì có việc nên tôi về sớm."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 290,
+      "hiragana": "どうして",
+      "kanji": null,
+      "meaning_vi": "tại sao",
+      "examples": [
+        {
+          "jp": "どうして早く帰りましたか。",
+          "reading": "どうしてはやくかえりましたか。",
+          "vi": "Tại sao bạn về sớm?"
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 291,
+      "hiragana": "おとこのひと",
+      "kanji": "男の人",
+      "meaning_vi": "người đàn ông",
+      "examples": [
+        {
+          "jp": "窓の近くに男の人がいます。",
+          "reading": "まどのちかくにおとこのひとがいます。",
+          "vi": "Có một người đàn ông gần cửa sổ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 292,
+      "hiragana": "おんなのひと",
+      "kanji": "女の人",
+      "meaning_vi": "người phụ nữ",
+      "examples": [
+        {
+          "jp": "ピアノの前に女の人がいます。",
+          "reading": "ぴあののまえにおんなのひとがいます。",
+          "vi": "Có một người phụ nữ trước đàn piano."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 293,
+      "hiragana": "いぬ",
+      "kanji": "犬",
+      "meaning_vi": "chó",
+      "examples": [
+        {
+          "jp": "木の下に犬がいます。",
+          "reading": "きのしたにいぬがいます。",
+          "vi": "Có một con chó dưới cây."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 294,
+      "hiragana": "ねこ",
+      "kanji": "猫",
+      "meaning_vi": "mèo",
+      "examples": [
+        {
+          "jp": "女の人のそばに猫がいます。",
+          "reading": "おんなのひとのそばにねこがいます。",
+          "vi": "Có con mèo bên cạnh người phụ nữ."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 295,
+      "hiragana": "き",
+      "kanji": "木",
+      "meaning_vi": "cây",
+      "examples": [
+        {
+          "jp": "木の下に犬がいます。",
+          "reading": "きのしたにいぬがいます。",
+          "vi": "Có con chó dưới cây."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 296,
+      "hiragana": "はこ",
+      "kanji": "箱",
+      "meaning_vi": "hộp",
+      "examples": [
+        {
+          "jp": "箱の中に写真があります。",
+          "reading": "はこのなかにしゃしんがあります。",
+          "vi": "Có ảnh trong hộp."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 297,
+      "hiragana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "meaning_vi": "tủ lạnh",
+      "examples": [
+        {
+          "jp": "飲み物は冷蔵庫の中にあります。",
+          "reading": "のみものはれいぞうこのなかにあります。",
+          "vi": "Đồ uống ở trong tủ lạnh."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 298,
+      "hiragana": "あいだ",
+      "kanji": "間",
+      "meaning_vi": "giữa; khoảng",
+      "examples": [
+        {
+          "jp": "本屋は郵便局と喫茶店の間にあります。",
+          "reading": "ほんやはゆうびんきょくときっさてんのあいだにあります。",
+          "vi": "Hiệu sách ở giữa bưu điện và quán cà phê."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 299,
+      "hiragana": "となり",
+      "kanji": "隣",
+      "meaning_vi": "bên cạnh",
+      "examples": [
+        {
+          "jp": "佐藤さんの隣に男の人がいます。",
+          "reading": "さとうさんのとなりにおとこのひとがいます。",
+          "vi": "Có một người đàn ông bên cạnh anh Sato."
+        }
+      ],
+      "notes_vi": []
+    },
+    {
+      "id": 300,
+      "hiragana": "たな",
+      "kanji": "棚",
+      "meaning_vi": "giá; kệ",
+      "examples": [
+        {
+          "jp": "卵はあの棚の上にあります。",
+          "reading": "たまごはあのたなのうえにあります。",
+          "vi": "Trứng ở trên cái kệ kia."
+        }
+      ],
+      "notes_vi": []
+    }
+  ]
+}

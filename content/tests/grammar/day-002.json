@@ -1,0 +1,723 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-002",
+  "type": "grammar",
+  "title": "Grammar Test — Day 2",
+  "study_day": 2,
+  "coverage": {
+    "from_day": 2,
+    "to_day": 2
+  },
+  "lesson_groups": [
+    {
+      "lesson": 6,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005"
+      ]
+    },
+    {
+      "lesson": 7,
+      "question_ids": [
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010"
+      ]
+    },
+    {
+      "lesson": 8,
+      "question_ids": [
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015"
+      ]
+    },
+    {
+      "lesson": 9,
+      "question_ids": [
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020"
+      ]
+    },
+    {
+      "lesson": 10,
+      "question_ids": [
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "毎朝パンと卵＿＿食べます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "が"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Tân ngữ của 食べます dùng を."
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "大学の食堂＿＿昼ごはんを食べます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Địa điểm diễn ra hành động dùng で."
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "「いっしょにテニスを＿＿。」— lời mời phù hợp nhất là gì?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "します"
+            },
+            {
+              "id": "B",
+              "text": "しませんか"
+            },
+            {
+              "id": "C",
+              "text": "しました"
+            },
+            {
+              "id": "D",
+              "text": "しません"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Vませんか dùng để mời/rủ."
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "「ちょっと疲れましたね。」— câu đề nghị tự nhiên nhất?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "休みません"
+            },
+            {
+              "id": "B",
+              "text": "休みました"
+            },
+            {
+              "id": "C",
+              "text": "休みましょう"
+            },
+            {
+              "id": "D",
+              "text": "休みますか"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Vましょう dùng đề nghị cùng làm."
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "けさ何を食べましたか。— ＿＿食べませんでした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "何を"
+            },
+            {
+              "id": "B",
+              "text": "何が"
+            },
+            {
+              "id": "C",
+              "text": "何も"
+            },
+            {
+              "id": "D",
+              "text": "何で"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "何も + phủ định = không ... gì cả."
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "はし＿＿ごはんを食べます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Công cụ dùng で."
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "「Goodbye」は日本語＿＿何ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Ngôn ngữ/phương tiện biểu đạt dùng で."
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "わたしは木村さん＿＿花をあげます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Người nhận của あげます dùng に."
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "わたしはワットさん＿＿テレビをもらいました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Người cho trong mẫu もらいます có thể dùng に (hoặc から)."
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "もう新幹線の切符を買いましたか。— いいえ、＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もうです"
+            },
+            {
+              "id": "B",
+              "text": "まだです"
+            },
+            {
+              "id": "C",
+              "text": "ありません"
+            },
+            {
+              "id": "D",
+              "text": "しません"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Chưa hoàn thành: まだです."
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "さくら大学は有名＿＿大学です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "い"
+            },
+            {
+              "id": "C",
+              "text": "な"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Tính từ な bổ nghĩa danh từ cần な."
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "ペキンはあまり＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "寒いです"
+            },
+            {
+              "id": "B",
+              "text": "寒くないです"
+            },
+            {
+              "id": "C",
+              "text": "寒いじゃありません"
+            },
+            {
+              "id": "D",
+              "text": "寒くです"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "あまり đi với phủ định; i-adj phủ định ～くないです."
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "奈良は＿＿町ですか。— 古い町です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "どう"
+            },
+            {
+              "id": "B",
+              "text": "どんな"
+            },
+            {
+              "id": "C",
+              "text": "なに"
+            },
+            {
+              "id": "D",
+              "text": "どれ"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "どんな đứng trước danh từ."
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "大学の寮は古いです＿＿、便利です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そして"
+            },
+            {
+              "id": "B",
+              "text": "から"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "が nối hai vế tương phản."
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "「日本の生活はどうですか。」— câu trả lời phù hợp nhất?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "楽しいです。"
+            },
+            {
+              "id": "B",
+              "text": "どんなです。"
+            },
+            {
+              "id": "C",
+              "text": "生活です。"
+            },
+            {
+              "id": "D",
+              "text": "日本です。"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "どうですか hỏi nhận xét/trạng thái."
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "どんなスポーツ＿＿好きですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đối tượng của 好き dùng が."
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "日本語＿＿少しわかります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "が"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đối tượng của わかります dùng が."
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "今日は時間＿＿ありません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "“Có thời gian” dùng 時間があります."
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "タイ語が＿＿わかりません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とても"
+            },
+            {
+              "id": "B",
+              "text": "たくさん"
+            },
+            {
+              "id": "C",
+              "text": "全然"
+            },
+            {
+              "id": "D",
+              "text": "よく"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "全然 + phủ định = hoàn toàn không."
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "どうして早く帰りますか。— 用事が＿＿。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ありますから"
+            },
+            {
+              "id": "B",
+              "text": "ありますが"
+            },
+            {
+              "id": "C",
+              "text": "ありませんか"
+            },
+            {
+              "id": "D",
+              "text": "ありましたを"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "から nêu lý do."
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "ロビー＿＿佐藤さんがいます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Nơi tồn tại dùng に."
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "箱の中に古い手紙＿＿写真などがあります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と"
+            },
+            {
+              "id": "B",
+              "text": "や"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "や liệt kê không đầy đủ."
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "郵便局は駅の＿＿にあります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "近く"
+            },
+            {
+              "id": "B",
+              "text": "近い"
+            },
+            {
+              "id": "C",
+              "text": "近くで"
+            },
+            {
+              "id": "D",
+              "text": "近くを"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "近く là danh từ vị trí; ～の近くにあります."
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "庭に＿＿がいますか。— だれもいません。猫がいます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "何"
+            },
+            {
+              "id": "B",
+              "text": "だれ"
+            },
+            {
+              "id": "C",
+              "text": "どこ"
+            },
+            {
+              "id": "D",
+              "text": "いつ"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Nguồn hỏi người bằng だれがいますか; câu trả lời cho biết không có người, nhưng có mèo."
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "本屋は郵便局と喫茶店の＿＿にあります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "上"
+            },
+            {
+              "id": "B",
+              "text": "中"
+            },
+            {
+              "id": "C",
+              "text": "間"
+            },
+            {
+              "id": "D",
+              "text": "前"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "AとBの間 = giữa A và B."
+        }
+      ]
+    }
+  ]
+}
