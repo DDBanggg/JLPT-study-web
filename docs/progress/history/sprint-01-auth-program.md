@@ -1,5 +1,7 @@
 # Sprint 1 — Infrastructure, Auth and Program
 
+> Historical combined tracker. Active planning is now split into Backend, Frontend, and CI/CD roadmaps under `docs/progress/`.
+
 Status: `IN_PROGRESS`  
 Started: 2026-08-28  
 Completed: —

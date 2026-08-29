@@ -1,4 +1,4 @@
-# N3 Study Web — Agent Handoff & Task Split v1.1
+# N3 Study Web — Agent Handoff & Task Split v1.2
 
 **Status:** Ready for execution  
 **Date:** 2026-08-29
@@ -8,6 +8,7 @@ This document defines how work is split between:
 - **ChatGPT** — context/specification authority
 - **Codex** — backend implementation
 - **Antigravity** — frontend implementation
+- **Repository/platform maintainer** — CI/CD, environments, deployment, and repository governance
 
 The shared technical contract is defined by:
 
@@ -56,6 +57,8 @@ Owns:
 - backend validation
 - backend tests
 
+Codex is backend-only. Codex must not implement frontend presentation or own GitHub Actions, Vercel deployment, repository settings, production secrets, release promotion, or rollback operations.
+
 ## Antigravity
 
 Owns:
@@ -74,6 +77,16 @@ Owns:
 - visual styling
 - client-side interactions
 
+## Repository / platform maintainer
+
+Owns:
+- GitHub repository settings and branch protection;
+- CI workflow implementation and maintenance;
+- Vercel preview and production environments;
+- CI/CD secrets and environment configuration;
+- database migration promotion and production apply policy;
+- deployment approval, release, and rollback procedures.
+
 ---
 
 # 2. File ownership
@@ -81,32 +94,28 @@ Owns:
 ## Codex-owned
 
 ```text
-app/api/**
-lib/server/**
-lib/data/**
-lib/auth/**
-lib/progress/**
-lib/scoring/**
+src/app/api/**
+src/lib/auth/**
+src/lib/data/**
+src/lib/progress/**
+src/lib/roadmap/**
+src/lib/scoring/**
+src/lib/supabase/**
+src/lib/utils/** (backend-specific only)
 supabase/**
 scripts/content-validation/**
 tests/backend/**
 ```
 
-Codex may also create server-only utilities in:
-
-```text
-lib/**
-```
-
-provided they are clearly backend-specific.
+Codex authors backend migrations under `supabase/**`; CI/CD owns how approved migrations are promoted and applied to environments.
 
 ## Antigravity-owned
 
 ```text
-app/(authenticated)/**
-app/login/**
-app/setup/**
-components/**
+src/app/(authenticated)/**
+src/app/login/**
+src/app/setup/**
+src/components/**
 styles/**
 public/**
 tests/frontend/**
@@ -114,12 +123,24 @@ tests/frontend/**
 
 Actual Next.js folder grouping may vary, but frontend pages/components remain Antigravity-owned.
 
+## CI/CD-owned
+
+```text
+.github/workflows/**
+deployment and environment configuration
+repository protection/settings
+CI/CD runbooks
+release and rollback procedures
+```
+
+CI/CD may execute validation and approved migration commands. It does not own backend schema design or application business logic.
+
 ## Shared/frozen
 
 ```text
 content/**
-types/**
-contracts/**
+src/types/**
+docs/specs/**
 ```
 
 Shared areas should not be changed unilaterally after contract freeze.
@@ -140,6 +161,7 @@ Recommended branches:
 main
 backend/*
 frontend/*
+cicd/*
 ```
 
 Examples:
@@ -154,12 +176,17 @@ frontend/app-shell
 frontend/schedule
 frontend/learn
 frontend/test-ui
+
+cicd/quality-gates
+cicd/vercel-preview
 ```
 
 Rules:
 - `main` should remain integration-ready
 - backend does not modify frontend visual files
 - frontend does not modify Supabase migrations/server logic
+- Codex does not modify CI/CD/deployment ownership areas
+- CI/CD does not redefine backend/frontend contracts
 - shared contract changes are isolated and reviewed before merge
 
 ---
@@ -183,6 +210,11 @@ Antigravity:
 - collapsible Sidebar
 - base navigation
 - Light theme
+
+Repository/platform maintainer:
+- repository visibility/access verified
+- branch protection and required validation policy defined
+- preview/production environment ownership documented
 
 Integration proof:
 - frontend can call one authenticated test endpoint
@@ -528,7 +560,62 @@ Deliver:
 
 ---
 
-# 7. ChatGPT task order
+# 7. CI/CD task order
+
+## CI1 — Repository governance
+
+Deliver:
+- protected default branch policy
+- pull-request review requirements
+- documented repository roles
+- documented environment and secret ownership
+
+## CI2 — Pull-request quality gates
+
+Deliver:
+- automated lint check
+- automated typecheck
+- automated production build
+- automated content validation
+- automated backend test execution
+
+## CI3 — Preview environment
+
+Deliver:
+- preview deployment for pull requests
+- preview-safe environment configuration
+- Supabase isolation policy for previews
+- failure visibility for reviewers
+
+## CI4 — Production deployment
+
+Deliver:
+- production deployment from an approved branch or release
+- production environment validation
+- deployment health check
+- documented manual recovery path
+
+## CI5 — Database migration promotion
+
+Deliver:
+- migration review gate
+- staging-before-production policy
+- migration ordering and auditability
+- backup and rollback decision procedure
+
+## CI6 — Release and rollback
+
+Deliver:
+- release checklist
+- version/tag convention
+- rollback runbook
+- incident ownership and post-release verification
+
+CI/CD work must not redefine application contracts or modify backend/frontend business logic to make a pipeline pass.
+
+---
+
+# 8. ChatGPT task order
 
 ## C1 — Maintain source-of-truth
 
@@ -582,7 +669,7 @@ Migration impact
 
 ---
 
-# 8. Agent handoff packet
+# 9. Agent handoff packet
 
 ## Packet for Codex
 
@@ -626,39 +713,46 @@ Do not invent backend business logic in the UI.
 Mobile is out of scope until desktop is approved.
 ```
 
+## Packet for repository/platform maintainer
+
+Give the repository/platform maintainer:
+
+1. `N3_Study_Web_Implementation_Plan.md`
+2. `N3_Study_Web_FE_BE_Contract_v1.md`
+3. `N3_Study_Web_JSON_Schema_v1.md`
+4. `N3_Study_Web_SQL_Schema_v1.sql`
+5. `N3_Study_Web_Test_Scoring_v1.md`
+6. this Agent Handoff file
+7. `docs/progress/CICD_ROADMAP.md`
+
+Primary instruction:
+
+```text
+Implement repository automation, environment promotion, deployment, and release controls only.
+Do not change application contracts or backend/frontend business logic to make a pipeline pass.
+Do not expose secrets, force-push protected branches, or apply unreviewed production migrations.
+```
+
 ---
 
-# 9. Recommended start sequence
+# 10. Recommended start sequence
 
-Do not start every feature simultaneously.
-
-Start with:
+Workstreams advance independently against the frozen contract. Current next milestones are:
 
 ```text
 Codex:
-B1 Foundation
-B2 SQL
-B3 Auth
+B5 Roadmap + Schedule backend
 
 Antigravity:
 F1 AppShell
 F2 Login + Setup shell
+
+Repository/platform maintainer:
+CI1 Repository governance
+CI2 Pull-request quality gates
 ```
 
-Then integrate.
-
-Next:
-
-```text
-Codex:
-B4 Program
-B5 Schedule
-
-Antigravity:
-F3 Schedule
-```
-
-Only after Schedule integration succeeds:
+After Schedule integration succeeds:
 
 ```text
 Learn modules
@@ -669,7 +763,7 @@ Learn modules
 
 ---
 
-# 10. Definition of successful parallel work
+# 11. Definition of successful parallel work
 
 Parallel execution is healthy when:
 
@@ -680,10 +774,12 @@ Parallel execution is healthy when:
 - Content Pending works naturally
 - backend remains authoritative for state/business rules
 - frontend remains authoritative for presentation/interactions
+- CI/CD remains authoritative for validation, environment promotion, and deployment operations
+- Codex remains backend-only throughout the workflow
 
 ---
 
-# 11. Current scope boundary
+# 12. Current scope boundary
 
 Current target:
 

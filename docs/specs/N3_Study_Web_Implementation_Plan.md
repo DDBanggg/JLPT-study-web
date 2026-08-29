@@ -37,6 +37,8 @@ Owns:
 - content validation/backend utilities
 - backend tests
 
+Codex is backend-only. Codex does not own frontend implementation, GitHub Actions, repository administration, Vercel deployment, release promotion, or production secret management.
+
 ### Antigravity
 Owns:
 - frontend implementation
@@ -48,11 +50,33 @@ Owns:
 - Calendar UI
 - visual/interaction implementation
 
-Detailed ticket allocation and sequencing will be decided separately.
+### Repository / platform maintainer
+
+Owns CI/CD:
+- GitHub repository settings and branch protection;
+- automated pull-request validation;
+- Vercel preview and production deployment;
+- environment and secret management;
+- database migration promotion policy;
+- release and rollback runbooks.
+
+Detailed ticket allocation, sequencing, and status are maintained in the workstream roadmaps below.
+
+## Workstream roadmaps
+
+Implementation progress is tracked independently:
+
+```text
+Backend  → docs/progress/BACKEND_ROADMAP.md
+Frontend → docs/progress/FRONTEND_ROADMAP.md
+CI/CD    → docs/progress/CICD_ROADMAP.md
+```
+
+The product phases below are integration milestones, not shared ownership assignments. A phase can require deliverables from more than one workstream without giving Codex frontend or CI/CD ownership.
 
 ## Critical precondition for parallel work
 
-Before Codex and Antigravity work independently, freeze the shared contract for:
+Before Backend, Frontend, and CI/CD work independently, freeze the shared contract for:
 - routes
 - JSON schemas
 - SQL schema
@@ -378,18 +402,12 @@ Desktop MVP is ready when:
 
 Only then begin mobile.
 
-## Next planning artifact
+## Active execution artifacts
 
-Before assigning tasks to Codex and Antigravity, create:
+The frontend–backend contract and handoff specifications are frozen. Execution now follows:
 
-**Frontend–Backend Contract / Handoff Spec**
+- `docs/progress/BACKEND_ROADMAP.md`
+- `docs/progress/FRONTEND_ROADMAP.md`
+- `docs/progress/CICD_ROADMAP.md`
 
-It should freeze:
-- route map
-- exact JSON schemas
-- exact SQL schema
-- shared TypeScript data shapes
-- server actions/mutations
-- expected responses
-- error/loading/Content Pending states
-- ownership boundaries
+Update the relevant roadmap when a work item starts, becomes blocked, or is completed. Shared contract changes still require source-of-truth review before implementation.

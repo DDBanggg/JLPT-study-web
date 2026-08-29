@@ -43,7 +43,7 @@ npm run validate-content
 
 ## Folder ownership
 
-Codex owns backend implementation in:
+Codex is used for backend implementation only. Codex owns:
 
 ```text
 src/app/api/**
@@ -59,6 +59,8 @@ scripts/content-validation/**
 tests/backend/**
 ```
 
+Codex does not own frontend pages/components or CI/CD configuration and deployment.
+
 Antigravity owns later frontend work in:
 
 ```text
@@ -66,6 +68,17 @@ src/app frontend pages
 src/components/**
 frontend presentation/styles
 tests/frontend/**
+```
+
+The repository/platform maintainer owns CI/CD:
+
+```text
+.github/workflows/**
+branch protection and repository settings
+Vercel configuration and deployment
+environment/secret management
+database migration promotion
+release and rollback operations
 ```
 
 Shared/frozen areas are:

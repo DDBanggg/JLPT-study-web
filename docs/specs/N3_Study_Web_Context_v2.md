@@ -289,7 +289,8 @@ Mobile is intentionally deferred until desktop runs smoothly.
 ## Current agent operating model
 
 - **ChatGPT** — context, specifications, source-of-truth documents, cross-agent consistency
-- **Codex** — backend implementation
+- **Codex** — backend implementation only; no frontend or CI/CD ownership
 - **Antigravity** — frontend implementation
+- **Repository/platform maintainer** — CI/CD, repository governance, environments, deployment, and release operations
 
-Detailed task allocation and handoff rules will be decided separately.
+Detailed task allocation, handoff rules, and status are maintained in the Backend, Frontend, and CI/CD roadmaps under `docs/progress/`.
