@@ -70,18 +70,18 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
 
   return (
     <header
-      className={`w-full border-b border-slate-200 bg-white px-8 py-4 transition-colors ${className}`}
+      className={`w-full border-b border-slate-200 bg-white px-4 py-3 sm:px-8 sm:py-4 transition-colors ${className}`}
       data-testid="top-progress-header"
     >
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-6">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 sm:gap-6">
         {/* Study Progress Area */}
-        <div className="flex min-w-[280px] flex-1 items-center gap-4">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
-            <TargetIcon className="h-5 w-5" />
+        <div className="flex min-w-[240px] flex-1 items-center gap-3 sm:gap-4">
+          <div className="flex h-9 w-9 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+            <TargetIcon className="h-4 w-4 sm:h-5 sm:w-5" />
           </div>
           <div className="flex-1">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-medium text-slate-500 uppercase tracking-wider">
+              <span className="font-medium text-slate-500 uppercase tracking-wider text-[11px] sm:text-xs">
                 Tiến độ học tập
               </span>
               <span className="font-semibold text-slate-800">
@@ -89,7 +89,7 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
                 <span className="font-normal text-slate-400">/ 100</span>
               </span>
             </div>
-            <div className="mt-1.5 flex items-center gap-3">
+            <div className="mt-1 flex items-center gap-2 sm:gap-3">
               <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100">
                 <div
                   className="h-full rounded-full bg-blue-600 transition-all duration-300 ease-out"
@@ -100,7 +100,7 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
                   aria-valuemax={100}
                 />
               </div>
-              <span className="shrink-0 text-xs font-medium text-slate-600 tabular-nums">
+              <span className="shrink-0 text-[11px] sm:text-xs font-medium text-slate-600 tabular-nums">
                 {`${progressPercent}%`}
               </span>
             </div>
@@ -108,16 +108,16 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
         </div>
 
         {/* Exam Countdown Area */}
-        <div className="flex shrink-0 items-center gap-4 border-l border-slate-200 pl-6">
-          <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-50 text-amber-600">
-            <ClockIcon className="h-5 w-5" />
+        <div className="flex w-full sm:w-auto shrink-0 items-center gap-3 sm:gap-4 border-t sm:border-t-0 sm:border-l border-slate-100 sm:border-slate-200 pt-2 sm:pt-0 sm:pl-6">
+          <div className="flex h-9 w-9 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-lg bg-amber-50 text-amber-600">
+            <ClockIcon className="h-4 w-4 sm:h-5 sm:w-5" />
           </div>
           <div>
-            <div className="text-xs font-medium text-slate-500 uppercase tracking-wider">
+            <div className="text-[11px] sm:text-xs font-medium text-slate-500 uppercase tracking-wider">
               Kỳ thi JLPT N3
             </div>
-            <div className="mt-0.5 flex items-baseline gap-2">
-              <span className="text-lg font-semibold text-slate-900 tabular-nums">
+            <div className="mt-0.5 flex items-baseline gap-1.5 sm:gap-2">
+              <span className="text-base sm:text-lg font-semibold text-slate-900 tabular-nums">
                 {daysUntilExam !== undefined ? daysUntilExam : "—"}
               </span>
               <span className="text-xs font-medium text-slate-600">ngày còn lại</span>

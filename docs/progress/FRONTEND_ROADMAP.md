@@ -22,7 +22,7 @@ Codex is not assigned to this roadmap.
 | F10 | Desktop test-taking | COMPLETE | Shared question UI, navigator, submit warning and review work |
 | F11 | Calendar | COMPLETE | Month/day views render backend-derived statuses read-only |
 | F12 | Desktop stabilization | COMPLETE | Chrome QA, accessibility and error/pending/loading states pass |
-| F13 | Mobile adaptation | NOT_STARTED | Starts only after F12 and backend stabilization are complete |
+| F13 | Mobile adaptation | COMPLETE | Responsive layout, mobile navigation drawer, touch and card list views pass |
 
 ## Frontend rules
 

@@ -182,8 +182,8 @@ export function VocabTable({
         />
       )}
 
-      {/* Vocabulary Desktop Table */}
-      <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-2xs">
+      {/* Vocabulary Desktop Table (hidden md:block) */}
+      <div className="hidden md:block overflow-hidden rounded-xl border border-slate-200 bg-white shadow-2xs">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs text-slate-700">
             <thead className="border-b border-slate-200 bg-slate-50/80 text-[11px] font-semibold uppercase tracking-wider text-slate-500">
@@ -240,6 +240,48 @@ export function VocabTable({
             </tbody>
           </table>
         </div>
+      </div>
+
+      {/* Vocabulary Mobile Cards (md:hidden) */}
+      <div className="md:hidden space-y-3">
+        {activeItems.map((item, index) => (
+          <div
+            key={item.id}
+            data-testid={`vocab-card-${item.id}`}
+            className="rounded-xl border border-slate-200 bg-white p-4 shadow-2xs space-y-2"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-mono text-slate-400">#{index + 1}</span>
+                  <div className="text-base font-bold text-slate-900">
+                    {item.kanji || item.hiragana}
+                  </div>
+                </div>
+                <div className="text-xs text-slate-600 font-mono mt-0.5">
+                  {item.hiragana} {item.han_viet ? `• ${item.han_viet}` : ""}
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setItemToMarkKnown(item)}
+                className="shrink-0 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 transition-colors"
+              >
+                Đã biết
+              </button>
+            </div>
+
+            <div className="text-xs text-slate-800 font-medium pt-1 border-t border-slate-100">
+              {item.meaning_vi}
+            </div>
+          </div>
+        ))}
+        {activeItems.length === 0 && (
+          <div className="rounded-xl border border-slate-200 bg-white p-6 text-center text-xs text-slate-400">
+            Không có từ vựng nào trong danh sách.
+          </div>
+        )}
       </div>
 
       {/* Confirmation Modal for Marking Known */}

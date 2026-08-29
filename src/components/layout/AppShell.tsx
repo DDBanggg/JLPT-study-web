@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Sidebar } from "./Sidebar";
+import { MobileNav } from "./MobileNav";
 import { TopProgressHeader, ProgramHeaderInput, ProgramDto, ProgramProgressData } from "./TopProgressHeader";
 
 export interface AppShellProps {
@@ -22,20 +23,23 @@ export function AppShell({
     1;
 
   return (
-    <div className="flex min-h-screen bg-slate-50 text-slate-900 font-sans antialiased">
-      {/* Collapsible Left Sidebar */}
+    <div className="flex min-h-screen flex-col lg:flex-row bg-slate-50 text-slate-900 font-sans antialiased">
+      {/* Mobile Top Navigation (lg:hidden) */}
+      <MobileNav currentStudyDay={activeDay} />
+
+      {/* Desktop Collapsible Left Sidebar (hidden lg:flex) */}
       <Sidebar
         currentStudyDay={activeDay}
-        className="sticky top-0 h-screen"
+        className="hidden lg:flex sticky top-0 h-screen"
       />
 
       {/* Main Content Area */}
       <div className="flex flex-1 flex-col min-w-0">
-        {/* Top Progress Header (Non-sticky) */}
+        {/* Top Progress Header */}
         <TopProgressHeader program={program} />
 
         {/* Dynamic Page Content */}
-        <main className="flex-1 p-8">
+        <main className="flex-1 p-4 sm:p-6 lg:p-8">
           <div className="mx-auto max-w-7xl">{children}</div>
         </main>
       </div>

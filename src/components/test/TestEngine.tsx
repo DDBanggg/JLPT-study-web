@@ -116,6 +116,7 @@ export function TestEngine({ testId }: TestEngineProps) {
   const [resultScore, setResultScore] = useState<TestResultScore | null>(null);
   const [reviewItems, setReviewItems] = useState<TestReviewItem[] | null>(null);
   const [nextTask, setNextTask] = useState<NextTaskData | null>(null);
+  const [isMobileNavigatorOpen, setIsMobileNavigatorOpen] = useState(false);
 
   // Fetch test document on mount
   useEffect(() => {
@@ -396,6 +397,56 @@ export function TestEngine({ testId }: TestEngineProps) {
           />
         </div>
       )}
+        {/* Mobile Question Navigator Bar (lg:hidden) */}
+      <div className="lg:hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-xs space-y-3">
+        <div className="flex items-center justify-between">
+          <div>
+            <div className="text-xs font-bold text-slate-800">Danh sách câu hỏi</div>
+            <div className="text-[11px] text-slate-500">
+              {answeredCount} / {totalQuestions} đã làm {unansweredCount > 0 && !isReviewMode ? `(${unansweredCount} chưa làm)` : ""}
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={() => setIsMobileNavigatorOpen((prev) => !prev)}
+            className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-100 transition-colors"
+          >
+            {isMobileNavigatorOpen ? "Thu gọn" : "Xem danh sách"}
+          </button>
+        </div>
+
+        {isMobileNavigatorOpen && (
+          <div className="grid grid-cols-6 sm:grid-cols-8 gap-2 pt-2 border-t border-slate-100 max-h-48 overflow-y-auto">
+            {allQuestions.map((q, idx) => {
+              const isAnswered = Boolean(answers[q.id]);
+              const review = reviewMap.get(q.id);
+
+              let buttonStyle = "bg-slate-100 text-slate-600 border-slate-200";
+              if (isReviewMode && review) {
+                buttonStyle = review.correct
+                  ? "bg-emerald-100 text-emerald-800 border-emerald-300 font-bold"
+                  : "bg-red-100 text-red-800 border-red-300 font-bold";
+              } else if (isAnswered) {
+                buttonStyle = "bg-blue-50 text-blue-700 border-blue-300 font-bold";
+              }
+
+              return (
+                <button
+                  key={q.id}
+                  type="button"
+                  onClick={() => {
+                    handleScrollToQuestion(q.id);
+                    setIsMobileNavigatorOpen(false);
+                  }}
+                  className={`flex h-8 items-center justify-center rounded-lg border text-xs transition-all ${buttonStyle}`}
+                >
+                  {idx + 1}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </div>
 
       {/* Main Grid: Questions Left, Sticky Navigator Right */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-4 items-start">
@@ -486,7 +537,7 @@ export function TestEngine({ testId }: TestEngineProps) {
                         </div>
                       )}
 
-                      {/* Prompt */}
+                      {/* Question Prompt */}
                       <div className="flex items-start gap-3">
                         <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-slate-100 text-xs font-bold text-slate-700 font-mono">
                           {globalIdx}
@@ -510,7 +561,7 @@ export function TestEngine({ testId }: TestEngineProps) {
                               type="button"
                               onClick={() => handleSelectOption(q.id, opt.id)}
                               disabled={isReviewMode}
-                              className={`flex items-center gap-3 rounded-xl border p-3 text-left text-xs font-medium transition-all ${
+                              className={`flex items-center gap-3 rounded-xl border p-3.5 text-left text-xs font-medium min-h-[44px] transition-all ${
                                 isCorrect
                                   ? "border-emerald-400 bg-emerald-50 text-emerald-950 font-bold"
                                   : isWrong
@@ -568,10 +619,24 @@ export function TestEngine({ testId }: TestEngineProps) {
               </div>
             </div>
           ))}
+
+          {/* Mobile Submit Button (lg:hidden) */}
+          {!isReviewMode && (
+            <div className="lg:hidden pt-2">
+              <button
+                type="button"
+                onClick={handleSubmitClick}
+                disabled={isSubmitting}
+                className="w-full rounded-xl bg-blue-600 py-3 text-xs font-semibold text-white shadow-md hover:bg-blue-700 disabled:opacity-50 transition-colors"
+              >
+                {isSubmitting ? "Đang nộp bài..." : "Nộp bài thi"}
+              </button>
+            </div>
+          )}
         </div>
 
-        {/* Sticky Question Navigator (1 Col) */}
-        <div className="sticky top-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-xs space-y-4">
+        {/* Sticky Question Navigator for Desktop (hidden lg:block lg:col-span-1) */}
+        <div className="hidden lg:block lg:col-span-1 sticky top-6 rounded-2xl border border-slate-200 bg-white p-5 shadow-xs space-y-4">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-700">
               Danh sách câu

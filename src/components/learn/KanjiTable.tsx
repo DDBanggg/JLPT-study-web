@@ -189,8 +189,8 @@ export function KanjiTable({
         />
       )}
 
-      {/* Desktop Kanji Table */}
-      <div className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-2xs">
+      {/* Desktop Kanji Table (hidden md:block) */}
+      <div className="hidden md:block overflow-hidden rounded-xl border border-slate-200 bg-white shadow-2xs">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs text-slate-700">
             <thead className="border-b border-slate-200 bg-slate-50/80 text-[11px] font-semibold uppercase tracking-wider text-slate-500">
@@ -268,6 +268,74 @@ export function KanjiTable({
             </tbody>
           </table>
         </div>
+      </div>
+
+      {/* Mobile Kanji Cards (md:hidden) */}
+      <div className="md:hidden space-y-3">
+        {activeItems.map((item, index) => (
+          <div
+            key={item.id}
+            data-testid={`kanji-card-${item.id}`}
+            className="rounded-xl border border-slate-200 bg-white p-4 shadow-2xs space-y-2.5"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <div className="text-3xl font-bold text-slate-900 font-serif">
+                  {item.kanji}
+                </div>
+                <div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-[10px] font-mono text-slate-400">#{index + 1}</span>
+                    <span className="text-xs font-bold text-violet-700 uppercase">
+                      {item.han_viet}
+                    </span>
+                  </div>
+                  <div className="text-xs font-medium text-slate-800 mt-0.5">
+                    {item.meaning_vi}
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setItemToMarkKnown(item)}
+                className="shrink-0 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 transition-colors"
+              >
+                Đã biết
+              </button>
+            </div>
+
+            {/* Readings */}
+            <div className="grid grid-cols-2 gap-2 text-[11px] bg-slate-50 p-2 rounded-lg font-mono text-slate-600">
+              <div>
+                <span className="text-slate-400">On: </span>
+                {item.onyomi && item.onyomi.length > 0 ? item.onyomi.join("、") : "—"}
+              </div>
+              <div>
+                <span className="text-slate-400">Kun: </span>
+                {item.kunyomi && item.kunyomi.length > 0 ? item.kunyomi.join("、") : "—"}
+              </div>
+            </div>
+
+            {/* Compounds */}
+            {item.compounds && item.compounds.length > 0 && (
+              <div className="space-y-1 text-[11px] pt-1 border-t border-slate-100">
+                {item.compounds.slice(0, 2).map((c, i) => (
+                  <div key={i} className="flex items-baseline gap-1.5">
+                    <span className="font-bold text-slate-800">{c.word}</span>
+                    <span className="text-slate-400 font-mono">({c.reading})</span>:
+                    <span className="text-slate-600 truncate">{c.meaning_vi}</span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+        {activeItems.length === 0 && (
+          <div className="rounded-xl border border-slate-200 bg-white p-6 text-center text-xs text-slate-400">
+            Không có chữ Hán nào trong danh sách.
+          </div>
+        )}
       </div>
 
       {/* Confirmation Modal for Marking Known */}
