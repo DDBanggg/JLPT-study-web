@@ -1,12 +1,47 @@
+"use client";
+
+import React, { useEffect, useState } from "react";
+import { ScheduleView } from "@/components/schedule/ScheduleView";
+
 export default function SchedulePage() {
-  return (
-    <section className="space-y-4">
-      <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-xs">
-        <h1 className="text-xl font-semibold text-slate-800">Schedule</h1>
-        <p className="mt-2 text-sm text-slate-500">
-          Trang lịch học hàng ngày (sẽ được kết nối trong milestone F3).
-        </p>
+  const [currentDay, setCurrentDay] = useState<number | null>(null);
+
+  useEffect(() => {
+    let isMounted = true;
+    async function loadProgram() {
+      try {
+        const res = await fetch("/api/program");
+        if (res.status === 200) {
+          const json = await res.json();
+          if (json?.ok && json?.data?.program?.current_study_day) {
+            if (isMounted) {
+              setCurrentDay(json.data.program.current_study_day);
+              return;
+            }
+          }
+        }
+        if (isMounted) setCurrentDay(1);
+      } catch {
+        if (isMounted) setCurrentDay(1);
+      }
+    }
+    loadProgram();
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  if (currentDay === null) {
+    return (
+      <div className="space-y-4">
+        <div className="h-16 animate-pulse rounded-xl bg-slate-200" />
+        <div className="space-y-3">
+          <div className="h-20 animate-pulse rounded-xl bg-white border border-slate-200" />
+          <div className="h-20 animate-pulse rounded-xl bg-white border border-slate-200" />
+        </div>
       </div>
-    </section>
-  );
+    );
+  }
+
+  return <ScheduleView day={currentDay} />;
 }
