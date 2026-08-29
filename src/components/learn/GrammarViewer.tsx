@@ -179,25 +179,7 @@ export function GrammarViewer({
         </button>
 
         <div className="flex items-center gap-3">
-          {/* Complete button */}
-          <button
-            type="button"
-            onClick={handleComplete}
-            disabled={isCompleting}
-            className={`rounded-lg px-5 py-2 text-xs font-semibold shadow-sm transition-colors ${
-              isCompleted
-                ? "bg-emerald-600 text-white hover:bg-emerald-700"
-                : "bg-blue-600 text-white hover:bg-blue-700"
-            }`}
-          >
-            {isCompleting
-              ? "Đang lưu..."
-              : isCompleted
-                ? "Hoàn thành lại"
-                : "Hoàn thành Grammar"}
-          </button>
-
-          {!isLast && (
+          {!isLast ? (
             <button
               type="button"
               onClick={handleNext}
@@ -205,6 +187,23 @@ export function GrammarViewer({
             >
               <span>Mẫu tiếp theo</span>
               <ChevronRightIcon className="h-4 w-4" />
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={handleComplete}
+              disabled={isCompleting}
+              className={`rounded-lg px-5 py-2 text-xs font-semibold shadow-sm transition-colors ${
+                isCompleted
+                  ? "bg-emerald-600 text-white hover:bg-emerald-700"
+                  : "bg-blue-600 text-white hover:bg-blue-700"
+              }`}
+            >
+              {isCompleting
+                ? "Đang lưu..."
+                : isCompleted
+                  ? "Hoàn thành lại"
+                  : "Hoàn thành Grammar"}
             </button>
           )}
         </div>

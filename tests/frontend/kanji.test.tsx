@@ -30,6 +30,13 @@ describe("Milestone F6 — Kanji Components", () => {
           meaning_vi: "núi cao",
         },
       ],
+      examples: [
+        {
+          jp: "富士山は高いです。",
+          reading: "ふじさんはたかいです。",
+          vi: "Núi Phú Sĩ rất cao.",
+        },
+      ],
     },
     {
       id: 202,
@@ -38,6 +45,14 @@ describe("Milestone F6 — Kanji Components", () => {
       meaning_vi: "rẻ; yên ổn",
       onyomi: ["アン"],
       kunyomi: ["やすい"],
+    },
+    {
+      id: 203,
+      kanji: "新",
+      han_viet: "TÂN",
+      meaning_vi: "mới",
+      onyomi: ["シン"],
+      kunyomi: ["あたらしい"],
     },
   ];
 
@@ -61,6 +76,22 @@ describe("Milestone F6 — Kanji Components", () => {
       expect(html).toContain("高い山");
       expect(html).toContain("Đã biết");
       expect(html).toContain("Hoàn thành Kanji");
+      expect(html).not.toContain("新");
+    });
+
+    it("renders replacement kanji when learning_set_ids contains the replaced id", () => {
+      const html = renderToString(
+        <KanjiTable
+          studyDay={2}
+          allItems={mockKanjiItems}
+          learningSetIds={[202, 203]}
+        />
+      );
+
+      expect(html).toContain("安");
+      expect(html).toContain("新");
+      expect(html).toContain("TÂN");
+      expect(html).not.toContain("CAO");
     });
   });
 

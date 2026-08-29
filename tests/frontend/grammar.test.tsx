@@ -15,7 +15,7 @@ vi.mock("next/navigation", () => ({
 }));
 
 describe("Milestone F4 — Grammar Components", () => {
-  const mockGrammarItem: GrammarItem = {
+  const mockGrammarItem1: GrammarItem = {
     id: 201,
     structure: "N を Vます",
     formation: ["N + を + Vます"],
@@ -32,10 +32,18 @@ describe("Milestone F4 — Grammar Components", () => {
     source_ref: "Minna no Nihongo I — Lesson 6",
   };
 
+  const mockGrammarItem2: GrammarItem = {
+    id: 202,
+    structure: "N で Vます",
+    formation: ["N + で + Vます"],
+    meaning_vi: "Chỉ phương tiện, địa điểm diễn ra hành động.",
+    examples: [],
+  };
+
   describe("GrammarCard", () => {
     it("renders grammar structure, meaning, formation, and examples", () => {
       const html = renderToString(
-        <GrammarCard item={mockGrammarItem} index={0} total={1} isViewed={false} />
+        <GrammarCard item={mockGrammarItem1} index={0} total={1} isViewed={false} />
       );
 
       expect(html).toContain("N を Vます");
@@ -48,14 +56,14 @@ describe("Milestone F4 — Grammar Components", () => {
 
     it("displays Đã xem badge when isViewed is true", () => {
       const html = renderToString(
-        <GrammarCard item={mockGrammarItem} index={0} total={1} isViewed={true} />
+        <GrammarCard item={mockGrammarItem1} index={0} total={1} isViewed={true} />
       );
       expect(html).toContain("Đã xem");
     });
   });
 
   describe("GrammarViewer", () => {
-    it("renders navigation controls and completion button", () => {
+    it("renders completion button when on the final card", () => {
       const mockUserState: GrammarUserState = {
         viewed_ids: [201],
         viewed_count: 1,
@@ -66,7 +74,7 @@ describe("Milestone F4 — Grammar Components", () => {
       const html = renderToString(
         <GrammarViewer
           studyDay={2}
-          items={[mockGrammarItem]}
+          items={[mockGrammarItem1]}
           userState={mockUserState}
         />
       );
@@ -75,6 +83,27 @@ describe("Milestone F4 — Grammar Components", () => {
       expect(html).toContain("Ngày");
       expect(html).toContain("Đã xem:");
       expect(html).toContain("Hoàn thành Grammar");
+    });
+
+    it("renders Next button and does NOT render completion button on non-final card", () => {
+      const mockUserState: GrammarUserState = {
+        viewed_ids: [],
+        viewed_count: 0,
+        total_count: 2,
+        completed: false,
+      };
+
+      // 2 items, initial index is 0 (non-final)
+      const html = renderToString(
+        <GrammarViewer
+          studyDay={2}
+          items={[mockGrammarItem1, mockGrammarItem2]}
+          userState={mockUserState}
+        />
+      );
+
+      expect(html).toContain("Mẫu tiếp theo");
+      expect(html).not.toContain("Hoàn thành Grammar");
     });
   });
 });

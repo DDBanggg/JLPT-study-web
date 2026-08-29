@@ -37,6 +37,13 @@ describe("Milestone F5 — Vocabulary Components", () => {
       meaning_vi: "uống",
       han_viet: "ẨM",
     },
+    {
+      id: 203,
+      kanji: "行きます",
+      hiragana: "いきます",
+      meaning_vi: "đi",
+      han_viet: "HÀNH",
+    },
   ];
 
   describe("VocabTable", () => {
@@ -56,7 +63,23 @@ describe("Milestone F5 — Vocabulary Components", () => {
       expect(html).toContain("ăn");
       expect(html).toContain("THỰC");
       expect(html).toContain("Đã biết");
-      expect(html).toContain("Hoàn thành Vocabulary");
+      expect(html).not.toContain("行きます");
+    });
+
+    it("renders replacement item when learning_set_ids contains the replaced item", () => {
+      // When backend replaces 201 with 203, learning_set_ids = [202, 203]
+      const html = renderToString(
+        <VocabTable
+          studyDay={2}
+          allItems={mockVocabItems}
+          learningSetIds={[202, 203]}
+        />
+      );
+
+      expect(html).toContain("飲みます");
+      expect(html).toContain("行きます");
+      expect(html).toContain("HÀNH");
+      expect(html).not.toContain("食べます");
     });
   });
 

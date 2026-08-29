@@ -21,7 +21,40 @@ export interface TestQuestion {
   id: string;
   category: string;
   prompt: string;
+  stimulus_id?: string | null;
   options: TestOption[];
+}
+
+export interface ReadingStimulus {
+  id: string;
+  type: "reading";
+  title?: string;
+  content_jp: string;
+}
+
+export interface ListeningStimulus {
+  id: string;
+  type: "youtube" | "listening";
+  title?: string;
+  youtube?: {
+    type?: "video" | "playlist" | string;
+    video_id?: string | null;
+    playlist_id?: string | null;
+  };
+  fallback_url?: string;
+}
+
+export type TestStimulus =
+  | ReadingStimulus
+  | ListeningStimulus
+  | { id: string; type: string; title?: string; [key: string]: unknown };
+
+export function isReadingStimulus(s: TestStimulus): s is ReadingStimulus {
+  return s.type === "reading" && typeof (s as ReadingStimulus).content_jp === "string";
+}
+
+export function isListeningStimulus(s: TestStimulus): s is ListeningStimulus {
+  return s.type === "youtube" || s.type === "listening";
 }
 
 export interface TestSection {
@@ -38,6 +71,7 @@ export interface TestDocumentData {
   title: string;
   study_day: number;
   coverage?: { from_day: number; to_day: number };
+  stimuli?: TestStimulus[];
   sections: TestSection[];
 }
 
@@ -65,7 +99,9 @@ export interface TestEngineProps {
 }
 
 export function TestEngine({ testId }: TestEngineProps) {
+  const [contentState, setContentState] = useState<"available" | "pending" | null>(null);
   const [testDoc, setTestDoc] = useState<TestDocumentData | null>(null);
+  const [studyDay, setStudyDay] = useState<number>(1);
   const [isLoading, setIsLoading] = useState(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [retryCount, setRetryCount] = useState(0);
@@ -88,17 +124,26 @@ export function TestEngine({ testId }: TestEngineProps) {
     async function loadTest() {
       try {
         const res = await fetch(`/api/tests/${testId}`);
-        const data = await res.json();
+        const json = await res.json();
 
-        if (res.status === 200 && data?.ok) {
+        if (res.status === 200 && json?.ok) {
           if (!isMounted) return;
-          setTestDoc(data.data);
+          setContentState(json.data.content_state);
+          if (json.data.study_day) {
+            setStudyDay(json.data.study_day);
+          }
+          if (json.data.content_state === "available" && json.data.content) {
+            setTestDoc(json.data.content);
+            if (json.data.content.study_day) {
+              setStudyDay(json.data.content.study_day);
+            }
+          }
           setIsLoading(false);
           return;
         }
 
         if (!isMounted) return;
-        setErrorMessage(data?.error?.message || "Không thể tải đề thi.");
+        setErrorMessage(json?.error?.message || "Không thể tải đề thi.");
         setIsLoading(false);
       } catch {
         if (!isMounted) return;
@@ -117,6 +162,16 @@ export function TestEngine({ testId }: TestEngineProps) {
   const allQuestions = useMemo(() => {
     if (!testDoc?.sections) return [];
     return testDoc.sections.flatMap((sec) => sec.questions);
+  }, [testDoc]);
+
+  const stimuliMap = useMemo(() => {
+    const map = new Map<string, TestStimulus>();
+    if (testDoc?.stimuli) {
+      testDoc.stimuli.forEach((stimulus) => {
+        map.set(stimulus.id, stimulus);
+      });
+    }
+    return map;
   }, [testDoc]);
 
   const reviewMap = useMemo(() => {
@@ -212,8 +267,8 @@ export function TestEngine({ testId }: TestEngineProps) {
     );
   }
 
-  if (!testDoc || allQuestions.length === 0) {
-    return <ContentPending message="Đề thi chưa có câu hỏi." />;
+  if (contentState === "pending" || !testDoc || allQuestions.length === 0) {
+    return <ContentPending message="Đề thi chưa được chuẩn bị." />;
   }
 
   const isReviewMode = Boolean(resultScore);
@@ -224,7 +279,7 @@ export function TestEngine({ testId }: TestEngineProps) {
       <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 pb-5">
         <div className="flex items-center gap-3">
           <Link
-            href={`/schedule/day/${testDoc.study_day}`}
+            href={`/schedule/day/${studyDay}`}
             className="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900 shadow-2xs transition-colors"
             title="Quay lại Schedule"
           >
@@ -235,7 +290,7 @@ export function TestEngine({ testId }: TestEngineProps) {
               {testDoc.title}
             </h1>
             <p className="text-xs text-slate-500">
-              Ngày {testDoc.study_day} • Tổng số: {totalQuestions} câu hỏi
+              Ngày {studyDay} • Tổng số: {totalQuestions} câu hỏi
             </p>
           </div>
         </div>
@@ -360,6 +415,7 @@ export function TestEngine({ testId }: TestEngineProps) {
                   const globalIdx = allQuestions.findIndex((item) => item.id === q.id) + 1;
                   const selectedOpt = answers[q.id];
                   const review = reviewMap.get(q.id);
+                  const stimulus = q.stimulus_id ? stimuliMap.get(q.stimulus_id) : null;
 
                   return (
                     <div
@@ -374,6 +430,62 @@ export function TestEngine({ testId }: TestEngineProps) {
                           : "border-slate-200"
                       }`}
                     >
+                      {/* Associated Stimulus (Reading or Listening) */}
+                      {stimulus && (
+                        <div>
+                          {isReadingStimulus(stimulus) && (
+                            <div
+                              data-testid={`stimulus-${stimulus.id}`}
+                              className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 space-y-2 mb-2"
+                            >
+                              {stimulus.title && (
+                                <div className="text-xs font-bold text-slate-700 uppercase tracking-wider">
+                                  {stimulus.title}
+                                </div>
+                              )}
+                              <div className="text-sm leading-relaxed text-slate-800 whitespace-pre-line font-sans">
+                                {stimulus.content_jp}
+                              </div>
+                            </div>
+                          )}
+
+                          {isListeningStimulus(stimulus) && (
+                            <div
+                              data-testid={`stimulus-${stimulus.id}`}
+                              className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 space-y-3 mb-2"
+                            >
+                              {stimulus.title && (
+                                <div className="text-xs font-bold text-slate-700 uppercase tracking-wider">
+                                  {stimulus.title}
+                                </div>
+                              )}
+                              {stimulus.youtube?.video_id ? (
+                                <div className="aspect-video w-full overflow-hidden rounded-lg bg-black">
+                                  <iframe
+                                    src={`https://www.youtube-nocookie.com/embed/${stimulus.youtube.video_id}?rel=0`}
+                                    title={stimulus.title || "Audio bài nghe"}
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    className="h-full w-full border-0"
+                                  />
+                                </div>
+                              ) : null}
+                              {stimulus.fallback_url && (
+                                <a
+                                  href={stimulus.fallback_url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  data-testid={`stimulus-fallback-${stimulus.id}`}
+                                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-800"
+                                >
+                                  <span>Mở audio trên YouTube</span>
+                                </a>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
                       {/* Prompt */}
                       <div className="flex items-start gap-3">
                         <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-slate-100 text-xs font-bold text-slate-700 font-mono">

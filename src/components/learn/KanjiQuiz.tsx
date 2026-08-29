@@ -275,6 +275,25 @@ export function KanjiQuiz({
                 </div>
               </div>
             )}
+
+            {currentItem.examples && currentItem.examples.length > 0 && (
+              <div className="space-y-1.5 pt-1">
+                <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-400">
+                  Ví dụ câu
+                </div>
+                <div className="space-y-1.5">
+                  {currentItem.examples.map((ex, i) => (
+                    <div key={i} className="rounded-lg bg-slate-50 p-2 space-y-0.5 text-xs">
+                      <div className="font-medium text-slate-900">{ex.jp}</div>
+                      {ex.reading && (
+                        <div className="text-[11px] text-slate-500 font-mono">{ex.reading}</div>
+                      )}
+                      <div className="text-[11px] text-slate-600">{ex.vi}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

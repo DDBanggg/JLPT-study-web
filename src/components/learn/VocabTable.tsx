@@ -68,10 +68,8 @@ export function VocabTable({
 
       const data = await res.json();
       if (res.status === 200 && data?.ok) {
-        if (Array.isArray(data?.data?.learning_set)) {
-          setActiveSetIds(data.data.learning_set);
-        } else {
-          setActiveSetIds((prev) => prev.filter((id) => id !== itemToMarkKnown.id));
+        if (Array.isArray(data?.data?.learning_set_ids)) {
+          setActiveSetIds(data.data.learning_set_ids);
         }
         setItemToMarkKnown(null);
         return;

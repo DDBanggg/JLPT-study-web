@@ -69,6 +69,7 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
   const [dayData, setDayData] = useState<CalendarDayDetailData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     if (!studyDay) return;
@@ -88,16 +89,19 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
       })
       .catch(() => {
         if (!isMounted) return;
-        setError("Lỗi kết nối máy chủ.");
+        setError("Lỗi kết nối máy chủ. Vui lòng thử lại.");
         setIsLoading(false);
       });
 
     return () => {
       isMounted = false;
     };
-  }, [studyDay]);
+  }, [studyDay, retryCount]);
 
   if (!studyDay) return null;
+
+  const isCurrentDayData = dayData && dayData.study_day === studyDay;
+  const isCurrentlyLoading = isLoading || (!isCurrentDayData && !error);
 
   const renderStatusBadge = (status: string | null | undefined) => {
     switch (status) {
@@ -146,13 +150,13 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
               <h3 className="text-lg font-bold text-slate-900">
                 Ngày {studyDay}
               </h3>
-              {dayData?.date && (
+              {isCurrentDayData && dayData.date && (
                 <span className="text-xs text-slate-500 font-medium">
                   ({formatDate(dayData.date)})
                 </span>
               )}
             </div>
-            {dayData?.title && (
+            {isCurrentDayData && dayData.title && (
               <p className="text-xs text-slate-500 mt-0.5">{dayData.title}</p>
             )}
           </div>
@@ -167,17 +171,30 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
         </div>
 
         {/* Content */}
-        {isLoading ? (
+        {isCurrentlyLoading ? (
           <div className="space-y-3 py-6 animate-pulse">
             <div className="h-8 rounded-lg bg-slate-200" />
             <div className="h-16 rounded-xl bg-slate-100" />
             <div className="h-16 rounded-xl bg-slate-100" />
           </div>
         ) : error ? (
-          <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-xs text-red-700">
-            {error}
+          <div className="space-y-3">
+            <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-xs text-red-700">
+              {error}
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                setIsLoading(true);
+                setError(null);
+                setRetryCount((prev) => prev + 1);
+              }}
+              className="rounded-lg bg-blue-600 px-4 py-2 text-xs font-semibold text-white hover:bg-blue-700 transition-colors"
+            >
+              Thử lại
+            </button>
           </div>
-        ) : dayData ? (
+        ) : isCurrentDayData ? (
           <div className="space-y-4">
             {/* Status Summary */}
             <div className="flex items-center justify-between rounded-xl bg-slate-50 p-3.5">

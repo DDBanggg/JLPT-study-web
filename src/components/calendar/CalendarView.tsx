@@ -306,6 +306,7 @@ export function CalendarView() {
 
       {/* Day Detail Modal */}
       <CalendarDayModal
+        key={selectedStudyDay}
         studyDay={selectedStudyDay}
         onClose={() => setSelectedStudyDay(null)}
       />
