@@ -23,11 +23,12 @@ describe("Milestone F11 — Calendar Components", () => {
       expect(html).toContain("Hoàn thành (Green)");
       expect(html).toContain("Hoàn thành muộn (Yellow)");
       expect(html).toContain("Chưa hoàn thành (Red)");
+      expect(html).toContain("Chưa đến hạn / Pending");
     });
   });
 
   describe("CalendarDayModal", () => {
-    it("renders modal dialog for selected study day", () => {
+    it("renders modal dialog for selected study day with Schedule link", () => {
       const html = renderToString(
         <CalendarDayModal studyDay={1} onClose={() => {}} />
       );
@@ -36,6 +37,7 @@ describe("Milestone F11 — Calendar Components", () => {
       expect(html).toContain("1");
       expect(html).toContain("Đóng");
       expect(html).toContain("Mở ngày học (Schedule)");
+      expect(html).toContain('href="/schedule/day/1"');
     });
 
     it("returns null when studyDay is null", () => {

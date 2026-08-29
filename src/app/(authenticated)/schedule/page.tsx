@@ -2,34 +2,56 @@
 
 import React, { useEffect, useState } from "react";
 import { ScheduleView } from "@/components/schedule/ScheduleView";
+import { ErrorState } from "@/components/common/ErrorState";
 
 export default function SchedulePage() {
   const [currentDay, setCurrentDay] = useState<number | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     let isMounted = true;
     async function loadProgram() {
       try {
         const res = await fetch("/api/program");
-        if (res.status === 200) {
-          const json = await res.json();
-          if (json?.ok && json?.data?.program?.current_study_day) {
-            if (isMounted) {
-              setCurrentDay(json.data.program.current_study_day);
-              return;
-            }
+        const json = await res.json();
+
+        if (res.status === 200 && json?.ok && json?.data?.program?.current_study_day) {
+          if (isMounted) {
+            setCurrentDay(json.data.program.current_study_day);
+            setErrorMessage(null);
           }
+          return;
         }
-        if (isMounted) setCurrentDay(1);
+
+        if (isMounted) {
+          setErrorMessage(json?.error?.message || "Không thể tải thông tin chương trình học.");
+        }
       } catch {
-        if (isMounted) setCurrentDay(1);
+        if (isMounted) {
+          setErrorMessage("Lỗi kết nối máy chủ khi tải chương trình học.");
+        }
       }
     }
+
     loadProgram();
+
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [retryCount]);
+
+  if (errorMessage) {
+    return (
+      <ErrorState
+        message={errorMessage}
+        onRetry={() => {
+          setErrorMessage(null);
+          setRetryCount((prev) => prev + 1);
+        }}
+      />
+    );
+  }
 
   if (currentDay === null) {
     return (

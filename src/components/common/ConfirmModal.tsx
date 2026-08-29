@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { AlertTriangleIcon } from "./Icons";
 
 export interface ConfirmModalProps {
@@ -24,12 +24,24 @@ export function ConfirmModal({
   onCancel,
   isDestructive = false,
 }: ConfirmModalProps) {
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        onCancel();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isOpen, onCancel]);
+
   if (!isOpen) return null;
 
   return (
     <div
       role="dialog"
       aria-modal="true"
+      aria-labelledby="confirm-modal-title"
       className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/40 backdrop-blur-xs p-4 animate-in fade-in duration-150"
     >
       <div className="w-full max-w-sm rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
@@ -44,7 +56,9 @@ export function ConfirmModal({
             <AlertTriangleIcon className="h-5 w-5" />
           </div>
           <div>
-            <h3 className="text-base font-semibold text-slate-800">{title}</h3>
+            <h3 id="confirm-modal-title" className="text-base font-semibold text-slate-800">
+              {title}
+            </h3>
             <p className="mt-1 text-xs text-slate-500 leading-relaxed">{message}</p>
           </div>
         </div>
@@ -53,17 +67,17 @@ export function ConfirmModal({
           <button
             type="button"
             onClick={onCancel}
-            className="rounded-lg border border-slate-200 bg-white px-3.5 py-2 text-xs font-medium text-slate-700 hover:bg-slate-50 focus:outline-hidden transition-colors"
+            className="rounded-lg border border-slate-200 bg-white px-3.5 py-2 text-xs font-medium text-slate-700 hover:bg-slate-50 focus:outline-hidden focus:ring-2 focus:ring-slate-400 transition-colors"
           >
             {cancelLabel}
           </button>
           <button
             type="button"
             onClick={onConfirm}
-            className={`rounded-lg px-4 py-2 text-xs font-semibold text-white shadow-sm focus:outline-hidden transition-colors ${
+            className={`rounded-lg px-4 py-2 text-xs font-semibold text-white shadow-sm focus:outline-hidden focus:ring-2 transition-colors ${
               isDestructive
-                ? "bg-red-600 hover:bg-red-700"
-                : "bg-blue-600 hover:bg-blue-700"
+                ? "bg-red-600 hover:bg-red-700 focus:ring-red-400"
+                : "bg-blue-600 hover:bg-blue-700 focus:ring-blue-400"
             }`}
           >
             {confirmLabel}

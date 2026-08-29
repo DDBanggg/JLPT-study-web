@@ -98,6 +98,17 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
     };
   }, [studyDay, retryCount]);
 
+  useEffect(() => {
+    if (!studyDay) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [studyDay, onClose]);
+
   if (!studyDay) return null;
 
   const isCurrentDayData = dayData && dayData.study_day === studyDay;
