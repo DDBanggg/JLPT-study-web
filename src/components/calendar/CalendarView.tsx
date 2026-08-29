@@ -142,54 +142,65 @@ export function CalendarView() {
     return cells;
   }, [month, dayMap]);
 
-  const monthDisplayTitle = useMemo(() => {
-    const [yearStr, monthStr] = month.split("-");
-    return `Tháng ${monthStr} / ${yearStr}`;
-  }, [month]);
-
   if (errorMessage) {
-    return <ErrorState message={errorMessage} onRetry={handleRetry} />;
+    return (
+      <div className="space-y-6">
+        <div>
+          <h2 className="text-xl font-bold text-slate-900">
+            Lịch học tập (Calendar)
+          </h2>
+          <p className="text-xs text-slate-500 mt-1">
+            Theo dõi lộ trình 100 ngày theo ngày thực tế.
+          </p>
+        </div>
+        <ErrorState message={errorMessage} onRetry={handleRetry} />
+      </div>
+    );
   }
 
+  const [currentYear, currentMonthNum] = month.split("-");
+  const monthDisplayTitle = `Tháng ${Number(currentMonthNum)} / ${currentYear}`;
+
   return (
-    <div className="space-y-6">
-      {/* Header & Controls */}
-      <div className="flex flex-wrap items-center justify-between gap-4 border-b border-slate-200 pb-5">
+    <div className="space-y-4 sm:space-y-6">
+      {/* Calendar Header */}
+      <div className="flex flex-wrap items-center justify-between gap-3 sm:gap-4">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight text-slate-900">
+          <h2 className="text-lg sm:text-xl font-bold text-slate-900">
             Lịch học tập (Calendar)
-          </h1>
-          <p className="mt-1 text-xs text-slate-500">
-            Theo dõi trạng thái hoàn thành từng ngày trong lộ trình 100 ngày
+          </h2>
+          <p className="text-xs text-slate-500 mt-0.5">
+            Theo dõi lộ trình 100 ngày theo ngày thực tế.
           </p>
         </div>
 
-        <div className="flex items-center gap-3">
+        {/* Month Switcher Controls */}
+        <div className="flex items-center gap-2">
           <button
             type="button"
             onClick={handleTodayMonth}
-            className="rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 transition-colors"
+            className="rounded-lg border border-slate-200 bg-white px-2.5 sm:px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-slate-50 shadow-2xs transition-colors"
           >
             Hôm nay
           </button>
 
-          <div className="flex items-center gap-1">
+          <div className="flex items-center rounded-lg border border-slate-200 bg-white shadow-2xs">
             <button
               type="button"
               onClick={handlePrevMonth}
-              className="flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 shadow-2xs transition-colors"
+              className="flex h-8 w-8 items-center justify-center text-slate-600 hover:bg-slate-50 transition-colors"
               title="Tháng trước"
               aria-label="Tháng trước"
             >
               <ChevronLeftIcon className="h-4 w-4" />
             </button>
-            <span className="px-3 text-xs font-bold text-slate-800">
+            <span className="px-2 sm:px-3 text-xs font-bold text-slate-800">
               {monthDisplayTitle}
             </span>
             <button
               type="button"
               onClick={handleNextMonth}
-              className="flex h-8 w-8 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 shadow-2xs transition-colors"
+              className="flex h-8 w-8 items-center justify-center text-slate-600 hover:bg-slate-50 transition-colors"
               title="Tháng sau"
               aria-label="Tháng sau"
             >
@@ -200,24 +211,24 @@ export function CalendarView() {
       </div>
 
       {/* Status Legend Bar */}
-      <div className="flex flex-wrap items-center gap-5 rounded-xl border border-slate-200 bg-white px-5 py-3 text-xs text-slate-600 shadow-2xs">
-        <span className="font-semibold text-slate-400 uppercase tracking-wider text-[10px]">
-          Chú thích trạng thái:
+      <div className="flex flex-wrap items-center gap-2.5 sm:gap-5 rounded-xl border border-slate-200 bg-white p-3 sm:px-5 sm:py-3 text-[11px] sm:text-xs text-slate-600 shadow-2xs">
+        <span className="font-semibold text-slate-400 uppercase tracking-wider text-[10px] w-full sm:w-auto">
+          Chú thích:
         </span>
-        <div className="flex items-center gap-2">
-          <span className="h-3 w-3 rounded-full bg-emerald-500" />
+        <div className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-emerald-500 shrink-0" />
           <span>Hoàn thành (Green)</span>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="h-3 w-3 rounded-full bg-amber-400" />
+        <div className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-amber-400 shrink-0" />
           <span>Hoàn thành muộn (Yellow)</span>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="h-3 w-3 rounded-full bg-red-500" />
+        <div className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-red-500 shrink-0" />
           <span>Chưa hoàn thành (Red)</span>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="h-3 w-3 rounded-full bg-slate-200 border border-slate-300" />
+        <div className="flex items-center gap-1.5">
+          <span className="h-2.5 w-2.5 sm:h-3 sm:w-3 rounded-full bg-slate-200 border border-slate-300 shrink-0" />
           <span>Chưa đến hạn / Pending</span>
         </div>
       </div>
@@ -228,9 +239,9 @@ export function CalendarView() {
           <div className="h-96 animate-pulse rounded-2xl bg-white border border-slate-200" />
         </div>
       ) : (
-        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-xs">
+        <div className="overflow-hidden rounded-xl sm:rounded-2xl border border-slate-200 bg-white shadow-xs">
           {/* Weekday headers */}
-          <div className="grid grid-cols-7 border-b border-slate-200 bg-slate-50/80 text-center text-xs font-bold uppercase tracking-wider text-slate-600 py-3">
+          <div className="grid grid-cols-7 border-b border-slate-200 bg-slate-50/80 text-center text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-600 py-2 sm:py-3">
             {WEEKDAYS.map((w) => (
               <div key={w}>{w}</div>
             ))}
@@ -243,7 +254,7 @@ export function CalendarView() {
                 return (
                   <div
                     key={`empty-${idx}`}
-                    className="min-h-[100px] bg-slate-50/30 p-2"
+                    className="min-h-[58px] sm:min-h-[84px] md:min-h-[100px] bg-slate-50/30 p-1 sm:p-2"
                   />
                 );
               }
@@ -252,7 +263,7 @@ export function CalendarView() {
               const hasStudyDay = Boolean(entry?.study_day);
               const status = entry?.status;
 
-              let statusColor = "border-transparent bg-white hover:bg-slate-50";
+              let statusColor = "bg-white hover:bg-slate-50";
               let badgeColor = "bg-slate-100 text-slate-600";
 
               if (status === "finished") {
@@ -266,37 +277,51 @@ export function CalendarView() {
                 badgeColor = "bg-red-500 text-white font-bold";
               }
 
+              if (hasStudyDay) {
+                return (
+                  <button
+                    type="button"
+                    key={cell.dateIso}
+                    data-testid={`calendar-cell-${cell.dateIso}`}
+                    onClick={() => {
+                      if (entry?.study_day) {
+                        setSelectedStudyDay(entry.study_day);
+                      }
+                    }}
+                    aria-label={`Ngày ${dayNumber}, Ngày học ${entry?.study_day}${
+                      status ? `, trạng thái ${status}` : ""
+                    }`}
+                    className={`min-h-[58px] sm:min-h-[84px] md:min-h-[100px] p-1.5 sm:p-2 md:p-3 text-left transition-colors focus:outline-hidden focus:ring-2 focus:ring-blue-500 focus:z-10 relative flex flex-col justify-between ${statusColor}`}
+                  >
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-0.5 sm:gap-1 w-full">
+                      <span className="text-xs sm:text-sm font-bold text-slate-900">
+                        {dayNumber}
+                      </span>
+                      <span
+                        className={`inline-block rounded px-1 py-0.2 sm:px-1.5 sm:py-0.5 text-[9px] sm:text-[10px] truncate max-w-full ${badgeColor}`}
+                      >
+                        <span className="hidden sm:inline">Ngày </span>{entry?.study_day}
+                      </span>
+                    </div>
+
+                    {entry?.roadmap_state === "pending" && (
+                      <div className="text-[8px] sm:text-[10px] text-slate-400 font-medium">
+                        Pending
+                      </div>
+                    )}
+                  </button>
+                );
+              }
+
               return (
                 <div
                   key={cell.dateIso}
                   data-testid={`calendar-cell-${cell.dateIso}`}
-                  onClick={() => {
-                    if (entry?.study_day) {
-                      setSelectedStudyDay(entry.study_day);
-                    }
-                  }}
-                  className={`min-h-[100px] p-3 transition-colors ${
-                    hasStudyDay ? "cursor-pointer" : "cursor-default"
-                  } ${statusColor}`}
+                  className={`min-h-[58px] sm:min-h-[84px] md:min-h-[100px] p-1.5 sm:p-2 md:p-3 text-left ${statusColor}`}
                 >
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm font-semibold text-slate-800">
-                      {dayNumber}
-                    </span>
-                    {hasStudyDay && (
-                      <span
-                        className={`rounded-md px-1.5 py-0.5 text-[10px] ${badgeColor}`}
-                      >
-                        Ngày {entry?.study_day}
-                      </span>
-                    )}
-                  </div>
-
-                  {hasStudyDay && entry?.roadmap_state === "pending" && (
-                    <div className="mt-2 text-[10px] text-slate-400 font-medium">
-                      Pending
-                    </div>
-                  )}
+                  <span className="text-xs sm:text-sm font-medium text-slate-400">
+                    {dayNumber}
+                  </span>
                 </div>
               );
             })}

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import {
@@ -31,18 +31,37 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
 
   const pathname = usePathname();
   const router = useRouter();
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
-  const [prevPathname, setPrevPathname] = useState(pathname);
-  if (prevPathname !== pathname) {
-    setPrevPathname(pathname);
-    setIsOpen(false);
-  }
+  // Close drawer on path changes
+  const prevPathRef = useRef(pathname);
+  useEffect(() => {
+    if (prevPathRef.current !== pathname) {
+      prevPathRef.current = pathname;
+      setIsOpen(false);
+    }
+  }, [pathname]);
 
-  // Handle escape key
+  // Lock body scroll and focus when drawer opens
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+      closeButtonRef.current?.focus();
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
+  // Handle escape key and focus trap
   useEffect(() => {
     if (!isOpen) return;
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setIsOpen(false);
+      if (e.key === "Escape") {
+        setIsOpen(false);
+      }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
@@ -61,7 +80,8 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
       const data = await res.json();
 
       if (res.status === 200 && data?.ok) {
-        router.replace("/login");
+        const redirectTo = data?.data?.redirect_to || "/login";
+        router.replace(redirectTo);
         return;
       }
       setLogoutError(data?.error?.message || "Đăng xuất không thành công. Vui lòng thử lại.");
@@ -136,9 +156,10 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                 <span className="font-bold text-slate-900 text-sm">JLPT N3 Study</span>
               </div>
               <button
+                ref={closeButtonRef}
                 type="button"
                 onClick={() => setIsOpen(false)}
-                className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-colors"
+                className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 hover:bg-slate-100 hover:text-slate-700 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors"
                 aria-label="Đóng menu"
               >
                 ✕
@@ -149,6 +170,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
             <nav className="flex-1 overflow-y-auto p-4 space-y-1 text-xs">
               <Link
                 href={`/schedule/day/${currentStudyDay}`}
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 rounded-lg px-3 py-2.5 font-medium transition-colors ${
                   isScheduleActive
                     ? "bg-blue-50 text-blue-700 font-semibold"
@@ -161,6 +183,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
 
               <Link
                 href="/calendar"
+                onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-3 rounded-lg px-3 py-2.5 font-medium transition-colors ${
                   isCalendarActive
                     ? "bg-blue-50 text-blue-700 font-semibold"
@@ -197,6 +220,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                   <div className="ml-4 mt-1 space-y-1 border-l border-slate-200 pl-3">
                     <Link
                       href={`/learn/grammar/day/${currentStudyDay}`}
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <GrammarIcon className="h-3.5 w-3.5" />
@@ -204,6 +228,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                     </Link>
                     <Link
                       href={`/learn/vocabulary/day/${currentStudyDay}/list`}
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <VocabularyIcon className="h-3.5 w-3.5" />
@@ -211,6 +236,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                     </Link>
                     <Link
                       href={`/learn/kanji/day/${currentStudyDay}/list`}
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <KanjiIcon className="h-3.5 w-3.5" />
@@ -218,6 +244,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                     </Link>
                     <Link
                       href={`/learn/reading/day/${currentStudyDay}`}
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <ReadingIcon className="h-3.5 w-3.5" />
@@ -225,6 +252,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                     </Link>
                     <Link
                       href={`/learn/listening/day/${currentStudyDay}`}
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <ListeningIcon className="h-3.5 w-3.5" />
@@ -260,36 +288,42 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                   <div className="ml-4 mt-1 space-y-1 border-l border-slate-200 pl-3">
                     <Link
                       href="/test/grammar"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>Grammar Test</span>
                     </Link>
                     <Link
                       href="/test/daily"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>Daily Test</span>
                     </Link>
                     <Link
                       href="/test/weekly"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>Weekly Test</span>
                     </Link>
                     <Link
                       href="/test/monthly"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>Monthly Test</span>
                     </Link>
                     <Link
                       href="/test/end"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>End Test</span>
                     </Link>
                     <Link
                       href="/test/mock"
+                      onClick={() => setIsOpen(false)}
                       className="flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-slate-600 hover:bg-slate-100"
                     >
                       <span>Test / Mock</span>
@@ -310,7 +344,7 @@ export function MobileNav({ currentStudyDay }: MobileNavProps) {
                 type="button"
                 onClick={handleLogout}
                 disabled={isLoggingOut}
-                className="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-xs font-medium text-slate-700 hover:bg-red-50 hover:text-red-700 transition-colors"
+                className="flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-xs font-medium text-slate-700 hover:bg-red-50 hover:text-red-700 focus:outline-hidden focus:ring-2 focus:ring-red-400 transition-colors"
               >
                 <LogoutIcon className="h-4 w-4" />
                 <span>{isLoggingOut ? "Đang đăng xuất..." : "Đăng xuất"}</span>

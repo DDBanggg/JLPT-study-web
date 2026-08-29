@@ -299,12 +299,12 @@ export function KanjiQuiz({
       </div>
 
       {/* Navigation Controls */}
-      <div className="mx-auto flex max-w-xl items-center justify-between gap-4">
+      <div className="mx-auto flex max-w-xl flex-wrap items-center justify-between gap-2.5 sm:gap-4">
         <button
           type="button"
           onClick={handlePrev}
           disabled={currentIndex === 0}
-          className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3.5 sm:px-4 py-2 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors order-1"
         >
           <ChevronLeftIcon className="h-4 w-4" />
           <span>Chữ trước</span>
@@ -313,7 +313,7 @@ export function KanjiQuiz({
         <button
           type="button"
           onClick={() => setIsFlipped((prev) => !prev)}
-          className="rounded-lg border border-slate-200 bg-slate-50 px-5 py-2 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-100 transition-colors"
+          className="min-h-[44px] rounded-xl border border-slate-200 bg-slate-50 px-4 sm:px-5 py-2 text-xs font-semibold text-slate-700 shadow-2xs hover:bg-slate-100 transition-colors order-3 w-full sm:w-auto sm:order-2"
         >
           {isFlipped ? "Ẩn nghĩa" : "Lật xem nghĩa"}
         </button>
@@ -322,7 +322,7 @@ export function KanjiQuiz({
           type="button"
           onClick={handleNext}
           disabled={currentIndex === total - 1}
-          className="inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-4 py-2 text-xs font-semibold text-white shadow-2xs hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          className="inline-flex min-h-[44px] items-center justify-center gap-1.5 rounded-xl bg-slate-900 px-3.5 sm:px-4 py-2 text-xs font-semibold text-white shadow-2xs hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors order-2 sm:order-3"
         >
           <span>Chữ tiếp theo</span>
           <ChevronRightIcon className="h-4 w-4" />

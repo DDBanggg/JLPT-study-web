@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { AlertTriangleIcon } from "./Icons";
 
 export interface ConfirmModalProps {
@@ -24,6 +24,21 @@ export function ConfirmModal({
   onCancel,
   isDestructive = false,
 }: ConfirmModalProps) {
+  const confirmButtonRef = useRef<HTMLButtonElement>(null);
+
+  // Lock body scroll and focus when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+      confirmButtonRef.current?.focus();
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   useEffect(() => {
     if (!isOpen) return;
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -72,6 +87,7 @@ export function ConfirmModal({
             {cancelLabel}
           </button>
           <button
+            ref={confirmButtonRef}
             type="button"
             onClick={onConfirm}
             className={`rounded-lg px-4 py-2 text-xs font-semibold text-white shadow-sm focus:outline-hidden focus:ring-2 transition-colors ${

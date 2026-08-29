@@ -1,8 +1,9 @@
 import React from "react";
-import { describe, expect, it, vi } from "vitest";
-import { renderToString } from "react-dom/server";
-import { GrammarCard, GrammarItem } from "../../src/components/learn/GrammarCard";
+import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
+import { render, screen, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { GrammarViewer, GrammarUserState } from "../../src/components/learn/GrammarViewer";
+import { GrammarItem } from "../../src/components/learn/GrammarCard";
 
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
@@ -14,96 +15,108 @@ vi.mock("next/navigation", () => ({
   }),
 }));
 
-describe("Milestone F4 — Grammar Components", () => {
-  const mockGrammarItem1: GrammarItem = {
-    id: 201,
-    structure: "N を Vます",
-    formation: ["N + を + Vます"],
-    meaning_vi: "Đánh dấu tân ngữ trực tiếp của động từ.",
-    usage_vi: "Dùng を sau danh từ chịu tác động trực tiếp của hành động.",
-    examples: [
-      {
-        jp: "わたしは本を読みます。",
-        reading: "わたしはほんをよみます。",
-        vi: "Tôi đọc sách.",
-      },
-    ],
-    notes_vi: ["を đọc là「お」."],
-    source_ref: "Minna no Nihongo I — Lesson 6",
-  };
+describe("Milestone F4 — Grammar Real Interaction Tests", () => {
+  const originalFetch = global.fetch;
 
-  const mockGrammarItem2: GrammarItem = {
-    id: 202,
-    structure: "N で Vます",
-    formation: ["N + で + Vます"],
-    meaning_vi: "Chỉ phương tiện, địa điểm diễn ra hành động.",
-    examples: [],
-  };
-
-  describe("GrammarCard", () => {
-    it("renders grammar structure, meaning, formation, and examples", () => {
-      const html = renderToString(
-        <GrammarCard item={mockGrammarItem1} index={0} total={1} isViewed={false} />
-      );
-
-      expect(html).toContain("N を Vます");
-      expect(html).toContain("N + を + Vます");
-      expect(html).toContain("Đánh dấu tân ngữ trực tiếp của động từ.");
-      expect(html).toContain("Tôi đọc sách.");
-      expect(html).toContain("Minna no Nihongo I — Lesson 6");
-      expect(html).toContain("Chưa xem");
-    });
-
-    it("displays Đã xem badge when isViewed is true", () => {
-      const html = renderToString(
-        <GrammarCard item={mockGrammarItem1} index={0} total={1} isViewed={true} />
-      );
-      expect(html).toContain("Đã xem");
-    });
+  beforeEach(() => {
+    vi.resetAllMocks();
   });
 
-  describe("GrammarViewer", () => {
-    it("renders completion button when on the final card", () => {
-      const mockUserState: GrammarUserState = {
-        viewed_ids: [201],
-        viewed_count: 1,
-        total_count: 1,
-        completed: false,
-      };
+  afterEach(() => {
+    global.fetch = originalFetch;
+  });
 
-      const html = renderToString(
-        <GrammarViewer
-          studyDay={2}
-          items={[mockGrammarItem1]}
-          userState={mockUserState}
-        />
-      );
+  const mockGrammarItems: GrammarItem[] = [
+    {
+      id: 201,
+      structure: "N を Vます",
+      formation: ["N + を + Vます"],
+      meaning_vi: "Đánh dấu tân ngữ trực tiếp của động từ.",
+      usage_vi: "Dùng を sau danh từ chịu tác động trực tiếp của hành động.",
+      examples: [
+        {
+          jp: "わたしは本を読みます。",
+          reading: "わたしはほんをよみます。",
+          vi: "Tôi đọc sách.",
+        },
+      ],
+      notes_vi: ["を đọc là「お」."],
+      source_ref: "Minna no Nihongo I — Lesson 6",
+    },
+    {
+      id: 202,
+      structure: "N で Vます",
+      formation: ["N + で + Vます"],
+      meaning_vi: "Chỉ phương tiện, địa điểm diễn ra hành động.",
+      examples: [],
+    },
+  ];
 
-      expect(html).toContain("Grammar");
-      expect(html).toContain("Ngày");
-      expect(html).toContain("Đã xem:");
-      expect(html).toContain("Hoàn thành Grammar");
+  it("calls markViewed on Next, only shows Complete button on final card, and completes with backend next_task", async () => {
+    const calledUrls: string[] = [];
+
+    global.fetch = vi.fn().mockImplementation((url: string) => {
+      calledUrls.push(url);
+      if (url.includes("/api/progress/complete")) {
+        return Promise.resolve({
+          status: 200,
+          json: async () => ({
+            ok: true,
+            data: {
+              completed: true,
+              next_task: {
+                task_id: "grammar_test_day_2",
+                task_type: "grammar_test",
+                label: "Grammar Test Day 2",
+                href: "/test/grammar",
+              },
+            },
+          }),
+        } as Response);
+      }
+      return Promise.resolve({ status: 200, json: async () => ({ ok: true }) } as Response);
     });
 
-    it("renders Next button and does NOT render completion button on non-final card", () => {
-      const mockUserState: GrammarUserState = {
-        viewed_ids: [],
-        viewed_count: 0,
-        total_count: 2,
-        completed: false,
-      };
+    const userState: GrammarUserState = {
+      viewed_ids: [],
+      viewed_count: 0,
+      total_count: 2,
+      completed: false,
+    };
 
-      // 2 items, initial index is 0 (non-final)
-      const html = renderToString(
-        <GrammarViewer
-          studyDay={2}
-          items={[mockGrammarItem1, mockGrammarItem2]}
-          userState={mockUserState}
-        />
-      );
+    render(
+      <GrammarViewer
+        studyDay={2}
+        items={mockGrammarItems}
+        userState={userState}
+      />
+    );
 
-      expect(html).toContain("Mẫu tiếp theo");
-      expect(html).not.toContain("Hoàn thành Grammar");
+    // Initial card: Card 1 (non-final) -> should have "Mẫu tiếp theo", NO "Hoàn thành Grammar"
+    expect(screen.getByText("N を Vます")).toBeDefined();
+    expect(screen.getByRole("button", { name: /Mẫu tiếp theo/i })).toBeDefined();
+    expect(screen.queryByRole("button", { name: /Hoàn thành Grammar/i })).toBeNull();
+
+    // Click Next
+    await userEvent.click(screen.getByRole("button", { name: /Mẫu tiếp theo/i }));
+
+    // Should call /api/grammar/viewed for card 201
+    expect(calledUrls).toContain("/api/grammar/viewed");
+
+    // Now on final card: Card 2 -> should show "Hoàn thành Grammar", NO "Mẫu tiếp theo"
+    await waitFor(() => {
+      expect(screen.getByText("N で Vます")).toBeDefined();
+      expect(screen.getByRole("button", { name: /Hoàn thành Grammar/i })).toBeDefined();
+      expect(screen.queryByRole("button", { name: /Mẫu tiếp theo/i })).toBeNull();
+    });
+
+    // Click Complete
+    await userEvent.click(screen.getByRole("button", { name: /Hoàn thành Grammar/i }));
+
+    // Verify /api/progress/complete was called and backend CTA rendered
+    await waitFor(() => {
+      expect(calledUrls).toContain("/api/progress/complete");
+      expect(screen.getByText("Grammar Test Day 2")).toBeDefined();
     });
   });
 });

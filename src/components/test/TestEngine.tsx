@@ -351,7 +351,7 @@ export function TestEngine({ testId }: TestEngineProps) {
             </div>
 
             {/* Score details */}
-            <div className="flex items-center gap-4">
+            <div className="w-full md:w-auto">
               {resultScore.score !== null && resultScore.max_score !== null ? (
                 <div className="text-center rounded-xl bg-white border border-emerald-100 px-5 py-2.5 shadow-2xs">
                   <div className="text-xs font-medium text-slate-500 uppercase">Điểm số</div>
@@ -363,7 +363,7 @@ export function TestEngine({ testId }: TestEngineProps) {
                   </div>
                 </div>
               ) : (
-                <div className="flex items-center gap-2">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full">
                   <div className="text-center rounded-xl bg-white border border-slate-100 p-2.5 shadow-2xs">
                     <div className="text-[10px] text-slate-400 uppercase">Ngôn ngữ</div>
                     <div className="text-sm font-bold text-slate-800">
@@ -382,7 +382,7 @@ export function TestEngine({ testId }: TestEngineProps) {
                       {resultScore.listening_score ?? "—"} / 60
                     </div>
                   </div>
-                  <div className="text-center rounded-xl bg-emerald-600 text-white px-4 py-2.5 shadow-2xs">
+                  <div className="text-center rounded-xl bg-emerald-600 text-white px-3 py-2.5 shadow-2xs col-span-2 sm:col-span-1">
                     <div className="text-[10px] uppercase font-semibold text-emerald-100">Tổng điểm</div>
                     <div className="text-lg font-black">{resultScore.total_score ?? "—"} / 180</div>
                   </div>

@@ -98,6 +98,18 @@ export function CalendarDayModal({ studyDay, onClose }: CalendarDayModalProps) {
     };
   }, [studyDay, retryCount]);
 
+  // Lock body scroll when modal is open
+  useEffect(() => {
+    if (studyDay) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [studyDay]);
+
   useEffect(() => {
     if (!studyDay) return;
     const handleKeyDown = (e: KeyboardEvent) => {

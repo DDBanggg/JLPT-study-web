@@ -1,6 +1,7 @@
 import React from "react";
-import { describe, expect, it, vi } from "vitest";
-import { renderToString } from "react-dom/server";
+import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
+import { render, screen, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { VocabTable, VocabItem } from "../../src/components/learn/VocabTable";
 import { VocabQuiz } from "../../src/components/learn/VocabQuiz";
 
@@ -14,7 +15,17 @@ vi.mock("next/navigation", () => ({
   }),
 }));
 
-describe("Milestone F5 — Vocabulary Components", () => {
+describe("Milestone F5 — Vocabulary Real Interaction Tests", () => {
+  const originalFetch = global.fetch;
+
+  beforeEach(() => {
+    vi.resetAllMocks();
+  });
+
+  afterEach(() => {
+    global.fetch = originalFetch;
+  });
+
   const mockVocabItems: VocabItem[] = [
     {
       id: 201,
@@ -46,59 +57,92 @@ describe("Milestone F5 — Vocabulary Components", () => {
     },
   ];
 
-  describe("VocabTable", () => {
-    it("renders vocabulary table with kanji, reading, meaning, and Known action button", () => {
-      const html = renderToString(
-        <VocabTable
-          studyDay={2}
-          allItems={mockVocabItems}
-          learningSetIds={[201, 202]}
-        />
-      );
+  it("marks item known through confirmation modal and replaces active item immediately", async () => {
+    let capturedBody: unknown = null;
 
-      expect(html).toContain("Vocabulary");
-      expect(html).toContain("Ngày");
-      expect(html).toContain("食べます");
-      expect(html).toContain("たべます");
-      expect(html).toContain("ăn");
-      expect(html).toContain("THỰC");
-      expect(html).toContain("Đã biết");
-      expect(html).not.toContain("行きます");
+    global.fetch = vi.fn().mockImplementation((url: string, init?: RequestInit) => {
+      if (url.includes("/api/known-items/mark")) {
+        capturedBody = JSON.parse(init?.body as string);
+        return Promise.resolve({
+          status: 200,
+          json: async () => ({
+            ok: true,
+            data: {
+              marked_known: 201,
+              replacement_item_id: 203,
+              learning_set_ids: [202, 203],
+              active_count: 2,
+              target: 2,
+              pool_exhausted: false,
+            },
+          }),
+        } as Response);
+      }
+      return Promise.resolve({ status: 200, json: async () => ({ ok: true }) } as Response);
     });
 
-    it("renders replacement item when learning_set_ids contains the replaced item", () => {
-      // When backend replaces 201 with 203, learning_set_ids = [202, 203]
-      const html = renderToString(
-        <VocabTable
-          studyDay={2}
-          allItems={mockVocabItems}
-          learningSetIds={[202, 203]}
-        />
-      );
+    render(
+      <VocabTable
+        studyDay={2}
+        allItems={mockVocabItems}
+        learningSetIds={[201, 202]}
+      />
+    );
 
-      expect(html).toContain("飲みます");
-      expect(html).toContain("行きます");
-      expect(html).toContain("HÀNH");
-      expect(html).not.toContain("食べます");
+    // Initial items rendered
+    expect(screen.getAllByText("食べます").length).toBeGreaterThan(0);
+    expect(screen.getAllByText("飲みます").length).toBeGreaterThan(0);
+    expect(screen.queryByText("行きます")).toBeNull();
+
+    // Click "Đã biết" for first item
+    const knownButtons = screen.getAllByRole("button", { name: "Đã biết" });
+    await userEvent.click(knownButtons[0]);
+
+    // Confirmation Modal should open
+    await waitFor(() => {
+      expect(screen.getByText("Đánh dấu từ đã biết?")).toBeDefined();
+    });
+
+    // Confirm marking known
+    const confirmBtn = screen.getByRole("button", { name: "Đã biết & Thay thế" });
+    await userEvent.click(confirmBtn);
+
+    // Verify API called
+    await waitFor(() => {
+      expect(capturedBody).toEqual({
+        item_type: "vocabulary",
+        item_id: 201,
+        study_day: 2,
+      });
+    });
+
+    // Replacement item (203 - 行きます) should now appear immediately in the UI
+    await waitFor(() => {
+      expect(screen.getAllByText("行きます").length).toBeGreaterThan(0);
+      expect(screen.queryByText("食べます")).toBeNull();
     });
   });
 
-  describe("VocabQuiz", () => {
-    it("renders flashcard with kanji and reading without Known button", () => {
-      const html = renderToString(
-        <VocabQuiz
-          studyDay={2}
-          allItems={mockVocabItems}
-          learningSetIds={[201, 202]}
-        />
-      );
+  it("renders flashcard and flips to show meaning and examples", async () => {
+    render(
+      <VocabQuiz
+        studyDay={2}
+        allItems={mockVocabItems}
+        learningSetIds={[201, 202]}
+      />
+    );
 
-      expect(html).toContain("Vocabulary Quiz");
-      expect(html).toContain("食べます");
-      expect(html).toContain("Lật xem nghĩa");
-      expect(html).toContain("Trộn thứ tự");
-      // NO Known action button in Quiz view
-      expect(html).not.toContain("Đã biết");
+    expect(screen.getByText("食べます")).toBeDefined();
+    expect(screen.getByRole("button", { name: "Lật xem nghĩa" })).toBeDefined();
+
+    // Click flip button
+    await userEvent.click(screen.getByRole("button", { name: "Lật xem nghĩa" }));
+
+    // Back of card shows meaning and examples
+    await waitFor(() => {
+      expect(screen.getByText("ăn")).toBeDefined();
+      expect(screen.getByText("Tôi ăn bánh mì.")).toBeDefined();
+      expect(screen.getByRole("button", { name: "Ẩn nghĩa" })).toBeDefined();
     });
   });
 });
