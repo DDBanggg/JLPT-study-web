@@ -48,24 +48,27 @@ function subscribeSidebar(onStoreChange: () => void) {
   };
 }
 
-export function toggleSidebarCollapse(): void {
-  const current = getSidebarSnapshot();
-  const next = !current;
+export function setSidebarCollapseState(collapsed: boolean): void {
   try {
-    localStorage.setItem(SIDEBAR_STORAGE_KEY, String(next));
+    localStorage.setItem(SIDEBAR_STORAGE_KEY, String(collapsed));
   } catch {
     // Ignore storage errors
   }
   sidebarListeners.forEach((listener) => listener());
 }
 
-export function useSidebarCollapse(): [boolean, () => void] {
+export function toggleSidebarCollapse(): void {
+  const current = getSidebarSnapshot();
+  setSidebarCollapseState(!current);
+}
+
+export function useSidebarCollapse(): [boolean, () => void, (state: boolean) => void] {
   const isCollapsed = useSyncExternalStore(
     subscribeSidebar,
     getSidebarSnapshot,
     getSidebarServerSnapshot
   );
-  return [isCollapsed, toggleSidebarCollapse];
+  return [isCollapsed, toggleSidebarCollapse, setSidebarCollapseState];
 }
 
 export interface SidebarProps {
@@ -82,7 +85,7 @@ export function Sidebar({
   className = "",
 }: SidebarProps) {
   const pathname = usePathname() || "";
-  const [storeCollapsed, storeToggleCollapse] = useSidebarCollapse();
+  const [storeCollapsed, storeToggleCollapse, storeSetCollapse] = useSidebarCollapse();
 
   const collapsed = controlledCollapsed !== undefined ? controlledCollapsed : storeCollapsed;
 
@@ -94,9 +97,15 @@ export function Sidebar({
     }
   };
 
-  // Group open/closed user toggles
-  const [isLearnManuallyClosed, setIsLearnManuallyClosed] = useState<boolean>(false);
-  const [isTestManuallyClosed, setIsTestManuallyClosed] = useState<boolean>(false);
+  const expandSidebar = () => {
+    if (collapsed) {
+      if (onToggleCollapse) {
+        onToggleCollapse();
+      } else {
+        storeSetCollapse(false);
+      }
+    }
+  };
 
   // Check active states
   const isScheduleActive = pathname === "/schedule" || pathname.startsWith("/schedule/");
@@ -117,8 +126,22 @@ export function Sidebar({
   const isEndTestActive = pathname.startsWith("/test/end");
   const isMockTestActive = pathname.startsWith("/test/mock");
 
-  const isLearnOpen = !isLearnManuallyClosed;
-  const isTestOpen = !isTestManuallyClosed;
+  // User manual expansion states for groups. Default is null (closed, unless active).
+  const [isLearnUserExpanded, setIsLearnUserExpanded] = useState<boolean | null>(null);
+  const [isTestUserExpanded, setIsTestUserExpanded] = useState<boolean | null>(null);
+
+  const isLearnOpen = isLearnUserExpanded !== null ? isLearnUserExpanded : isLearnActive;
+  const isTestOpen = isTestUserExpanded !== null ? isTestUserExpanded : isTestActive;
+
+  const handleCollapsedLearnClick = () => {
+    expandSidebar();
+    setIsLearnUserExpanded(true);
+  };
+
+  const handleCollapsedTestClick = () => {
+    expandSidebar();
+    setIsTestUserExpanded(true);
+  };
 
   const navItemClass = (isActive: boolean) =>
     `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
@@ -196,7 +219,7 @@ export function Sidebar({
             <Tooltip content="Học tập (Learn)" disabled={!collapsed} side="right">
               <button
                 type="button"
-                onClick={handleToggle}
+                onClick={handleCollapsedLearnClick}
                 className={`w-11 h-11 flex items-center justify-center rounded-lg mx-auto transition-colors ${
                   isLearnActive
                     ? "bg-blue-50 text-blue-700"
@@ -211,7 +234,7 @@ export function Sidebar({
             <div>
               <button
                 type="button"
-                onClick={() => setIsLearnManuallyClosed(!isLearnManuallyClosed)}
+                onClick={() => setIsLearnUserExpanded(!isLearnOpen)}
                 className={`w-full flex items-center justify-between px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-colors rounded-lg ${
                   isLearnActive ? "text-blue-700" : "text-slate-400 hover:text-slate-600"
                 }`}
@@ -281,7 +304,7 @@ export function Sidebar({
             <Tooltip content="Luyện thi (Test)" disabled={!collapsed} side="right">
               <button
                 type="button"
-                onClick={handleToggle}
+                onClick={handleCollapsedTestClick}
                 className={`w-11 h-11 flex items-center justify-center rounded-lg mx-auto transition-colors ${
                   isTestActive
                     ? "bg-blue-50 text-blue-700"
@@ -296,7 +319,7 @@ export function Sidebar({
             <div>
               <button
                 type="button"
-                onClick={() => setIsTestManuallyClosed(!isTestManuallyClosed)}
+                onClick={() => setIsTestUserExpanded(!isTestOpen)}
                 className={`w-full flex items-center justify-between px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-colors rounded-lg ${
                   isTestActive ? "text-blue-700" : "text-slate-400 hover:text-slate-600"
                 }`}

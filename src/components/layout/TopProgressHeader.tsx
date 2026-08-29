@@ -1,6 +1,17 @@
 import React from "react";
 import { TargetIcon, ClockIcon } from "../common/Icons";
 
+export interface ProgramDto {
+  program_id?: string;
+  progress_start_date?: string;
+  exam_date?: string;
+  projected_day_100_date?: string;
+  current_study_day?: number;
+  completed_study_days?: number;
+  progress_percent?: number;
+  days_until_exam?: number;
+}
+
 export interface ProgramProgressData {
   programId?: string;
   progressStartDate?: string;
@@ -12,8 +23,10 @@ export interface ProgramProgressData {
   daysUntilExam?: number;
 }
 
+export type ProgramHeaderInput = ProgramDto | ProgramProgressData;
+
 export interface TopProgressHeaderProps {
-  program?: ProgramProgressData | null;
+  program?: ProgramHeaderInput | null;
   className?: string;
 }
 
@@ -26,12 +39,34 @@ function formatDateDisplay(isoDate?: string): string {
   return isoDate;
 }
 
+function normalizeProgram(program?: ProgramHeaderInput | null) {
+  if (!program) return null;
+  const p = program as Record<string, unknown>;
+  const completedDays = (p.completed_study_days ?? p.completedStudyDays) as number | undefined;
+  const rawPercent = (p.progress_percent ?? p.progressPercent) as number | undefined;
+  const progressPercent =
+    rawPercent !== undefined
+      ? rawPercent
+      : completedDays !== undefined
+        ? Math.min(Math.max(Math.round((completedDays / 100) * 100), 0), 100)
+        : 0;
+  const daysUntilExam = (p.days_until_exam ?? p.daysUntilExam) as number | undefined;
+  const rawExamDate = (p.exam_date ?? p.examDate) as string | undefined;
+
+  return {
+    completedDays,
+    progressPercent,
+    daysUntilExam,
+    rawExamDate,
+  };
+}
+
 export function TopProgressHeader({ program, className = "" }: TopProgressHeaderProps) {
-  const currentDay = program?.currentStudyDay ?? 1;
-  const completedDays = program?.completedStudyDays ?? 0;
-  const progressPercent = program?.progressPercent ?? Math.round((completedDays / 100) * 100);
-  const daysUntilExam = program?.daysUntilExam ?? 100;
-  const examDateDisplay = program?.examDate ? formatDateDisplay(program.examDate) : "06/12/2026";
+  const normalized = normalizeProgram(program);
+  const completedDays = normalized?.completedDays;
+  const progressPercent = normalized?.progressPercent ?? 0;
+  const daysUntilExam = normalized?.daysUntilExam;
+  const examDateDisplay = normalized?.rawExamDate ? formatDateDisplay(normalized.rawExamDate) : null;
 
   return (
     <header
@@ -50,7 +85,8 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
                 Tiến độ học tập
               </span>
               <span className="font-semibold text-slate-800">
-                {`Ngày ${currentDay}`} <span className="font-normal text-slate-400">/ 100</span>
+                {completedDays !== undefined ? `${completedDays}` : "—"}{" "}
+                <span className="font-normal text-slate-400">/ 100</span>
               </span>
             </div>
             <div className="mt-1.5 flex items-center gap-3">
@@ -82,11 +118,13 @@ export function TopProgressHeader({ program, className = "" }: TopProgressHeader
             </div>
             <div className="mt-0.5 flex items-baseline gap-2">
               <span className="text-lg font-semibold text-slate-900 tabular-nums">
-                {daysUntilExam}
+                {daysUntilExam !== undefined ? daysUntilExam : "—"}
               </span>
               <span className="text-xs font-medium text-slate-600">ngày còn lại</span>
-              {examDateDisplay && (
+              {examDateDisplay ? (
                 <span className="text-xs text-slate-400">{`(${examDateDisplay})`}</span>
+              ) : (
+                <span className="text-xs text-slate-400">(—)</span>
               )}
             </div>
           </div>

@@ -3,13 +3,16 @@ import { describe, expect, it, vi } from "vitest";
 import { renderToString } from "react-dom/server";
 import { Sidebar } from "../../src/components/layout/Sidebar";
 
+let mockPathname = "/schedule";
+
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
-  usePathname: () => "/schedule",
+  usePathname: () => mockPathname,
 }));
 
 describe("Sidebar Component", () => {
-  it("renders main navigation items when expanded", () => {
+  it("renders main navigation items with Learn/Test groups closed by default on /schedule", () => {
+    mockPathname = "/schedule";
     const html = renderToString(<Sidebar currentStudyDay={5} isCollapsed={false} />);
     
     // Core links
@@ -18,11 +21,22 @@ describe("Sidebar Component", () => {
     expect(html).toContain('href="/schedule"');
     expect(html).toContain('href="/calendar"');
 
-    // Groups
+    // Group headers
     expect(html).toContain("Learn");
     expect(html).toContain("Test");
 
-    // Learn children
+    // Children should NOT be rendered when closed by default
+    expect(html).not.toContain('href="/learn/grammar/day/5"');
+    expect(html).not.toContain('href="/learn/vocabulary/day/5/list"');
+    expect(html).not.toContain('href="/test/grammar"');
+    expect(html).not.toContain('href="/test/daily"');
+  });
+
+  it("auto-expands Learn group when pathname is in /learn/**", () => {
+    mockPathname = "/learn/grammar/day/5";
+    const html = renderToString(<Sidebar currentStudyDay={5} isCollapsed={false} />);
+    
+    // Learn children MUST appear
     expect(html).toContain("Grammar");
     expect(html).toContain("Vocabulary");
     expect(html).toContain("Kanji");
@@ -31,7 +45,15 @@ describe("Sidebar Component", () => {
     expect(html).toContain('href="/learn/grammar/day/5"');
     expect(html).toContain('href="/learn/vocabulary/day/5/list"');
 
-    // Test children
+    // Test children should remain closed
+    expect(html).not.toContain('href="/test/grammar"');
+  });
+
+  it("auto-expands Test group when pathname is in /test/**", () => {
+    mockPathname = "/test/daily";
+    const html = renderToString(<Sidebar currentStudyDay={5} isCollapsed={false} />);
+    
+    // Test children MUST appear
     expect(html).toContain("Grammar Test");
     expect(html).toContain("Daily Test");
     expect(html).toContain("Weekly Test");
@@ -40,16 +62,17 @@ describe("Sidebar Component", () => {
     expect(html).toContain("Test / Mock");
     expect(html).toContain('href="/test/grammar"');
     expect(html).toContain('href="/test/daily"');
+
+    // Learn children should remain closed
+    expect(html).not.toContain('href="/learn/grammar/day/5"');
   });
 
   it("renders compact mode with correct width class when collapsed", () => {
+    mockPathname = "/schedule";
     const html = renderToString(<Sidebar currentStudyDay={1} isCollapsed={true} />);
     
-    // Should have collapsed width class
     expect(html).toContain("w-[72px]");
-    // Expanded brand label should not appear in collapsed mode
     expect(html).not.toContain("JLPT N3 Study");
-    // Expand button label for accessibility
     expect(html).toContain("Mở rộng thanh điều hướng");
   });
 });
