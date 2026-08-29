@@ -34,6 +34,8 @@ export function formatDateDisplay(iso: string): string {
 export default function SetupPage() {
   const router = useRouter();
   const [isChecking, setIsChecking] = useState(true);
+  const [checkError, setCheckError] = useState<string | null>(null);
+  const [checkRetryCount, setCheckRetryCount] = useState(0);
   const [progressStartDate, setProgressStartDate] = useState(getTodayIsoDate());
   const [examDate, setExamDate] = useState("2026-12-06");
   const [isLoading, setIsLoading] = useState(false);
@@ -42,31 +44,50 @@ export default function SetupPage() {
   // Check current program status on mount
   useEffect(() => {
     let isMounted = true;
-    async function checkProgram() {
-      try {
-        const res = await fetch("/api/program");
+
+    fetch("/api/program")
+      .then(async (res) => {
         if (res.status === 401) {
           router.replace("/login");
-          return;
+          return null;
         }
         const data = await res.json();
-        if (data?.ok && data?.data?.configured) {
-          router.replace("/schedule");
+        return { status: res.status, data };
+      })
+      .then((result) => {
+        if (!isMounted || !result) return;
+        const { status, data } = result;
+
+        if (status === 200 && data?.ok === true) {
+          if (data?.data?.configured) {
+            router.replace("/schedule");
+            return;
+          }
+          // Successfully verified that program is not configured
+          setIsChecking(false);
           return;
         }
-      } catch {
-        // Continue to show setup form if network check fails
-      } finally {
-        if (isMounted) {
-          setIsChecking(false);
-        }
-      }
-    }
-    checkProgram();
+
+        const msg = data?.error?.message || "Không thể kiểm tra trạng thái chương trình học.";
+        setCheckError(msg);
+        setIsChecking(false);
+      })
+      .catch(() => {
+        if (!isMounted) return;
+        setCheckError("Không thể kết nối đến máy chủ. Vui lòng kiểm tra mạng và thử lại.");
+        setIsChecking(false);
+      });
+
     return () => {
       isMounted = false;
     };
-  }, [router]);
+  }, [router, checkRetryCount]);
+
+  const handleRetryCheck = () => {
+    setIsChecking(true);
+    setCheckError(null);
+    setCheckRetryCount((prev) => prev + 1);
+  };
 
   const projectedDay100 = computeProjectedDay100(progressStartDate);
   const isDay100AfterExam = Boolean(
@@ -126,12 +147,38 @@ export default function SetupPage() {
 
   if (isChecking) {
     return (
-      <div className="flex min-h-screen items-center justify-center bg-slate-50 p-6">
+      <div className="flex min-h-screen items-center justify-center bg-slate-50 p-6 font-sans antialiased">
         <div className="text-center">
           <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 font-bold text-white shadow-sm">
             N3
           </div>
           <p className="mt-3 text-sm text-slate-500">Đang kiểm tra chương trình học...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (checkError) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-slate-50 p-6 font-sans antialiased">
+        <div
+          data-testid="setup-check-error"
+          className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-xs text-center"
+        >
+          <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-red-100 text-red-600">
+            <AlertTriangleIcon className="h-5 w-5" />
+          </div>
+          <h2 className="mt-3 text-base font-semibold text-slate-800">
+            Không thể tải trạng thái chương trình
+          </h2>
+          <p className="mt-1 text-sm text-slate-500">{checkError}</p>
+          <button
+            type="button"
+            onClick={handleRetryCheck}
+            className="mt-5 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-4 py-2 text-xs font-semibold text-white shadow-sm hover:bg-blue-700 transition-colors"
+          >
+            Thử lại
+          </button>
         </div>
       </div>
     );

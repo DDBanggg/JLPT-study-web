@@ -89,6 +89,7 @@ export function Sidebar({
   const pathname = usePathname() || "";
   const [storeCollapsed, storeToggleCollapse, storeSetCollapse] = useSidebarCollapse();
   const [isLoggingOut, setIsLoggingOut] = useState(false);
+  const [logoutError, setLogoutError] = useState<string | null>(null);
 
   const collapsed = controlledCollapsed !== undefined ? controlledCollapsed : storeCollapsed;
 
@@ -113,22 +114,24 @@ export function Sidebar({
   const handleLogout = async () => {
     if (isLoggingOut) return;
     setIsLoggingOut(true);
+    setLogoutError(null);
     try {
       const res = await fetch("/api/auth/logout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });
       const data = await res.json();
-      if (data?.ok && data?.data?.redirect_to) {
+      if (res.status === 200 && data?.ok === true && data?.data?.redirect_to) {
         router.push(data.data.redirect_to);
         router.refresh();
-      } else {
-        router.push("/login");
-        router.refresh();
+        return;
       }
+
+      // Logout error on backend
+      const msg = data?.error?.message || "Đăng xuất không thành công. Vui lòng thử lại.";
+      setLogoutError(msg);
     } catch {
-      router.push("/login");
-      router.refresh();
+      setLogoutError("Lỗi kết nối khi đăng xuất. Vui lòng thử lại.");
     } finally {
       setIsLoggingOut(false);
     }
@@ -397,9 +400,20 @@ export function Sidebar({
 
       {/* Footer with Logout & Collapse Actions */}
       <div className="shrink-0 border-t border-slate-100 p-3 space-y-1">
+        {/* Logout Error Message if any */}
+        {logoutError && !collapsed && (
+          <div
+            role="alert"
+            data-testid="sidebar-logout-error"
+            className="rounded-md bg-red-50 px-2.5 py-1.5 text-[11px] font-medium text-red-600"
+          >
+            {logoutError}
+          </div>
+        )}
+
         {/* Logout Button */}
         <Tooltip
-          content={isLoggingOut ? "Đang đăng xuất..." : "Đăng xuất"}
+          content={logoutError || (isLoggingOut ? "Đang đăng xuất..." : "Đăng xuất")}
           disabled={!collapsed}
           side="right"
         >

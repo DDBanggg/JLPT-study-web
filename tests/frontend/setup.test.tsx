@@ -21,6 +21,11 @@ describe("SetupPage and Date Calculation", () => {
     expect(computeProjectedDay100("2026-01-01")).toBe("2026-04-10");
   });
 
+  it("handles invalid dates safely", () => {
+    expect(computeProjectedDay100("")).toBe("");
+    expect(computeProjectedDay100("invalid-date")).toBe("");
+  });
+
   it("formats dates correctly for display", () => {
     expect(formatDateDisplay("2026-08-27")).toBe("27/08/2026");
     expect(formatDateDisplay("2026-12-06")).toBe("06/12/2026");
