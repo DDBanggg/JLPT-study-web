@@ -16,7 +16,7 @@ Codex is not assigned to this roadmap.
 | F4 | Grammar | COMPLETE | Grammar cards, viewed progress, completion and Grammar Test CTA |
 | F5 | Vocabulary | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
 | F6 | Kanji | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
-| F7 | Reading | NOT_STARTED | Passage, questions and local-only comparison flow work |
+| F7 | Reading | COMPLETE | Passage, questions and local-only comparison flow work |
 | F8 | Listening | NOT_STARTED | Embedded YouTube, fallback and manual completion work |
 | F9 | Test list pages | NOT_STARTED | Grammar, Daily, Weekly, Monthly, End and Mock lists consume metadata API |
 | F10 | Desktop test-taking | NOT_STARTED | Shared question UI, navigator, submit warning and review work |
