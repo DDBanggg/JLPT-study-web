@@ -13,9 +13,9 @@ The source files are maintained in the project's canonical N5 Drive folder. Exac
 ## Canonical source locations
 
 - N5 Drive folder: [Project N5 source folder](https://drive.google.com/drive/folders/1mXKzTLApB5XjmQ_xvVjS0eDoY2GlVO36?hl=vi)
-- N5 Listening playlist: [Project N5 Listening playlist](https://youtube.com/playlist?list=PL41HYkh5h2BaZSWmaXnyZuE_ge-7OmmpP)
+- Shared N5/N4 Listening playlist: [Lessons 1–50 Listening playlist](https://youtube.com/playlist?list=PL41HYkh5h2BaZSWmaXnyZuE_ge-7OmmpP)
 
-The playlist is the canonical Listening source collection. Do not list individual lesson video URLs in this manifest.
+The playlist contains all 50 Listening lessons and is the canonical source collection for both N5 and N4. N5 uses Listening 1–25 for Lesson 1–25; N4 uses Listening 26–50 for Lesson 26–50. Do not list individual lesson video URLs in either phase manifest.
 
 ## Source responsibilities
 
@@ -58,8 +58,10 @@ Kanji selection and readings follow the assigned source range. Onyomi/Kunyomi pr
 
 ### Listening
 
-- Source: the canonical N5 Listening playlist linked above.
+- Source: the shared canonical Listening 1–50 playlist linked above.
 - Video number maps directly to Lesson number during the confirmed N5 review mapping.
+- N5 uses only Listening videos 1–25 for Lesson 1–25.
+- N4 uses the same playlist's Listening videos 26–50 for Lesson 26–50, as defined in `N4_SOURCE_MANIFEST.md`.
 - The playlist is a source collection. A normal Study Day uses five separate lesson videos, not one playlist item.
 
 ## Confirmed Study Day mapping

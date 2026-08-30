@@ -70,6 +70,9 @@ N3_Study_Web_JSON_Schema_v1.md
 
 docs/specs/N5_SOURCE_MANIFEST.md
 → source responsibility và lesson mapping của phase N5
+
+docs/specs/N4_SOURCE_MANIFEST.md
+→ source responsibility và lesson mapping của phase N4
 ```
 
 Không tạo hoặc commit `docs/content-context/day-xxx.md`. Không lưu cùng một lesson content dưới cả `.md` và `.json`.
@@ -788,7 +791,9 @@ Quy trình đề xuất:
 3. Đọc tài liệu nguồn
 4. Đọc CONTENT_CREATION_GUIDE.md
 5. Đọc N3_Study_Web_JSON_Schema_v1.md
-6. Với phase N5, đọc docs/specs/N5_SOURCE_MANIFEST.md
+6. Chọn Source Manifest theo phase:
+   n5_review → docs/specs/N5_SOURCE_MANIFEST.md
+   n4_review → docs/specs/N4_SOURCE_MANIFEST.md
 7. Tạo trực tiếp Grammar JSON
 8. Tạo Grammar Test JSON cùng ngày
 9. Tạo Vocabulary JSON
@@ -802,6 +807,127 @@ Quy trình đề xuất:
 17. Push GitHub
 18. Vercel deploy
 ```
+
+## 15.1 Batch Content Production Mode
+
+Canonical per-day workflow vẫn hợp lệ. Ngoài ra, Phase N5/N4 có thể được sản xuất theo batch của từng content type xuyên suốt Lesson 1–50:
+
+```text
+Grammar
+→ Lesson 1–5
+→ Lesson 6–10
+→ ...
+→ Lesson 46–50
+
+Vocabulary
+→ Lesson 1–5
+→ ...
+→ Lesson 46–50
+
+Kanji
+→ Lesson 1–5
+→ ...
+→ Lesson 46–50
+
+Reading
+→ Lesson 1–5
+→ ...
+→ Lesson 46–50
+
+Listening
+→ Lesson 1–5
+→ ...
+→ Lesson 46–50
+```
+
+Batch production chỉ thay đổi thứ tự chuẩn bị content, không thay đổi runtime file organization. Output vẫn phải tách theo Study Day:
+
+```text
+Lesson 1–5   → day-001.json
+Lesson 6–10  → day-002.json
+Lesson 11–15 → day-003.json
+Lesson 16–20 → day-004.json
+Lesson 21–25 → day-005.json
+Lesson 26–30 → day-006.json
+Lesson 31–35 → day-007.json
+Lesson 36–40 → day-008.json
+Lesson 41–45 → day-009.json
+Lesson 46–50 → day-010.json
+```
+
+Không tạo một JSON duy nhất cho toàn bộ N5/N4. Mỗi file vẫn tuân theo roadmap resource ID, Study Day namespace, quota và publication invariants hiện tại.
+
+### Grammar Test dependency
+
+Grammar Test phụ thuộc trực tiếp vào Grammar cùng Study Day. Vì vậy Grammar batch có thể tạo hai resource cùng lúc:
+
+```text
+Grammar Day X
+→ Grammar Test Day X
+
+content/grammar/day-xxx.json
++
+content/tests/grammar/day-xxx.json
+```
+
+Mỗi N5/N4 Study Day vẫn bắt buộc:
+
+```text
+5 lessons
+× 5 questions
+= 25 Grammar Test questions
+```
+
+### Daily Test dependency
+
+Không tạo Daily Test chỉ từ Grammar batch. Daily Test Day X+1 chỉ được tạo sau khi ba nguồn của coverage Day X đã hoàn thành và được review:
+
+```text
+Grammar Day X
++ Vocabulary Day X
++ Kanji Day X
+↓
+Daily Test Day X+1
+```
+
+Ví dụ:
+
+```text
+Day 2 Grammar + Vocabulary + Kanji complete and reviewed
+↓
+create Daily Test Day 3
+```
+
+Reading và Listening không phải source của Daily Test hiện tại. Daily Test vẫn giữ 15 Grammar + 15 Vocabulary + 15 Kanji = 45 questions.
+
+### Batch checkpoints
+
+Không đợi đến cuối 50 lessons mới kiểm tra. Sau mỗi block 5 lessons:
+
+```text
+extract
+→ generate Study Day JSON
+→ schema validation
+→ content lint / manual spot-check
+→ continue to next block
+```
+
+Ví dụ Grammar batch:
+
+```text
+Lesson 1–5
+→ validate Day 1
+
+Lesson 6–10
+→ validate Day 2
+
+...
+
+Lesson 46–50
+→ validate Day 10
+```
+
+Sau checkpoint cuối, chạy validation tổng cho toàn batch. A batch is complete only when every per-day checkpoint and the final aggregate validation pass.
 
 ---
 
@@ -994,6 +1120,13 @@ When creating content, always follow the two canonical docs:
 for exact runtime JSON structure.
 
 When a phase-specific Source Manifest exists, read it additionally for that phase's source responsibility and mapping. It supplements but does not replace the two canonical docs.
+
+Canonical manifest selection:
+
+```text
+phase n5_review → docs/specs/N5_SOURCE_MANIFEST.md
+phase n4_review → docs/specs/N4_SOURCE_MANIFEST.md
+```
 
 This guide defines the **workflow**.
 
