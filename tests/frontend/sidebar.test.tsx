@@ -1,5 +1,6 @@
 import React from "react";
 import { describe, expect, it, vi } from "vitest";
+import { render, screen, within } from "@testing-library/react";
 import { renderToString } from "react-dom/server";
 import { Sidebar } from "../../src/components/layout/Sidebar";
 
@@ -39,6 +40,21 @@ describe("Sidebar Component", () => {
     // Logout button
     expect(html).toContain("Đăng xuất");
     expect(html).toContain('data-testid="sidebar-logout-button"');
+  });
+
+  it("renders the collapse control in the expanded header and keeps footer for logout", () => {
+    mockPathname = "/schedule";
+    render(<Sidebar currentStudyDay={5} isCollapsed={false} />);
+
+    const header = screen.getByTestId("sidebar-header");
+    const footer = screen.getByTestId("sidebar-footer");
+    expect(within(header).getByText("JLPT N3 Study")).toBeDefined();
+    expect(within(header).getByRole("button", { name: "Thu gọn thanh điều hướng" })).toBeDefined();
+    expect(within(header).getByRole("button", { name: "Thu gọn thanh điều hướng" }).getAttribute("title")).toBe(
+      "Thu gọn thanh điều hướng",
+    );
+    expect(within(footer).getByRole("button", { name: "Đăng xuất" })).toBeDefined();
+    expect(within(footer).queryByTestId("sidebar-collapse-toggle")).toBeNull();
   });
 
   it("auto-expands Learn group when pathname is in /learn/**", () => {
@@ -84,5 +100,22 @@ describe("Sidebar Component", () => {
     expect(html).not.toContain("JLPT N3 Study");
     expect(html).toContain("Mở rộng thanh điều hướng");
     expect(html).toContain('data-testid="sidebar-logout-button"');
+  });
+
+  it("renders the expand control in the collapsed header and no collapse action in footer", () => {
+    mockPathname = "/schedule";
+    render(<Sidebar currentStudyDay={1} isCollapsed />);
+
+    const sidebar = screen.getByTestId("desktop-sidebar");
+    const header = screen.getByTestId("sidebar-header");
+    const footer = screen.getByTestId("sidebar-footer");
+    expect(sidebar.className).toContain("w-[72px]");
+    expect(within(header).getByText("N3")).toBeDefined();
+    expect(within(header).getByRole("button", { name: "Mở rộng thanh điều hướng" }).getAttribute("title")).toBe(
+      "Mở rộng thanh điều hướng",
+    );
+    expect(within(footer).getByRole("button", { name: "Đăng xuất" })).toBeDefined();
+    expect(within(footer).queryByTestId("sidebar-collapse-toggle")).toBeNull();
+    expect(screen.queryByText("JLPT N3 Study")).toBeNull();
   });
 });

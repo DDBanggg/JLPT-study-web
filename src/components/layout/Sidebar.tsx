@@ -196,9 +196,12 @@ export function Sidebar({
       } ${className}`}
     >
       {/* Brand / Logo Header */}
-      <div className="flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4">
+      <div
+        data-testid="sidebar-header"
+        className={`flex h-16 shrink-0 items-center justify-between border-b border-slate-100 ${collapsed ? "px-1" : "px-4"}`}
+      >
         {!collapsed ? (
-          <div className="flex items-center gap-2.5 overflow-hidden">
+          <div className="flex min-w-0 items-center gap-2.5 overflow-hidden">
             <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-sm shadow-sm">
               N3
             </div>
@@ -208,10 +211,26 @@ export function Sidebar({
             </div>
           </div>
         ) : (
-          <div className="mx-auto flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-sm shadow-sm">
+          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-sm shadow-sm">
             N3
           </div>
         )}
+
+        <Tooltip
+          content={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
+          side="right"
+        >
+          <button
+            type="button"
+            onClick={handleToggle}
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-800"
+            aria-label={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
+            title={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
+            data-testid="sidebar-collapse-toggle"
+          >
+            {collapsed ? <SidebarExpandIcon className="h-5 w-5" /> : <SidebarCollapseIcon className="h-5 w-5" />}
+          </button>
+        </Tooltip>
       </div>
 
       {/* Navigation List */}
@@ -398,8 +417,8 @@ export function Sidebar({
         </div>
       </nav>
 
-      {/* Footer with Logout & Collapse Actions */}
-      <div className="shrink-0 border-t border-slate-100 p-3 space-y-1">
+      {/* Footer with Logout only */}
+      <div data-testid="sidebar-footer" className="shrink-0 border-t border-slate-100 p-3 space-y-1">
         {/* Logout Error Message if any */}
         {logoutError && !collapsed && (
           <div
@@ -432,30 +451,6 @@ export function Sidebar({
           </button>
         </Tooltip>
 
-        {/* Collapse / Expand Toggle Button */}
-        <Tooltip
-          content={collapsed ? "Mở rộng sidebar" : "Thu gọn sidebar"}
-          disabled={!collapsed}
-          side="right"
-        >
-          <button
-            type="button"
-            onClick={handleToggle}
-            className={`flex w-full items-center gap-3 rounded-lg py-2.5 text-xs font-medium text-slate-500 hover:bg-slate-100 hover:text-slate-800 transition-colors ${
-              collapsed ? "justify-center px-0 w-11 h-11 mx-auto" : "px-3"
-            }`}
-            aria-label={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
-          >
-            {collapsed ? (
-              <SidebarExpandIcon className="w-5 h-5" />
-            ) : (
-              <>
-                <SidebarCollapseIcon className="w-5 h-5 shrink-0" />
-                <span>Thu gọn thanh bên</span>
-              </>
-            )}
-          </button>
-        </Tooltip>
       </div>
     </aside>
   );
