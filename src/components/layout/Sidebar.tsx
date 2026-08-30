@@ -111,12 +111,13 @@ export function Sidebar({
   };
 
   const handleSidebarBackgroundClick = (event: React.MouseEvent<HTMLElement>) => {
-    if (!collapsed) return;
-
     const target = event.target as HTMLElement;
     if (target.closest("a, button, input, select, textarea, [role='button']")) return;
 
-    expandSidebar();
+    const toggleZone = target.closest("[data-sidebar-toggle-zone='true']");
+    if (!toggleZone) return;
+
+    handleToggle();
   };
 
   const handleLogout = async () => {
@@ -202,12 +203,13 @@ export function Sidebar({
       onClick={handleSidebarBackgroundClick}
       className={`relative flex flex-col border-r border-slate-200 bg-white transition-[width] duration-200 ease-in-out select-none ${
         collapsed ? "w-[72px]" : "w-64"
-      } ${collapsed ? "cursor-pointer" : ""} ${className}`}
+      } ${className}`}
     >
       {/* Brand / Logo Header */}
       <div
         data-testid="sidebar-header"
-        className="flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4"
+        data-sidebar-toggle-zone={collapsed ? "true" : undefined}
+        className={`flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4 ${collapsed ? "cursor-pointer justify-center" : ""}`}
       >
         {!collapsed ? (
           <div className="flex min-w-0 items-center gap-2.5 overflow-hidden">
@@ -242,7 +244,11 @@ export function Sidebar({
       </div>
 
       {/* Navigation List */}
-      <nav className="flex-1 overflow-y-auto overflow-x-hidden p-3 space-y-1">
+      <nav
+        data-testid="sidebar-toggle-zone-navigation"
+        data-sidebar-toggle-zone="true"
+        className="flex-1 cursor-pointer overflow-y-auto overflow-x-hidden p-3 space-y-1"
+      >
         {/* Schedule */}
         <Tooltip content="Schedule" disabled={!collapsed} side="right">
           <Link

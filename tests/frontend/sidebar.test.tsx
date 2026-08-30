@@ -6,8 +6,8 @@ import { Sidebar } from "../../src/components/layout/Sidebar";
 
 let mockPathname = "/schedule";
 
-function SidebarHarness() {
-  const [collapsed, setCollapsed] = React.useState(true);
+function SidebarHarness({ initialCollapsed = true }: { initialCollapsed?: boolean }) {
+  const [collapsed, setCollapsed] = React.useState(initialCollapsed);
   return (
     <Sidebar
       currentStudyDay={1}
@@ -135,8 +135,40 @@ describe("Sidebar Component", () => {
     render(<SidebarHarness />);
 
     expect(screen.queryByText("JLPT N3 Study")).toBeNull();
-    fireEvent.click(screen.getByTestId("desktop-sidebar"));
+    fireEvent.click(screen.getByTestId("sidebar-toggle-zone-navigation"));
     expect(screen.getByText("JLPT N3 Study")).toBeDefined();
+  });
+
+  it("collapses when the expanded navigation background is clicked", () => {
+    mockPathname = "/schedule";
+    render(<SidebarHarness initialCollapsed={false} />);
+
+    expect(screen.getByText("JLPT N3 Study")).toBeDefined();
+    fireEvent.click(screen.getByTestId("sidebar-toggle-zone-navigation"));
+    expect(screen.getByTestId("desktop-sidebar").className).toContain("w-[72px]");
+    expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+  });
+
+  it("protects expanded brand content from background collapse", () => {
+    mockPathname = "/schedule";
+    render(<SidebarHarness initialCollapsed={false} />);
+
+    fireEvent.click(screen.getByText("N3"));
+    fireEvent.click(screen.getByText("JLPT N3 Study"));
+    fireEvent.click(screen.getByText("100 Days Roadmap"));
+
+    expect(screen.getByTestId("desktop-sidebar").className).toContain("w-64");
+    expect(screen.getByText("JLPT N3 Study")).toBeDefined();
+  });
+
+  it("keeps the expanded header collapse button functional", () => {
+    mockPathname = "/schedule";
+    render(<SidebarHarness initialCollapsed={false} />);
+
+    fireEvent.click(screen.getByRole("button", { name: "Thu gọn thanh điều hướng" }));
+
+    expect(screen.getByTestId("desktop-sidebar").className).toContain("w-[72px]");
+    expect(screen.queryByText("JLPT N3 Study")).toBeNull();
   });
 
   it("does not expand from collapsed interactive navigation or logout clicks", () => {
