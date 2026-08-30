@@ -133,7 +133,7 @@ List:
 - Known item replaced with next eligible reserve item from same pool
 
 Quiz:
-- front = Kanji + Hiragana
+- front = canonical Surface + Hiragana; legacy fallback = `kanji ?? hiragana`
 - back = remaining content
 - ordered by default
 - Shuffle available

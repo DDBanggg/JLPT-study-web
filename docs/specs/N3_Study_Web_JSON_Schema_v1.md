@@ -1,17 +1,19 @@
-# N3 Study Web — Canonical Content JSON Schema v1.1
+# N3 Study Web — Canonical Content JSON Schema v1.2
 
-**Status:** Frozen for first desktop implementation  
-**Specification version:** 1.1
+**Status:** Runtime schema v1 frozen; specification v1.2
+**Specification version:** 1.2
 **Runtime `schema_version`:** 1
-**Date:** 2026-08-29
+**Date:** 2026-08-30
 
 All published study-content files must contain:
 
 ```json
-"schema_version": 1
+{"schema_version":1}
 ```
 
 Static content uses UTF-8 JSON. Published IDs are immutable.
+
+Specification v1.2 is designed to remain backward-compatible with published v1.1 JSON. It adds authoring fields and question variants without changing the runtime version. Where this document defines a legacy fallback, existing JSON may remain unchanged until an explicitly approved migration.
 
 ## 1. Shared ID rules
 
@@ -31,6 +33,8 @@ Shared example object:
 ```json
 {"jp":"学校へ行きます。","reading":"がっこうへいきます。","vi":"Tôi đi đến trường."}
 ```
+
+Optional `source_ref` is a human-readable traceability string for a content item, for example `"Minna no Nihongo I — Lesson 8"`. It may be present on Grammar, Vocabulary, Kanji, Reading, and Listening items. It is for audit/debugging and is not required to be displayed by the UI.
 
 ## 2. Roadmap
 
@@ -131,7 +135,7 @@ File: `content/grammar/day-015.json`
 }
 ```
 
-`source_ref` is optional and not required by UI.
+`source_ref` follows the shared optional traceability rule in section 1.
 
 ## 4. Vocabulary
 
@@ -147,6 +151,7 @@ File: `content/vocabulary/day-015.json`
   "items": [
     {
       "id": 1501,
+      "surface": "学校",
       "hiragana": "がっこう",
       "kanji": "学校",
       "meaning_vi": "trường học",
@@ -157,7 +162,8 @@ File: `content/vocabulary/day-015.json`
           "vi": "Tôi đi đến trường."
         }
       ],
-      "notes_vi": []
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 5"
     }
   ]
 }
@@ -168,7 +174,24 @@ Rules:
 - `items.length <= 100`.
 - `pool_size = items.length`.
 - Item order is priority order.
-- `kanji` may be null for kana-only words.
+- `surface` is the canonical display spelling and the standard written form being learned.
+- `hiragana` is the pronunciation/reading written in hiragana, including for Katakana words.
+- `kanji` contains the Kanji spelling only when one exists; otherwise it is `null`.
+- Never store Katakana in `kanji`.
+- New v1.2 content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
+- Consumers implementing v1.2 display `surface` first and use `surface ?? kanji ?? hiragana` as the legacy-compatible resolution rule. Runtime/UI support must be updated before relying on `surface` to preserve a Katakana spelling.
+- Existing `hiragana` and `kanji` fields remain part of the schema; do not remove them during migration.
+- `source_ref` is optional.
+
+Canonical forms:
+
+```json
+[
+  {"surface":"学校","hiragana":"がっこう","kanji":"学校"},
+  {"surface":"あげます","hiragana":"あげます","kanji":null},
+  {"surface":"スプーン","hiragana":"すぷーん","kanji":null}
+]
+```
 
 ## 5. Kanji
 
@@ -199,7 +222,8 @@ File: `content/kanji/day-015.json`
           "vi": "Tôi học tiếng Nhật ở trường."
         }
       ],
-      "notes_vi": []
+      "notes_vi": [],
+      "source_ref": "Sách Kanji bài học — Tập 1, Lesson 5"
     }
   ]
 }
@@ -210,6 +234,11 @@ Rules:
 - `items.length <= 100`.
 - `pool_size = items.length`.
 - Item order is priority order.
+- `source_ref` is optional.
+- Item selection must follow the assigned Study Day source.
+- `onyomi` and `kunyomi` prioritize readings taught by the current N5/N4 source or used by Vocabulary/compounds in the current phase.
+- Do not expand an item with all dictionary readings when the assigned source does not teach them.
+- A later N3 phase may publish additional readings in its own content context, but must not mutate an already-published item in a way that changes its learned identity or breaks stable-content invariants.
 
 ## 6. Reading
 
@@ -226,9 +255,11 @@ File: `content/reading/day-015.json`
       "title": "Reading 1",
       "passage_jp": "日本語の文章...",
       "translation_vi": "Bản dịch tham khảo...",
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Reading 15",
       "questions": [
         {
           "id": "q1",
+          "question_type": "mcq",
           "question_jp": "質問...",
           "options": [
             {"id":"A","text":"..."},
@@ -246,10 +277,98 @@ File: `content/reading/day-015.json`
 If no questions:
 
 ```json
-"questions": null
+{"questions":null}
 ```
 
 UI still renders the Questions section as `...`.
+
+`source_ref` is optional on each Reading item. Question IDs are unique within their Reading item.
+
+Allowed `question_type` values:
+
+```text
+mcq
+true_false
+short_answer
+matching
+```
+
+New v1.2 Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
+
+This specification defines the data shapes, but the current Reading UI supports only legacy MCQ behavior. Do not publish `true_false`, `short_answer`, or `matching` into the active runtime until the corresponding validator, data loader, and UI behavior are implemented and verified.
+
+### MCQ
+
+```json
+{
+  "id": "q1",
+  "question_type": "mcq",
+  "question_jp": "質問...",
+  "options": [
+    {"id":"A","text":"..."},
+    {"id":"B","text":"..."}
+  ],
+  "correct_option_id": "A",
+  "explanation_vi": "..."
+}
+```
+
+`options` is non-empty, option IDs are unique within the question, and `correct_option_id` matches exactly one option.
+
+### True/False
+
+```json
+{
+  "id": "q1",
+  "question_type": "true_false",
+  "question_jp": "田中さんは電車で行きました。",
+  "correct_answer": true,
+  "explanation_vi": "..."
+}
+```
+
+`correct_answer` is a JSON boolean. `options` and `correct_option_id` are not used.
+
+### Short answer
+
+```json
+{
+  "id": "q1",
+  "question_type": "short_answer",
+  "question_jp": "田中さんは何時に来ましたか。",
+  "accepted_answers": ["7時", "七時"],
+  "explanation_vi": "..."
+}
+```
+
+`accepted_answers` is a non-empty array of unique, non-empty strings. Future runtime comparison must normalize Unicode to NFC and trim surrounding whitespace, then match one listed answer exactly; content authors list any accepted spelling variants explicitly.
+
+### Matching
+
+```json
+{
+  "id": "q1",
+  "question_type": "matching",
+  "question_jp": "人物と持ち物を組み合わせてください。",
+  "left_items": [
+    {"id":"L1","text":"田中さん"},
+    {"id":"L2","text":"山田さん"}
+  ],
+  "right_items": [
+    {"id":"R1","text":"本"},
+    {"id":"R2","text":"かばん"}
+  ],
+  "correct_pairs": [
+    {"left_id":"L1","right_id":"R2"},
+    {"left_id":"L2","right_id":"R1"}
+  ],
+  "explanation_vi": "..."
+}
+```
+
+`left_items` and `right_items` are non-empty, have equal lengths, and have unique IDs within their own arrays. `correct_pairs` defines a one-to-one mapping: every left and right ID appears exactly once, with no unknown ID or duplicate pair.
+
+Do not transform a source question into MCQ merely to fit the schema. If a source question type is unsupported, stop publication, record the schema gap, and update this specification before producing JSON.
 
 ## 7. Listening
 
@@ -272,7 +391,8 @@ Video:
         "video_id": "abc123xyz",
         "playlist_id": null
       },
-      "fallback_url": "https://www.youtube.com/watch?v=abc123xyz"
+      "fallback_url": "https://www.youtube.com/watch?v=abc123xyz",
+      "source_ref": "Listening playlist N5 — Video 15"
     }
   ]
 }
@@ -281,6 +401,8 @@ Video:
 Playlist uses `type: "playlist"`, `video_id: null`, and a non-null `playlist_id`.
 
 Completion remains manual.
+
+`source_ref` is optional on each Listening item. A playlist may be a source collection, but when the roadmap requires separate lesson items, each item uses its corresponding video rather than treating the whole playlist as one item.
 
 ## 8. Shared Test structure
 
@@ -360,7 +482,8 @@ Listening stimulus:
     {"id":"D","text":"行き"}
   ],
   "correct_option_id": "A",
-  "explanation_vi": "..."
+  "explanation_vi": "...",
+  "source_item_refs": ["grammar:1501"]
 }
 ```
 
@@ -375,6 +498,29 @@ listening
 ```
 
 Question IDs are unique within the whole test. `correct_option_id` must match an option.
+
+`source_item_refs` is an optional array of unique canonical content references with exact format:
+
+```text
+<content_type>:<item_id>
+```
+
+Allowed `content_type` values are `grammar`, `vocabulary`, `kanji`, `reading`, and `listening`. `item_id` is a positive integer. The complete pattern is:
+
+```regex
+^(grammar|vocabulary|kanji|reading|listening):[1-9][0-9]*$
+```
+
+Examples:
+
+```json
+[
+  {"source_item_refs":["grammar:213"]},
+  {"source_item_refs":["vocabulary:218","kanji:205"]}
+]
+```
+
+The field is optional for historical content but expected for newly authored Grammar and Daily Test questions. Multiple references are allowed when one question tests multiple source items.
 
 ## 11. Grammar Test specialization
 
@@ -413,6 +559,8 @@ Validation must enforce exactly:
 - the Grammar section uses `max_score: 25`;
 - `coverage.from_day`, `coverage.to_day`, and `study_day` identify the same Study Day.
 
+For new content, every question should include `source_item_refs` linking it to Grammar items in that same Study Day. Future semantic validation should use these references to verify lesson coverage rather than relying only on `coverage` and `lesson_groups`.
+
 Do not infer a replacement grouping rule if a later phase does not use exactly 5 lessons per Study Day. Update the specification first.
 
 Grammar Test uses raw scoring `x / 25`; it is not scaled to `/60`.
@@ -446,6 +594,8 @@ Validation must enforce exactly:
 
 Daily Test Day X covers Day X-1.
 
+For new content, every Daily Test question should include `source_item_refs` that resolve only to Grammar, Vocabulary, or Kanji items from Study Day X-1. Weak Items are not a content source for Daily Test generation.
+
 ## 13. JLPT-style specialization
 
 Weekly / Monthly / End / Mock use:
@@ -459,7 +609,37 @@ Total     → 180
 
 This is project-defined JLPT-style linear scoring, not official JLPT scaled scoring.
 
-## 14. Rolling publication rule
+## 14. Validation layers
+
+### Schema validation
+
+Schema validation checks machine-readable structure and referential integrity. The complete specification requirement includes:
+
+- JSON parsing and `schema_version = 1`;
+- required fields and field types for each resource/question variant;
+- Study Day range, IDs, uniqueness, and references;
+- Vocabulary/Kanji targets, pool sizes, and counts;
+- Grammar/Daily Test question totals and lesson/category grouping;
+- option IDs and existence of `correct_option_id` for MCQ;
+- type-specific Reading answer fields and deterministic Matching pairs;
+- roadmap/task metadata and YouTube metadata;
+- `source_item_refs` syntax and resolvability when provided.
+
+The current `npm run validate-content` implementation covers only a subset: JSON parsing, runtime schema version, Study Day range when present, roadmap day/task uniqueness and task types, item-ID uniqueness, Vocabulary/Kanji target and pool counts, test/question-ID uniqueness, Grammar Test structure/count/grouping/coverage, and Daily Test section/total counts. Other bullets above are **specification requirements / future validator requirements** until implemented in validator code.
+
+### Content lint / semantic validation
+
+Structurally valid JSON may still be poor learning content. Content lint is a separate review layer and is currently a **specification requirement / future validator requirement**:
+
+- Fields ending in `_vi` (`explanation_vi`, `meaning_vi`, `usage_vi`, `notes_vi`, `translation_vi`, `description_vi`) contain primarily Vietnamese explanation. Japanese may appear in examples or quotations, but the main explanation must not accidentally be entirely Japanese.
+- Generated MCQ answer positions avoid obvious patterns. As a soft guideline, each A/B/C/D appears about 5–8 times in a 25-question test and about 9–13 times in a 45-question test. Source-faithful tests may deviate when justified.
+- Options are non-empty and non-duplicate; the correct answer is not duplicated; distractors are meaningful, format-compatible, and use an appropriate grammatical/lexical class.
+- A test contains no duplicate or near-duplicate questions unless the source provides a documented reason.
+- Grammar Test contains 5 questions per lesson and tests only same-day Grammar.
+- Daily Test uses only Day X-1 knowledge, prioritizes important/new items, and does not use Weak Items.
+- New Grammar/Daily questions use valid `source_item_refs` so coverage can be audited against actual source items.
+
+## 15. Rolling publication rule
 
 A roadmap may reference future resources that do not yet exist. This is valid.
 
@@ -467,7 +647,7 @@ Validation must distinguish:
 - roadmap structural correctness;
 - current publication completeness.
 
-## 15. Publication invariants
+## 16. Publication invariants
 
 After publication:
 - resource IDs stay stable;
