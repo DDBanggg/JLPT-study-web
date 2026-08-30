@@ -39,6 +39,14 @@ function addDuplicateErrors(values, label, file, errors) {
   }
 }
 
+function isNonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function hasDuplicates(values) {
+  return new Set(values).size !== values.length;
+}
+
 function validateStudyDay(document, file, errors) {
   if (
     Object.hasOwn(document, "study_day") &&
@@ -78,12 +86,120 @@ function validateLearningPool(document, file, errors) {
     if (document.target !== 50) errors.push(`${file}: vocabulary target must equal 50`);
     if (document.items.length > 100) errors.push(`${file}: vocabulary pool cannot exceed 100 items`);
     if (document.pool_size !== document.items.length) errors.push(`${file}: pool_size must equal items.length`);
+    for (const item of document.items) {
+      if (!isNonEmptyString(item?.hiragana)) {
+        errors.push(`${file}: vocabulary item '${item?.id}' hiragana must be a non-empty string`);
+      }
+      if (item?.kanji !== null && !isNonEmptyString(item?.kanji)) {
+        errors.push(`${file}: vocabulary item '${item?.id}' kanji must be a non-empty string or null`);
+      }
+      if (Object.hasOwn(item ?? {}, "surface") && !isNonEmptyString(item.surface)) {
+        errors.push(`${file}: vocabulary item '${item?.id}' surface must be a non-empty string`);
+      }
+    }
   }
 
   if (document.id?.startsWith("kanji-")) {
     if (document.target !== 30) errors.push(`${file}: kanji target must equal 30`);
     if (document.items.length > 100) errors.push(`${file}: kanji pool cannot exceed 100 items`);
     if (document.pool_size !== document.items.length) errors.push(`${file}: pool_size must equal items.length`);
+  }
+}
+
+function validateQuestionItems(items, label, questionId, file, errors) {
+  if (!Array.isArray(items) || items.length === 0) {
+    errors.push(`${file}: Reading question '${questionId}' ${label} must be a non-empty array`);
+    return null;
+  }
+  if (items.some((item) => !isNonEmptyString(item?.id) || !isNonEmptyString(item?.text))) {
+    errors.push(`${file}: Reading question '${questionId}' ${label} require non-empty id and text`);
+    return null;
+  }
+  const ids = items.map((item) => item.id);
+  if (hasDuplicates(ids)) {
+    errors.push(`${file}: Reading question '${questionId}' ${label} IDs must be unique`);
+  }
+  return ids;
+}
+
+function validateReadingQuestion(question, file, errors) {
+  const questionId = isNonEmptyString(question?.id) ? question.id : "<unknown>";
+  if (!isNonEmptyString(question?.id)) errors.push(`${file}: Reading question id must be non-empty`);
+  if (!isNonEmptyString(question?.question_jp)) {
+    errors.push(`${file}: Reading question '${questionId}' question_jp must be non-empty`);
+  }
+
+  const questionType = question?.question_type ?? "mcq";
+  if (questionType === "mcq") {
+    const optionIds = validateQuestionItems(question?.options, "options", questionId, file, errors);
+    if (!isNonEmptyString(question?.correct_option_id) || !optionIds?.includes(question.correct_option_id)) {
+      errors.push(`${file}: Reading MCQ '${questionId}' correct_option_id must reference an option`);
+    }
+    return;
+  }
+  if (questionType === "true_false") {
+    if (typeof question?.correct_answer !== "boolean") {
+      errors.push(`${file}: Reading true_false '${questionId}' correct_answer must be boolean`);
+    }
+    return;
+  }
+  if (questionType === "short_answer") {
+    if (!Array.isArray(question?.accepted_answers) || question.accepted_answers.length === 0) {
+      errors.push(`${file}: Reading short_answer '${questionId}' accepted_answers must be non-empty`);
+      return;
+    }
+    if (question.accepted_answers.some((answer) => !isNonEmptyString(answer))) {
+      errors.push(`${file}: Reading short_answer '${questionId}' accepted_answers must contain non-empty strings`);
+      return;
+    }
+    const normalized = question.accepted_answers.map((answer) => answer.normalize("NFC").trim());
+    if (hasDuplicates(normalized)) {
+      errors.push(`${file}: Reading short_answer '${questionId}' accepted_answers must be unique after normalization`);
+    }
+    return;
+  }
+  if (questionType !== "matching") {
+    errors.push(`${file}: unsupported Reading question_type '${questionType}'`);
+    return;
+  }
+
+  const leftIds = validateQuestionItems(question?.left_items, "left_items", questionId, file, errors);
+  const rightIds = validateQuestionItems(question?.right_items, "right_items", questionId, file, errors);
+  if (!leftIds || !rightIds || !Array.isArray(question?.correct_pairs)) {
+    if (!Array.isArray(question?.correct_pairs)) {
+      errors.push(`${file}: Reading matching '${questionId}' correct_pairs must be an array`);
+    }
+    return;
+  }
+  const leftMappings = question.correct_pairs.map((pair) => pair?.left_id);
+  const rightMappings = question.correct_pairs.map((pair) => pair?.right_id);
+  if (question.correct_pairs.some((pair) => !leftIds.includes(pair?.left_id) || !rightIds.includes(pair?.right_id))) {
+    errors.push(`${file}: Reading matching '${questionId}' correct_pairs must reference known IDs`);
+  }
+  if (hasDuplicates(leftMappings)) {
+    errors.push(`${file}: Reading matching '${questionId}' cannot map a left item more than once`);
+  }
+  if (hasDuplicates(rightMappings)) {
+    errors.push(`${file}: Reading matching '${questionId}' cannot reuse a right item`);
+  }
+  if (leftMappings.length !== leftIds.length || leftIds.some((leftId) => !leftMappings.includes(leftId))) {
+    errors.push(`${file}: Reading matching '${questionId}' must map every left item exactly once`);
+  }
+}
+
+function validateReading(document, file, errors) {
+  if (!document.id?.startsWith("reading-") || !Array.isArray(document.items)) return;
+  for (const item of document.items) {
+    if (item?.questions === null) continue;
+    if (!Array.isArray(item?.questions)) {
+      errors.push(`${file}: Reading item '${item?.id}' questions must be an array or null`);
+      continue;
+    }
+    const questionIds = item.questions.map((question) => question?.id);
+    if (hasDuplicates(questionIds)) {
+      errors.push(`${file}: Reading item '${item?.id}' question IDs must be unique`);
+    }
+    for (const question of item.questions) validateReadingQuestion(question, file, errors);
   }
 }
 
@@ -173,6 +289,7 @@ function validateDocument(document, file, errors) {
   validateStudyDay(document, file, errors);
   validateRoadmap(document, file, errors);
   validateLearningPool(document, file, errors);
+  validateReading(document, file, errors);
   validateTest(document, file, errors);
 }
 

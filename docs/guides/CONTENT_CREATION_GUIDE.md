@@ -527,7 +527,9 @@ matching
 
 Content mới phải khai báo `question_type`; câu hỏi cũ thiếu field này được hiểu là `mcq`. Field đáp án theo từng type được định nghĩa trong JSON Schema v1.2.
 
-Schema v1.2 đã định nghĩa data shape, nhưng Reading UI hiện chỉ hỗ trợ MCQ legacy. Không publish `true_false`, `short_answer` hoặc `matching` vào runtime đang hoạt động trước khi validator, loader và UI tương ứng được implement và verify.
+Reading runtime, validator và UI hỗ trợ đầy đủ `mcq`, `true_false`, `short_answer`
+và `matching`. Câu hỏi legacy thiếu `question_type` vẫn được hiểu là `mcq`. Giữ
+nguyên question type của source; không tự chuyển source question thành MCQ.
 
 Không tự chuyển dạng câu hỏi nguồn sang MCQ chỉ để vừa schema. Nếu source có question type chưa được schema hỗ trợ:
 
@@ -1016,22 +1018,25 @@ Study Day range khi field tồn tại
 roadmap Day/task uniqueness và allowed task type
 duplicate item/question ID trong scope validator
 Vocabulary/Kanji target, pool_size và pool limit
+Vocabulary surface/hiragana/kanji compatibility
+Reading mcq/true_false/short_answer/matching structure và answer references
 Grammar Test section/count/category/coverage/lesson_groups
 Daily Test 15/15/15 section counts và 45 total
 ```
 
-Validator hiện tại **chưa** kiểm tra toàn bộ required fields/types, `surface`, `question_type`, type-specific Reading answers, `correct_option_id`, YouTube metadata, `source_ref`, `source_item_refs`, language quality hoặc semantic coverage. Không xem một lần `validate-content PASS` là đủ để khẳng định content quality.
+Validator hiện tại **chưa** kiểm tra toàn bộ required fields/types ngoài phạm vi đã
+liệt kê, YouTube metadata, `source_ref`, `source_item_refs`, language quality hoặc
+semantic coverage. Không xem một lần `validate-content PASS` là đủ để khẳng định
+content quality.
 
 ## Specification requirements / future validator requirements
 
 Schema validation cần được mở rộng sau này để kiểm tra:
 
-- required fields và types cho từng resource/question type;
-- option uniqueness và `correct_option_id` tồn tại;
-- deterministic fields/pairs cho true/false, short answer và matching;
+- required fields và types cho các resource chưa được validator chuyên biệt hóa;
 - roadmap/resource/source references;
 - YouTube metadata;
-- `surface`/Katakana rules và `source_item_refs` format/resolution.
+- Katakana authoring semantics và `source_item_refs` format/resolution.
 
 ## Content Lint / Semantic Validation
 

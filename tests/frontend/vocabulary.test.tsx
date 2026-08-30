@@ -1,6 +1,6 @@
 import React from "react";
 import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { VocabTable, VocabItem } from "../../src/components/learn/VocabTable";
 import { VocabQuiz } from "../../src/components/learn/VocabQuiz";
@@ -54,6 +54,26 @@ describe("Milestone F5 — Vocabulary Real Interaction Tests", () => {
       hiragana: "いきます",
       meaning_vi: "đi",
       han_viet: "HÀNH",
+    },
+    {
+      id: 204,
+      surface: "スプーン",
+      hiragana: "すぷーん",
+      kanji: null,
+      meaning_vi: "thìa",
+    },
+    {
+      id: 205,
+      surface: "あげます",
+      hiragana: "あげます",
+      kanji: null,
+      meaning_vi: "cho",
+    },
+    {
+      id: 206,
+      hiragana: "がっこう",
+      kanji: "学校",
+      meaning_vi: "trường học",
     },
   ];
 
@@ -144,5 +164,29 @@ describe("Milestone F5 — Vocabulary Real Interaction Tests", () => {
       expect(screen.getByText("Tôi ăn bánh mì.")).toBeDefined();
       expect(screen.getByRole("button", { name: "Ẩn nghĩa" })).toBeDefined();
     });
+  });
+
+  it("uses surface for Katakana in list, flashcard, and Known confirmation", async () => {
+    render(<VocabTable studyDay={2} allItems={mockVocabItems} learningSetIds={[204]} />);
+
+    const desktopRow = screen.getByTestId("vocab-row-204");
+    expect(within(desktopRow).getByText("スプーン")).toBeDefined();
+    expect(within(desktopRow).getByText("すぷーん")).toBeDefined();
+
+    await userEvent.click(screen.getAllByRole("button", { name: "Đã biết" })[0]);
+    expect(screen.getByText(/"スプーン"/)).toBeDefined();
+
+    render(<VocabQuiz studyDay={2} allItems={mockVocabItems} learningSetIds={[204]} />);
+    const flashcard = screen.getByTestId("vocab-flashcard");
+    expect(within(flashcard).getByText("スプーン")).toBeDefined();
+    expect(within(flashcard).getByText("すぷーん")).toBeDefined();
+  });
+
+  it("does not duplicate a Hiragana-only surface and preserves legacy fallback", () => {
+    render(<VocabTable studyDay={2} allItems={mockVocabItems} learningSetIds={[205, 206]} />);
+
+    expect(within(screen.getByTestId("vocab-row-205")).getAllByText("あげます")).toHaveLength(1);
+    expect(within(screen.getByTestId("vocab-row-206")).getByText("学校")).toBeDefined();
+    expect(within(screen.getByTestId("vocab-row-206")).getByText("がっこう")).toBeDefined();
   });
 });

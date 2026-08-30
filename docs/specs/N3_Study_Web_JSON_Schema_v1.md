@@ -297,7 +297,9 @@ matching
 
 New v1.2 Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
 
-This specification defines the data shapes, but the current Reading UI supports only legacy MCQ behavior. Do not publish `true_false`, `short_answer`, or `matching` into the active runtime until the corresponding validator, data loader, and UI behavior are implemented and verified.
+The Reading runtime, validator, and UI support `mcq`, `true_false`, `short_answer`,
+and `matching`. Legacy questions without `question_type` remain MCQ. Preserve the
+source question type; do not convert a source question into MCQ for UI convenience.
 
 ### MCQ
 
@@ -628,7 +630,14 @@ Schema validation checks machine-readable structure and referential integrity. T
 - roadmap/task metadata and YouTube metadata;
 - `source_item_refs` syntax and resolvability when provided.
 
-The current `npm run validate-content` implementation covers only a subset: JSON parsing, runtime schema version, Study Day range when present, roadmap day/task uniqueness and task types, item-ID uniqueness, Vocabulary/Kanji target and pool counts, test/question-ID uniqueness, Grammar Test structure/count/grouping/coverage, and Daily Test section/total counts. Other bullets above are **specification requirements / future validator requirements** until implemented in validator code.
+The current `npm run validate-content` implementation covers JSON parsing, runtime
+schema version, Study Day range when present, roadmap day/task uniqueness and task
+types, item-ID uniqueness, Vocabulary `surface`/`hiragana`/`kanji` compatibility,
+Vocabulary/Kanji target and pool counts, all four Reading question variants and their
+answer references, test/question-ID uniqueness, Grammar Test
+structure/count/grouping/coverage, and Daily Test section/total counts. Other bullets
+above remain **specification requirements / future validator requirements** until
+implemented in validator code.
 
 ### Content lint / semantic validation
 

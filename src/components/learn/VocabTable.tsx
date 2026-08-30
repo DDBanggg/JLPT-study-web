@@ -14,12 +14,21 @@ export interface VocabExample {
 
 export interface VocabItem {
   id: number;
+  surface?: string;
   hiragana: string;
   kanji?: string | null;
   han_viet?: string | null;
   meaning_vi: string;
   examples?: VocabExample[];
   notes_vi?: string[];
+}
+
+export function getVocabDisplay(item: VocabItem): string {
+  return item.surface ?? item.kanji ?? item.hiragana;
+}
+
+export function getVocabReading(item: VocabItem): string | null {
+  return item.hiragana !== getVocabDisplay(item) ? item.hiragana : null;
 }
 
 export interface VocabTableProps {
@@ -207,10 +216,10 @@ export function VocabTable({
                     {index + 1}
                   </td>
                   <td className="px-4 py-3.5 text-base font-bold text-slate-900">
-                    {item.kanji || item.hiragana}
+                    {getVocabDisplay(item)}
                   </td>
                   <td className="px-4 py-3.5 font-medium text-slate-700 font-mono">
-                    {item.hiragana}
+                    {getVocabReading(item) ?? "—"}
                   </td>
                   <td className="px-4 py-3.5 font-medium text-slate-500 uppercase">
                     {item.han_viet || "—"}
@@ -255,12 +264,16 @@ export function VocabTable({
                 <div className="flex items-center gap-2">
                   <span className="text-[11px] font-mono text-slate-400">#{index + 1}</span>
                   <div className="text-base font-bold text-slate-900">
-                    {item.kanji || item.hiragana}
+                    {getVocabDisplay(item)}
                   </div>
                 </div>
-                <div className="text-xs text-slate-600 font-mono mt-0.5">
-                  {item.hiragana} {item.han_viet ? `• ${item.han_viet}` : ""}
-                </div>
+                {(getVocabReading(item) || item.han_viet) && (
+                  <div className="text-xs text-slate-600 font-mono mt-0.5">
+                    {getVocabReading(item)}
+                    {getVocabReading(item) && item.han_viet ? " • " : ""}
+                    {item.han_viet ?? ""}
+                  </div>
+                )}
               </div>
 
               <button
@@ -289,7 +302,7 @@ export function VocabTable({
         isOpen={Boolean(itemToMarkKnown)}
         title="Đánh dấu từ đã biết?"
         message={`Bạn có chắc muốn đánh dấu từ "${
-          itemToMarkKnown?.kanji || itemToMarkKnown?.hiragana
+          itemToMarkKnown ? getVocabDisplay(itemToMarkKnown) : ""
         }" là đã biết? Từ này sẽ được hệ thống thay thế bằng một từ khác trong kho bài học.`}
         confirmLabel="Đã biết & Thay thế"
         cancelLabel="Hủy"

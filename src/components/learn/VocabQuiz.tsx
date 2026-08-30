@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
-import { VocabItem } from "./VocabTable";
+import { getVocabDisplay, getVocabReading, VocabItem } from "./VocabTable";
 import { NextTaskCta, NextTaskData } from "../common/NextTaskCta";
 import {
   ChevronLeftIcon,
@@ -121,6 +121,8 @@ export function VocabQuiz({
   }
 
   const isShuffledActive = Boolean(shuffledIndices);
+  const display = getVocabDisplay(currentItem);
+  const reading = getVocabReading(currentItem);
 
   return (
     <div className="space-y-6">
@@ -213,11 +215,11 @@ export function VocabQuiz({
           /* Front Side: Kanji + Hiragana */
           <div className="space-y-4 animate-in fade-in duration-150">
             <div className="text-4xl font-bold text-slate-900 tracking-tight font-sans">
-              {currentItem.kanji || currentItem.hiragana}
+              {display}
             </div>
-            {currentItem.kanji && (
+            {reading && (
               <div className="text-lg font-medium text-slate-500 font-mono">
-                {currentItem.hiragana}
+                {reading}
               </div>
             )}
             <div className="pt-4 text-xs text-slate-400">
@@ -229,11 +231,13 @@ export function VocabQuiz({
           <div className="w-full space-y-4 animate-in fade-in duration-150 text-left">
             <div className="border-b border-slate-100 pb-3 text-center">
               <div className="text-2xl font-bold text-slate-900">
-                {currentItem.kanji || currentItem.hiragana}
+                {display}
               </div>
-              <div className="text-sm font-medium text-blue-600 font-mono">
-                {currentItem.hiragana} {currentItem.han_viet ? `(${currentItem.han_viet})` : ""}
-              </div>
+              {(reading || currentItem.han_viet) && (
+                <div className="text-sm font-medium text-blue-600 font-mono">
+                  {reading ?? ""} {currentItem.han_viet ? `(${currentItem.han_viet})` : ""}
+                </div>
+              )}
             </div>
 
             <div className="text-center">
