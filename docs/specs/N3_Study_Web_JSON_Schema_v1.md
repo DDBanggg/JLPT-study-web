@@ -163,7 +163,7 @@ File: `content/vocabulary/day-015.json`
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 5"
+      "source_ref": "Minna no Nihongo — assigned lesson"
     }
   ]
 }
@@ -179,7 +179,9 @@ Rules:
 - `kanji` contains the Kanji spelling only when one exists; otherwise it is `null`.
 - Never store Katakana in `kanji`.
 - New v1.2 content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
-- Consumers implementing v1.2 display `surface` first and use `surface ?? kanji ?? hiragana` as the legacy-compatible resolution rule. Runtime/UI support must be updated before relying on `surface` to preserve a Katakana spelling.
+- Consumers implementing v1.2 always prefer `surface` and use `surface ?? kanji ?? hiragana` as the legacy-compatible display resolution rule.
+- Display `hiragana` separately only when `hiragana !== surface`; do not render duplicate labels such as `あげます / あげます`.
+- Runtime/UI support must be updated before relying on `surface` to preserve a Katakana spelling.
 - Existing `hiragana` and `kanji` fields remain part of the schema; do not remove them during migration.
 - `source_ref` is optional.
 
@@ -223,7 +225,7 @@ File: `content/kanji/day-015.json`
         }
       ],
       "notes_vi": [],
-      "source_ref": "Sách Kanji bài học — Tập 1, Lesson 5"
+      "source_ref": "Sách Kanji bài học — assigned lesson"
     }
   ]
 }
@@ -356,7 +358,8 @@ This specification defines the data shapes, but the current Reading UI supports 
   ],
   "right_items": [
     {"id":"R1","text":"本"},
-    {"id":"R2","text":"かばん"}
+    {"id":"R2","text":"かばん"},
+    {"id":"R3","text":"傘"}
   ],
   "correct_pairs": [
     {"left_id":"L1","right_id":"R2"},
@@ -366,7 +369,7 @@ This specification defines the data shapes, but the current Reading UI supports 
 }
 ```
 
-`left_items` and `right_items` are non-empty, have equal lengths, and have unique IDs within their own arrays. `correct_pairs` defines a one-to-one mapping: every left and right ID appears exactly once, with no unknown ID or duplicate pair.
+`left_items` and `right_items` are non-empty and have unique IDs within their own arrays. Their lengths do not need to be equal, and unused `right_items` are allowed. `correct_pairs` must map every `left_item` exactly once to a known `right_item`. A `right_id` may appear in at most one correct pair; duplicate pairs, duplicate `left_id` mappings, and unknown IDs are invalid.
 
 Do not transform a source question into MCQ merely to fit the schema. If a source question type is unsupported, stop publication, record the schema gap, and update this specification before producing JSON.
 

@@ -50,12 +50,14 @@ commit
 deploy
 ```
 
-Khi tạo content, phải đọc trực tiếp hai source-of-truth:
+Khi tạo content, phải đọc trực tiếp hai canonical docs:
 
 ```text
 1. docs/guides/CONTENT_CREATION_GUIDE.md
 2. docs/specs/N3_Study_Web_JSON_Schema_v1.md
 ```
+
+Khi phase có Source Manifest riêng, phải đọc thêm manifest đó. Source Manifest bổ sung source responsibility/mapping theo phase; nó không thay thế hai canonical docs trên.
 
 Vai trò:
 
@@ -125,7 +127,7 @@ Rules:
 
 # 3. JSON runtime
 
-Tạo trực tiếp các JSON chính thức từ tài liệu nguồn theo hai source-of-truth ở trên.
+Tạo trực tiếp các JSON chính thức từ tài liệu nguồn theo hai canonical docs ở trên và phase-specific Source Manifest khi applicable.
 
 Ví dụ Day 2:
 
@@ -386,6 +388,8 @@ Ví dụ:
 - `hiragana` là pronunciation/reading bằng hiragana;
 - `kanji` chỉ chứa dạng Kanji khi có, không chứa Katakana;
 - content mới nên có `surface`; content cũ thiếu field này dùng fallback `kanji ?? hiragana`;
+- luôn ưu tiên `surface` để hiển thị và giữ resolution rule `surface ?? kanji ?? hiragana` cho legacy content;
+- chỉ hiển thị `hiragana` riêng khi `hiragana !== surface`, tránh dạng lặp như `あげます / あげます`;
 - không xóa `hiragana` hoặc `kanji` để giữ backward compatibility;
 - `source_ref` là optional.
 
@@ -980,7 +984,7 @@ A Study Day content package is ready when:
 
 # 22. Source-of-truth
 
-When creating content, always follow:
+When creating content, always follow the two canonical docs:
 
 ```text
 1. docs/guides/CONTENT_CREATION_GUIDE.md
@@ -988,6 +992,8 @@ When creating content, always follow:
 ```
 
 for exact runtime JSON structure.
+
+When a phase-specific Source Manifest exists, read it additionally for that phase's source responsibility and mapping. It supplements but does not replace the two canonical docs.
 
 This guide defines the **workflow**.
 
@@ -1003,6 +1009,8 @@ Tài liệu nguồn
 đọc CONTENT_CREATION_GUIDE.md
 +
 đọc N3_Study_Web_JSON_Schema_v1.md
++
+đọc phase-specific Source Manifest khi applicable
 ↓
 tạo JSON trực tiếp
 ```

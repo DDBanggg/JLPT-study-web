@@ -141,7 +141,7 @@ List:
 - reserve replacement immediately
 
 Quiz:
-- front = canonical Surface + Hiragana; legacy fallback = `kanji ?? hiragana`
+- front = canonical Surface; show Hiragana separately only when it differs from Surface; legacy fallback = `surface ?? kanji ?? hiragana`
 - back = remaining information
 - Previous / Next
 - ordered by default

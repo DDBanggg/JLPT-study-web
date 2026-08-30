@@ -8,7 +8,14 @@
 
 This manifest defines which project-designated N5 sources are responsible for each content type. It supports traceability and prevents content creators from filling quotas with unrelated or future-day material.
 
-The source files are currently maintained in the project's N5 Drive folder. Exact Drive URLs, file IDs, editions, and page ranges are not recorded in the repository, so this manifest does not invent them.
+The source files are maintained in the project's canonical N5 Drive folder. Exact individual Drive file IDs, editions, and page ranges are not currently recorded in the repository, so this manifest does not invent them.
+
+## Canonical source locations
+
+- N5 Drive folder: [Project N5 source folder](https://drive.google.com/drive/folders/1mXKzTLApB5XjmQ_xvVjS0eDoY2GlVO36?hl=vi)
+- N5 Listening playlist: [Project N5 Listening playlist](https://youtube.com/playlist?list=PL41HYkh5h2BaZSWmaXnyZuE_ge-7OmmpP)
+
+The playlist is the canonical Listening source collection. Do not list individual lesson video URLs in this manifest.
 
 ## Source responsibilities
 
@@ -51,7 +58,7 @@ Kanji selection and readings follow the assigned source range. Onyomi/Kunyomi pr
 
 ### Listening
 
-- Source: the project-designated Listening playlist N5.
+- Source: the canonical N5 Listening playlist linked above.
 - Video number maps directly to Lesson number during the confirmed N5 review mapping.
 - The playlist is a source collection. A normal Study Day uses five separate lesson videos, not one playlist item.
 
