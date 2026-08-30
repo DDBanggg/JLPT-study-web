@@ -208,8 +208,7 @@ export function Sidebar({
       {/* Brand / Logo Header */}
       <div
         data-testid="sidebar-header"
-        data-sidebar-toggle-zone={collapsed ? "true" : undefined}
-        className={`flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4 ${collapsed ? "cursor-pointer justify-center" : ""}`}
+        className="flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4"
       >
         {!collapsed ? (
           <div className="flex min-w-0 items-center gap-2.5 overflow-hidden">

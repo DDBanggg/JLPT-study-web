@@ -130,6 +130,16 @@ describe("Sidebar Component", () => {
     expect(screen.queryByText("JLPT N3 Study")).toBeNull();
   });
 
+  it("does not expand when the collapsed N3 logo is clicked", () => {
+    mockPathname = "/schedule";
+    render(<SidebarHarness />);
+
+    fireEvent.click(screen.getByText("N3"));
+
+    expect(screen.getByTestId("desktop-sidebar").className).toContain("w-[72px]");
+    expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+  });
+
   it("expands when the collapsed sidebar background is clicked", () => {
     mockPathname = "/schedule";
     render(<SidebarHarness />);
