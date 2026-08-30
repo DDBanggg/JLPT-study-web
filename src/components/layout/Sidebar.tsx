@@ -16,7 +16,6 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
   SidebarCollapseIcon,
-  SidebarExpandIcon,
   LogoutIcon,
 } from "../common/Icons";
 import { Tooltip } from "../common/Tooltip";
@@ -111,6 +110,15 @@ export function Sidebar({
     }
   };
 
+  const handleSidebarBackgroundClick = (event: React.MouseEvent<HTMLElement>) => {
+    if (!collapsed) return;
+
+    const target = event.target as HTMLElement;
+    if (target.closest("a, button, input, select, textarea, [role='button']")) return;
+
+    expandSidebar();
+  };
+
   const handleLogout = async () => {
     if (isLoggingOut) return;
     setIsLoggingOut(true);
@@ -191,14 +199,15 @@ export function Sidebar({
     <aside
       data-testid="desktop-sidebar"
       aria-label="Thanh điều hướng chính"
+      onClick={handleSidebarBackgroundClick}
       className={`relative flex flex-col border-r border-slate-200 bg-white transition-[width] duration-200 ease-in-out select-none ${
         collapsed ? "w-[72px]" : "w-64"
-      } ${className}`}
+      } ${collapsed ? "cursor-pointer" : ""} ${className}`}
     >
       {/* Brand / Logo Header */}
       <div
         data-testid="sidebar-header"
-        className={`flex h-16 shrink-0 items-center justify-between border-b border-slate-100 ${collapsed ? "px-1" : "px-4"}`}
+        className="flex h-16 shrink-0 items-center justify-between border-b border-slate-100 px-4"
       >
         {!collapsed ? (
           <div className="flex min-w-0 items-center gap-2.5 overflow-hidden">
@@ -211,26 +220,25 @@ export function Sidebar({
             </div>
           </div>
         ) : (
-          <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-sm shadow-sm">
+          <div className="mx-auto flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-sm shadow-sm">
             N3
           </div>
         )}
 
-        <Tooltip
-          content={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
-          side="right"
-        >
-          <button
-            type="button"
-            onClick={handleToggle}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-800"
-            aria-label={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
-            title={collapsed ? "Mở rộng thanh điều hướng" : "Thu gọn thanh điều hướng"}
-            data-testid="sidebar-collapse-toggle"
-          >
-            {collapsed ? <SidebarExpandIcon className="h-5 w-5" /> : <SidebarCollapseIcon className="h-5 w-5" />}
-          </button>
-        </Tooltip>
+        {!collapsed && (
+          <Tooltip content="Thu gọn thanh điều hướng" side="right">
+            <button
+              type="button"
+              onClick={handleToggle}
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-800"
+              aria-label="Thu gọn thanh điều hướng"
+              title="Thu gọn thanh điều hướng"
+              data-testid="sidebar-collapse-toggle"
+            >
+              <SidebarCollapseIcon className="h-5 w-5" />
+            </button>
+          </Tooltip>
+        )}
       </div>
 
       {/* Navigation List */}
@@ -418,7 +426,10 @@ export function Sidebar({
       </nav>
 
       {/* Footer with Logout only */}
-      <div data-testid="sidebar-footer" className="shrink-0 border-t border-slate-100 p-3 space-y-1">
+      <div
+        data-testid="sidebar-footer"
+        className={`shrink-0 border-t border-slate-100 p-3 ${collapsed ? "flex justify-center" : "space-y-1"}`}
+      >
         {/* Logout Error Message if any */}
         {logoutError && !collapsed && (
           <div
@@ -440,8 +451,8 @@ export function Sidebar({
             type="button"
             onClick={handleLogout}
             disabled={isLoggingOut}
-            className={`flex w-full items-center gap-3 rounded-lg py-2.5 text-xs font-medium text-slate-500 hover:bg-red-50 hover:text-red-600 transition-colors disabled:opacity-50 ${
-              collapsed ? "justify-center px-0 w-11 h-11 mx-auto" : "px-3"
+            className={`flex items-center gap-3 rounded-lg py-2.5 text-xs font-medium text-slate-500 transition-colors hover:bg-red-50 hover:text-red-600 disabled:opacity-50 ${
+              collapsed ? "h-11 w-11 justify-center" : "w-full px-3"
             }`}
             aria-label="Đăng xuất"
             data-testid="sidebar-logout-button"

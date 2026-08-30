@@ -1,10 +1,21 @@
 import React from "react";
 import { describe, expect, it, vi } from "vitest";
-import { render, screen, within } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { renderToString } from "react-dom/server";
 import { Sidebar } from "../../src/components/layout/Sidebar";
 
 let mockPathname = "/schedule";
+
+function SidebarHarness() {
+  const [collapsed, setCollapsed] = React.useState(true);
+  return (
+    <Sidebar
+      currentStudyDay={1}
+      isCollapsed={collapsed}
+      onToggleCollapse={() => setCollapsed((value) => !value)}
+    />
+  );
+}
 
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
@@ -98,11 +109,12 @@ describe("Sidebar Component", () => {
     
     expect(html).toContain("w-[72px]");
     expect(html).not.toContain("JLPT N3 Study");
-    expect(html).toContain("Mở rộng thanh điều hướng");
+    expect(html).not.toContain("Mở rộng thanh điều hướng");
+    expect(html).not.toContain('data-testid="sidebar-collapse-toggle"');
     expect(html).toContain('data-testid="sidebar-logout-button"');
   });
 
-  it("renders the expand control in the collapsed header and no collapse action in footer", () => {
+  it("renders a centered N3 logo and no expand control in the collapsed header", () => {
     mockPathname = "/schedule";
     render(<Sidebar currentStudyDay={1} isCollapsed />);
 
@@ -111,11 +123,44 @@ describe("Sidebar Component", () => {
     const footer = screen.getByTestId("sidebar-footer");
     expect(sidebar.className).toContain("w-[72px]");
     expect(within(header).getByText("N3")).toBeDefined();
-    expect(within(header).getByRole("button", { name: "Mở rộng thanh điều hướng" }).getAttribute("title")).toBe(
-      "Mở rộng thanh điều hướng",
-    );
+    expect(within(header).queryByTestId("sidebar-collapse-toggle")).toBeNull();
+    expect(within(header).queryByRole("button", { name: "Mở rộng thanh điều hướng" })).toBeNull();
     expect(within(footer).getByRole("button", { name: "Đăng xuất" })).toBeDefined();
     expect(within(footer).queryByTestId("sidebar-collapse-toggle")).toBeNull();
     expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+  });
+
+  it("expands when the collapsed sidebar background is clicked", () => {
+    mockPathname = "/schedule";
+    render(<SidebarHarness />);
+
+    expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+    fireEvent.click(screen.getByTestId("desktop-sidebar"));
+    expect(screen.getByText("JLPT N3 Study")).toBeDefined();
+  });
+
+  it("does not expand from collapsed interactive navigation or logout clicks", () => {
+    mockPathname = "/schedule";
+    const originalFetch = global.fetch;
+    global.fetch = vi.fn().mockResolvedValue({
+      status: 200,
+      json: async () => ({ ok: true, data: { redirect_to: "/login" } }),
+    }) as typeof fetch;
+
+    try {
+      const { container } = render(<SidebarHarness />);
+      const sidebar = screen.getByTestId("desktop-sidebar");
+      const scheduleLink = container.querySelector('a[href="/schedule"]');
+      if (!scheduleLink) throw new Error("Schedule link missing");
+
+      fireEvent.click(scheduleLink);
+      expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+
+      fireEvent.click(screen.getByTestId("sidebar-logout-button"));
+      expect(screen.queryByText("JLPT N3 Study")).toBeNull();
+      expect(sidebar.className).toContain("w-[72px]");
+    } finally {
+      global.fetch = originalFetch;
+    }
   });
 });
