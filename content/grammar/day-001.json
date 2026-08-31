@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-001",
+  "study_day": 1,
+  "items": [
+    {
+      "id": 101,
+      "structure": "N は N です",
+      "formation": [
+        "N は N です"
+      ],
+      "meaning_vi": "là / là một",
+      "usage_vi": "Giới thiệu hoặc xác định A là B.",
+      "examples": [
+        {
+          "jp": "わたしは がくせいです。",
+          "reading": "わたしは がくせいです。",
+          "vi": "Tôi là học sinh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 1"
+    },
+    {
+      "id": 102,
+      "structure": "N は N じゃありません",
+      "formation": [
+        "N は N じゃありません"
+      ],
+      "meaning_vi": "không phải là",
+      "usage_vi": "Phủ định lịch sự của danh từ.",
+      "examples": [
+        {
+          "jp": "わたしは せんせいじゃありません。",
+          "reading": "わたしは せんせいじゃありません。",
+          "vi": "Tôi không phải là giáo viên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 1"
+    },
+    {
+      "id": 103,
+      "structure": "N は N ですか",
+      "formation": [
+        "N は N ですか"
+      ],
+      "meaning_vi": "... có phải là ... không?",
+      "usage_vi": "Hỏi xác nhận bằng câu hỏi lịch sự.",
+      "examples": [
+        {
+          "jp": "あなたは がくせいですか。",
+          "reading": "あなたは がくせいですか。",
+          "vi": "Bạn có phải là học sinh không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 1"
+    },
+    {
+      "id": 104,
+      "structure": "N1 も N2 です",
+      "formation": [
+        "N1 も N2 です"
+      ],
+      "meaning_vi": "cũng là",
+      "usage_vi": "Thêm một đối tượng cùng thông tin.",
+      "examples": [
+        {
+          "jp": "たなかさんも がくせいです。",
+          "reading": "たなかさんも がくせいです。",
+          "vi": "Anh Tanaka cũng là học sinh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 1"
+    },
+    {
+      "id": 105,
+      "structure": "これ／それ／あれ は N です",
+      "formation": [
+        "これ／それ／あれ は N です"
+      ],
+      "meaning_vi": "đây/đó/kia là",
+      "usage_vi": "Chỉ đồ vật theo khoảng cách với người nói và người nghe.",
+      "examples": [
+        {
+          "jp": "これは ほんです。",
+          "reading": "これは ほんです。",
+          "vi": "Đây là sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 2"
+    },
+    {
+      "id": 106,
+      "structure": "この／その／あの N",
+      "formation": [
+        "この／その／あの N"
+      ],
+      "meaning_vi": "N này/N đó/N kia",
+      "usage_vi": "Từ chỉ định đứng ngay trước danh từ.",
+      "examples": [
+        {
+          "jp": "この かばんは わたしのです。",
+          "reading": "この かばんは わたしのです。",
+          "vi": "Cái cặp này là của tôi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 2"
+    },
+    {
+      "id": 107,
+      "structure": "N1 の N2",
+      "formation": [
+        "N1 の N2"
+      ],
+      "meaning_vi": "N2 của N1",
+      "usage_vi": "Nối hai danh từ để chỉ sở hữu hoặc quan hệ.",
+      "examples": [
+        {
+          "jp": "これは にほんごの じしょです。",
+          "reading": "これは にほんごの じしょです。",
+          "vi": "Đây là từ điển tiếng Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 2"
+    },
+    {
+      "id": 108,
+      "structure": "そうです／ちがいます",
+      "formation": [
+        "そうです／ちがいます"
+      ],
+      "meaning_vi": "đúng vậy / không phải",
+      "usage_vi": "Trả lời câu hỏi xác nhận danh từ.",
+      "examples": [
+        {
+          "jp": "それは わたしの かさですか。はい、そうです。",
+          "reading": "それは わたしの かさですか。はい、そうです。",
+          "vi": "Đó là ô của bạn à? Vâng, đúng vậy."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 2"
+    },
+    {
+      "id": 109,
+      "structure": "ここ／そこ／あそこ は N です",
+      "formation": [
+        "ここ／そこ／あそこ は N です"
+      ],
+      "meaning_vi": "đây/đó/kia là N",
+      "usage_vi": "Chỉ địa điểm theo khoảng cách.",
+      "examples": [
+        {
+          "jp": "ここは しょくどうです。",
+          "reading": "ここは しょくどうです。",
+          "vi": "Đây là nhà ăn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 3"
+    },
+    {
+      "id": 110,
+      "structure": "N は どこ ですか",
+      "formation": [
+        "N は どこ ですか"
+      ],
+      "meaning_vi": "N ở đâu?",
+      "usage_vi": "Hỏi vị trí của một nơi hoặc vật.",
+      "examples": [
+        {
+          "jp": "トイレは どこですか。",
+          "reading": "トイレは どこですか。",
+          "vi": "Nhà vệ sinh ở đâu?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 3"
+    },
+    {
+      "id": 111,
+      "structure": "N1 の N2",
+      "formation": [
+        "N1 の N2"
+      ],
+      "meaning_vi": "N2 thuộc N1",
+      "usage_vi": "Chỉ quan hệ giữa bộ phận, nơi chốn hoặc sở hữu.",
+      "examples": [
+        {
+          "jp": "うけつけは あの たてものの いちがいです。",
+          "reading": "うけつけは あの たてものの いちがいです。",
+          "vi": "Quầy tiếp tân ở tầng một của tòa nhà kia."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 3"
+    },
+    {
+      "id": 112,
+      "structure": "こちら／そちら／あちら",
+      "formation": [
+        "こちら／そちら／あちら"
+      ],
+      "meaning_vi": "phía này/phía đó/phía kia",
+      "usage_vi": "Dùng lịch sự để chỉ phương hướng hoặc nơi chốn.",
+      "examples": [
+        {
+          "jp": "エレベーターは あちらです。",
+          "reading": "エレベーターは あちらです。",
+          "vi": "Thang máy ở phía kia."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 3"
+    },
+    {
+      "id": 113,
+      "structure": "N (thời điểm) に Vます",
+      "formation": [
+        "N (thời điểm) に Vます"
+      ],
+      "meaning_vi": "làm vào lúc",
+      "usage_vi": "Dùng に với thời điểm xác định của hành động.",
+      "examples": [
+        {
+          "jp": "まいあさ ろくじに おきます。",
+          "reading": "まいあさ ろくじに おきます。",
+          "vi": "Mỗi sáng tôi dậy lúc sáu giờ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 4"
+    },
+    {
+      "id": 114,
+      "structure": "Vます／Vません／Vました／Vませんでした",
+      "formation": [
+        "Vます／Vません／Vました／Vませんでした"
+      ],
+      "meaning_vi": "làm / không làm / đã làm / đã không làm",
+      "usage_vi": "Bốn dạng lịch sự cơ bản của động từ.",
+      "examples": [
+        {
+          "jp": "きのう べんきょうしました。",
+          "reading": "きのう べんきょうしました。",
+          "vi": "Hôm qua tôi đã học."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 4"
+    },
+    {
+      "id": 115,
+      "structure": "N1 から N2 まで",
+      "formation": [
+        "N1 から N2 まで"
+      ],
+      "meaning_vi": "từ N1 đến N2",
+      "usage_vi": "Chỉ khoảng thời gian hoặc phạm vi bắt đầu và kết thúc.",
+      "examples": [
+        {
+          "jp": "ぎんこうは くじから さんじまでです。",
+          "reading": "ぎんこうは くじから さんじまでです。",
+          "vi": "Ngân hàng mở từ chín giờ đến ba giờ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 4"
+    },
+    {
+      "id": 116,
+      "structure": "N と N",
+      "formation": [
+        "N と N"
+      ],
+      "meaning_vi": "và",
+      "usage_vi": "Liệt kê đầy đủ các danh từ.",
+      "examples": [
+        {
+          "jp": "どようびと にちようびは やすみです。",
+          "reading": "どようびと にちようびは やすみです。",
+          "vi": "Thứ bảy và chủ nhật là ngày nghỉ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 4"
+    },
+    {
+      "id": 117,
+      "structure": "Place へ 行きます／来ます／帰ります",
+      "formation": [
+        "Place へ 行きます／来ます／帰ります"
+      ],
+      "meaning_vi": "đi/đến/về đến nơi",
+      "usage_vi": "Đánh dấu hướng đích bằng へ.",
+      "examples": [
+        {
+          "jp": "らいしゅう きょうとへ いきます。",
+          "reading": "らいしゅう きょうとへ いきます。",
+          "vi": "Tuần sau tôi đi Kyoto."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 5"
+    },
+    {
+      "id": 118,
+      "structure": "N (phương tiện) で 行きます",
+      "formation": [
+        "N (phương tiện) で 行きます"
+      ],
+      "meaning_vi": "đi bằng",
+      "usage_vi": "Dùng で chỉ phương tiện di chuyển.",
+      "examples": [
+        {
+          "jp": "でんしゃで かいしゃへ いきます。",
+          "reading": "でんしゃで かいしゃへ いきます。",
+          "vi": "Tôi đi công ty bằng tàu điện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 5"
+    },
+    {
+      "id": 119,
+      "structure": "Person と 行きます",
+      "formation": [
+        "Person と 行きます"
+      ],
+      "meaning_vi": "đi cùng",
+      "usage_vi": "Dùng と để chỉ người cùng thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "ともだちと にほんへ きました。",
+          "reading": "ともだちと にほんへ きました。",
+          "vi": "Tôi đến Nhật cùng bạn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 5"
+    },
+    {
+      "id": 120,
+      "structure": "どこ(へ)も 行きません",
+      "formation": [
+        "どこ(へ)も 行きません"
+      ],
+      "meaning_vi": "không đi đâu cả",
+      "usage_vi": "Từ nghi vấn đi với phủ định để phủ định toàn bộ.",
+      "examples": [
+        {
+          "jp": "にちようびは どこへも いきません。",
+          "reading": "にちようびは どこへも いきません。",
+          "vi": "Chủ nhật tôi không đi đâu cả."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 5"
+    }
+  ]
+}

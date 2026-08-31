@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-006",
+  "study_day": 6,
+  "items": [
+    {
+      "id": 601,
+      "structure": "Plain form んです",
+      "formation": [
+        "Plain form んです"
+      ],
+      "meaning_vi": "là vì / thực ra",
+      "usage_vi": "Giải thích hoàn cảnh hoặc hỏi lý do.",
+      "examples": [
+        {
+          "jp": "あしたから りょこうなんです。",
+          "reading": "あしたから りょこうなんです。",
+          "vi": "Thực ra từ ngày mai tôi đi du lịch."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 602,
+      "structure": "Vて いただけませんか",
+      "formation": [
+        "Vて いただけませんか"
+      ],
+      "meaning_vi": "có thể làm giúp tôi không?",
+      "usage_vi": "Yêu cầu rất lịch sự để nhận sự giúp đỡ.",
+      "examples": [
+        {
+          "jp": "せんせいを しょうかいして いただけませんか。",
+          "reading": "せんせいを しょうかいして いただけませんか。",
+          "vi": "Thầy có thể giới thiệu giáo viên cho tôi không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 603,
+      "structure": "Vたら いいですか",
+      "formation": [
+        "Vたら いいですか"
+      ],
+      "meaning_vi": "nên làm gì?",
+      "usage_vi": "Hỏi lời khuyên hoặc cách xử lý.",
+      "examples": [
+        {
+          "jp": "ごみは どこに だしたら いいですか。",
+          "reading": "ごみは どこに だしたら いいですか。",
+          "vi": "Tôi nên bỏ rác ở đâu?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 604,
+      "structure": "どうして んですか",
+      "formation": [
+        "どうして んですか"
+      ],
+      "meaning_vi": "tại sao vậy?",
+      "usage_vi": "Hỏi lý do với sắc thái muốn biết bối cảnh.",
+      "examples": [
+        {
+          "jp": "どうして はやく かえるんですか。",
+          "reading": "どうして はやく かえるんですか。",
+          "vi": "Sao bạn về sớm vậy?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 605,
+      "structure": "V potential",
+      "formation": [
+        "V potential"
+      ],
+      "meaning_vi": "có thể làm",
+      "usage_vi": "Diễn tả khả năng của chủ thể.",
+      "examples": [
+        {
+          "jp": "にほんごが すこし はなせます。",
+          "reading": "にほんごが すこし はなせます。",
+          "vi": "Tôi có thể nói một chút tiếng Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 606,
+      "structure": "N が 見えます",
+      "formation": [
+        "N が 見えます"
+      ],
+      "meaning_vi": "có thể nhìn thấy N",
+      "usage_vi": "N xuất hiện trong tầm nhìn một cách tự nhiên.",
+      "examples": [
+        {
+          "jp": "やまが はっきり みえます。",
+          "reading": "やまが はっきり みえます。",
+          "vi": "Có thể nhìn rõ núi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 607,
+      "structure": "N が 聞こえます",
+      "formation": [
+        "N が 聞こえます"
+      ],
+      "meaning_vi": "có thể nghe thấy N",
+      "usage_vi": "N đi vào thính giác một cách tự nhiên.",
+      "examples": [
+        {
+          "jp": "となりの へやから おとが きこえます。",
+          "reading": "となりの へやから おとが きこえます。",
+          "vi": "Nghe tiếng từ phòng bên cạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 608,
+      "structure": "N が できます",
+      "formation": [
+        "N が できます"
+      ],
+      "meaning_vi": "được hoàn thành / xuất hiện",
+      "usage_vi": "Nêu công trình hoặc sự việc được tạo thành.",
+      "examples": [
+        {
+          "jp": "えきの まえに スーパーが できました。",
+          "reading": "えきの まえに スーパーが できました。",
+          "vi": "Trước ga đã có siêu thị."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 609,
+      "structure": "Vます-stem ながら V",
+      "formation": [
+        "Vます-stem ながら V"
+      ],
+      "meaning_vi": "vừa ... vừa ...",
+      "usage_vi": "Hai hành động cùng chủ thể, hành động sau là chính.",
+      "examples": [
+        {
+          "jp": "おんがくを ききながら べんきょうします。",
+          "reading": "おんがくを ききながら べんきょうします。",
+          "vi": "Tôi học trong khi nghe nhạc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 610,
+      "structure": "Vています (thói quen)",
+      "formation": [
+        "Vています (thói quen)"
+      ],
+      "meaning_vi": "thường đang làm",
+      "usage_vi": "Nêu thói quen hiện tại.",
+      "examples": [
+        {
+          "jp": "まいあさ ジョギングを しています。",
+          "reading": "まいあさ ジョギングを しています。",
+          "vi": "Mỗi sáng tôi chạy bộ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 611,
+      "structure": "S1 し、S2 し",
+      "formation": [
+        "S1 し、S2 し"
+      ],
+      "meaning_vi": "vừa ... vừa ...",
+      "usage_vi": "Liệt kê nhiều lý do hoặc đặc điểm.",
+      "examples": [
+        {
+          "jp": "ちかてつは はやいし、やすいです。",
+          "reading": "ちかてつは はやいし、やすいです。",
+          "vi": "Tàu điện vừa nhanh vừa rẻ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 612,
+      "structure": "N も ... し",
+      "formation": [
+        "N も ... し"
+      ],
+      "meaning_vi": "cũng ... và",
+      "usage_vi": "Mở rộng danh sách lý do/đặc điểm.",
+      "examples": [
+        {
+          "jp": "しゅっちょうも おおいし、しけんも あります。",
+          "reading": "しゅっちょうも おおいし、しけんも あります。",
+          "vi": "Công tác cũng nhiều, thi cử cũng có."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 613,
+      "structure": "Vています (kết quả)",
+      "formation": [
+        "Vています (kết quả)"
+      ],
+      "meaning_vi": "đang ở trạng thái",
+      "usage_vi": "Diễn tả trạng thái do hành động tự động từ để lại.",
+      "examples": [
+        {
+          "jp": "まどが しまっています。",
+          "reading": "まどが しまっています。",
+          "vi": "Cửa sổ đang đóng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 614,
+      "structure": "Vて しまいます",
+      "formation": [
+        "Vて しまいます"
+      ],
+      "meaning_vi": "làm xong hết",
+      "usage_vi": "Diễn tả hoàn thành hoàn toàn.",
+      "examples": [
+        {
+          "jp": "しゅくだいを してしまいました。",
+          "reading": "しゅくだいを してしまいました。",
+          "vi": "Tôi đã làm xong bài tập."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 615,
+      "structure": "Vて しまいました",
+      "formation": [
+        "Vて しまいました"
+      ],
+      "meaning_vi": "lỡ / tiếc là đã",
+      "usage_vi": "Dùng khi sự việc ngoài ý muốn xảy ra.",
+      "examples": [
+        {
+          "jp": "でんしゃに かさを わすれて しまいました。",
+          "reading": "でんしゃに かさを わすれて しまいました。",
+          "vi": "Tôi lỡ quên ô trên tàu."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 616,
+      "structure": "Transitive／intransitive state",
+      "formation": [
+        "Transitive／intransitive state"
+      ],
+      "meaning_vi": "trạng thái kết quả",
+      "usage_vi": "Phân biệt hành động có chủ ý và trạng thái tự xảy ra.",
+      "examples": [
+        {
+          "jp": "ドアが あいています。",
+          "reading": "ドアが あいています。",
+          "vi": "Cửa đang mở."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 617,
+      "structure": "Vて あります",
+      "formation": [
+        "Vて あります"
+      ],
+      "meaning_vi": "được làm sẵn",
+      "usage_vi": "Trạng thái kết quả do ai đó có chủ ý tạo ra.",
+      "examples": [
+        {
+          "jp": "かいぎしつに ちずが はってあります。",
+          "reading": "かいぎしつに ちずが はってあります。",
+          "vi": "Bản đồ đã được dán sẵn trong phòng họp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 618,
+      "structure": "Vて おきます",
+      "formation": [
+        "Vて おきます"
+      ],
+      "meaning_vi": "làm sẵn",
+      "usage_vi": "Chuẩn bị trước cho mục đích sau đó.",
+      "examples": [
+        {
+          "jp": "りょこうの まえに よやくして おきます。",
+          "reading": "りょこうの まえに よやくして おきます。",
+          "vi": "Tôi đặt chỗ trước chuyến đi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 619,
+      "structure": "Vないで おきます",
+      "formation": [
+        "Vないで おきます"
+      ],
+      "meaning_vi": "để nguyên không làm",
+      "usage_vi": "Chủ ý không làm trước một tình huống.",
+      "examples": [
+        {
+          "jp": "あしたまで この ままに して おきます。",
+          "reading": "あしたまで この ままに して おきます。",
+          "vi": "Tôi để nguyên như thế này đến mai."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 620,
+      "structure": "Vておく (chuẩn bị)",
+      "formation": [
+        "Vておく (chuẩn bị)"
+      ],
+      "meaning_vi": "chuẩn bị trước",
+      "usage_vi": "Nhấn mạnh lợi ích cho kế hoạch tương lai.",
+      "examples": [
+        {
+          "jp": "しりょうを コピーして おきます。",
+          "reading": "しりょうを コピーして おきます。",
+          "vi": "Tôi sẽ photocopy tài liệu trước."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    }
+  ]
+}

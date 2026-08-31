@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-004",
+  "study_day": 4,
+  "items": [
+    {
+      "id": 401,
+      "structure": "Vて、V",
+      "formation": [
+        "Vて、V"
+      ],
+      "meaning_vi": "làm rồi làm",
+      "usage_vi": "Nối các hành động theo thứ tự.",
+      "examples": [
+        {
+          "jp": "あさ おきて、シャワーを あびます。",
+          "reading": "あさ おきて、シャワーを あびます。",
+          "vi": "Sáng tôi dậy rồi tắm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 16"
+    },
+    {
+      "id": 402,
+      "structure": "Vてから V",
+      "formation": [
+        "Vてから V"
+      ],
+      "meaning_vi": "làm sau khi",
+      "usage_vi": "Hành động sau diễn ra sau hành động đầu.",
+      "examples": [
+        {
+          "jp": "ごはんを たべてから べんきょうします。",
+          "reading": "ごはんを たべてから べんきょうします。",
+          "vi": "Tôi học sau khi ăn cơm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 16"
+    },
+    {
+      "id": 403,
+      "structure": "い-adj くて／な-adj で",
+      "formation": [
+        "い-adj くて／な-adj で"
+      ],
+      "meaning_vi": "hợp và",
+      "usage_vi": "Nối hai đặc điểm.",
+      "examples": [
+        {
+          "jp": "この へやは ひろくて あかるいです。",
+          "reading": "この へやは ひろくて あかるいです。",
+          "vi": "Phòng này rộng và sáng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 16"
+    },
+    {
+      "id": 404,
+      "structure": "N で",
+      "formation": [
+        "N で"
+      ],
+      "meaning_vi": "và / vì là",
+      "usage_vi": "Nối danh từ hoặc nêu lý do nhẹ.",
+      "examples": [
+        {
+          "jp": "わたしは ベトナムじんで、がくせいです。",
+          "reading": "わたしは ベトナムじんで、がくせいです。",
+          "vi": "Tôi là người Việt Nam và là học sinh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 16"
+    },
+    {
+      "id": 405,
+      "structure": "Vないでください",
+      "formation": [
+        "Vないでください"
+      ],
+      "meaning_vi": "xin đừng làm",
+      "usage_vi": "Yêu cầu không làm một hành động.",
+      "examples": [
+        {
+          "jp": "ここで しゃしんを とらないでください。",
+          "reading": "ここで しゃしんを とらないでください。",
+          "vi": "Xin đừng chụp ảnh ở đây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 17"
+    },
+    {
+      "id": 406,
+      "structure": "Vなければ なりません",
+      "formation": [
+        "Vなければ なりません"
+      ],
+      "meaning_vi": "phải làm",
+      "usage_vi": "Diễn tả nghĩa vụ.",
+      "examples": [
+        {
+          "jp": "あした はやく おきなければ なりません。",
+          "reading": "あした はやく おきなければ なりません。",
+          "vi": "Ngày mai tôi phải dậy sớm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 17"
+    },
+    {
+      "id": 407,
+      "structure": "Vなくても いいです",
+      "formation": [
+        "Vなくても いいです"
+      ],
+      "meaning_vi": "không cần làm",
+      "usage_vi": "Cho phép không thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "きょうは こなくても いいです。",
+          "reading": "きょうは こなくても いいです。",
+          "vi": "Hôm nay bạn không cần đến."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 17"
+    },
+    {
+      "id": 408,
+      "structure": "Vない form",
+      "formation": [
+        "Vない form"
+      ],
+      "meaning_vi": "dạng phủ định",
+      "usage_vi": "Dùng làm cơ sở cho các mẫu phủ định của bài.",
+      "examples": [
+        {
+          "jp": "きょうは いかないです。",
+          "reading": "きょうは いかないです。",
+          "vi": "Hôm nay tôi không đi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 17"
+    },
+    {
+      "id": 409,
+      "structure": "V dictionary ことが できます",
+      "formation": [
+        "V dictionary ことが できます"
+      ],
+      "meaning_vi": "có thể làm",
+      "usage_vi": "Nói năng lực hoặc khả năng.",
+      "examples": [
+        {
+          "jp": "かんじを よむことが できます。",
+          "reading": "かんじを よむことが できます。",
+          "vi": "Tôi có thể đọc kanji."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 18"
+    },
+    {
+      "id": 410,
+      "structure": "V dictionary ことです",
+      "formation": [
+        "V dictionary ことです"
+      ],
+      "meaning_vi": "việc ... là",
+      "usage_vi": "Danh từ hóa hành động bằng こと.",
+      "examples": [
+        {
+          "jp": "わたしの しゅみは ほんを よむことです。",
+          "reading": "わたしの しゅみは ほんを よむことです。",
+          "vi": "Sở thích của tôi là đọc sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 18"
+    },
+    {
+      "id": 411,
+      "structure": "V dictionary まえに",
+      "formation": [
+        "V dictionary まえに"
+      ],
+      "meaning_vi": "trước khi làm",
+      "usage_vi": "Hành động sau được thực hiện trước hành động đầu.",
+      "examples": [
+        {
+          "jp": "ねる まえに はを みがきます。",
+          "reading": "ねる まえに はを みがきます。",
+          "vi": "Tôi đánh răng trước khi ngủ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 18"
+    },
+    {
+      "id": 412,
+      "structure": "N の まえに",
+      "formation": [
+        "N の まえに"
+      ],
+      "meaning_vi": "trước N",
+      "usage_vi": "Dùng với danh từ chỉ thời điểm.",
+      "examples": [
+        {
+          "jp": "しょくじの まえに てを あらいます。",
+          "reading": "しょくじの まえに てを あらいます。",
+          "vi": "Tôi rửa tay trước bữa ăn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 18"
+    },
+    {
+      "id": 413,
+      "structure": "Vた ことが あります",
+      "formation": [
+        "Vた ことが あります"
+      ],
+      "meaning_vi": "đã từng làm",
+      "usage_vi": "Nói kinh nghiệm trong quá khứ.",
+      "examples": [
+        {
+          "jp": "にほんへ いったことが あります。",
+          "reading": "にほんへ いったことが あります。",
+          "vi": "Tôi đã từng đi Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 19"
+    },
+    {
+      "id": 414,
+      "structure": "Vたり Vたり します",
+      "formation": [
+        "Vたり Vたり します"
+      ],
+      "meaning_vi": "lúc thì ... lúc thì ...",
+      "usage_vi": "Nêu vài hành động đại diện, không phải toàn bộ.",
+      "examples": [
+        {
+          "jp": "にちようびは ほんを よんだり、さんぽしたり します。",
+          "reading": "にちようびは ほんを よんだり、さんぽしたり します。",
+          "vi": "Chủ nhật tôi đọc sách, đi dạo, v.v."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 19"
+    },
+    {
+      "id": 415,
+      "structure": "い-adj く なります",
+      "formation": [
+        "い-adj く なります"
+      ],
+      "meaning_vi": "trở nên ...",
+      "usage_vi": "Diễn tả sự thay đổi trạng thái.",
+      "examples": [
+        {
+          "jp": "だんだん あつく なります。",
+          "reading": "だんだん あつく なります。",
+          "vi": "Trời dần trở nên nóng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 19"
+    },
+    {
+      "id": 416,
+      "structure": "な-adj に なります",
+      "formation": [
+        "な-adj に なります"
+      ],
+      "meaning_vi": "trở nên ...",
+      "usage_vi": "Diễn tả sự thay đổi với tính từ な.",
+      "examples": [
+        {
+          "jp": "この まちは しずかに なりました。",
+          "reading": "この まちは しずかに なりました。",
+          "vi": "Thành phố này đã trở nên yên tĩnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 19"
+    },
+    {
+      "id": 417,
+      "structure": "V plain past",
+      "formation": [
+        "V plain past"
+      ],
+      "meaning_vi": "đã làm",
+      "usage_vi": "Dạng thông thường quá khứ của động từ.",
+      "examples": [
+        {
+          "jp": "きのう ともだちに あいました。",
+          "reading": "きのう ともだちに あいました。",
+          "vi": "Hôm qua tôi đã gặp bạn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 20"
+    },
+    {
+      "id": 418,
+      "structure": "い-adj かった",
+      "formation": [
+        "い-adj かった"
+      ],
+      "meaning_vi": "đã ...",
+      "usage_vi": "Dạng thông thường quá khứ của tính từ い.",
+      "examples": [
+        {
+          "jp": "きのうは さむかったです。",
+          "reading": "きのうは さむかったです。",
+          "vi": "Hôm qua trời lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 20"
+    },
+    {
+      "id": 419,
+      "structure": "な-adj／N だった",
+      "formation": [
+        "な-adj／N だった"
+      ],
+      "meaning_vi": "đã là / đã ...",
+      "usage_vi": "Dạng thông thường quá khứ của danh từ và tính từ な.",
+      "examples": [
+        {
+          "jp": "きのうは やすみでした。",
+          "reading": "きのうは やすみでした。",
+          "vi": "Hôm qua là ngày nghỉ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 20"
+    },
+    {
+      "id": 420,
+      "structure": "Vませんでした",
+      "formation": [
+        "Vませんでした"
+      ],
+      "meaning_vi": "đã không làm",
+      "usage_vi": "Phủ định lịch sự ở quá khứ.",
+      "examples": [
+        {
+          "jp": "パーティーに いきませんでした。",
+          "reading": "パーティーに いきませんでした。",
+          "vi": "Tôi đã không đi dự tiệc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 20"
+    }
+  ]
+}

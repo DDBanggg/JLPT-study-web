@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-008",
+  "type": "grammar",
+  "title": "Grammar Test — Day 8",
+  "study_day": 8,
+  "coverage": {
+    "from_day": 8,
+    "to_day": 8
+  },
+  "lesson_groups": [
+    {
+      "lesson": 36,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005"
+      ]
+    },
+    {
+      "lesson": 37,
+      "question_ids": [
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010"
+      ]
+    },
+    {
+      "lesson": 38,
+      "question_ids": [
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015"
+      ]
+    },
+    {
+      "lesson": 39,
+      "question_ids": [
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020"
+      ]
+    },
+    {
+      "lesson": 40,
+      "question_ids": [
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: để có thể?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ように"
+            },
+            {
+              "id": "B",
+              "text": "V potential ように なります"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ように します"
+            },
+            {
+              "id": "D",
+              "text": "Vない ように します"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ように」: Nêu mục tiêu/đích cần đạt, thường với khả năng.",
+          "source_item_refs": [
+            "grammar:801"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Diễn tả thay đổi năng lực.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ように します"
+            },
+            {
+              "id": "B",
+              "text": "Vない ように します"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ように"
+            },
+            {
+              "id": "D",
+              "text": "V potential ように なります"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「V potential ように なります」: Diễn tả thay đổi năng lực.",
+          "source_item_refs": [
+            "grammar:802"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "Câu 「まいにち にっきを かくように します。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ように"
+            },
+            {
+              "id": "B",
+              "text": "V potential ように なります"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ように します"
+            },
+            {
+              "id": "D",
+              "text": "Vない ように します"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ように します」: Nói sự nỗ lực có chủ ý để duy trì.",
+          "source_item_refs": [
+            "grammar:803"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "Ví dụ 「わすれないように します。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ように します"
+            },
+            {
+              "id": "B",
+              "text": "Vない ように します"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ように"
+            },
+            {
+              "id": "D",
+              "text": "V potential ように なります"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vない ように します」: Nỗ lực tránh một hành động.",
+          "source_item_refs": [
+            "grammar:804"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “để có thể”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ように"
+            },
+            {
+              "id": "B",
+              "text": "V potential ように なります"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ように します"
+            },
+            {
+              "id": "D",
+              "text": "Vない ように します"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ように」: Nêu mục tiêu/đích cần đạt, thường với khả năng.",
+          "source_item_refs": [
+            "grammar:801"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: bị / được?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Passive (damage)"
+            },
+            {
+              "id": "B",
+              "text": "Passive (fact)"
+            },
+            {
+              "id": "C",
+              "text": "N に Passive"
+            },
+            {
+              "id": "D",
+              "text": "Passive (person)"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Passive (person)」: Chủ thể chịu tác động từ hành động của người khác.",
+          "source_item_refs": [
+            "grammar:805"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Người nói bị ảnh hưởng bất lợi bởi hành động/sự kiện.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N に Passive"
+            },
+            {
+              "id": "B",
+              "text": "Passive (person)"
+            },
+            {
+              "id": "C",
+              "text": "Passive (damage)"
+            },
+            {
+              "id": "D",
+              "text": "Passive (fact)"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Passive (damage)」: Người nói bị ảnh hưởng bất lợi bởi hành động/sự kiện.",
+          "source_item_refs": [
+            "grammar:806"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "Câu 「この てらは むかし たてられました。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Passive (damage)"
+            },
+            {
+              "id": "B",
+              "text": "Passive (fact)"
+            },
+            {
+              "id": "C",
+              "text": "N に Passive"
+            },
+            {
+              "id": "D",
+              "text": "Passive (person)"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Passive (fact)」: Dùng bị động khi nêu sự kiện khách quan.",
+          "source_item_refs": [
+            "grammar:807"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "Ví dụ 「せんせいに ほめられました。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N に Passive"
+            },
+            {
+              "id": "B",
+              "text": "Passive (person)"
+            },
+            {
+              "id": "C",
+              "text": "Passive (damage)"
+            },
+            {
+              "id": "D",
+              "text": "Passive (fact)"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N に Passive」: に chỉ tác nhân của bị động.",
+          "source_item_refs": [
+            "grammar:808"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “bị / được”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Passive (damage)"
+            },
+            {
+              "id": "B",
+              "text": "Passive (fact)"
+            },
+            {
+              "id": "C",
+              "text": "N に Passive"
+            },
+            {
+              "id": "D",
+              "text": "Passive (person)"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Passive (person)」: Chủ thể chịu tác động từ hành động của người khác.",
+          "source_item_refs": [
+            "grammar:805"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: việc ... thì ...?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary のを 忘れます"
+            },
+            {
+              "id": "B",
+              "text": "Relative clause のは N です"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary のは adj です"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary のが 好きです"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary のは adj です」: Danh từ hóa hành động bằng の để nêu nhận xét.",
+          "source_item_refs": [
+            "grammar:809"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Danh từ hóa hành động làm đối tượng của 好き.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary のは adj です"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary のが 好きです"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary のを 忘れます"
+            },
+            {
+              "id": "D",
+              "text": "Relative clause のは N です"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「V dictionary のが 好きです」: Danh từ hóa hành động làm đối tượng của 好き.",
+          "source_item_refs": [
+            "grammar:810"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "Câu 「さいふを もって くるのを わすれました。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary のを 忘れます"
+            },
+            {
+              "id": "B",
+              "text": "Relative clause のは N です"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary のは adj です"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary のが 好きです"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V dictionary のを 忘れます」: の biến hành động thành đối tượng của động từ.",
+          "source_item_refs": [
+            "grammar:811"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "Ví dụ 「わたしが にほんへ きたのは さんがつです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary のは adj です"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary のが 好きです"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary のを 忘れます"
+            },
+            {
+              "id": "D",
+              "text": "Relative clause のは N です"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Relative clause のは N です」: Dùng mệnh đề danh từ hóa để xác định thông tin.",
+          "source_item_refs": [
+            "grammar:812"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “việc ... thì ...”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary のを 忘れます"
+            },
+            {
+              "id": "B",
+              "text": "Relative clause のは N です"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary のは adj です"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary のが 好きです"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary のは adj です」: Danh từ hóa hành động bằng の để nêu nhận xét.",
+          "source_item_refs": [
+            "grammar:809"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: vì ... nên?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj で"
+            },
+            {
+              "id": "B",
+              "text": "Vて"
+            },
+            {
+              "id": "C",
+              "text": "N で"
+            },
+            {
+              "id": "D",
+              "text": "い-adj くて"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vて」: Dạng て nối nguyên nhân và kết quả tự nhiên.",
+          "source_item_refs": [
+            "grammar:813"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Danh từ + で nêu nguyên nhân.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N で"
+            },
+            {
+              "id": "B",
+              "text": "い-adj くて"
+            },
+            {
+              "id": "C",
+              "text": "な-adj で"
+            },
+            {
+              "id": "D",
+              "text": "Vて"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N で」: Danh từ + で nêu nguyên nhân.",
+          "source_item_refs": [
+            "grammar:814"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "Câu 「からだの ちょうしが わるくて、びょういんへ いきます。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj で"
+            },
+            {
+              "id": "B",
+              "text": "Vて"
+            },
+            {
+              "id": "C",
+              "text": "N で"
+            },
+            {
+              "id": "D",
+              "text": "い-adj くて"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「い-adj くて」: Tính từ い dạng くて nêu nguyên nhân.",
+          "source_item_refs": [
+            "grammar:815"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "Ví dụ 「しずかで、よく ねられました。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N で"
+            },
+            {
+              "id": "B",
+              "text": "い-adj くて"
+            },
+            {
+              "id": "C",
+              "text": "な-adj で"
+            },
+            {
+              "id": "D",
+              "text": "Vて"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「な-adj で」: Tính từ な + で nêu nguyên nhân.",
+          "source_item_refs": [
+            "grammar:816"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “vì ... nên”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj で"
+            },
+            {
+              "id": "B",
+              "text": "Vて"
+            },
+            {
+              "id": "C",
+              "text": "N で"
+            },
+            {
+              "id": "D",
+              "text": "い-adj くて"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vて」: Dạng て nối nguyên nhân và kết quả tự nhiên.",
+          "source_item_refs": [
+            "grammar:813"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: ... hay không / khi nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Question word + plain か"
+            },
+            {
+              "id": "B",
+              "text": "Plain form か どうか"
+            },
+            {
+              "id": "C",
+              "text": "Vて みます"
+            },
+            {
+              "id": "D",
+              "text": "Vてみる (thử)"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Question word + plain か」: Dùng mệnh đề hỏi gián tiếp.",
+          "source_item_refs": [
+            "grammar:817"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu lựa chọn có/không trong mệnh đề gián tiếp.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vて みます"
+            },
+            {
+              "id": "B",
+              "text": "Vてみる (thử)"
+            },
+            {
+              "id": "C",
+              "text": "Question word + plain か"
+            },
+            {
+              "id": "D",
+              "text": "Plain form か どうか"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Plain form か どうか」: Nêu lựa chọn có/không trong mệnh đề gián tiếp.",
+          "source_item_refs": [
+            "grammar:818"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "Câu 「この ふくを きて みても いいですか。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Question word + plain か"
+            },
+            {
+              "id": "B",
+              "text": "Plain form か どうか"
+            },
+            {
+              "id": "C",
+              "text": "Vて みます"
+            },
+            {
+              "id": "D",
+              "text": "Vてみる (thử)"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vて みます」: Thử một hành động để xem kết quả.",
+          "source_item_refs": [
+            "grammar:819"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "Ví dụ 「この りょうりを たべて みます。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vて みます"
+            },
+            {
+              "id": "B",
+              "text": "Vてみる (thử)"
+            },
+            {
+              "id": "C",
+              "text": "Question word + plain か"
+            },
+            {
+              "id": "D",
+              "text": "Plain form か どうか"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vてみる (thử)」: Động từ sau dạng て diễn tả trải nghiệm thử.",
+          "source_item_refs": [
+            "grammar:820"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “... hay không / khi nào”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Question word + plain か"
+            },
+            {
+              "id": "B",
+              "text": "Plain form か どうか"
+            },
+            {
+              "id": "C",
+              "text": "Vて みます"
+            },
+            {
+              "id": "D",
+              "text": "Vてみる (thử)"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Question word + plain か」: Dùng mệnh đề hỏi gián tiếp.",
+          "source_item_refs": [
+            "grammar:817"
+          ]
+        }
+      ]
+    }
+  ]
+}

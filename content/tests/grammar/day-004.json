@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-004",
+  "type": "grammar",
+  "title": "Grammar Test — Day 4",
+  "study_day": 4,
+  "coverage": {
+    "from_day": 4,
+    "to_day": 4
+  },
+  "lesson_groups": [
+    {
+      "lesson": 16,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005"
+      ]
+    },
+    {
+      "lesson": 17,
+      "question_ids": [
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010"
+      ]
+    },
+    {
+      "lesson": 18,
+      "question_ids": [
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015"
+      ]
+    },
+    {
+      "lesson": 19,
+      "question_ids": [
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020"
+      ]
+    },
+    {
+      "lesson": 20,
+      "question_ids": [
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: làm rồi làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vて、V"
+            },
+            {
+              "id": "B",
+              "text": "Vてから V"
+            },
+            {
+              "id": "C",
+              "text": "い-adj くて／な-adj で"
+            },
+            {
+              "id": "D",
+              "text": "N で"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vて、V」: Nối các hành động theo thứ tự.",
+          "source_item_refs": [
+            "grammar:401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Hành động sau diễn ra sau hành động đầu.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "い-adj くて／な-adj で"
+            },
+            {
+              "id": "B",
+              "text": "N で"
+            },
+            {
+              "id": "C",
+              "text": "Vて、V"
+            },
+            {
+              "id": "D",
+              "text": "Vてから V"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Vてから V」: Hành động sau diễn ra sau hành động đầu.",
+          "source_item_refs": [
+            "grammar:402"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "Câu 「この へやは ひろくて あかるいです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vて、V"
+            },
+            {
+              "id": "B",
+              "text": "Vてから V"
+            },
+            {
+              "id": "C",
+              "text": "い-adj くて／な-adj で"
+            },
+            {
+              "id": "D",
+              "text": "N で"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「い-adj くて／な-adj で」: Nối hai đặc điểm.",
+          "source_item_refs": [
+            "grammar:403"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "Ví dụ 「わたしは ベトナムじんで、がくせいです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "い-adj くて／な-adj で"
+            },
+            {
+              "id": "B",
+              "text": "N で"
+            },
+            {
+              "id": "C",
+              "text": "Vて、V"
+            },
+            {
+              "id": "D",
+              "text": "Vてから V"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「N で」: Nối danh từ hoặc nêu lý do nhẹ.",
+          "source_item_refs": [
+            "grammar:404"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm rồi làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vて、V"
+            },
+            {
+              "id": "B",
+              "text": "Vてから V"
+            },
+            {
+              "id": "C",
+              "text": "い-adj くて／な-adj で"
+            },
+            {
+              "id": "D",
+              "text": "N で"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vて、V」: Nối các hành động theo thứ tự.",
+          "source_item_refs": [
+            "grammar:401"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: xin đừng làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vなければ なりません"
+            },
+            {
+              "id": "B",
+              "text": "Vなくても いいです"
+            },
+            {
+              "id": "C",
+              "text": "Vない form"
+            },
+            {
+              "id": "D",
+              "text": "Vないでください"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Vないでください」: Yêu cầu không làm một hành động.",
+          "source_item_refs": [
+            "grammar:405"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Diễn tả nghĩa vụ.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない form"
+            },
+            {
+              "id": "B",
+              "text": "Vないでください"
+            },
+            {
+              "id": "C",
+              "text": "Vなければ なりません"
+            },
+            {
+              "id": "D",
+              "text": "Vなくても いいです"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vなければ なりません」: Diễn tả nghĩa vụ.",
+          "source_item_refs": [
+            "grammar:406"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "Câu 「きょうは こなくても いいです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vなければ なりません"
+            },
+            {
+              "id": "B",
+              "text": "Vなくても いいです"
+            },
+            {
+              "id": "C",
+              "text": "Vない form"
+            },
+            {
+              "id": "D",
+              "text": "Vないでください"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vなくても いいです」: Cho phép không thực hiện hành động.",
+          "source_item_refs": [
+            "grammar:407"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "Ví dụ 「きょうは いかないです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない form"
+            },
+            {
+              "id": "B",
+              "text": "Vないでください"
+            },
+            {
+              "id": "C",
+              "text": "Vなければ なりません"
+            },
+            {
+              "id": "D",
+              "text": "Vなくても いいです"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vない form」: Dùng làm cơ sở cho các mẫu phủ định của bài.",
+          "source_item_refs": [
+            "grammar:408"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “xin đừng làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vなければ なりません"
+            },
+            {
+              "id": "B",
+              "text": "Vなくても いいです"
+            },
+            {
+              "id": "C",
+              "text": "Vない form"
+            },
+            {
+              "id": "D",
+              "text": "Vないでください"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Vないでください」: Yêu cầu không làm một hành động.",
+          "source_item_refs": [
+            "grammar:405"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: có thể làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary まえに"
+            },
+            {
+              "id": "B",
+              "text": "N の まえに"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ことが できます"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary ことです"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ことが できます」: Nói năng lực hoặc khả năng.",
+          "source_item_refs": [
+            "grammar:409"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Danh từ hóa hành động bằng こと.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ことが できます"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary ことです"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary まえに"
+            },
+            {
+              "id": "D",
+              "text": "N の まえに"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ことです」: Danh từ hóa hành động bằng こと.",
+          "source_item_refs": [
+            "grammar:410"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "Câu 「ねる まえに はを みがきます。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary まえに"
+            },
+            {
+              "id": "B",
+              "text": "N の まえに"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ことが できます"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary ことです"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V dictionary まえに」: Hành động sau được thực hiện trước hành động đầu.",
+          "source_item_refs": [
+            "grammar:411"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "Ví dụ 「しょくじの まえに てを あらいます。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary ことが できます"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary ことです"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary まえに"
+            },
+            {
+              "id": "D",
+              "text": "N の まえに"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「N の まえに」: Dùng với danh từ chỉ thời điểm.",
+          "source_item_refs": [
+            "grammar:412"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “có thể làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary まえに"
+            },
+            {
+              "id": "B",
+              "text": "N の まえに"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary ことが できます"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary ことです"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary ことが できます」: Nói năng lực hoặc khả năng.",
+          "source_item_refs": [
+            "grammar:409"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: đã từng làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj に なります"
+            },
+            {
+              "id": "B",
+              "text": "Vた ことが あります"
+            },
+            {
+              "id": "C",
+              "text": "Vたり Vたり します"
+            },
+            {
+              "id": "D",
+              "text": "い-adj く なります"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vた ことが あります」: Nói kinh nghiệm trong quá khứ.",
+          "source_item_refs": [
+            "grammar:413"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu vài hành động đại diện, không phải toàn bộ.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vたり Vたり します"
+            },
+            {
+              "id": "B",
+              "text": "い-adj く なります"
+            },
+            {
+              "id": "C",
+              "text": "な-adj に なります"
+            },
+            {
+              "id": "D",
+              "text": "Vた ことが あります"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vたり Vたり します」: Nêu vài hành động đại diện, không phải toàn bộ.",
+          "source_item_refs": [
+            "grammar:414"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "Câu 「だんだん あつく なります。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj に なります"
+            },
+            {
+              "id": "B",
+              "text": "Vた ことが あります"
+            },
+            {
+              "id": "C",
+              "text": "Vたり Vたり します"
+            },
+            {
+              "id": "D",
+              "text": "い-adj く なります"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「い-adj く なります」: Diễn tả sự thay đổi trạng thái.",
+          "source_item_refs": [
+            "grammar:415"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "Ví dụ 「この まちは しずかに なりました。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vたり Vたり します"
+            },
+            {
+              "id": "B",
+              "text": "い-adj く なります"
+            },
+            {
+              "id": "C",
+              "text": "な-adj に なります"
+            },
+            {
+              "id": "D",
+              "text": "Vた ことが あります"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「な-adj に なります」: Diễn tả sự thay đổi với tính từ な.",
+          "source_item_refs": [
+            "grammar:416"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đã từng làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj に なります"
+            },
+            {
+              "id": "B",
+              "text": "Vた ことが あります"
+            },
+            {
+              "id": "C",
+              "text": "Vたり Vたり します"
+            },
+            {
+              "id": "D",
+              "text": "い-adj く なります"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vた ことが あります」: Nói kinh nghiệm trong quá khứ.",
+          "source_item_refs": [
+            "grammar:413"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: đã làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V plain past"
+            },
+            {
+              "id": "B",
+              "text": "い-adj かった"
+            },
+            {
+              "id": "C",
+              "text": "な-adj／N だった"
+            },
+            {
+              "id": "D",
+              "text": "Vませんでした"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V plain past」: Dạng thông thường quá khứ của động từ.",
+          "source_item_refs": [
+            "grammar:417"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Dạng thông thường quá khứ của tính từ い.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj／N だった"
+            },
+            {
+              "id": "B",
+              "text": "Vませんでした"
+            },
+            {
+              "id": "C",
+              "text": "V plain past"
+            },
+            {
+              "id": "D",
+              "text": "い-adj かった"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「い-adj かった」: Dạng thông thường quá khứ của tính từ い.",
+          "source_item_refs": [
+            "grammar:418"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "Câu 「きのうは やすみでした。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V plain past"
+            },
+            {
+              "id": "B",
+              "text": "い-adj かった"
+            },
+            {
+              "id": "C",
+              "text": "な-adj／N だった"
+            },
+            {
+              "id": "D",
+              "text": "Vませんでした"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「な-adj／N だった」: Dạng thông thường quá khứ của danh từ và tính từ な.",
+          "source_item_refs": [
+            "grammar:419"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "Ví dụ 「パーティーに いきませんでした。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "な-adj／N だった"
+            },
+            {
+              "id": "B",
+              "text": "Vませんでした"
+            },
+            {
+              "id": "C",
+              "text": "V plain past"
+            },
+            {
+              "id": "D",
+              "text": "い-adj かった"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vませんでした」: Phủ định lịch sự ở quá khứ.",
+          "source_item_refs": [
+            "grammar:420"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đã làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V plain past"
+            },
+            {
+              "id": "B",
+              "text": "い-adj かった"
+            },
+            {
+              "id": "C",
+              "text": "な-adj／N だった"
+            },
+            {
+              "id": "D",
+              "text": "Vませんでした"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V plain past」: Dạng thông thường quá khứ của động từ.",
+          "source_item_refs": [
+            "grammar:417"
+          ]
+        }
+      ]
+    }
+  ]
+}

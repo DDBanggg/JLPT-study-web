@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-007",
+  "type": "grammar",
+  "title": "Grammar Test — Day 7",
+  "study_day": 7,
+  "coverage": {
+    "from_day": 7,
+    "to_day": 7
+  },
+  "lesson_groups": [
+    {
+      "lesson": 31,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005"
+      ]
+    },
+    {
+      "lesson": 32,
+      "question_ids": [
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010"
+      ]
+    },
+    {
+      "lesson": 33,
+      "question_ids": [
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015"
+      ]
+    },
+    {
+      "lesson": 34,
+      "question_ids": [
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020"
+      ]
+    },
+    {
+      "lesson": 35,
+      "question_ids": [
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: cùng / sẽ làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない つもりです"
+            },
+            {
+              "id": "B",
+              "text": "V volitional"
+            },
+            {
+              "id": "C",
+              "text": "V volitional と 思っています"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary つもりです"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「V volitional」: Dạng ý chí nêu ý định hoặc lời rủ thân mật.",
+          "source_item_refs": [
+            "grammar:701"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu dự định đã duy trì trong đầu.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V volitional と 思っています"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary つもりです"
+            },
+            {
+              "id": "C",
+              "text": "Vない つもりです"
+            },
+            {
+              "id": "D",
+              "text": "V volitional"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「V volitional と 思っています」: Nêu dự định đã duy trì trong đầu.",
+          "source_item_refs": [
+            "grammar:702"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "Câu 「らいげつ りょこうする つもりです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない つもりです"
+            },
+            {
+              "id": "B",
+              "text": "V volitional"
+            },
+            {
+              "id": "C",
+              "text": "V volitional と 思っています"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary つもりです"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「V dictionary つもりです」: Nói kế hoạch hoặc ý định.",
+          "source_item_refs": [
+            "grammar:703"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "Ví dụ 「きょうは のまない つもりです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V volitional と 思っています"
+            },
+            {
+              "id": "B",
+              "text": "V dictionary つもりです"
+            },
+            {
+              "id": "C",
+              "text": "Vない つもりです"
+            },
+            {
+              "id": "D",
+              "text": "V volitional"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vない つもりです」: Nêu ý định phủ định.",
+          "source_item_refs": [
+            "grammar:704"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “cùng / sẽ làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない つもりです"
+            },
+            {
+              "id": "B",
+              "text": "V volitional"
+            },
+            {
+              "id": "C",
+              "text": "V volitional と 思っています"
+            },
+            {
+              "id": "D",
+              "text": "V dictionary つもりです"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「V volitional」: Dạng ý chí nêu ý định hoặc lời rủ thân mật.",
+          "source_item_refs": [
+            "grammar:701"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: nên làm?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vた ほうが いいです"
+            },
+            {
+              "id": "B",
+              "text": "Vない ほうが いいです"
+            },
+            {
+              "id": "C",
+              "text": "Plain form でしょう"
+            },
+            {
+              "id": "D",
+              "text": "Plain form かも しれません"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vた ほうが いいです」: Đưa lời khuyên tích cực.",
+          "source_item_refs": [
+            "grammar:705"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Đưa lời khuyên tránh hành động.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Plain form でしょう"
+            },
+            {
+              "id": "B",
+              "text": "Plain form かも しれません"
+            },
+            {
+              "id": "C",
+              "text": "Vた ほうが いいです"
+            },
+            {
+              "id": "D",
+              "text": "Vない ほうが いいです"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Vない ほうが いいです」: Đưa lời khuyên tránh hành động.",
+          "source_item_refs": [
+            "grammar:706"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "Câu 「あしたは ゆきが ふるでしょう。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vた ほうが いいです"
+            },
+            {
+              "id": "B",
+              "text": "Vない ほうが いいです"
+            },
+            {
+              "id": "C",
+              "text": "Plain form でしょう"
+            },
+            {
+              "id": "D",
+              "text": "Plain form かも しれません"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Plain form でしょう」: Dự đoán tương đối chắc chắn.",
+          "source_item_refs": [
+            "grammar:707"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "Ví dụ 「やくそくに まにあわないかも しれません。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Plain form でしょう"
+            },
+            {
+              "id": "B",
+              "text": "Plain form かも しれません"
+            },
+            {
+              "id": "C",
+              "text": "Vた ほうが いいです"
+            },
+            {
+              "id": "D",
+              "text": "Vない ほうが いいです"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Plain form かも しれません」: Nêu khả năng chưa chắc chắn.",
+          "source_item_refs": [
+            "grammar:708"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “nên làm”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vた ほうが いいです"
+            },
+            {
+              "id": "B",
+              "text": "Vない ほうが いいです"
+            },
+            {
+              "id": "C",
+              "text": "Plain form でしょう"
+            },
+            {
+              "id": "D",
+              "text": "Plain form かも しれません"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vた ほうが いいです」: Đưa lời khuyên tích cực.",
+          "source_item_refs": [
+            "grammar:705"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: hãy làm!?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary な"
+            },
+            {
+              "id": "B",
+              "text": "Plain form と 言います"
+            },
+            {
+              "id": "C",
+              "text": "Plain form と 言いました"
+            },
+            {
+              "id": "D",
+              "text": "V imperative"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「V imperative」: Mệnh lệnh trực tiếp, dùng thận trọng.",
+          "source_item_refs": [
+            "grammar:709"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Cấm trực tiếp bằng dạng từ điển + な.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Plain form と 言いました"
+            },
+            {
+              "id": "B",
+              "text": "V imperative"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary な"
+            },
+            {
+              "id": "D",
+              "text": "Plain form と 言います"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「V dictionary な」: Cấm trực tiếp bằng dạng từ điển + な.",
+          "source_item_refs": [
+            "grammar:710"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "Câu 「「たちいりきんし」は はいるなと いう いみです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary な"
+            },
+            {
+              "id": "B",
+              "text": "Plain form と 言います"
+            },
+            {
+              "id": "C",
+              "text": "Plain form と 言いました"
+            },
+            {
+              "id": "D",
+              "text": "V imperative"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Plain form と 言います」: Trích dẫn hoặc giải thích tên gọi.",
+          "source_item_refs": [
+            "grammar:711"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "Ví dụ 「ミラーさんは らいしゅう おおさかへ いくと いいました。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Plain form と 言いました"
+            },
+            {
+              "id": "B",
+              "text": "V imperative"
+            },
+            {
+              "id": "C",
+              "text": "V dictionary な"
+            },
+            {
+              "id": "D",
+              "text": "Plain form と 言います"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Plain form と 言いました」: Thuật lại lời nói.",
+          "source_item_refs": [
+            "grammar:712"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “hãy làm!”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "V dictionary な"
+            },
+            {
+              "id": "B",
+              "text": "Plain form と 言います"
+            },
+            {
+              "id": "C",
+              "text": "Plain form と 言いました"
+            },
+            {
+              "id": "D",
+              "text": "V imperative"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「V imperative」: Mệnh lệnh trực tiếp, dùng thận trọng.",
+          "source_item_refs": [
+            "grammar:709"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: theo đúng như?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vないで V"
+            },
+            {
+              "id": "B",
+              "text": "N の あとで"
+            },
+            {
+              "id": "C",
+              "text": "Vた／N の とおりに"
+            },
+            {
+              "id": "D",
+              "text": "Vた あとで"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vた／N の とおりに」: Làm đúng theo mẫu, chỉ dẫn hoặc điều đã thấy.",
+          "source_item_refs": [
+            "grammar:713"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Hành động sau diễn ra sau hành động trước.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vた／N の とおりに"
+            },
+            {
+              "id": "B",
+              "text": "Vた あとで"
+            },
+            {
+              "id": "C",
+              "text": "Vないで V"
+            },
+            {
+              "id": "D",
+              "text": "N の あとで"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vた あとで」: Hành động sau diễn ra sau hành động trước.",
+          "source_item_refs": [
+            "grammar:714"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "Câu 「さとうを いれないで コーヒーを のみます。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vないで V"
+            },
+            {
+              "id": "B",
+              "text": "N の あとで"
+            },
+            {
+              "id": "C",
+              "text": "Vた／N の とおりに"
+            },
+            {
+              "id": "D",
+              "text": "Vた あとで"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「Vないで V」: Nêu hành động sau khi không làm hành động trước.",
+          "source_item_refs": [
+            "grammar:715"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "Ví dụ 「しごとの あとで かいものします。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vた／N の とおりに"
+            },
+            {
+              "id": "B",
+              "text": "Vた あとで"
+            },
+            {
+              "id": "C",
+              "text": "Vないで V"
+            },
+            {
+              "id": "D",
+              "text": "N の あとで"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「N の あとで」: Dùng danh từ trước あとで.",
+          "source_item_refs": [
+            "grammar:716"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “theo đúng như”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vないで V"
+            },
+            {
+              "id": "B",
+              "text": "N の あとで"
+            },
+            {
+              "id": "C",
+              "text": "Vた／N の とおりに"
+            },
+            {
+              "id": "D",
+              "text": "Vた あとで"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vた／N の とおりに」: Làm đúng theo mẫu, chỉ dẫn hoặc điều đã thấy.",
+          "source_item_refs": [
+            "grammar:713"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: nếu?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない ば"
+            },
+            {
+              "id": "B",
+              "text": "Vば"
+            },
+            {
+              "id": "C",
+              "text": "い-adj ければ"
+            },
+            {
+              "id": "D",
+              "text": "な-adj なら／N なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vば」: Điều kiện giả định tổng quát.",
+          "source_item_refs": [
+            "grammar:717"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Điều kiện của tính từ い.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "い-adj ければ"
+            },
+            {
+              "id": "B",
+              "text": "な-adj なら／N なら"
+            },
+            {
+              "id": "C",
+              "text": "Vない ば"
+            },
+            {
+              "id": "D",
+              "text": "Vば"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「い-adj ければ」: Điều kiện của tính từ い.",
+          "source_item_refs": [
+            "grammar:718"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "Câu 「ほっかいどうへ いくなら、ろくがつが いいです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない ば"
+            },
+            {
+              "id": "B",
+              "text": "Vば"
+            },
+            {
+              "id": "C",
+              "text": "い-adj ければ"
+            },
+            {
+              "id": "D",
+              "text": "な-adj なら／N なら"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「な-adj なら／N なら」: Đặt điều kiện bằng danh từ hoặc tính từ な.",
+          "source_item_refs": [
+            "grammar:719"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "Ví dụ 「じかんが なければ、あしたに します。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "い-adj ければ"
+            },
+            {
+              "id": "B",
+              "text": "な-adj なら／N なら"
+            },
+            {
+              "id": "C",
+              "text": "Vない ば"
+            },
+            {
+              "id": "D",
+              "text": "Vば"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「Vない ば」: Điều kiện phủ định bằng dạng ば.",
+          "source_item_refs": [
+            "grammar:720"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “nếu”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "Vない ば"
+            },
+            {
+              "id": "B",
+              "text": "Vば"
+            },
+            {
+              "id": "C",
+              "text": "い-adj ければ"
+            },
+            {
+              "id": "D",
+              "text": "な-adj なら／N なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Vば」: Điều kiện giả định tổng quát.",
+          "source_item_refs": [
+            "grammar:717"
+          ]
+        }
+      ]
+    }
+  ]
+}

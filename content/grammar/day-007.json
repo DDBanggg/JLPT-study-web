@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-007",
+  "study_day": 7,
+  "items": [
+    {
+      "id": 701,
+      "structure": "V volitional",
+      "formation": [
+        "V volitional"
+      ],
+      "meaning_vi": "cùng / sẽ làm",
+      "usage_vi": "Dạng ý chí nêu ý định hoặc lời rủ thân mật.",
+      "examples": [
+        {
+          "jp": "いっしょに いこう。",
+          "reading": "いっしょに いこう。",
+          "vi": "Cùng đi nào."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 31"
+    },
+    {
+      "id": 702,
+      "structure": "V volitional と 思っています",
+      "formation": [
+        "V volitional と 思っています"
+      ],
+      "meaning_vi": "đang dự định",
+      "usage_vi": "Nêu dự định đã duy trì trong đầu.",
+      "examples": [
+        {
+          "jp": "らいねん くるまを かおうと おもっています。",
+          "reading": "らいねん くるまを かおうと おもっています。",
+          "vi": "Tôi đang định năm sau mua xe."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 31"
+    },
+    {
+      "id": 703,
+      "structure": "V dictionary つもりです",
+      "formation": [
+        "V dictionary つもりです"
+      ],
+      "meaning_vi": "dự định",
+      "usage_vi": "Nói kế hoạch hoặc ý định.",
+      "examples": [
+        {
+          "jp": "らいげつ りょこうする つもりです。",
+          "reading": "らいげつ りょこうする つもりです。",
+          "vi": "Tôi dự định tháng sau đi du lịch."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 31"
+    },
+    {
+      "id": 704,
+      "structure": "Vない つもりです",
+      "formation": [
+        "Vない つもりです"
+      ],
+      "meaning_vi": "dự định không",
+      "usage_vi": "Nêu ý định phủ định.",
+      "examples": [
+        {
+          "jp": "きょうは のまない つもりです。",
+          "reading": "きょうは のまない つもりです。",
+          "vi": "Hôm nay tôi định không uống."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 31"
+    },
+    {
+      "id": 705,
+      "structure": "Vた ほうが いいです",
+      "formation": [
+        "Vた ほうが いいです"
+      ],
+      "meaning_vi": "nên làm",
+      "usage_vi": "Đưa lời khuyên tích cực.",
+      "examples": [
+        {
+          "jp": "まいにち うんどうした ほうが いいです。",
+          "reading": "まいにち うんどうした ほうが いいです。",
+          "vi": "Bạn nên tập thể dục mỗi ngày."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 32"
+    },
+    {
+      "id": 706,
+      "structure": "Vない ほうが いいです",
+      "formation": [
+        "Vない ほうが いいです"
+      ],
+      "meaning_vi": "không nên làm",
+      "usage_vi": "Đưa lời khuyên tránh hành động.",
+      "examples": [
+        {
+          "jp": "むりを しない ほうが いいです。",
+          "reading": "むりを しない ほうが いいです。",
+          "vi": "Bạn không nên quá sức."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 32"
+    },
+    {
+      "id": 707,
+      "structure": "Plain form でしょう",
+      "formation": [
+        "Plain form でしょう"
+      ],
+      "meaning_vi": "chắc là",
+      "usage_vi": "Dự đoán tương đối chắc chắn.",
+      "examples": [
+        {
+          "jp": "あしたは ゆきが ふるでしょう。",
+          "reading": "あしたは ゆきが ふるでしょう。",
+          "vi": "Ngày mai có lẽ sẽ tuyết."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 32"
+    },
+    {
+      "id": 708,
+      "structure": "Plain form かも しれません",
+      "formation": [
+        "Plain form かも しれません"
+      ],
+      "meaning_vi": "có thể",
+      "usage_vi": "Nêu khả năng chưa chắc chắn.",
+      "examples": [
+        {
+          "jp": "やくそくに まにあわないかも しれません。",
+          "reading": "やくそくに まにあわないかも しれません。",
+          "vi": "Có thể tôi không kịp cuộc hẹn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 32"
+    },
+    {
+      "id": 709,
+      "structure": "V imperative",
+      "formation": [
+        "V imperative"
+      ],
+      "meaning_vi": "hãy làm!",
+      "usage_vi": "Mệnh lệnh trực tiếp, dùng thận trọng.",
+      "examples": [
+        {
+          "jp": "いそげ。",
+          "reading": "いそげ。",
+          "vi": "Mau lên!"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 33"
+    },
+    {
+      "id": 710,
+      "structure": "V dictionary な",
+      "formation": [
+        "V dictionary な"
+      ],
+      "meaning_vi": "đừng làm!",
+      "usage_vi": "Cấm trực tiếp bằng dạng từ điển + な.",
+      "examples": [
+        {
+          "jp": "さわるな。",
+          "reading": "さわるな。",
+          "vi": "Đừng chạm vào."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 33"
+    },
+    {
+      "id": 711,
+      "structure": "Plain form と 言います",
+      "formation": [
+        "Plain form と 言います"
+      ],
+      "meaning_vi": "nghĩa là / gọi là",
+      "usage_vi": "Trích dẫn hoặc giải thích tên gọi.",
+      "examples": [
+        {
+          "jp": "「たちいりきんし」は はいるなと いう いみです。",
+          "reading": "「たちいりきんし」は はいるなと いう いみです。",
+          "vi": "“Cấm vào” nghĩa là đừng vào."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 33"
+    },
+    {
+      "id": 712,
+      "structure": "Plain form と 言いました",
+      "formation": [
+        "Plain form と 言いました"
+      ],
+      "meaning_vi": "đã nói rằng",
+      "usage_vi": "Thuật lại lời nói.",
+      "examples": [
+        {
+          "jp": "ミラーさんは らいしゅう おおさかへ いくと いいました。",
+          "reading": "ミラーさんは らいしゅう おおさかへ いくと いいました。",
+          "vi": "Anh Miller nói tuần sau sẽ đi Osaka."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 33"
+    },
+    {
+      "id": 713,
+      "structure": "Vた／N の とおりに",
+      "formation": [
+        "Vた／N の とおりに"
+      ],
+      "meaning_vi": "theo đúng như",
+      "usage_vi": "Làm đúng theo mẫu, chỉ dẫn hoặc điều đã thấy.",
+      "examples": [
+        {
+          "jp": "せんせいが いった とおりに かきます。",
+          "reading": "せんせいが いった とおりに かきます。",
+          "vi": "Tôi viết đúng như thầy đã nói."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 34"
+    },
+    {
+      "id": 714,
+      "structure": "Vた あとで",
+      "formation": [
+        "Vた あとで"
+      ],
+      "meaning_vi": "sau khi làm",
+      "usage_vi": "Hành động sau diễn ra sau hành động trước.",
+      "examples": [
+        {
+          "jp": "ごはんを たべた あとで はを みがきます。",
+          "reading": "ごはんを たべた あとで はを みがきます。",
+          "vi": "Tôi đánh răng sau khi ăn cơm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 34"
+    },
+    {
+      "id": 715,
+      "structure": "Vないで V",
+      "formation": [
+        "Vないで V"
+      ],
+      "meaning_vi": "làm V mà không làm",
+      "usage_vi": "Nêu hành động sau khi không làm hành động trước.",
+      "examples": [
+        {
+          "jp": "さとうを いれないで コーヒーを のみます。",
+          "reading": "さとうを いれないで コーヒーを のみます。",
+          "vi": "Tôi uống cà phê không cho đường."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 34"
+    },
+    {
+      "id": 716,
+      "structure": "N の あとで",
+      "formation": [
+        "N の あとで"
+      ],
+      "meaning_vi": "sau N",
+      "usage_vi": "Dùng danh từ trước あとで.",
+      "examples": [
+        {
+          "jp": "しごとの あとで かいものします。",
+          "reading": "しごとの あとで かいものします。",
+          "vi": "Tôi mua sắm sau giờ làm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 34"
+    },
+    {
+      "id": 717,
+      "structure": "Vば",
+      "formation": [
+        "Vば"
+      ],
+      "meaning_vi": "nếu",
+      "usage_vi": "Điều kiện giả định tổng quát.",
+      "examples": [
+        {
+          "jp": "はるに なれば、さくらが さきます。",
+          "reading": "はるに なれば、さくらが さきます。",
+          "vi": "Nếu sang xuân, hoa anh đào nở."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 35"
+    },
+    {
+      "id": 718,
+      "structure": "い-adj ければ",
+      "formation": [
+        "い-adj ければ"
+      ],
+      "meaning_vi": "nếu ...",
+      "usage_vi": "Điều kiện của tính từ い.",
+      "examples": [
+        {
+          "jp": "てんきが よければ、さんぽします。",
+          "reading": "てんきが よければ、さんぽします。",
+          "vi": "Nếu thời tiết tốt, tôi đi dạo."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 35"
+    },
+    {
+      "id": 719,
+      "structure": "な-adj なら／N なら",
+      "formation": [
+        "な-adj なら／N なら"
+      ],
+      "meaning_vi": "nếu là ...",
+      "usage_vi": "Đặt điều kiện bằng danh từ hoặc tính từ な.",
+      "examples": [
+        {
+          "jp": "ほっかいどうへ いくなら、ろくがつが いいです。",
+          "reading": "ほっかいどうへ いくなら、ろくがつが いいです。",
+          "vi": "Nếu đi Hokkaido, tháng sáu thì tốt."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 35"
+    },
+    {
+      "id": 720,
+      "structure": "Vない ば",
+      "formation": [
+        "Vない ば"
+      ],
+      "meaning_vi": " nếu không",
+      "usage_vi": "Điều kiện phủ định bằng dạng ば.",
+      "examples": [
+        {
+          "jp": "じかんが なければ、あしたに します。",
+          "reading": "じかんが なければ、あしたに します。",
+          "vi": "Nếu không có thời gian, tôi để ngày mai."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 35"
+    }
+  ]
+}

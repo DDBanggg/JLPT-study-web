@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-010",
+  "study_day": 10,
+  "items": [
+    {
+      "id": 1001,
+      "structure": "V dictionary ところです",
+      "formation": [
+        "V dictionary ところです"
+      ],
+      "meaning_vi": "đang sắp làm",
+      "usage_vi": "Việc sắp bắt đầu.",
+      "examples": [
+        {
+          "jp": "かいぎは いまから はじまる ところです。",
+          "reading": "かいぎは いまから はじまる ところです。",
+          "vi": "Cuộc họp sắp bắt đầu."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 46"
+    },
+    {
+      "id": 1002,
+      "structure": "Vた ばかりです",
+      "formation": [
+        "Vた ばかりです"
+      ],
+      "meaning_vi": "vừa mới làm",
+      "usage_vi": "Việc mới hoàn thành gần thời điểm nói.",
+      "examples": [
+        {
+          "jp": "かれは さんがつに だいがくを そつぎょうした ばかりです。",
+          "reading": "かれは さんがつに だいがくを そつぎょうした ばかりです。",
+          "vi": "Anh ấy vừa tốt nghiệp đại học tháng ba."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 46"
+    },
+    {
+      "id": 1003,
+      "structure": "Plain form はずです",
+      "formation": [
+        "Plain form はずです"
+      ],
+      "meaning_vi": "chắc hẳn",
+      "usage_vi": "Suy đoán dựa trên căn cứ hợp lý.",
+      "examples": [
+        {
+          "jp": "ミラーさんは かいぎしつに いる はずです。",
+          "reading": "ミラーさんは かいぎしつに いる はずです。",
+          "vi": "Anh Miller chắc ở phòng họp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 46"
+    },
+    {
+      "id": 1004,
+      "structure": "Vている ところです",
+      "formation": [
+        "Vている ところです"
+      ],
+      "meaning_vi": "đang đúng lúc làm",
+      "usage_vi": "Nhấn mạnh thời điểm đang giữa hành động.",
+      "examples": [
+        {
+          "jp": "いま しらべている ところです。",
+          "reading": "いま しらべている ところです。",
+          "vi": "Tôi đang đúng lúc kiểm tra."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 46"
+    },
+    {
+      "id": 1005,
+      "structure": "Plain form そうです (truyền đạt)",
+      "formation": [
+        "Plain form そうです (truyền đạt)"
+      ],
+      "meaning_vi": "nghe nói",
+      "usage_vi": "Truyền lại thông tin từ nguồn khác.",
+      "examples": [
+        {
+          "jp": "てんきよほうに よると、あしたは さむく なるそうです。",
+          "reading": "てんきよほうに よると、あしたは さむく なるそうです。",
+          "vi": "Theo dự báo thời tiết, nghe nói mai sẽ lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 47"
+    },
+    {
+      "id": 1006,
+      "structure": "N だそうです",
+      "formation": [
+        "N だそうです"
+      ],
+      "meaning_vi": "nghe nói là N",
+      "usage_vi": "Dùng sau danh từ trong lời thuật lại.",
+      "examples": [
+        {
+          "jp": "かれは いしゃだそうです。",
+          "reading": "かれは いしゃだそうです。",
+          "vi": "Nghe nói anh ấy là bác sĩ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 47"
+    },
+    {
+      "id": 1007,
+      "structure": "Plain form ようです",
+      "formation": [
+        "Plain form ようです"
+      ],
+      "meaning_vi": "có vẻ",
+      "usage_vi": "Suy đoán dựa trên dấu hiệu gián tiếp.",
+      "examples": [
+        {
+          "jp": "となりの へやに だれか いるようです。",
+          "reading": "となりの へやに だれか いるようです。",
+          "vi": "Có vẻ có ai ở phòng bên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 47"
+    },
+    {
+      "id": 1008,
+      "structure": "N の ようです",
+      "formation": [
+        "N の ようです"
+      ],
+      "meaning_vi": "có vẻ như N",
+      "usage_vi": "So sánh/suy đoán bằng ようです.",
+      "examples": [
+        {
+          "jp": "この くもは ゆきの ようです。",
+          "reading": "この くもは ゆきの ようです。",
+          "vi": "Đám mây này có vẻ như tuyết."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 47"
+    },
+    {
+      "id": 1009,
+      "structure": "V causative",
+      "formation": [
+        "V causative"
+      ],
+      "meaning_vi": "bắt / cho làm",
+      "usage_vi": "Chủ thể khiến người khác thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "むすこを イギリスへ りゅうがくさせます。",
+          "reading": "むすこを イギリスへ りゅうがくさせます。",
+          "vi": "Tôi cho con trai du học Anh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 48"
+    },
+    {
+      "id": 1010,
+      "structure": "N に V causative",
+      "formation": [
+        "N に V causative"
+      ],
+      "meaning_vi": "bắt/cho N làm",
+      "usage_vi": "に đánh dấu người thực hiện hành động bị sai khiến.",
+      "examples": [
+        {
+          "jp": "むすめに ピアノを ならわせます。",
+          "reading": "むすめに ピアノを ならわせます。",
+          "vi": "Tôi cho con gái học piano."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 48"
+    },
+    {
+      "id": 1011,
+      "structure": "Vさせて いただけませんか",
+      "formation": [
+        "Vさせて いただけませんか"
+      ],
+      "meaning_vi": "xin cho phép tôi làm",
+      "usage_vi": "Xin phép lịch sự để được thực hiện hành động.",
+      "examples": [
+        {
+          "jp": "やすませて いただけませんか。",
+          "reading": "やすませて いただけませんか。",
+          "vi": "Xin cho phép tôi nghỉ được không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 48"
+    },
+    {
+      "id": 1012,
+      "structure": "Vさせて ください",
+      "formation": [
+        "Vさせて ください"
+      ],
+      "meaning_vi": "xin hãy cho tôi làm",
+      "usage_vi": "Xin phép thực hiện một việc.",
+      "examples": [
+        {
+          "jp": "ここで せつめいさせて ください。",
+          "reading": "ここで せつめいさせて ください。",
+          "vi": "Xin hãy cho tôi giải thích ở đây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 48"
+    },
+    {
+      "id": 1013,
+      "structure": "Honorific passive",
+      "formation": [
+        "Honorific passive"
+      ],
+      "meaning_vi": "được làm (kính ngữ)",
+      "usage_vi": "Dạng bị động dùng tôn kính hành động của người trên.",
+      "examples": [
+        {
+          "jp": "しゃちょうは かえられました。",
+          "reading": "しゃちょうは かえられました。",
+          "vi": "Giám đốc đã về."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 49"
+    },
+    {
+      "id": 1014,
+      "structure": "お Vます-stem に なります",
+      "formation": [
+        "お Vます-stem に なります"
+      ],
+      "meaning_vi": "làm (kính ngữ)",
+      "usage_vi": "Cách nói tôn kính hành động của người trên.",
+      "examples": [
+        {
+          "jp": "しゃちょうは アメリカへ しゅっちょうに なります。",
+          "reading": "しゃちょうは アメリカへ しゅっちょうに なります。",
+          "vi": "Giám đốc đi công tác Mỹ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 49"
+    },
+    {
+      "id": 1015,
+      "structure": "Vます-stem なさいます",
+      "formation": [
+        "Vます-stem なさいます"
+      ],
+      "meaning_vi": "làm (kính ngữ)",
+      "usage_vi": "Kính ngữ đặc biệt của một số động từ.",
+      "examples": [
+        {
+          "jp": "ぶちょうは ゴルフを なさいます。",
+          "reading": "ぶちょうは ゴルフを なさいます。",
+          "vi": "Trưởng phòng chơi golf."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 49"
+    },
+    {
+      "id": 1016,
+      "structure": "お Vます-stem ください",
+      "formation": [
+        "お Vます-stem ください"
+      ],
+      "meaning_vi": "xin hãy làm",
+      "usage_vi": "Kính ngữ dùng khi mời người trên thực hiện.",
+      "examples": [
+        {
+          "jp": "しばらく おまちください。",
+          "reading": "しばらく おまちください。",
+          "vi": "Xin vui lòng đợi một lát."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 49"
+    },
+    {
+      "id": 1017,
+      "structure": "お Vます-stem します",
+      "formation": [
+        "お Vます-stem します"
+      ],
+      "meaning_vi": "làm (khiêm nhường)",
+      "usage_vi": "Người nói hạ mình khi làm cho người trên.",
+      "examples": [
+        {
+          "jp": "こんげつの スケジュールを おおくりします。",
+          "reading": "こんげつの スケジュールを おおくりします。",
+          "vi": "Tôi xin gửi lịch tháng này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 50"
+    },
+    {
+      "id": 1018,
+      "structure": "Vます-stem に うかがいます",
+      "formation": [
+        "Vます-stem に うかがいます"
+      ],
+      "meaning_vi": "đến/thăm (khiêm nhường)",
+      "usage_vi": "Cách khiêm nhường của 行きます／来ます／訪ねます.",
+      "examples": [
+        {
+          "jp": "あした さんじに うかがいます。",
+          "reading": "あした さんじに うかがいます。",
+          "vi": "Ngày mai lúc ba giờ tôi sẽ đến thăm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 50"
+    },
+    {
+      "id": 1019,
+      "structure": "N から まいります",
+      "formation": [
+        "N から まいります"
+      ],
+      "meaning_vi": "đến từ (khiêm nhường)",
+      "usage_vi": "Cách khiêm nhường của 来ます khi nói về người nói.",
+      "examples": [
+        {
+          "jp": "わたしは ベトナムから まいりました。",
+          "reading": "わたしは ベトナムから まいりました。",
+          "vi": "Tôi đến từ Việt Nam."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 50"
+    },
+    {
+      "id": 1020,
+      "structure": "いたします",
+      "formation": [
+        "いたします"
+      ],
+      "meaning_vi": "làm (khiêm nhường)",
+      "usage_vi": "Cách khiêm nhường của します.",
+      "examples": [
+        {
+          "jp": "わたしが ごあんない いたします。",
+          "reading": "わたしが ごあんない いたします。",
+          "vi": "Tôi xin hướng dẫn quý vị."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 50"
+    }
+  ]
+}

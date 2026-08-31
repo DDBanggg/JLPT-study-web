@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-008",
+  "study_day": 8,
+  "items": [
+    {
+      "id": 801,
+      "structure": "V dictionary ように",
+      "formation": [
+        "V dictionary ように"
+      ],
+      "meaning_vi": "để có thể",
+      "usage_vi": "Nêu mục tiêu/đích cần đạt, thường với khả năng.",
+      "examples": [
+        {
+          "jp": "はやく およげるように れんしゅうします。",
+          "reading": "はやく およげるように れんしゅうします。",
+          "vi": "Tôi luyện tập để có thể bơi nhanh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 36"
+    },
+    {
+      "id": 802,
+      "structure": "V potential ように なります",
+      "formation": [
+        "V potential ように なります"
+      ],
+      "meaning_vi": "trở nên có thể",
+      "usage_vi": "Diễn tả thay đổi năng lực.",
+      "examples": [
+        {
+          "jp": "じてんしゃに のれるように なりました。",
+          "reading": "じてんしゃに のれるように なりました。",
+          "vi": "Tôi đã trở nên có thể đi xe đạp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 36"
+    },
+    {
+      "id": 803,
+      "structure": "V dictionary ように します",
+      "formation": [
+        "V dictionary ように します"
+      ],
+      "meaning_vi": "cố gắng tạo thói quen",
+      "usage_vi": "Nói sự nỗ lực có chủ ý để duy trì.",
+      "examples": [
+        {
+          "jp": "まいにち にっきを かくように します。",
+          "reading": "まいにち にっきを かくように します。",
+          "vi": "Tôi cố gắng viết nhật ký hằng ngày."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 36"
+    },
+    {
+      "id": 804,
+      "structure": "Vない ように します",
+      "formation": [
+        "Vない ように します"
+      ],
+      "meaning_vi": "cố không",
+      "usage_vi": "Nỗ lực tránh một hành động.",
+      "examples": [
+        {
+          "jp": "わすれないように します。",
+          "reading": "わすれないように します。",
+          "vi": "Tôi sẽ cố không quên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 36"
+    },
+    {
+      "id": 805,
+      "structure": "Passive (person)",
+      "formation": [
+        "Passive (person)"
+      ],
+      "meaning_vi": "bị / được",
+      "usage_vi": "Chủ thể chịu tác động từ hành động của người khác.",
+      "examples": [
+        {
+          "jp": "こどもの とき、よく ははに しかられました。",
+          "reading": "こどもの とき、よく ははに しかられました。",
+          "vi": "Lúc nhỏ tôi thường bị mẹ mắng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 37"
+    },
+    {
+      "id": 806,
+      "structure": "Passive (damage)",
+      "formation": [
+        "Passive (damage)"
+      ],
+      "meaning_vi": "bị chịu phiền toái",
+      "usage_vi": "Người nói bị ảnh hưởng bất lợi bởi hành động/sự kiện.",
+      "examples": [
+        {
+          "jp": "ラッシュの でんしゃで あしを ふまれました。",
+          "reading": "ラッシュの でんしゃで あしを ふまれました。",
+          "vi": "Tôi bị giẫm chân trên tàu giờ cao điểm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 37"
+    },
+    {
+      "id": 807,
+      "structure": "Passive (fact)",
+      "formation": [
+        "Passive (fact)"
+      ],
+      "meaning_vi": "được xây dựng",
+      "usage_vi": "Dùng bị động khi nêu sự kiện khách quan.",
+      "examples": [
+        {
+          "jp": "この てらは むかし たてられました。",
+          "reading": "この てらは むかし たてられました。",
+          "vi": "Ngôi chùa này được xây từ lâu."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 37"
+    },
+    {
+      "id": 808,
+      "structure": "N に Passive",
+      "formation": [
+        "N に Passive"
+      ],
+      "meaning_vi": "bởi N",
+      "usage_vi": "に chỉ tác nhân của bị động.",
+      "examples": [
+        {
+          "jp": "せんせいに ほめられました。",
+          "reading": "せんせいに ほめられました。",
+          "vi": "Tôi được thầy khen."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 37"
+    },
+    {
+      "id": 809,
+      "structure": "V dictionary のは adj です",
+      "formation": [
+        "V dictionary のは adj です"
+      ],
+      "meaning_vi": "việc ... thì ...",
+      "usage_vi": "Danh từ hóa hành động bằng の để nêu nhận xét.",
+      "examples": [
+        {
+          "jp": "えを かくのは たのしいです。",
+          "reading": "えを かくのは たのしいです。",
+          "vi": "Vẽ tranh thì vui."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 38"
+    },
+    {
+      "id": 810,
+      "structure": "V dictionary のが 好きです",
+      "formation": [
+        "V dictionary のが 好きです"
+      ],
+      "meaning_vi": "thích làm",
+      "usage_vi": "Danh từ hóa hành động làm đối tượng của 好き.",
+      "examples": [
+        {
+          "jp": "ほしを みるのが すきです。",
+          "reading": "ほしを みるのが すきです。",
+          "vi": "Tôi thích ngắm sao."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 38"
+    },
+    {
+      "id": 811,
+      "structure": "V dictionary のを 忘れます",
+      "formation": [
+        "V dictionary のを 忘れます"
+      ],
+      "meaning_vi": "quên làm",
+      "usage_vi": "の biến hành động thành đối tượng của động từ.",
+      "examples": [
+        {
+          "jp": "さいふを もって くるのを わすれました。",
+          "reading": "さいふを もって くるのを わすれました。",
+          "vi": "Tôi quên mang ví."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 38"
+    },
+    {
+      "id": 812,
+      "structure": "Relative clause のは N です",
+      "formation": [
+        "Relative clause のは N です"
+      ],
+      "meaning_vi": "điều ... là N",
+      "usage_vi": "Dùng mệnh đề danh từ hóa để xác định thông tin.",
+      "examples": [
+        {
+          "jp": "わたしが にほんへ きたのは さんがつです。",
+          "reading": "わたしが にほんへ きたのは さんがつです。",
+          "vi": "Việc tôi đến Nhật là vào tháng ba."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 38"
+    },
+    {
+      "id": 813,
+      "structure": "Vて",
+      "formation": [
+        "Vて"
+      ],
+      "meaning_vi": "vì ... nên",
+      "usage_vi": "Dạng て nối nguyên nhân và kết quả tự nhiên.",
+      "examples": [
+        {
+          "jp": "ニュースを きいて、びっくりしました。",
+          "reading": "ニュースを きいて、びっくりしました。",
+          "vi": "Nghe tin tức nên tôi ngạc nhiên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 39"
+    },
+    {
+      "id": 814,
+      "structure": "N で",
+      "formation": [
+        "N で"
+      ],
+      "meaning_vi": "vì N",
+      "usage_vi": "Danh từ + で nêu nguyên nhân.",
+      "examples": [
+        {
+          "jp": "じしんで ビルが たおれました。",
+          "reading": "じしんで ビルが たおれました。",
+          "vi": "Do động đất, tòa nhà đổ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 39"
+    },
+    {
+      "id": 815,
+      "structure": "い-adj くて",
+      "formation": [
+        "い-adj くて"
+      ],
+      "meaning_vi": "vì ...",
+      "usage_vi": "Tính từ い dạng くて nêu nguyên nhân.",
+      "examples": [
+        {
+          "jp": "からだの ちょうしが わるくて、びょういんへ いきます。",
+          "reading": "からだの ちょうしが わるくて、びょういんへ いきます。",
+          "vi": "Vì sức khỏe không tốt nên tôi đi bệnh viện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 39"
+    },
+    {
+      "id": 816,
+      "structure": "な-adj で",
+      "formation": [
+        "な-adj で"
+      ],
+      "meaning_vi": "vì ...",
+      "usage_vi": "Tính từ な + で nêu nguyên nhân.",
+      "examples": [
+        {
+          "jp": "しずかで、よく ねられました。",
+          "reading": "しずかで、よく ねられました。",
+          "vi": "Vì yên tĩnh nên tôi ngủ ngon."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 39"
+    },
+    {
+      "id": 817,
+      "structure": "Question word + plain か",
+      "formation": [
+        "Question word + plain か"
+      ],
+      "meaning_vi": "... hay không / khi nào",
+      "usage_vi": "Dùng mệnh đề hỏi gián tiếp.",
+      "examples": [
+        {
+          "jp": "でんしゃが なんじに つくか しらべてください。",
+          "reading": "でんしゃが なんじに つくか しらべてください。",
+          "vi": "Hãy kiểm tra tàu đến lúc mấy giờ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 40"
+    },
+    {
+      "id": 818,
+      "structure": "Plain form か どうか",
+      "formation": [
+        "Plain form か どうか"
+      ],
+      "meaning_vi": "có ... hay không",
+      "usage_vi": "Nêu lựa chọn có/không trong mệnh đề gián tiếp.",
+      "examples": [
+        {
+          "jp": "あめが ふるか どうか わかりません。",
+          "reading": "あめが ふるか どうか わかりません。",
+          "vi": "Tôi không biết có mưa hay không."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 40"
+    },
+    {
+      "id": 819,
+      "structure": "Vて みます",
+      "formation": [
+        "Vて みます"
+      ],
+      "meaning_vi": "thử làm",
+      "usage_vi": "Thử một hành động để xem kết quả.",
+      "examples": [
+        {
+          "jp": "この ふくを きて みても いいですか。",
+          "reading": "この ふくを きて みても いいですか。",
+          "vi": "Tôi thử mặc bộ đồ này được không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 40"
+    },
+    {
+      "id": 820,
+      "structure": "Vてみる (thử)",
+      "formation": [
+        "Vてみる (thử)"
+      ],
+      "meaning_vi": "thử",
+      "usage_vi": "Động từ sau dạng て diễn tả trải nghiệm thử.",
+      "examples": [
+        {
+          "jp": "この りょうりを たべて みます。",
+          "reading": "この りょうりを たべて みます。",
+          "vi": "Tôi sẽ thử ăn món này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 40"
+    }
+  ]
+}

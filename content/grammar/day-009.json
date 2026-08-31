@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-009",
+  "study_day": 9,
+  "items": [
+    {
+      "id": 901,
+      "structure": "Vて いただきます",
+      "formation": [
+        "Vて いただきます"
+      ],
+      "meaning_vi": "được nhận sự giúp đỡ",
+      "usage_vi": "Khiêm nhường: người nói nhận hành động có lợi từ người trên.",
+      "examples": [
+        {
+          "jp": "せんせいに ほんを みせて いただきました。",
+          "reading": "せんせいに ほんを みせて いただきました。",
+          "vi": "Tôi đã được thầy cho xem sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 41"
+    },
+    {
+      "id": 902,
+      "structure": "Vて くださいます",
+      "formation": [
+        "Vて くださいます"
+      ],
+      "meaning_vi": "người trên làm cho tôi",
+      "usage_vi": "Kính ngữ: người trên làm việc có lợi cho người nói.",
+      "examples": [
+        {
+          "jp": "ぶちょうが おちゃを おしえて くださいました。",
+          "reading": "ぶちょうが おちゃを おしえて くださいました。",
+          "vi": "Trưởng phòng đã chỉ trà cho tôi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 41"
+    },
+    {
+      "id": 903,
+      "structure": "Vて やります",
+      "formation": [
+        "Vて やります"
+      ],
+      "meaning_vi": "làm cho người dưới/động vật",
+      "usage_vi": "Làm việc có lợi cho người có vị thế thấp hoặc động vật/cây.",
+      "examples": [
+        {
+          "jp": "むすこに かみひこうきを つくって やりました。",
+          "reading": "むすこに かみひこうきを つくって やりました。",
+          "vi": "Tôi làm máy bay giấy cho con trai."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 41"
+    },
+    {
+      "id": 904,
+      "structure": "N を いただきます",
+      "formation": [
+        "N を いただきます"
+      ],
+      "meaning_vi": "nhận (khiêm nhường)",
+      "usage_vi": "Cách nói khiêm nhường của もらいます.",
+      "examples": [
+        {
+          "jp": "せんせいに ほんを いただきました。",
+          "reading": "せんせいに ほんを いただきました。",
+          "vi": "Tôi đã nhận sách từ thầy."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 41"
+    },
+    {
+      "id": 905,
+      "structure": "V dictionary ために",
+      "formation": [
+        "V dictionary ために"
+      ],
+      "meaning_vi": "để làm",
+      "usage_vi": "Nêu mục đích có chủ ý.",
+      "examples": [
+        {
+          "jp": "しょうらい じぶんの みせを もつために、ちょきんしています。",
+          "reading": "しょうらい じぶんの みせを もつために、ちょきんしています。",
+          "vi": "Tôi tiết kiệm để sau này có cửa hàng riêng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 42"
+    },
+    {
+      "id": 906,
+      "structure": "N の ために",
+      "formation": [
+        "N の ために"
+      ],
+      "meaning_vi": "vì / cho N",
+      "usage_vi": "Nêu mục đích hoặc lợi ích của danh từ.",
+      "examples": [
+        {
+          "jp": "かぞくの ために はたらきます。",
+          "reading": "かぞくの ために はたらきます。",
+          "vi": "Tôi làm việc vì gia đình."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 42"
+    },
+    {
+      "id": 907,
+      "structure": "V dictionary のに いいです",
+      "formation": [
+        "V dictionary のに いいです"
+      ],
+      "meaning_vi": "phù hợp để làm",
+      "usage_vi": "Đánh giá công cụ phù hợp cho mục đích.",
+      "examples": [
+        {
+          "jp": "この くつは やまを あるくのに いいです。",
+          "reading": "この くつは やまを あるくのに いいです。",
+          "vi": "Đôi giày này tốt để đi núi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 42"
+    },
+    {
+      "id": 908,
+      "structure": "N に 使います",
+      "formation": [
+        "N に 使います"
+      ],
+      "meaning_vi": "dùng cho N",
+      "usage_vi": "Hỏi hoặc nói công dụng.",
+      "examples": [
+        {
+          "jp": "ボーナスは なにに つかいますか。",
+          "reading": "ボーナスは なにに つかいますか。",
+          "vi": "Bạn dùng tiền thưởng vào việc gì?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 42"
+    },
+    {
+      "id": 909,
+      "structure": "Vます-stem そうです",
+      "formation": [
+        "Vます-stem そうです"
+      ],
+      "meaning_vi": "có vẻ sắp",
+      "usage_vi": "Dựa vào dấu hiệu nhìn thấy để dự đoán.",
+      "examples": [
+        {
+          "jp": "いまにも あめが ふりそうです。",
+          "reading": "いまにも あめが ふりそうです。",
+          "vi": "Có vẻ sắp mưa."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 43"
+    },
+    {
+      "id": 910,
+      "structure": "い-adj stem そうです",
+      "formation": [
+        "い-adj stem そうです"
+      ],
+      "meaning_vi": "trông có vẻ",
+      "usage_vi": "Dựa vào vẻ ngoài để phán đoán.",
+      "examples": [
+        {
+          "jp": "この けーきは おいしそうです。",
+          "reading": "この けーきは おいしそうです。",
+          "vi": "Cái bánh này trông có vẻ ngon."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 43"
+    },
+    {
+      "id": 911,
+      "structure": "Vて きます",
+      "formation": [
+        "Vて きます"
+      ],
+      "meaning_vi": "đi làm rồi trở lại",
+      "usage_vi": "Diễn tả đi làm việc gì và quay về.",
+      "examples": [
+        {
+          "jp": "ちょっと きってを かって きます。",
+          "reading": "ちょっと きってを かって きます。",
+          "vi": "Tôi đi mua tem rồi về ngay."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 43"
+    },
+    {
+      "id": 912,
+      "structure": "Vてくる (thay đổi)",
+      "formation": [
+        "Vてくる (thay đổi)"
+      ],
+      "meaning_vi": "bắt đầu / tiến đến",
+      "usage_vi": "Diễn tả thay đổi tiến gần hiện tại.",
+      "examples": [
+        {
+          "jp": "だんだん さむく なって きました。",
+          "reading": "だんだん さむく なって きました。",
+          "vi": "Trời dần trở lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 43"
+    },
+    {
+      "id": 913,
+      "structure": "Vます-stem すぎます",
+      "formation": [
+        "Vます-stem すぎます"
+      ],
+      "meaning_vi": "làm quá",
+      "usage_vi": "Diễn tả mức độ vượt quá.",
+      "examples": [
+        {
+          "jp": "ゆうべ おさけを のみすぎました。",
+          "reading": "ゆうべ おさけを のみすぎました。",
+          "vi": "Tối qua tôi uống rượu quá nhiều."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 44"
+    },
+    {
+      "id": 914,
+      "structure": "い-adj すぎます",
+      "formation": [
+        "い-adj すぎます"
+      ],
+      "meaning_vi": "quá ...",
+      "usage_vi": "Bỏ い rồi thêm すぎます.",
+      "examples": [
+        {
+          "jp": "この かばんは たかすぎます。",
+          "reading": "この かばんは たかすぎます。",
+          "vi": "Cái cặp này quá đắt."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 44"
+    },
+    {
+      "id": 915,
+      "structure": "Vます-stem やすいです",
+      "formation": [
+        "Vます-stem やすいです"
+      ],
+      "meaning_vi": "dễ làm",
+      "usage_vi": "Nêu mức độ dễ thực hiện.",
+      "examples": [
+        {
+          "jp": "この パソコンは つかいやすいです。",
+          "reading": "この パソコンは つかいやすいです。",
+          "vi": "Máy tính này dễ dùng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 44"
+    },
+    {
+      "id": 916,
+      "structure": "Vます-stem なさい",
+      "formation": [
+        "Vます-stem なさい"
+      ],
+      "meaning_vi": "hãy làm",
+      "usage_vi": "Mệnh lệnh lịch sự hơn mệnh lệnh trực tiếp.",
+      "examples": [
+        {
+          "jp": "ズボンを はきなさい。",
+          "reading": "ズボンを はきなさい。",
+          "vi": "Hãy mặc quần."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 44"
+    },
+    {
+      "id": 917,
+      "structure": "V plain／N の 場合は",
+      "formation": [
+        "V plain／N の 場合は"
+      ],
+      "meaning_vi": "trong trường hợp",
+      "usage_vi": "Nêu điều kiện/trường hợp.",
+      "examples": [
+        {
+          "jp": "カードを なくした ばあいは、すぐ れんらくしてください。",
+          "reading": "カードを なくした ばあいは、すぐ れんらくしてください。",
+          "vi": "Trong trường hợp mất thẻ, hãy liên lạc ngay."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 45"
+    },
+    {
+      "id": 918,
+      "structure": "Vた のに",
+      "formation": [
+        "Vた のに"
+      ],
+      "meaning_vi": "mặc dù đã",
+      "usage_vi": "Kết quả trái với điều mong đợi.",
+      "examples": [
+        {
+          "jp": "やくそくしたのに、かれは きませんでした。",
+          "reading": "やくそくしたのに、かれは きませんでした。",
+          "vi": "Dù đã hẹn, anh ấy không đến."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 45"
+    },
+    {
+      "id": 919,
+      "structure": "い-adj のに",
+      "formation": [
+        "い-adj のに"
+      ],
+      "meaning_vi": "mặc dù ...",
+      "usage_vi": "Nối hai vế trái kỳ vọng.",
+      "examples": [
+        {
+          "jp": "やすいのに、だれも かいません。",
+          "reading": "やすいのに、だれも かいません。",
+          "vi": "Dù rẻ, không ai mua."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 45"
+    },
+    {
+      "id": 920,
+      "structure": "な-adj／N なのに",
+      "formation": [
+        "な-adj／N なのに"
+      ],
+      "meaning_vi": "mặc dù là ...",
+      "usage_vi": "Dùng なのに sau tính từ な/danh từ.",
+      "examples": [
+        {
+          "jp": "にちようびなのに、かいしゃへ いきます。",
+          "reading": "にちようびなのに、かいしゃへ いきます。",
+          "vi": "Dù là chủ nhật, tôi đi công ty."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 45"
+    }
+  ]
+}

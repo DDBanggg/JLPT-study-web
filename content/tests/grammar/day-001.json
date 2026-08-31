@@ -1,0 +1,798 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-001",
+  "type": "grammar",
+  "title": "Grammar Test — Day 1",
+  "study_day": 1,
+  "coverage": {
+    "from_day": 1,
+    "to_day": 1
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005"
+      ]
+    },
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010"
+      ]
+    },
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015"
+      ]
+    },
+    {
+      "lesson": 4,
+      "question_ids": [
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020"
+      ]
+    },
+    {
+      "lesson": 5,
+      "question_ids": [
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: là / là một?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N は N じゃありません"
+            },
+            {
+              "id": "B",
+              "text": "N は N ですか"
+            },
+            {
+              "id": "C",
+              "text": "N1 も N2 です"
+            },
+            {
+              "id": "D",
+              "text": "N は N です"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「N は N です」: Giới thiệu hoặc xác định A là B.",
+          "source_item_refs": [
+            "grammar:101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Phủ định lịch sự của danh từ.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 も N2 です"
+            },
+            {
+              "id": "B",
+              "text": "N は N です"
+            },
+            {
+              "id": "C",
+              "text": "N は N じゃありません"
+            },
+            {
+              "id": "D",
+              "text": "N は N ですか"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「N は N じゃありません」: Phủ định lịch sự của danh từ.",
+          "source_item_refs": [
+            "grammar:102"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "Câu 「あなたは がくせいですか。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N は N じゃありません"
+            },
+            {
+              "id": "B",
+              "text": "N は N ですか"
+            },
+            {
+              "id": "C",
+              "text": "N1 も N2 です"
+            },
+            {
+              "id": "D",
+              "text": "N は N です"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「N は N ですか」: Hỏi xác nhận bằng câu hỏi lịch sự.",
+          "source_item_refs": [
+            "grammar:103"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "Ví dụ 「たなかさんも がくせいです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 も N2 です"
+            },
+            {
+              "id": "B",
+              "text": "N は N です"
+            },
+            {
+              "id": "C",
+              "text": "N は N じゃありません"
+            },
+            {
+              "id": "D",
+              "text": "N は N ですか"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N1 も N2 です」: Thêm một đối tượng cùng thông tin.",
+          "source_item_refs": [
+            "grammar:104"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “là / là một”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N は N じゃありません"
+            },
+            {
+              "id": "B",
+              "text": "N は N ですか"
+            },
+            {
+              "id": "C",
+              "text": "N1 も N2 です"
+            },
+            {
+              "id": "D",
+              "text": "N は N です"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「N は N です」: Giới thiệu hoặc xác định A là B.",
+          "source_item_refs": [
+            "grammar:101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: đây/đó/kia là?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "B",
+              "text": "そうです／ちがいます"
+            },
+            {
+              "id": "C",
+              "text": "これ／それ／あれ は N です"
+            },
+            {
+              "id": "D",
+              "text": "この／その／あの N"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「これ／それ／あれ は N です」: Chỉ đồ vật theo khoảng cách với người nói và người nghe.",
+          "source_item_refs": [
+            "grammar:105"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Từ chỉ định đứng ngay trước danh từ.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "これ／それ／あれ は N です"
+            },
+            {
+              "id": "B",
+              "text": "この／その／あの N"
+            },
+            {
+              "id": "C",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "D",
+              "text": "そうです／ちがいます"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「この／その／あの N」: Từ chỉ định đứng ngay trước danh từ.",
+          "source_item_refs": [
+            "grammar:106"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "Câu 「これは にほんごの じしょです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "B",
+              "text": "そうです／ちがいます"
+            },
+            {
+              "id": "C",
+              "text": "これ／それ／あれ は N です"
+            },
+            {
+              "id": "D",
+              "text": "この／その／あの N"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N1 の N2」: Nối hai danh từ để chỉ sở hữu hoặc quan hệ.",
+          "source_item_refs": [
+            "grammar:107"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "Ví dụ 「それは わたしの かさですか。はい、そうです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "これ／それ／あれ は N です"
+            },
+            {
+              "id": "B",
+              "text": "この／その／あの N"
+            },
+            {
+              "id": "C",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "D",
+              "text": "そうです／ちがいます"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「そうです／ちがいます」: Trả lời câu hỏi xác nhận danh từ.",
+          "source_item_refs": [
+            "grammar:108"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đây/đó/kia là”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "B",
+              "text": "そうです／ちがいます"
+            },
+            {
+              "id": "C",
+              "text": "これ／それ／あれ は N です"
+            },
+            {
+              "id": "D",
+              "text": "この／その／あの N"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「これ／それ／あれ は N です」: Chỉ đồ vật theo khoảng cách với người nói và người nghe.",
+          "source_item_refs": [
+            "grammar:105"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: đây/đó/kia là N?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こちら／そちら／あちら"
+            },
+            {
+              "id": "B",
+              "text": "ここ／そこ／あそこ は N です"
+            },
+            {
+              "id": "C",
+              "text": "N は どこ ですか"
+            },
+            {
+              "id": "D",
+              "text": "N1 の N2"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「ここ／そこ／あそこ は N です」: Chỉ địa điểm theo khoảng cách.",
+          "source_item_refs": [
+            "grammar:109"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Hỏi vị trí của một nơi hoặc vật.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N は どこ ですか"
+            },
+            {
+              "id": "B",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "C",
+              "text": "こちら／そちら／あちら"
+            },
+            {
+              "id": "D",
+              "text": "ここ／そこ／あそこ は N です"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N は どこ ですか」: Hỏi vị trí của một nơi hoặc vật.",
+          "source_item_refs": [
+            "grammar:110"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "Câu 「うけつけは あの たてものの いちがいです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こちら／そちら／あちら"
+            },
+            {
+              "id": "B",
+              "text": "ここ／そこ／あそこ は N です"
+            },
+            {
+              "id": "C",
+              "text": "N は どこ ですか"
+            },
+            {
+              "id": "D",
+              "text": "N1 の N2"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「N1 の N2」: Chỉ quan hệ giữa bộ phận, nơi chốn hoặc sở hữu.",
+          "source_item_refs": [
+            "grammar:111"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "Ví dụ 「エレベーターは あちらです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N は どこ ですか"
+            },
+            {
+              "id": "B",
+              "text": "N1 の N2"
+            },
+            {
+              "id": "C",
+              "text": "こちら／そちら／あちら"
+            },
+            {
+              "id": "D",
+              "text": "ここ／そこ／あそこ は N です"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「こちら／そちら／あちら」: Dùng lịch sự để chỉ phương hướng hoặc nơi chốn.",
+          "source_item_refs": [
+            "grammar:112"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đây/đó/kia là N”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こちら／そちら／あちら"
+            },
+            {
+              "id": "B",
+              "text": "ここ／そこ／あそこ は N です"
+            },
+            {
+              "id": "C",
+              "text": "N は どこ ですか"
+            },
+            {
+              "id": "D",
+              "text": "N1 の N2"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「ここ／そこ／あそこ は N です」: Chỉ địa điểm theo khoảng cách.",
+          "source_item_refs": [
+            "grammar:109"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: làm vào lúc?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (thời điểm) に Vます"
+            },
+            {
+              "id": "B",
+              "text": "Vます／Vません／Vました／Vませんでした"
+            },
+            {
+              "id": "C",
+              "text": "N1 から N2 まで"
+            },
+            {
+              "id": "D",
+              "text": "N と N"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N (thời điểm) に Vます」: Dùng に với thời điểm xác định của hành động.",
+          "source_item_refs": [
+            "grammar:113"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Bốn dạng lịch sự cơ bản của động từ.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 から N2 まで"
+            },
+            {
+              "id": "B",
+              "text": "N と N"
+            },
+            {
+              "id": "C",
+              "text": "N (thời điểm) に Vます"
+            },
+            {
+              "id": "D",
+              "text": "Vます／Vません／Vました／Vませんでした"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Vます／Vません／Vました／Vませんでした」: Bốn dạng lịch sự cơ bản của động từ.",
+          "source_item_refs": [
+            "grammar:114"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "Câu 「ぎんこうは くじから さんじまでです。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (thời điểm) に Vます"
+            },
+            {
+              "id": "B",
+              "text": "Vます／Vません／Vました／Vませんでした"
+            },
+            {
+              "id": "C",
+              "text": "N1 から N2 まで"
+            },
+            {
+              "id": "D",
+              "text": "N と N"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「N1 から N2 まで」: Chỉ khoảng thời gian hoặc phạm vi bắt đầu và kết thúc.",
+          "source_item_refs": [
+            "grammar:115"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "Ví dụ 「どようびと にちようびは やすみです。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N1 から N2 まで"
+            },
+            {
+              "id": "B",
+              "text": "N と N"
+            },
+            {
+              "id": "C",
+              "text": "N (thời điểm) に Vます"
+            },
+            {
+              "id": "D",
+              "text": "Vます／Vません／Vました／Vませんでした"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「N と N」: Liệt kê đầy đủ các danh từ.",
+          "source_item_refs": [
+            "grammar:116"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm vào lúc”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (thời điểm) に Vます"
+            },
+            {
+              "id": "B",
+              "text": "Vます／Vません／Vました／Vませんでした"
+            },
+            {
+              "id": "C",
+              "text": "N1 から N2 まで"
+            },
+            {
+              "id": "D",
+              "text": "N と N"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「N (thời điểm) に Vます」: Dùng に với thời điểm xác định của hành động.",
+          "source_item_refs": [
+            "grammar:113"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "Mẫu nào diễn tả: đi/đến/về đến nơi?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (phương tiện) で 行きます"
+            },
+            {
+              "id": "B",
+              "text": "Person と 行きます"
+            },
+            {
+              "id": "C",
+              "text": "どこ(へ)も 行きません"
+            },
+            {
+              "id": "D",
+              "text": "Place へ 行きます／来ます／帰ります"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Place へ 行きます／来ます／帰ります」: Đánh dấu hướng đích bằng へ.",
+          "source_item_refs": [
+            "grammar:117"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Dùng で chỉ phương tiện di chuyển.",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "どこ(へ)も 行きません"
+            },
+            {
+              "id": "B",
+              "text": "Place へ 行きます／来ます／帰ります"
+            },
+            {
+              "id": "C",
+              "text": "N (phương tiện) で 行きます"
+            },
+            {
+              "id": "D",
+              "text": "Person と 行きます"
+            }
+          ],
+          "correct_option_id": "C",
+          "explanation_vi": "Đáp án đúng là 「N (phương tiện) で 行きます」: Dùng で chỉ phương tiện di chuyển.",
+          "source_item_refs": [
+            "grammar:118"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "Câu 「ともだちと にほんへ きました。」 minh họa mẫu nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (phương tiện) で 行きます"
+            },
+            {
+              "id": "B",
+              "text": "Person と 行きます"
+            },
+            {
+              "id": "C",
+              "text": "どこ(へ)も 行きません"
+            },
+            {
+              "id": "D",
+              "text": "Place へ 行きます／来ます／帰ります"
+            }
+          ],
+          "correct_option_id": "B",
+          "explanation_vi": "Đáp án đúng là 「Person と 行きます」: Dùng と để chỉ người cùng thực hiện hành động.",
+          "source_item_refs": [
+            "grammar:119"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "Ví dụ 「にちようびは どこへも いきません。」 sử dụng cấu trúc nào?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "どこ(へ)も 行きません"
+            },
+            {
+              "id": "B",
+              "text": "Place へ 行きます／来ます／帰ります"
+            },
+            {
+              "id": "C",
+              "text": "N (phương tiện) で 行きます"
+            },
+            {
+              "id": "D",
+              "text": "Person と 行きます"
+            }
+          ],
+          "correct_option_id": "A",
+          "explanation_vi": "Đáp án đúng là 「どこ(へ)も 行きません」: Từ nghi vấn đi với phủ định để phủ định toàn bộ.",
+          "source_item_refs": [
+            "grammar:120"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đi/đến/về đến nơi”?",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "N (phương tiện) で 行きます"
+            },
+            {
+              "id": "B",
+              "text": "Person と 行きます"
+            },
+            {
+              "id": "C",
+              "text": "どこ(へ)も 行きません"
+            },
+            {
+              "id": "D",
+              "text": "Place へ 行きます／来ます／帰ります"
+            }
+          ],
+          "correct_option_id": "D",
+          "explanation_vi": "Đáp án đúng là 「Place へ 行きます／来ます／帰ります」: Đánh dấu hướng đích bằng へ.",
+          "source_item_refs": [
+            "grammar:117"
+          ]
+        }
+      ]
+    }
+  ]
+}

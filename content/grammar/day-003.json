@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-003",
+  "study_day": 3,
+  "items": [
+    {
+      "id": 301,
+      "structure": "Counter あります／います",
+      "formation": [
+        "Counter あります／います"
+      ],
+      "meaning_vi": "có ... đơn vị",
+      "usage_vi": "Dùng lượng từ sau số lượng.",
+      "examples": [
+        {
+          "jp": "りんごが みっつ あります。",
+          "reading": "りんごが みっつ あります。",
+          "vi": "Có ba quả táo."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 11"
+    },
+    {
+      "id": 302,
+      "structure": "Duration Vます",
+      "formation": [
+        "Duration Vます"
+      ],
+      "meaning_vi": "làm trong khoảng",
+      "usage_vi": "Thời lượng thường không dùng に.",
+      "examples": [
+        {
+          "jp": "まいにち にじかん べんきょうします。",
+          "reading": "まいにち にじかん べんきょうします。",
+          "vi": "Mỗi ngày tôi học hai giờ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 11"
+    },
+    {
+      "id": 303,
+      "structure": "Frequency に Vます",
+      "formation": [
+        "Frequency に Vます"
+      ],
+      "meaning_vi": "làm ... lần trong khoảng",
+      "usage_vi": "Dùng に chỉ tần suất.",
+      "examples": [
+        {
+          "jp": "いっしゅうかんに にかい テニスを します。",
+          "reading": "いっしゅうかんに にかい テニスを します。",
+          "vi": "Tôi chơi tennis hai lần một tuần."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 11"
+    },
+    {
+      "id": 304,
+      "structure": "どのくらい",
+      "formation": [
+        "どのくらい"
+      ],
+      "meaning_vi": "bao lâu / bao nhiêu",
+      "usage_vi": "Hỏi thời lượng, khoảng cách hoặc giá tiền.",
+      "examples": [
+        {
+          "jp": "にほんごを どのくらい べんきょうしましたか。",
+          "reading": "にほんごを どのくらい べんきょうしましたか。",
+          "vi": "Bạn đã học tiếng Nhật bao lâu?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 11"
+    },
+    {
+      "id": 305,
+      "structure": "N／な-adj でした",
+      "formation": [
+        "N／な-adj でした"
+      ],
+      "meaning_vi": "đã là / đã ...",
+      "usage_vi": "Dạng quá khứ lịch sự của danh từ và tính từ な.",
+      "examples": [
+        {
+          "jp": "きのうは しずかでした。",
+          "reading": "きのうは しずかでした。",
+          "vi": "Hôm qua yên tĩnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 12"
+    },
+    {
+      "id": 306,
+      "structure": "い-adj かったです",
+      "formation": [
+        "い-adj かったです"
+      ],
+      "meaning_vi": "đã ...",
+      "usage_vi": "Đổi い thành かった để nói quá khứ.",
+      "examples": [
+        {
+          "jp": "きのうは さむかったです。",
+          "reading": "きのうは さむかったです。",
+          "vi": "Hôm qua trời lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 12"
+    },
+    {
+      "id": 307,
+      "structure": "N1 より N2 のほうが adj です",
+      "formation": [
+        "N1 より N2 のほうが adj です"
+      ],
+      "meaning_vi": "N2 ... hơn N1",
+      "usage_vi": "So sánh hai đối tượng.",
+      "examples": [
+        {
+          "jp": "でんしゃより しんかんせんの ほうが はやいです。",
+          "reading": "でんしゃより しんかんせんの ほうが はやいです。",
+          "vi": "Shinkansen nhanh hơn tàu điện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 12"
+    },
+    {
+      "id": 308,
+      "structure": "N の なかで N が いちばん adj です",
+      "formation": [
+        "N の なかで N が いちばん adj です"
+      ],
+      "meaning_vi": "N là nhất trong",
+      "usage_vi": "Nêu mức cao nhất trong một nhóm.",
+      "examples": [
+        {
+          "jp": "くだものの なかで りんごが いちばん すきです。",
+          "reading": "くだものの なかで りんごが いちばん すきです。",
+          "vi": "Trong các loại quả tôi thích táo nhất."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 12"
+    },
+    {
+      "id": 309,
+      "structure": "N が 欲しいです",
+      "formation": [
+        "N が 欲しいです"
+      ],
+      "meaning_vi": "muốn N",
+      "usage_vi": "Diễn tả mong muốn có đồ vật.",
+      "examples": [
+        {
+          "jp": "あたらしい くるまが ほしいです。",
+          "reading": "あたらしい くるまが ほしいです。",
+          "vi": "Tôi muốn một chiếc xe mới."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 13"
+    },
+    {
+      "id": 310,
+      "structure": "Vます-stem たいです",
+      "formation": [
+        "Vます-stem たいです"
+      ],
+      "meaning_vi": "muốn làm",
+      "usage_vi": "Diễn tả nguyện vọng của người nói.",
+      "examples": [
+        {
+          "jp": "すしを たべたいです。",
+          "reading": "すしを たべたいです。",
+          "vi": "Tôi muốn ăn sushi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 13"
+    },
+    {
+      "id": 311,
+      "structure": "Place へ Vます-stem に 行きます",
+      "formation": [
+        "Place へ Vます-stem に 行きます"
+      ],
+      "meaning_vi": "đi để làm",
+      "usage_vi": "に chỉ mục đích của việc đi/đến/về.",
+      "examples": [
+        {
+          "jp": "にほんへ にほんごを ならいに いきます。",
+          "reading": "にほんへ にほんごを ならいに いきます。",
+          "vi": "Tôi đi Nhật để học tiếng Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 13"
+    },
+    {
+      "id": 312,
+      "structure": "何が 欲しいですか",
+      "formation": [
+        "何が 欲しいですか"
+      ],
+      "meaning_vi": "muốn gì?",
+      "usage_vi": "Hỏi về đồ vật mong muốn.",
+      "examples": [
+        {
+          "jp": "たんじょうびに なにが ほしいですか。",
+          "reading": "たんじょうびに なにが ほしいですか。",
+          "vi": "Bạn muốn gì vào sinh nhật?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 13"
+    },
+    {
+      "id": 313,
+      "structure": "Vてください",
+      "formation": [
+        "Vてください"
+      ],
+      "meaning_vi": "hãy làm",
+      "usage_vi": "Đề nghị hoặc yêu cầu lịch sự.",
+      "examples": [
+        {
+          "jp": "ここで まってください。",
+          "reading": "ここで まってください。",
+          "vi": "Hãy đợi ở đây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 14"
+    },
+    {
+      "id": 314,
+      "structure": "Vましょうか",
+      "formation": [
+        "Vましょうか"
+      ],
+      "meaning_vi": "để tôi ... nhé?",
+      "usage_vi": "Đề nghị người nói làm việc cho người nghe.",
+      "examples": [
+        {
+          "jp": "にもつを もちましょうか。",
+          "reading": "にもつを もちましょうか。",
+          "vi": "Để tôi xách hành lý nhé?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 14"
+    },
+    {
+      "id": 315,
+      "structure": "Vています",
+      "formation": [
+        "Vています"
+      ],
+      "meaning_vi": "đang làm",
+      "usage_vi": "Diễn tả hành động đang diễn ra.",
+      "examples": [
+        {
+          "jp": "いま でんわを かけています。",
+          "reading": "いま でんわを かけています。",
+          "vi": "Bây giờ tôi đang gọi điện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 14"
+    },
+    {
+      "id": 316,
+      "structure": "Vて form",
+      "formation": [
+        "Vて form"
+      ],
+      "meaning_vi": "liên kết bằng dạng て",
+      "usage_vi": "Dùng dạng て làm cơ sở cho yêu cầu và tiếp diễn.",
+      "examples": [
+        {
+          "jp": "まどを あけて ください。",
+          "reading": "まどを あけて ください。",
+          "vi": "Hãy mở cửa sổ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 14"
+    },
+    {
+      "id": 317,
+      "structure": "Vても いいです",
+      "formation": [
+        "Vても いいです"
+      ],
+      "meaning_vi": "được phép làm",
+      "usage_vi": "Xin hoặc cho phép làm hành động.",
+      "examples": [
+        {
+          "jp": "ここで しゃしんを とっても いいですか。",
+          "reading": "ここで しゃしんを とっても いいですか。",
+          "vi": "Tôi chụp ảnh ở đây được không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 15"
+    },
+    {
+      "id": 318,
+      "structure": "Vては いけません",
+      "formation": [
+        "Vては いけません"
+      ],
+      "meaning_vi": "không được làm",
+      "usage_vi": "Nêu điều cấm.",
+      "examples": [
+        {
+          "jp": "ここで たばこを すっては いけません。",
+          "reading": "ここで たばこを すっては いけません。",
+          "vi": "Không được hút thuốc ở đây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 15"
+    },
+    {
+      "id": 319,
+      "structure": "Vています (trạng thái)",
+      "formation": [
+        "Vています (trạng thái)"
+      ],
+      "meaning_vi": "đang có/mang/sống",
+      "usage_vi": "Diễn tả trạng thái còn tiếp diễn.",
+      "examples": [
+        {
+          "jp": "めがねを かけています。",
+          "reading": "めがねを かけています。",
+          "vi": "Tôi đang đeo kính."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 15"
+    },
+    {
+      "id": 320,
+      "structure": "Vています (thói quen)",
+      "formation": [
+        "Vています (thói quen)"
+      ],
+      "meaning_vi": "thường làm",
+      "usage_vi": "Diễn tả hành động lặp lại như nghề nghiệp.",
+      "examples": [
+        {
+          "jp": "ぎんこうで はたらいています。",
+          "reading": "ぎんこうで はたらいています。",
+          "vi": "Tôi làm việc ở ngân hàng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 15"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-005",
+  "study_day": 5,
+  "items": [
+    {
+      "id": 501,
+      "structure": "Plain form と 思います",
+      "formation": [
+        "Plain form と 思います"
+      ],
+      "meaning_vi": "tôi nghĩ rằng",
+      "usage_vi": "Nêu ý kiến hoặc dự đoán cá nhân.",
+      "examples": [
+        {
+          "jp": "あしたは あめが ふると おもいます。",
+          "reading": "あしたは あめが ふると おもいます。",
+          "vi": "Tôi nghĩ ngày mai trời sẽ mưa."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 21"
+    },
+    {
+      "id": 502,
+      "structure": "Plain form と 言います",
+      "formation": [
+        "Plain form と 言います"
+      ],
+      "meaning_vi": "nói rằng",
+      "usage_vi": "Trích lời nói với と.",
+      "examples": [
+        {
+          "jp": "ちちは いそがしいと いいました。",
+          "reading": "ちちは いそがしいと いいました。",
+          "vi": "Bố nói là bận."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 21"
+    },
+    {
+      "id": 503,
+      "structure": "Plain form でしょう",
+      "formation": [
+        "Plain form でしょう"
+      ],
+      "meaning_vi": "chắc là / phải không?",
+      "usage_vi": "Dự đoán hoặc xác nhận nhẹ.",
+      "examples": [
+        {
+          "jp": "あしたは さむいでしょう。",
+          "reading": "あしたは さむいでしょう。",
+          "vi": "Ngày mai chắc lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 21"
+    },
+    {
+      "id": 504,
+      "structure": "N も そう 思います",
+      "formation": [
+        "N も そう 思います"
+      ],
+      "meaning_vi": "cũng nghĩ vậy",
+      "usage_vi": "Đồng tình với ý kiến vừa nêu.",
+      "examples": [
+        {
+          "jp": "わたしも そう おもいます。",
+          "reading": "わたしも そう おもいます。",
+          "vi": "Tôi cũng nghĩ vậy."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 21"
+    },
+    {
+      "id": 505,
+      "structure": "Plain form N",
+      "formation": [
+        "Plain form N"
+      ],
+      "meaning_vi": "danh từ được ...",
+      "usage_vi": "Mệnh đề đứng trước danh từ để bổ nghĩa.",
+      "examples": [
+        {
+          "jp": "これは きのう かった ほんです。",
+          "reading": "これは きのう かった ほんです。",
+          "vi": "Đây là cuốn sách tôi đã mua hôm qua."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 22"
+    },
+    {
+      "id": 506,
+      "structure": "Relative clause の N",
+      "formation": [
+        "Relative clause の N"
+      ],
+      "meaning_vi": "N trong mệnh đề",
+      "usage_vi": "Không dùng đại từ quan hệ; mệnh đề đi thẳng trước N.",
+      "examples": [
+        {
+          "jp": "あそこに いる ひとは せんせいです。",
+          "reading": "あそこに いる ひとは せんせいです。",
+          "vi": "Người đang ở kia là giáo viên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 22"
+    },
+    {
+      "id": 507,
+      "structure": "V dictionary 時",
+      "formation": [
+        "V dictionary 時"
+      ],
+      "meaning_vi": "khi làm",
+      "usage_vi": "Thời điểm thực hiện hành động theo sau.",
+      "examples": [
+        {
+          "jp": "にほんへ いく とき、にもつを かいます。",
+          "reading": "にほんへ いく とき、にもつを かいます。",
+          "vi": "Khi đi Nhật, tôi mua hành lý."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 22"
+    },
+    {
+      "id": 508,
+      "structure": "Vない 時",
+      "formation": [
+        "Vない 時"
+      ],
+      "meaning_vi": "khi không làm",
+      "usage_vi": "Dùng dạng phủ định trước 時.",
+      "examples": [
+        {
+          "jp": "ねる まえに でんわを しない ときも あります。",
+          "reading": "ねる まえに でんわを しない ときも あります。",
+          "vi": "Cũng có lúc tôi không gọi điện trước khi ngủ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 22"
+    },
+    {
+      "id": 509,
+      "structure": "V dictionary と",
+      "formation": [
+        "V dictionary と"
+      ],
+      "meaning_vi": "cứ ... là",
+      "usage_vi": "Kết quả tự nhiên, quy luật hoặc hướng dẫn.",
+      "examples": [
+        {
+          "jp": "この ボタンを おすと、おつりが でます。",
+          "reading": "この ボタンを おすと、おつりが でます。",
+          "vi": "Bấm nút này thì tiền thừa ra."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 23"
+    },
+    {
+      "id": 510,
+      "structure": "Vない と",
+      "formation": [
+        "Vない と"
+      ],
+      "meaning_vi": "phải ... nếu không",
+      "usage_vi": "Dùng với kết quả tất yếu hoặc quy tắc.",
+      "examples": [
+        {
+          "jp": "はやく ねないと、あした おきられません。",
+          "reading": "はやく ねないと、あした おきられません。",
+          "vi": "Nếu không ngủ sớm, ngày mai không dậy được."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 23"
+    },
+    {
+      "id": 511,
+      "structure": "Question word でも",
+      "formation": [
+        "Question word でも"
+      ],
+      "meaning_vi": "bất cứ ... nào",
+      "usage_vi": "Nhấn mạnh sự không giới hạn trong khẳng định.",
+      "examples": [
+        {
+          "jp": "だれでも この へやを つかえます。",
+          "reading": "だれでも この へやを つかえます。",
+          "vi": "Ai cũng có thể dùng phòng này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 23"
+    },
+    {
+      "id": 512,
+      "structure": "N の 時",
+      "formation": [
+        "N の 時"
+      ],
+      "meaning_vi": "khi N",
+      "usage_vi": "Dùng danh từ trước 時.",
+      "examples": [
+        {
+          "jp": "こどもの とき、よく かわで あそびました。",
+          "reading": "こどもの とき、よく かわで あそびました。",
+          "vi": "Khi còn nhỏ, tôi thường chơi ở sông."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 23"
+    },
+    {
+      "id": 513,
+      "structure": "A は B に N を くれます",
+      "formation": [
+        "A は B に N を くれます"
+      ],
+      "meaning_vi": "B cho tôi/chúng tôi N",
+      "usage_vi": "Người nhận là người nói hoặc người trong nhóm người nói.",
+      "examples": [
+        {
+          "jp": "ともだちは わたしに ほんを くれました。",
+          "reading": "ともだちは わたしに ほんを くれました。",
+          "vi": "Bạn đã tặng tôi sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 24"
+    },
+    {
+      "id": 514,
+      "structure": "A は B に Vて あげます",
+      "formation": [
+        "A は B に Vて あげます"
+      ],
+      "meaning_vi": "làm cho B",
+      "usage_vi": "Người nói/chủ thể làm việc có lợi cho người khác.",
+      "examples": [
+        {
+          "jp": "わたしは ともだちに にもつを もって あげました。",
+          "reading": "わたしは ともだちに にもつを もって あげました。",
+          "vi": "Tôi đã xách hành lý giúp bạn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 24"
+    },
+    {
+      "id": 515,
+      "structure": "A は B に Vて もらいます",
+      "formation": [
+        "A は B に Vて もらいます"
+      ],
+      "meaning_vi": "nhờ B làm",
+      "usage_vi": "Người nói nhận lợi ích từ việc B làm.",
+      "examples": [
+        {
+          "jp": "わたしは せんせいに おしえて もらいました。",
+          "reading": "わたしは せんせいに おしえて もらいました。",
+          "vi": "Tôi được thầy dạy cho."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 24"
+    },
+    {
+      "id": 516,
+      "structure": "A は B に Vて くれます",
+      "formation": [
+        "A は B に Vて くれます"
+      ],
+      "meaning_vi": "B làm cho tôi/chúng tôi",
+      "usage_vi": "Người khác làm việc có lợi cho người nói.",
+      "examples": [
+        {
+          "jp": "ともだちは わたしに てつだって くれました。",
+          "reading": "ともだちは わたしに てつだって くれました。",
+          "vi": "Bạn đã giúp tôi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 24"
+    },
+    {
+      "id": 517,
+      "structure": "Vたら",
+      "formation": [
+        "Vたら"
+      ],
+      "meaning_vi": " nếu / khi đã",
+      "usage_vi": "Nêu điều kiện sau khi hành động hoàn tất.",
+      "examples": [
+        {
+          "jp": "あめが ふったら、いきません。",
+          "reading": "あめが ふったら、いきません。",
+          "vi": "Nếu mưa thì tôi không đi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 25"
+    },
+    {
+      "id": 518,
+      "structure": "Vても",
+      "formation": [
+        "Vても"
+      ],
+      "meaning_vi": "dù có ...",
+      "usage_vi": "Nêu điều kiện nhượng bộ.",
+      "examples": [
+        {
+          "jp": "あめが ふっても、いきます。",
+          "reading": "あめが ふっても、いきます。",
+          "vi": "Dù mưa tôi vẫn đi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 25"
+    },
+    {
+      "id": 519,
+      "structure": "い-adj くても",
+      "formation": [
+        "い-adj くても"
+      ],
+      "meaning_vi": "dù ...",
+      "usage_vi": "Dạng nhượng bộ của tính từ い.",
+      "examples": [
+        {
+          "jp": "たかくても、この かばんを かいます。",
+          "reading": "たかくても、この かばんを かいます。",
+          "vi": "Dù đắt tôi vẫn mua cái cặp này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 25"
+    },
+    {
+      "id": 520,
+      "structure": "な-adj／N でも",
+      "formation": [
+        "な-adj／N でも"
+      ],
+      "meaning_vi": "dù là ...",
+      "usage_vi": "Dạng nhượng bộ của tính từ な và danh từ.",
+      "examples": [
+        {
+          "jp": "にちようびでも、はたらきます。",
+          "reading": "にちようびでも、はたらきます。",
+          "vi": "Dù là chủ nhật tôi vẫn làm việc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 25"
+    }
+  ]
+}
