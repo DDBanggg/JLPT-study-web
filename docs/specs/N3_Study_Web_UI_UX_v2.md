@@ -1,7 +1,10 @@
 # N3 Study Web — UI/UX Specification
 
-**Status:** Locked desktop-first baseline  
-**Updated:** 2026-08-29
+**Status:** Desktop-first baseline aligned with content specification v1.3
+**Updated:** 2026-08-31
+
+The v1.3 content specification changes Kanji learning semantics without changing runtime
+`schema_version: 1`. Vocabulary remains quota-based; Kanji is source-exhaustive.
 
 ## Delivery priority
 
@@ -161,6 +164,10 @@ List:
 - desktop table
 - no Search
 - Known only here
+- button text `Đã biết`
+- confirmation title `Đánh dấu chữ Hán đã biết?`
+- confirmation copy: `Bạn có chắc muốn đánh dấu chữ Hán này là đã biết? Chữ này sẽ được loại khỏi danh sách cần học.`
+- after successful Known, the item disappears and no replacement is inserted
 
 Quiz:
 - front = Kanji only
@@ -169,6 +176,7 @@ Quiz:
 - ordered by default
 - Shuffle
 - no Known
+- current active-set count is dynamic; never use a fixed denominator of 30
 
 Then next-part CTA.
 

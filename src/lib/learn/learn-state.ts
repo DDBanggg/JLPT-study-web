@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 
+import { deriveKanjiActiveSet } from "@/lib/learning-sets/learning-sets";
 import { PROGRAM_ID } from "@/lib/progress/program-constants";
 
 import { loadLearnContent, type LearnContentDocument, type LearnType } from "./content";
@@ -62,10 +63,9 @@ async function getGrammarState(
   };
 }
 
-async function getLearningSetState(
+async function getVocabularyLearningSetState(
   supabase: SupabaseClient,
   userId: string,
-  type: Extract<LearnType, "vocabulary" | "kanji">,
   studyDay: number,
   content: LearnContentDocument,
 ) {
@@ -73,18 +73,18 @@ async function getLearningSetState(
     supabase
       .from("learning_sets")
       .select("item_ids")
-      .eq("user_id", userId)
-      .eq("program_id", PROGRAM_ID)
-      .eq("study_day", studyDay)
-      .eq("item_type", type)
-      .maybeSingle(),
+    .eq("user_id", userId)
+    .eq("program_id", PROGRAM_ID)
+    .eq("study_day", studyDay)
+    .eq("item_type", "vocabulary")
+    .maybeSingle(),
     supabase
       .from("known_items")
       .select("item_id")
-      .eq("user_id", userId)
-      .eq("program_id", PROGRAM_ID)
-      .eq("item_type", type),
-    taskCompleted(supabase, userId, type, studyDay),
+    .eq("user_id", userId)
+    .eq("program_id", PROGRAM_ID)
+    .eq("item_type", "vocabulary"),
+    taskCompleted(supabase, userId, "vocabulary", studyDay),
   ]);
   if (setQuery.error || knownQuery.error || completion.error) return null;
 
@@ -94,6 +94,35 @@ async function getLearningSetState(
     .filter((id) => poolIds.has(id));
   return {
     learning_set_ids: (setQuery.data as { item_ids: number[] } | null)?.item_ids ?? [],
+    known_ids_in_pool: knownIds,
+    completed: completion.completed,
+  };
+}
+
+async function getKanjiLearningState(
+  supabase: SupabaseClient,
+  userId: string,
+  studyDay: number,
+  content: LearnContentDocument,
+) {
+  const [knownQuery, completion] = await Promise.all([
+    supabase
+      .from("known_items")
+      .select("item_id")
+      .eq("user_id", userId)
+      .eq("program_id", PROGRAM_ID)
+      .eq("item_type", "kanji"),
+    taskCompleted(supabase, userId, "kanji", studyDay),
+  ]);
+  if (knownQuery.error || completion.error) return null;
+
+  const sourceIds = content.items.map(({ id }) => id);
+  const sourceIdSet = new Set(sourceIds);
+  const knownIds = (knownQuery.data ?? [])
+    .map((row) => (row as { item_id: number }).item_id)
+    .filter((id) => sourceIdSet.has(id));
+  return {
+    learning_set_ids: deriveKanjiActiveSet(sourceIds, knownIds),
     known_ids_in_pool: knownIds,
     completed: completion.completed,
   };
@@ -148,8 +177,10 @@ export async function getLearnDay(
   const content = contentResult.data;
   const userState = type === "grammar"
     ? await getGrammarState(supabase, userId, studyDay, content)
-    : type === "vocabulary" || type === "kanji"
-      ? await getLearningSetState(supabase, userId, type, studyDay, content)
+    : type === "vocabulary"
+      ? await getVocabularyLearningSetState(supabase, userId, studyDay, content)
+      : type === "kanji"
+        ? await getKanjiLearningState(supabase, userId, studyDay, content)
       : await getCompletionItemsState(supabase, userId, type, studyDay, content);
 
   if (!userState) return { state: "database_error" };

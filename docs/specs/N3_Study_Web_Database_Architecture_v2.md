@@ -1,7 +1,11 @@
 # N3 Study Web — Database & System Architecture
 
-**Status:** Locked baseline before implementation  
-**Updated:** 2026-08-29
+**Status:** Canonical architecture aligned with content specification v1.3
+**Updated:** 2026-08-31
+
+Specification v1.3 changes authoring and Kanji learning semantics while runtime
+`schema_version` remains `1`. Legacy JSON and persisted legacy Kanji learning-set rows are
+retained for compatibility; they are not the source of truth for new Kanji reads.
 
 ## Architecture principle
 
@@ -234,24 +238,39 @@ Fields:
 Vocabulary:
 - pool up to 100
 - active target 50
+- JSON order is priority order
+- Known removes the active item and promotes the next eligible same-day Reserve item
 
 Kanji:
-- pool up to 100
-- active target 30
+- source-exhaustive: current source IDs are the complete assigned Kanji set
+- no fixed target and no Reserve
+- Known removes only the Known ID from the derived active set
 
 First access:
-pool
+Vocabulary pool
 → remove Known
-→ take target count
-→ freeze active IDs
+→ rank in JSON order
+→ take first 50 Active and next 50 Reserve
+→ freeze the Vocabulary active IDs
 
-Known during session:
+Vocabulary Known during session:
 insert Known
 → remove active ID
 → append next reserve ID
 → update frozen set
 
-Never borrow from another Study Day.
+Kanji ensure/read:
+current source IDs
+→ subtract Known IDs
+→ return the derived active IDs
+
+Kanji Known writes only `known_items`; it does not read, update, or regenerate
+`learning_sets`, and it does not call the replacement RPC. Never borrow from another Study
+Day or future lesson.
+
+Legacy Kanji `learning_sets` rows are not migrated or deleted. The historical SQL table may
+still constrain persisted Kanji arrays to 30 items, but that physical constraint is not part
+of canonical Kanji learning semantics because the new runtime ignores those rows.
 
 ## test_results
 
@@ -383,10 +402,9 @@ Validate:
 - Study Day range
 - duplicate IDs
 - published ID stability
-- Vocabulary pool <= 100
-- Vocabulary target = 50
-- Kanji pool <= 100
-- Kanji target = 30
+- Vocabulary pool <= 100 and target = 50
+- Kanji required fields and optional-field structure
+- Kanji source-exhaustive coverage; no target or pool quota
 - Grammar Test = 25 Grammar questions
 - Grammar Test = 5 lessons × 5 questions
 - Grammar Test section max score = 25

@@ -1,6 +1,10 @@
 # MASTER PROMPT — CODEX BOOTSTRAP N3 STUDY WEB
 
-> Historical bootstrap record. It is not a current source-of-truth document. The active v1.1 contracts in `docs/specs/` add Grammar Test; always follow those specifications instead of the enum/folder examples retained here.
+> Historical bootstrap record. It is not a current source-of-truth document. The active
+> FE/BE contract remains v1.1 and the canonical content specification is now v1.3; always
+> follow the current `docs/specs/` documents instead of the enum/folder examples retained
+> here. v1.3 keeps runtime `schema_version: 1`, makes Vocabulary source-bounded with
+> same-day replacement, and makes Kanji source-exhaustive with Known remove-only.
 
 Bạn là **Codex**, phụ trách bootstrap repository và nền tảng backend cho dự án cá nhân **N3 Study Web**.
 

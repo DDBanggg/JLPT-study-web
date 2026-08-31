@@ -1,7 +1,12 @@
 # N3 Study Web — Implementation Plan
 
-**Status:** Ready for agent handoff planning  
-**Updated:** 2026-08-29
+**Status:** Historical implementation plan; current semantics superseded by content specification v1.3
+**Updated:** 2026-08-31
+
+> Superseded note: this plan preserves the original sequencing and ownership guidance.
+> Current Vocabulary/Kanji behavior is defined by the v1.3 JSON Schema, FE/BE Contract,
+> and Database Architecture: Vocabulary uses persisted same-day replacement; Kanji is
+> source-exhaustive with Known remove-only and no Reserve.
 
 ## Delivery strategy
 

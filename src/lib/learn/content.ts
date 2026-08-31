@@ -49,6 +49,52 @@ function isVocabularyItem(value: unknown): boolean {
     (!Object.hasOwn(value, "surface") || isNonEmptyString(value.surface));
 }
 
+function isNonEmptyStringArrayField(value: Record<string, unknown>, field: string): boolean {
+  return !Object.hasOwn(value, field) ||
+    (Array.isArray(value[field]) && value[field].every(isNonEmptyString));
+}
+
+function isKanjiCompound(value: unknown): boolean {
+  return isRecord(value) &&
+    isNonEmptyString(value.word) &&
+    isNonEmptyString(value.reading) &&
+    isNonEmptyString(value.meaning_vi);
+}
+
+function isKanjiExample(value: unknown): boolean {
+  return isRecord(value) &&
+    isNonEmptyString(value.jp) &&
+    isNonEmptyString(value.reading) &&
+    isNonEmptyString(value.vi);
+}
+
+function isKanjiItem(value: unknown): boolean {
+  if (!isRecord(value)) return false;
+  if (
+    !Number.isInteger(value.id) ||
+    (value.id as number) < 1 ||
+    !isNonEmptyString(value.kanji) ||
+    !isNonEmptyString(value.han_viet) ||
+    !isNonEmptyString(value.meaning_vi) ||
+    !isNonEmptyStringArrayField(value, "onyomi") ||
+    !isNonEmptyStringArrayField(value, "kunyomi") ||
+    !isNonEmptyStringArrayField(value, "notes_vi") ||
+    (Object.hasOwn(value, "source_ref") && !isNonEmptyString(value.source_ref))
+  ) {
+    return false;
+  }
+
+  if (Object.hasOwn(value, "compounds") &&
+      (!Array.isArray(value.compounds) || !value.compounds.every(isKanjiCompound))) {
+    return false;
+  }
+  if (Object.hasOwn(value, "examples") &&
+      (!Array.isArray(value.examples) || !value.examples.every(isKanjiExample))) {
+    return false;
+  }
+  return true;
+}
+
 function isQuestionOption(value: unknown): value is { id: string; text: string } {
   return isRecord(value) && isNonEmptyString(value.id) && isNonEmptyString(value.text);
 }
@@ -135,6 +181,7 @@ function isLearnDocument(
     return false;
   }
   if (type === "vocabulary" && !value.items.every(isVocabularyItem)) return false;
+  if (type === "kanji" && !value.items.every(isKanjiItem)) return false;
   if (type === "reading" && !value.items.every(isReadingItem)) return false;
   return true;
 }

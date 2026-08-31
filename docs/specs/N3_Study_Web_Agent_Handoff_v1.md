@@ -1,7 +1,12 @@
 # N3 Study Web — Agent Handoff & Task Split v1.2
 
-**Status:** Ready for execution  
-**Date:** 2026-08-29
+**Status:** Historical handoff record; execution semantics superseded by content specification v1.3
+**Date:** 2026-08-31
+
+> Superseded note: this handoff preserves the original task split and checkpoint history.
+> For current learning semantics, Vocabulary remains persisted/frozen with same-day
+> replacement, while Kanji is source-exhaustive and Known is remove-only; follow the v1.3
+> JSON Schema, FE/BE Contract, and Database Architecture documents.
 
 This document defines how work is split between:
 

@@ -73,6 +73,85 @@ describe("content validation foundation", () => {
     }
   });
 
+  it.each([
+    ["canonical fields", kanjiItem()],
+    ["valid optional fields", kanjiItem({
+      onyomi: [],
+      kunyomi: [],
+      compounds: [{ word: "学校", reading: "がっこう", meaning_vi: "trường học" }],
+      examples: [{ jp: "学校です。", reading: "がっこうです。", vi: "Là trường học." }],
+      notes_vi: [],
+      source_ref: "Assigned source",
+    })],
+    ["legacy quota fields", kanjiItem({ target: 30, pool_size: 999 })],
+  ])("accepts Kanji with %s", async (_label, item) => {
+    const errors = await validateTemporaryDocument({
+      schema_version: 1,
+      id: "kanji-day-002",
+      study_day: 2,
+      items: [item],
+    }, "n3-kanji-valid-");
+    expect(errors).toEqual([]);
+  });
+
+  it.each([
+    ["duplicate IDs", [kanjiItem(), kanjiItem()], "duplicate item id"],
+    ["non-positive ID", [kanjiItem({ id: 0 })], "id must be a positive integer"],
+    ["non-integer ID", [kanjiItem({ id: 201.5 })], "id must be a positive integer"],
+    ["missing kanji", [kanjiItem({ kanji: undefined })], "kanji must be a non-empty string"],
+    ["empty kanji", [kanjiItem({ kanji: "" })], "kanji must be a non-empty string"],
+    ["missing han_viet", [kanjiItem({ han_viet: undefined })], "han_viet must be a non-empty string"],
+    ["empty han_viet", [kanjiItem({ han_viet: "" })], "han_viet must be a non-empty string"],
+    ["missing meaning_vi", [kanjiItem({ meaning_vi: undefined })], "meaning_vi must be a non-empty string"],
+    ["empty meaning_vi", [kanjiItem({ meaning_vi: "" })], "meaning_vi must be a non-empty string"],
+    ["malformed onyomi", [kanjiItem({ onyomi: ["", 1] })], "onyomi must be an array of non-empty strings"],
+    ["malformed kunyomi", [kanjiItem({ kunyomi: "まなぶ" })], "kunyomi must be an array of non-empty strings"],
+    ["malformed compound", [kanjiItem({ compounds: [{ word: "学校" }] })], "compound 0 requires"],
+    ["malformed example", [kanjiItem({ examples: [{ jp: "学校です。" }] })], "example 0 requires"],
+    ["malformed notes_vi", [kanjiItem({ notes_vi: ["", 1] })], "notes_vi must be an array of non-empty strings"],
+    ["empty source_ref", [kanjiItem({ source_ref: "  " })], "source_ref must be a non-empty string"],
+  ])("rejects Kanji with %s", async (_label, items, expectedError) => {
+    const errors = await validateTemporaryDocument({
+      schema_version: 1,
+      id: "kanji-day-002",
+      study_day: 2,
+      items,
+    }, "n3-kanji-invalid-");
+    expect(errors.some((error) => error.includes(expectedError as string))).toBe(true);
+  });
+
+  it.each([
+    ["missing target", { pool_size: 1 }],
+    ["wrong target", { target: 30, pool_size: 1 }],
+    ["missing pool_size", { target: 50 }],
+    ["wrong pool_size", { target: 50, pool_size: 2 }],
+  ])("keeps Vocabulary quota validation for %s", async (_label, metadata) => {
+    const errors = await validateTemporaryDocument({
+      schema_version: 1,
+      id: "vocabulary-day-002",
+      study_day: 2,
+      ...metadata,
+      items: [{ id: 201, hiragana: "がっこう", kanji: "学校" }],
+    }, "n3-vocabulary-quota-");
+    expect(errors.length).toBeGreaterThan(0);
+  });
+
+  it("rejects Vocabulary pools larger than 100", async () => {
+    const errors = await validateTemporaryDocument({
+      schema_version: 1,
+      id: "vocabulary-day-002",
+      study_day: 2,
+      target: 50,
+      pool_size: 101,
+      items: Array.from({ length: 101 }, (_, index) => ({
+        id: index + 1,
+        hiragana: "がっこう",
+        kanji: "学校",
+      })),
+    }, "n3-vocabulary-large-");
+    expect(errors.some((error) => error.includes("vocabulary pool cannot exceed 100 items"))).toBe(true);
+  });
+
   it("accepts every Reading v1.2 question type, legacy MCQ, and questions:null", async () => {
     const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-reading-types-"));
     const document = readingDocument([
@@ -127,6 +206,26 @@ describe("content validation foundation", () => {
     }
   });
 });
+
+async function validateTemporaryDocument(document: unknown, prefix: string): Promise<string[]> {
+  const contentRoot = await mkdtemp(path.join(tmpdir(), prefix));
+  try {
+    await writeFile(path.join(contentRoot, "content.json"), JSON.stringify(document));
+    return (await validateContentRoot(contentRoot)).errors;
+  } finally {
+    await rm(contentRoot, { recursive: true, force: true });
+  }
+}
+
+function kanjiItem(overrides: Record<string, unknown> = {}) {
+  return {
+    id: 201,
+    kanji: "学",
+    han_viet: "HỌC",
+    meaning_vi: "học",
+    ...overrides,
+  };
+}
 
 function legacyMcq(id = "legacy") {
   return {

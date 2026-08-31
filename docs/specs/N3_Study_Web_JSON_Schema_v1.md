@@ -1,9 +1,9 @@
-# N3 Study Web — Canonical Content JSON Schema v1.2
+# N3 Study Web — Canonical Content JSON Schema v1.3
 
-**Status:** Runtime schema v1 frozen; specification v1.2
-**Specification version:** 1.2
+**Status:** Runtime schema v1 frozen; specification v1.3
+**Specification version:** 1.3
 **Runtime `schema_version`:** 1
-**Date:** 2026-08-30
+**Date:** 2026-08-31
 
 All published study-content files must contain:
 
@@ -13,7 +13,7 @@ All published study-content files must contain:
 
 Static content uses UTF-8 JSON. Published IDs are immutable.
 
-Specification v1.2 is designed to remain backward-compatible with published v1.1 JSON. It adds authoring fields and question variants without changing the runtime version. Where this document defines a legacy fallback, existing JSON may remain unchanged until an explicitly approved migration.
+Specification v1.3 changes authoring and Kanji learning semantics while remaining on runtime `schema_version: 1`. It remains backward-compatible with published v1.1/v1.2 JSON where legacy fallbacks are documented. Existing JSON may remain unchanged until an explicitly approved content migration; no runtime schema-version bump is required.
 
 ## 1. Shared ID rules
 
@@ -178,8 +178,8 @@ Rules:
 - `hiragana` is the pronunciation/reading written in hiragana, including for Katakana words.
 - `kanji` contains the Kanji spelling only when one exists; otherwise it is `null`.
 - Never store Katakana in `kanji`.
-- New v1.2 content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
-- Consumers implementing v1.2 always prefer `surface` and use `surface ?? kanji ?? hiragana` as the legacy-compatible display resolution rule.
+- New v1.3 content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
+- Consumers implementing v1.3 always prefer `surface` and use `surface ?? kanji ?? hiragana` as the legacy-compatible display resolution rule.
 - Display `hiragana` separately only when `hiragana !== surface`; do not render duplicate labels such as `あげます / あげます`.
 - Runtime/UI support must be updated before relying on `surface` to preserve a Katakana spelling.
 - Existing `hiragana` and `kanji` fields remain part of the schema; do not remove them during migration.
@@ -195,6 +195,26 @@ Canonical forms:
 ]
 ```
 
+### Canonical Vocabulary active-selection policy
+
+Vocabulary is source-bounded, priority-ranked, and quota-based:
+
+1. Extract every eligible vocabulary item from the assigned lessons; the assigned source is the hard boundary.
+2. Rank eligible items. JSON order is the priority order, and no `priority_score` field is published.
+3. Publish up to 100 ranked items. The first 50 are Active and the next 50 are same-day Reserve.
+4. If fewer than 50 eligible items exist, publish all eligible items and allow the active count to remain below 50; never supplement externally.
+5. When a Known Active item is removed, promote the next eligible same-day Reserve item when one exists. Never borrow from another Study Day, a future lesson, or an invented source.
+
+Rank in this order: core lesson vocabulary; recurrence in assigned-lesson patterns, examples, dialogues, readings/text, and exercises; daily usefulness; current-level relevance; and context reusability. Lower priority may be assigned to proper names, narrow place names, specialized objects, rare cultural terms, and one-off notes/exercise-only words, but lower priority does not remove a canonical source item.
+
+Tie-break in this order: core source item, higher recurrence, daily usefulness, reusability, then original source order. An optional authoring-only heuristic may use `source_core (0–4)`, `lesson_recurrence (0–3)`, `daily_utility (0–3)`, `level_relevance (0–2)`, `context_reusability (0–2)`, and `specialized_penalty (0–2)`. This heuristic is never emitted as `priority_score` in production JSON.
+
+Every assigned lesson containing canonical core vocabulary should have reasonable representation in the published pool; equal per-lesson quotas are not required.
+
+Do not let an external frequency list override the assigned source, import future-lesson or
+invented vocabulary, change canonical spelling based on popularity, or arbitrarily drop a
+canonical source item.
+
 ## 5. Kanji
 
 File: `content/kanji/day-015.json`
@@ -204,8 +224,6 @@ File: `content/kanji/day-015.json`
   "schema_version": 1,
   "id": "kanji-day-015",
   "study_day": 15,
-  "target": 30,
-  "pool_size": 100,
   "items": [
     {
       "id": 1501,
@@ -232,15 +250,20 @@ File: `content/kanji/day-015.json`
 ```
 
 Rules:
-- `target = 30`.
-- `items.length <= 100`.
-- `pool_size = items.length`.
-- Item order is priority order.
-- `source_ref` is optional.
-- Item selection must follow the assigned Study Day source.
-- `onyomi` and `kunyomi` prioritize readings taught by the current N5/N4 source or used by Vocabulary/compounds in the current phase.
+- Every Study Day publishes all canonical Kanji taught by its assigned lessons; there is no fixed quota, reserve, or supplementation from another lesson/day.
+- `items` is a non-empty array. Item order follows the canonical source order.
+- Each item requires `id` (positive integer), `kanji`, `han_viet`, and `meaning_vi` as non-empty strings.
+- Optional `onyomi`, `kunyomi`, and `notes_vi` fields are arrays of non-empty strings; empty arrays are allowed.
+- Optional `compounds` entries require `word`, `reading`, and `meaning_vi`.
+- Optional `examples` entries require `jp`, `reading`, and `vi`.
+- Optional `source_ref` is a non-empty traceability string.
+- `onyomi` and `kunyomi` prioritize readings taught by the assigned/current N5/N4 source or used by Vocabulary/compounds in the current phase.
 - Do not expand an item with all dictionary readings when the assigned source does not teach them.
 - A later N3 phase may publish additional readings in its own content context, but must not mutate an already-published item in a way that changes its learned identity or breaks stable-content invariants.
+
+For the learning runtime, Kanji is source-exhaustive: active IDs are the current source IDs minus the user's Known IDs. A Known Kanji is removed only; it is never replaced and no target is restored.
+
+Legacy `target: 30` and `pool_size` fields may remain in historical JSON as tolerated metadata, but have no Kanji runtime semantics and are not required in new v1.3 JSON.
 
 ## 6. Reading
 
@@ -295,7 +318,7 @@ short_answer
 matching
 ```
 
-New v1.2 Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
+New v1.3 Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
 
 The Reading runtime, validator, and UI support `mcq`, `true_false`, `short_answer`,
 and `matching`. Legacy questions without `question_type` remain MCQ. Preserve the
@@ -623,7 +646,7 @@ Schema validation checks machine-readable structure and referential integrity. T
 - JSON parsing and `schema_version = 1`;
 - required fields and field types for each resource/question variant;
 - Study Day range, IDs, uniqueness, and references;
-- Vocabulary/Kanji targets, pool sizes, and counts;
+- Vocabulary target/pool rules and Kanji structural fields/exhaustive source coverage;
 - Grammar/Daily Test question totals and lesson/category grouping;
 - option IDs and existence of `correct_option_id` for MCQ;
 - type-specific Reading answer fields and deterministic Matching pairs;
@@ -633,8 +656,8 @@ Schema validation checks machine-readable structure and referential integrity. T
 The current `npm run validate-content` implementation covers JSON parsing, runtime
 schema version, Study Day range when present, roadmap day/task uniqueness and task
 types, item-ID uniqueness, Vocabulary `surface`/`hiragana`/`kanji` compatibility,
-Vocabulary/Kanji target and pool counts, all four Reading question variants and their
-answer references, test/question-ID uniqueness, Grammar Test
+Vocabulary target/pool counts, Kanji required/optional field structure, all four Reading
+question variants and their answer references, test/question-ID uniqueness, Grammar Test
 structure/count/grouping/coverage, and Daily Test section/total counts. Other bullets
 above remain **specification requirements / future validator requirements** until
 implemented in validator code.

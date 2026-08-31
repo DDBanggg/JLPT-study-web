@@ -2,7 +2,10 @@
 
 **Phase:** `n5_review`
 **Status:** Source responsibility and confirmed roadmap mapping
-**Date:** 2026-08-30
+**Date:** 2026-08-31
+
+Content selection follows JSON Schema specification v1.3. Runtime `schema_version` remains
+`1`; this manifest records source responsibility and lesson boundaries only.
 
 ## Purpose
 
@@ -34,7 +37,9 @@ Grammar items follow the assigned lesson range. The supporting source may supply
 ### Vocabulary
 
 - Select vocabulary and expressions belonging to the assigned lesson range from the designated N5 sources.
-- Prioritize important/new items in source order or pedagogical importance.
+- Rank eligible items by the canonical Vocabulary Active Selection Policy: core lesson vocabulary, assigned-lesson recurrence, daily usefulness, current-level relevance, and context reusability.
+- JSON order is the priority order. Publish up to 100 items: first 50 Active, next 50 same-day Reserve when available.
+- If fewer than 50 eligible items exist, publish all eligible items; never supplement from another Study Day or future lesson.
 - Do not pull Vocabulary from a future Study Day merely to reach target or pool quota.
 - Preserve original spelling through `surface`, including Katakana; keep `hiragana` as reading and `kanji` only for a Kanji spelling.
 
@@ -48,7 +53,7 @@ Supporting:
 
 - Bài tập chữ Hán — Tập 1
 
-Kanji selection and readings follow the assigned source range. Onyomi/Kunyomi prioritize what the N5 source teaches or what appears in current-phase Vocabulary/compounds; do not expand to all dictionary readings.
+Publish every canonical Kanji taught by the assigned lesson range; Kanji is source-exhaustive and has no fixed target or Reserve. Onyomi/Kunyomi prioritize what the N5 source teaches or what appears in current-phase Vocabulary/compounds; do not expand to all dictionary readings.
 
 ### Reading
 
@@ -90,12 +95,12 @@ Content items may record a human-readable `source_ref`, for example:
 {"source_ref":"25 Bài đọc hiểu sơ cấp — Reading 8"}
 ```
 
-New Grammar Test and Daily Test questions should also use canonical `source_item_refs` from JSON Schema v1.2 so test coverage can be audited against the actual same-day or previous-day items.
+New Grammar Test and Daily Test questions should also use canonical `source_item_refs` from JSON Schema v1.3 so test coverage can be audited against the actual same-day or previous-day items.
 
 ## Publication boundaries
 
 - JSON remains the only committed per-day content representation.
 - This manifest records source responsibility, not extracted lesson content.
 - Published IDs remain immutable.
-- Vocabulary target/pool, Kanji target/pool, Grammar Test, and Daily Test counts remain unchanged.
+- Vocabulary target/pool semantics remain `target = 50`, pool `<= 100`; Kanji publishes all canonical source items without target/pool semantics.
 - If a source question type is unsupported, stop publication and update the specification before producing altered JSON.

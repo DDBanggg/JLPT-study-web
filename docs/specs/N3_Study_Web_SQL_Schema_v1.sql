@@ -1,7 +1,14 @@
--- N3 Study Web — SQL Schema v1.1
+-- N3 Study Web — SQL Schema v1.1 (historical physical schema)
 -- Status: Frozen for first desktop implementation
--- Date: 2026-08-29
+-- Date: 2026-08-31
 -- Target: Supabase PostgreSQL
+--
+-- Content specification v1.3 changes authoring and Kanji learning semantics while
+-- runtime schema_version remains 1. The legacy learning_sets table and RPC below are
+-- intentionally unchanged: Vocabulary still uses persisted frozen sets and replacement;
+-- the Kanji runtime derives source IDs minus Known IDs and ignores persisted Kanji rows.
+-- The later API-only migration owns the deployed RPC signature and server-only write
+-- policies; this file preserves the original schema history rather than rewriting it.
 
 create extension if not exists pgcrypto;
 
@@ -102,6 +109,8 @@ create table if not exists public.learning_sets (
   constraint learning_sets_max_size_check check (
     (item_type = 'vocabulary' and cardinality(item_ids) <= 50)
     or
+    -- Historical physical limit retained for legacy Kanji rows; it is not canonical
+    -- Kanji learning semantics because the current Kanji runtime does not use this table.
     (item_type = 'kanji' and cardinality(item_ids) <= 30)
   )
 );
@@ -204,8 +213,9 @@ create policy test_results_own_rows on public.test_results
 for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
 
 -- ============================================================
--- RPC: Known + replacement as one DB operation.
--- Backend still validates the replacement against authoritative JSON.
+-- RPC: Legacy Vocabulary Known + replacement as one DB operation.
+-- Backend still validates the replacement against authoritative JSON. Kanji does not call
+-- this RPC; its Known mutation writes known_items only.
 -- ============================================================
 create or replace function public.mark_known_and_replace(
   p_program_id text,

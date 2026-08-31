@@ -3,7 +3,11 @@
 **Status:** Operational guide
 **Purpose:** Hướng dẫn chuẩn bị nội dung học theo từng Study Day và chuyển thành JSON dùng cho website.
 **Applies to:** Grammar, Grammar Test, Vocabulary, Kanji, Reading, Listening, Daily/Weekly/Monthly/End/Mock Tests.
-**Updated:** 2026-08-30
+**Updated:** 2026-08-31
+
+The canonical content specification is v1.3. It changes authoring and Kanji learning
+semantics while runtime `schema_version` remains `1`; legacy JSON compatibility remains
+supported where the schema documents it.
 
 ---
 
@@ -41,9 +45,15 @@ Tài liệu nguồn
 ↓
 ChatGPT / content preparation
 ↓
+extract canonical lesson material
+↓
+apply type-specific selection policy
+↓
 JSON production trực tiếp
 ↓
 validate
+↓
+review
 ↓
 commit
 ↓
@@ -329,7 +339,8 @@ Pool tối đa:
 
 Known item không tính vào 50.
 
-Website sẽ tự lấy reserve item từ cùng pool.
+Website giữ `learning_sets` đã đóng băng làm nguồn Active và tự lấy Reserve item cùng
+pool khi một Active item được đánh dấu Known.
 
 ## Thứ tự pool
 
@@ -384,9 +395,11 @@ Ví dụ:
 
 - target = 50;
 - pool <= 100;
-- ưu tiên từ quan trọng trước;
-- không kéo từ Day khác chỉ để đủ quota;
-- Known replacement chỉ lấy trong cùng pool.
+- thứ tự JSON là thứ tự ưu tiên;
+- Known replacement chỉ lấy trong cùng Study Day và cùng pool;
+- không kéo từ Day khác, lesson tương lai hoặc nguồn bên ngoài chỉ để đủ quota;
+- nếu số item eligible < 50 thì publish toàn bộ eligible items và active count có thể thấp hơn 50;
+- nếu số item eligible > 100 thì publish top 100 theo thứ tự ưu tiên, gồm 50 Active và 50 Reserve.
 - `surface` là dạng hiển thị canonical/dạng viết chuẩn cần học;
 - `hiragana` là pronunciation/reading bằng hiragana;
 - `kanji` chỉ chứa dạng Kanji khi có, không chứa Katakana;
@@ -395,6 +408,24 @@ Ví dụ:
 - chỉ hiển thị `hiragana` riêng khi `hiragana !== surface`, tránh dạng lặp như `あげます / あげます`;
 - không xóa `hiragana` hoặc `kanji` để giữ backward compatibility;
 - `source_ref` là optional.
+
+### Canonical Active Selection Policy
+
+1. Trích xuất toàn bộ Vocabulary eligible từ các lesson được assign; assigned source là hard boundary.
+2. Xếp hạng theo mức độ quan trọng. Thứ tự trong JSON chính là priority order; không xuất bản `priority_score`.
+3. Ưu tiên theo thứ tự: core lesson vocabulary; mức lặp lại trong pattern sentences, examples, dialogues, readings/text và exercises; daily usefulness; current-level relevance; context reusability.
+4. Proper names, narrow place names, specialized objects, rare cultural terms và one-off notes/exercise-only words có thể thấp priority hơn, nhưng không được tự ý loại khỏi source; nếu còn capacity thì giữ trong Reserve.
+5. Tie-break: core source item, recurrence cao hơn, daily usefulness, reusability, rồi original source order.
+6. Mọi assigned lesson có canonical core vocabulary phải có representation hợp lý trong published pool; không ép equal quota cho từng lesson.
+
+Không dùng external frequency list để override assigned source, không lấy Vocabulary của
+lesson tương lai, không invent item, không đổi canonical spelling theo độ phổ biến và không
+tự ý loại canonical source item.
+
+Có thể dùng heuristic authoring-only (`source_core 0–4`, `lesson_recurrence 0–3`,
+`daily_utility 0–3`, `level_relevance 0–2`, `context_reusability 0–2`,
+`specialized_penalty 0–2`), nhưng `priority_score` không bao giờ được xuất hiện trong
+production JSON.
 
 Ví dụ spelling:
 
@@ -412,17 +443,22 @@ Ví dụ spelling:
 
 ## Mục tiêu
 
-Active target:
+Kanji is source-exhaustive for each Study Day:
 
 ```text
-30 Kanji / Study Day
+assigned lessons → inspect canonical Kanji source → publish every canonical Kanji taught
 ```
 
-Pool tối đa:
+Examples:
 
 ```text
-100 Kanji
+source has 27 → publish 27
+source has 33 → publish 33
+source has 36 → publish 36
 ```
+
+Không có fixed target, reserve hoặc supplementation để đưa số lượng về 30. Không kéo
+Kanji của lesson tương lai. Known chỉ remove khỏi active list.
 
 ## Mỗi item nên có
 
@@ -464,15 +500,21 @@ Ví dụ:
 
 ## Rule
 
-- target = 30;
-- pool <= 100;
-- thứ tự JSON = priority;
-- Known replacement chỉ từ cùng Day.
-- item selection phải bám source của Study Day;
+- `items` là non-empty array chứa toàn bộ canonical Kanji của assigned lessons;
+- mỗi item bắt buộc có `id` là positive integer, `kanji`, `han_viet`, `meaning_vi` là non-empty strings;
+- `onyomi`, `kunyomi`, `notes_vi` nếu có phải là arrays của non-empty strings; empty arrays được phép;
+- `compounds` nếu có phải gồm `word`, `reading`, `meaning_vi`; `examples` nếu có phải gồm `jp`, `reading`, `vi`;
+- `source_ref` nếu có phải là non-empty string;
+- item order giữ theo canonical source order;
+- item selection phải bám source của Study Day và publish tất cả canonical Kanji được dạy;
 - Onyomi/Kunyomi ưu tiên readings được source N5/N4 dạy hoặc xuất hiện trong Vocabulary/compound của phase hiện tại;
 - không tự mở rộng toàn bộ dictionary readings nếu source hiện tại không dạy;
 - N3 phase sau này có thể bổ sung readings trong context mới, nhưng không được mutate published item theo cách phá stable-content invariants;
 - `source_ref` là optional.
+
+Legacy JSON có thể còn `target: 30` hoặc `pool_size`; validator/runtime mới tolerate các
+field metadata này nhưng không gán cho chúng Kanji runtime semantics. Tuyệt đối không
+tạo Kanji reserve trong content mới.
 
 ---
 
@@ -525,7 +567,7 @@ short_answer
 matching
 ```
 
-Content mới phải khai báo `question_type`; câu hỏi cũ thiếu field này được hiểu là `mcq`. Field đáp án theo từng type được định nghĩa trong JSON Schema v1.2.
+Content mới phải khai báo `question_type`; câu hỏi cũ thiếu field này được hiểu là `mcq`. Field đáp án theo từng type được định nghĩa trong JSON Schema v1.3.
 
 Reading runtime, validator và UI hỗ trợ đầy đủ `mcq`, `true_false`, `short_answer`
 và `matching`. Câu hỏi legacy thiếu `question_type` vẫn được hiểu là `mcq`. Giữ
@@ -629,7 +671,7 @@ Không cần hỏi toàn bộ item.
 
 Không dùng Weak Items.
 
-Với content mới, mỗi Test Question nên có `source_item_refs` trỏ tới item Day X-1 theo format canonical trong JSON Schema v1.2. Field này giúp validator tương lai kiểm tra coverage thực tế thay vì chỉ đọc `coverage.from_day/to_day`.
+Với content mới, mỗi Test Question nên có `source_item_refs` trỏ tới item Day X-1 theo format canonical trong JSON Schema v1.3. Field này giúp validator tương lai kiểm tra coverage thực tế thay vì chỉ đọc `coverage.from_day/to_day`.
 
 ---
 
@@ -753,7 +795,7 @@ Không tự ý:
 - renumber ID;
 - đổi ID hàng loạt;
 - thay item thành kiến thức khác;
-- regenerate frozen Vocabulary/Kanji learning set;
+- regenerate a frozen Vocabulary learning set;
 - xóa item đang được DB tham chiếu.
 
 ---
@@ -799,7 +841,7 @@ Quy trình đề xuất:
 7. Tạo trực tiếp Grammar JSON
 8. Tạo Grammar Test JSON cùng ngày
 9. Tạo Vocabulary JSON
-10. Tạo Kanji JSON
+10. Tạo Kanji JSON theo chính sách source-exhaustive (không tạo reserve)
 11. Tạo Reading JSON
 12. Tạo Listening JSON
 13. Tạo Daily Test ngày kế tiếp
@@ -857,7 +899,7 @@ Lesson 41–45 → day-009.json
 Lesson 46–50 → day-010.json
 ```
 
-Không tạo một JSON duy nhất cho toàn bộ N5/N4. Mỗi file vẫn tuân theo roadmap resource ID, Study Day namespace, quota và publication invariants hiện tại.
+Không tạo một JSON duy nhất cho toàn bộ N5/N4. Mỗi file vẫn tuân theo roadmap resource ID, Study Day namespace, type-specific selection policy và publication invariants hiện tại.
 
 ### Grammar Test dependency
 
@@ -1017,7 +1059,7 @@ schema_version = 1
 Study Day range khi field tồn tại
 roadmap Day/task uniqueness và allowed task type
 duplicate item/question ID trong scope validator
-Vocabulary/Kanji target, pool_size và pool limit
+Vocabulary target/pool rules và Kanji required/optional field structure
 Vocabulary surface/hiragana/kanji compatibility
 Reading mcq/true_false/short_answer/matching structure và answer references
 Grammar Test section/count/category/coverage/lesson_groups
@@ -1100,7 +1142,7 @@ A Study Day content package is ready when:
 ✓ Grammar complete
 ✓ Grammar Test complete — 25 same-day questions
 ✓ Vocabulary pool complete
-✓ Kanji pool complete
+✓ Kanji source-exhaustive coverage complete
 ✓ Reading complete
 ✓ Listening complete
 ✓ next Daily Test complete
@@ -1137,7 +1179,7 @@ This guide defines the **workflow**.
 
 The JSON Schema defines the **technical data format**.
 
-The guide defines the creation process. JSON Schema specification v1.2 is authoritative for field names and runtime structure; runtime `schema_version` remains `1`.
+The guide defines the creation process. JSON Schema specification v1.3 is authoritative for field names and type-specific learning semantics; runtime `schema_version` remains `1`.
 
 Canonical flow:
 

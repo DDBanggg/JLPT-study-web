@@ -67,7 +67,7 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
     },
   ];
 
-  it("marks kanji known and updates active set with replacement immediately", async () => {
+  it("marks kanji known and removes only the confirmed item", async () => {
     let capturedBody: unknown = null;
 
     global.fetch = vi.fn().mockImplementation((url: string, init?: RequestInit) => {
@@ -79,11 +79,6 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
             ok: true,
             data: {
               marked_known: 201,
-              replacement_item_id: 203,
-              learning_set_ids: [202, 203],
-              active_count: 2,
-              target: 2,
-              pool_exhausted: false,
             },
           }),
         } as Response);
@@ -95,14 +90,14 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
       <KanjiTable
         studyDay={2}
         allItems={mockKanjiItems}
-        learningSetIds={[201, 202]}
+        learningSetIds={[201, 202, 203]}
       />
     );
 
     // Initial items rendered
-    expect(screen.getAllByText("高").length).toBeGreaterThan(0);
-    expect(screen.getAllByText("安").length).toBeGreaterThan(0);
-    expect(screen.queryByText("新")).toBeNull();
+    expect(screen.getByTestId("kanji-row-201")).toBeDefined();
+    expect(screen.getByTestId("kanji-row-202")).toBeDefined();
+    expect(screen.getByTestId("kanji-row-203")).toBeDefined();
 
     // Click "Đã biết" for first item
     const knownButtons = screen.getAllByRole("button", { name: "Đã biết" });
@@ -112,9 +107,14 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
     await waitFor(() => {
       expect(screen.getByText("Đánh dấu chữ Hán đã biết?")).toBeDefined();
     });
+    const dialogText = screen.getByRole("dialog").textContent ?? "";
+    expect(dialogText).toContain(
+      'Bạn có chắc muốn đánh dấu chữ Hán "高" (CAO) là đã biết? Chữ này sẽ được loại khỏi danh sách cần học.'
+    );
+    expect(dialogText).not.toMatch(/thay thế|replacement|reserve|kho bài học|kho dự phòng|duy trì 30/i);
 
     // Confirm marking known
-    const confirmBtn = screen.getByRole("button", { name: "Đã biết & Thay thế" });
+    const confirmBtn = screen.getByRole("button", { name: "Đánh dấu đã biết" });
     await userEvent.click(confirmBtn);
 
     // Verify API payload
@@ -126,10 +126,48 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
       });
     });
 
-    // Replacement item (203 - 新) should appear immediately
+    // Only the confirmed item is removed; existing active items preserve their order.
     await waitFor(() => {
-      expect(screen.getAllByText("新").length).toBeGreaterThan(0);
-      expect(screen.queryByText("CAO")).toBeNull();
+      expect(screen.queryByTestId("kanji-row-201")).toBeNull();
+      expect(screen.getByTestId("kanji-row-202")).toBeDefined();
+      expect(screen.getByTestId("kanji-row-203")).toBeDefined();
+      expect(screen.queryAllByTestId(/^kanji-row-/)).toHaveLength(2);
+    });
+  });
+
+  it("shows the empty state when the final active Kanji is marked known", async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      status: 200,
+      json: async () => ({ ok: true, data: { marked_known: 201 } }),
+    } as Response);
+
+    render(<KanjiTable studyDay={2} allItems={mockKanjiItems} learningSetIds={[201]} />);
+
+    await userEvent.click(screen.getAllByRole("button", { name: "Đã biết" })[0]);
+    await userEvent.click(screen.getByRole("button", { name: "Đánh dấu đã biết" }));
+
+    await waitFor(() => {
+      expect(screen.queryByTestId("kanji-row-201")).toBeNull();
+      expect(screen.getAllByText("Không có chữ Hán nào trong danh sách.").length).toBeGreaterThan(0);
+    });
+  });
+
+  it("rejects a successful response without a valid marked_known id", async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      status: 200,
+      json: async () => ({ ok: true, data: {} }),
+    } as Response);
+
+    render(<KanjiTable studyDay={2} allItems={mockKanjiItems} learningSetIds={[201, 202]} />);
+
+    await userEvent.click(screen.getAllByRole("button", { name: "Đã biết" })[0]);
+    await userEvent.click(screen.getByRole("button", { name: "Đánh dấu đã biết" }));
+
+    await waitFor(() => {
+      expect(screen.getByTestId("kanji-row-201")).toBeDefined();
+      expect(screen.getByRole("alert").textContent).toContain(
+        "Phản hồi máy chủ không hợp lệ khi cập nhật chữ Hán đã biết."
+      );
     });
   });
 
@@ -152,5 +190,24 @@ describe("Milestone F6 — Kanji Real Interaction Tests", () => {
       expect(screen.getByText("cao; đắt")).toBeDefined();
       expect(screen.getByText("Núi Phú Sĩ rất cao.")).toBeDefined();
     });
+  });
+
+  it("uses the dynamic active-item count for a 33-item Kanji quiz", () => {
+    const thirtyThreeItems: KanjiItem[] = Array.from({ length: 33 }, (_, index) => ({
+      id: 1000 + index,
+      kanji: String.fromCodePoint(0x4e00 + index),
+      han_viet: `KANJI ${index + 1}`,
+      meaning_vi: `Nghĩa ${index + 1}`,
+    }));
+
+    render(
+      <KanjiQuiz
+        studyDay={2}
+        allItems={thirtyThreeItems}
+        learningSetIds={thirtyThreeItems.map((item) => item.id)}
+      />
+    );
+
+    expect(screen.getByText("1 / 33")).toBeDefined();
   });
 });

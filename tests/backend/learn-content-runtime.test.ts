@@ -27,6 +27,51 @@ describe("Learn content runtime schema v1.2 validation", () => {
     if (result.state === "available") expect(result.data.items[0].surface).toBe("スプーン");
   });
 
+  it("accepts canonical Kanji without target or pool_size", async () => {
+    const data = kanjiDocument([kanjiItem(201)]);
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("kanji", 2)).resolves.toEqual({ state: "available", data });
+  });
+
+  it("accepts legacy Kanji quota fields and preserves all source items", async () => {
+    const data = kanjiDocument(
+      Array.from({ length: 33 }, (_, index) => kanjiItem(index + 201)),
+      { target: 30, pool_size: 999 },
+    );
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    const result = await loadLearnContent("kanji", 2);
+
+    expect(result).toEqual({ state: "available", data });
+    if (result.state === "available") expect(result.data.items).toHaveLength(33);
+  });
+
+  it("preserves a source with 27 Kanji items without slicing", async () => {
+    const data = kanjiDocument(Array.from({ length: 27 }, (_, index) => kanjiItem(index + 201)));
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    const result = await loadLearnContent("kanji", 2);
+
+    expect(result).toEqual({ state: "available", data });
+    if (result.state === "available") expect(result.data.items).toHaveLength(27);
+  });
+
+  it.each([
+    ["duplicate IDs", [kanjiItem(201), kanjiItem(201)]],
+    ["empty kanji", [{ ...kanjiItem(201), kanji: "" }]],
+    ["empty han_viet", [{ ...kanjiItem(201), han_viet: "" }]],
+    ["empty meaning_vi", [{ ...kanjiItem(201), meaning_vi: "" }]],
+    ["malformed onyomi", [{ ...kanjiItem(201), onyomi: ["", 1] }]],
+    ["malformed compound", [{ ...kanjiItem(201), compounds: [{ word: "学校" }] }]],
+    ["malformed example", [{ ...kanjiItem(201), examples: [{ jp: "学校です。" }] }]],
+    ["malformed notes_vi", [{ ...kanjiItem(201), notes_vi: ["", 1] }]],
+    ["empty source_ref", [{ ...kanjiItem(201), source_ref: "  " }]],
+  ])("rejects Kanji with %s", async (_label, items) => {
+    loadJsonContent.mockResolvedValue({ state: "available", data: kanjiDocument(items) });
+    await expect(loadLearnContent("kanji", 2)).rejects.toThrow("CONTENT_INVALID");
+  });
+
   it("accepts all Reading types, legacy MCQ, and questions:null", async () => {
     const data = readingDocument([
       legacyMcq("legacy"),
@@ -82,6 +127,31 @@ function matchingQuestion() {
     left_items: [{ id: "L1", text: "田中" }, { id: "L2", text: "山田" }],
     right_items: [{ id: "R1", text: "本" }, { id: "R2", text: "かばん" }],
     correct_pairs: [{ left_id: "L1", right_id: "R2" }, { left_id: "L2", right_id: "R1" }],
+  };
+}
+
+function kanjiItem(id: number) {
+  return {
+    id,
+    kanji: "学",
+    han_viet: "HỌC",
+    meaning_vi: "học",
+    onyomi: ["ガク"],
+    kunyomi: ["まなぶ"],
+    compounds: [{ word: "学校", reading: "がっこう", meaning_vi: "trường học" }],
+    examples: [{ jp: "学校です。", reading: "がっこうです。", vi: "Là trường học." }],
+    notes_vi: [],
+    source_ref: "Source",
+  };
+}
+
+function kanjiDocument(items: unknown[], extras: Record<string, unknown> = {}) {
+  return {
+    schema_version: 1,
+    id: "kanji-day-002",
+    study_day: 2,
+    ...extras,
+    items,
   };
 }
 

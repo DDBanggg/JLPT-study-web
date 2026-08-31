@@ -2,7 +2,10 @@
 
 **Phase:** `n4_review`
 **Status:** Source responsibility and confirmed roadmap mapping
-**Date:** 2026-08-30
+**Date:** 2026-08-31
+
+Content selection follows JSON Schema specification v1.3. Runtime `schema_version` remains
+`1`; this manifest records source responsibility and lesson boundaries only.
 
 ## Purpose
 
@@ -34,6 +37,9 @@ Grammar items follow the assigned lesson range. Supporting sources provide exerc
 
 - Source: Minna no Nihongo — Tập 2.
 - Select only Vocabulary and expressions belonging to the assigned lesson range.
+- Rank eligible items using the canonical Vocabulary Active Selection Policy; JSON order is priority order.
+- Publish up to 100 items: first 50 Active, next 50 same-day Reserve when available.
+- If fewer than 50 eligible items exist, publish all eligible items without external supplementation.
 - Do not pull Vocabulary from future lessons merely to reach target or pool quota.
 
 ### Kanji
@@ -42,7 +48,9 @@ Primary:
 
 - `Sách Kanji bài học - Tập 2.pdf`
 
-Kanji selection and readings follow the assigned lesson range and the phase-scoped reading rules in the canonical Guide/Schema.
+Publish every canonical Kanji taught by the assigned lesson range. Kanji is source-exhaustive
+with no fixed target or Reserve; readings follow the phase-scoped rules in the canonical
+Guide/Schema.
 
 ### Reading
 
@@ -88,12 +96,12 @@ Content items may use human-readable `source_ref` values such as:
 {"source_ref":"25 Bài đọc hiểu sơ cấp — Tập 2, Reading 31"}
 ```
 
-New Grammar Test and Daily Test questions should use canonical `source_item_refs` from JSON Schema v1.2 so coverage can be audited against the actual same-day or previous-day items.
+New Grammar Test and Daily Test questions should use canonical `source_item_refs` from JSON Schema v1.3 so coverage can be audited against the actual same-day or previous-day items.
 
 ## Publication boundaries
 
 - Runtime JSON remains organized and committed per Study Day.
 - This manifest records source responsibility and mapping, not extracted lesson content.
 - Published IDs remain immutable.
-- Vocabulary/Kanji targets and pools, Grammar Test counts, and Daily Test counts remain unchanged.
+- Vocabulary remains `target = 50` with pool `<= 100`; Kanji publishes all canonical source items without target/pool semantics. Grammar Test and Daily Test counts remain unchanged.
 - If a source question type is unsupported by the active runtime, stop publication and complete the required specification/runtime work before publishing altered JSON.

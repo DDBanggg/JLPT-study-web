@@ -2,9 +2,13 @@
 
 **Status:** Frozen for first desktop implementation  
 **Contract version:** 1.1
-**Date:** 2026-08-29
+**Date:** 2026-08-31
 
 This contract is shared by Codex (backend), Antigravity (frontend), and ChatGPT (spec/context). Breaking changes must update this document first.
+
+Content specification v1.3 changes authoring and Kanji learning semantics while runtime
+`schema_version` remains `1`. Vocabulary remains source-bounded and quota-based; Kanji is
+source-exhaustive and Known is remove-only.
 
 ## 1. General conventions
 
@@ -254,11 +258,15 @@ Grammar user state:
 {"viewed_ids":[1501,1502],"viewed_count":2,"total_count":12,"completed":false}
 ```
 
-Vocabulary/Kanji user state:
+Vocabulary user state:
 
 ```json
 {"learning_set_ids":[1501,1502],"known_ids_in_pool":[1510],"completed":false}
 ```
+
+Kanji user state has the same DTO keys for frontend compatibility, but
+`learning_set_ids` is derived from the current Kanji source IDs minus Known IDs. The
+backend does not read persisted Kanji `learning_sets` rows when producing this state.
 
 Reading/Listening user state:
 
@@ -276,7 +284,26 @@ Request:
 {"study_day":15,"item_type":"vocabulary"}
 ```
 
-Returns the frozen active set. The operation is idempotent. Existing sets must not be regenerated.
+Vocabulary returns the frozen active set. The operation is idempotent and existing
+Vocabulary sets must not be regenerated. Its data includes `study_day`,
+`item_type: "vocabulary"`, `learning_set_ids`, `active_count`, `target: 50`, and
+`pool_exhausted`.
+
+For Kanji, the same endpoint derives the active IDs from the current source and Known
+items. Its data is:
+
+```json
+{
+  "study_day": 15,
+  "item_type": "kanji",
+  "learning_set_ids": [1501, 1502],
+  "active_count": 2,
+  "source_count": 2
+}
+```
+
+Kanji ensure responses do not contain or require `target`, `pool_exhausted`, or
+`replacement_item_id`.
 
 ## 9. Grammar viewed
 
@@ -319,17 +346,17 @@ Response includes:
 
 Backend derives `next_task` from roadmap order. Frontend must not hardcode sequencing.
 
-## 11. Known + replacement
+## 11. Known mutations
 
 ### POST `/api/known-items/mark`
 
-Request:
+Vocabulary request:
 
 ```json
 {"study_day":15,"item_type":"vocabulary","item_id":1512}
 ```
 
-Response:
+Vocabulary response:
 
 ```json
 {
@@ -345,6 +372,22 @@ Response:
 If reserve is exhausted, `replacement_item_id` is null and `active_count` may fall below target.
 
 Backend is authoritative for replacement selection. Frontend must not invent replacement IDs.
+
+Kanji uses the same request endpoint with `item_type: "kanji"`:
+
+```json
+{"study_day":15,"item_type":"kanji","item_id":1512}
+```
+
+The canonical Kanji response is intentionally minimal:
+
+```json
+{"marked_known":1512}
+```
+
+For Kanji, the backend writes Known state only. There is no replacement item, reserve
+promotion, target restoration, or persisted learning-set update. `/api/learn/kanji/[day]`
+returns derived active IDs on the next read.
 
 ## 12. Test list
 

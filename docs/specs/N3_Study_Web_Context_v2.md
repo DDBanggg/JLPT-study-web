@@ -1,7 +1,11 @@
 # N3 Study Web — Product Context & Learning Logic
 
-**Status:** Locked baseline before implementation  
-**Updated:** 2026-08-29
+**Status:** Canonical product context aligned with content specification v1.3
+**Updated:** 2026-08-31
+
+Specification v1.3 changes authoring and Kanji learning semantics while runtime
+`schema_version` remains `1`. Legacy JSON and legacy persisted Kanji learning-set rows
+remain compatible where the canonical schema and architecture document them.
 
 ## Product goal
 
@@ -61,9 +65,11 @@ Each learning day covers:
 
 Targets:
 - Vocabulary: 50 active items
-- Kanji: 30 active items
+- Kanji: all canonical Kanji taught by the assigned lessons; no fixed target
 
-Known Vocabulary/Kanji do not count toward target and are replaced only from the same day's reserve pool.
+Vocabulary Known items do not count toward the target and are replaced only from the same
+day's Reserve pool. Kanji Known items are removed only; Kanji has no Reserve or target
+restoration.
 
 ## N3 learning rhythm
 
@@ -131,6 +137,7 @@ List:
 - desktop table
 - `Known` only on List
 - Known item replaced with next eligible reserve item from same pool
+- source-bounded, priority-ranked, quota-based (`target = 50`, pool `<= 100`)
 
 Quiz:
 - front = canonical Surface; show Hiragana separately only when it differs from Surface; legacy fallback = `surface ?? kanji ?? hiragana`
@@ -148,12 +155,17 @@ Two subpages:
 List:
 - desktop table
 - `Known` only on List
+- source-exhaustive: publish every canonical Kanji taught by the assigned lessons
+- Known removes the item from the active list; no replacement, Reserve, or fixed quota
 
 Quiz:
 - front = Kanji only
 - back = Hán Việt, meaning, On/Kun, compounds, examples
 - ordered by default
 - Shuffle available
+
+Kanji active IDs are always `current source IDs - Known IDs`. For example, source 33 with
+4 Known items has 29 active items; marking one more Known reduces that set to 28.
 
 ## Reading
 
@@ -247,7 +259,8 @@ After publication:
 - typo/translation/example fixes are allowed
 - explanations may be expanded
 - avoid deleting referenced IDs; deprecate instead
-- pool reorder must not alter frozen historical learning sets
+- Vocabulary pool reorder must not alter frozen historical learning sets
+- Kanji active IDs are derived from current source IDs minus Known IDs; no frozen Kanji set is regenerated
 
 Publishing workflow:
 

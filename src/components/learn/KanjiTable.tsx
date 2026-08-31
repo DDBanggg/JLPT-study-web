@@ -74,15 +74,18 @@ export function KanjiTable({
       });
 
       const data = await res.json();
-      if (res.status === 200 && data?.ok) {
-        if (Array.isArray(data?.data?.learning_set_ids)) {
-          setActiveSetIds(data.data.learning_set_ids);
-        }
+      const markedKnown = data?.data?.marked_known;
+      if (res.status === 200 && data?.ok === true && Number.isInteger(markedKnown)) {
+        setActiveSetIds((ids) => ids.filter((id) => id !== markedKnown));
         setItemToMarkKnown(null);
         return;
       }
 
-      setActionError(data?.error?.message || "Không thể cập nhật chữ Hán đã biết.");
+      setActionError(
+        res.status === 200 && data?.ok === true
+          ? "Phản hồi máy chủ không hợp lệ khi cập nhật chữ Hán đã biết."
+          : data?.error?.message || "Không thể cập nhật chữ Hán đã biết."
+      );
       setItemToMarkKnown(null);
     } catch {
       setActionError("Lỗi kết nối máy chủ.");
@@ -251,7 +254,7 @@ export function KanjiTable({
                       type="button"
                       onClick={() => setItemToMarkKnown(item)}
                       className="rounded-md border border-slate-200 bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-600 hover:bg-emerald-50 hover:text-emerald-700 hover:border-emerald-200 shadow-2xs transition-colors"
-                      title="Đánh dấu đã biết để thay thế chữ Hán khác"
+                      title="Đánh dấu chữ Hán đã biết"
                     >
                       Đã biết
                     </button>
@@ -344,8 +347,8 @@ export function KanjiTable({
         title="Đánh dấu chữ Hán đã biết?"
         message={`Bạn có chắc muốn đánh dấu chữ Hán "${
           itemToMarkKnown?.kanji
-        }" (${itemToMarkKnown?.han_viet}) là đã biết? Chữ này sẽ được thay thế bằng một chữ khác trong kho bài học.`}
-        confirmLabel="Đã biết & Thay thế"
+        }" (${itemToMarkKnown?.han_viet}) là đã biết? Chữ này sẽ được loại khỏi danh sách cần học.`}
+        confirmLabel="Đánh dấu đã biết"
         cancelLabel="Hủy"
         onConfirm={handleConfirmMarkKnown}
         onCancel={() => setItemToMarkKnown(null)}

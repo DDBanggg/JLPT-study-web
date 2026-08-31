@@ -2,7 +2,7 @@
 
 Owner: **Antigravity**
 Scope: desktop frontend first; mobile only after desktop stabilization
-Last updated: 2026-08-29
+Last updated: 2026-08-31
 
 Codex is not assigned to this roadmap.
 
@@ -14,8 +14,8 @@ Codex is not assigned to this roadmap.
 | F2 | Login + Setup | COMPLETE | Login/setup flows consume Auth and Program APIs |
 | F3 | Schedule | COMPLETE | Study Day navigation, task cards and Content Pending render safely |
 | F4 | Grammar | COMPLETE | Grammar cards, viewed progress, completion and Grammar Test CTA |
-| F5 | Vocabulary | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
-| F6 | Kanji | COMPLETE | List/Quiz/Known/Shuffle behavior works without frontend business logic |
+| F5 | Vocabulary | COMPLETE | List/Quiz/Known replacement/Shuffle behavior works without frontend business logic |
+| F6 | Kanji | COMPLETE | List/Quiz/Known remove-only behavior and dynamic active-set count work without frontend business logic |
 | F7 | Reading | COMPLETE | Passage, questions and local-only comparison flow work |
 | F8 | Listening | COMPLETE | Embedded YouTube, fallback and manual completion work |
 | F9 | Test list pages | COMPLETE | Grammar, Daily, Weekly, Monthly, End and Mock lists consume metadata API |

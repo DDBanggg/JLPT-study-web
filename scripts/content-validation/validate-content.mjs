@@ -47,6 +47,61 @@ function hasDuplicates(values) {
   return new Set(values).size !== values.length;
 }
 
+function validateOptionalStringArray(value, field, file, itemId, errors) {
+  if (!Object.hasOwn(value ?? {}, field)) return;
+  if (!Array.isArray(value[field]) || value[field].some((entry) => !isNonEmptyString(entry))) {
+    errors.push(`${file}: Kanji item '${itemId}' ${field} must be an array of non-empty strings`);
+  }
+}
+
+function validateKanjiItem(item, file, errors) {
+  const itemId = item?.id ?? "<unknown>";
+  if (!Number.isInteger(item?.id) || item.id < 1) {
+    errors.push(`${file}: Kanji item '${itemId}' id must be a positive integer`);
+  }
+  for (const field of ["kanji", "han_viet", "meaning_vi"]) {
+    if (!isNonEmptyString(item?.[field])) {
+      errors.push(`${file}: Kanji item '${itemId}' ${field} must be a non-empty string`);
+    }
+  }
+
+  for (const field of ["onyomi", "kunyomi", "notes_vi"]) {
+    validateOptionalStringArray(item, field, file, itemId, errors);
+  }
+
+  if (Object.hasOwn(item ?? {}, "source_ref") && !isNonEmptyString(item.source_ref)) {
+    errors.push(`${file}: Kanji item '${itemId}' source_ref must be a non-empty string`);
+  }
+
+  if (Object.hasOwn(item ?? {}, "compounds")) {
+    if (!Array.isArray(item.compounds)) {
+      errors.push(`${file}: Kanji item '${itemId}' compounds must be an array`);
+    } else {
+      item.compounds.forEach((compound, index) => {
+        if (!isNonEmptyString(compound?.word) ||
+            !isNonEmptyString(compound?.reading) ||
+            !isNonEmptyString(compound?.meaning_vi)) {
+          errors.push(`${file}: Kanji item '${itemId}' compound ${index} requires non-empty word, reading, and meaning_vi`);
+        }
+      });
+    }
+  }
+
+  if (Object.hasOwn(item ?? {}, "examples")) {
+    if (!Array.isArray(item.examples)) {
+      errors.push(`${file}: Kanji item '${itemId}' examples must be an array`);
+    } else {
+      item.examples.forEach((example, index) => {
+        if (!isNonEmptyString(example?.jp) ||
+            !isNonEmptyString(example?.reading) ||
+            !isNonEmptyString(example?.vi)) {
+          errors.push(`${file}: Kanji item '${itemId}' example ${index} requires non-empty jp, reading, and vi`);
+        }
+      });
+    }
+  }
+}
+
 function validateStudyDay(document, file, errors) {
   if (
     Object.hasOwn(document, "study_day") &&
@@ -79,10 +134,17 @@ function validateRoadmap(document, file, errors) {
 }
 
 function validateLearningPool(document, file, errors) {
-  if (!Array.isArray(document.items)) return;
+  const isVocabulary = document.id?.startsWith("vocabulary-");
+  const isKanji = document.id?.startsWith("kanji-");
+  if (!isVocabulary && !isKanji) return;
+
+  if (!Array.isArray(document.items)) {
+    if (isKanji) errors.push(`${file}: kanji items must be an array`);
+    return;
+  }
   addDuplicateErrors(document.items.map((item) => item.id), "item id", file, errors);
 
-  if (document.id?.startsWith("vocabulary-")) {
+  if (isVocabulary) {
     if (document.target !== 50) errors.push(`${file}: vocabulary target must equal 50`);
     if (document.items.length > 100) errors.push(`${file}: vocabulary pool cannot exceed 100 items`);
     if (document.pool_size !== document.items.length) errors.push(`${file}: pool_size must equal items.length`);
@@ -99,10 +161,9 @@ function validateLearningPool(document, file, errors) {
     }
   }
 
-  if (document.id?.startsWith("kanji-")) {
-    if (document.target !== 30) errors.push(`${file}: kanji target must equal 30`);
-    if (document.items.length > 100) errors.push(`${file}: kanji pool cannot exceed 100 items`);
-    if (document.pool_size !== document.items.length) errors.push(`${file}: pool_size must equal items.length`);
+  if (isKanji) {
+    if (document.items.length < 1) errors.push(`${file}: kanji items must contain at least one item`);
+    for (const item of document.items) validateKanjiItem(item, file, errors);
   }
 }
 
