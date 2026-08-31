@@ -3,7 +3,7 @@
   "id": "vocabulary-day-002",
   "study_day": 2,
   "target": 50,
-  "pool_size": 50,
+  "pool_size": 100,
   "items": [
     {
       "id": 201,
@@ -13,9 +13,9 @@
       "meaning_vi": "ăn",
       "examples": [
         {
-          "jp": "「食べます」を れんしゅうします。",
-          "reading": "「たべます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “ăn”."
+          "jp": "毎朝パンを食べます。",
+          "reading": "まいあさぱんをたべます。",
+          "vi": "Mỗi sáng tôi ăn bánh mì."
         }
       ],
       "notes_vi": [],
@@ -29,9 +29,9 @@
       "meaning_vi": "uống",
       "examples": [
         {
-          "jp": "「飲みます」を れんしゅうします。",
-          "reading": "「のみます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “uống”."
+          "jp": "毎朝水を飲みます。",
+          "reading": "まいあさみずをのみます。",
+          "vi": "Mỗi sáng tôi uống nước."
         }
       ],
       "notes_vi": [],
@@ -45,9 +45,9 @@
       "meaning_vi": "hút",
       "examples": [
         {
-          "jp": "「吸います」を れんしゅうします。",
-          "reading": "「すいます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “hút”."
+          "jp": "毎日吸います。",
+          "reading": "まいにちすいます。",
+          "vi": "Mỗi ngày tôi hút."
         }
       ],
       "notes_vi": [],
@@ -61,9 +61,9 @@
       "meaning_vi": "xem",
       "examples": [
         {
-          "jp": "「見ます」を れんしゅうします。",
-          "reading": "「みます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “xem”."
+          "jp": "毎晩テレビを見ます。",
+          "reading": "まいばんてれびをみます。",
+          "vi": "Tối nào tôi cũng xem ti-vi."
         }
       ],
       "notes_vi": [],
@@ -77,9 +77,9 @@
       "meaning_vi": "nghe",
       "examples": [
         {
-          "jp": "「聞きます」を れんしゅうします。",
-          "reading": "「ききます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “nghe”."
+          "jp": "音楽を聞きます。",
+          "reading": "おんがくをききます。",
+          "vi": "Tôi nghe nhạc."
         }
       ],
       "notes_vi": [],
@@ -93,9 +93,9 @@
       "meaning_vi": "đọc",
       "examples": [
         {
-          "jp": "「読みます」を れんしゅうします。",
-          "reading": "「よみます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “đọc”."
+          "jp": "毎晩本を読みます。",
+          "reading": "まいばんほんをよみます。",
+          "vi": "Tối nào tôi cũng đọc sách."
         }
       ],
       "notes_vi": [],
@@ -109,9 +109,9 @@
       "meaning_vi": "viết",
       "examples": [
         {
-          "jp": "「書きます」を れんしゅうします。",
-          "reading": "「かきます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “viết”."
+          "jp": "ノートに名前を書きます。",
+          "reading": "のーとになまえをかきます。",
+          "vi": "Tôi viết tên vào vở."
         }
       ],
       "notes_vi": [],
@@ -125,9 +125,9 @@
       "meaning_vi": "mua",
       "examples": [
         {
-          "jp": "「買います」を れんしゅうします。",
-          "reading": "「かいます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “mua”."
+          "jp": "駅で切符を買います。",
+          "reading": "えきできっぷをかいます。",
+          "vi": "Tôi mua vé ở nhà ga."
         }
       ],
       "notes_vi": [],
@@ -141,9 +141,9 @@
       "meaning_vi": "chụp",
       "examples": [
         {
-          "jp": "「撮ります」を れんしゅうします。",
-          "reading": "「とります」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “chụp”."
+          "jp": "旅行で写真を撮ります。",
+          "reading": "りょこうでしゃしんをとります。",
+          "vi": "Tôi chụp ảnh khi đi du lịch."
         }
       ],
       "notes_vi": [],
@@ -157,9 +157,9 @@
       "meaning_vi": "gặp",
       "examples": [
         {
-          "jp": "「会います」を れんしゅうします。",
-          "reading": "「あいます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “gặp”."
+          "jp": "週末に友達に会います。",
+          "reading": "しゅうまつにともだちにあいます。",
+          "vi": "Cuối tuần tôi gặp bạn."
         }
       ],
       "notes_vi": [],
@@ -173,9 +173,9 @@
       "meaning_vi": "tặng",
       "examples": [
         {
-          "jp": "「あげます」を れんしゅうします。",
-          "reading": "「あげます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “tặng”."
+          "jp": "友達に花をあげます。",
+          "reading": "ともだちにはなをあげます。",
+          "vi": "Tôi tặng hoa cho bạn."
         }
       ],
       "notes_vi": [],
@@ -189,9 +189,9 @@
       "meaning_vi": "nhận",
       "examples": [
         {
-          "jp": "「もらいます」を れんしゅうします。",
-          "reading": "「もらいます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “nhận”."
+          "jp": "先生に本をもらいます。",
+          "reading": "せんせいにほんをもらいます。",
+          "vi": "Tôi nhận sách từ giáo viên."
         }
       ],
       "notes_vi": [],
@@ -205,9 +205,9 @@
       "meaning_vi": "cho mượn",
       "examples": [
         {
-          "jp": "「貸します」を れんしゅうします。",
-          "reading": "「かします」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “cho mượn”."
+          "jp": "友達に傘を貸します。",
+          "reading": "ともだちにかさをかします。",
+          "vi": "Tôi cho bạn mượn ô."
         }
       ],
       "notes_vi": [],
@@ -221,9 +221,9 @@
       "meaning_vi": "mượn",
       "examples": [
         {
-          "jp": "「借ります」を れんしゅうします。",
-          "reading": "「かります」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “mượn”."
+          "jp": "図書館で本を借ります。",
+          "reading": "としょかんでほんをかります。",
+          "vi": "Tôi mượn sách ở thư viện."
         }
       ],
       "notes_vi": [],
@@ -237,9 +237,9 @@
       "meaning_vi": "dạy; chỉ",
       "examples": [
         {
-          "jp": "「教えます」を れんしゅうします。",
-          "reading": "「おしえます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “dạy; chỉ”."
+          "jp": "先生が日本語を教えます。",
+          "reading": "せんせいがにほんごをおしえます。",
+          "vi": "Giáo viên dạy tiếng Nhật."
         }
       ],
       "notes_vi": [],
@@ -253,9 +253,9 @@
       "meaning_vi": "học (kỹ năng)",
       "examples": [
         {
-          "jp": "「習います」を れんしゅうします。",
-          "reading": "「ならいます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “học (kỹ năng)”."
+          "jp": "学校で日本語を習います。",
+          "reading": "がっこうでにほんごをならいます。",
+          "vi": "Tôi học tiếng Nhật ở trường."
         }
       ],
       "notes_vi": [],
@@ -269,9 +269,9 @@
       "meaning_vi": "gọi (điện thoại)",
       "examples": [
         {
-          "jp": "「かけます」を れんしゅうします。",
-          "reading": "「かけます」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “gọi (điện thoại)”."
+          "jp": "友達に電話をかけます。",
+          "reading": "ともだちにでんわをかけます。",
+          "vi": "Tôi gọi điện cho bạn."
         }
       ],
       "notes_vi": [],
@@ -285,9 +285,9 @@
       "meaning_vi": "điện thoại",
       "examples": [
         {
-          "jp": "「電話」を れんしゅうします。",
-          "reading": "「でんわ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “điện thoại”."
+          "jp": "これは電話です。",
+          "reading": "これはでんわです。",
+          "vi": "Đây là điện thoại."
         }
       ],
       "notes_vi": [],
@@ -301,9 +301,9 @@
       "meaning_vi": "hoa",
       "examples": [
         {
-          "jp": "「花」を れんしゅうします。",
-          "reading": "「はな」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “hoa”."
+          "jp": "これは花です。",
+          "reading": "これははなです。",
+          "vi": "Đây là hoa."
         }
       ],
       "notes_vi": [],
@@ -317,9 +317,9 @@
       "meaning_vi": "quà lưu niệm",
       "examples": [
         {
-          "jp": "「お土産」を れんしゅうします。",
-          "reading": "「おみやげ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “quà lưu niệm”."
+          "jp": "これはお土産です。",
+          "reading": "これはおみやげです。",
+          "vi": "Đây là quà lưu niệm."
         }
       ],
       "notes_vi": [],
@@ -333,9 +333,9 @@
       "meaning_vi": "đẹp; sạch",
       "examples": [
         {
-          "jp": "「きれい」を れんしゅうします。",
-          "reading": "「きれい」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “đẹp; sạch”."
+          "jp": "この町はきれいです。",
+          "reading": "このまちはきれいです。",
+          "vi": "Thị trấn này đẹp; sạch."
         }
       ],
       "notes_vi": [],
@@ -349,9 +349,9 @@
       "meaning_vi": "yên tĩnh",
       "examples": [
         {
-          "jp": "「静か」を れんしゅうします。",
-          "reading": "「しずか」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “yên tĩnh”."
+          "jp": "この町は静かです。",
+          "reading": "このまちはしずかです。",
+          "vi": "Thị trấn này yên tĩnh."
         }
       ],
       "notes_vi": [],
@@ -365,9 +365,9 @@
       "meaning_vi": "nhộn nhịp",
       "examples": [
         {
-          "jp": "「にぎやか」を れんしゅうします。",
-          "reading": "「にぎやか」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “nhộn nhịp”."
+          "jp": "この町はにぎやかです。",
+          "reading": "このまちはにぎやかです。",
+          "vi": "Thị trấn này nhộn nhịp."
         }
       ],
       "notes_vi": [],
@@ -381,9 +381,9 @@
       "meaning_vi": "nổi tiếng",
       "examples": [
         {
-          "jp": "「有名」を れんしゅうします。",
-          "reading": "「ゆうめい」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “nổi tiếng”."
+          "jp": "この町は有名です。",
+          "reading": "このまちはゆうめいです。",
+          "vi": "Thị trấn này nổi tiếng."
         }
       ],
       "notes_vi": [],
@@ -397,9 +397,9 @@
       "meaning_vi": "tốt bụng",
       "examples": [
         {
-          "jp": "「親切」を れんしゅうします。",
-          "reading": "「しんせつ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “tốt bụng”."
+          "jp": "この町は親切です。",
+          "reading": "このまちはしんせつです。",
+          "vi": "Thị trấn này tốt bụng."
         }
       ],
       "notes_vi": [],
@@ -413,9 +413,9 @@
       "meaning_vi": "khỏe; năng động",
       "examples": [
         {
-          "jp": "「元気」を れんしゅうします。",
-          "reading": "「げんき」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “khỏe; năng động”."
+          "jp": "私は元気です。",
+          "reading": "わたしはげんきです。",
+          "vi": "Tôi khỏe."
         }
       ],
       "notes_vi": [],
@@ -429,9 +429,9 @@
       "meaning_vi": "rảnh",
       "examples": [
         {
-          "jp": "「暇」を れんしゅうします。",
-          "reading": "「ひま」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “rảnh”."
+          "jp": "今日は暇です。",
+          "reading": "きょうはひまです。",
+          "vi": "Hôm nay tôi rảnh."
         }
       ],
       "notes_vi": [],
@@ -445,9 +445,9 @@
       "meaning_vi": "tiện lợi",
       "examples": [
         {
-          "jp": "「便利」を れんしゅうします。",
-          "reading": "「べんり」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “tiện lợi”."
+          "jp": "この町は便利です。",
+          "reading": "このまちはべんりです。",
+          "vi": "Thị trấn này tiện lợi."
         }
       ],
       "notes_vi": [],
@@ -461,9 +461,9 @@
       "meaning_vi": "tuyệt đẹp",
       "examples": [
         {
-          "jp": "「すてき」を れんしゅうします。",
-          "reading": "「すてき」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “tuyệt đẹp”."
+          "jp": "この町はすてきです。",
+          "reading": "このまちはすてきです。",
+          "vi": "Thị trấn này tuyệt đẹp."
         }
       ],
       "notes_vi": [],
@@ -477,9 +477,9 @@
       "meaning_vi": "thị trấn",
       "examples": [
         {
-          "jp": "「町」を れんしゅうします。",
-          "reading": "「まち」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “thị trấn”."
+          "jp": "これは町です。",
+          "reading": "これはまちです。",
+          "vi": "Đây là thị trấn."
         }
       ],
       "notes_vi": [],
@@ -493,9 +493,9 @@
       "meaning_vi": "hiểu",
       "examples": [
         {
-          "jp": "「分かります」を れんしゅうします。",
-          "reading": "「わかります」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “hiểu”."
+          "jp": "毎日分かります。",
+          "reading": "まいにちわかります。",
+          "vi": "Mỗi ngày tôi hiểu."
         }
       ],
       "notes_vi": [],
@@ -509,9 +509,9 @@
       "meaning_vi": "có; tồn tại (đồ vật)",
       "examples": [
         {
-          "jp": "「あります」を れんしゅうします。",
-          "reading": "「あります」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “có; tồn tại (đồ vật)”."
+          "jp": "机の上に本があります。",
+          "reading": "つくえのうえにほんがあります。",
+          "vi": "Trên bàn có một quyển sách."
         }
       ],
       "notes_vi": [],
@@ -525,9 +525,9 @@
       "meaning_vi": "thích",
       "examples": [
         {
-          "jp": "「好き」を れんしゅうします。",
-          "reading": "「すき」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “thích”."
+          "jp": "日本語が好きです。",
+          "reading": "にほんごがすきです。",
+          "vi": "Tôi thích tiếng Nhật."
         }
       ],
       "notes_vi": [],
@@ -541,9 +541,9 @@
       "meaning_vi": "ghét; không thích",
       "examples": [
         {
-          "jp": "「嫌い」を れんしゅうします。",
-          "reading": "「きらい」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “ghét; không thích”."
+          "jp": "野菜が嫌いです。",
+          "reading": "やさいがきらいです。",
+          "vi": "Tôi không thích rau."
         }
       ],
       "notes_vi": [],
@@ -557,9 +557,9 @@
       "meaning_vi": "giỏi",
       "examples": [
         {
-          "jp": "「上手」を れんしゅうします。",
-          "reading": "「じょうず」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “giỏi”."
+          "jp": "料理が上手です。",
+          "reading": "りょうりがじょうずです。",
+          "vi": "Tôi nấu ăn giỏi."
         }
       ],
       "notes_vi": [],
@@ -573,9 +573,9 @@
       "meaning_vi": "kém",
       "examples": [
         {
-          "jp": "「下手」を れんしゅうします。",
-          "reading": "「へた」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “kém”."
+          "jp": "歌が下手です。",
+          "reading": "うたがへたです。",
+          "vi": "Tôi hát dở."
         }
       ],
       "notes_vi": [],
@@ -589,9 +589,9 @@
       "meaning_vi": "món ăn; nấu ăn",
       "examples": [
         {
-          "jp": "「料理」を れんしゅうします。",
-          "reading": "「りょうり」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “món ăn; nấu ăn”."
+          "jp": "これは料理です。",
+          "reading": "これはりょうりです。",
+          "vi": "Đây là món ăn; nấu ăn."
         }
       ],
       "notes_vi": [],
@@ -605,9 +605,9 @@
       "meaning_vi": "đồ uống",
       "examples": [
         {
-          "jp": "「飲み物」を れんしゅうします。",
-          "reading": "「のみもの」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “đồ uống”."
+          "jp": "これは飲み物です。",
+          "reading": "これはのみものです。",
+          "vi": "Đây là đồ uống."
         }
       ],
       "notes_vi": [],
@@ -621,9 +621,9 @@
       "meaning_vi": "thể thao",
       "examples": [
         {
-          "jp": "「スポーツ」を れんしゅうします。",
-          "reading": "「すぽーつ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “thể thao”."
+          "jp": "これはスポーツです。",
+          "reading": "これはすぽーつです。",
+          "vi": "Đây là thể thao."
         }
       ],
       "notes_vi": [],
@@ -637,9 +637,9 @@
       "meaning_vi": "bóng chày",
       "examples": [
         {
-          "jp": "「野球」を れんしゅうします。",
-          "reading": "「やきゅう」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “bóng chày”."
+          "jp": "これは野球です。",
+          "reading": "これはやきゅうです。",
+          "vi": "Đây là bóng chày."
         }
       ],
       "notes_vi": [],
@@ -653,9 +653,9 @@
       "meaning_vi": "có; tồn tại (người, con vật)",
       "examples": [
         {
-          "jp": "「います」を れんしゅうします。",
-          "reading": "「います」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “có; tồn tại (người, con vật)”."
+          "jp": "教室に先生がいます。",
+          "reading": "きょうしつにせんせいがいます。",
+          "vi": "Trong lớp có giáo viên."
         }
       ],
       "notes_vi": [],
@@ -669,9 +669,9 @@
       "meaning_vi": "trên",
       "examples": [
         {
-          "jp": "「上」を れんしゅうします。",
-          "reading": "「うえ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “trên”."
+          "jp": "本は机の上です。",
+          "reading": "ほんはつくえのうえです。",
+          "vi": "Sách ở trên bàn."
         }
       ],
       "notes_vi": [],
@@ -685,9 +685,9 @@
       "meaning_vi": "dưới",
       "examples": [
         {
-          "jp": "「下」を れんしゅうします。",
-          "reading": "「した」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “dưới”."
+          "jp": "かばんは机の下です。",
+          "reading": "かばんはつくえのしたです。",
+          "vi": "Túi ở dưới bàn."
         }
       ],
       "notes_vi": [],
@@ -701,9 +701,9 @@
       "meaning_vi": "trước",
       "examples": [
         {
-          "jp": "「前」を れんしゅうします。",
-          "reading": "「まえ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “trước”."
+          "jp": "駅の前に店があります。",
+          "reading": "えきのまえにみせがあります。",
+          "vi": "Có cửa hàng trước nhà ga."
         }
       ],
       "notes_vi": [],
@@ -717,9 +717,9 @@
       "meaning_vi": "sau",
       "examples": [
         {
-          "jp": "「後ろ」を れんしゅうします。",
-          "reading": "「うしろ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “sau”."
+          "jp": "車の後ろに立ちます。",
+          "reading": "くるまのうしろにたちます。",
+          "vi": "Tôi đứng phía sau xe."
         }
       ],
       "notes_vi": [],
@@ -733,9 +733,9 @@
       "meaning_vi": "trong",
       "examples": [
         {
-          "jp": "「中」を れんしゅうします。",
-          "reading": "「なか」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “trong”."
+          "jp": "かばんの中に本があります。",
+          "reading": "かばんのなかにほんがあります。",
+          "vi": "Có sách trong túi."
         }
       ],
       "notes_vi": [],
@@ -749,9 +749,9 @@
       "meaning_vi": "ngoài",
       "examples": [
         {
-          "jp": "「外」を れんしゅうします。",
-          "reading": "「そと」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “ngoài”."
+          "jp": "外は寒いです。",
+          "reading": "そとはさむいです。",
+          "vi": "Bên ngoài lạnh."
         }
       ],
       "notes_vi": [],
@@ -765,9 +765,9 @@
       "meaning_vi": "bên cạnh",
       "examples": [
         {
-          "jp": "「隣」を れんしゅうします。",
-          "reading": "「となり」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “bên cạnh”."
+          "jp": "銀行は駅の隣です。",
+          "reading": "ぎんこうはえきのとなりです。",
+          "vi": "Ngân hàng ở cạnh nhà ga."
         }
       ],
       "notes_vi": [],
@@ -781,9 +781,9 @@
       "meaning_vi": "gần",
       "examples": [
         {
-          "jp": "「近く」を れんしゅうします。",
-          "reading": "「ちかく」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “gần”."
+          "jp": "駅の近くに住んでいます。",
+          "reading": "えきのちかくにすんでいます。",
+          "vi": "Tôi sống gần nhà ga."
         }
       ],
       "notes_vi": [],
@@ -797,9 +797,809 @@
       "meaning_vi": "bên phải",
       "examples": [
         {
-          "jp": "「右」を れんしゅうします。",
-          "reading": "「みぎ」を れんしゅうします。",
-          "vi": "Tôi luyện cách dùng từ “bên phải”."
+          "jp": "右へ曲がります。",
+          "reading": "みぎへまがります。",
+          "vi": "Tôi rẽ phải."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 251,
+      "surface": "ごはん",
+      "hiragana": "ごはん",
+      "kanji": null,
+      "meaning_vi": "cơm; bữa ăn",
+      "examples": [
+        {
+          "jp": "これはごはんです。",
+          "reading": "これはごはんです。",
+          "vi": "Đây là cơm; bữa ăn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 252,
+      "surface": "朝ごはん",
+      "hiragana": "あさごはん",
+      "kanji": "朝ごはん",
+      "meaning_vi": "bữa sáng",
+      "examples": [
+        {
+          "jp": "これは朝ごはんです。",
+          "reading": "これはあさごはんです。",
+          "vi": "Đây là bữa sáng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 253,
+      "surface": "昼ごはん",
+      "hiragana": "ひるごはん",
+      "kanji": "昼ごはん",
+      "meaning_vi": "bữa trưa",
+      "examples": [
+        {
+          "jp": "これは昼ごはんです。",
+          "reading": "これはひるごはんです。",
+          "vi": "Đây là bữa trưa."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 254,
+      "surface": "晩ごはん",
+      "hiragana": "ばんごはん",
+      "kanji": "晩ごはん",
+      "meaning_vi": "bữa tối",
+      "examples": [
+        {
+          "jp": "これは晩ごはんです。",
+          "reading": "これはばんごはんです。",
+          "vi": "Đây là bữa tối."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 255,
+      "surface": "パン",
+      "hiragana": "ぱん",
+      "kanji": null,
+      "meaning_vi": "bánh mì",
+      "examples": [
+        {
+          "jp": "これはパンです。",
+          "reading": "これはぱんです。",
+          "vi": "Đây là bánh mì."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 256,
+      "surface": "卵",
+      "hiragana": "たまご",
+      "kanji": "卵",
+      "meaning_vi": "trứng",
+      "examples": [
+        {
+          "jp": "これは卵です。",
+          "reading": "これはたまごです。",
+          "vi": "Đây là trứng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 257,
+      "surface": "肉",
+      "hiragana": "にく",
+      "kanji": "肉",
+      "meaning_vi": "thịt",
+      "examples": [
+        {
+          "jp": "これは肉です。",
+          "reading": "これはにくです。",
+          "vi": "Đây là thịt."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 258,
+      "surface": "魚",
+      "hiragana": "さかな",
+      "kanji": "魚",
+      "meaning_vi": "cá",
+      "examples": [
+        {
+          "jp": "これは魚です。",
+          "reading": "これはさかなです。",
+          "vi": "Đây là cá."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 259,
+      "surface": "野菜",
+      "hiragana": "やさい",
+      "kanji": "野菜",
+      "meaning_vi": "rau",
+      "examples": [
+        {
+          "jp": "これは野菜です。",
+          "reading": "これはやさいです。",
+          "vi": "Đây là rau."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 260,
+      "surface": "果物",
+      "hiragana": "くだもの",
+      "kanji": "果物",
+      "meaning_vi": "trái cây",
+      "examples": [
+        {
+          "jp": "これは果物です。",
+          "reading": "これはくだものです。",
+          "vi": "Đây là trái cây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 261,
+      "surface": "水",
+      "hiragana": "みず",
+      "kanji": "水",
+      "meaning_vi": "nước",
+      "examples": [
+        {
+          "jp": "これは水です。",
+          "reading": "これはみずです。",
+          "vi": "Đây là nước."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 262,
+      "surface": "お茶",
+      "hiragana": "おちゃ",
+      "kanji": "お茶",
+      "meaning_vi": "trà",
+      "examples": [
+        {
+          "jp": "これはお茶です。",
+          "reading": "これはおちゃです。",
+          "vi": "Đây là trà."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 263,
+      "surface": "切手",
+      "hiragana": "きって",
+      "kanji": "切手",
+      "meaning_vi": "tem",
+      "examples": [
+        {
+          "jp": "これは切手です。",
+          "reading": "これはきってです。",
+          "vi": "Đây là tem."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 264,
+      "surface": "紙",
+      "hiragana": "かみ",
+      "kanji": "紙",
+      "meaning_vi": "giấy",
+      "examples": [
+        {
+          "jp": "これは紙です。",
+          "reading": "これはかみです。",
+          "vi": "Đây là giấy."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 265,
+      "surface": "手紙",
+      "hiragana": "てがみ",
+      "kanji": "手紙",
+      "meaning_vi": "thư",
+      "examples": [
+        {
+          "jp": "これは手紙です。",
+          "reading": "これはてがみです。",
+          "vi": "Đây là thư."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 266,
+      "surface": "写真",
+      "hiragana": "しゃしん",
+      "kanji": "写真",
+      "meaning_vi": "ảnh",
+      "examples": [
+        {
+          "jp": "これは写真です。",
+          "reading": "これはしゃしんです。",
+          "vi": "Đây là ảnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 267,
+      "surface": "ビデオ",
+      "hiragana": "びでお",
+      "kanji": null,
+      "meaning_vi": "video",
+      "examples": [
+        {
+          "jp": "これはビデオです。",
+          "reading": "これはびでおです。",
+          "vi": "Đây là video."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 268,
+      "surface": "お金",
+      "hiragana": "おかね",
+      "kanji": "お金",
+      "meaning_vi": "tiền",
+      "examples": [
+        {
+          "jp": "これはお金です。",
+          "reading": "これはおかねです。",
+          "vi": "Đây là tiền."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 269,
+      "surface": "プレゼント",
+      "hiragana": "ぷれぜんと",
+      "kanji": null,
+      "meaning_vi": "quà tặng",
+      "examples": [
+        {
+          "jp": "これはプレゼントです。",
+          "reading": "これはぷれぜんとです。",
+          "vi": "Đây là quà tặng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 270,
+      "surface": "メール",
+      "hiragana": "めーる",
+      "kanji": null,
+      "meaning_vi": "email",
+      "examples": [
+        {
+          "jp": "これはメールです。",
+          "reading": "これはめーるです。",
+          "vi": "Đây là email."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 271,
+      "surface": "重い",
+      "hiragana": "おもい",
+      "kanji": "重い",
+      "meaning_vi": "nặng",
+      "examples": [
+        {
+          "jp": "このかばんは重いです。",
+          "reading": "このかばんはおもいです。",
+          "vi": "Chiếc túi này nặng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 272,
+      "surface": "軽い",
+      "hiragana": "かるい",
+      "kanji": "軽い",
+      "meaning_vi": "nhẹ",
+      "examples": [
+        {
+          "jp": "このかばんは軽いです。",
+          "reading": "このかばんはかるいです。",
+          "vi": "Chiếc túi này nhẹ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 273,
+      "surface": "難しい",
+      "hiragana": "むずかしい",
+      "kanji": "難しい",
+      "meaning_vi": "khó",
+      "examples": [
+        {
+          "jp": "このかばんは難しいです。",
+          "reading": "このかばんはむずかしいです。",
+          "vi": "Chiếc túi này khó."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 274,
+      "surface": "易しい",
+      "hiragana": "やさしい",
+      "kanji": "易しい",
+      "meaning_vi": "dễ",
+      "examples": [
+        {
+          "jp": "このかばんは易しいです。",
+          "reading": "このかばんはやさしいです。",
+          "vi": "Chiếc túi này dễ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 275,
+      "surface": "高い",
+      "hiragana": "たかい",
+      "kanji": "高い",
+      "meaning_vi": "đắt; cao",
+      "examples": [
+        {
+          "jp": "このかばんは高いです。",
+          "reading": "このかばんはたかいです。",
+          "vi": "Chiếc túi này đắt; cao."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 276,
+      "surface": "安い",
+      "hiragana": "やすい",
+      "kanji": "安い",
+      "meaning_vi": "rẻ",
+      "examples": [
+        {
+          "jp": "このかばんは安いです。",
+          "reading": "このかばんはやすいです。",
+          "vi": "Chiếc túi này rẻ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 277,
+      "surface": "忙しい",
+      "hiragana": "いそがしい",
+      "kanji": "忙しい",
+      "meaning_vi": "bận",
+      "examples": [
+        {
+          "jp": "このかばんは忙しいです。",
+          "reading": "このかばんはいそがしいです。",
+          "vi": "Chiếc túi này bận."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 278,
+      "surface": "白い",
+      "hiragana": "しろい",
+      "kanji": "白い",
+      "meaning_vi": "trắng",
+      "examples": [
+        {
+          "jp": "このかばんは白いです。",
+          "reading": "このかばんはしろいです。",
+          "vi": "Chiếc túi này trắng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 279,
+      "surface": "黒い",
+      "hiragana": "くろい",
+      "kanji": "黒い",
+      "meaning_vi": "đen",
+      "examples": [
+        {
+          "jp": "このかばんは黒いです。",
+          "reading": "このかばんはくろいです。",
+          "vi": "Chiếc túi này đen."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 280,
+      "surface": "音楽",
+      "hiragana": "おんがく",
+      "kanji": "音楽",
+      "meaning_vi": "âm nhạc",
+      "examples": [
+        {
+          "jp": "これは音楽です。",
+          "reading": "これはおんがくです。",
+          "vi": "Đây là âm nhạc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 281,
+      "surface": "歌",
+      "hiragana": "うた",
+      "kanji": "歌",
+      "meaning_vi": "bài hát",
+      "examples": [
+        {
+          "jp": "これは歌です。",
+          "reading": "これはうたです。",
+          "vi": "Đây là bài hát."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 282,
+      "surface": "歌舞伎",
+      "hiragana": "かぶき",
+      "kanji": "歌舞伎",
+      "meaning_vi": "kịch Kabuki",
+      "examples": [
+        {
+          "jp": "これは歌舞伎です。",
+          "reading": "これはかぶきです。",
+          "vi": "Đây là kịch Kabuki."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 283,
+      "surface": "絵",
+      "hiragana": "え",
+      "kanji": "絵",
+      "meaning_vi": "tranh",
+      "examples": [
+        {
+          "jp": "これは絵です。",
+          "reading": "これはえです。",
+          "vi": "Đây là tranh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 284,
+      "surface": "字",
+      "hiragana": "じ",
+      "kanji": "字",
+      "meaning_vi": "chữ",
+      "examples": [
+        {
+          "jp": "これは字です。",
+          "reading": "これはじです。",
+          "vi": "Đây là chữ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 285,
+      "surface": "漢字",
+      "hiragana": "かんじ",
+      "kanji": "漢字",
+      "meaning_vi": "chữ Hán",
+      "examples": [
+        {
+          "jp": "これは漢字です。",
+          "reading": "これはかんじです。",
+          "vi": "Đây là chữ Hán."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 286,
+      "surface": "約束",
+      "hiragana": "やくそく",
+      "kanji": "約束",
+      "meaning_vi": "lời hứa; cuộc hẹn",
+      "examples": [
+        {
+          "jp": "私は約束について話します。",
+          "reading": "わたしはやくそくについてはなします。",
+          "vi": "Tôi nói về lời hứa; cuộc hẹn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 287,
+      "surface": "用事",
+      "hiragana": "ようじ",
+      "kanji": "用事",
+      "meaning_vi": "việc cần làm",
+      "examples": [
+        {
+          "jp": "私は用事について話します。",
+          "reading": "わたしはようじについてはなします。",
+          "vi": "Tôi nói về việc cần làm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 288,
+      "surface": "子供",
+      "hiragana": "こども",
+      "kanji": "子供",
+      "meaning_vi": "trẻ em",
+      "examples": [
+        {
+          "jp": "子供に会います。",
+          "reading": "こどもにあいます。",
+          "vi": "Tôi gặp trẻ em."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 289,
+      "surface": "よく",
+      "hiragana": "よく",
+      "kanji": null,
+      "meaning_vi": "thường; giỏi",
+      "examples": [
+        {
+          "jp": "よく本を読みます。",
+          "reading": "よくほんをよみます。",
+          "vi": "Tôi thường đọc sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 290,
+      "surface": "少し",
+      "hiragana": "すこし",
+      "kanji": "少し",
+      "meaning_vi": "một ít",
+      "examples": [
+        {
+          "jp": "少し日本語がわかります。",
+          "reading": "すこしにほんごがわかります。",
+          "vi": "Tôi hiểu một ít tiếng Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 291,
+      "surface": "左",
+      "hiragana": "ひだり",
+      "kanji": "左",
+      "meaning_vi": "bên trái",
+      "examples": [
+        {
+          "jp": "左に郵便局があります。",
+          "reading": "ひだりにゆうびんきょくがあります。",
+          "vi": "Bên trái có bưu điện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 292,
+      "surface": "男の人",
+      "hiragana": "おとこのひと",
+      "kanji": "男の人",
+      "meaning_vi": "người đàn ông",
+      "examples": [
+        {
+          "jp": "あの男の人は先生です。",
+          "reading": "あのおとこのひとはせんせいです。",
+          "vi": "Người đàn ông kia là giáo viên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 293,
+      "surface": "女の人",
+      "hiragana": "おんなのひと",
+      "kanji": "女の人",
+      "meaning_vi": "người phụ nữ",
+      "examples": [
+        {
+          "jp": "あの女の人は先生です。",
+          "reading": "あのおんなのひとはせんせいです。",
+          "vi": "Người phụ nữ kia là giáo viên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 294,
+      "surface": "犬",
+      "hiragana": "いぬ",
+      "kanji": "犬",
+      "meaning_vi": "chó",
+      "examples": [
+        {
+          "jp": "これは犬です。",
+          "reading": "これはいぬです。",
+          "vi": "Đây là chó."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 295,
+      "surface": "猫",
+      "hiragana": "ねこ",
+      "kanji": "猫",
+      "meaning_vi": "mèo",
+      "examples": [
+        {
+          "jp": "これは猫です。",
+          "reading": "これはねこです。",
+          "vi": "Đây là mèo."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 296,
+      "surface": "木",
+      "hiragana": "き",
+      "kanji": "木",
+      "meaning_vi": "cây",
+      "examples": [
+        {
+          "jp": "これは木です。",
+          "reading": "これはきです。",
+          "vi": "Đây là cây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 297,
+      "surface": "箱",
+      "hiragana": "はこ",
+      "kanji": "箱",
+      "meaning_vi": "cái hộp",
+      "examples": [
+        {
+          "jp": "これは箱です。",
+          "reading": "これははこです。",
+          "vi": "Đây là cái hộp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 298,
+      "surface": "冷蔵庫",
+      "hiragana": "れいぞうこ",
+      "kanji": "冷蔵庫",
+      "meaning_vi": "tủ lạnh",
+      "examples": [
+        {
+          "jp": "これは冷蔵庫です。",
+          "reading": "これはれいぞうこです。",
+          "vi": "Đây là tủ lạnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 299,
+      "surface": "玄関",
+      "hiragana": "げんかん",
+      "kanji": "玄関",
+      "meaning_vi": "lối vào",
+      "examples": [
+        {
+          "jp": "玄関へ行きます。",
+          "reading": "げんかんへいきます。",
+          "vi": "Tôi đi đến lối vào."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 300,
+      "surface": "台所",
+      "hiragana": "だいどころ",
+      "kanji": "台所",
+      "meaning_vi": "nhà bếp",
+      "examples": [
+        {
+          "jp": "台所へ行きます。",
+          "reading": "だいどころへいきます。",
+          "vi": "Tôi đi đến nhà bếp."
         }
       ],
       "notes_vi": [],
