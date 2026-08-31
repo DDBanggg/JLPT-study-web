@@ -1,0 +1,809 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-006",
+  "study_day": 6,
+  "target": 50,
+  "pool_size": 50,
+  "items": [
+    {
+      "id": 601,
+      "surface": "お知らせ",
+      "hiragana": "おしらせ",
+      "kanji": "お知らせ",
+      "meaning_vi": "thông báo",
+      "examples": [
+        {
+          "jp": "「お知らせ」を れんしゅうします。",
+          "reading": "「おしらせ」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “thông báo”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 602,
+      "surface": "出します",
+      "hiragana": "だします",
+      "kanji": "出します",
+      "meaning_vi": "đưa ra; nộp",
+      "examples": [
+        {
+          "jp": "「出します」を れんしゅうします。",
+          "reading": "「だします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “đưa ra; nộp”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 603,
+      "surface": "片づけます",
+      "hiragana": "かたづけます",
+      "kanji": "片づけます",
+      "meaning_vi": "dọn dẹp",
+      "examples": [
+        {
+          "jp": "「片づけます」を れんしゅうします。",
+          "reading": "「かたづけます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “dọn dẹp”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 604,
+      "surface": "相談します",
+      "hiragana": "そうだんします",
+      "kanji": "相談します",
+      "meaning_vi": "trao đổi; tư vấn",
+      "examples": [
+        {
+          "jp": "「相談します」を れんしゅうします。",
+          "reading": "「そうだんします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “trao đổi; tư vấn”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 605,
+      "surface": "困ります",
+      "hiragana": "こまります",
+      "kanji": "困ります",
+      "meaning_vi": "gặp khó khăn",
+      "examples": [
+        {
+          "jp": "「困ります」を れんしゅうします。",
+          "reading": "「こまります」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “gặp khó khăn”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 606,
+      "surface": "連絡",
+      "hiragana": "れんらく",
+      "kanji": "連絡",
+      "meaning_vi": "liên lạc",
+      "examples": [
+        {
+          "jp": "「連絡」を れんしゅうします。",
+          "reading": "「れんらく」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “liên lạc”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 607,
+      "surface": "説明",
+      "hiragana": "せつめい",
+      "kanji": "説明",
+      "meaning_vi": "giải thích",
+      "examples": [
+        {
+          "jp": "「説明」を れんしゅうします。",
+          "reading": "「せつめい」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “giải thích”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 608,
+      "surface": "旅行",
+      "hiragana": "りょこう",
+      "kanji": "旅行",
+      "meaning_vi": "du lịch",
+      "examples": [
+        {
+          "jp": "「旅行」を れんしゅうします。",
+          "reading": "「りょこう」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “du lịch”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 609,
+      "surface": "生け花",
+      "hiragana": "いけばな",
+      "kanji": "生け花",
+      "meaning_vi": "nghệ thuật cắm hoa",
+      "examples": [
+        {
+          "jp": "「生け花」を れんしゅうします。",
+          "reading": "「いけばな」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “nghệ thuật cắm hoa”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 610,
+      "surface": "紹介",
+      "hiragana": "しょうかい",
+      "kanji": "紹介",
+      "meaning_vi": "giới thiệu",
+      "examples": [
+        {
+          "jp": "「紹介」を れんしゅうします。",
+          "reading": "「しょうかい」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “giới thiệu”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 26"
+    },
+    {
+      "id": 611,
+      "surface": "見えます",
+      "hiragana": "みえます",
+      "kanji": "見えます",
+      "meaning_vi": "nhìn thấy",
+      "examples": [
+        {
+          "jp": "「見えます」を れんしゅうします。",
+          "reading": "「みえます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “nhìn thấy”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 612,
+      "surface": "聞こえます",
+      "hiragana": "きこえます",
+      "kanji": "聞こえます",
+      "meaning_vi": "nghe thấy",
+      "examples": [
+        {
+          "jp": "「聞こえます」を れんしゅうします。",
+          "reading": "「きこえます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “nghe thấy”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 613,
+      "surface": "できます",
+      "hiragana": "できます",
+      "kanji": null,
+      "meaning_vi": "có thể",
+      "examples": [
+        {
+          "jp": "「できます」を れんしゅうします。",
+          "reading": "「できます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “có thể”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 614,
+      "surface": "開きます",
+      "hiragana": "あきます",
+      "kanji": "開きます",
+      "meaning_vi": "mở (tự động)",
+      "examples": [
+        {
+          "jp": "「開きます」を れんしゅうします。",
+          "reading": "「あきます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “mở (tự động)”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 615,
+      "surface": "閉まります",
+      "hiragana": "しまります",
+      "kanji": "閉まります",
+      "meaning_vi": "đóng (tự động)",
+      "examples": [
+        {
+          "jp": "「閉まります」を れんしゅうします。",
+          "reading": "「しまります」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “đóng (tự động)”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 616,
+      "surface": "大きな",
+      "hiragana": "おおきな",
+      "kanji": "大きな",
+      "meaning_vi": "to; lớn",
+      "examples": [
+        {
+          "jp": "「大きな」を れんしゅうします。",
+          "reading": "「おおきな」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “to; lớn”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 617,
+      "surface": "小さな",
+      "hiragana": "ちいさな",
+      "kanji": "小さな",
+      "meaning_vi": "nhỏ",
+      "examples": [
+        {
+          "jp": "「小さな」を れんしゅうします。",
+          "reading": "「ちいさな」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “nhỏ”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 618,
+      "surface": "はっきり",
+      "hiragana": "はっきり",
+      "kanji": null,
+      "meaning_vi": "rõ ràng",
+      "examples": [
+        {
+          "jp": "「はっきり」を れんしゅうします。",
+          "reading": "「はっきり」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “rõ ràng”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 619,
+      "surface": "山",
+      "hiragana": "やま",
+      "kanji": "山",
+      "meaning_vi": "núi",
+      "examples": [
+        {
+          "jp": "「山」を れんしゅうします。",
+          "reading": "「やま」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “núi”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 620,
+      "surface": "交差点",
+      "hiragana": "こうさてん",
+      "kanji": "交差点",
+      "meaning_vi": "ngã tư",
+      "examples": [
+        {
+          "jp": "「交差点」を れんしゅうします。",
+          "reading": "「こうさてん」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “ngã tư”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 27"
+    },
+    {
+      "id": 621,
+      "surface": "運動します",
+      "hiragana": "うんどうします",
+      "kanji": "運動します",
+      "meaning_vi": "vận động; tập thể dục",
+      "examples": [
+        {
+          "jp": "「運動します」を れんしゅうします。",
+          "reading": "「うんどうします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “vận động; tập thể dục”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 622,
+      "surface": "成功します",
+      "hiragana": "せいこうします",
+      "kanji": "成功します",
+      "meaning_vi": "thành công",
+      "examples": [
+        {
+          "jp": "「成功します」を れんしゅうします。",
+          "reading": "「せいこうします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “thành công”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 623,
+      "surface": "失敗します",
+      "hiragana": "しっぱいします",
+      "kanji": "失敗します",
+      "meaning_vi": "thất bại",
+      "examples": [
+        {
+          "jp": "「失敗します」を れんしゅうします。",
+          "reading": "「しっぱいします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “thất bại”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 624,
+      "surface": "音楽",
+      "hiragana": "おんがく",
+      "kanji": "音楽",
+      "meaning_vi": "âm nhạc",
+      "examples": [
+        {
+          "jp": "「音楽」を れんしゅうします。",
+          "reading": "「おんがく」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “âm nhạc”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 625,
+      "surface": "毎朝",
+      "hiragana": "まいあさ",
+      "kanji": "毎朝",
+      "meaning_vi": "mỗi sáng",
+      "examples": [
+        {
+          "jp": "「毎朝」を れんしゅうします。",
+          "reading": "「まいあさ」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “mỗi sáng”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 626,
+      "surface": "毎晩",
+      "hiragana": "まいばん",
+      "kanji": "毎晩",
+      "meaning_vi": "mỗi tối",
+      "examples": [
+        {
+          "jp": "「毎晩」を れんしゅうします。",
+          "reading": "「まいばん」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “mỗi tối”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 627,
+      "surface": "ジョギング",
+      "hiragana": "じょぎんぐ",
+      "kanji": null,
+      "meaning_vi": "chạy bộ",
+      "examples": [
+        {
+          "jp": "「ジョギング」を れんしゅうします。",
+          "reading": "「じょぎんぐ」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “chạy bộ”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 628,
+      "surface": "健康",
+      "hiragana": "けんこう",
+      "kanji": "健康",
+      "meaning_vi": "sức khỏe",
+      "examples": [
+        {
+          "jp": "「健康」を れんしゅうします。",
+          "reading": "「けんこう」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “sức khỏe”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 629,
+      "surface": "出張",
+      "hiragana": "しゅっちょう",
+      "kanji": "出張",
+      "meaning_vi": "công tác",
+      "examples": [
+        {
+          "jp": "「出張」を れんしゅうします。",
+          "reading": "「しゅっちょう」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “công tác”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 630,
+      "surface": "試験",
+      "hiragana": "しけん",
+      "kanji": "試験",
+      "meaning_vi": "kỳ thi",
+      "examples": [
+        {
+          "jp": "「試験」を れんしゅうします。",
+          "reading": "「しけん」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “kỳ thi”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 28"
+    },
+    {
+      "id": 631,
+      "surface": "消えます",
+      "hiragana": "きえます",
+      "kanji": "消えます",
+      "meaning_vi": "tắt; biến mất",
+      "examples": [
+        {
+          "jp": "「消えます」を れんしゅうします。",
+          "reading": "「きえます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “tắt; biến mất”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 632,
+      "surface": "閉じます",
+      "hiragana": "とじます",
+      "kanji": "閉じます",
+      "meaning_vi": "đóng (sách, cửa)",
+      "examples": [
+        {
+          "jp": "「閉じます」を れんしゅうします。",
+          "reading": "「とじます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “đóng (sách, cửa)”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 633,
+      "surface": "壊れます",
+      "hiragana": "こわれます",
+      "kanji": "壊れます",
+      "meaning_vi": "hỏng",
+      "examples": [
+        {
+          "jp": "「壊れます」を れんしゅうします。",
+          "reading": "「こわれます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “hỏng”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 634,
+      "surface": "割れます",
+      "hiragana": "われます",
+      "kanji": "割れます",
+      "meaning_vi": "vỡ",
+      "examples": [
+        {
+          "jp": "「割れます」を れんしゅうします。",
+          "reading": "「われます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “vỡ”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 635,
+      "surface": "折れます",
+      "hiragana": "おれます",
+      "kanji": "折れます",
+      "meaning_vi": "gãy",
+      "examples": [
+        {
+          "jp": "「折れます」を れんしゅうします。",
+          "reading": "「おれます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “gãy”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 636,
+      "surface": "破れます",
+      "hiragana": "やぶれます",
+      "kanji": "破れます",
+      "meaning_vi": "rách",
+      "examples": [
+        {
+          "jp": "「破れます」を れんしゅうします。",
+          "reading": "「やぶれます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “rách”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 637,
+      "surface": "汚れます",
+      "hiragana": "よごれます",
+      "kanji": "汚れます",
+      "meaning_vi": "bẩn",
+      "examples": [
+        {
+          "jp": "「汚れます」を れんしゅうします。",
+          "reading": "「よごれます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “bẩn”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 638,
+      "surface": "付きます",
+      "hiragana": "つきます",
+      "kanji": "付きます",
+      "meaning_vi": "được gắn; bật",
+      "examples": [
+        {
+          "jp": "「付きます」を れんしゅうします。",
+          "reading": "「つきます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “được gắn; bật”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 639,
+      "surface": "外れます",
+      "hiragana": "はずれます",
+      "kanji": "外れます",
+      "meaning_vi": "tuột; rời ra",
+      "examples": [
+        {
+          "jp": "「外れます」を れんしゅうします。",
+          "reading": "「はずれます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “tuột; rời ra”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 640,
+      "surface": "落ちます",
+      "hiragana": "おちます",
+      "kanji": "落ちます",
+      "meaning_vi": "rơi",
+      "examples": [
+        {
+          "jp": "「落ちます」を れんしゅうします。",
+          "reading": "「おちます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “rơi”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 29"
+    },
+    {
+      "id": 641,
+      "surface": "貼ります",
+      "hiragana": "はります",
+      "kanji": "貼ります",
+      "meaning_vi": "dán",
+      "examples": [
+        {
+          "jp": "「貼ります」を れんしゅうします。",
+          "reading": "「はります」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “dán”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 642,
+      "surface": "掛けます",
+      "hiragana": "かけます",
+      "kanji": "掛けます",
+      "meaning_vi": "treo",
+      "examples": [
+        {
+          "jp": "「掛けます」を れんしゅうします。",
+          "reading": "「かけます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “treo”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 643,
+      "surface": "並べます",
+      "hiragana": "ならべます",
+      "kanji": "並べます",
+      "meaning_vi": "xếp thành hàng",
+      "examples": [
+        {
+          "jp": "「並べます」を れんしゅうします。",
+          "reading": "「ならべます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “xếp thành hàng”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 644,
+      "surface": "植えます",
+      "hiragana": "うえます",
+      "kanji": "植えます",
+      "meaning_vi": "trồng",
+      "examples": [
+        {
+          "jp": "「植えます」を れんしゅうします。",
+          "reading": "「うえます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “trồng”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 645,
+      "surface": "戻します",
+      "hiragana": "もどします",
+      "kanji": "戻します",
+      "meaning_vi": "đưa về chỗ cũ",
+      "examples": [
+        {
+          "jp": "「戻します」を れんしゅうします。",
+          "reading": "「もどします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “đưa về chỗ cũ”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 646,
+      "surface": "まとめます",
+      "hiragana": "まとめます",
+      "kanji": null,
+      "meaning_vi": "tổng hợp; gom lại",
+      "examples": [
+        {
+          "jp": "「まとめます」を れんしゅうします。",
+          "reading": "「まとめます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “tổng hợp; gom lại”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 647,
+      "surface": "しまいます",
+      "hiragana": "しまいます",
+      "kanji": null,
+      "meaning_vi": "cất đi",
+      "examples": [
+        {
+          "jp": "「しまいます」を れんしゅうします。",
+          "reading": "「しまいます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “cất đi”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 648,
+      "surface": "決めます",
+      "hiragana": "きめます",
+      "kanji": "決めます",
+      "meaning_vi": "quyết định",
+      "examples": [
+        {
+          "jp": "「決めます」を れんしゅうします。",
+          "reading": "「きめます」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “quyết định”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 649,
+      "surface": "予習します",
+      "hiragana": "よしゅうします",
+      "kanji": "予習します",
+      "meaning_vi": "soạn bài trước",
+      "examples": [
+        {
+          "jp": "「予習します」を れんしゅうします。",
+          "reading": "「よしゅうします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “soạn bài trước”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    },
+    {
+      "id": 650,
+      "surface": "復習します",
+      "hiragana": "ふくしゅうします",
+      "kanji": "復習します",
+      "meaning_vi": "ôn tập",
+      "examples": [
+        {
+          "jp": "「復習します」を れんしゅうします。",
+          "reading": "「ふくしゅうします」を れんしゅうします。",
+          "vi": "Tôi luyện cách dùng từ “ôn tập”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo II — Lesson 30"
+    }
+  ]
+}
