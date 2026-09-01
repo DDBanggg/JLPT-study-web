@@ -51,10 +51,11 @@
       "id": 405,
       "kanji": "少",
       "han_viet": "thiểu",
-      "meaning_vi": "ít",
+      "meaning_vi": "ít; một chút",
       "onyomi": [],
       "kunyomi": [
-        "すくない"
+        "すくない",
+        "すこし"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -172,9 +173,9 @@
       "id": 416,
       "kanji": "親",
       "han_viet": "thân",
-      "meaning_vi": "cha mẹ, thân thiết",
+      "meaning_vi": "thân thiện, tử tế",
       "onyomi": [
-        "りょう"
+        "しん"
       ],
       "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 14"
@@ -194,11 +195,13 @@
       "id": 418,
       "kanji": "名",
       "han_viet": "danh",
-      "meaning_vi": "tên, nổi tiếng",
+      "meaning_vi": "tên; nổi tiếng",
       "onyomi": [
         "めい"
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        "な"
+      ],
       "source_ref": "Kanji Tập 1 — Unit 14"
     },
     {
@@ -239,10 +242,10 @@
       "kanji": "事",
       "han_viet": "sự",
       "meaning_vi": "việc",
-      "onyomi": [
+      "onyomi": [],
+      "kunyomi": [
         "ごと"
       ],
-      "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 14"
     },
     {
@@ -253,7 +256,9 @@
       "onyomi": [
         "とう"
       ],
-      "kunyomi": [],
+      "kunyomi": [
+        "ひがし"
+      ],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
     {
@@ -261,10 +266,10 @@
       "kanji": "西",
       "han_viet": "tây",
       "meaning_vi": "phía tây, phương tây",
-      "onyomi": [
-        "せい"
+      "onyomi": [],
+      "kunyomi": [
+        "にし"
       ],
-      "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
     {
@@ -272,10 +277,10 @@
       "kanji": "南",
       "han_viet": "nam",
       "meaning_vi": "phía nam, phương nam",
-      "onyomi": [
-        "なん"
+      "onyomi": [],
+      "kunyomi": [
+        "みなみ"
       ],
-      "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
     {
@@ -283,10 +288,10 @@
       "kanji": "北",
       "han_viet": "bắc",
       "meaning_vi": "phía bắc, phương bắc",
-      "onyomi": [
-        "ほく"
+      "onyomi": [],
+      "kunyomi": [
+        "きた"
       ],
-      "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
     {

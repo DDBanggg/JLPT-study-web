@@ -7,13 +7,11 @@
       "id": 801,
       "kanji": "野",
       "han_viet": "dã",
-      "meaning_vi": "cánh đồng",
+      "meaning_vi": "đồng; rau (trong 野菜)",
       "onyomi": [
         "や"
       ],
-      "kunyomi": [
-        "の"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
     {
@@ -24,9 +22,7 @@
       "onyomi": [
         "さい"
       ],
-      "kunyomi": [
-        "な"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
     {
@@ -34,9 +30,7 @@
       "kanji": "船",
       "han_viet": "thuyền",
       "meaning_vi": "cái thuyền",
-      "onyomi": [
-        "せん"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "ふね"
       ],
@@ -50,9 +44,7 @@
       "onyomi": [
         "き"
       ],
-      "kunyomi": [
-        "しる.す"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
     {
@@ -64,7 +56,7 @@
         "えい"
       ],
       "kunyomi": [
-        "およ.ぐ"
+        "およぎます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -72,12 +64,11 @@
       "id": 806,
       "kanji": "初",
       "han_viet": "sơ",
-      "meaning_vi": "đầu tiên",
-      "onyomi": [
-        "しょ"
-      ],
+      "meaning_vi": "đầu tiên, lần đầu",
+      "onyomi": [],
       "kunyomi": [
-        "はじ.め"
+        "はじめ",
+        "はじめて"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -89,9 +80,7 @@
       "onyomi": [
         "べつ"
       ],
-      "kunyomi": [
-        "わか.れる"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
     {
@@ -99,11 +88,9 @@
       "kanji": "渡",
       "han_viet": "độ",
       "meaning_vi": "băng qua",
-      "onyomi": [
-        "と"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "わた.る"
+        "わたります"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -111,12 +98,10 @@
       "id": 809,
       "kanji": "過",
       "han_viet": "quá",
-      "meaning_vi": "quá, đi qua",
-      "onyomi": [
-        "か"
-      ],
+      "meaning_vi": "đi qua; quá giờ",
+      "onyomi": [],
       "kunyomi": [
-        "す.ぎる"
+        "すぎます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -125,24 +110,20 @@
       "kanji": "違",
       "han_viet": "vi",
       "meaning_vi": "khác, sai",
-      "onyomi": [
-        "い"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "ちが.う"
+        "ちがいます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
     {
       "id": 811,
-      "kanji": "情",
-      "han_viet": "tình",
-      "meaning_vi": "tình cảm",
-      "onyomi": [
-        "じょう"
-      ],
+      "kanji": "慣",
+      "han_viet": "quán",
+      "meaning_vi": "quen",
+      "onyomi": [],
       "kunyomi": [
-        "なさ.け"
+        "なれます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -151,11 +132,9 @@
       "kanji": "必",
       "han_viet": "tất",
       "meaning_vi": "chắc chắn",
-      "onyomi": [
-        "ひつ"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "かなら.ず"
+        "かならず"
       ],
       "source_ref": "Kanji Tập 2 — Unit 36"
     },
@@ -164,10 +143,10 @@
       "kanji": "絵",
       "han_viet": "hội",
       "meaning_vi": "tranh",
-      "onyomi": [
-        "かい"
+      "onyomi": [],
+      "kunyomi": [
+        "え"
       ],
-      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
@@ -175,9 +154,7 @@
       "kanji": "寺",
       "han_viet": "tự",
       "meaning_vi": "ngôi chùa",
-      "onyomi": [
-        "じ"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "てら"
       ],
@@ -188,9 +165,7 @@
       "kanji": "池",
       "han_viet": "trì",
       "meaning_vi": "cái ao",
-      "onyomi": [
-        "ち"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "いけ"
       ],
@@ -204,21 +179,17 @@
       "onyomi": [
         "せき"
       ],
-      "kunyomi": [
-        "いし"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
       "id": 817,
       "kanji": "油",
       "han_viet": "du",
-      "meaning_vi": "tinh dầu",
-      "onyomi": [
-        "ゆ"
-      ],
+      "meaning_vi": "dầu",
+      "onyomi": [],
       "kunyomi": [
-        "あぶら"
+        "ゆ"
       ],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
@@ -226,26 +197,22 @@
       "id": 818,
       "kanji": "原",
       "han_viet": "nguyên",
-      "meaning_vi": "gốc, đồng bằng",
+      "meaning_vi": "gốc; nguyên liệu",
       "onyomi": [
         "げん"
       ],
-      "kunyomi": [
-        "はら"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
       "id": 819,
-      "kanji": "輪",
-      "han_viet": "luân",
-      "meaning_vi": "bánh xe",
+      "kanji": "輸",
+      "han_viet": "thâu",
+      "meaning_vi": "vận chuyển, xuất nhập khẩu",
       "onyomi": [
-        "りん"
+        "ゆ"
       ],
-      "kunyomi": [
-        "わ"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
@@ -253,11 +220,9 @@
       "kanji": "呼",
       "han_viet": "hô",
       "meaning_vi": "gọi",
-      "onyomi": [
-        "こ"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "よ.ぶ"
+        "よびます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
@@ -266,11 +231,9 @@
       "kanji": "頼",
       "han_viet": "lại",
       "meaning_vi": "nhờ, tin cậy",
-      "onyomi": [
-        "らい"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "たの.む"
+        "たのみます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
@@ -282,9 +245,7 @@
       "onyomi": [
         "ちゅう"
       ],
-      "kunyomi": [
-        "そそ.ぐ"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
@@ -295,9 +256,7 @@
       "onyomi": [
         "しょう"
       ],
-      "kunyomi": [
-        "まね.く"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 37"
     },
     {
@@ -305,9 +264,7 @@
       "kanji": "卵",
       "han_viet": "noãn",
       "meaning_vi": "quả trứng",
-      "onyomi": [
-        "らん"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "たまご"
       ],
@@ -318,9 +275,7 @@
       "kanji": "村",
       "han_viet": "thôn",
       "meaning_vi": "thôn xóm, nhà quê",
-      "onyomi": [
-        "そん"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "むら"
       ],
@@ -330,20 +285,18 @@
       "id": 826,
       "kanji": "岸",
       "han_viet": "ngạn",
-      "meaning_vi": "bờ, biên",
+      "meaning_vi": "bờ biển",
       "onyomi": [
         "がん"
       ],
-      "kunyomi": [
-        "きし"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
     {
       "id": 827,
       "kanji": "工",
       "han_viet": "công",
-      "meaning_vi": "công, xây dựng",
+      "meaning_vi": "nhà máy, công nghiệp",
       "onyomi": [
         "こう"
       ],
@@ -365,13 +318,11 @@
       "id": 829,
       "kanji": "冊",
       "han_viet": "sách",
-      "meaning_vi": "quyển",
+      "meaning_vi": "quyển (đơn vị đếm)",
       "onyomi": [
         "さつ"
       ],
-      "kunyomi": [
-        "ふみ"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
     {
@@ -382,9 +333,7 @@
       "onyomi": [
         "む"
       ],
-      "kunyomi": [
-        "な.い"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
     {
@@ -392,24 +341,20 @@
       "kanji": "難",
       "han_viet": "nan",
       "meaning_vi": "khó",
-      "onyomi": [
-        "なん"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "かた.い"
+        "むずかしい"
       ],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
     {
       "id": 832,
-      "kanji": "速",
-      "han_viet": "tốc",
-      "meaning_vi": "nhanh chóng",
-      "onyomi": [
-        "そく"
-      ],
+      "kanji": "遅",
+      "han_viet": "trì",
+      "meaning_vi": "muộn, chậm",
+      "onyomi": [],
       "kunyomi": [
-        "はや.い"
+        "おそい"
       ],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
@@ -418,11 +363,9 @@
       "kanji": "育",
       "han_viet": "dục",
       "meaning_vi": "nuôi dưỡng",
-      "onyomi": [
-        "いく"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "そだ.つ"
+        "そだてます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
@@ -431,11 +374,9 @@
       "kanji": "負",
       "han_viet": "phụ",
       "meaning_vi": "thua, mang",
-      "onyomi": [
-        "ふ"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "ま.ける"
+        "まけます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
@@ -443,13 +384,11 @@
       "id": 835,
       "kanji": "散",
       "han_viet": "tán",
-      "meaning_vi": "phân tán",
+      "meaning_vi": "đi dạo; phân tán",
       "onyomi": [
         "さん"
       ],
-      "kunyomi": [
-        "ち.る"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 38"
     },
     {
@@ -460,9 +399,7 @@
       "onyomi": [
         "しん"
       ],
-      "kunyomi": [
-        "ふる.う"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
@@ -473,9 +410,7 @@
       "onyomi": [
         "こう"
       ],
-      "kunyomi": [
-        "まじ.わる"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
@@ -486,9 +421,7 @@
       "onyomi": [
         "だい"
       ],
-      "kunyomi": [
-        "か.わる"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
@@ -510,9 +443,7 @@
       "onyomi": [
         "ざつ"
       ],
-      "kunyomi": [
-        "まじ.える"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
@@ -520,11 +451,9 @@
       "kanji": "狭",
       "han_viet": "hiệp",
       "meaning_vi": "hẹp",
-      "onyomi": [
-        "きょう"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "せま.い"
+        "せまい"
       ],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
@@ -533,11 +462,9 @@
       "kanji": "恥",
       "han_viet": "sỉ",
       "meaning_vi": "xấu hổ, thẹn",
-      "onyomi": [
-        "ち"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "は.じる"
+        "はずかしい"
       ],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
@@ -546,11 +473,9 @@
       "kanji": "困",
       "han_viet": "khốn",
       "meaning_vi": "khốn khó",
-      "onyomi": [
-        "こん"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "こま.る"
+        "こまります"
       ],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
@@ -559,11 +484,9 @@
       "kanji": "死",
       "han_viet": "tử",
       "meaning_vi": "chết",
-      "onyomi": [
-        "し"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "し.ぬ"
+        "しにます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
@@ -572,11 +495,9 @@
       "kanji": "倒",
       "han_viet": "đảo",
       "meaning_vi": "đổ, ngã",
-      "onyomi": [
-        "とう"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "たお.れる"
+        "たおれます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
@@ -584,26 +505,22 @@
       "id": 846,
       "kanji": "勢",
       "han_viet": "thế",
-      "meaning_vi": "thế, xu hướng",
+      "meaning_vi": "thế, lực; đông người",
       "onyomi": [
-        "せい"
+        "ぜい"
       ],
-      "kunyomi": [
-        "いきお.い"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
       "id": 847,
       "kanji": "途",
       "han_viet": "đồ",
-      "meaning_vi": "đường, cách",
+      "meaning_vi": "đường; giữa chừng",
       "onyomi": [
         "と"
       ],
-      "kunyomi": [
-        "みち"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 39"
     },
     {
@@ -611,9 +528,7 @@
       "kanji": "靴",
       "han_viet": "ngoa",
       "meaning_vi": "giày ủng",
-      "onyomi": [
-        "か"
-      ],
+      "onyomi": [],
       "kunyomi": [
         "くつ"
       ],
@@ -623,13 +538,11 @@
       "id": 849,
       "kanji": "都",
       "han_viet": "đô",
-      "meaning_vi": "thủ đô, tất cả",
+      "meaning_vi": "hoàn cảnh, sự thuận tiện",
       "onyomi": [
-        "と"
+        "つ"
       ],
-      "kunyomi": [
-        "みやこ"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
     {
@@ -640,18 +553,16 @@
       "onyomi": [
         "へん"
       ],
-      "kunyomi": [
-        "かえ.す"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
     {
       "id": 851,
       "kanji": "表",
       "han_viet": "biểu",
-      "meaning_vi": "bề mặt, biểu thị",
+      "meaning_vi": "bề mặt; trình bày",
       "onyomi": [
-        "ひょう"
+        "ぴょう"
       ],
       "kunyomi": [
         "おもて"
@@ -662,13 +573,11 @@
       "id": 852,
       "kanji": "発",
       "han_viet": "phát",
-      "meaning_vi": "phát, khởi hành",
+      "meaning_vi": "phát, công bố",
       "onyomi": [
-        "はつ"
+        "はっ"
       ],
-      "kunyomi": [
-        "た.つ"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
     {
@@ -676,11 +585,9 @@
       "kanji": "確",
       "han_viet": "xác",
       "meaning_vi": "chắc chắn",
-      "onyomi": [
-        "かく"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "たし.か"
+        "たしかめます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
@@ -689,11 +596,9 @@
       "kanji": "残",
       "han_viet": "tàn",
       "meaning_vi": "còn lại",
-      "onyomi": [
-        "ざん"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "のこ.る"
+        "のこります"
       ],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
@@ -701,12 +606,10 @@
       "id": 855,
       "kanji": "数",
       "han_viet": "sổ",
-      "meaning_vi": "số",
-      "onyomi": [
-        "すう"
-      ],
+      "meaning_vi": "đếm, số lượng",
+      "onyomi": [],
       "kunyomi": [
-        "かず"
+        "かぞえます"
       ],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
@@ -715,11 +618,9 @@
       "kanji": "若",
       "han_viet": "nhược",
       "meaning_vi": "trẻ, nếu",
-      "onyomi": [
-        "じゃく"
-      ],
+      "onyomi": [],
       "kunyomi": [
-        "わか.い"
+        "わかい"
       ],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
@@ -727,26 +628,22 @@
       "id": 857,
       "kanji": "配",
       "han_viet": "phối",
-      "meaning_vi": "phân phát, sắp xếp",
+      "meaning_vi": "lo lắng; phân phối",
       "onyomi": [
         "はい"
       ],
-      "kunyomi": [
-        "くば.る"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 40"
     },
     {
       "id": 858,
       "kanji": "以",
       "han_viet": "dĩ",
-      "meaning_vi": "dùng, từ",
+      "meaning_vi": "từ; trở xuống",
       "onyomi": [
         "い"
       ],
-      "kunyomi": [
-        "もっ.て"
-      ],
+      "kunyomi": [],
       "source_ref": "Kanji Tập 2 — Unit 40"
     }
   ]

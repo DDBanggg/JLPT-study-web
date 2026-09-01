@@ -18,10 +18,11 @@
       "id": 302,
       "kanji": "切",
       "han_viet": "thiết",
-      "meaning_vi": "cắt, chạm khắc",
+      "meaning_vi": "cắt; vé (trong 切手)",
       "onyomi": [],
       "kunyomi": [
-        "きります"
+        "きります",
+        "きっ"
       ],
       "source_ref": "Kanji Tập 1 — Unit 11"
     },
@@ -60,14 +61,23 @@
     },
     {
       "id": 306,
-      "kanji": "行",
-      "han_viet": "hành",
-      "meaning_vi": "đi",
-      "onyomi": [
-        "こう"
-      ],
+      "kanji": "教",
+      "han_viet": "giáo",
+      "meaning_vi": "dạy",
+      "onyomi": [],
       "kunyomi": [
-        "いきます"
+        "おしえます"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 320,
+      "kanji": "習",
+      "han_viet": "tập",
+      "meaning_vi": "học, luyện tập",
+      "onyomi": [],
+      "kunyomi": [
+        "ならいます"
       ],
       "source_ref": "Kanji Tập 1 — Unit 11"
     },
@@ -144,7 +154,7 @@
       "meaning_vi": "dừng lại, thôi",
       "onyomi": [],
       "kunyomi": [
-        "とまります"
+        "とめます"
       ],
       "source_ref": "Kanji Tập 1 — Unit 12"
     },

@@ -8,7 +8,9 @@
       "kanji": "高",
       "han_viet": "cao",
       "meaning_vi": "cao",
-      "onyomi": [],
+      "onyomi": [
+        "こう"
+      ],
       "kunyomi": [
         "たかい"
       ],
@@ -18,7 +20,7 @@
       "id": 202,
       "kanji": "安",
       "han_viet": "an",
-      "meaning_vi": "an toàn, rẻ",
+      "meaning_vi": "rẻ",
       "onyomi": [],
       "kunyomi": [
         "やすい"
@@ -30,7 +32,9 @@
       "kanji": "大",
       "han_viet": "đại",
       "meaning_vi": "lớn",
-      "onyomi": [],
+      "onyomi": [
+        "だい"
+      ],
       "kunyomi": [
         "おおきい"
       ],
@@ -41,7 +45,9 @@
       "kanji": "小",
       "han_viet": "tiểu",
       "meaning_vi": "nhỏ",
-      "onyomi": [],
+      "onyomi": [
+        "しょう"
+      ],
       "kunyomi": [
         "ちいさい"
       ],
@@ -52,7 +58,9 @@
       "kanji": "新",
       "han_viet": "tân",
       "meaning_vi": "mới",
-      "onyomi": [],
+      "onyomi": [
+        "しん"
+      ],
       "kunyomi": [
         "あたらしい"
       ],
@@ -117,7 +125,7 @@
       "id": 211,
       "kanji": "上",
       "han_viet": "thượng",
-      "meaning_vi": "trên",
+      "meaning_vi": "trên; giỏi",
       "onyomi": [
         "じょう"
       ],
@@ -130,7 +138,7 @@
       "id": 212,
       "kanji": "下",
       "han_viet": "hạ",
-      "meaning_vi": "dưới",
+      "meaning_vi": "dưới; kém",
       "onyomi": [],
       "kunyomi": [
         "した"
@@ -279,7 +287,7 @@
       "han_viet": "gian",
       "meaning_vi": "khoảng, giữa",
       "onyomi": [
-        "じ"
+        "かん"
       ],
       "kunyomi": [
         "あいだ"
@@ -455,10 +463,10 @@
       "id": 241,
       "kanji": "達",
       "han_viet": "đạt",
-      "meaning_vi": "đạt, đến nơi",
+      "meaning_vi": "bạn bè (trong 友達)",
       "onyomi": [],
       "kunyomi": [
-        "たち"
+        "だち"
       ],
       "source_ref": "Kanji Tập 1 — Unit 9"
     },
