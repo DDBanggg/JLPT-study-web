@@ -35,14 +35,6 @@
           "resource_id": "vocabulary-day-001"
         },
         {
-          "task_id": "kanji_day_1",
-          "type": "kanji",
-          "label": "Kanji",
-          "required": true,
-          "order": 4,
-          "resource_id": "kanji-day-001"
-        },
-        {
           "task_id": "reading_day_1",
           "type": "reading",
           "label": "Reading",

@@ -84,6 +84,16 @@ Listening 26–50 → Lesson 26–50 → N4 review
 
 Day 11 is the N4 End Test in the current roadmap and is not another five-lesson content block.
 
+## Canonical Kanji mapping
+
+| Study Day | Lesson range | Kanji source units |
+| --- | --- | --- |
+| Day 6 | Lesson 26–30 | Sách Kanji bài học - Tập 2 — Units 26–30 |
+| Day 7 | Lesson 31–35 | Sách Kanji bài học - Tập 2 — Units 31–35 |
+| Day 8 | Lesson 36–40 | Sách Kanji bài học - Tập 2 — Units 36–40 |
+| Day 9 | Lesson 41–45 | Sách Kanji bài học - Tập 2 — Units 41–45 |
+| Day 10 | Lesson 46–50 | Sách Kanji bài học - Tập 2 — Units 46–50 |
+
 ## Traceability conventions
 
 Content items may use human-readable `source_ref` values such as:

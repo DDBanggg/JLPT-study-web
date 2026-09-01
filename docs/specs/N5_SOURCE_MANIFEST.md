@@ -83,6 +83,16 @@ The current repository roadmap confirms only the following `n5_review` allocatio
 
 Do not extend this table beyond Day 5 unless the repository roadmap or an approved source decision establishes the exact mapping.
 
+## Canonical Kanji mapping
+
+| Study Day | Lesson range | Kanji source units |
+| --- | --- | --- |
+| Day 1 | Lesson 1–5 | No Kanji task |
+| Day 2 | Lesson 6–10 | Sách Kanji bài học - Tập 1 — Units 6–10 |
+| Day 3 | Lesson 11–15 | Sách Kanji bài học - Tập 1 — Units 11–12 |
+| Day 4 | Lesson 16–20 | Sách Kanji bài học - Tập 1 — Units 13–15 |
+| Day 5 | Lesson 21–25 | Sách Kanji bài học - Tập 1 — Units 16–20 |
+
 ## Traceability conventions
 
 Content items may record a human-readable `source_ref`, for example:

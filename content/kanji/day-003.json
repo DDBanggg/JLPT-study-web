@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-003",
+  "study_day": 3,
+  "items": [
+    {
+      "id": 301,
+      "kanji": "送",
+      "han_viet": "tống",
+      "meaning_vi": "đưa, cho, biếu",
+      "onyomi": [
+        "そう"
+      ],
+      "kunyomi": [
+        "おく.る"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 302,
+      "kanji": "切",
+      "han_viet": "thiết",
+      "meaning_vi": "cắt, chạm khắc",
+      "onyomi": [
+        "せつ",
+        "さい"
+      ],
+      "kunyomi": [
+        "き.る",
+        "-き.る",
+        "き.り",
+        "-き.り",
+        "-ぎ.り",
+        "き.れる",
+        "-き.れる",
+        "き.れ",
+        "-き.れ",
+        "-ぎ.れ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 303,
+      "kanji": "貸",
+      "han_viet": "thải",
+      "meaning_vi": "vay mượn",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "か.す",
+        "か.し-",
+        "かし-"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 304,
+      "kanji": "借",
+      "han_viet": "tá",
+      "meaning_vi": "vay mượn",
+      "onyomi": [
+        "しゃく"
+      ],
+      "kunyomi": [
+        "か.りる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 305,
+      "kanji": "旅",
+      "han_viet": "lữ",
+      "meaning_vi": "quán trọ",
+      "onyomi": [
+        "りょ"
+      ],
+      "kunyomi": [
+        "たび"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 306,
+      "kanji": "行",
+      "han_viet": "hành",
+      "meaning_vi": "hàng, dòng",
+      "onyomi": [
+        "こう",
+        "ぎょう",
+        "あん"
+      ],
+      "kunyomi": [
+        "い.く",
+        "ゆ.く",
+        "-ゆ.き",
+        "-ゆき",
+        "-い.き",
+        "-いき",
+        "おこな.う",
+        "おこ.なう"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 307,
+      "kanji": "勉",
+      "han_viet": "miễn",
+      "meaning_vi": "cố sức, cố gắng",
+      "onyomi": [
+        "べん"
+      ],
+      "kunyomi": [
+        "つと.める"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 308,
+      "kanji": "強",
+      "han_viet": "cường",
+      "meaning_vi": "mạnh",
+      "onyomi": [
+        "きょう",
+        "ごう"
+      ],
+      "kunyomi": [
+        "つよ.い",
+        "つよ.まる",
+        "つよ.める",
+        "し.いる",
+        "こわ.い"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 309,
+      "kanji": "花",
+      "han_viet": "hoa",
+      "meaning_vi": "bông hoa",
+      "onyomi": [
+        "か",
+        "け"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 11"
+    },
+    {
+      "id": 310,
+      "kanji": "歩",
+      "han_viet": "bộ",
+      "meaning_vi": "đi chân",
+      "onyomi": [
+        "ほ",
+        "ぶ",
+        "ふ"
+      ],
+      "kunyomi": [
+        "ある.く",
+        "あゆ.む"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 311,
+      "kanji": "待",
+      "han_viet": "đãi",
+      "meaning_vi": "đối xử, tiếp đãi",
+      "onyomi": [
+        "たい"
+      ],
+      "kunyomi": [
+        "ま.つ",
+        "-ま.ち"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 312,
+      "kanji": "立",
+      "han_viet": "lập",
+      "meaning_vi": "đứng thẳng",
+      "onyomi": [
+        "りつ",
+        "りゅう",
+        "りっとる"
+      ],
+      "kunyomi": [
+        "た.つ",
+        "-た.つ",
+        "た.ち-",
+        "た.てる",
+        "-た.てる",
+        "た.て-",
+        "たて-",
+        "-た.て",
+        "-だ.て",
+        "-だ.てる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 313,
+      "kanji": "止",
+      "han_viet": "chỉ",
+      "meaning_vi": "dừng lại, thôi",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "と.まる",
+        "-ど.まり",
+        "と.める",
+        "-と.める",
+        "-ど.め",
+        "とど.める",
+        "とど.め",
+        "とど.まる",
+        "や.める",
+        "や.む",
+        "-や.む",
+        "よ.す",
+        "-さ.す",
+        "-さ.し"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 314,
+      "kanji": "雨",
+      "han_viet": "vũ",
+      "meaning_vi": "mưa",
+      "onyomi": [
+        "う"
+      ],
+      "kunyomi": [
+        "あめ",
+        "あま-",
+        "-さめ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 315,
+      "kanji": "入",
+      "han_viet": "nhập",
+      "meaning_vi": "vào trong",
+      "onyomi": [
+        "にゅう",
+        "じゅ"
+      ],
+      "kunyomi": [
+        "い.る",
+        "-い.る",
+        "-い.り",
+        "い.れる",
+        "-い.れ",
+        "はい.る"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 316,
+      "kanji": "出",
+      "han_viet": "xuất",
+      "meaning_vi": "ra ngoài, đi ra",
+      "onyomi": [
+        "しゅつ",
+        "すい"
+      ],
+      "kunyomi": [
+        "で.る",
+        "-で",
+        "だ.す",
+        "-だ.す",
+        "い.でる",
+        "い.だす"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 317,
+      "kanji": "売",
+      "han_viet": "mại",
+      "meaning_vi": "bán",
+      "onyomi": [
+        "ばい"
+      ],
+      "kunyomi": [
+        "う.る",
+        "う.れる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 318,
+      "kanji": "使",
+      "han_viet": "sử",
+      "meaning_vi": "sứ giả, đi sứ",
+      "onyomi": [
+        "し"
+      ],
+      "kunyomi": [
+        "つか.う",
+        "つか.い",
+        "-つか.い",
+        "-づか.い"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    },
+    {
+      "id": 319,
+      "kanji": "作",
+      "han_viet": "tác",
+      "meaning_vi": "làm, tạo nên",
+      "onyomi": [
+        "さく",
+        "さ"
+      ],
+      "kunyomi": [
+        "つく.る",
+        "つく.り",
+        "-づく.り"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 12"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-004",
+  "study_day": 4,
+  "items": [
+    {
+      "id": 401,
+      "kanji": "明",
+      "han_viet": "minh",
+      "meaning_vi": "sáng",
+      "onyomi": [
+        "めい",
+        "みょう",
+        "みん"
+      ],
+      "kunyomi": [
+        "あ.かり",
+        "あか.るい",
+        "あか.るむ",
+        "あか.らむ",
+        "あき.らか",
+        "あ.ける",
+        "-あ.け",
+        "あ.く",
+        "あ.くる",
+        "あ.かす"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 402,
+      "kanji": "暗",
+      "han_viet": "ám",
+      "meaning_vi": "tối, mờ, không rõ, không tỏ",
+      "onyomi": [
+        "あん"
+      ],
+      "kunyomi": [
+        "くら.い",
+        "くら.む",
+        "くれ.る"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 403,
+      "kanji": "広",
+      "han_viet": "khoát",
+      "meaning_vi": "rộng",
+      "onyomi": [
+        "こう"
+      ],
+      "kunyomi": [
+        "ひろ.い",
+        "ひろ.まる",
+        "ひろ.める",
+        "ひろ.がる",
+        "ひろ.げる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 404,
+      "kanji": "多",
+      "han_viet": "đa",
+      "meaning_vi": "nhiều",
+      "onyomi": [
+        "た"
+      ],
+      "kunyomi": [
+        "おお.い",
+        "まさ.に",
+        "まさ.る"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 405,
+      "kanji": "少",
+      "han_viet": "thiểu",
+      "meaning_vi": "kém, không đủ",
+      "onyomi": [
+        "しょう"
+      ],
+      "kunyomi": [
+        "すく.ない",
+        "すこ.し"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 406,
+      "kanji": "長",
+      "han_viet": "trưởng",
+      "meaning_vi": "dài",
+      "onyomi": [
+        "ちょう"
+      ],
+      "kunyomi": [
+        "なが.い",
+        "おさ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 407,
+      "kanji": "短",
+      "han_viet": "đoản",
+      "meaning_vi": "ngắn",
+      "onyomi": [
+        "たん"
+      ],
+      "kunyomi": [
+        "みじか.い"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 408,
+      "kanji": "悪",
+      "han_viet": "ác",
+      "meaning_vi": "ác độc",
+      "onyomi": [
+        "あく",
+        "お"
+      ],
+      "kunyomi": [
+        "わる.い",
+        "わる-",
+        "あ.し",
+        "にく.い",
+        "-にく.い",
+        "ああ",
+        "いずくに",
+        "いずくんぞ",
+        "にく.む"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 409,
+      "kanji": "重",
+      "han_viet": "trùng",
+      "meaning_vi": "trùng, lặp lại",
+      "onyomi": [
+        "じゅう",
+        "ちょう"
+      ],
+      "kunyomi": [
+        "え",
+        "おも.い",
+        "おも.り",
+        "おも.なう",
+        "かさ.ねる",
+        "かさ.なる",
+        "おも"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 410,
+      "kanji": "軽",
+      "han_viet": "khinh",
+      "meaning_vi": "nhẹ",
+      "onyomi": [
+        "けい",
+        "きょう",
+        "きん"
+      ],
+      "kunyomi": [
+        "かる.い",
+        "かろ.やか",
+        "かろ.んじる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 411,
+      "kanji": "早",
+      "han_viet": "tảo",
+      "meaning_vi": "buổi sáng",
+      "onyomi": [
+        "そう",
+        "さっ"
+      ],
+      "kunyomi": [
+        "はや.い",
+        "はや",
+        "はや-",
+        "はや.まる",
+        "はや.める",
+        "さ-"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 13"
+    },
+    {
+      "id": 412,
+      "kanji": "便",
+      "han_viet": "tiện",
+      "meaning_vi": "thuận lợi, thuận tiện",
+      "onyomi": [
+        "べん",
+        "びん"
+      ],
+      "kunyomi": [
+        "たよ.り"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 413,
+      "kanji": "利",
+      "han_viet": "lợi",
+      "meaning_vi": "lợi ích, công dụng",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+        "き.く"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 414,
+      "kanji": "元",
+      "han_viet": "nguyên",
+      "meaning_vi": "bắt đầu, thứ nhất",
+      "onyomi": [
+        "げん",
+        "がん"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 415,
+      "kanji": "気",
+      "han_viet": "khí",
+      "meaning_vi": "khí, hơi",
+      "onyomi": [
+        "き",
+        "け"
+      ],
+      "kunyomi": [
+        "いき"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 416,
+      "kanji": "親",
+      "han_viet": "thân",
+      "meaning_vi": "cha mẹ",
+      "onyomi": [
+        "しん"
+      ],
+      "kunyomi": [
+        "おや",
+        "おや-",
+        "した.しい",
+        "した.しむ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 417,
+      "kanji": "有",
+      "han_viet": "hữu",
+      "meaning_vi": "có, sỡ hữu",
+      "onyomi": [
+        "ゆう",
+        "う"
+      ],
+      "kunyomi": [
+        "あ.る"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 418,
+      "kanji": "名",
+      "han_viet": "danh",
+      "meaning_vi": "tên, danh",
+      "onyomi": [
+        "めい",
+        "みょう"
+      ],
+      "kunyomi": [
+        "な",
+        "-な"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 419,
+      "kanji": "地",
+      "han_viet": "địa",
+      "meaning_vi": "đất",
+      "onyomi": [
+        "ち",
+        "じ"
+      ],
+      "kunyomi": [],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 420,
+      "kanji": "鉄",
+      "han_viet": "thiết",
+      "meaning_vi": "sắt, Fe",
+      "onyomi": [
+        "てつ"
+      ],
+      "kunyomi": [
+        "くろがね"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 421,
+      "kanji": "仕",
+      "han_viet": "sĩ",
+      "meaning_vi": "học trò",
+      "onyomi": [
+        "し",
+        "じ"
+      ],
+      "kunyomi": [
+        "つか.える"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 422,
+      "kanji": "事",
+      "han_viet": "sự",
+      "meaning_vi": "việc",
+      "onyomi": [
+        "じ",
+        "ず"
+      ],
+      "kunyomi": [
+        "こと",
+        "つか.う",
+        "つか.える"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 14"
+    },
+    {
+      "id": 423,
+      "kanji": "東",
+      "han_viet": "đông",
+      "meaning_vi": "phía đông, phương đông",
+      "onyomi": [
+        "とう"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 424,
+      "kanji": "西",
+      "han_viet": "tây",
+      "meaning_vi": "phía tây, phương tây",
+      "onyomi": [
+        "せい",
+        "さい",
+        "す"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 425,
+      "kanji": "南",
+      "han_viet": "nam",
+      "meaning_vi": "phía nam, phương nam",
+      "onyomi": [
+        "なん",
+        "な"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 426,
+      "kanji": "北",
+      "han_viet": "bắc",
+      "meaning_vi": "phía bắc, phương bắc",
+      "onyomi": [
+        "ほく"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 427,
+      "kanji": "京",
+      "han_viet": "kinh",
+      "meaning_vi": "kinh đô, thủ đô",
+      "onyomi": [
+        "きょう",
+        "けい",
+        "きん"
+      ],
+      "kunyomi": [
+        "みやこ"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 428,
+      "kanji": "夜",
+      "han_viet": "dạ",
+      "meaning_vi": "ban đêm",
+      "onyomi": [
+        "や"
+      ],
+      "kunyomi": [
+        "よ",
+        "よる"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 429,
+      "kanji": "料",
+      "han_viet": "liệu",
+      "meaning_vi": "đo, lường tính",
+      "onyomi": [
+        "りょう"
+      ],
+      "kunyomi": [],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 430,
+      "kanji": "理",
+      "han_viet": "lý",
+      "meaning_vi": "vân, đường vân",
+      "onyomi": [
+        "り"
+      ],
+      "kunyomi": [
+        "ことわり"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 431,
+      "kanji": "口",
+      "han_viet": "khẩu",
+      "meaning_vi": "mồm, miệng",
+      "onyomi": [
+        "こう",
+        "く"
+      ],
+      "kunyomi": [
+        "くち"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 432,
+      "kanji": "目",
+      "han_viet": "mục",
+      "meaning_vi": "mắt",
+      "onyomi": [
+        "もく",
+        "ぼく"
+      ],
+      "kunyomi": [
+        "め",
+        "-め",
+        "ま-"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 433,
+      "kanji": "足",
+      "han_viet": "túc",
+      "meaning_vi": "chân thú",
+      "onyomi": [
+        "そく"
+      ],
+      "kunyomi": [
+        "あし",
+        "た.りる",
+        "た.る",
+        "た.す"
+      ],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    },
+    {
+      "id": 434,
+      "kanji": "曜",
+      "han_viet": "diệu",
+      "meaning_vi": "bóng sáng mặt trời",
+      "onyomi": [
+        "よう"
+      ],
+      "kunyomi": [],
+      "source_ref": "Kanji Tập 1 — Unit 15"
+    }
+  ]
+}
