@@ -4,7 +4,7 @@
 **Status:** Source responsibility and confirmed roadmap mapping
 **Date:** 2026-08-31
 
-Content selection follows JSON Schema specification v1.3. Runtime `schema_version` remains
+Content selection follows JSON Schema specification v1.4. Runtime `schema_version` remains
 `1`; this manifest records source responsibility and lesson boundaries only.
 
 ## Purpose

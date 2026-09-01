@@ -2,15 +2,17 @@
 
 Owner: **Codex**
 Scope: backend implementation only
-Last updated: 2026-08-31
+Last updated: 2026-09-02
 
-## Content semantics synchronization (specification v1.3)
+## Content semantics synchronization (specification v1.4)
 
 Vocabulary remains source-bounded, priority-ranked, quota-based (`target = 50`, pool
 `<= 100`) with persisted frozen `learning_sets` and same-day Known replacement. Kanji is
 source-exhaustive with no fixed target or Reserve: active IDs are current source IDs minus
 Known IDs, persisted legacy Kanji `learning_sets` rows are ignored, and Known writes only
-`known_items`. Runtime `schema_version` remains `1`; no database migration is required.
+`known_items`. Reading accepts text, visual media, or both while keeping questions
+structured and translation limited to passage text. Runtime `schema_version` remains `1`;
+no database migration is required.
 
 ## Boundary
 

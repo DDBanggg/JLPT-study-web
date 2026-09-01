@@ -1,6 +1,6 @@
 # N3 Study Web — Delivery Roadmaps
 
-Last updated: 2026-08-29
+Last updated: 2026-09-02
 
 Progress is tracked in three independent workstreams. Product integration happens through the frozen contracts in `docs/specs/`; workstream ownership must not be inferred from feature overlap.
 
@@ -9,7 +9,7 @@ Progress is tracked in three independent workstreams. Product integration happen
 | Workstream | Owner | Current milestone | Status | Tracker |
 | --- | --- | --- | --- | --- |
 | Backend (`B*`) | Codex | B1–B10 complete | COMPLETE | [Backend roadmap](./BACKEND_ROADMAP.md) |
-| Frontend (`F*`) | Antigravity | F1 — Desktop AppShell | NOT_STARTED | [Frontend roadmap](./FRONTEND_ROADMAP.md) |
+| Frontend (`F*`) | Antigravity | F1–F13 complete | COMPLETE | [Frontend roadmap](./FRONTEND_ROADMAP.md) |
 | CI/CD (`CI*`) | Repository/platform maintainer | CI1 — Repository governance | IN_PROGRESS | [CI/CD roadmap](./CICD_ROADMAP.md) |
 
 ## Ownership rule
@@ -57,7 +57,9 @@ Frontend belongs to Antigravity. CI/CD belongs to the repository/platform mainta
 
 ## History
 
-The previous combined Sprint 1 tracker is preserved at [history/sprint-01-auth-program.md](./history/sprint-01-auth-program.md). It is historical evidence, not the active roadmap format.
+The previous combined Sprint 1 tracker is preserved in the
+[documentation archive](../archive/progress/sprint-01-auth-program.md). It is historical
+evidence, not the active roadmap format.
 
 ## Tracking rules
 
