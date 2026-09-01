@@ -9,21 +9,10 @@
       "han_viet": "minh",
       "meaning_vi": "sáng",
       "onyomi": [
-        "めい",
-        "みょう",
-        "みん"
+        "めい"
       ],
       "kunyomi": [
-        "あ.かり",
-        "あか.るい",
-        "あか.るむ",
-        "あか.らむ",
-        "あき.らか",
-        "あ.ける",
-        "-あ.け",
-        "あ.く",
-        "あ.くる",
-        "あ.かす"
+        "あ.かり"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -31,31 +20,25 @@
       "id": 402,
       "kanji": "暗",
       "han_viet": "ám",
-      "meaning_vi": "tối, mờ, không rõ, không tỏ",
+      "meaning_vi": "tối",
       "onyomi": [
         "あん"
       ],
       "kunyomi": [
-        "くら.い",
-        "くら.む",
-        "くれ.る"
+        "くら.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
     {
       "id": 403,
       "kanji": "広",
-      "han_viet": "khoát",
+      "han_viet": "quảng",
       "meaning_vi": "rộng",
       "onyomi": [
         "こう"
       ],
       "kunyomi": [
-        "ひろ.い",
-        "ひろ.まる",
-        "ひろ.める",
-        "ひろ.がる",
-        "ひろ.げる"
+        "ひろ.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -68,9 +51,7 @@
         "た"
       ],
       "kunyomi": [
-        "おお.い",
-        "まさ.に",
-        "まさ.る"
+        "おお.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -78,13 +59,12 @@
       "id": 405,
       "kanji": "少",
       "han_viet": "thiểu",
-      "meaning_vi": "kém, không đủ",
+      "meaning_vi": "ít",
       "onyomi": [
         "しょう"
       ],
       "kunyomi": [
-        "すく.ない",
-        "すこ.し"
+        "すく.ない"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -97,8 +77,7 @@
         "ちょう"
       ],
       "kunyomi": [
-        "なが.い",
-        "おさ"
+        "なが.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -119,41 +98,25 @@
       "id": 408,
       "kanji": "悪",
       "han_viet": "ác",
-      "meaning_vi": "ác độc",
+      "meaning_vi": "xấu",
       "onyomi": [
-        "あく",
-        "お"
+        "あく"
       ],
       "kunyomi": [
-        "わる.い",
-        "わる-",
-        "あ.し",
-        "にく.い",
-        "-にく.い",
-        "ああ",
-        "いずくに",
-        "いずくんぞ",
-        "にく.む"
+        "わる.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
     {
       "id": 409,
       "kanji": "重",
-      "han_viet": "trùng",
-      "meaning_vi": "trùng, lặp lại",
+      "han_viet": "trọng",
+      "meaning_vi": "nặng",
       "onyomi": [
-        "じゅう",
-        "ちょう"
+        "じゅう"
       ],
       "kunyomi": [
-        "え",
-        "おも.い",
-        "おも.り",
-        "おも.なう",
-        "かさ.ねる",
-        "かさ.なる",
-        "おも"
+        "え"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -163,14 +126,10 @@
       "han_viet": "khinh",
       "meaning_vi": "nhẹ",
       "onyomi": [
-        "けい",
-        "きょう",
-        "きん"
+        "けい"
       ],
       "kunyomi": [
-        "かる.い",
-        "かろ.やか",
-        "かろ.んじる"
+        "かる.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -178,18 +137,12 @@
       "id": 411,
       "kanji": "早",
       "han_viet": "tảo",
-      "meaning_vi": "buổi sáng",
+      "meaning_vi": "sớm",
       "onyomi": [
-        "そう",
-        "さっ"
+        "そう"
       ],
       "kunyomi": [
-        "はや.い",
-        "はや",
-        "はや-",
-        "はや.まる",
-        "はや.める",
-        "さ-"
+        "はや.い"
       ],
       "source_ref": "Kanji Tập 1 — Unit 13"
     },
@@ -199,8 +152,7 @@
       "han_viet": "tiện",
       "meaning_vi": "thuận lợi, thuận tiện",
       "onyomi": [
-        "べん",
-        "びん"
+        "べん"
       ],
       "kunyomi": [
         "たよ.り"
@@ -224,10 +176,9 @@
       "id": 414,
       "kanji": "元",
       "han_viet": "nguyên",
-      "meaning_vi": "bắt đầu, thứ nhất",
+      "meaning_vi": "nguồn gốc",
       "onyomi": [
-        "げん",
-        "がん"
+        "げん"
       ],
       "kunyomi": [
         "もと"
@@ -238,10 +189,9 @@
       "id": 415,
       "kanji": "気",
       "han_viet": "khí",
-      "meaning_vi": "khí, hơi",
+      "meaning_vi": "khí, tinh thần",
       "onyomi": [
-        "き",
-        "け"
+        "き"
       ],
       "kunyomi": [
         "いき"
@@ -252,15 +202,12 @@
       "id": 416,
       "kanji": "親",
       "han_viet": "thân",
-      "meaning_vi": "cha mẹ",
+      "meaning_vi": "cha mẹ, thân thiết",
       "onyomi": [
         "しん"
       ],
       "kunyomi": [
-        "おや",
-        "おや-",
-        "した.しい",
-        "した.しむ"
+        "おや"
       ],
       "source_ref": "Kanji Tập 1 — Unit 14"
     },
@@ -268,10 +215,9 @@
       "id": 417,
       "kanji": "有",
       "han_viet": "hữu",
-      "meaning_vi": "có, sỡ hữu",
+      "meaning_vi": "có",
       "onyomi": [
-        "ゆう",
-        "う"
+        "ゆう"
       ],
       "kunyomi": [
         "あ.る"
@@ -282,14 +228,12 @@
       "id": 418,
       "kanji": "名",
       "han_viet": "danh",
-      "meaning_vi": "tên, danh",
+      "meaning_vi": "tên, nổi tiếng",
       "onyomi": [
-        "めい",
-        "みょう"
+        "めい"
       ],
       "kunyomi": [
-        "な",
-        "-な"
+        "な"
       ],
       "source_ref": "Kanji Tập 1 — Unit 14"
     },
@@ -299,8 +243,7 @@
       "han_viet": "địa",
       "meaning_vi": "đất",
       "onyomi": [
-        "ち",
-        "じ"
+        "ち"
       ],
       "kunyomi": [],
       "source_ref": "Kanji Tập 1 — Unit 14"
@@ -322,10 +265,9 @@
       "id": 421,
       "kanji": "仕",
       "han_viet": "sĩ",
-      "meaning_vi": "học trò",
+      "meaning_vi": "phục vụ",
       "onyomi": [
-        "し",
-        "じ"
+        "し"
       ],
       "kunyomi": [
         "つか.える"
@@ -338,13 +280,10 @@
       "han_viet": "sự",
       "meaning_vi": "việc",
       "onyomi": [
-        "じ",
-        "ず"
+        "じ"
       ],
       "kunyomi": [
-        "こと",
-        "つか.う",
-        "つか.える"
+        "こと"
       ],
       "source_ref": "Kanji Tập 1 — Unit 14"
     },
@@ -367,9 +306,7 @@
       "han_viet": "tây",
       "meaning_vi": "phía tây, phương tây",
       "onyomi": [
-        "せい",
-        "さい",
-        "す"
+        "せい"
       ],
       "kunyomi": [
         "にし"
@@ -382,8 +319,7 @@
       "han_viet": "nam",
       "meaning_vi": "phía nam, phương nam",
       "onyomi": [
-        "なん",
-        "な"
+        "なん"
       ],
       "kunyomi": [
         "みなみ"
@@ -409,9 +345,7 @@
       "han_viet": "kinh",
       "meaning_vi": "kinh đô, thủ đô",
       "onyomi": [
-        "きょう",
-        "けい",
-        "きん"
+        "きょう"
       ],
       "kunyomi": [
         "みやこ"
@@ -427,8 +361,7 @@
         "や"
       ],
       "kunyomi": [
-        "よ",
-        "よる"
+        "よ"
       ],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
@@ -436,7 +369,7 @@
       "id": 429,
       "kanji": "料",
       "han_viet": "liệu",
-      "meaning_vi": "đo, lường tính",
+      "meaning_vi": "nguyên liệu, phí",
       "onyomi": [
         "りょう"
       ],
@@ -447,7 +380,7 @@
       "id": 430,
       "kanji": "理",
       "han_viet": "lý",
-      "meaning_vi": "vân, đường vân",
+      "meaning_vi": "lý do, quản lý",
       "onyomi": [
         "り"
       ],
@@ -460,10 +393,9 @@
       "id": 431,
       "kanji": "口",
       "han_viet": "khẩu",
-      "meaning_vi": "mồm, miệng",
+      "meaning_vi": "miệng",
       "onyomi": [
-        "こう",
-        "く"
+        "こう"
       ],
       "kunyomi": [
         "くち"
@@ -476,13 +408,10 @@
       "han_viet": "mục",
       "meaning_vi": "mắt",
       "onyomi": [
-        "もく",
-        "ぼく"
+        "もく"
       ],
       "kunyomi": [
-        "め",
-        "-め",
-        "ま-"
+        "め"
       ],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
@@ -490,15 +419,12 @@
       "id": 433,
       "kanji": "足",
       "han_viet": "túc",
-      "meaning_vi": "chân thú",
+      "meaning_vi": "chân, đủ",
       "onyomi": [
         "そく"
       ],
       "kunyomi": [
-        "あし",
-        "た.りる",
-        "た.る",
-        "た.す"
+        "あし"
       ],
       "source_ref": "Kanji Tập 1 — Unit 15"
     },
@@ -506,7 +432,7 @@
       "id": 434,
       "kanji": "曜",
       "han_viet": "diệu",
-      "meaning_vi": "bóng sáng mặt trời",
+      "meaning_vi": "thứ trong tuần",
       "onyomi": [
         "よう"
       ],
