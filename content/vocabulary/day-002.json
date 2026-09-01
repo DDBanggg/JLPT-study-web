@@ -6,6 +6,54 @@
   "pool_size": 100,
   "items": [
     {
+      "id": 231,
+      "surface": "分かります",
+      "hiragana": "わかります",
+      "kanji": "分かります",
+      "meaning_vi": "hiểu",
+      "examples": [
+        {
+          "jp": "この漢字の意味が分かりますか。",
+          "reading": "このかんじのいみがわかりますか。",
+          "vi": "Bạn có hiểu nghĩa chữ Hán này không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 232,
+      "surface": "あります",
+      "hiragana": "あります",
+      "kanji": null,
+      "meaning_vi": "có; tồn tại (đồ vật)",
+      "examples": [
+        {
+          "jp": "机の上に本があります。",
+          "reading": "つくえのうえにほんがあります。",
+          "vi": "Trên bàn có một quyển sách."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 241,
+      "surface": "います",
+      "hiragana": "います",
+      "kanji": null,
+      "meaning_vi": "có; tồn tại (người, con vật)",
+      "examples": [
+        {
+          "jp": "教室に先生がいます。",
+          "reading": "きょうしつにせんせいがいます。",
+          "vi": "Trong lớp có giáo viên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
       "id": 201,
       "surface": "食べます",
       "hiragana": "たべます",
@@ -32,22 +80,6 @@
           "jp": "毎朝水を飲みます。",
           "reading": "まいあさみずをのみます。",
           "vi": "Mỗi sáng tôi uống nước."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
-    },
-    {
-      "id": 203,
-      "surface": "吸います",
-      "hiragana": "すいます",
-      "kanji": "吸います",
-      "meaning_vi": "hút",
-      "examples": [
-        {
-          "jp": "毎日吸います。",
-          "reading": "まいにちすいます。",
-          "vi": "Mỗi ngày tôi hút."
         }
       ],
       "notes_vi": [],
@@ -128,22 +160,6 @@
           "jp": "駅で切符を買います。",
           "reading": "えきできっぷをかいます。",
           "vi": "Tôi mua vé ở nhà ga."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
-    },
-    {
-      "id": 209,
-      "surface": "撮ります",
-      "hiragana": "とります",
-      "kanji": "撮ります",
-      "meaning_vi": "chụp",
-      "examples": [
-        {
-          "jp": "旅行で写真を撮ります。",
-          "reading": "りょこうでしゃしんをとります。",
-          "vi": "Tôi chụp ảnh khi đi du lịch."
         }
       ],
       "notes_vi": [],
@@ -262,262 +278,6 @@
       "source_ref": "Minna no Nihongo I — Lesson 7"
     },
     {
-      "id": 217,
-      "surface": "かけます",
-      "hiragana": "かけます",
-      "kanji": null,
-      "meaning_vi": "gọi (điện thoại)",
-      "examples": [
-        {
-          "jp": "友達に電話をかけます。",
-          "reading": "ともだちにでんわをかけます。",
-          "vi": "Tôi gọi điện cho bạn."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 218,
-      "surface": "電話",
-      "hiragana": "でんわ",
-      "kanji": "電話",
-      "meaning_vi": "điện thoại",
-      "examples": [
-        {
-          "jp": "これは電話です。",
-          "reading": "これはでんわです。",
-          "vi": "Đây là điện thoại."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 219,
-      "surface": "花",
-      "hiragana": "はな",
-      "kanji": "花",
-      "meaning_vi": "hoa",
-      "examples": [
-        {
-          "jp": "これは花です。",
-          "reading": "これははなです。",
-          "vi": "Đây là hoa."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 220,
-      "surface": "お土産",
-      "hiragana": "おみやげ",
-      "kanji": "お土産",
-      "meaning_vi": "quà lưu niệm",
-      "examples": [
-        {
-          "jp": "これはお土産です。",
-          "reading": "これはおみやげです。",
-          "vi": "Đây là quà lưu niệm."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 221,
-      "surface": "きれい",
-      "hiragana": "きれい",
-      "kanji": null,
-      "meaning_vi": "đẹp; sạch",
-      "examples": [
-        {
-          "jp": "この町はきれいです。",
-          "reading": "このまちはきれいです。",
-          "vi": "Thị trấn này đẹp; sạch."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 222,
-      "surface": "静か",
-      "hiragana": "しずか",
-      "kanji": "静か",
-      "meaning_vi": "yên tĩnh",
-      "examples": [
-        {
-          "jp": "この町は静かです。",
-          "reading": "このまちはしずかです。",
-          "vi": "Thị trấn này yên tĩnh."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 223,
-      "surface": "にぎやか",
-      "hiragana": "にぎやか",
-      "kanji": null,
-      "meaning_vi": "nhộn nhịp",
-      "examples": [
-        {
-          "jp": "この町はにぎやかです。",
-          "reading": "このまちはにぎやかです。",
-          "vi": "Thị trấn này nhộn nhịp."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 224,
-      "surface": "有名",
-      "hiragana": "ゆうめい",
-      "kanji": "有名",
-      "meaning_vi": "nổi tiếng",
-      "examples": [
-        {
-          "jp": "この町は有名です。",
-          "reading": "このまちはゆうめいです。",
-          "vi": "Thị trấn này nổi tiếng."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 225,
-      "surface": "親切",
-      "hiragana": "しんせつ",
-      "kanji": "親切",
-      "meaning_vi": "tốt bụng",
-      "examples": [
-        {
-          "jp": "この町は親切です。",
-          "reading": "このまちはしんせつです。",
-          "vi": "Thị trấn này tốt bụng."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 226,
-      "surface": "元気",
-      "hiragana": "げんき",
-      "kanji": "元気",
-      "meaning_vi": "khỏe; năng động",
-      "examples": [
-        {
-          "jp": "私は元気です。",
-          "reading": "わたしはげんきです。",
-          "vi": "Tôi khỏe."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 227,
-      "surface": "暇",
-      "hiragana": "ひま",
-      "kanji": "暇",
-      "meaning_vi": "rảnh",
-      "examples": [
-        {
-          "jp": "今日は暇です。",
-          "reading": "きょうはひまです。",
-          "vi": "Hôm nay tôi rảnh."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 228,
-      "surface": "便利",
-      "hiragana": "べんり",
-      "kanji": "便利",
-      "meaning_vi": "tiện lợi",
-      "examples": [
-        {
-          "jp": "この町は便利です。",
-          "reading": "このまちはべんりです。",
-          "vi": "Thị trấn này tiện lợi."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 229,
-      "surface": "すてき",
-      "hiragana": "すてき",
-      "kanji": null,
-      "meaning_vi": "tuyệt đẹp",
-      "examples": [
-        {
-          "jp": "この町はすてきです。",
-          "reading": "このまちはすてきです。",
-          "vi": "Thị trấn này tuyệt đẹp."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 230,
-      "surface": "町",
-      "hiragana": "まち",
-      "kanji": "町",
-      "meaning_vi": "thị trấn",
-      "examples": [
-        {
-          "jp": "これは町です。",
-          "reading": "これはまちです。",
-          "vi": "Đây là thị trấn."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 8"
-    },
-    {
-      "id": 231,
-      "surface": "分かります",
-      "hiragana": "わかります",
-      "kanji": "分かります",
-      "meaning_vi": "hiểu",
-      "examples": [
-        {
-          "jp": "毎日分かります。",
-          "reading": "まいにちわかります。",
-          "vi": "Mỗi ngày tôi hiểu."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 232,
-      "surface": "あります",
-      "hiragana": "あります",
-      "kanji": null,
-      "meaning_vi": "có; tồn tại (đồ vật)",
-      "examples": [
-        {
-          "jp": "机の上に本があります。",
-          "reading": "つくえのうえにほんがあります。",
-          "vi": "Trên bàn có một quyển sách."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
       "id": 233,
       "surface": "好き",
       "hiragana": "すき",
@@ -548,118 +308,6 @@
       ],
       "notes_vi": [],
       "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 235,
-      "surface": "上手",
-      "hiragana": "じょうず",
-      "kanji": "上手",
-      "meaning_vi": "giỏi",
-      "examples": [
-        {
-          "jp": "料理が上手です。",
-          "reading": "りょうりがじょうずです。",
-          "vi": "Tôi nấu ăn giỏi."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 236,
-      "surface": "下手",
-      "hiragana": "へた",
-      "kanji": "下手",
-      "meaning_vi": "kém",
-      "examples": [
-        {
-          "jp": "歌が下手です。",
-          "reading": "うたがへたです。",
-          "vi": "Tôi hát dở."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 237,
-      "surface": "料理",
-      "hiragana": "りょうり",
-      "kanji": "料理",
-      "meaning_vi": "món ăn; nấu ăn",
-      "examples": [
-        {
-          "jp": "これは料理です。",
-          "reading": "これはりょうりです。",
-          "vi": "Đây là món ăn; nấu ăn."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 238,
-      "surface": "飲み物",
-      "hiragana": "のみもの",
-      "kanji": "飲み物",
-      "meaning_vi": "đồ uống",
-      "examples": [
-        {
-          "jp": "これは飲み物です。",
-          "reading": "これはのみものです。",
-          "vi": "Đây là đồ uống."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 239,
-      "surface": "スポーツ",
-      "hiragana": "すぽーつ",
-      "kanji": null,
-      "meaning_vi": "thể thao",
-      "examples": [
-        {
-          "jp": "これはスポーツです。",
-          "reading": "これはすぽーつです。",
-          "vi": "Đây là thể thao."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 240,
-      "surface": "野球",
-      "hiragana": "やきゅう",
-      "kanji": "野球",
-      "meaning_vi": "bóng chày",
-      "examples": [
-        {
-          "jp": "これは野球です。",
-          "reading": "これはやきゅうです。",
-          "vi": "Đây là bóng chày."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 241,
-      "surface": "います",
-      "hiragana": "います",
-      "kanji": null,
-      "meaning_vi": "có; tồn tại (người, con vật)",
-      "examples": [
-        {
-          "jp": "教室に先生がいます。",
-          "reading": "きょうしつにせんせいがいます。",
-          "vi": "Trong lớp có giáo viên."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 10"
     },
     {
       "id": 242,
@@ -806,100 +454,100 @@
       "source_ref": "Minna no Nihongo I — Lesson 10"
     },
     {
-      "id": 251,
-      "surface": "ごはん",
-      "hiragana": "ごはん",
-      "kanji": null,
-      "meaning_vi": "cơm; bữa ăn",
+      "id": 291,
+      "surface": "左",
+      "hiragana": "ひだり",
+      "kanji": "左",
+      "meaning_vi": "bên trái",
       "examples": [
         {
-          "jp": "これはごはんです。",
-          "reading": "これはごはんです。",
-          "vi": "Đây là cơm; bữa ăn."
+          "jp": "左に郵便局があります。",
+          "reading": "ひだりにゆうびんきょくがあります。",
+          "vi": "Bên trái có bưu điện."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 10"
     },
     {
-      "id": 252,
-      "surface": "朝ごはん",
-      "hiragana": "あさごはん",
-      "kanji": "朝ごはん",
-      "meaning_vi": "bữa sáng",
+      "id": 218,
+      "surface": "電話",
+      "hiragana": "でんわ",
+      "kanji": "電話",
+      "meaning_vi": "điện thoại",
       "examples": [
         {
-          "jp": "これは朝ごはんです。",
-          "reading": "これはあさごはんです。",
-          "vi": "Đây là bữa sáng."
+          "jp": "これは電話です。",
+          "reading": "これはでんわです。",
+          "vi": "Đây là điện thoại."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 7"
     },
     {
-      "id": 253,
-      "surface": "昼ごはん",
-      "hiragana": "ひるごはん",
-      "kanji": "昼ごはん",
-      "meaning_vi": "bữa trưa",
+      "id": 219,
+      "surface": "花",
+      "hiragana": "はな",
+      "kanji": "花",
+      "meaning_vi": "hoa",
       "examples": [
         {
-          "jp": "これは昼ごはんです。",
-          "reading": "これはひるごはんです。",
-          "vi": "Đây là bữa trưa."
+          "jp": "これは花です。",
+          "reading": "これははなです。",
+          "vi": "Đây là hoa."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 7"
     },
     {
-      "id": 254,
-      "surface": "晩ごはん",
-      "hiragana": "ばんごはん",
-      "kanji": "晩ごはん",
-      "meaning_vi": "bữa tối",
+      "id": 230,
+      "surface": "町",
+      "hiragana": "まち",
+      "kanji": "町",
+      "meaning_vi": "thị trấn",
       "examples": [
         {
-          "jp": "これは晩ごはんです。",
-          "reading": "これはばんごはんです。",
-          "vi": "Đây là bữa tối."
+          "jp": "これは町です。",
+          "reading": "これはまちです。",
+          "vi": "Đây là thị trấn."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 8"
     },
     {
-      "id": 255,
-      "surface": "パン",
-      "hiragana": "ぱん",
-      "kanji": null,
-      "meaning_vi": "bánh mì",
+      "id": 237,
+      "surface": "料理",
+      "hiragana": "りょうり",
+      "kanji": "料理",
+      "meaning_vi": "món ăn; nấu ăn",
       "examples": [
         {
-          "jp": "これはパンです。",
-          "reading": "これはぱんです。",
-          "vi": "Đây là bánh mì."
+          "jp": "これは料理です。",
+          "reading": "これはりょうりです。",
+          "vi": "Đây là món ăn; nấu ăn."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 9"
     },
     {
-      "id": 256,
-      "surface": "卵",
-      "hiragana": "たまご",
-      "kanji": "卵",
-      "meaning_vi": "trứng",
+      "id": 238,
+      "surface": "飲み物",
+      "hiragana": "のみもの",
+      "kanji": "飲み物",
+      "meaning_vi": "đồ uống",
       "examples": [
         {
-          "jp": "これは卵です。",
-          "reading": "これはたまごです。",
-          "vi": "Đây là trứng."
+          "jp": "これは飲み物です。",
+          "reading": "これはのみものです。",
+          "vi": "Đây là đồ uống."
         }
       ],
       "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
+      "source_ref": "Minna no Nihongo I — Lesson 9"
     },
     {
       "id": 257,
@@ -950,22 +598,6 @@
       "source_ref": "Minna no Nihongo I — Lesson 6"
     },
     {
-      "id": 260,
-      "surface": "果物",
-      "hiragana": "くだもの",
-      "kanji": "果物",
-      "meaning_vi": "trái cây",
-      "examples": [
-        {
-          "jp": "これは果物です。",
-          "reading": "これはくだものです。",
-          "vi": "Đây là trái cây."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 6"
-    },
-    {
       "id": 261,
       "surface": "水",
       "hiragana": "みず",
@@ -976,6 +608,502 @@
           "jp": "これは水です。",
           "reading": "これはみずです。",
           "vi": "Đây là nước."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 265,
+      "surface": "手紙",
+      "hiragana": "てがみ",
+      "kanji": "手紙",
+      "meaning_vi": "thư",
+      "examples": [
+        {
+          "jp": "これは手紙です。",
+          "reading": "これはてがみです。",
+          "vi": "Đây là thư."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 266,
+      "surface": "写真",
+      "hiragana": "しゃしん",
+      "kanji": "写真",
+      "meaning_vi": "ảnh",
+      "examples": [
+        {
+          "jp": "これは写真です。",
+          "reading": "これはしゃしんです。",
+          "vi": "Đây là ảnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 268,
+      "surface": "お金",
+      "hiragana": "おかね",
+      "kanji": "お金",
+      "meaning_vi": "tiền",
+      "examples": [
+        {
+          "jp": "これはお金です。",
+          "reading": "これはおかねです。",
+          "vi": "Đây là tiền."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 280,
+      "surface": "音楽",
+      "hiragana": "おんがく",
+      "kanji": "音楽",
+      "meaning_vi": "âm nhạc",
+      "examples": [
+        {
+          "jp": "これは音楽です。",
+          "reading": "これはおんがくです。",
+          "vi": "Đây là âm nhạc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 288,
+      "surface": "子供",
+      "hiragana": "こども",
+      "kanji": "子供",
+      "meaning_vi": "trẻ em",
+      "examples": [
+        {
+          "jp": "明日、子供に会います。",
+          "reading": "あした、こどもにあいます。",
+          "vi": "Ngày mai tôi gặp trẻ em."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 294,
+      "surface": "犬",
+      "hiragana": "いぬ",
+      "kanji": "犬",
+      "meaning_vi": "chó",
+      "examples": [
+        {
+          "jp": "これは犬です。",
+          "reading": "これはいぬです。",
+          "vi": "Đây là chó."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 221,
+      "surface": "きれい",
+      "hiragana": "きれい",
+      "kanji": null,
+      "meaning_vi": "đẹp; sạch",
+      "examples": [
+        {
+          "jp": "この町はきれいです。",
+          "reading": "このまちはきれいです。",
+          "vi": "Thị trấn này đẹp; sạch."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 222,
+      "surface": "静か",
+      "hiragana": "しずか",
+      "kanji": "静か",
+      "meaning_vi": "yên tĩnh",
+      "examples": [
+        {
+          "jp": "この町は静かです。",
+          "reading": "このまちはしずかです。",
+          "vi": "Thị trấn này yên tĩnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 224,
+      "surface": "有名",
+      "hiragana": "ゆうめい",
+      "kanji": "有名",
+      "meaning_vi": "nổi tiếng",
+      "examples": [
+        {
+          "jp": "この町は有名です。",
+          "reading": "このまちはゆうめいです。",
+          "vi": "Thị trấn này nổi tiếng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 225,
+      "surface": "親切",
+      "hiragana": "しんせつ",
+      "kanji": "親切",
+      "meaning_vi": "tốt bụng",
+      "examples": [
+        {
+          "jp": "この町は親切です。",
+          "reading": "このまちはしんせつです。",
+          "vi": "Thị trấn này tốt bụng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 226,
+      "surface": "元気",
+      "hiragana": "げんき",
+      "kanji": "元気",
+      "meaning_vi": "khỏe; năng động",
+      "examples": [
+        {
+          "jp": "私は元気です。",
+          "reading": "わたしはげんきです。",
+          "vi": "Tôi khỏe."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 227,
+      "surface": "暇",
+      "hiragana": "ひま",
+      "kanji": "暇",
+      "meaning_vi": "rảnh",
+      "examples": [
+        {
+          "jp": "今日は暇です。",
+          "reading": "きょうはひまです。",
+          "vi": "Hôm nay tôi rảnh."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 295,
+      "surface": "猫",
+      "hiragana": "ねこ",
+      "kanji": "猫",
+      "meaning_vi": "mèo",
+      "examples": [
+        {
+          "jp": "これは猫です。",
+          "reading": "これはねこです。",
+          "vi": "Đây là mèo."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 228,
+      "surface": "便利",
+      "hiragana": "べんり",
+      "kanji": "便利",
+      "meaning_vi": "tiện lợi",
+      "examples": [
+        {
+          "jp": "この町は便利です。",
+          "reading": "このまちはべんりです。",
+          "vi": "Thị trấn này tiện lợi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 203,
+      "surface": "吸います",
+      "hiragana": "すいます",
+      "kanji": "吸います",
+      "meaning_vi": "hút",
+      "examples": [
+        {
+          "jp": "父はたばこを吸いません。",
+          "reading": "ちちはたばこをすいません。",
+          "vi": "Bố tôi không hút thuốc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 209,
+      "surface": "撮ります",
+      "hiragana": "とります",
+      "kanji": "撮ります",
+      "meaning_vi": "chụp",
+      "examples": [
+        {
+          "jp": "旅行で写真を撮ります。",
+          "reading": "りょこうでしゃしんをとります。",
+          "vi": "Tôi chụp ảnh khi đi du lịch."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 217,
+      "surface": "かけます",
+      "hiragana": "かけます",
+      "kanji": null,
+      "meaning_vi": "gọi (điện thoại)",
+      "examples": [
+        {
+          "jp": "友達に電話をかけます。",
+          "reading": "ともだちにでんわをかけます。",
+          "vi": "Tôi gọi điện cho bạn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 220,
+      "surface": "お土産",
+      "hiragana": "おみやげ",
+      "kanji": "お土産",
+      "meaning_vi": "quà lưu niệm",
+      "examples": [
+        {
+          "jp": "これはお土産です。",
+          "reading": "これはおみやげです。",
+          "vi": "Đây là quà lưu niệm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 7"
+    },
+    {
+      "id": 223,
+      "surface": "にぎやか",
+      "hiragana": "にぎやか",
+      "kanji": null,
+      "meaning_vi": "nhộn nhịp",
+      "examples": [
+        {
+          "jp": "この町はにぎやかです。",
+          "reading": "このまちはにぎやかです。",
+          "vi": "Thị trấn này nhộn nhịp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 229,
+      "surface": "すてき",
+      "hiragana": "すてき",
+      "kanji": null,
+      "meaning_vi": "tuyệt đẹp",
+      "examples": [
+        {
+          "jp": "この町はすてきです。",
+          "reading": "このまちはすてきです。",
+          "vi": "Thị trấn này tuyệt đẹp."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 8"
+    },
+    {
+      "id": 235,
+      "surface": "上手",
+      "hiragana": "じょうず",
+      "kanji": "上手",
+      "meaning_vi": "giỏi",
+      "examples": [
+        {
+          "jp": "料理が上手です。",
+          "reading": "りょうりがじょうずです。",
+          "vi": "Tôi nấu ăn giỏi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 236,
+      "surface": "下手",
+      "hiragana": "へた",
+      "kanji": "下手",
+      "meaning_vi": "kém",
+      "examples": [
+        {
+          "jp": "歌が下手です。",
+          "reading": "うたがへたです。",
+          "vi": "Tôi hát dở."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 239,
+      "surface": "スポーツ",
+      "hiragana": "すぽーつ",
+      "kanji": null,
+      "meaning_vi": "thể thao",
+      "examples": [
+        {
+          "jp": "これはスポーツです。",
+          "reading": "これはすぽーつです。",
+          "vi": "Đây là thể thao."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 240,
+      "surface": "野球",
+      "hiragana": "やきゅう",
+      "kanji": "野球",
+      "meaning_vi": "bóng chày",
+      "examples": [
+        {
+          "jp": "これは野球です。",
+          "reading": "これはやきゅうです。",
+          "vi": "Đây là bóng chày."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
+    },
+    {
+      "id": 251,
+      "surface": "ごはん",
+      "hiragana": "ごはん",
+      "kanji": null,
+      "meaning_vi": "cơm; bữa ăn",
+      "examples": [
+        {
+          "jp": "朝、ごはんを食べます。",
+          "reading": "あさ、ごはんをたべます。",
+          "vi": "Buổi sáng tôi ăn cơm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 252,
+      "surface": "朝ごはん",
+      "hiragana": "あさごはん",
+      "kanji": "朝ごはん",
+      "meaning_vi": "bữa sáng",
+      "examples": [
+        {
+          "jp": "朝ごはんはパンです。",
+          "reading": "あさごはんはパンです。",
+          "vi": "Bữa sáng là bánh mì."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 253,
+      "surface": "昼ごはん",
+      "hiragana": "ひるごはん",
+      "kanji": "昼ごはん",
+      "meaning_vi": "bữa trưa",
+      "examples": [
+        {
+          "jp": "昼ごはんを食べに行きませんか。",
+          "reading": "ひるごはんをたべにいきませんか。",
+          "vi": "Bạn đi ăn trưa cùng tôi không?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 254,
+      "surface": "晩ごはん",
+      "hiragana": "ばんごはん",
+      "kanji": "晩ごはん",
+      "meaning_vi": "bữa tối",
+      "examples": [
+        {
+          "jp": "晩ごはんは何を食べますか。",
+          "reading": "ばんごはんはなにをたべますか。",
+          "vi": "Bữa tối bạn ăn gì?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 255,
+      "surface": "パン",
+      "hiragana": "ぱん",
+      "kanji": null,
+      "meaning_vi": "bánh mì",
+      "examples": [
+        {
+          "jp": "これはパンです。",
+          "reading": "これはぱんです。",
+          "vi": "Đây là bánh mì."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 256,
+      "surface": "卵",
+      "hiragana": "たまご",
+      "kanji": "卵",
+      "meaning_vi": "trứng",
+      "examples": [
+        {
+          "jp": "これは卵です。",
+          "reading": "これはたまごです。",
+          "vi": "Đây là trứng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 6"
+    },
+    {
+      "id": 260,
+      "surface": "果物",
+      "hiragana": "くだもの",
+      "kanji": "果物",
+      "meaning_vi": "trái cây",
+      "examples": [
+        {
+          "jp": "これは果物です。",
+          "reading": "これはくだものです。",
+          "vi": "Đây là trái cây."
         }
       ],
       "notes_vi": [],
@@ -1030,38 +1158,6 @@
       "source_ref": "Minna no Nihongo I — Lesson 7"
     },
     {
-      "id": 265,
-      "surface": "手紙",
-      "hiragana": "てがみ",
-      "kanji": "手紙",
-      "meaning_vi": "thư",
-      "examples": [
-        {
-          "jp": "これは手紙です。",
-          "reading": "これはてがみです。",
-          "vi": "Đây là thư."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 266,
-      "surface": "写真",
-      "hiragana": "しゃしん",
-      "kanji": "写真",
-      "meaning_vi": "ảnh",
-      "examples": [
-        {
-          "jp": "これは写真です。",
-          "reading": "これはしゃしんです。",
-          "vi": "Đây là ảnh."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
       "id": 267,
       "surface": "ビデオ",
       "hiragana": "びでお",
@@ -1072,22 +1168,6 @@
           "jp": "これはビデオです。",
           "reading": "これはびでおです。",
           "vi": "Đây là video."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 7"
-    },
-    {
-      "id": 268,
-      "surface": "お金",
-      "hiragana": "おかね",
-      "kanji": "お金",
-      "meaning_vi": "tiền",
-      "examples": [
-        {
-          "jp": "これはお金です。",
-          "reading": "これはおかねです。",
-          "vi": "Đây là tiền."
         }
       ],
       "notes_vi": [],
@@ -1270,22 +1350,6 @@
       "source_ref": "Minna no Nihongo I — Lesson 8"
     },
     {
-      "id": 280,
-      "surface": "音楽",
-      "hiragana": "おんがく",
-      "kanji": "音楽",
-      "meaning_vi": "âm nhạc",
-      "examples": [
-        {
-          "jp": "これは音楽です。",
-          "reading": "これはおんがくです。",
-          "vi": "Đây là âm nhạc."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
       "id": 281,
       "surface": "歌",
       "hiragana": "うた",
@@ -1296,22 +1360,6 @@
           "jp": "これは歌です。",
           "reading": "これはうたです。",
           "vi": "Đây là bài hát."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 282,
-      "surface": "歌舞伎",
-      "hiragana": "かぶき",
-      "kanji": "歌舞伎",
-      "meaning_vi": "kịch Kabuki",
-      "examples": [
-        {
-          "jp": "これは歌舞伎です。",
-          "reading": "これはかぶきです。",
-          "vi": "Đây là kịch Kabuki."
         }
       ],
       "notes_vi": [],
@@ -1373,9 +1421,9 @@
       "meaning_vi": "lời hứa; cuộc hẹn",
       "examples": [
         {
-          "jp": "私は約束について話します。",
-          "reading": "わたしはやくそくについてはなします。",
-          "vi": "Tôi nói về lời hứa; cuộc hẹn."
+          "jp": "明日の約束を覚えています。",
+          "reading": "あしたのやくそくをおぼえています。",
+          "vi": "Tôi nhớ cuộc hẹn ngày mai."
         }
       ],
       "notes_vi": [],
@@ -1389,25 +1437,9 @@
       "meaning_vi": "việc cần làm",
       "examples": [
         {
-          "jp": "私は用事について話します。",
-          "reading": "わたしはようじについてはなします。",
-          "vi": "Tôi nói về việc cần làm."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 9"
-    },
-    {
-      "id": 288,
-      "surface": "子供",
-      "hiragana": "こども",
-      "kanji": "子供",
-      "meaning_vi": "trẻ em",
-      "examples": [
-        {
-          "jp": "子供に会います。",
-          "reading": "こどもにあいます。",
-          "vi": "Tôi gặp trẻ em."
+          "jp": "用事があります。",
+          "reading": "ようじがあります。",
+          "vi": "Có việc cần làm."
         }
       ],
       "notes_vi": [],
@@ -1446,22 +1478,6 @@
       "source_ref": "Minna no Nihongo I — Lesson 9"
     },
     {
-      "id": 291,
-      "surface": "左",
-      "hiragana": "ひだり",
-      "kanji": "左",
-      "meaning_vi": "bên trái",
-      "examples": [
-        {
-          "jp": "左に郵便局があります。",
-          "reading": "ひだりにゆうびんきょくがあります。",
-          "vi": "Bên trái có bưu điện."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 10"
-    },
-    {
       "id": 292,
       "surface": "男の人",
       "hiragana": "おとこのひと",
@@ -1488,38 +1504,6 @@
           "jp": "あの女の人は先生です。",
           "reading": "あのおんなのひとはせんせいです。",
           "vi": "Người phụ nữ kia là giáo viên."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 10"
-    },
-    {
-      "id": 294,
-      "surface": "犬",
-      "hiragana": "いぬ",
-      "kanji": "犬",
-      "meaning_vi": "chó",
-      "examples": [
-        {
-          "jp": "これは犬です。",
-          "reading": "これはいぬです。",
-          "vi": "Đây là chó."
-        }
-      ],
-      "notes_vi": [],
-      "source_ref": "Minna no Nihongo I — Lesson 10"
-    },
-    {
-      "id": 295,
-      "surface": "猫",
-      "hiragana": "ねこ",
-      "kanji": "猫",
-      "meaning_vi": "mèo",
-      "examples": [
-        {
-          "jp": "これは猫です。",
-          "reading": "これはねこです。",
-          "vi": "Đây là mèo."
         }
       ],
       "notes_vi": [],
@@ -1604,6 +1588,22 @@
       ],
       "notes_vi": [],
       "source_ref": "Minna no Nihongo I — Lesson 10"
+    },
+    {
+      "id": 282,
+      "surface": "歌舞伎",
+      "hiragana": "かぶき",
+      "kanji": "歌舞伎",
+      "meaning_vi": "kịch Kabuki",
+      "examples": [
+        {
+          "jp": "これは歌舞伎です。",
+          "reading": "これはかぶきです。",
+          "vi": "Đây là kịch Kabuki."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Minna no Nihongo I — Lesson 9"
     }
   ]
 }
