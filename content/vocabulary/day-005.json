@@ -477,9 +477,9 @@
       "meaning_vi": "đúng",
       "examples": [
         {
-          "jp": "このかばんは正しいです。",
-          "reading": "このかばんはただしいです。",
-          "vi": "Chiếc túi này đúng."
+          "jp": "この答えは正しいです。",
+          "reading": "このこたえはただしいです。",
+          "vi": "Đáp án này đúng."
         }
       ],
       "notes_vi": [],
@@ -973,9 +973,9 @@
       "meaning_vi": "quà chúc mừng",
       "examples": [
         {
-          "jp": "このかばんはお祝いです。",
-          "reading": "このかばんはおいわいです。",
-          "vi": "Chiếc túi này quà chúc mừng."
+          "jp": "友達の結婚のお祝いをします。",
+          "reading": "ともだちのけっこんのおいわいをします。",
+          "vi": "Tôi chúc mừng đám cưới của bạn."
         }
       ],
       "notes_vi": [],
@@ -1181,9 +1181,9 @@
       "meaning_vi": "độc thân",
       "examples": [
         {
-          "jp": "これは独身です。",
-          "reading": "これはどくしんです。",
-          "vi": "Đây là độc thân."
+          "jp": "兄はまだ独身です。",
+          "reading": "あにはまだどくしんです。",
+          "vi": "Anh trai tôi vẫn độc thân."
         }
       ],
       "notes_vi": [],
@@ -1373,9 +1373,9 @@
       "meaning_vi": "vắng nhà",
       "examples": [
         {
-          "jp": "これは留守です。",
-          "reading": "これはるすです。",
-          "vi": "Đây là vắng nhà."
+          "jp": "田中さんは留守です。",
+          "reading": "たなかさんはるすです。",
+          "vi": "Anh Tanaka vắng nhà."
         }
       ],
       "notes_vi": [],
@@ -1597,9 +1597,9 @@
       "meaning_vi": "trăm triệu",
       "examples": [
         {
-          "jp": "これは億です。",
-          "reading": "これはおくです。",
-          "vi": "Đây là trăm triệu."
+          "jp": "日本の人口は一億人以上です。",
+          "reading": "にほんのじんこうはいちおくにんいじょうです。",
+          "vi": "Dân số Nhật Bản hơn một trăm triệu người."
         }
       ],
       "notes_vi": [],

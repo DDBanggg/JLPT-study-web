@@ -765,9 +765,9 @@
       "meaning_vi": "tốt bụng",
       "examples": [
         {
-          "jp": "この町は親切です。",
-          "reading": "このまちはしんせつです。",
-          "vi": "Thị trấn này tốt bụng."
+          "jp": "この町の人は親切です。",
+          "reading": "このまちのひとはしんせつです。",
+          "vi": "Người ở thị trấn này tốt bụng."
         }
       ],
       "notes_vi": [],
@@ -1245,9 +1245,9 @@
       "meaning_vi": "khó",
       "examples": [
         {
-          "jp": "このかばんは難しいです。",
-          "reading": "このかばんはむずかしいです。",
-          "vi": "Chiếc túi này khó."
+          "jp": "この問題は難しいです。",
+          "reading": "このもんだいはむずかしいです。",
+          "vi": "Vấn đề này khó."
         }
       ],
       "notes_vi": [],
@@ -1261,9 +1261,9 @@
       "meaning_vi": "dễ",
       "examples": [
         {
-          "jp": "このかばんは易しいです。",
-          "reading": "このかばんはやさしいです。",
-          "vi": "Chiếc túi này dễ."
+          "jp": "この問題は易しいです。",
+          "reading": "このもんだいはやさしいです。",
+          "vi": "Vấn đề này dễ."
         }
       ],
       "notes_vi": [],
@@ -1309,9 +1309,9 @@
       "meaning_vi": "bận",
       "examples": [
         {
-          "jp": "このかばんは忙しいです。",
-          "reading": "このかばんはいそがしいです。",
-          "vi": "Chiếc túi này bận."
+          "jp": "今日は仕事で忙しいです。",
+          "reading": "きょうはしごとでいそがしいです。",
+          "vi": "Hôm nay tôi bận vì công việc."
         }
       ],
       "notes_vi": [],

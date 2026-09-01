@@ -349,9 +349,9 @@
       "meaning_vi": "buồn ngủ",
       "examples": [
         {
-          "jp": "私は眠いです。",
-          "reading": "わたしはねむいです。",
-          "vi": "Tôi cảm thấy buồn ngủ."
+          "jp": "昨日あまり寝なかったから眠いです。",
+          "reading": "きのうあまりねなかったからねむいです。",
+          "vi": "Vì hôm qua ngủ không nhiều nên tôi buồn ngủ."
         }
       ],
       "notes_vi": [],
@@ -365,9 +365,9 @@
       "meaning_vi": "mạnh",
       "examples": [
         {
-          "jp": "このかばんは強いです。",
-          "reading": "このかばんはつよいです。",
-          "vi": "Chiếc túi này mạnh."
+          "jp": "父は力が強いです。",
+          "reading": "ちちはちからがつよいです。",
+          "vi": "Bố tôi khỏe."
         }
       ],
       "notes_vi": [],
@@ -381,9 +381,9 @@
       "meaning_vi": "yếu",
       "examples": [
         {
-          "jp": "このかばんは弱いです。",
-          "reading": "このかばんはよわいです。",
-          "vi": "Chiếc túi này yếu."
+          "jp": "私はお酒に弱いです。",
+          "reading": "わたしはおさけによわいです。",
+          "vi": "Tôi yếu rượu."
         }
       ],
       "notes_vi": [],
@@ -397,9 +397,9 @@
       "meaning_vi": "nguy hiểm",
       "examples": [
         {
-          "jp": "このかばんは危ないです。",
-          "reading": "このかばんはあぶないです。",
-          "vi": "Chiếc túi này nguy hiểm."
+          "jp": "この道は夜、危ないです。",
+          "reading": "このみちはよる、あぶないです。",
+          "vi": "Con đường này nguy hiểm vào ban đêm."
         }
       ],
       "notes_vi": [],
@@ -877,9 +877,9 @@
       "meaning_vi": "chế độ ăn kiêng",
       "examples": [
         {
-          "jp": "これはダイエットです。",
-          "reading": "これはだいえっとです。",
-          "vi": "Đây là chế độ ăn kiêng."
+          "jp": "健康のためにダイエットをしています。",
+          "reading": "けんこうのためにだいえっとをしています。",
+          "vi": "Tôi đang ăn kiêng vì sức khỏe."
         }
       ],
       "notes_vi": [],
@@ -1005,9 +1005,9 @@
       "meaning_vi": "tàu thường; thông thường",
       "examples": [
         {
-          "jp": "これは普通です。",
-          "reading": "これはふつうです。",
-          "vi": "Đây là tàu thường; thông thường."
+          "jp": "これは普通の電車です。",
+          "reading": "これはふつうのでんしゃです。",
+          "vi": "Chuyến tàu này là tàu thường."
         }
       ],
       "notes_vi": [],

@@ -285,9 +285,9 @@
       "meaning_vi": "quan trọng",
       "examples": [
         {
-          "jp": "これは大切です。",
-          "reading": "これはたいせつです。",
-          "vi": "Đây là quan trọng."
+          "jp": "家族は私にとって大切です。",
+          "reading": "かぞくはわたしにとってたいせつです。",
+          "vi": "Gia đình rất quan trọng đối với tôi."
         }
       ],
       "notes_vi": [],
@@ -301,9 +301,9 @@
       "meaning_vi": "cô đơn",
       "examples": [
         {
-          "jp": "私は寂しいです。",
-          "reading": "わたしはさびしいです。",
-          "vi": "Tôi cảm thấy cô đơn."
+          "jp": "一人だから寂しいです。",
+          "reading": "ひとりだからさびしいです。",
+          "vi": "Vì ở một mình nên tôi cô đơn."
         }
       ],
       "notes_vi": [],
@@ -317,9 +317,9 @@
       "meaning_vi": "buồn",
       "examples": [
         {
-          "jp": "私は悲しいです。",
-          "reading": "わたしはかなしいです。",
-          "vi": "Tôi cảm thấy buồn."
+          "jp": "友達が帰って悲しいです。",
+          "reading": "ともだちがかえってかなしいです。",
+          "vi": "Tôi buồn vì bạn đã về."
         }
       ],
       "notes_vi": [],
@@ -333,9 +333,9 @@
       "meaning_vi": "vui mừng",
       "examples": [
         {
-          "jp": "私は嬉しいです。",
-          "reading": "わたしはうれしいです。",
-          "vi": "Tôi cảm thấy vui mừng."
+          "jp": "友達に会えて嬉しいです。",
+          "reading": "ともだちにあえてうれしいです。",
+          "vi": "Tôi vui vì được gặp bạn."
         }
       ],
       "notes_vi": [],
@@ -1101,9 +1101,9 @@
       "meaning_vi": "thăm người bệnh",
       "examples": [
         {
-          "jp": "このかばんはお見舞いです。",
-          "reading": "このかばんはおみまいです。",
-          "vi": "Chiếc túi này thăm người bệnh."
+          "jp": "病気の友達のお見舞いに行きます。",
+          "reading": "びょうきのともだちのおみまいにいきます。",
+          "vi": "Tôi đi thăm người bạn bị ốm."
         }
       ],
       "notes_vi": [],
@@ -1133,9 +1133,9 @@
       "meaning_vi": "quà chúc mừng",
       "examples": [
         {
-          "jp": "このかばんはお祝いです。",
-          "reading": "このかばんはおいわいです。",
-          "vi": "Chiếc túi này quà chúc mừng."
+          "jp": "友達の結婚のお祝いをします。",
+          "reading": "ともだちのけっこんのおいわいをします。",
+          "vi": "Tôi chúc mừng đám cưới của bạn."
         }
       ],
       "notes_vi": [],
@@ -1149,9 +1149,9 @@
       "meaning_vi": "sự giúp đỡ",
       "examples": [
         {
-          "jp": "このかばんは手伝いです。",
-          "reading": "このかばんはてつだいです。",
-          "vi": "Chiếc túi này sự giúp đỡ."
+          "jp": "母の手伝いをします。",
+          "reading": "ははのてつだいをします。",
+          "vi": "Tôi giúp mẹ."
         }
       ],
       "notes_vi": [],
@@ -1389,9 +1389,9 @@
       "meaning_vi": "khổ sở; khó chịu",
       "examples": [
         {
-          "jp": "私は苦しいです。",
-          "reading": "わたしはくるしいです。",
-          "vi": "Tôi cảm thấy khổ sở; khó chịu."
+          "jp": "病気で体が苦しいです。",
+          "reading": "びょうきでからだがくるしいです。",
+          "vi": "Tôi khó chịu trong người vì bị bệnh."
         }
       ],
       "notes_vi": [],

@@ -797,9 +797,9 @@
       "meaning_vi": "mỗi sáng",
       "examples": [
         {
-          "jp": "毎朝に学校へ行きます。",
-          "reading": "まいあさにがっこうへいきます。",
-          "vi": "Tôi đi học vào mỗi sáng."
+          "jp": "毎朝、ジョギングをします。",
+          "reading": "まいあさ、じょぎんぐをします。",
+          "vi": "Mỗi sáng tôi chạy bộ."
         }
       ],
       "notes_vi": [],
@@ -941,9 +941,9 @@
       "meaning_vi": "mỗi tối",
       "examples": [
         {
-          "jp": "毎晩に学校へ行きます。",
-          "reading": "まいばんにがっこうへいきます。",
-          "vi": "Tôi đi học vào mỗi tối."
+          "jp": "毎晩、十一時に寝ます。",
+          "reading": "まいばん、じゅういちじにねます。",
+          "vi": "Mỗi tối tôi ngủ lúc mười một giờ."
         }
       ],
       "notes_vi": [],
@@ -973,9 +973,9 @@
       "meaning_vi": "công tác",
       "examples": [
         {
-          "jp": "これは出張です。",
-          "reading": "これはしゅっちょうです。",
-          "vi": "Đây là công tác."
+          "jp": "来週、大阪へ出張します。",
+          "reading": "らいしゅう、おおさかへしゅっちょうします。",
+          "vi": "Tuần sau tôi đi công tác Osaka."
         }
       ],
       "notes_vi": [],
@@ -1053,9 +1053,9 @@
       "meaning_vi": "việc dọn dẹp",
       "examples": [
         {
-          "jp": "これは片づけです。",
-          "reading": "これはかたづけです。",
-          "vi": "Đây là việc dọn dẹp."
+          "jp": "部屋の片づけをします。",
+          "reading": "へやのかたづけをします。",
+          "vi": "Tôi dọn dẹp phòng."
         }
       ],
       "notes_vi": [],
@@ -1149,9 +1149,9 @@
       "meaning_vi": "đổi tiền",
       "examples": [
         {
-          "jp": "これは両替です。",
-          "reading": "これはりょうがえです。",
-          "vi": "Đây là đổi tiền."
+          "jp": "空港でドルを円に両替します。",
+          "reading": "くうこうでどるをえんにりょうがえします。",
+          "vi": "Tôi đổi đô la sang yên ở sân bay."
         }
       ],
       "notes_vi": [],
@@ -1293,9 +1293,9 @@
       "meaning_vi": "bận rộn",
       "examples": [
         {
-          "jp": "このかばんは忙しいです。",
-          "reading": "このかばんはいそがしいです。",
-          "vi": "Chiếc túi này bận rộn."
+          "jp": "父は仕事で忙しいです。",
+          "reading": "ちちはしごとでいそがしいです。",
+          "vi": "Bố tôi bận vì công việc."
         }
       ],
       "notes_vi": [],

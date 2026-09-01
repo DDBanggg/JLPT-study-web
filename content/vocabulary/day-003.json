@@ -365,9 +365,9 @@
       "meaning_vi": "xấu",
       "examples": [
         {
-          "jp": "このかばんは悪いです。",
-          "reading": "このかばんはわるいです。",
-          "vi": "Chiếc túi này xấu."
+          "jp": "今日は天気が悪いです。",
+          "reading": "きょうはてんきがわるいです。",
+          "vi": "Hôm nay thời tiết xấu."
         }
       ],
       "notes_vi": [],
@@ -381,9 +381,9 @@
       "meaning_vi": "ngon",
       "examples": [
         {
-          "jp": "私はおいしいです。",
-          "reading": "わたしはおいしいです。",
-          "vi": "Tôi cảm thấy ngon."
+          "jp": "母の料理はおいしいです。",
+          "reading": "ははのりょうりはおいしいです。",
+          "vi": "Món ăn của mẹ tôi rất ngon."
         }
       ],
       "notes_vi": [],
@@ -397,9 +397,9 @@
       "meaning_vi": "vui",
       "examples": [
         {
-          "jp": "私は楽しいです。",
-          "reading": "わたしはたのしいです。",
-          "vi": "Tôi cảm thấy vui."
+          "jp": "友達と話すのは楽しいです。",
+          "reading": "ともだちとはなすのはたのしいです。",
+          "vi": "Nói chuyện với bạn rất vui."
         }
       ],
       "notes_vi": [],
@@ -877,9 +877,9 @@
       "meaning_vi": "nóng (thời tiết)",
       "examples": [
         {
-          "jp": "このかばんは暑いです。",
-          "reading": "このかばんはあついです。",
-          "vi": "Chiếc túi này nóng (thời tiết)."
+          "jp": "今日はとても暑いです。",
+          "reading": "きょうはとてもあついです。",
+          "vi": "Hôm nay rất nóng."
         }
       ],
       "notes_vi": [],
@@ -893,9 +893,9 @@
       "meaning_vi": "lạnh (thời tiết)",
       "examples": [
         {
-          "jp": "このかばんは寒いです。",
-          "reading": "このかばんはさむいです。",
-          "vi": "Chiếc túi này lạnh (thời tiết)."
+          "jp": "北海道は冬に寒いです。",
+          "reading": "ほっかいどうはふゆにさむいです。",
+          "vi": "Hokkaido lạnh vào mùa đông."
         }
       ],
       "notes_vi": [],
@@ -1021,9 +1021,9 @@
       "meaning_vi": "mát mẻ",
       "examples": [
         {
-          "jp": "このかばんは涼しいです。",
-          "reading": "このかばんはすずしいです。",
-          "vi": "Chiếc túi này mát mẻ."
+          "jp": "秋は涼しいです。",
+          "reading": "あきはすずしいです。",
+          "vi": "Mùa thu mát mẻ."
         }
       ],
       "notes_vi": [],
@@ -1037,9 +1037,9 @@
       "meaning_vi": "ấm áp",
       "examples": [
         {
-          "jp": "このかばんは暖かいです。",
-          "reading": "このかばんはあたたかいです。",
-          "vi": "Chiếc túi này ấm áp."
+          "jp": "今日は暖かいです。",
+          "reading": "きょうはあたたかいです。",
+          "vi": "Hôm nay ấm áp."
         }
       ],
       "notes_vi": [],
@@ -1069,9 +1069,9 @@
       "meaning_vi": "khó",
       "examples": [
         {
-          "jp": "このかばんは難しいです。",
-          "reading": "このかばんはむずかしいです。",
-          "vi": "Chiếc túi này khó."
+          "jp": "この漢字は難しいです。",
+          "reading": "このかんじはむずかしいです。",
+          "vi": "Chữ Hán này khó."
         }
       ],
       "notes_vi": [],
@@ -1085,9 +1085,9 @@
       "meaning_vi": "dễ",
       "examples": [
         {
-          "jp": "このかばんは易しいです。",
-          "reading": "このかばんはやさしいです。",
-          "vi": "Chiếc túi này dễ."
+          "jp": "この漢字は易しいです。",
+          "reading": "このかんじはやさしいです。",
+          "vi": "Chữ Hán này dễ."
         }
       ],
       "notes_vi": [],
@@ -1101,9 +1101,9 @@
       "meaning_vi": "cao; đắt",
       "examples": [
         {
-          "jp": "このかばんは高いです。",
-          "reading": "このかばんはたかいです。",
-          "vi": "Chiếc túi này cao; đắt."
+          "jp": "この山は高いです。",
+          "reading": "このやまはたかいです。",
+          "vi": "Ngọn núi này cao."
         }
       ],
       "notes_vi": [],
@@ -1117,9 +1117,9 @@
       "meaning_vi": "rẻ",
       "examples": [
         {
-          "jp": "このかばんは安いです。",
-          "reading": "このかばんはやすいです。",
-          "vi": "Chiếc túi này rẻ."
+          "jp": "この店の野菜は安いです。",
+          "reading": "このみせのやさいはやすいです。",
+          "vi": "Rau ở cửa hàng này rẻ."
         }
       ],
       "notes_vi": [],
@@ -1133,9 +1133,9 @@
       "meaning_vi": "trắng",
       "examples": [
         {
-          "jp": "このかばんは白いです。",
-          "reading": "このかばんはしろいです。",
-          "vi": "Chiếc túi này trắng."
+          "jp": "この紙は白いです。",
+          "reading": "このかみはしろいです。",
+          "vi": "Tờ giấy này màu trắng."
         }
       ],
       "notes_vi": [],

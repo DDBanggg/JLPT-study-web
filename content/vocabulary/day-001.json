@@ -877,9 +877,9 @@
       "meaning_vi": "buổi sáng",
       "examples": [
         {
-          "jp": "午前に学校へ行きます。",
-          "reading": "ごぜんにがっこうへいきます。",
-          "vi": "Tôi đi học vào buổi sáng."
+          "jp": "午前中に授業があります。",
+          "reading": "ごぜんちゅうにじゅぎょうがあります。",
+          "vi": "Buổi sáng có giờ học."
         }
       ],
       "notes_vi": [],
@@ -893,9 +893,9 @@
       "meaning_vi": "buổi chiều",
       "examples": [
         {
-          "jp": "午後に学校へ行きます。",
-          "reading": "ごごにがっこうへいきます。",
-          "vi": "Tôi đi học vào buổi chiều."
+          "jp": "午後、図書館で勉強します。",
+          "reading": "ごご、としょかんでべんきょうします。",
+          "vi": "Buổi chiều tôi học ở thư viện."
         }
       ],
       "notes_vi": [],
@@ -1053,9 +1053,9 @@
       "meaning_vi": "nước Mỹ",
       "examples": [
         {
-          "jp": "これはアメリカです。",
-          "reading": "これはあめりかです。",
-          "vi": "Đây là nước Mỹ."
+          "jp": "アメリカから来ました。",
+          "reading": "あめりかからきました。",
+          "vi": "Tôi đến từ Mỹ."
         }
       ],
       "notes_vi": [],
@@ -1213,9 +1213,9 @@
       "meaning_vi": "đất nước",
       "examples": [
         {
-          "jp": "これは国です。",
-          "reading": "これはくにです。",
-          "vi": "Đây là đất nước."
+          "jp": "日本は島国です。",
+          "reading": "にほんはしまぐにです。",
+          "vi": "Nhật Bản là một quốc đảo."
         }
       ],
       "notes_vi": [],
@@ -1229,9 +1229,9 @@
       "meaning_vi": "nhà",
       "examples": [
         {
-          "jp": "これはうちです。",
-          "reading": "これはうちです。",
-          "vi": "Đây là nhà."
+          "jp": "うちは駅の近くです。",
+          "reading": "うちはえきのちかくです。",
+          "vi": "Nhà tôi ở gần ga."
         }
       ],
       "notes_vi": [],
@@ -1245,9 +1245,9 @@
       "meaning_vi": "rưỡi; một nửa",
       "examples": [
         {
-          "jp": "半に学校へ行きます。",
-          "reading": "はんにがっこうへいきます。",
-          "vi": "Tôi đi học vào rưỡi; một nửa."
+          "jp": "六時半に学校へ行きます。",
+          "reading": "ろくじはんにがっこうへいきます。",
+          "vi": "Tôi đi học lúc sáu giờ rưỡi."
         }
       ],
       "notes_vi": [],
@@ -1261,9 +1261,9 @@
       "meaning_vi": "buổi sáng",
       "examples": [
         {
-          "jp": "朝に学校へ行きます。",
-          "reading": "あさにがっこうへいきます。",
-          "vi": "Tôi đi học vào buổi sáng."
+          "jp": "朝、パンを食べます。",
+          "reading": "あさ、ぱんをたべます。",
+          "vi": "Buổi sáng tôi ăn bánh mì."
         }
       ],
       "notes_vi": [],
@@ -1277,9 +1277,9 @@
       "meaning_vi": "buổi trưa",
       "examples": [
         {
-          "jp": "昼に学校へ行きます。",
-          "reading": "ひるにがっこうへいきます。",
-          "vi": "Tôi đi học vào buổi trưa."
+          "jp": "昼、食堂でごはんを食べます。",
+          "reading": "ひる、しょくどうでごはんをたべます。",
+          "vi": "Buổi trưa tôi ăn cơm ở nhà ăn."
         }
       ],
       "notes_vi": [],
@@ -1293,9 +1293,9 @@
       "meaning_vi": "buổi tối",
       "examples": [
         {
-          "jp": "晩に学校へ行きます。",
-          "reading": "ばんにがっこうへいきます。",
-          "vi": "Tôi đi học vào buổi tối."
+          "jp": "晩、テレビを見ます。",
+          "reading": "ばん、てれびをみます。",
+          "vi": "Buổi tối tôi xem tivi."
         }
       ],
       "notes_vi": [],
@@ -1309,9 +1309,9 @@
       "meaning_vi": "mỗi sáng",
       "examples": [
         {
-          "jp": "毎朝に学校へ行きます。",
-          "reading": "まいあさにがっこうへいきます。",
-          "vi": "Tôi đi học vào mỗi sáng."
+          "jp": "毎朝、六時に起きます。",
+          "reading": "まいあさ、ろくじにおきます。",
+          "vi": "Mỗi sáng tôi thức dậy lúc sáu giờ."
         }
       ],
       "notes_vi": [],
@@ -1325,9 +1325,9 @@
       "meaning_vi": "mỗi tối",
       "examples": [
         {
-          "jp": "毎晩に学校へ行きます。",
-          "reading": "まいばんにがっこうへいきます。",
-          "vi": "Tôi đi học vào mỗi tối."
+          "jp": "毎晩、日本語を勉強します。",
+          "reading": "まいばん、にほんごをべんきょうします。",
+          "vi": "Mỗi tối tôi học tiếng Nhật."
         }
       ],
       "notes_vi": [],
@@ -1549,9 +1549,9 @@
       "meaning_vi": "mấy phút",
       "examples": [
         {
-          "jp": "何分に学校へ行きます。",
-          "reading": "なんぷんにがっこうへいきます。",
-          "vi": "Tôi đi học vào mấy phút."
+          "jp": "駅まで何分かかりますか。",
+          "reading": "えきまでなんぷんかかりますか。",
+          "vi": "Đi đến ga mất bao nhiêu phút?"
         }
       ],
       "notes_vi": [],
