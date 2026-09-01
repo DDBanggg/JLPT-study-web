@@ -3,10 +3,11 @@
 **Status:** Operational guide
 **Purpose:** Hướng dẫn chuẩn bị nội dung học theo từng Study Day và chuyển thành JSON dùng cho website.
 **Applies to:** Grammar, Grammar Test, Vocabulary, Kanji, Reading, Listening, Daily/Weekly/Monthly/End/Mock Tests.
-**Updated:** 2026-08-31
+**Updated:** 2026-09-01
 
-The canonical content specification is v1.3. It changes authoring and Kanji learning
-semantics while runtime `schema_version` remains `1`; legacy JSON compatibility remains
+The canonical content specification is v1.4. It adds structured visual Reading stimuli
+and text/image question options while preserving the v1.3 authoring and Kanji learning
+semantics. Runtime `schema_version` remains `1`; legacy JSON compatibility remains
 supported where the schema documents it.
 
 ---
@@ -535,15 +536,91 @@ Mỗi Reading item nên có:
 ```text
 ID
 Title
-Japanese passage
-Vietnamese reference translation
+Stimulus: Japanese passage OR visual media
+Vietnamese reference translation when a passage exists
 Questions
 Correct answers
 Explanation
 Source reference (optional)
 ```
 
-Nếu bài không có câu hỏi:
+Nguyên tắc canonical:
+
+```text
+Text stays text.
+Visual stays visual.
+Questions stay structured.
+Translation only translates passage text.
+```
+
+Reading hợp lệ ở cả ba mode:
+
+```text
+text-only   = passage_jp
+visual-only = media[]
+mixed       = passage_jp + media[]
+```
+
+Visual-only không được bịa `passage_jp`. Với content mới, nếu có `passage_jp` thì phải
+author `translation_vi` không rỗng. Runtime vẫn chấp nhận passage legacy thiếu
+`translation_vi`. `translation_vi` chỉ dịch passage; không dùng field này để mô tả ảnh,
+tóm tắt bài, giải thích đáp án hoặc chứa notes.
+
+### Quyết định text hay visual
+
+Chuyển source thành structured text khi nội dung là:
+
+- câu, đoạn văn hoặc hội thoại;
+- notice thông thường chủ yếu là chữ;
+- câu hỏi;
+- textual answer option.
+
+Giữ dưới dạng visual khi ý nghĩa phụ thuộc vào bố cục/hình ảnh:
+
+- map, graph/chart, complex table hoặc timetable;
+- floor plan, form hoặc diagram;
+- illustration;
+- picture option;
+- visual advertisement.
+
+Không dùng image chỉ vì OCR khó. Nếu source về bản chất là text, author lại thành text
+chính xác và review với source. Không đưa description của image vào `translation_vi`.
+
+### Reading media
+
+Reading image được đặt dưới `public/reading/assets/` và tham chiếu bằng URL bắt đầu với
+`/reading/assets/`:
+
+```json
+{
+  "id": "station-map",
+  "type": "image",
+  "src": "/reading/assets/day-015/station-map.webp",
+  "alt": "Sơ đồ nhà ga"
+}
+```
+
+- media ID không rỗng và unique trong item;
+- `type` luôn là `image`;
+- extension chỉ `.png`, `.jpg`, `.jpeg`, `.webp`;
+- không dùng remote URL, data URL, `..`, backslash, path ngoài `/reading/assets/`,
+  width/height hoặc media subtype;
+- `alt` optional nhưng không rỗng khi có;
+- runtime kiểm tra path format; CLI kiểm tra path format và file tồn tại dưới
+  `publicRoot` (mặc định là repo `public/`).
+
+Alt của Reading media mô tả trung tính. Alt của image answer option tuyệt đối không được
+làm lộ đáp án đúng.
+
+### Questions
+
+Nếu bài mới không có câu hỏi, dùng canonical empty array:
+
+```json
+{"questions":[]}
+```
+
+Legacy JSON có thể giữ:
 
 ```json
 {"questions":null}
@@ -567,11 +644,43 @@ short_answer
 matching
 ```
 
-Content mới phải khai báo `question_type`; câu hỏi cũ thiếu field này được hiểu là `mcq`. Field đáp án theo từng type được định nghĩa trong JSON Schema v1.3.
+Content mới phải khai báo `question_type`; câu hỏi cũ thiếu field này được hiểu là `mcq`. Field đáp án theo từng type được định nghĩa trong JSON Schema v1.4.
 
 Reading runtime, validator và UI hỗ trợ đầy đủ `mcq`, `true_false`, `short_answer`
 và `matching`. Câu hỏi legacy thiếu `question_type` vẫn được hiểu là `mcq`. Giữ
 nguyên question type của source; không tự chuyển source question thành MCQ.
+
+MCQ `options` và Matching `left_items` / `right_items` dùng cùng model:
+
+```json
+{
+  "id": "A",
+  "text": "7時",
+  "image_src": "/reading/assets/day-015/options/a.png"
+}
+```
+
+`id` là required. Phải có ít nhất `text` hoặc `image_src`; có thể có cả hai. `text` nếu
+có phải non-empty. `image_src` theo cùng Reading asset rules và file phải tồn tại khi
+chạy CLI validator.
+
+Matching giữ structured `left_id` / `right_id` trong `correct_pairs`. Không biến image
+Matching thành text giả hoặc MCQ. Mỗi left item được map đúng một lần và một right item
+không được dùng cho hai left item.
+
+Frontend kiểm tra đáp án độc lập với việc reveal bản dịch. Visual-only vẫn làm và kiểm
+tra câu hỏi bình thường dù không có translation textarea/reference UI.
+
+Không bắt buộc author các field không thuộc schema Reading v1.4:
+
+```text
+question_vi
+option_vi
+answer_vi
+summary_vi
+grammar_notes
+vocabulary_notes
+```
 
 Không tự chuyển dạng câu hỏi nguồn sang MCQ chỉ để vừa schema. Nếu source có question type chưa được schema hỗ trợ:
 
@@ -671,7 +780,7 @@ Không cần hỏi toàn bộ item.
 
 Không dùng Weak Items.
 
-Với content mới, mỗi Test Question nên có `source_item_refs` trỏ tới item Day X-1 theo format canonical trong JSON Schema v1.3. Field này giúp validator tương lai kiểm tra coverage thực tế thay vì chỉ đọc `coverage.from_day/to_day`.
+Với content mới, mỗi Test Question nên có `source_item_refs` trỏ tới item Day X-1 theo format canonical trong JSON Schema v1.4. Field này giúp validator tương lai kiểm tra coverage thực tế thay vì chỉ đọc `coverage.from_day/to_day`.
 
 ---
 
@@ -1061,6 +1170,8 @@ roadmap Day/task uniqueness và allowed task type
 duplicate item/question ID trong scope validator
 Vocabulary target/pool rules và Kanji required/optional field structure
 Vocabulary surface/hiragana/kanji compatibility
+Reading stimulus/translation/media/text-image option rules
+Reading asset path format và referenced-file existence dưới publicRoot
 Reading mcq/true_false/short_answer/matching structure và answer references
 Grammar Test section/count/category/coverage/lesson_groups
 Daily Test 15/15/15 section counts và 45 total
@@ -1088,6 +1199,8 @@ Content Lint là lớp riêng với Schema Validation. Đây là **specification
 
 - Các field hậu tố `_vi` như `explanation_vi`, `meaning_vi`, `usage_vi`, `notes_vi`, `translation_vi`, `description_vi` phải có phần giải thích chính bằng tiếng Việt.
 - Japanese được phép trong ví dụ/quote, nhưng explanation chính không được vô tình hoàn toàn bằng tiếng Nhật.
+- Reading `translation_vi` chỉ dịch passage text, không mô tả media.
+- Image answer alt phải trung tính và không làm lộ answer semantics.
 
 ### Answer distribution
 
@@ -1179,7 +1292,7 @@ This guide defines the **workflow**.
 
 The JSON Schema defines the **technical data format**.
 
-The guide defines the creation process. JSON Schema specification v1.3 is authoritative for field names and type-specific learning semantics; runtime `schema_version` remains `1`.
+The guide defines the creation process. JSON Schema specification v1.4 is authoritative for field names and type-specific learning semantics; runtime `schema_version` remains `1`.
 
 Canonical flow:
 

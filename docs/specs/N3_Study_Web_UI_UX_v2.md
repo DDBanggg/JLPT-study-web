@@ -1,9 +1,9 @@
 # N3 Study Web — UI/UX Specification
 
-**Status:** Desktop-first baseline aligned with content specification v1.3
-**Updated:** 2026-08-31
+**Status:** Desktop-first baseline aligned with content specification v1.4
+**Updated:** 2026-09-01
 
-The v1.3 content specification changes Kanji learning semantics without changing runtime
+The v1.4 content specification adds text/visual/mixed Reading without changing runtime
 `schema_version: 1`. Vocabulary remains quota-based; Kanji is source-exhaustive.
 
 ## Delivery priority
@@ -183,15 +183,20 @@ Then next-part CTA.
 ## Reading
 
 Sections:
-- Japanese passage
+- Japanese passage when present
+- responsive visual media in source order when present
 - Questions
-- user translation textarea
-- Compare
-- Vietnamese reference translation
-- reference answers
+- user translation textarea and Vietnamese reference translation only when passage exists
+- separate translation reveal and answer-check actions
 
 Questions section always appears.
 If none, show `...`.
+
+Reading supports text-only, visual-only, and mixed items. Media preserves aspect ratio and
+does not overflow mobile. Image MCQ options are clickable cards with neutral alt text.
+Matching uses clickable text/image candidate cards, preserves unique-right assignment,
+and grades structured `left_id`/`right_id` pairs. Answer checking never depends on
+translation reveal.
 
 User draft is not persisted.
 

@@ -1,6 +1,11 @@
-import { readdir, readFile } from "node:fs/promises";
+import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const DEFAULT_PUBLIC_ROOT = path.join(REPO_ROOT, "public");
+const READING_ASSET_ROOT = "/reading/assets/";
+const READING_ASSET_EXTENSION = /\.(?:png|jpe?g|webp)$/;
 
 const ALLOWED_TASK_TYPES = new Set([
   "grammar",
@@ -167,15 +172,70 @@ function validateLearningPool(document, file, errors) {
   }
 }
 
-function validateQuestionItems(items, label, questionId, file, errors) {
+function validateReadingAssetPath(value, label, file, errors, assetPaths) {
+  let decodedValue;
+  try {
+    decodedValue = typeof value === "string" ? decodeURIComponent(value) : "";
+  } catch {
+    decodedValue = "";
+  }
+
+  const relativePath = decodedValue.startsWith(READING_ASSET_ROOT)
+    ? decodedValue.slice(READING_ASSET_ROOT.length)
+    : "";
+  const segments = relativePath.split("/");
+  const isValid = isNonEmptyString(value) &&
+    value.startsWith(READING_ASSET_ROOT) &&
+    !value.includes("\\") && !value.includes("?") && !value.includes("#") &&
+    !decodedValue.includes("..") && !decodedValue.includes("\\") &&
+    !decodedValue.includes("?") && !decodedValue.includes("#") &&
+    segments.length > 0 &&
+    segments.every((segment) => segment.length > 0 && segment !== "." && segment !== "..") &&
+    READING_ASSET_EXTENSION.test(value);
+
+  if (!isValid) {
+    errors.push(`${file}: ${label} must be a valid Reading asset path under ${READING_ASSET_ROOT}`);
+    return false;
+  }
+  assetPaths.add(value);
+  return true;
+}
+
+function validateQuestionItems(items, label, questionId, file, errors, assetPaths) {
   if (!Array.isArray(items) || items.length === 0) {
     errors.push(`${file}: Reading question '${questionId}' ${label} must be a non-empty array`);
     return null;
   }
-  if (items.some((item) => !isNonEmptyString(item?.id) || !isNonEmptyString(item?.text))) {
-    errors.push(`${file}: Reading question '${questionId}' ${label} require non-empty id and text`);
-    return null;
+
+  let valid = true;
+  for (const [index, item] of items.entries()) {
+    const optionLabel = `Reading question '${questionId}' ${label}[${index}]`;
+    if (!isNonEmptyString(item?.id)) {
+      errors.push(`${file}: ${optionLabel} id must be non-empty`);
+      valid = false;
+    }
+    const hasText = Object.hasOwn(item ?? {}, "text");
+    const hasImage = Object.hasOwn(item ?? {}, "image_src");
+    if (!hasText && !hasImage) {
+      errors.push(`${file}: ${optionLabel} requires text or image_src`);
+      valid = false;
+    }
+    if (hasText && !isNonEmptyString(item.text)) {
+      errors.push(`${file}: ${optionLabel} text must be non-empty when present`);
+      valid = false;
+    }
+    if (hasImage && !validateReadingAssetPath(
+      item.image_src,
+      `${optionLabel} image_src`,
+      file,
+      errors,
+      assetPaths,
+    )) {
+      valid = false;
+    }
   }
+
+  if (!valid) return null;
   const ids = items.map((item) => item.id);
   if (hasDuplicates(ids)) {
     errors.push(`${file}: Reading question '${questionId}' ${label} IDs must be unique`);
@@ -183,7 +243,7 @@ function validateQuestionItems(items, label, questionId, file, errors) {
   return ids;
 }
 
-function validateReadingQuestion(question, file, errors) {
+function validateReadingQuestion(question, file, errors, assetPaths) {
   const questionId = isNonEmptyString(question?.id) ? question.id : "<unknown>";
   if (!isNonEmptyString(question?.id)) errors.push(`${file}: Reading question id must be non-empty`);
   if (!isNonEmptyString(question?.question_jp)) {
@@ -192,7 +252,14 @@ function validateReadingQuestion(question, file, errors) {
 
   const questionType = question?.question_type ?? "mcq";
   if (questionType === "mcq") {
-    const optionIds = validateQuestionItems(question?.options, "options", questionId, file, errors);
+    const optionIds = validateQuestionItems(
+      question?.options,
+      "options",
+      questionId,
+      file,
+      errors,
+      assetPaths,
+    );
     if (!isNonEmptyString(question?.correct_option_id) || !optionIds?.includes(question.correct_option_id)) {
       errors.push(`${file}: Reading MCQ '${questionId}' correct_option_id must reference an option`);
     }
@@ -224,8 +291,22 @@ function validateReadingQuestion(question, file, errors) {
     return;
   }
 
-  const leftIds = validateQuestionItems(question?.left_items, "left_items", questionId, file, errors);
-  const rightIds = validateQuestionItems(question?.right_items, "right_items", questionId, file, errors);
+  const leftIds = validateQuestionItems(
+    question?.left_items,
+    "left_items",
+    questionId,
+    file,
+    errors,
+    assetPaths,
+  );
+  const rightIds = validateQuestionItems(
+    question?.right_items,
+    "right_items",
+    questionId,
+    file,
+    errors,
+    assetPaths,
+  );
   if (!leftIds || !rightIds || !Array.isArray(question?.correct_pairs)) {
     if (!Array.isArray(question?.correct_pairs)) {
       errors.push(`${file}: Reading matching '${questionId}' correct_pairs must be an array`);
@@ -248,10 +329,68 @@ function validateReadingQuestion(question, file, errors) {
   }
 }
 
-function validateReading(document, file, errors) {
+function validateReadingMedia(media, itemId, file, errors, assetPaths) {
+  if (!Array.isArray(media)) {
+    errors.push(`${file}: Reading item '${itemId}' media must be an array`);
+    return [];
+  }
+
+  const mediaIds = [];
+  for (const [index, item] of media.entries()) {
+    const mediaLabel = `Reading item '${itemId}' media[${index}]`;
+    const allowedFields = new Set(["id", "type", "src", "alt"]);
+    if (!item || typeof item !== "object" || Array.isArray(item)) {
+      errors.push(`${file}: ${mediaLabel} must be an object`);
+      continue;
+    }
+    if (Object.keys(item).some((field) => !allowedFields.has(field))) {
+      errors.push(`${file}: ${mediaLabel} contains unsupported fields`);
+    }
+    if (!isNonEmptyString(item.id)) {
+      errors.push(`${file}: ${mediaLabel} id must be non-empty`);
+    } else {
+      mediaIds.push(item.id);
+    }
+    if (item.type !== "image") {
+      errors.push(`${file}: ${mediaLabel} type must equal 'image'`);
+    }
+    validateReadingAssetPath(item.src, `${mediaLabel} src`, file, errors, assetPaths);
+    if (Object.hasOwn(item, "alt") && !isNonEmptyString(item.alt)) {
+      errors.push(`${file}: ${mediaLabel} alt must be non-empty when present`);
+    }
+  }
+  if (hasDuplicates(mediaIds)) {
+    errors.push(`${file}: Reading item '${itemId}' media IDs must be unique`);
+  }
+  return media;
+}
+
+function validateReading(document, file, errors, assetPaths) {
   if (!document.id?.startsWith("reading-") || !Array.isArray(document.items)) return;
   for (const item of document.items) {
-    if (item?.questions === null) continue;
+    const itemId = item?.id ?? "<unknown>";
+    const hasPassage = isNonEmptyString(item?.passage_jp);
+    if (Object.hasOwn(item ?? {}, "passage_jp") && item.passage_jp !== null && !hasPassage) {
+      errors.push(`${file}: Reading item '${itemId}' passage_jp must be non-empty when present`);
+    }
+
+    let media = [];
+    if (Object.hasOwn(item ?? {}, "media")) {
+      media = validateReadingMedia(item.media, itemId, file, errors, assetPaths);
+    }
+    if (!hasPassage && media.length === 0) {
+      errors.push(`${file}: Reading item '${itemId}' requires non-empty passage_jp or media`);
+    }
+
+    if (Object.hasOwn(item ?? {}, "translation_vi") && item.translation_vi !== null) {
+      if (!isNonEmptyString(item.translation_vi)) {
+        errors.push(`${file}: Reading item '${itemId}' translation_vi must be non-empty when present`);
+      } else if (!hasPassage) {
+        errors.push(`${file}: Reading item '${itemId}' translation_vi requires passage_jp`);
+      }
+    }
+
+    if (!Object.hasOwn(item ?? {}, "questions") || item.questions === null) continue;
     if (!Array.isArray(item?.questions)) {
       errors.push(`${file}: Reading item '${item?.id}' questions must be an array or null`);
       continue;
@@ -260,7 +399,27 @@ function validateReading(document, file, errors) {
     if (hasDuplicates(questionIds)) {
       errors.push(`${file}: Reading item '${item?.id}' question IDs must be unique`);
     }
-    for (const question of item.questions) validateReadingQuestion(question, file, errors);
+    for (const question of item.questions) validateReadingQuestion(question, file, errors, assetPaths);
+  }
+}
+
+async function validateReadingAssets(assetPaths, publicRoot, file, errors) {
+  const resolvedPublicRoot = path.resolve(publicRoot);
+  for (const assetPath of assetPaths) {
+    const decodedAssetPath = decodeURIComponent(assetPath);
+    const resolvedAsset = path.resolve(resolvedPublicRoot, decodedAssetPath.slice(1));
+    const relativeAsset = path.relative(resolvedPublicRoot, resolvedAsset);
+    if (relativeAsset.startsWith("..") || path.isAbsolute(relativeAsset)) {
+      errors.push(`${file}: Reading asset '${assetPath}' resolves outside publicRoot`);
+      continue;
+    }
+    try {
+      if (!(await stat(resolvedAsset)).isFile()) {
+        errors.push(`${file}: Reading asset '${assetPath}' does not exist under publicRoot`);
+      }
+    } catch {
+      errors.push(`${file}: Reading asset '${assetPath}' does not exist under publicRoot`);
+    }
   }
 }
 
@@ -340,7 +499,7 @@ function validateTest(document, file, errors) {
   if (questions.length !== 45) errors.push(`${file}: daily test must contain exactly 45 questions`);
 }
 
-function validateDocument(document, file, errors) {
+function validateDocument(document, file, errors, assetPaths) {
   if (!document || typeof document !== "object" || Array.isArray(document)) {
     errors.push(`${file}: root value must be a JSON object`);
     return;
@@ -350,18 +509,24 @@ function validateDocument(document, file, errors) {
   validateStudyDay(document, file, errors);
   validateRoadmap(document, file, errors);
   validateLearningPool(document, file, errors);
-  validateReading(document, file, errors);
+  validateReading(document, file, errors, assetPaths);
   validateTest(document, file, errors);
 }
 
-export async function validateContentRoot(contentRoot) {
+export async function validateContentRoot(contentRoot, options = {}) {
   const errors = [];
   const files = await findJsonFiles(contentRoot);
+  const publicRoot = typeof options === "string"
+    ? options
+    : options.publicRoot ?? DEFAULT_PUBLIC_ROOT;
 
   for (const file of files) {
     try {
       const document = JSON.parse(await readFile(file, "utf8"));
-      validateDocument(document, path.relative(contentRoot, file), errors);
+      const relativeFile = path.relative(contentRoot, file);
+      const assetPaths = new Set();
+      validateDocument(document, relativeFile, errors, assetPaths);
+      await validateReadingAssets(assetPaths, publicRoot, relativeFile, errors);
     } catch (error) {
       errors.push(`${path.relative(contentRoot, file)}: invalid JSON (${error.message})`);
     }

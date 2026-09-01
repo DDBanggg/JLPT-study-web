@@ -1,9 +1,9 @@
-# N3 Study Web — Canonical Content JSON Schema v1.3
+# N3 Study Web — Canonical Content JSON Schema v1.4
 
-**Status:** Runtime schema v1 frozen; specification v1.3
-**Specification version:** 1.3
+**Status:** Runtime schema v1 frozen; specification v1.4
+**Specification version:** 1.4
 **Runtime `schema_version`:** 1
-**Date:** 2026-08-31
+**Date:** 2026-09-01
 
 All published study-content files must contain:
 
@@ -13,7 +13,7 @@ All published study-content files must contain:
 
 Static content uses UTF-8 JSON. Published IDs are immutable.
 
-Specification v1.3 changes authoring and Kanji learning semantics while remaining on runtime `schema_version: 1`. It remains backward-compatible with published v1.1/v1.2 JSON where legacy fallbacks are documented. Existing JSON may remain unchanged until an explicitly approved content migration; no runtime schema-version bump is required.
+Specification v1.4 adds structured visual Reading stimuli and text/image question options while retaining the v1.3 authoring and Kanji learning semantics. Runtime `schema_version` remains `1`. Published legacy JSON remains compatible where fallbacks are documented, including passage-based Reading content without `translation_vi`; no runtime schema-version bump is required.
 
 ## 1. Shared ID rules
 
@@ -178,8 +178,8 @@ Rules:
 - `hiragana` is the pronunciation/reading written in hiragana, including for Katakana words.
 - `kanji` contains the Kanji spelling only when one exists; otherwise it is `null`.
 - Never store Katakana in `kanji`.
-- New v1.3 content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
-- Consumers implementing v1.3 always prefer `surface` and use `surface ?? kanji ?? hiragana` as the legacy-compatible display resolution rule.
+- New content should provide `surface`. A legacy item without `surface` remains valid and consumers derive it as `kanji ?? hiragana`.
+- Consumers implementing this specification always prefer `surface` and use `surface ?? kanji ?? hiragana` as the legacy-compatible display resolution rule.
 - Display `hiragana` separately only when `hiragana !== surface`; do not render duplicate labels such as `あげます / あげます`.
 - Runtime/UI support must be updated before relying on `surface` to preserve a Katakana spelling.
 - Existing `hiragana` and `kanji` fields remain part of the schema; do not remove them during migration.
@@ -263,11 +263,22 @@ Rules:
 
 For the learning runtime, Kanji is source-exhaustive: active IDs are the current source IDs minus the user's Known IDs. A Known Kanji is removed only; it is never replaced and no target is restored.
 
-Legacy `target: 30` and `pool_size` fields may remain in historical JSON as tolerated metadata, but have no Kanji runtime semantics and are not required in new v1.3 JSON.
+Legacy `target: 30` and `pool_size` fields may remain in historical JSON as tolerated metadata, but have no Kanji runtime semantics and are not required in new JSON.
 
 ## 6. Reading
 
 File: `content/reading/day-015.json`
+
+Canonical principles:
+
+- Text stays text.
+- Visual stays visual.
+- Questions stay structured.
+- Translation only translates passage text.
+
+A Reading item has at least one stimulus: a non-empty `passage_jp` or a non-empty
+`media` array. Text-only, visual-only, and mixed Reading items are all valid. Do not
+invent `passage_jp` for a visual-only source.
 
 ```json
 {
@@ -280,6 +291,14 @@ File: `content/reading/day-015.json`
       "title": "Reading 1",
       "passage_jp": "日本語の文章...",
       "translation_vi": "Bản dịch tham khảo...",
+      "media": [
+        {
+          "id": "station-map",
+          "type": "image",
+          "src": "/reading/assets/day-015/station-map.webp",
+          "alt": "Sơ đồ nhà ga"
+        }
+      ],
       "source_ref": "25 Bài đọc hiểu sơ cấp — Reading 15",
       "questions": [
         {
@@ -299,7 +318,59 @@ File: `content/reading/day-015.json`
 }
 ```
 
-If no questions:
+Reading item fields:
+
+```text
+id
+title
+passage_jp?: string | null
+translation_vi?: string | null
+media?: ReadingMedia[]
+questions?: ReadingQuestion[] | null
+```
+
+`passage_jp`, when non-null, is non-empty structured Japanese text. For newly authored
+content, a passage requires an authored non-empty `translation_vi`. Runtime remains
+compatible with a legacy passage that lacks `translation_vi`. A non-null
+`translation_vi` must be non-empty, requires a non-empty passage, and translates only
+that passage; it must not describe images or supply answer/summary notes. Visual-only
+Reading uses `translation_vi: null` or omits the field.
+
+### Reading media
+
+`ReadingMedia` is intentionally minimal:
+
+```json
+{
+  "id": "station-map",
+  "type": "image",
+  "src": "/reading/assets/day-015/station-map.webp",
+  "alt": "Sơ đồ nhà ga"
+}
+```
+
+- `id` is non-empty and unique within the Reading item.
+- `type` is exactly `image`.
+- `src` starts with `/reading/assets/` and ends in `.png`, `.jpg`, `.jpeg`, or `.webp`.
+- Remote URLs, data URLs, `..`, backslashes, paths outside `/reading/assets/`, and
+  width/height/media-subtype fields are invalid.
+- `alt` is optional but non-empty when present.
+- Files live under `public/reading/assets/`. Runtime validates path format; the CLI
+  validator validates path format and verifies the referenced file exists under the
+  configured `publicRoot` (repository `public/` by default).
+
+Use explicit `alt` for Reading media when available; otherwise the UI uses the neutral
+fallback `Hình minh họa của bài đọc`.
+
+### Reading questions
+
+For newly authored content with no questions, use the canonical empty array:
+
+```json
+{"questions":[]}
+```
+
+Legacy content may retain:
 
 ```json
 {"questions":null}
@@ -318,11 +389,27 @@ short_answer
 matching
 ```
 
-New v1.3 Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
+New Reading questions must declare `question_type`. For backward compatibility, a legacy question without `question_type` is interpreted as `mcq`.
 
 The Reading runtime, validator, and UI support `mcq`, `true_false`, `short_answer`,
 and `matching`. Legacy questions without `question_type` remain MCQ. Preserve the
 source question type; do not convert a source question into MCQ for UI convenience.
+
+`ReadingQuestionOption` is shared by MCQ `options` and Matching `left_items` /
+`right_items`:
+
+```json
+{
+  "id": "A",
+  "text": "7時",
+  "image_src": "/reading/assets/day-015/options/a.png"
+}
+```
+
+`id` is required. At least one of `text` or `image_src` is required; both are allowed.
+When present, `text` is non-empty and `image_src` follows the Reading asset path and
+CLI existence rules. Image answer options use neutral alt text that must not reveal
+which option is correct.
 
 ### MCQ
 
@@ -340,7 +427,9 @@ source question type; do not convert a source question into MCQ for UI convenien
 }
 ```
 
-`options` is non-empty, option IDs are unique within the question, and `correct_option_id` matches exactly one option.
+`options` is non-empty, option IDs are unique within the question, and
+`correct_option_id` matches exactly one option. Options may be text-only, image-only,
+or contain both.
 
 ### True/False
 
@@ -378,12 +467,12 @@ source question type; do not convert a source question into MCQ for UI convenien
   "question_type": "matching",
   "question_jp": "人物と持ち物を組み合わせてください。",
   "left_items": [
-    {"id":"L1","text":"田中さん"},
+    {"id":"L1","image_src":"/reading/assets/day-015/people/tanaka.png"},
     {"id":"L2","text":"山田さん"}
   ],
   "right_items": [
     {"id":"R1","text":"本"},
-    {"id":"R2","text":"かばん"},
+    {"id":"R2","text":"かばん","image_src":"/reading/assets/day-015/objects/bag.webp"},
     {"id":"R3","text":"傘"}
   ],
   "correct_pairs": [
@@ -394,7 +483,16 @@ source question type; do not convert a source question into MCQ for UI convenien
 }
 ```
 
-`left_items` and `right_items` are non-empty and have unique IDs within their own arrays. Their lengths do not need to be equal, and unused `right_items` are allowed. `correct_pairs` must map every `left_item` exactly once to a known `right_item`. A `right_id` may appear in at most one correct pair; duplicate pairs, duplicate `left_id` mappings, and unknown IDs are invalid.
+`left_items` and `right_items` use the same text/image/both option model. They are
+non-empty and have unique IDs within their own arrays. Their lengths do not need to be
+equal, and unused `right_items` are allowed. `correct_pairs` preserves structured
+`left_id`/`right_id` semantics: every `left_item` maps exactly once to a known
+`right_item`, and a `right_id` appears in at most one correct pair. Duplicate pairs,
+duplicate `left_id` mappings, reused `right_id` mappings, and unknown IDs are invalid.
+
+The Reading UI grades questions through answer state that is independent from
+translation reveal state. Revealing a passage translation must not reveal answers, and
+visual-only questions remain fully usable without translation controls.
 
 Do not transform a source question into MCQ merely to fit the schema. If a source question type is unsupported, stop publication, record the schema gap, and update this specification before producing JSON.
 
@@ -649,16 +747,20 @@ Schema validation checks machine-readable structure and referential integrity. T
 - Vocabulary target/pool rules and Kanji structural fields/exhaustive source coverage;
 - Grammar/Daily Test question totals and lesson/category grouping;
 - option IDs and existence of `correct_option_id` for MCQ;
-- type-specific Reading answer fields and deterministic Matching pairs;
+- Reading passage-or-media stimulus, translation compatibility, media/path rules,
+  text/image options, type-specific answer fields, and deterministic Matching pairs;
 - roadmap/task metadata and YouTube metadata;
 - `source_item_refs` syntax and resolvability when provided.
 
 The current `npm run validate-content` implementation covers JSON parsing, runtime
 schema version, Study Day range when present, roadmap day/task uniqueness and task
 types, item-ID uniqueness, Vocabulary `surface`/`hiragana`/`kanji` compatibility,
-Vocabulary target/pool counts, Kanji required/optional field structure, all four Reading
-question variants and their answer references, test/question-ID uniqueness, Grammar Test
-structure/count/grouping/coverage, and Daily Test section/total counts. Other bullets
+Vocabulary target/pool counts, Kanji required/optional field structure, Reading
+stimulus/translation/media/text-image-option rules, all four Reading question variants
+and their answer references, Reading asset path format plus file existence under
+`publicRoot`, test/question-ID uniqueness, Grammar Test structure/count/grouping/coverage,
+and Daily Test section/total counts. Runtime Reading validation checks asset path format;
+`npm run validate-content` additionally checks referenced file existence. Other bullets
 above remain **specification requirements / future validator requirements** until
 implemented in validator code.
 
@@ -667,6 +769,8 @@ implemented in validator code.
 Structurally valid JSON may still be poor learning content. Content lint is a separate review layer and is currently a **specification requirement / future validator requirement**:
 
 - Fields ending in `_vi` (`explanation_vi`, `meaning_vi`, `usage_vi`, `notes_vi`, `translation_vi`, `description_vi`) contain primarily Vietnamese explanation. Japanese may appear in examples or quotations, but the main explanation must not accidentally be entirely Japanese.
+- Reading `translation_vi` translates passage text only and never describes media.
+- Image answer-option alt text is neutral and does not disclose answer semantics.
 - Generated MCQ answer positions avoid obvious patterns. As a soft guideline, each A/B/C/D appears about 5–8 times in a 25-question test and about 9–13 times in a 45-question test. Source-faithful tests may deviate when justified.
 - Options are non-empty and non-duplicate; the correct answer is not duplicated; distractors are meaningful, format-compatible, and use an appropriate grammatical/lexical class.
 - A test contains no duplicate or near-duplicate questions unless the source provides a documented reason.

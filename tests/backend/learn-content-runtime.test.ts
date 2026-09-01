@@ -6,7 +6,7 @@ vi.mock("@/lib/data/content", () => ({ loadJsonContent }));
 
 import { loadLearnContent } from "../../src/lib/learn/content";
 
-describe("Learn content runtime schema v1.2 validation", () => {
+describe("Learn content runtime schema v1.4 validation", () => {
   beforeEach(() => loadJsonContent.mockReset());
 
   it("preserves Vocabulary surface while accepting a legacy item", async () => {
@@ -86,6 +86,106 @@ describe("Learn content runtime schema v1.2 validation", () => {
     await expect(loadLearnContent("reading", 2)).resolves.toEqual({ state: "available", data });
   });
 
+  it("accepts passage-only, visual-only, and mixed Reading stimuli", async () => {
+    const data = readingDocument([]);
+    data.items = [
+      { id: 201, title: "Legacy passage", passage_jp: "本文です。", questions: [] },
+      {
+        id: 202,
+        title: "Visual only",
+        passage_jp: null,
+        translation_vi: null,
+        media: [readingMedia("map", "/reading/assets/day-002/map.webp")],
+        questions: [imageMcq()],
+      },
+      {
+        id: 203,
+        title: "Mixed",
+        passage_jp: "図を見てください。",
+        translation_vi: "Hãy nhìn vào hình.",
+        media: [readingMedia("figure", "/reading/assets/figure.jpeg", "Sơ đồ")],
+      },
+    ];
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).resolves.toEqual({ state: "available", data });
+  });
+
+  it("accepts text, image, and combined options in MCQ and matching questions", async () => {
+    const matching = {
+      ...matchingQuestion(),
+      left_items: [
+        { id: "L1", image_src: "/reading/assets/people/tanaka.png" },
+        { id: "L2", text: "山田", image_src: "/reading/assets/people/yamada.jpg" },
+      ],
+      right_items: [
+        { id: "R1", text: "本" },
+        { id: "R2", image_src: "/reading/assets/objects/bag.webp" },
+      ],
+    };
+    const data = readingDocument([imageMcq(), matching]);
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).resolves.toEqual({ state: "available", data });
+  });
+
+  it.each([
+    ["missing both passage and media", { id: 201, title: "No stimulus", questions: [] }],
+    ["null passage and empty media", { id: 201, title: "No stimulus", passage_jp: null, media: [], questions: [] }],
+    ["blank passage and no media", { id: 201, title: "No stimulus", passage_jp: "  ", questions: [] }],
+  ])("rejects Reading with %s", async (_label, item) => {
+    const data = readingDocument([]);
+    data.items = [item];
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).rejects.toThrow("CONTENT_INVALID");
+  });
+
+  it.each([
+    ["duplicate IDs", [readingMedia("same"), readingMedia("same")]],
+    ["unsupported type", [{ ...readingMedia(), type: "video" }]],
+    ["empty alt", [{ ...readingMedia(), alt: " " }]],
+    ["width metadata", [{ ...readingMedia(), width: 640 }]],
+    ["height metadata", [{ ...readingMedia(), height: 480 }]],
+    ["remote URL", [{ ...readingMedia(), src: "https://example.com/image.png" }]],
+    ["data URL", [{ ...readingMedia(), src: "data:image/png;base64,AAAA" }]],
+    ["parent traversal", [{ ...readingMedia(), src: "/reading/assets/../secret.png" }]],
+    ["encoded parent traversal", [{ ...readingMedia(), src: "/reading/assets/%2e%2e/secret.png" }]],
+    ["backslash traversal", [{ ...readingMedia(), src: "/reading/assets/..\\secret.png" }]],
+    ["double-dot filename", [{ ...readingMedia(), src: "/reading/assets/image..png" }]],
+    ["path outside asset root", [{ ...readingMedia(), src: "/reading/image.png" }]],
+    ["unsupported extension", [{ ...readingMedia(), src: "/reading/assets/image.svg" }]],
+  ])("rejects Reading media with %s", async (_label, media) => {
+    const data = readingDocument([]);
+    data.items = [{ id: 201, title: "Media", media, questions: [] }];
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).rejects.toThrow("CONTENT_INVALID");
+  });
+
+  it.each([
+    ["neither text nor image", { id: "A" }],
+    ["empty text", { id: "A", text: " " }],
+    ["invalid image path", { id: "A", image_src: "/other/image.png" }],
+    ["valid text and invalid image", { id: "A", text: "答え", image_src: "data:image/png;base64,AAAA" }],
+  ])("rejects a Reading option with %s", async (_label, option) => {
+    const data = readingDocument([{ ...legacyMcq(), options: [option] }]);
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).rejects.toThrow("CONTENT_INVALID");
+  });
+
+  it.each([
+    ["translation without passage", { id: 201, title: "Visual", media: [readingMedia()], translation_vi: "Bản dịch", questions: [] }],
+    ["empty translation", { id: 201, title: "Passage", passage_jp: "本文", translation_vi: " ", questions: [] }],
+  ])("rejects Reading with %s", async (_label, item) => {
+    const data = readingDocument([]);
+    data.items = [item];
+    loadJsonContent.mockResolvedValue({ state: "available", data });
+
+    await expect(loadLearnContent("reading", 2)).rejects.toThrow("CONTENT_INVALID");
+  });
+
   it.each([
     [{ ...legacyMcq(), question_type: "essay" }],
     [{ ...legacyMcq(), correct_option_id: "Z" }],
@@ -117,6 +217,23 @@ function legacyMcq(id = "q1") {
     options: [{ id: "A", text: "7時" }, { id: "B", text: "8時" }],
     correct_option_id: "A",
   };
+}
+
+function imageMcq() {
+  return {
+    id: "image-mcq",
+    question_type: "mcq",
+    question_jp: "正しい絵はどれですか。",
+    options: [
+      { id: "A", image_src: "/reading/assets/options/a.png" },
+      { id: "B", text: "B", image_src: "/reading/assets/options/b.jpg" },
+    ],
+    correct_option_id: "A",
+  };
+}
+
+function readingMedia(id = "image", src = "/reading/assets/image.png", alt?: string) {
+  return { id, type: "image", src, ...(alt === undefined ? {} : { alt }) };
 }
 
 function matchingQuestion() {
@@ -159,12 +276,7 @@ function readingDocument(questions: unknown[]): {
   schema_version: number;
   id: string;
   study_day: number;
-  items: Array<{
-    id: number;
-    title: string;
-    passage_jp: string;
-    questions: unknown[] | null;
-  }>;
+  items: Array<Record<string, unknown>>;
 } {
   return {
     schema_version: 1,

@@ -97,10 +97,11 @@ Read [`docs/README.md`](docs/README.md) and the authoritative files in [`docs/sp
 
 Future roadmap tasks may exist before their resource JSON is published. This is a supported `Content Pending` state, not an application error. Content is prepared, validated, committed and deployed progressively; published IDs remain stable.
 
-## Learning-set semantics (content specification v1.3)
+## Learning and Reading semantics (content specification v1.4)
 
 - Vocabulary is source-bounded, priority-ranked and quota-based: `target = 50`, pool `<= 100`, with same-day Reserve replacement.
 - Kanji is source-exhaustive: publish all canonical Kanji taught by the assigned lessons; there is no fixed target or Reserve, and Known removes only the item (`active = source - Known`).
+- Reading supports text, visual media, or both; questions remain structured and translation applies only to passage text.
 - Runtime content files continue to use `schema_version: 1`; legacy JSON metadata remains compatible where documented.
 
 ## Delivery rule

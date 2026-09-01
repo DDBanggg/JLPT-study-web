@@ -1,8 +1,9 @@
 # N3 Study Web specifications
 
-The canonical content specification is **v1.3**. It changes authoring and Kanji learning
-semantics while runtime `schema_version` remains `1`; legacy JSON compatibility is
-documented in the schema.
+The canonical content specification is **v1.4**. It adds text/visual/mixed Reading and
+text/image question options while preserving the v1.3 authoring and Kanji learning
+semantics. Runtime `schema_version` remains `1`; legacy JSON compatibility is documented
+in the schema.
 
 Authoritative project specifications live in [`docs/specs`](./specs). Read them in this precedence order before implementation:
 

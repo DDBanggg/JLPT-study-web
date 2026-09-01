@@ -2,13 +2,13 @@
 
 **Status:** Frozen for first desktop implementation  
 **Contract version:** 1.1
-**Date:** 2026-08-31
+**Date:** 2026-09-01
 
 This contract is shared by Codex (backend), Antigravity (frontend), and ChatGPT (spec/context). Breaking changes must update this document first.
 
-Content specification v1.3 changes authoring and Kanji learning semantics while runtime
-`schema_version` remains `1`. Vocabulary remains source-bounded and quota-based; Kanji is
-source-exhaustive and Known is remove-only.
+Content specification v1.4 adds text/visual/mixed Reading and text/image question options
+while runtime `schema_version` remains `1`. Vocabulary remains source-bounded and
+quota-based; Kanji is source-exhaustive and Known is remove-only.
 
 ## 1. General conventions
 

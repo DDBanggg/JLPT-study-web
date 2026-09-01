@@ -1,11 +1,12 @@
 # N3 Study Web — Product Context & Learning Logic
 
-**Status:** Canonical product context aligned with content specification v1.3
-**Updated:** 2026-08-31
+**Status:** Canonical product context aligned with content specification v1.4
+**Updated:** 2026-09-01
 
-Specification v1.3 changes authoring and Kanji learning semantics while runtime
-`schema_version` remains `1`. Legacy JSON and legacy persisted Kanji learning-set rows
-remain compatible where the canonical schema and architecture document them.
+Specification v1.4 adds text/visual/mixed Reading while retaining the v1.3 authoring and
+Kanji learning semantics. Runtime `schema_version` remains `1`. Legacy JSON and legacy
+persisted Kanji learning-set rows remain compatible where the canonical schema and
+architecture document them.
 
 ## Product goal
 
@@ -169,11 +170,14 @@ Kanji active IDs are always `current source IDs - Known IDs`. For example, sourc
 
 ## Reading
 
-- Japanese passage
+- stimulus is a Japanese passage, visual media, or both
+- text remains structured text; visual media uses public `/reading/assets/` images
 - Questions section always displayed
-- if no questions, show `...`; JSON may use null
-- temporary user translation textarea
-- compare with Vietnamese reference translation
+- if no questions, show `...`; new JSON uses `[]`, legacy JSON may use null
+- temporary user translation textarea and Vietnamese reference exist only for passage content
+- translation translates passage text only
+- answer checking is independent from translation reveal
+- MCQ and Matching items may use text, image, or both; Matching remains structured by IDs
 - no AI grading
 - user draft/answers not persisted
 - DB stores completion only

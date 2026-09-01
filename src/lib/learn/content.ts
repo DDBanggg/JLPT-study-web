@@ -12,6 +12,19 @@ export type LearnType = (typeof LEARN_TYPES)[number];
 
 export type LearnItem = { id: number; [key: string]: unknown };
 
+export type ReadingMedia = {
+  id: string;
+  type: "image";
+  src: string;
+  alt?: string;
+};
+
+export type ReadingQuestionOption = {
+  id: string;
+  text?: string;
+  image_src?: string;
+};
+
 export type LearnContentDocument = {
   schema_version: number;
   id: string;
@@ -95,8 +108,48 @@ function isKanjiItem(value: unknown): boolean {
   return true;
 }
 
-function isQuestionOption(value: unknown): value is { id: string; text: string } {
-  return isRecord(value) && isNonEmptyString(value.id) && isNonEmptyString(value.text);
+const READING_ASSET_ROOT = "/reading/assets/";
+const READING_ASSET_EXTENSION = /\.(?:png|jpe?g|webp)$/;
+
+function isReadingAssetPath(value: unknown): value is string {
+  if (!isNonEmptyString(value) || !value.startsWith(READING_ASSET_ROOT)) return false;
+  if (value.includes("\\") || value.includes("?") || value.includes("#")) return false;
+
+  let decodedValue: string;
+  try {
+    decodedValue = decodeURIComponent(value);
+  } catch {
+    return false;
+  }
+  if (decodedValue.includes("..") || decodedValue.includes("\\") ||
+      decodedValue.includes("?") || decodedValue.includes("#")) {
+    return false;
+  }
+
+  const relativePath = decodedValue.slice(READING_ASSET_ROOT.length);
+  const segments = relativePath.split("/");
+  return segments.length > 0 &&
+    segments.every((segment) => segment.length > 0 && segment !== "." && segment !== "..") &&
+    READING_ASSET_EXTENSION.test(value);
+}
+
+function isReadingMedia(value: unknown): value is ReadingMedia {
+  if (!isRecord(value)) return false;
+  const allowedFields = new Set(["id", "type", "src", "alt"]);
+  return Object.keys(value).every((field) => allowedFields.has(field)) &&
+    isNonEmptyString(value.id) &&
+    value.type === "image" &&
+    isReadingAssetPath(value.src) &&
+    (!Object.hasOwn(value, "alt") || isNonEmptyString(value.alt));
+}
+
+function isQuestionOption(value: unknown): value is ReadingQuestionOption {
+  if (!isRecord(value) || !isNonEmptyString(value.id)) return false;
+  const hasText = Object.hasOwn(value, "text");
+  const hasImage = Object.hasOwn(value, "image_src");
+  return (hasText || hasImage) &&
+    (!hasText || isNonEmptyString(value.text)) &&
+    (!hasImage || isReadingAssetPath(value.image_src));
 }
 
 function isReadingQuestion(value: unknown): boolean {
@@ -150,10 +203,28 @@ function isReadingQuestion(value: unknown): boolean {
 }
 
 function isReadingItem(value: unknown): boolean {
-  if (!isRecord(value) || !isNonEmptyString(value.title) || !isNonEmptyString(value.passage_jp)) {
+  if (!isRecord(value) || !isNonEmptyString(value.title)) {
     return false;
   }
-  if (value.questions === null) return true;
+
+  const hasPassage = isNonEmptyString(value.passage_jp);
+  if (Object.hasOwn(value, "passage_jp") && value.passage_jp !== null && !hasPassage) return false;
+
+  if (Object.hasOwn(value, "media") &&
+      (!Array.isArray(value.media) || !value.media.every(isReadingMedia))) {
+    return false;
+  }
+  const media = Array.isArray(value.media) ? value.media : [];
+  if (!hasPassage && media.length === 0) return false;
+  const mediaIds = media.map((item) => (item as ReadingMedia).id);
+  if (!hasUniqueStrings(mediaIds)) return false;
+
+  if (Object.hasOwn(value, "translation_vi") && value.translation_vi !== null &&
+      (!hasPassage || !isNonEmptyString(value.translation_vi))) {
+    return false;
+  }
+
+  if (!Object.hasOwn(value, "questions") || value.questions === null) return true;
   if (!Array.isArray(value.questions) || !value.questions.every(isReadingQuestion)) return false;
   const questionIds = value.questions.map((question) => (question as { id: string }).id);
   return hasUniqueStrings(questionIds);

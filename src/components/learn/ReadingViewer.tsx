@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 
 import { ArrowLeftIcon, ChevronLeftIcon, ChevronRightIcon, EyeIcon, EyeOffIcon } from "../common/Icons";
@@ -10,7 +11,15 @@ export type ReadingQuestionType = "mcq" | "true_false" | "short_answer" | "match
 
 export interface ReadingQuestionOption {
   id: string;
-  text: string;
+  text?: string;
+  image_src?: string;
+}
+
+export interface ReadingMedia {
+  id: string;
+  type: "image";
+  src: string;
+  alt?: string;
 }
 
 type ReadingQuestionBase = {
@@ -47,8 +56,9 @@ export type ReadingQuestion = ReadingMcqQuestion | ReadingTrueFalseQuestion | Re
 export interface ReadingItem {
   id: number;
   title: string;
-  passage_jp: string;
-  translation_vi?: string;
+  passage_jp?: string | null;
+  translation_vi?: string | null;
+  media?: ReadingMedia[];
   questions?: ReadingQuestion[] | null;
 }
 
@@ -68,10 +78,33 @@ function resultClass(correct: boolean): string {
     : "border-red-300 bg-red-50 text-red-900";
 }
 
+const READING_MEDIA_FALLBACK_ALT = "Hình minh họa của bài đọc";
+const QUESTION_OPTION_IMAGE_ALT = "Hình minh họa của lựa chọn";
+
+function QuestionOptionContent({ option }: { option: ReadingQuestionOption }) {
+  return (
+    <span className="flex min-w-0 flex-1 flex-col gap-2">
+      {option.image_src && (
+        <Image
+          src={option.image_src}
+          alt={QUESTION_OPTION_IMAGE_ALT}
+          width={800}
+          height={600}
+          sizes="(min-width: 640px) 16rem, 45vw"
+          unoptimized
+          className="h-auto max-h-48 w-full max-w-full rounded-md object-contain"
+        />
+      )}
+      {option.text && <span>{option.text}</span>}
+    </span>
+  );
+}
+
 export function ReadingViewer({ studyDay, items, isCompletedInitially = false }: ReadingViewerProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userDrafts, setUserDrafts] = useState<Record<number, string>>({});
-  const [showComparison, setShowComparison] = useState(false);
+  const [showTranslation, setShowTranslation] = useState(false);
+  const [showAnswers, setShowAnswers] = useState(false);
   const [mcqAnswers, setMcqAnswers] = useState<Record<string, string>>({});
   const [trueFalseAnswers, setTrueFalseAnswers] = useState<Record<string, boolean>>({});
   const [shortAnswers, setShortAnswers] = useState<Record<string, string>>({});
@@ -86,7 +119,8 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
   const currentDraft = (currentItem ? userDrafts[currentItem.id] : "") || "";
 
   const changeItem = (offset: number) => {
-    setShowComparison(false);
+    setShowTranslation(false);
+    setShowAnswers(false);
     setCurrentIndex((previous) => previous + offset);
   };
 
@@ -159,24 +193,45 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         <div className="space-y-4">
-          <div className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-xs sm:p-7">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h2 className="text-base font-bold text-slate-900">{currentItem.title}</h2>
-              <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">Đoạn văn tiếng Nhật</span>
+          {currentItem.passage_jp && (
+            <div className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-xs sm:p-7">
+              <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                <h2 className="text-base font-bold text-slate-900">{currentItem.title}</h2>
+                <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">Đoạn văn tiếng Nhật</span>
+              </div>
+              <div data-testid="reading-passage" className="whitespace-pre-line text-base leading-relaxed text-slate-800">{currentItem.passage_jp}</div>
             </div>
-            <div data-testid="reading-passage" className="whitespace-pre-line text-base leading-relaxed text-slate-800">{currentItem.passage_jp}</div>
-          </div>
+          )}
 
-          <div className="space-y-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-xs">
-            <label htmlFor="user-translation-draft" className="text-xs font-semibold uppercase tracking-wider text-slate-600">Bản dịch nháp của bạn (tùy chọn)</label>
-            <textarea id="user-translation-draft" value={currentDraft} onChange={(event) => setUserDrafts((previous) => ({ ...previous, [currentItem.id]: event.target.value }))} rows={4} className="w-full resize-y rounded-lg border border-slate-300 bg-slate-50/50 p-3 text-xs text-slate-800" />
-            <button type="button" onClick={() => setShowComparison((previous) => !previous)} className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 py-2 text-xs font-semibold text-blue-700">
-              {showComparison ? <EyeOffIcon className="h-4 w-4" /> : <EyeIcon className="h-4 w-4" />}
-              <span>{showComparison ? "Ẩn bản dịch tham khảo & giải thích" : "So sánh bản dịch & Đáp án tham khảo"}</span>
-            </button>
-          </div>
+          {currentItem.media && currentItem.media.length > 0 && (
+            <div data-testid="reading-media" className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-xs sm:p-5">
+              {currentItem.media.map((media) => (
+                <Image
+                  key={media.id}
+                  src={media.src}
+                  alt={media.alt ?? READING_MEDIA_FALLBACK_ALT}
+                  width={1600}
+                  height={1200}
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  unoptimized
+                  className="h-auto w-full max-w-full rounded-xl object-contain"
+                />
+              ))}
+            </div>
+          )}
 
-          {showComparison && currentItem.translation_vi && (
+          {currentItem.passage_jp && (
+            <div className="space-y-3 rounded-2xl border border-slate-200 bg-white p-5 shadow-xs">
+              <label htmlFor="user-translation-draft" className="text-xs font-semibold uppercase tracking-wider text-slate-600">Bản dịch nháp của bạn (tùy chọn)</label>
+              <textarea id="user-translation-draft" value={currentDraft} onChange={(event) => setUserDrafts((previous) => ({ ...previous, [currentItem.id]: event.target.value }))} rows={4} className="w-full resize-y rounded-lg border border-slate-300 bg-slate-50/50 p-3 text-xs text-slate-800" />
+              <button type="button" onClick={() => setShowTranslation((previous) => !previous)} className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-blue-200 bg-blue-50 py-2 text-xs font-semibold text-blue-700">
+                {showTranslation ? <EyeOffIcon className="h-4 w-4" /> : <EyeIcon className="h-4 w-4" />}
+                <span>{showTranslation ? "Ẩn bản dịch tham khảo" : "So sánh bản dịch"}</span>
+              </button>
+            </div>
+          )}
+
+          {currentItem.passage_jp && showTranslation && currentItem.translation_vi && (
             <div data-testid="reference-translation-card" className="space-y-2 rounded-2xl border border-emerald-200 bg-emerald-50/50 p-5 shadow-xs">
               <div className="text-xs font-semibold uppercase tracking-wider text-emerald-800">Bản dịch tham khảo</div>
               <p className="whitespace-pre-line text-sm leading-relaxed text-emerald-950">{currentItem.translation_vi}</p>
@@ -205,11 +260,22 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
                           {question.options.map((option) => {
                             const selected = mcqAnswers[answerKey];
                             const selectedOption = selected === option.id;
-                            const correctOption = showComparison && option.id === question.correct_option_id;
-                            const wrongOption = showComparison && selectedOption && selected !== question.correct_option_id;
-                            return <button key={option.id} type="button" onClick={() => setMcqAnswers((previous) => ({ ...previous, [answerKey]: option.id }))} className={`flex w-full items-center gap-2.5 rounded-lg border px-3.5 py-2 text-left text-xs font-medium ${correctOption ? "border-emerald-300 bg-emerald-50 text-emerald-900" : wrongOption ? "border-red-300 bg-red-50 text-red-900" : selectedOption ? "border-blue-500 bg-blue-50 text-blue-900" : "border-slate-200 bg-white text-slate-700"}`}><span className="flex h-5 w-5 items-center justify-center rounded-full bg-slate-100 text-[11px] font-bold">{option.id}</span><span>{option.text}</span></button>;
+                            const correctOption = showAnswers && option.id === question.correct_option_id;
+                            const wrongOption = showAnswers && selectedOption && selected !== question.correct_option_id;
+                            return (
+                              <button
+                                key={option.id}
+                                type="button"
+                                data-testid={`mcq-option-${question.id}-${option.id}`}
+                                onClick={() => setMcqAnswers((previous) => ({ ...previous, [answerKey]: option.id }))}
+                                className={`flex w-full items-start gap-2.5 rounded-lg border px-3.5 py-2 text-left text-xs font-medium ${correctOption ? "border-emerald-300 bg-emerald-50 text-emerald-900" : wrongOption ? "border-red-300 bg-red-50 text-red-900" : selectedOption ? "border-blue-500 bg-blue-50 text-blue-900" : "border-slate-200 bg-white text-slate-700"}`}
+                              >
+                                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-slate-100 text-[11px] font-bold">{option.id}</span>
+                                <QuestionOptionContent option={option} />
+                              </button>
+                            );
                           })}
-                          {showComparison && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600"><div className="font-semibold text-slate-800">Đáp án đúng: {question.correct_option_id}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}
+                          {showAnswers && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600"><div className="font-semibold text-slate-800">Đáp án đúng: {question.correct_option_id}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}
                         </div>
                       )}
 
@@ -218,11 +284,11 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
                           <div className="grid grid-cols-2 gap-2">
                             {[true, false].map((answer) => {
                               const selected = trueFalseAnswers[answerKey] === answer;
-                              const stateClass = showComparison && selected ? resultClass(answer === question.correct_answer) : "border-slate-200 bg-white text-slate-700";
-                              return <button key={String(answer)} type="button" onClick={() => setTrueFalseAnswers((previous) => ({ ...previous, [answerKey]: answer }))} className={`rounded-lg border px-3 py-2 text-xs font-semibold ${selected && !showComparison ? "border-blue-500 bg-blue-50 text-blue-900" : stateClass}`}>{answer ? "Đúng" : "Sai"}</button>;
+                              const stateClass = showAnswers && selected ? resultClass(answer === question.correct_answer) : "border-slate-200 bg-white text-slate-700";
+                              return <button key={String(answer)} type="button" onClick={() => setTrueFalseAnswers((previous) => ({ ...previous, [answerKey]: answer }))} className={`rounded-lg border px-3 py-2 text-xs font-semibold ${selected && !showAnswers ? "border-blue-500 bg-blue-50 text-blue-900" : stateClass}`}>{answer ? "Đúng" : "Sai"}</button>;
                             })}
                           </div>
-                          {showComparison && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600"><div className="font-semibold text-slate-800">Đáp án đúng: {question.correct_answer ? "Đúng" : "Sai"}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}
+                          {showAnswers && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600"><div className="font-semibold text-slate-800">Đáp án đúng: {question.correct_answer ? "Đúng" : "Sai"}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}
                         </div>
                       )}
 
@@ -230,7 +296,7 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
                         const answer = shortAnswers[answerKey] ?? "";
                         const normalized = normalizeReadingAnswer(answer);
                         const correct = normalized.length > 0 && question.accepted_answers.some((candidate) => normalizeReadingAnswer(candidate) === normalized);
-                        return <div className="space-y-2"><input aria-label={`Câu trả lời cho ${question.id}`} value={answer} onChange={(event) => setShortAnswers((previous) => ({ ...previous, [answerKey]: event.target.value }))} className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm" />{showComparison && <div data-testid={`short-result-${question.id}`} className={`rounded-lg border p-3 text-xs ${resultClass(correct)}`}><div className="font-semibold">{correct ? "Chính xác" : "Chưa chính xác"}</div><div>Đáp án chấp nhận: {question.accepted_answers.join(" / ")}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}</div>;
+                        return <div className="space-y-2"><input aria-label={`Câu trả lời cho ${question.id}`} value={answer} onChange={(event) => setShortAnswers((previous) => ({ ...previous, [answerKey]: event.target.value }))} className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm" />{showAnswers && <div data-testid={`short-result-${question.id}`} className={`rounded-lg border p-3 text-xs ${resultClass(correct)}`}><div className="font-semibold">{correct ? "Chính xác" : "Chưa chính xác"}</div><div>Đáp án chấp nhận: {question.accepted_answers.join(" / ")}</div>{question.explanation_vi && <div>{question.explanation_vi}</div>}</div>}</div>;
                       })()}
 
                       {questionType === "matching" && "left_items" in question && (
@@ -240,26 +306,55 @@ export function ReadingViewer({ studyDay, items, isCompletedInitially = false }:
                             const selectedRightId = assignments[leftItem.id] ?? "";
                             const correctRightId = question.correct_pairs.find((pair) => pair.left_id === leftItem.id)?.right_id ?? "";
                             const correctRight = question.right_items.find((item) => item.id === correctRightId);
+                            const leftLabel = leftItem.text ?? `mục ${leftItem.id}`;
                             return (
-                              <div key={leftItem.id} data-testid={`matching-row-${question.id}-${leftItem.id}`} className={`grid gap-2 rounded-lg border p-3 sm:grid-cols-[1fr_1fr] ${showComparison ? resultClass(selectedRightId === correctRightId) : "border-slate-200 bg-white"}`}>
-                                <label htmlFor={`${question.id}-${leftItem.id}`} className="text-xs font-semibold text-slate-800">{leftItem.text}</label>
-                                <select id={`${question.id}-${leftItem.id}`} aria-label={`Ghép ${leftItem.text}`} value={selectedRightId} onChange={(event) => assignMatch(answerKey, leftItem.id, event.target.value)} className="min-h-10 rounded-lg border border-slate-300 bg-white px-2 text-xs text-slate-800">
-                                  <option value="">Chọn đáp án</option>
+                              <div key={leftItem.id} data-testid={`matching-row-${question.id}-${leftItem.id}`} className={`space-y-3 rounded-lg border p-3 ${showAnswers ? resultClass(selectedRightId === correctRightId) : "border-slate-200 bg-white"}`}>
+                                <div className="text-xs font-semibold text-slate-800">
+                                  <QuestionOptionContent option={leftItem} />
+                                </div>
+                                <div className="grid gap-2 sm:grid-cols-2">
                                   {question.right_items.map((rightItem) => {
                                     const usedByAnother = Object.entries(assignments).some(([assignedLeft, assignedRight]) => assignedLeft !== leftItem.id && assignedRight === rightItem.id);
-                                    return <option key={rightItem.id} value={rightItem.id} disabled={usedByAnother}>{rightItem.text}</option>;
+                                    const selected = selectedRightId === rightItem.id;
+                                    const rightLabel = rightItem.text ?? `lựa chọn ${rightItem.id}`;
+                                    return (
+                                      <button
+                                        key={rightItem.id}
+                                        type="button"
+                                        data-testid={`matching-candidate-${question.id}-${leftItem.id}-${rightItem.id}`}
+                                        aria-label={`Ghép ${leftLabel} với ${rightLabel}`}
+                                        aria-pressed={selected}
+                                        disabled={usedByAnother}
+                                        onClick={() => assignMatch(answerKey, leftItem.id, rightItem.id)}
+                                        className={`flex min-h-12 items-center rounded-lg border p-2 text-left text-xs font-medium ${selected ? "border-blue-500 bg-blue-50 text-blue-900" : "border-slate-200 bg-white text-slate-700"} disabled:cursor-not-allowed disabled:opacity-40`}
+                                      >
+                                        <QuestionOptionContent option={rightItem} />
+                                      </button>
+                                    );
                                   })}
-                                </select>
-                                {showComparison && <div className="text-xs sm:col-span-2">Đáp án đúng: {leftItem.text} → {correctRight?.text}</div>}
+                                </div>
+                                {showAnswers && correctRight && (
+                                  <div className="space-y-1 text-xs">
+                                    <span className="font-semibold">Đáp án đúng:</span>
+                                    <QuestionOptionContent option={correctRight} />
+                                  </div>
+                                )}
                               </div>
                             );
                           })}
-                          {showComparison && question.explanation_vi && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600">{question.explanation_vi}</div>}
+                          {showAnswers && question.explanation_vi && <div className="rounded-lg border border-slate-200 bg-white p-3 text-xs text-slate-600">{question.explanation_vi}</div>}
                         </div>
                       )}
                     </div>
                   );
                 })}
+                <button
+                  type="button"
+                  onClick={() => setShowAnswers((previous) => !previous)}
+                  className="w-full rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm"
+                >
+                  {showAnswers ? "Ẩn đáp án" : "Kiểm tra đáp án"}
+                </button>
               </div>
             ) : <div className="py-8 text-center font-mono text-sm text-slate-400">...</div>}
           </div>

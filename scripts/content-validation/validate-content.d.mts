@@ -3,4 +3,11 @@ export interface ContentValidationResult {
   errors: string[];
 }
 
-export function validateContentRoot(contentRoot: string): Promise<ContentValidationResult>;
+export interface ContentValidationOptions {
+  publicRoot?: string;
+}
+
+export function validateContentRoot(
+  contentRoot: string,
+  options?: ContentValidationOptions | string,
+): Promise<ContentValidationResult>;

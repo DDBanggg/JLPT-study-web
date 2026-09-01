@@ -1,4 +1,4 @@
-import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
@@ -152,7 +152,7 @@ describe("content validation foundation", () => {
     expect(errors.some((error) => error.includes("vocabulary pool cannot exceed 100 items"))).toBe(true);
   });
 
-  it("accepts every Reading v1.2 question type, legacy MCQ, and questions:null", async () => {
+  it("accepts every Reading v1.4 question type, legacy MCQ, and questions:null", async () => {
     const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-reading-types-"));
     const document = readingDocument([
       legacyMcq(),
@@ -171,7 +171,7 @@ describe("content validation foundation", () => {
       },
       matchingQuestion(),
     ]);
-    document.items.push({ id: 202, questions: null });
+    document.items.push({ id: 202, passage_jp: "本文です。", questions: null });
 
     try {
       await writeFile(path.join(contentRoot, "reading.json"), JSON.stringify(document));
@@ -179,6 +179,131 @@ describe("content validation foundation", () => {
     } finally {
       await rm(contentRoot, { recursive: true, force: true });
     }
+  });
+
+  it.each([
+    ["legacy passage-only", readingItem({ translation_vi: undefined }), []],
+    ["text with translation", readingItem({ translation_vi: "Đây là nội dung." }), []],
+    [
+      "visual-only",
+      readingItem({
+        passage_jp: undefined,
+        media: [readingMedia("visual", "/reading/assets/visual.webp")],
+      }),
+      ["/reading/assets/visual.webp"],
+    ],
+    [
+      "mixed",
+      readingItem({
+        translation_vi: "Hãy xem sơ đồ.",
+        media: [readingMedia("diagram", "/reading/assets/diagrams/map.jpeg", "Sơ đồ")],
+      }),
+      ["/reading/assets/diagrams/map.jpeg"],
+    ],
+    [
+      "image MCQ",
+      readingItem({ questions: [imageMcq()] }),
+      ["/reading/assets/options/a.png", "/reading/assets/options/b.jpg"],
+    ],
+    [
+      "image matching",
+      readingItem({ questions: [imageMatchingQuestion()] }),
+      ["/reading/assets/people/tanaka.png", "/reading/assets/objects/bag.webp"],
+    ],
+  ])("accepts Reading v1.4 %s content", async (_label, item, assets) => {
+    const errors = await validateTemporaryReadingItems([item], assets as string[]);
+    expect(errors).toEqual([]);
+  });
+
+  it("rejects Reading without a passage or media stimulus", async () => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ passage_jp: undefined }),
+    ]);
+    expect(errors.some((error) => error.includes("requires non-empty passage_jp or media"))).toBe(true);
+  });
+
+  it("rejects Reading translation without a passage", async () => {
+    const asset = "/reading/assets/visual.png";
+    const errors = await validateTemporaryReadingItems([
+      readingItem({
+        passage_jp: undefined,
+        translation_vi: "Bản dịch không có đoạn văn.",
+        media: [readingMedia("visual", asset)],
+      }),
+    ], [asset]);
+    expect(errors.some((error) => error.includes("translation_vi requires passage_jp"))).toBe(true);
+  });
+
+  it("rejects an empty Reading translation", async () => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ translation_vi: "  " }),
+    ]);
+    expect(errors.some((error) => error.includes("translation_vi must be non-empty"))).toBe(true);
+  });
+
+  it("rejects duplicate Reading media IDs", async () => {
+    const asset = "/reading/assets/duplicate.png";
+    const errors = await validateTemporaryReadingItems([
+      readingItem({
+        passage_jp: undefined,
+        media: [readingMedia("same", asset), readingMedia("same", asset)],
+      }),
+    ], [asset]);
+    expect(errors.some((error) => error.includes("media IDs must be unique"))).toBe(true);
+  });
+
+  it.each([
+    ["non-array media", "image", "media must be an array"],
+    ["empty media id", [{ ...readingMedia(), id: " " }], "id must be non-empty"],
+    ["unsupported media type", [{ ...readingMedia(), type: "video" }], "type must equal 'image'"],
+    ["empty media alt", [{ ...readingMedia(), alt: " " }], "alt must be non-empty"],
+    ["unsupported media fields", [{ ...readingMedia(), width: 640 }], "contains unsupported fields"],
+  ])("rejects Reading %s", async (_label, media, expectedError) => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ media }),
+    ], ["/reading/assets/image.png"]);
+    expect(errors.some((error) => error.includes(expectedError as string))).toBe(true);
+  });
+
+  it.each([
+    ["path outside the root", "/images/option.png"],
+    ["remote URL", "https://example.com/option.png"],
+    ["parent traversal", "/reading/assets/../option.png"],
+    ["backslash traversal", "/reading/assets/..\\option.png"],
+  ])("rejects Reading asset %s", async (_label, src) => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ passage_jp: undefined, media: [readingMedia("invalid", src)] }),
+    ]);
+    expect(errors.some((error) => error.includes("must be a valid Reading asset path"))).toBe(true);
+  });
+
+  it("rejects a valid Reading asset path when its file is missing", async () => {
+    const missingAsset = "/reading/assets/missing.png";
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ passage_jp: undefined, media: [readingMedia("missing", missingAsset)] }),
+    ]);
+    expect(errors).toContain(
+      `reading.json: Reading asset '${missingAsset}' does not exist under publicRoot`,
+    );
+  });
+
+  it("rejects a Reading option with neither text nor image", async () => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({
+        questions: [{ ...legacyMcq(), options: [{ id: "A" }] }],
+      }),
+    ]);
+    expect(errors.some((error) => error.includes("requires text or image_src"))).toBe(true);
+  });
+
+  it.each([
+    ["empty text", { id: "A", text: " " }, "text must be non-empty"],
+    ["invalid image path", { id: "A", image_src: "/outside/answer.png" }, "valid Reading asset path"],
+  ])("rejects a Reading option with %s", async (_label, option, expectedError) => {
+    const errors = await validateTemporaryReadingItems([
+      readingItem({ questions: [{ ...legacyMcq(), options: [option] }] }),
+    ]);
+    expect(errors.some((error) => error.includes(expectedError as string))).toBe(true);
   });
 
   it.each([
@@ -217,6 +342,38 @@ async function validateTemporaryDocument(document: unknown, prefix: string): Pro
   }
 }
 
+async function validateTemporaryReadingItems(
+  items: unknown[],
+  assetPaths: string[] = [],
+): Promise<string[]> {
+  const temporaryRoot = await mkdtemp(path.join(tmpdir(), "n3-reading-v1-4-"));
+  const contentRoot = path.join(temporaryRoot, "content");
+  const publicRoot = path.join(temporaryRoot, "public");
+  try {
+    await Promise.all([
+      mkdir(contentRoot, { recursive: true }),
+      mkdir(publicRoot, { recursive: true }),
+    ]);
+    for (const assetPath of assetPaths) {
+      const target = path.join(publicRoot, ...assetPath.slice(1).split("/"));
+      await mkdir(path.dirname(target), { recursive: true });
+      await writeFile(target, "test asset");
+    }
+    await writeFile(
+      path.join(contentRoot, "reading.json"),
+      JSON.stringify({
+        schema_version: 1,
+        id: "reading-day-002",
+        study_day: 2,
+        items,
+      }),
+    );
+    return (await validateContentRoot(contentRoot, { publicRoot })).errors;
+  } finally {
+    await rm(temporaryRoot, { recursive: true, force: true });
+  }
+}
+
 function kanjiItem(overrides: Record<string, unknown> = {}) {
   return {
     id: 201,
@@ -236,6 +393,51 @@ function legacyMcq(id = "legacy") {
   };
 }
 
+function imageMcq() {
+  return {
+    id: "image-mcq",
+    question_jp: "正しい絵はどれですか。",
+    options: [
+      { id: "A", image_src: "/reading/assets/options/a.png" },
+      { id: "B", text: "選択肢B", image_src: "/reading/assets/options/b.jpg" },
+    ],
+    correct_option_id: "A",
+  };
+}
+
+function imageMatchingQuestion() {
+  return {
+    id: "image-matching",
+    question_type: "matching",
+    question_jp: "組み合わせてください。",
+    left_items: [
+      { id: "L1", image_src: "/reading/assets/people/tanaka.png" },
+      { id: "L2", text: "山田" },
+    ],
+    right_items: [
+      { id: "R1", text: "本" },
+      { id: "R2", text: "かばん", image_src: "/reading/assets/objects/bag.webp" },
+    ],
+    correct_pairs: [
+      { left_id: "L1", right_id: "R2" },
+      { left_id: "L2", right_id: "R1" },
+    ],
+  };
+}
+
+function readingMedia(id = "image", src = "/reading/assets/image.png", alt?: string) {
+  return { id, type: "image", src, ...(alt === undefined ? {} : { alt }) };
+}
+
+function readingItem(overrides: Record<string, unknown> = {}) {
+  return {
+    id: 201,
+    passage_jp: "本文です。",
+    questions: [],
+    ...overrides,
+  };
+}
+
 function matchingQuestion() {
   return {
     id: "matching",
@@ -251,12 +453,12 @@ function readingDocument(questions: unknown[]): {
   schema_version: number;
   id: string;
   study_day: number;
-  items: Array<{ id: number; questions: unknown[] | null }>;
+  items: Array<{ id: number; passage_jp: string; questions: unknown[] | null }>;
 } {
   return {
     schema_version: 1,
     id: "reading-day-002",
     study_day: 2,
-    items: [{ id: 201, questions }],
+    items: [{ id: 201, passage_jp: "本文です。", questions }],
   };
 }
