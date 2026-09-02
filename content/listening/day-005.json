@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "listening-day-005",
+  "study_day": 5,
+  "items": [
+    {
+      "id": 501,
+      "title": "Listening 21",
+      "description_vi": "Nghe và nắm ý chính.",
+      "youtube": {
+        "type": "video",
+        "video_id": "Z9Qutw9k4rw",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=Z9Qutw9k4rw",
+      "source_ref": "Listening playlist — Video 21"
+    },
+    {
+      "id": 502,
+      "title": "Listening 22",
+      "description_vi": "Nghe và nắm ý chính.",
+      "youtube": {
+        "type": "video",
+        "video_id": "SLYM_n5A1xk",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=SLYM_n5A1xk",
+      "source_ref": "Listening playlist — Video 22"
+    },
+    {
+      "id": 503,
+      "title": "Listening 23",
+      "description_vi": "Nghe và nắm ý chính.",
+      "youtube": {
+        "type": "video",
+        "video_id": "3yVNrjSvEWE",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=3yVNrjSvEWE",
+      "source_ref": "Listening playlist — Video 23"
+    },
+    {
+      "id": 504,
+      "title": "Listening 24",
+      "description_vi": "Nghe và nắm ý chính.",
+      "youtube": {
+        "type": "video",
+        "video_id": "Sy_Yp8f2rEo",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=Sy_Yp8f2rEo",
+      "source_ref": "Listening playlist — Video 24"
+    },
+    {
+      "id": 505,
+      "title": "Listening 25",
+      "description_vi": "Nghe và nắm ý chính.",
+      "youtube": {
+        "type": "video",
+        "video_id": "2DpEVEk__98",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=2DpEVEk__98",
+      "source_ref": "Listening playlist — Video 25"
+    }
+  ]
+}
