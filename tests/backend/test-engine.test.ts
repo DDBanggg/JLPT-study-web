@@ -27,6 +27,41 @@ function correctAnswers(document: TestDocument) {
   );
 }
 
+function createDailyTestDocument(): TestDocument {
+  const sections = [
+    ["grammar", "Grammar"],
+    ["vocabulary", "Vocabulary"],
+    ["kanji", "Kanji"],
+  ].map(([id, title]) => ({
+    id,
+    title,
+    max_score: 15,
+    questions: Array.from({ length: 15 }, (_, index) => ({
+      id: `${id}-${String(index + 1).padStart(2, "0")}`,
+      category: id,
+      prompt: "?",
+      stimulus_id: null,
+      options: [
+        { id: "A", text: "A" },
+        { id: "B", text: "B" },
+      ],
+      correct_option_id: "A",
+      explanation_vi: "",
+    })),
+  }));
+
+  return {
+    schema_version: 1,
+    id: "daily-003",
+    type: "daily",
+    title: "Daily Test — Day 3",
+    study_day: 3,
+    coverage: { from_day: 2, to_day: 2 },
+    stimuli: [],
+    sections,
+  };
+}
+
 describe("shared Test Engine", () => {
   it("locates published and pending tests from the roadmap", async () => {
     const roadmap = await loadProgramRoadmap();
@@ -70,8 +105,8 @@ describe("shared Test Engine", () => {
     ])).toBeNull();
   });
 
-  it("raw-scores the 45-question Daily Test", async () => {
-    const document = await loadDocument("tests/daily/day-003.json");
+  it("raw-scores the 45-question Daily Test", () => {
+    const document = createDailyTestDocument();
     const answers = correctAnswers(document);
     answers[0].option_id = null as unknown as string;
     expect(scoreTest(document, answers).result).toMatchObject({

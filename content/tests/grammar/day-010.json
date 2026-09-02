@@ -70,28 +70,27 @@
         {
           "id": "q001",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: đang sắp làm?",
+          "prompt": "今から 昼ごはんを（　　　）ところです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form はずです"
+              "text": "食べた"
             },
             {
               "id": "B",
-              "text": "Vている ところです"
+              "text": "食べている"
             },
             {
               "id": "C",
-              "text": "V dictionary ところです"
+              "text": "食べる"
             },
             {
               "id": "D",
-              "text": "Vた ばかりです"
+              "text": "食べます"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「V dictionary ところです」: Việc sắp bắt đầu.",
           "source_item_refs": [
             "grammar:1001"
           ]
@@ -99,28 +98,27 @@
         {
           "id": "q002",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Việc mới hoàn thành gần thời điểm nói.",
+          "prompt": "この会社に 入った（　　　）です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary ところです"
+              "text": "ところ"
             },
             {
               "id": "B",
-              "text": "Vた ばかりです"
+              "text": "はず"
             },
             {
               "id": "C",
-              "text": "Plain form はずです"
+              "text": "よう"
             },
             {
               "id": "D",
-              "text": "Vている ところです"
+              "text": "ばかり"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vた ばかりです」: Việc mới hoàn thành gần thời điểm nói.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1002"
           ]
@@ -128,28 +126,27 @@
         {
           "id": "q003",
           "category": "grammar",
-          "prompt": "Câu 「ミラーさんは かいぎしつに いる はずです。」 minh họa mẫu nào?",
+          "prompt": "田中さんは きょう 来る（　　　）です。きのう 約束しました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form はずです"
+              "text": "はず"
             },
             {
               "id": "B",
-              "text": "Vている ところです"
+              "text": "ばかり"
             },
             {
               "id": "C",
-              "text": "V dictionary ところです"
+              "text": "よう"
             },
             {
               "id": "D",
-              "text": "Vた ばかりです"
+              "text": "そうでした"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Plain form はずです」: Suy đoán dựa trên căn cứ hợp lý.",
           "source_item_refs": [
             "grammar:1003"
           ]
@@ -157,28 +154,27 @@
         {
           "id": "q004",
           "category": "grammar",
-          "prompt": "Ví dụ 「いま しらべている ところです。」 sử dụng cấu trúc nào?",
+          "prompt": "今 レポートを 書いている（　　　）です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary ところです"
+              "text": "ばかり"
             },
             {
               "id": "B",
-              "text": "Vた ばかりです"
+              "text": "ところ"
             },
             {
               "id": "C",
-              "text": "Plain form はずです"
+              "text": "はず"
             },
             {
               "id": "D",
-              "text": "Vている ところです"
+              "text": "よう"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vている ところです」: Nhấn mạnh thời điểm đang giữa hành động.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1004"
           ]
@@ -186,57 +182,55 @@
         {
           "id": "q005",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đang sắp làm”?",
+          "prompt": "予定では、会議は 3時に 終わる（　　　）です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form はずです"
+              "text": "ばかり"
             },
             {
               "id": "B",
-              "text": "Vている ところです"
+              "text": "よう"
             },
             {
               "id": "C",
-              "text": "V dictionary ところです"
+              "text": "はず"
             },
             {
               "id": "D",
-              "text": "Vた ばかりです"
+              "text": "ところでした"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「V dictionary ところです」: Việc sắp bắt đầu.",
           "source_item_refs": [
-            "grammar:1001"
+            "grammar:1003"
           ]
         },
         {
           "id": "q006",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: nghe nói?",
+          "prompt": "天気予報によると、あしたは 雨が 降る（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の ようです"
+              "text": "ようです"
             },
             {
               "id": "B",
-              "text": "Plain form そうです (truyền đạt)"
+              "text": "はずです"
             },
             {
               "id": "C",
-              "text": "N だそうです"
+              "text": "ところです"
             },
             {
               "id": "D",
-              "text": "Plain form ようです"
+              "text": "そうです"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Plain form そうです (truyền đạt)」: Truyền lại thông tin từ nguồn khác.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1005"
           ]
@@ -244,28 +238,27 @@
         {
           "id": "q007",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Dùng sau danh từ trong lời thuật lại.",
+          "prompt": "山田さんの 話では、田中さんは 病気（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N だそうです"
+              "text": "だそうです"
             },
             {
               "id": "B",
-              "text": "Plain form ようです"
+              "text": "のようです"
             },
             {
               "id": "C",
-              "text": "N の ようです"
+              "text": "なそうです"
             },
             {
               "id": "D",
-              "text": "Plain form そうです (truyền đạt)"
+              "text": "そうなです"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N だそうです」: Dùng sau danh từ trong lời thuật lại.",
           "source_item_refs": [
             "grammar:1006"
           ]
@@ -273,28 +266,27 @@
         {
           "id": "q008",
           "category": "grammar",
-          "prompt": "Câu 「となりの へやに だれか いるようです。」 minh họa mẫu nào?",
+          "prompt": "外が ぬれています。雨が 降った（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の ようです"
+              "text": "そうです"
             },
             {
               "id": "B",
-              "text": "Plain form そうです (truyền đạt)"
+              "text": "ようです"
             },
             {
               "id": "C",
-              "text": "N だそうです"
+              "text": "はずでした"
             },
             {
               "id": "D",
-              "text": "Plain form ようです"
+              "text": "ところです"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Plain form ようです」: Suy đoán dựa trên dấu hiệu gián tiếp.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1007"
           ]
@@ -302,28 +294,27 @@
         {
           "id": "q009",
           "category": "grammar",
-          "prompt": "Ví dụ 「この くもは ゆきの ようです。」 sử dụng cấu trúc nào?",
+          "prompt": "あの人は 先生（　　　）。学生たちに 説明しています。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N だそうです"
+              "text": "だそうです"
             },
             {
               "id": "B",
-              "text": "Plain form ようです"
+              "text": "そうです"
             },
             {
               "id": "C",
-              "text": "N の ようです"
+              "text": "のようです"
             },
             {
               "id": "D",
-              "text": "Plain form そうです (truyền đạt)"
+              "text": "なようです"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N の ようです」: So sánh/suy đoán bằng ようです.",
           "source_item_refs": [
             "grammar:1008"
           ]
@@ -331,28 +322,27 @@
         {
           "id": "q010",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “nghe nói”?",
+          "prompt": "ニュースでは、駅の近くで 事故が あった（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の ようです"
+              "text": "ようです"
             },
             {
               "id": "B",
-              "text": "Plain form そうです (truyền đạt)"
+              "text": "はずです"
             },
             {
               "id": "C",
-              "text": "N だそうです"
+              "text": "ところです"
             },
             {
               "id": "D",
-              "text": "Plain form ようです"
+              "text": "そうです"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Plain form そうです (truyền đạt)」: Truyền lại thông tin từ nguồn khác.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1005"
           ]
@@ -360,57 +350,56 @@
         {
           "id": "q011",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: bắt / cho làm?",
+          "prompt": "先生は 学生に 作文を（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V causative"
+              "text": "書かせました"
             },
             {
               "id": "B",
-              "text": "N に V causative"
+              "text": "書かれました"
             },
             {
               "id": "C",
-              "text": "Vさせて いただけませんか"
+              "text": "書いていました"
             },
             {
               "id": "D",
-              "text": "Vさせて ください"
+              "text": "書けました"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「V causative」: Chủ thể khiến người khác thực hiện hành động.",
           "source_item_refs": [
-            "grammar:1009"
+            "grammar:1009",
+            "grammar:1010"
           ]
         },
         {
           "id": "q012",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: に đánh dấu người thực hiện hành động bị sai khiến.",
+          "prompt": "母は 子ども（　　　）野菜を 食べさせました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vさせて いただけませんか"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "Vさせて ください"
+              "text": "に"
             },
             {
               "id": "C",
-              "text": "V causative"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "N に V causative"
+              "text": "から"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N に V causative」: に đánh dấu người thực hiện hành động bị sai khiến.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1010"
           ]
@@ -418,28 +407,27 @@
         {
           "id": "q013",
           "category": "grammar",
-          "prompt": "Câu 「やすませて いただけませんか。」 minh họa mẫu nào?",
+          "prompt": "すみませんが、あした 休ま（　　　）いただけませんか。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V causative"
+              "text": "れて"
             },
             {
               "id": "B",
-              "text": "N に V causative"
+              "text": "ないで"
             },
             {
               "id": "C",
-              "text": "Vさせて いただけませんか"
+              "text": "せて"
             },
             {
               "id": "D",
-              "text": "Vさせて ください"
+              "text": "せると"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vさせて いただけませんか」: Xin phép lịch sự để được thực hiện hành động.",
           "source_item_refs": [
             "grammar:1011"
           ]
@@ -447,28 +435,27 @@
         {
           "id": "q014",
           "category": "grammar",
-          "prompt": "Ví dụ 「ここで せつめいさせて ください。」 sử dụng cấu trúc nào?",
+          "prompt": "気分が 悪いので、少し 休ませて（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vさせて いただけませんか"
+              "text": "いただきました"
             },
             {
               "id": "B",
-              "text": "Vさせて ください"
+              "text": "いただけません"
             },
             {
               "id": "C",
-              "text": "V causative"
+              "text": "くださいました"
             },
             {
               "id": "D",
-              "text": "N に V causative"
+              "text": "ください"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vさせて ください」: Xin phép thực hiện một việc.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1012"
           ]
@@ -476,57 +463,56 @@
         {
           "id": "q015",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “bắt / cho làm”?",
+          "prompt": "部長は ミラーさんを 大阪へ（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V causative"
+              "text": "出張させました"
             },
             {
               "id": "B",
-              "text": "N に V causative"
+              "text": "出張されました"
             },
             {
               "id": "C",
-              "text": "Vさせて いただけませんか"
+              "text": "出張しました"
             },
             {
               "id": "D",
-              "text": "Vさせて ください"
+              "text": "出張できました"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「V causative」: Chủ thể khiến người khác thực hiện hành động.",
           "source_item_refs": [
-            "grammar:1009"
+            "grammar:1009",
+            "grammar:1010"
           ]
         },
         {
           "id": "q016",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: được làm (kính ngữ)?",
+          "prompt": "先生は きのう 京都へ（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem に なります"
+              "text": "行かせました"
             },
             {
               "id": "B",
-              "text": "Vます-stem なさいます"
+              "text": "行かれました"
             },
             {
               "id": "C",
-              "text": "お Vます-stem ください"
+              "text": "行ってもらいました"
             },
             {
               "id": "D",
-              "text": "Honorific passive"
+              "text": "行かせられました"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Honorific passive」: Dạng bị động dùng tôn kính hành động của người trên.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1013"
           ]
@@ -534,28 +520,27 @@
         {
           "id": "q017",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Cách nói tôn kính hành động của người trên.",
+          "prompt": "先生は この本を お書き（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem ください"
+              "text": "します"
             },
             {
               "id": "B",
-              "text": "Honorific passive"
+              "text": "ください"
             },
             {
               "id": "C",
-              "text": "お Vます-stem に なります"
+              "text": "です"
             },
             {
               "id": "D",
-              "text": "Vます-stem なさいます"
+              "text": "になりました"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「お Vます-stem に なります」: Cách nói tôn kính hành động của người trên.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1014"
           ]
@@ -563,28 +548,27 @@
         {
           "id": "q018",
           "category": "grammar",
-          "prompt": "Câu 「ぶちょうは ゴルフを なさいます。」 minh họa mẫu nào?",
+          "prompt": "部長は 何時に 出発（　　　）か。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem に なります"
+              "text": "なさいます"
             },
             {
               "id": "B",
-              "text": "Vます-stem なさいます"
+              "text": "いたします"
             },
             {
               "id": "C",
-              "text": "お Vます-stem ください"
+              "text": "まいります"
             },
             {
               "id": "D",
-              "text": "Honorific passive"
+              "text": "うかがいます"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem なさいます」: Kính ngữ đặc biệt của một số động từ.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:1015"
           ]
@@ -592,28 +576,27 @@
         {
           "id": "q019",
           "category": "grammar",
-          "prompt": "Ví dụ 「しばらく おまちください。」 sử dụng cấu trúc nào?",
+          "prompt": "こちらに お名前を お書き（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem ください"
+              "text": "になります"
             },
             {
               "id": "B",
-              "text": "Honorific passive"
+              "text": "ください"
             },
             {
               "id": "C",
-              "text": "お Vます-stem に なります"
+              "text": "なさいます"
             },
             {
               "id": "D",
-              "text": "Vます-stem なさいます"
+              "text": "します"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「お Vます-stem ください」: Kính ngữ dùng khi mời người trên thực hiện.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1016"
           ]
@@ -621,57 +604,55 @@
         {
           "id": "q020",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “được làm (kính ngữ)”?",
+          "prompt": "これは 先生が お買い（　　　）時計です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem に なります"
+              "text": "しました"
             },
             {
               "id": "B",
-              "text": "Vます-stem なさいます"
+              "text": "ください"
             },
             {
               "id": "C",
-              "text": "お Vます-stem ください"
+              "text": "になった"
             },
             {
               "id": "D",
-              "text": "Honorific passive"
+              "text": "なさったです"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Honorific passive」: Dạng bị động dùng tôn kính hành động của người trên.",
+          "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:1013"
+            "grammar:1014"
           ]
         },
         {
           "id": "q021",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: làm (khiêm nhường)?",
+          "prompt": "わたしが お荷物を お持ち（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N から まいります"
+              "text": "になります"
             },
             {
               "id": "B",
-              "text": "いたします"
+              "text": "ください"
             },
             {
               "id": "C",
-              "text": "お Vます-stem します"
+              "text": "なさいます"
             },
             {
               "id": "D",
-              "text": "Vます-stem に うかがいます"
+              "text": "します"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「お Vます-stem します」: Người nói hạ mình khi làm cho người trên.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:1017"
           ]
@@ -679,28 +660,27 @@
         {
           "id": "q022",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Cách khiêm nhường của 行きます／来ます／訪ねます.",
+          "prompt": "あした 先生の お宅へ（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem します"
+              "text": "うかがいます"
             },
             {
               "id": "B",
-              "text": "Vます-stem に うかがいます"
+              "text": "いらっしゃいます"
             },
             {
               "id": "C",
-              "text": "N から まいります"
+              "text": "なさいます"
             },
             {
               "id": "D",
-              "text": "いたします"
+              "text": "くださいます"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem に うかがいます」: Cách khiêm nhường của 行きます／来ます／訪ねます.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:1018"
           ]
@@ -708,28 +688,27 @@
         {
           "id": "q023",
           "category": "grammar",
-          "prompt": "Câu 「わたしは ベトナムから まいりました。」 minh họa mẫu nào?",
+          "prompt": "わたしは ベトナム（　　　）まいりました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N から まいります"
+              "text": "に"
             },
             {
               "id": "B",
-              "text": "いたします"
+              "text": "から"
             },
             {
               "id": "C",
-              "text": "お Vます-stem します"
+              "text": "を"
             },
             {
               "id": "D",
-              "text": "Vます-stem に うかがいます"
+              "text": "で"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N から まいります」: Cách khiêm nhường của 来ます khi nói về người nói.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:1019"
           ]
@@ -737,28 +716,27 @@
         {
           "id": "q024",
           "category": "grammar",
-          "prompt": "Ví dụ 「わたしが ごあんない いたします。」 sử dụng cấu trúc nào?",
+          "prompt": "会議の準備は わたしが（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "お Vます-stem します"
+              "text": "なさいます"
             },
             {
               "id": "B",
-              "text": "Vます-stem に うかがいます"
+              "text": "くださいます"
             },
             {
               "id": "C",
-              "text": "N から まいります"
+              "text": "いたします"
             },
             {
               "id": "D",
-              "text": "いたします"
+              "text": "いらっしゃいます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「いたします」: Cách khiêm nhường của します.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:1020"
           ]
@@ -766,30 +744,30 @@
         {
           "id": "q025",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm (khiêm nhường)”?",
+          "prompt": "わたしが 駅まで ご案内（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N から まいります"
+              "text": "になります"
             },
             {
               "id": "B",
-              "text": "いたします"
+              "text": "ください"
             },
             {
               "id": "C",
-              "text": "お Vます-stem します"
+              "text": "なさいます"
             },
             {
               "id": "D",
-              "text": "Vます-stem に うかがいます"
+              "text": "いたします"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「お Vます-stem します」: Người nói hạ mình khi làm cho người trên.",
+          "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:1017"
+            "grammar:1017",
+            "grammar:1020"
           ]
         }
       ]

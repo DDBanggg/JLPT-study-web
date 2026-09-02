@@ -70,28 +70,27 @@
         {
           "id": "q001",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: được nhận sự giúp đỡ?",
+          "prompt": "わたしは 先生に 日本語を 教えて（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて くださいます"
+              "text": "くださいました"
             },
             {
               "id": "B",
-              "text": "Vて やります"
+              "text": "やりました"
             },
             {
               "id": "C",
-              "text": "N を いただきます"
+              "text": "いただきました"
             },
             {
               "id": "D",
-              "text": "Vて いただきます"
+              "text": "あげました"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vて いただきます」: Khiêm nhường: người nói nhận hành động có lợi từ người trên.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:901"
           ]
@@ -99,28 +98,27 @@
         {
           "id": "q002",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Kính ngữ: người trên làm việc có lợi cho người nói.",
+          "prompt": "先生が わたしに 辞書を 貸して（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N を いただきます"
+              "text": "いただきました"
             },
             {
               "id": "B",
-              "text": "Vて いただきます"
+              "text": "やりました"
             },
             {
               "id": "C",
-              "text": "Vて くださいます"
+              "text": "あげました"
             },
             {
               "id": "D",
-              "text": "Vて やります"
+              "text": "くださいました"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vて くださいます」: Kính ngữ: người trên làm việc có lợi cho người nói.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:902"
           ]
@@ -128,28 +126,27 @@
         {
           "id": "q003",
           "category": "grammar",
-          "prompt": "Câu 「むすこに かみひこうきを つくって やりました。」 minh họa mẫu nào?",
+          "prompt": "わたしは 弟に 自転車を 直して（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて くださいます"
+              "text": "やりました"
             },
             {
               "id": "B",
-              "text": "Vて やります"
+              "text": "いただきました"
             },
             {
               "id": "C",
-              "text": "N を いただきます"
+              "text": "くださいました"
             },
             {
               "id": "D",
-              "text": "Vて いただきます"
+              "text": "もらいました"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vて やります」: Làm việc có lợi cho người có vị thế thấp hoặc động vật/cây.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:903"
           ]
@@ -157,28 +154,27 @@
         {
           "id": "q004",
           "category": "grammar",
-          "prompt": "Ví dụ 「せんせいに ほんを いただきました。」 sử dụng cấu trúc nào?",
+          "prompt": "わたしは 部長に お土産を（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N を いただきます"
+              "text": "くださいました"
             },
             {
               "id": "B",
-              "text": "Vて いただきます"
+              "text": "いただきました"
             },
             {
               "id": "C",
-              "text": "Vて くださいます"
+              "text": "やりました"
             },
             {
               "id": "D",
-              "text": "Vて やります"
+              "text": "あげました"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N を いただきます」: Cách nói khiêm nhường của もらいます.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:904"
           ]
@@ -186,57 +182,55 @@
         {
           "id": "q005",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “được nhận sự giúp đỡ”?",
+          "prompt": "社長が 駅まで 送って（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて くださいます"
+              "text": "いただきました"
             },
             {
               "id": "B",
-              "text": "Vて やります"
+              "text": "やりました"
             },
             {
               "id": "C",
-              "text": "N を いただきます"
+              "text": "くださいました"
             },
             {
               "id": "D",
-              "text": "Vて いただきます"
+              "text": "あげました"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vて いただきます」: Khiêm nhường: người nói nhận hành động có lợi từ người trên.",
+          "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:901"
+            "grammar:902"
           ]
         },
         {
           "id": "q006",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: để làm?",
+          "prompt": "将来 日本で 働く（　　　）、日本語を 勉強しています。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary のに いいです"
+              "text": "のに"
             },
             {
               "id": "B",
-              "text": "N に 使います"
+              "text": "まで"
             },
             {
               "id": "C",
-              "text": "V dictionary ために"
+              "text": "ために"
             },
             {
               "id": "D",
-              "text": "N の ために"
+              "text": "ようです"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「V dictionary ために」: Nêu mục đích có chủ ý.",
           "source_item_refs": [
             "grammar:905"
           ]
@@ -244,28 +238,27 @@
         {
           "id": "q007",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu mục đích hoặc lợi ích của danh từ.",
+          "prompt": "家族（　　　）、大きい 家を 買いました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary ために"
+              "text": "にために"
             },
             {
               "id": "B",
-              "text": "N の ために"
+              "text": "でために"
             },
             {
               "id": "C",
-              "text": "V dictionary のに いいです"
+              "text": "をために"
             },
             {
               "id": "D",
-              "text": "N に 使います"
+              "text": "のために"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「N の ために」: Nêu mục đích hoặc lợi ích của danh từ.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:906"
           ]
@@ -273,28 +266,27 @@
         {
           "id": "q008",
           "category": "grammar",
-          "prompt": "Câu 「この くつは やまを あるくのに いいです。」 minh họa mẫu nào?",
+          "prompt": "このはさみは 紙を 切る（　　　）いいです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary のに いいです"
+              "text": "のに"
             },
             {
               "id": "B",
-              "text": "N に 使います"
+              "text": "ので"
             },
             {
               "id": "C",
-              "text": "V dictionary ために"
+              "text": "ためで"
             },
             {
               "id": "D",
-              "text": "N の ために"
+              "text": "ように"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「V dictionary のに いいです」: Đánh giá công cụ phù hợp cho mục đích.",
           "source_item_refs": [
             "grammar:907"
           ]
@@ -302,28 +294,27 @@
         {
           "id": "q009",
           "category": "grammar",
-          "prompt": "Ví dụ 「ボーナスは なにに つかいますか。」 sử dụng cấu trúc nào?",
+          "prompt": "この箱は 本の整理（　　　）使います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary ために"
+              "text": "で"
             },
             {
               "id": "B",
-              "text": "N の ために"
+              "text": "に"
             },
             {
               "id": "C",
-              "text": "V dictionary のに いいです"
+              "text": "を"
             },
             {
               "id": "D",
-              "text": "N に 使います"
+              "text": "が"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N に 使います」: Hỏi hoặc nói công dụng.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:908"
           ]
@@ -331,57 +322,55 @@
         {
           "id": "q010",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “để làm”?",
+          "prompt": "健康の（　　　）、毎朝 歩いています。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary のに いいです"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "N に 使います"
+              "text": "のに"
             },
             {
               "id": "C",
-              "text": "V dictionary ために"
+              "text": "ために"
             },
             {
               "id": "D",
-              "text": "N の ために"
+              "text": "ようです"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「V dictionary ために」: Nêu mục đích có chủ ý.",
           "source_item_refs": [
-            "grammar:905"
+            "grammar:906"
           ]
         },
         {
           "id": "q011",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: có vẻ sắp?",
+          "prompt": "今にも 雨が（　　　）そうです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vてくる (thay đổi)"
+              "text": "降って"
             },
             {
               "id": "B",
-              "text": "Vます-stem そうです"
+              "text": "降った"
             },
             {
               "id": "C",
-              "text": "い-adj stem そうです"
+              "text": "降ります"
             },
             {
               "id": "D",
-              "text": "Vて きます"
+              "text": "降り"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem そうです」: Dựa vào dấu hiệu nhìn thấy để dự đoán.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:909"
           ]
@@ -389,28 +378,27 @@
         {
           "id": "q012",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Dựa vào vẻ ngoài để phán đoán.",
+          "prompt": "このケーキは（　　　）そうですね。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "い-adj stem そうです"
+              "text": "おいし"
             },
             {
               "id": "B",
-              "text": "Vて きます"
+              "text": "おいしく"
             },
             {
               "id": "C",
-              "text": "Vてくる (thay đổi)"
+              "text": "おいしかっ"
             },
             {
               "id": "D",
-              "text": "Vます-stem そうです"
+              "text": "おいしいな"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「い-adj stem そうです」: Dựa vào vẻ ngoài để phán đoán.",
           "source_item_refs": [
             "grammar:910"
           ]
@@ -418,28 +406,27 @@
         {
           "id": "q013",
           "category": "grammar",
-          "prompt": "Câu 「ちょっと きってを かって きます。」 minh họa mẫu nào?",
+          "prompt": "ちょっと コンビニで 飲み物を 買って（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vてくる (thay đổi)"
+              "text": "いきます"
             },
             {
               "id": "B",
-              "text": "Vます-stem そうです"
+              "text": "きます"
             },
             {
               "id": "C",
-              "text": "い-adj stem そうです"
+              "text": "あります"
             },
             {
               "id": "D",
-              "text": "Vて きます"
+              "text": "しまいます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vて きます」: Diễn tả đi làm việc gì và quay về.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:911"
           ]
@@ -447,28 +434,27 @@
         {
           "id": "q014",
           "category": "grammar",
-          "prompt": "Ví dụ 「だんだん さむく なって きました。」 sử dụng cấu trúc nào?",
+          "prompt": "最近、だんだん 暖かく（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "い-adj stem そうです"
+              "text": "なっていきました"
             },
             {
               "id": "B",
-              "text": "Vて きます"
+              "text": "なってあります"
             },
             {
               "id": "C",
-              "text": "Vてくる (thay đổi)"
+              "text": "なってきました"
             },
             {
               "id": "D",
-              "text": "Vます-stem そうです"
+              "text": "なっておきました"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vてくる (thay đổi)」: Diễn tả thay đổi tiến gần hiện tại.",
           "source_item_refs": [
             "grammar:912"
           ]
@@ -476,28 +462,27 @@
         {
           "id": "q015",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “có vẻ sắp”?",
+          "prompt": "荷物が（　　　）そうです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vてくる (thay đổi)"
+              "text": "落ちる"
             },
             {
               "id": "B",
-              "text": "Vます-stem そうです"
+              "text": "落ちて"
             },
             {
               "id": "C",
-              "text": "い-adj stem そうです"
+              "text": "落ちた"
             },
             {
               "id": "D",
-              "text": "Vて きます"
+              "text": "落ち"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem そうです」: Dựa vào dấu hiệu nhìn thấy để dự đoán.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:909"
           ]
@@ -505,28 +490,27 @@
         {
           "id": "q016",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: làm quá?",
+          "prompt": "きのう お酒を 飲み（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem すぎます"
+              "text": "すぎました"
             },
             {
               "id": "B",
-              "text": "い-adj すぎます"
+              "text": "やすかったです"
             },
             {
               "id": "C",
-              "text": "Vます-stem やすいです"
+              "text": "なさいました"
             },
             {
               "id": "D",
-              "text": "Vます-stem なさい"
+              "text": "すぎますだ"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem すぎます」: Diễn tả mức độ vượt quá.",
           "source_item_refs": [
             "grammar:913"
           ]
@@ -534,28 +518,27 @@
         {
           "id": "q017",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Bỏ い rồi thêm すぎます.",
+          "prompt": "このかばんは 大き（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem やすいです"
+              "text": "いすぎます"
             },
             {
               "id": "B",
-              "text": "Vます-stem なさい"
+              "text": "すぎます"
             },
             {
               "id": "C",
-              "text": "Vます-stem すぎます"
+              "text": "くすぎます"
             },
             {
               "id": "D",
-              "text": "い-adj すぎます"
+              "text": "すぎです"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「い-adj すぎます」: Bỏ い rồi thêm すぎます.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:914"
           ]
@@ -563,28 +546,27 @@
         {
           "id": "q018",
           "category": "grammar",
-          "prompt": "Câu 「この パソコンは つかいやすいです。」 minh họa mẫu nào?",
+          "prompt": "このペンは とても 書き（　　　）です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem すぎます"
+              "text": "すぎ"
             },
             {
               "id": "B",
-              "text": "い-adj すぎます"
+              "text": "なさい"
             },
             {
               "id": "C",
-              "text": "Vます-stem やすいです"
+              "text": "やすい"
             },
             {
               "id": "D",
-              "text": "Vます-stem なさい"
+              "text": "そう"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem やすいです」: Nêu mức độ dễ thực hiện.",
           "source_item_refs": [
             "grammar:915"
           ]
@@ -592,28 +574,27 @@
         {
           "id": "q019",
           "category": "grammar",
-          "prompt": "Ví dụ 「ズボンを はきなさい。」 sử dụng cấu trúc nào?",
+          "prompt": "薬を 飲んで、早く 寝（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem やすいです"
+              "text": "すぎます"
             },
             {
               "id": "B",
-              "text": "Vます-stem なさい"
+              "text": "やすいです"
             },
             {
               "id": "C",
-              "text": "Vます-stem すぎます"
+              "text": "そうです"
             },
             {
               "id": "D",
-              "text": "い-adj すぎます"
+              "text": "なさい"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem なさい」: Mệnh lệnh lịch sự hơn mệnh lệnh trực tiếp.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:916"
           ]
@@ -621,57 +602,55 @@
         {
           "id": "q020",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm quá”?",
+          "prompt": "この説明は 長（　　　）、わかりにくいです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem すぎます"
+              "text": "すぎて"
             },
             {
               "id": "B",
-              "text": "い-adj すぎます"
+              "text": "いすぎて"
             },
             {
               "id": "C",
-              "text": "Vます-stem やすいです"
+              "text": "くすぎて"
             },
             {
               "id": "D",
-              "text": "Vます-stem なさい"
+              "text": "すぎで"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem すぎます」: Diễn tả mức độ vượt quá.",
           "source_item_refs": [
-            "grammar:913"
+            "grammar:914"
           ]
         },
         {
           "id": "q021",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: trong trường hợp?",
+          "prompt": "火事が（　　　）場合は、すぐ 119番に 電話してください。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vた のに"
+              "text": "起きて"
             },
             {
               "id": "B",
-              "text": "い-adj のに"
+              "text": "起きたら"
             },
             {
               "id": "C",
-              "text": "な-adj／N なのに"
+              "text": "起きる"
             },
             {
               "id": "D",
-              "text": "V plain／N の 場合は"
+              "text": "起きます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「V plain／N の 場合は」: Nêu điều kiện/trường hợp.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:917"
           ]
@@ -679,28 +658,27 @@
         {
           "id": "q022",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Kết quả trái với điều mong đợi.",
+          "prompt": "約束した（　　　）、彼は 来ませんでした。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj／N なのに"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "V plain／N の 場合は"
+              "text": "場合は"
             },
             {
               "id": "C",
-              "text": "Vた のに"
+              "text": "ために"
             },
             {
               "id": "D",
-              "text": "い-adj のに"
+              "text": "のに"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vた のに」: Kết quả trái với điều mong đợi.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:918"
           ]
@@ -708,28 +686,27 @@
         {
           "id": "q023",
           "category": "grammar",
-          "prompt": "Câu 「やすいのに、だれも かいません。」 minh họa mẫu nào?",
+          "prompt": "この店は 安い（　　　）、お客さんが 少ないです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vた のに"
+              "text": "のに"
             },
             {
               "id": "B",
-              "text": "い-adj のに"
+              "text": "ので"
             },
             {
               "id": "C",
-              "text": "な-adj／N なのに"
+              "text": "ために"
             },
             {
               "id": "D",
-              "text": "V plain／N の 場合は"
+              "text": "場合は"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「い-adj のに」: Nối hai vế trái kỳ vọng.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:919"
           ]
@@ -737,28 +714,27 @@
         {
           "id": "q024",
           "category": "grammar",
-          "prompt": "Ví dụ 「にちようびなのに、かいしゃへ いきます。」 sử dụng cấu trúc nào?",
+          "prompt": "日曜日（　　　）、会社へ 行かなければなりません。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj／N なのに"
+              "text": "のに"
             },
             {
               "id": "B",
-              "text": "V plain／N の 場合は"
+              "text": "なのに"
             },
             {
               "id": "C",
-              "text": "Vた のに"
+              "text": "場合は"
             },
             {
               "id": "D",
-              "text": "い-adj のに"
+              "text": "ために"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「な-adj／N なのに」: Dùng なのに sau tính từ な/danh từ.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:920"
           ]
@@ -766,28 +742,27 @@
         {
           "id": "q025",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “trong trường hợp”?",
+          "prompt": "雨の（　　　）、試合は 中止です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vた のに"
+              "text": "ばあいに"
             },
             {
               "id": "B",
-              "text": "い-adj のに"
+              "text": "ためで"
             },
             {
               "id": "C",
-              "text": "な-adj／N なのに"
+              "text": "場合は"
             },
             {
               "id": "D",
-              "text": "V plain／N の 場合は"
+              "text": "ようで"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「V plain／N の 場合は」: Nêu điều kiện/trường hợp.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:917"
           ]

@@ -9,7 +9,7 @@ describe("Learn content and progress inputs", () => {
     expect(grammar.state).toBe("available");
     if (grammar.state === "available") {
       expect(grammar.data.id).toBe("grammar-day-002");
-      expect(grammar.data.items).toHaveLength(33);
+      expect(grammar.data.items).toHaveLength(20);
     }
     await expect(loadLearnContent("grammar", 3)).resolves.toEqual({ state: "pending" });
   });

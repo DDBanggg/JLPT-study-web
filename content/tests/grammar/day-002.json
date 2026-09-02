@@ -70,28 +70,27 @@
         {
           "id": "q001",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: làm V với N?",
+          "prompt": "毎朝 コーヒー（　　　）飲みます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vませんか"
+              "text": "が"
             },
             {
               "id": "B",
-              "text": "Vましょう"
+              "text": "に"
             },
             {
               "id": "C",
-              "text": "N を Vます"
+              "text": "を"
             },
             {
               "id": "D",
-              "text": "Place で Vます"
+              "text": "で"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N を Vます」: を đánh dấu tân ngữ trực tiếp.",
           "source_item_refs": [
             "grammar:201"
           ]
@@ -99,28 +98,27 @@
         {
           "id": "q002",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: で đánh dấu nơi hành động diễn ra.",
+          "prompt": "駅の近くの店（　　　）パンを 買いました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N を Vます"
+              "text": "に"
             },
             {
               "id": "B",
-              "text": "Place で Vます"
+              "text": "を"
             },
             {
               "id": "C",
-              "text": "Vませんか"
+              "text": "へ"
             },
             {
               "id": "D",
-              "text": "Vましょう"
+              "text": "で"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Place で Vます」: で đánh dấu nơi hành động diễn ra.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:202"
           ]
@@ -128,28 +126,27 @@
         {
           "id": "q003",
           "category": "grammar",
-          "prompt": "Câu 「いっしょに えいがを みませんか。」 minh họa mẫu nào?",
+          "prompt": "いっしょに 映画を 見（　　　）か。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vませんか"
+              "text": "ません"
             },
             {
               "id": "B",
-              "text": "Vましょう"
+              "text": "ます"
             },
             {
               "id": "C",
-              "text": "N を Vます"
+              "text": "ました"
             },
             {
               "id": "D",
-              "text": "Place で Vます"
+              "text": "ましょう"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vませんか」: Mời hoặc rủ người nghe một cách lịch sự.",
           "source_item_refs": [
             "grammar:203"
           ]
@@ -157,28 +154,27 @@
         {
           "id": "q004",
           "category": "grammar",
-          "prompt": "Ví dụ 「ちょっと やすみましょう。」 sử dụng cấu trúc nào?",
+          "prompt": "もう 12時ですね。昼ごはんを 食べ（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N を Vます"
+              "text": "ませんか"
             },
             {
               "id": "B",
-              "text": "Place で Vます"
+              "text": "ましょう"
             },
             {
               "id": "C",
-              "text": "Vませんか"
+              "text": "ました"
             },
             {
               "id": "D",
-              "text": "Vましょう"
+              "text": "ません"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vましょう」: Đề nghị cùng thực hiện hành động.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:204"
           ]
@@ -186,57 +182,56 @@
         {
           "id": "q005",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm V với N”?",
+          "prompt": "きのう 図書館で 本を（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vませんか"
+              "text": "読みます"
             },
             {
               "id": "B",
-              "text": "Vましょう"
+              "text": "読みません"
             },
             {
               "id": "C",
-              "text": "N を Vます"
+              "text": "読みました"
             },
             {
               "id": "D",
-              "text": "Place で Vます"
+              "text": "読みましょう"
             }
           ],
           "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N を Vます」: を đánh dấu tân ngữ trực tiếp.",
           "source_item_refs": [
-            "grammar:201"
+            "grammar:201",
+            "grammar:202"
           ]
         },
         {
           "id": "q006",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: làm bằng?",
+          "prompt": "はし（　　　）ごはんを 食べます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "もう Vました／まだです"
+              "text": "に"
             },
             {
               "id": "B",
-              "text": "N (công cụ) で Vます"
+              "text": "を"
             },
             {
               "id": "C",
-              "text": "A は B に N を あげます"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "A は B に／から N を もらいます"
+              "text": "から"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「N (công cụ) で Vます」: で chỉ công cụ, phương tiện hoặc ngôn ngữ.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:205"
           ]
@@ -244,28 +239,27 @@
         {
           "id": "q007",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: に đánh dấu người nhận.",
+          "prompt": "わたしは 妹（　　　）花を あげました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に N を あげます"
+              "text": "から"
             },
             {
               "id": "B",
-              "text": "A は B に／から N を もらいます"
+              "text": "を"
             },
             {
               "id": "C",
-              "text": "もう Vました／まだです"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "N (công cụ) で Vます"
+              "text": "に"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「A は B に N を あげます」: に đánh dấu người nhận.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:206"
           ]
@@ -273,28 +267,27 @@
         {
           "id": "q008",
           "category": "grammar",
-          "prompt": "Câu 「わたしは せんせいに ほんを もらいました。」 minh họa mẫu nào?",
+          "prompt": "誕生日に 友達から プレゼントを（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "もう Vました／まだです"
+              "text": "もらいました"
             },
             {
               "id": "B",
-              "text": "N (công cụ) で Vます"
+              "text": "あげました"
             },
             {
               "id": "C",
-              "text": "A は B に N を あげます"
+              "text": "かしました"
             },
             {
               "id": "D",
-              "text": "A は B に／から N を もらいます"
+              "text": "おしえました"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「A は B に／から N を もらいます」: に hoặc から đánh dấu người cho.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:207"
           ]
@@ -302,28 +295,27 @@
         {
           "id": "q009",
           "category": "grammar",
-          "prompt": "Ví dụ 「もう ひるごはんを たべましたか。いいえ、まだです。」 sử dụng cấu trúc nào?",
+          "prompt": "もう レポートを 書きましたか。いいえ、（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に N を あげます"
+              "text": "もうです"
             },
             {
               "id": "B",
-              "text": "A は B に／から N を もらいます"
+              "text": "まだです"
             },
             {
               "id": "C",
-              "text": "もう Vました／まだです"
+              "text": "書きます"
             },
             {
               "id": "D",
-              "text": "N (công cụ) で Vます"
+              "text": "書きませんか"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「もう Vました／まだです」: Hỏi và xác nhận hành động đã hoàn thành.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:208"
           ]
@@ -331,144 +323,141 @@
         {
           "id": "q010",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “làm bằng”?",
+          "prompt": "わたしは 先生（　　　）日本語を 習いました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "もう Vました／まだです"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "N (công cụ) で Vます"
+              "text": "で"
             },
             {
               "id": "C",
-              "text": "A は B に N を あげます"
+              "text": "から"
             },
             {
               "id": "D",
-              "text": "A は B に／から N を もらいます"
+              "text": "へ"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「N (công cụ) で Vます」: で chỉ công cụ, phương tiện hoặc ngôn ngữ.",
+          "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:205"
+            "grammar:207"
           ]
         },
         {
           "id": "q011",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: N thì ...?",
+          "prompt": "奈良は（　　　）町です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N は な-adj です"
+              "text": "静か"
             },
             {
               "id": "B",
-              "text": "N は い-adj です"
+              "text": "静かで"
             },
             {
               "id": "C",
-              "text": "な-adj な N／い-adj N"
+              "text": "静かに"
             },
             {
               "id": "D",
-              "text": "S1 が、S2"
+              "text": "静かな"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N は な-adj です」: Tính từ な đứng ở cuối câu không có な.",
+          "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:209"
+            "grammar:209",
+            "grammar:211"
           ]
         },
         {
           "id": "q012",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Tính từ い đứng trực tiếp trước です.",
+          "prompt": "富士山は（　　　）山です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj な N／い-adj N"
+              "text": "高い"
             },
             {
               "id": "B",
-              "text": "S1 が、S2"
+              "text": "高く"
             },
             {
               "id": "C",
-              "text": "N は な-adj です"
+              "text": "高かった"
             },
             {
               "id": "D",
-              "text": "N は い-adj です"
+              "text": "高さ"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N は い-adj です」: Tính từ い đứng trực tiếp trước です.",
+          "correct_option_id": "A",
           "source_item_refs": [
-            "grammar:210"
+            "grammar:210",
+            "grammar:211"
           ]
         },
         {
           "id": "q013",
           "category": "grammar",
-          "prompt": "Câu 「これは きれいな はなです。」 minh họa mẫu nào?",
+          "prompt": "この辞書は 便利（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N は な-adj です"
+              "text": "ます"
             },
             {
               "id": "B",
-              "text": "N は い-adj です"
+              "text": "です"
             },
             {
               "id": "C",
-              "text": "な-adj な N／い-adj N"
+              "text": "な"
             },
             {
               "id": "D",
-              "text": "S1 が、S2"
+              "text": "い"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「な-adj な N／い-adj N」: Tính từ bổ nghĩa danh từ; tính từ な thêm な.",
+          "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:211"
+            "grammar:209"
           ]
         },
         {
           "id": "q014",
           "category": "grammar",
-          "prompt": "Ví dụ 「この へやは ふるいですが、べんりです。」 sử dụng cấu trúc nào?",
+          "prompt": "この部屋は 狭いです（　　　）、きれいです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj な N／い-adj N"
+              "text": "から"
             },
             {
               "id": "B",
-              "text": "S1 が、S2"
+              "text": "まで"
             },
             {
               "id": "C",
-              "text": "N は な-adj です"
+              "text": "が"
             },
             {
               "id": "D",
-              "text": "N は い-adj です"
+              "text": "を"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「S1 が、S2」: が nối hai vế có ý tương phản.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:212"
           ]
@@ -476,57 +465,56 @@
         {
           "id": "q015",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “N thì ...”?",
+          "prompt": "東京は（　　　）ですか。にぎやかです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N は な-adj です"
+              "text": "どれ"
             },
             {
               "id": "B",
-              "text": "N は い-adj です"
+              "text": "いくら"
             },
             {
               "id": "C",
-              "text": "な-adj な N／い-adj N"
+              "text": "だれ"
             },
             {
               "id": "D",
-              "text": "S1 が、S2"
+              "text": "どんな町"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N は な-adj です」: Tính từ な đứng ở cuối câu không có な.",
+          "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:209"
+            "grammar:209",
+            "grammar:210"
           ]
         },
         {
           "id": "q016",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: thích/ghét N?",
+          "prompt": "わたしは 音楽（　　　）好きです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が 上手です／下手です"
+              "text": "が"
             },
             {
               "id": "B",
-              "text": "N が わかります"
+              "text": "を"
             },
             {
               "id": "C",
-              "text": "S から"
+              "text": "に"
             },
             {
               "id": "D",
-              "text": "N が 好きです／嫌いです"
+              "text": "で"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N が 好きです／嫌いです」: Đối tượng của sở thích dùng が.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:213"
           ]
@@ -534,28 +522,27 @@
         {
           "id": "q017",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Đối tượng kỹ năng dùng が.",
+          "prompt": "弟は 料理（　　　）上手です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "S から"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "N が 好きです／嫌いです"
+              "text": "が"
             },
             {
               "id": "C",
-              "text": "N が 上手です／下手です"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "N が わかります"
+              "text": "へ"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N が 上手です／下手です」: Đối tượng kỹ năng dùng が.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:214"
           ]
@@ -563,28 +550,27 @@
         {
           "id": "q018",
           "category": "grammar",
-          "prompt": "Câu 「にほんごが すこし わかります。」 minh họa mẫu nào?",
+          "prompt": "わたしは 漢字（　　　）少し わかります。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が 上手です／下手です"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "N が わかります"
+              "text": "に"
             },
             {
               "id": "C",
-              "text": "S から"
+              "text": "が"
             },
             {
               "id": "D",
-              "text": "N が 好きです／嫌いです"
+              "text": "と"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「N が わかります」: Đối tượng hiểu được dùng が, không dùng を.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:215"
           ]
@@ -592,28 +578,27 @@
         {
           "id": "q019",
           "category": "grammar",
-          "prompt": "Ví dụ 「じかんが ありませんから、かえります。」 sử dụng cấu trúc nào?",
+          "prompt": "時間が ありません（　　　）、テレビを 見ません。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "S から"
+              "text": "が"
             },
             {
               "id": "B",
-              "text": "N が 好きです／嫌いです"
+              "text": "まで"
             },
             {
               "id": "C",
-              "text": "N が 上手です／下手です"
+              "text": "を"
             },
             {
               "id": "D",
-              "text": "N が わかります"
+              "text": "から"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「S から」: から đứng sau mệnh đề nêu lý do.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:216"
           ]
@@ -621,28 +606,27 @@
         {
           "id": "q020",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “thích/ghét N”?",
+          "prompt": "どんな スポーツ（　　　）好きですか。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が 上手です／下手です"
+              "text": "が"
             },
             {
               "id": "B",
-              "text": "N が わかります"
+              "text": "を"
             },
             {
               "id": "C",
-              "text": "S から"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "N が 好きです／嫌いです"
+              "text": "へ"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N が 好きです／嫌いです」: Đối tượng của sở thích dùng が.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:213"
           ]
@@ -650,57 +634,56 @@
         {
           "id": "q021",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: có vật ở nơi?",
+          "prompt": "机の上（　　　）本が あります。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N1 は Place に あります／います"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "N1 の Position に N2 が あります"
+              "text": "に"
             },
             {
               "id": "C",
-              "text": "Place に N が あります"
+              "text": "で"
             },
             {
               "id": "D",
-              "text": "Place に Person が います"
+              "text": "へ"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Place に N が あります」: Nêu sự tồn tại của vật vô tri.",
+          "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:217"
+            "grammar:217",
+            "grammar:220"
           ]
         },
         {
           "id": "q022",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu sự tồn tại của người hoặc động vật.",
+          "prompt": "教室（　　　）学生が います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Place に N が あります"
+              "text": "を"
             },
             {
               "id": "B",
-              "text": "Place に Person が います"
+              "text": "で"
             },
             {
               "id": "C",
-              "text": "N1 は Place に あります／います"
+              "text": "に"
             },
             {
               "id": "D",
-              "text": "N1 の Position に N2 が あります"
+              "text": "へ"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Place に Person が います」: Nêu sự tồn tại của người hoặc động vật.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:218"
           ]
@@ -708,28 +691,27 @@
         {
           "id": "q023",
           "category": "grammar",
-          "prompt": "Câu 「ゆうびんきょくは えきの ちかくに あります。」 minh họa mẫu nào?",
+          "prompt": "郵便局は 銀行の隣に（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N1 は Place に あります／います"
+              "text": "います"
             },
             {
               "id": "B",
-              "text": "N1 の Position に N2 が あります"
+              "text": "ですか"
             },
             {
               "id": "C",
-              "text": "Place に N が あります"
+              "text": "します"
             },
             {
               "id": "D",
-              "text": "Place に Person が います"
+              "text": "あります"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N1 は Place に あります／います」: Nêu vị trí của vật, người hoặc động vật.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:219"
           ]
@@ -737,59 +719,58 @@
         {
           "id": "q024",
           "category": "grammar",
-          "prompt": "Ví dụ 「はこの なかに しゃしんが あります。」 sử dụng cấu trúc nào?",
+          "prompt": "ミラーさんは 会議室に（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Place に N が あります"
+              "text": "います"
             },
             {
               "id": "B",
-              "text": "Place に Person が います"
+              "text": "あります"
             },
             {
               "id": "C",
-              "text": "N1 は Place に あります／います"
+              "text": "です"
             },
             {
               "id": "D",
-              "text": "N1 の Position に N2 が あります"
+              "text": "なります"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N1 の Position に N2 が あります」: Dùng danh từ chỉ vị trí như うえ、した、なか、まえ.",
+          "correct_option_id": "A",
           "source_item_refs": [
-            "grammar:220"
+            "grammar:219"
           ]
         },
         {
           "id": "q025",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “có vật ở nơi”?",
+          "prompt": "いすの下に（　　　）が います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N1 は Place に あります／います"
+              "text": "かばん"
             },
             {
               "id": "B",
-              "text": "N1 の Position に N2 が あります"
+              "text": "猫"
             },
             {
               "id": "C",
-              "text": "Place に N が あります"
+              "text": "辞書"
             },
             {
               "id": "D",
-              "text": "Place に Person が います"
+              "text": "机"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Place に N が あります」: Nêu sự tồn tại của vật vô tri.",
+          "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:217"
+            "grammar:218",
+            "grammar:220"
           ]
         }
       ]

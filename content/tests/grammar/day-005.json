@@ -70,28 +70,27 @@
         {
           "id": "q001",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: tôi nghĩ rằng?",
+          "prompt": "あした 雨が 降る（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form と 言います"
+              "text": "と思います"
             },
             {
               "id": "B",
-              "text": "Plain form でしょう"
+              "text": "を思います"
             },
             {
               "id": "C",
-              "text": "N も そう 思います"
+              "text": "と思いです"
             },
             {
               "id": "D",
-              "text": "Plain form と 思います"
+              "text": "と思ってです"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Plain form と 思います」: Nêu ý kiến hoặc dự đoán cá nhân.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:501"
           ]
@@ -99,28 +98,27 @@
         {
           "id": "q002",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Trích lời nói với と.",
+          "prompt": "先生は「来週 テストを します」（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N も そう 思います"
+              "text": "と思います"
             },
             {
               "id": "B",
-              "text": "Plain form と 思います"
+              "text": "と言いました"
             },
             {
               "id": "C",
-              "text": "Plain form と 言います"
+              "text": "でしょう"
             },
             {
               "id": "D",
-              "text": "Plain form でしょう"
+              "text": "もそう思います"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Plain form と 言います」: Trích lời nói với と.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:502"
           ]
@@ -128,28 +126,27 @@
         {
           "id": "q003",
           "category": "grammar",
-          "prompt": "Câu 「あしたは さむいでしょう。」 minh họa mẫu nào?",
+          "prompt": "天気予報では、あしたは 寒い（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form と 言います"
+              "text": "と思いです"
             },
             {
               "id": "B",
-              "text": "Plain form でしょう"
+              "text": "と言います"
             },
             {
               "id": "C",
-              "text": "N も そう 思います"
+              "text": "でしょう"
             },
             {
               "id": "D",
-              "text": "Plain form と 思います"
+              "text": "ですでしょう"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Plain form でしょう」: Dự đoán hoặc xác nhận nhẹ.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:503"
           ]
@@ -157,28 +154,27 @@
         {
           "id": "q004",
           "category": "grammar",
-          "prompt": "Ví dụ 「わたしも そう おもいます。」 sử dụng cấu trúc nào?",
+          "prompt": "山田さんは この店が いいと 言いました。わたし（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N も そう 思います"
+              "text": "と思いません"
             },
             {
               "id": "B",
-              "text": "Plain form と 思います"
+              "text": "がそう思います"
             },
             {
               "id": "C",
-              "text": "Plain form と 言います"
+              "text": "にそう思います"
             },
             {
               "id": "D",
-              "text": "Plain form でしょう"
+              "text": "もそう思います"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N も そう 思います」: Đồng tình với ý kiến vừa nêu.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:504"
           ]
@@ -186,28 +182,27 @@
         {
           "id": "q005",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “tôi nghĩ rằng”?",
+          "prompt": "田中さんは 来ない（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form と 言います"
+              "text": "と思います"
             },
             {
               "id": "B",
-              "text": "Plain form でしょう"
+              "text": "だと思います"
             },
             {
               "id": "C",
-              "text": "N も そう 思います"
+              "text": "ですと思います"
             },
             {
               "id": "D",
-              "text": "Plain form と 思います"
+              "text": "と思いです"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Plain form と 思います」: Nêu ý kiến hoặc dự đoán cá nhân.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:501"
           ]
@@ -215,28 +210,27 @@
         {
           "id": "q006",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: danh từ được ...?",
+          "prompt": "これは ミラーさんが（　　　）ケーキです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary 時"
+              "text": "作ります"
             },
             {
               "id": "B",
-              "text": "Vない 時"
+              "text": "作った"
             },
             {
               "id": "C",
-              "text": "Plain form N"
+              "text": "作って"
             },
             {
               "id": "D",
-              "text": "Relative clause の N"
+              "text": "作り"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Plain form N」: Mệnh đề đứng trước danh từ để bổ nghĩa.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:505"
           ]
@@ -244,28 +238,27 @@
         {
           "id": "q007",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Không dùng đại từ quan hệ; mệnh đề đi thẳng trước N.",
+          "prompt": "あそこで 写真を 撮っている（　　　）は だれですか。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form N"
+              "text": "こと"
             },
             {
               "id": "B",
-              "text": "Relative clause の N"
+              "text": "もの"
             },
             {
               "id": "C",
-              "text": "V dictionary 時"
+              "text": "人"
             },
             {
               "id": "D",
-              "text": "Vない 時"
+              "text": "ところ"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Relative clause の N」: Không dùng đại từ quan hệ; mệnh đề đi thẳng trước N.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:506"
           ]
@@ -273,28 +266,27 @@
         {
           "id": "q008",
           "category": "grammar",
-          "prompt": "Câu 「にほんへ いく とき、にもつを かいます。」 minh họa mẫu nào?",
+          "prompt": "寝る（　　　）、電気を 消します。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary 時"
+              "text": "たあとで"
             },
             {
               "id": "B",
-              "text": "Vない 時"
+              "text": "てから"
             },
             {
               "id": "C",
-              "text": "Plain form N"
+              "text": "たとき"
             },
             {
               "id": "D",
-              "text": "Relative clause の N"
+              "text": "とき"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「V dictionary 時」: Thời điểm thực hiện hành động theo sau.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:507"
           ]
@@ -302,28 +294,27 @@
         {
           "id": "q009",
           "category": "grammar",
-          "prompt": "Ví dụ 「ねる まえに でんわを しない ときも あります。」 sử dụng cấu trúc nào?",
+          "prompt": "時間が（　　　）とき、朝ごはんを 食べません。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form N"
+              "text": "ない"
             },
             {
               "id": "B",
-              "text": "Relative clause の N"
+              "text": "なく"
             },
             {
               "id": "C",
-              "text": "V dictionary 時"
+              "text": "なかったです"
             },
             {
               "id": "D",
-              "text": "Vない 時"
+              "text": "ありません"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vない 時」: Dùng dạng phủ định trước 時.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:508"
           ]
@@ -331,28 +322,27 @@
         {
           "id": "q010",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “danh từ được ...”?",
+          "prompt": "これは わたしが 毎日（　　　）電車です。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "V dictionary 時"
+              "text": "乗ります"
             },
             {
               "id": "B",
-              "text": "Vない 時"
+              "text": "乗る"
             },
             {
               "id": "C",
-              "text": "Plain form N"
+              "text": "乗って"
             },
             {
               "id": "D",
-              "text": "Relative clause の N"
+              "text": "乗ったです"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Plain form N」: Mệnh đề đứng trước danh từ để bổ nghĩa.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:505"
           ]
@@ -360,28 +350,27 @@
         {
           "id": "q011",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: cứ ... là?",
+          "prompt": "このボタンを（　　　）と、切符が 出ます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の 時"
+              "text": "押して"
             },
             {
               "id": "B",
-              "text": "V dictionary と"
+              "text": "押した"
             },
             {
               "id": "C",
-              "text": "Vない と"
+              "text": "押す"
             },
             {
               "id": "D",
-              "text": "Question word でも"
+              "text": "押します"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「V dictionary と」: Kết quả tự nhiên, quy luật hoặc hướng dẫn.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:509"
           ]
@@ -389,28 +378,27 @@
         {
           "id": "q012",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Dùng với kết quả tất yếu hoặc quy tắc.",
+          "prompt": "ここを 曲がら（　　　）と、駅へ 行けません。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vない と"
+              "text": "ない"
             },
             {
               "id": "B",
-              "text": "Question word でも"
+              "text": "なくて"
             },
             {
               "id": "C",
-              "text": "N の 時"
+              "text": "なかった"
             },
             {
               "id": "D",
-              "text": "V dictionary と"
+              "text": "ないで"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vない と」: Dùng với kết quả tất yếu hoặc quy tắc.",
           "source_item_refs": [
             "grammar:510"
           ]
@@ -418,28 +406,27 @@
         {
           "id": "q013",
           "category": "grammar",
-          "prompt": "Câu 「だれでも この へやを つかえます。」 minh họa mẫu nào?",
+          "prompt": "休みの日は（　　　）行きたいです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の 時"
+              "text": "どこへでも"
             },
             {
               "id": "B",
-              "text": "V dictionary と"
+              "text": "どこへも"
             },
             {
               "id": "C",
-              "text": "Vない と"
+              "text": "どこが"
             },
             {
               "id": "D",
-              "text": "Question word でも"
+              "text": "どこを"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Question word でも」: Nhấn mạnh sự không giới hạn trong khẳng định.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:511"
           ]
@@ -447,28 +434,27 @@
         {
           "id": "q014",
           "category": "grammar",
-          "prompt": "Ví dụ 「こどもの とき、よく かわで あそびました。」 sử dụng cấu trúc nào?",
+          "prompt": "子ども（　　　）、よく 川で 遊びました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vない と"
+              "text": "のあとで"
             },
             {
               "id": "B",
-              "text": "Question word でも"
+              "text": "のとき"
             },
             {
               "id": "C",
-              "text": "N の 時"
+              "text": "にとき"
             },
             {
               "id": "D",
-              "text": "V dictionary と"
+              "text": "でとき"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N の 時」: Dùng danh từ trước 時.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:512"
           ]
@@ -476,28 +462,27 @@
         {
           "id": "q015",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “cứ ... là”?",
+          "prompt": "春に（　　　）と、桜が 咲きます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N の 時"
+              "text": "なって"
             },
             {
               "id": "B",
-              "text": "V dictionary と"
+              "text": "なった"
             },
             {
               "id": "C",
-              "text": "Vない と"
+              "text": "なる"
             },
             {
               "id": "D",
-              "text": "Question word でも"
+              "text": "なります"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「V dictionary と」: Kết quả tự nhiên, quy luật hoặc hướng dẫn.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:509"
           ]
@@ -505,28 +490,27 @@
         {
           "id": "q016",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: B cho tôi/chúng tôi N?",
+          "prompt": "佐藤さんは わたしに 本を（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に N を くれます"
+              "text": "あげました"
             },
             {
               "id": "B",
-              "text": "A は B に Vて あげます"
+              "text": "もらいました"
             },
             {
               "id": "C",
-              "text": "A は B に Vて もらいます"
+              "text": "くれました"
             },
             {
               "id": "D",
-              "text": "A は B に Vて くれます"
+              "text": "いただきました"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「A は B に N を くれます」: Người nhận là người nói hoặc người trong nhóm người nói.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:513"
           ]
@@ -534,28 +518,27 @@
         {
           "id": "q017",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Người nói/chủ thể làm việc có lợi cho người khác.",
+          "prompt": "わたしは 弟に 自転車を（　　　）あげました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に Vて もらいます"
+              "text": "直す"
             },
             {
               "id": "B",
-              "text": "A は B に Vて くれます"
+              "text": "直した"
             },
             {
               "id": "C",
-              "text": "A は B に N を くれます"
+              "text": "直し"
             },
             {
               "id": "D",
-              "text": "A は B に Vて あげます"
+              "text": "直して"
             }
           ],
           "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「A は B に Vて あげます」: Người nói/chủ thể làm việc có lợi cho người khác.",
           "source_item_refs": [
             "grammar:514"
           ]
@@ -563,28 +546,27 @@
         {
           "id": "q018",
           "category": "grammar",
-          "prompt": "Câu 「わたしは せんせいに おしえて もらいました。」 minh họa mẫu nào?",
+          "prompt": "わたしは 友達に 写真を 撮って（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に N を くれます"
+              "text": "もらいました"
             },
             {
               "id": "B",
-              "text": "A は B に Vて あげます"
+              "text": "くれました"
             },
             {
               "id": "C",
-              "text": "A は B に Vて もらいます"
+              "text": "あげました"
             },
             {
               "id": "D",
-              "text": "A は B に Vて くれます"
+              "text": "やりました"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「A は B に Vて もらいます」: Người nói nhận lợi ích từ việc B làm.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:515"
           ]
@@ -592,28 +574,27 @@
         {
           "id": "q019",
           "category": "grammar",
-          "prompt": "Ví dụ 「ともだちは わたしに てつだって くれました。」 sử dụng cấu trúc nào?",
+          "prompt": "母は わたしに セーターを 作って（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に Vて もらいます"
+              "text": "もらいました"
             },
             {
               "id": "B",
-              "text": "A は B に Vて くれます"
+              "text": "くれました"
             },
             {
               "id": "C",
-              "text": "A は B に N を くれます"
+              "text": "あげました"
             },
             {
               "id": "D",
-              "text": "A は B に Vて あげます"
+              "text": "いただきました"
             }
           ],
           "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「A は B に Vて くれます」: Người khác làm việc có lợi cho người nói.",
           "source_item_refs": [
             "grammar:516"
           ]
@@ -621,57 +602,55 @@
         {
           "id": "q020",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “B cho tôi/chúng tôi N”?",
+          "prompt": "知らない人が 道を 教えて（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "A は B に N を くれます"
+              "text": "もらいました"
             },
             {
               "id": "B",
-              "text": "A は B に Vて あげます"
+              "text": "あげました"
             },
             {
               "id": "C",
-              "text": "A は B に Vて もらいます"
+              "text": "くれました"
             },
             {
               "id": "D",
-              "text": "A は B に Vて くれます"
+              "text": "やりました"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「A は B に N を くれます」: Người nhận là người nói hoặc người trong nhóm người nói.",
+          "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:513"
+            "grammar:516"
           ]
         },
         {
           "id": "q021",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả:  nếu / khi đã?",
+          "prompt": "時間が（　　　）、旅行に 行きたいです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vても"
+              "text": "あると"
             },
             {
               "id": "B",
-              "text": "い-adj くても"
+              "text": "あって"
             },
             {
               "id": "C",
-              "text": "な-adj／N でも"
+              "text": "あります"
             },
             {
               "id": "D",
-              "text": "Vたら"
+              "text": "あったら"
             }
           ],
           "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vたら」: Nêu điều kiện sau khi hành động hoàn tất.",
           "source_item_refs": [
             "grammar:517"
           ]
@@ -679,28 +658,27 @@
         {
           "id": "q022",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu điều kiện nhượng bộ.",
+          "prompt": "雨が（　　　）も、出かけます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj／N でも"
+              "text": "降って"
             },
             {
               "id": "B",
-              "text": "Vたら"
+              "text": "降る"
             },
             {
               "id": "C",
-              "text": "Vても"
+              "text": "降った"
             },
             {
               "id": "D",
-              "text": "い-adj くても"
+              "text": "降り"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vても」: Nêu điều kiện nhượng bộ.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:518"
           ]
@@ -708,28 +686,27 @@
         {
           "id": "q023",
           "category": "grammar",
-          "prompt": "Câu 「たかくても、この かばんを かいます。」 minh họa mẫu nào?",
+          "prompt": "値段が（　　　）も、このカメラを 買います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vても"
+              "text": "高い"
             },
             {
               "id": "B",
-              "text": "い-adj くても"
+              "text": "高くて"
             },
             {
               "id": "C",
-              "text": "な-adj／N でも"
+              "text": "高かった"
             },
             {
               "id": "D",
-              "text": "Vたら"
+              "text": "高さ"
             }
           ],
           "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「い-adj くても」: Dạng nhượng bộ của tính từ い.",
           "source_item_refs": [
             "grammar:519"
           ]
@@ -737,28 +714,27 @@
         {
           "id": "q024",
           "category": "grammar",
-          "prompt": "Ví dụ 「にちようびでも、はたらきます。」 sử dụng cấu trúc nào?",
+          "prompt": "日曜日（　　　）、会社へ 行きます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "な-adj／N でも"
+              "text": "なのに"
             },
             {
               "id": "B",
-              "text": "Vたら"
+              "text": "だったら"
             },
             {
               "id": "C",
-              "text": "Vても"
+              "text": "でも"
             },
             {
               "id": "D",
-              "text": "い-adj くても"
+              "text": "ならで"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「な-adj／N でも」: Dạng nhượng bộ của tính từ な và danh từ.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:520"
           ]
@@ -766,28 +742,27 @@
         {
           "id": "q025",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “ nếu / khi đã”?",
+          "prompt": "駅に（　　　）、電話を ください。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vても"
+              "text": "着くても"
             },
             {
               "id": "B",
-              "text": "い-adj くても"
+              "text": "着いて"
             },
             {
               "id": "C",
-              "text": "な-adj／N でも"
+              "text": "着くと"
             },
             {
               "id": "D",
-              "text": "Vたら"
+              "text": "着いたら"
             }
           ],
           "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vたら」: Nêu điều kiện sau khi hành động hoàn tất.",
           "source_item_refs": [
             "grammar:517"
           ]

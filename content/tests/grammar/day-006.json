@@ -70,57 +70,56 @@
         {
           "id": "q001",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: là vì / thực ra?",
+          "prompt": "どうして 遅れた（　　　）か。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vたら いいですか"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "どうして んですか"
+              "text": "んです"
             },
             {
               "id": "C",
-              "text": "Plain form んです"
+              "text": "でしょう"
             },
             {
               "id": "D",
-              "text": "Vて いただけませんか"
+              "text": "そうです"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Plain form んです」: Giải thích hoàn cảnh hoặc hỏi lý do.",
+          "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:601"
+            "grammar:601",
+            "grammar:604"
           ]
         },
         {
           "id": "q002",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Yêu cầu rất lịch sự để nhận sự giúp đỡ.",
+          "prompt": "すみませんが、この漢字の 読み方を 教えて（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form んです"
+              "text": "もいいですか"
             },
             {
               "id": "B",
-              "text": "Vて いただけませんか"
+              "text": "くださいません"
             },
             {
               "id": "C",
-              "text": "Vたら いいですか"
+              "text": "いただけませんか"
             },
             {
               "id": "D",
-              "text": "どうして んですか"
+              "text": "しまいました"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vて いただけませんか」: Yêu cầu rất lịch sự để nhận sự giúp đỡ.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:602"
           ]
@@ -128,28 +127,27 @@
         {
           "id": "q003",
           "category": "grammar",
-          "prompt": "Câu 「ごみは どこに だしたら いいですか。」 minh họa mẫu nào?",
+          "prompt": "日本語を 勉強したいんですが、どこで（　　　）いいですか。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vたら いいですか"
+              "text": "勉強して"
             },
             {
               "id": "B",
-              "text": "どうして んですか"
+              "text": "勉強すると"
             },
             {
               "id": "C",
-              "text": "Plain form んです"
+              "text": "勉強すれば"
             },
             {
               "id": "D",
-              "text": "Vて いただけませんか"
+              "text": "勉強したら"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vたら いいですか」: Hỏi lời khuyên hoặc cách xử lý.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:603"
           ]
@@ -157,86 +155,84 @@
         {
           "id": "q004",
           "category": "grammar",
-          "prompt": "Ví dụ 「どうして はやく かえるんですか。」 sử dụng cấu trúc nào?",
+          "prompt": "新しい かばんを 買った（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Plain form んです"
+              "text": "んです"
             },
             {
               "id": "B",
-              "text": "Vて いただけませんか"
+              "text": "のでです"
             },
             {
               "id": "C",
-              "text": "Vたら いいですか"
+              "text": "ですん"
             },
             {
               "id": "D",
-              "text": "どうして んですか"
+              "text": "なんですか"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「どうして んですか」: Hỏi lý do với sắc thái muốn biết bối cảnh.",
-          "source_item_refs": [
-            "grammar:604"
-          ]
-        },
-        {
-          "id": "q005",
-          "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “là vì / thực ra”?",
-          "stimulus_id": null,
-          "options": [
-            {
-              "id": "A",
-              "text": "Vたら いいですか"
-            },
-            {
-              "id": "B",
-              "text": "どうして んですか"
-            },
-            {
-              "id": "C",
-              "text": "Plain form んです"
-            },
-            {
-              "id": "D",
-              "text": "Vて いただけませんか"
-            }
-          ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Plain form んです」: Giải thích hoàn cảnh hoặc hỏi lý do.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:601"
           ]
         },
         {
-          "id": "q006",
+          "id": "q005",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: có thể làm?",
+          "prompt": "どうして この会社を（　　　）んですか。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が できます"
+              "text": "選びます"
             },
             {
               "id": "B",
-              "text": "V potential"
+              "text": "選んだ"
             },
             {
               "id": "C",
-              "text": "N が 見えます"
+              "text": "選んで"
             },
             {
               "id": "D",
-              "text": "N が 聞こえます"
+              "text": "選び"
             }
           ],
           "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「V potential」: Diễn tả khả năng của chủ thể.",
+          "source_item_refs": [
+            "grammar:601",
+            "grammar:604"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "わたしは 日本語の 新聞が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "読みます"
+            },
+            {
+              "id": "B",
+              "text": "読んでいます"
+            },
+            {
+              "id": "C",
+              "text": "読めます"
+            },
+            {
+              "id": "D",
+              "text": "読ませます"
+            }
+          ],
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:605"
           ]
@@ -244,28 +240,27 @@
         {
           "id": "q007",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: N xuất hiện trong tầm nhìn một cách tự nhiên.",
+          "prompt": "今、この窓から 海が（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が 見えます"
+              "text": "見ます"
             },
             {
               "id": "B",
-              "text": "N が 聞こえます"
+              "text": "見られました"
             },
             {
               "id": "C",
-              "text": "N が できます"
+              "text": "見せます"
             },
             {
               "id": "D",
-              "text": "V potential"
+              "text": "見えます"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「N が 見えます」: N xuất hiện trong tầm nhìn một cách tự nhiên.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:606"
           ]
@@ -273,28 +268,27 @@
         {
           "id": "q008",
           "category": "grammar",
-          "prompt": "Câu 「となりの へやから おとが きこえます。」 minh họa mẫu nào?",
+          "prompt": "静かですね。鳥の声が（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が できます"
+              "text": "聞こえます"
             },
             {
               "id": "B",
-              "text": "V potential"
+              "text": "聞きます"
             },
             {
               "id": "C",
-              "text": "N が 見えます"
+              "text": "聞けます"
             },
             {
               "id": "D",
-              "text": "N が 聞こえます"
+              "text": "聞かせます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「N が 聞こえます」: N đi vào thính giác một cách tự nhiên.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:607"
           ]
@@ -302,28 +296,27 @@
         {
           "id": "q009",
           "category": "grammar",
-          "prompt": "Ví dụ 「えきの まえに スーパーが できました。」 sử dụng cấu trúc nào?",
+          "prompt": "駅の前に 新しい ホテルが（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が 見えます"
+              "text": "あります"
             },
             {
               "id": "B",
-              "text": "N が 聞こえます"
+              "text": "できました"
             },
             {
               "id": "C",
-              "text": "N が できます"
+              "text": "作れました"
             },
             {
               "id": "D",
-              "text": "V potential"
+              "text": "建てます"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「N が できます」: Nêu công trình hoặc sự việc được tạo thành.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:608"
           ]
@@ -331,28 +324,27 @@
         {
           "id": "q010",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “có thể làm”?",
+          "prompt": "田中さんは 100メートル（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "N が できます"
+              "text": "泳ぎます"
             },
             {
               "id": "B",
-              "text": "V potential"
+              "text": "泳いで"
             },
             {
               "id": "C",
-              "text": "N が 見えます"
+              "text": "泳げます"
             },
             {
               "id": "D",
-              "text": "N が 聞こえます"
+              "text": "泳がれます"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「V potential」: Diễn tả khả năng của chủ thể.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:605"
           ]
@@ -360,28 +352,27 @@
         {
           "id": "q011",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: vừa ... vừa ...?",
+          "prompt": "音楽を 聞き（　　　）、勉強します。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem ながら V"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "Vています (thói quen)"
+              "text": "し"
             },
             {
               "id": "C",
-              "text": "S1 し、S2 し"
+              "text": "ても"
             },
             {
               "id": "D",
-              "text": "N も ... し"
+              "text": "ながら"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem ながら V」: Hai hành động cùng chủ thể, hành động sau là chính.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:609"
           ]
@@ -389,28 +380,27 @@
         {
           "id": "q012",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Nêu thói quen hiện tại.",
+          "prompt": "父は 毎朝 犬と 公園を（　　　）います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "S1 し、S2 し"
+              "text": "歩いて"
             },
             {
               "id": "B",
-              "text": "N も ... し"
+              "text": "歩きながら"
             },
             {
               "id": "C",
-              "text": "Vます-stem ながら V"
+              "text": "歩くし"
             },
             {
               "id": "D",
-              "text": "Vています (thói quen)"
+              "text": "歩けます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vています (thói quen)」: Nêu thói quen hiện tại.",
+          "correct_option_id": "A",
           "source_item_refs": [
             "grammar:610"
           ]
@@ -418,28 +408,27 @@
         {
           "id": "q013",
           "category": "grammar",
-          "prompt": "Câu 「ちかてつは はやいし、やすいです。」 minh họa mẫu nào?",
+          "prompt": "この店は 安い（　　　）、品物も 多いです。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem ながら V"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "Vています (thói quen)"
+              "text": "し"
             },
             {
               "id": "C",
-              "text": "S1 し、S2 し"
+              "text": "ながら"
             },
             {
               "id": "D",
-              "text": "N も ... し"
+              "text": "でも"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「S1 し、S2 し」: Liệt kê nhiều lý do hoặc đặc điểm.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:611"
           ]
@@ -447,28 +436,27 @@
         {
           "id": "q014",
           "category": "grammar",
-          "prompt": "Ví dụ 「しゅっちょうも おおいし、しけんも あります。」 sử dụng cấu trúc nào?",
+          "prompt": "山田さんは 英語も 話せる（　　　）、中国語も 話せます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "S1 し、S2 し"
+              "text": "ので"
             },
             {
               "id": "B",
-              "text": "N も ... し"
+              "text": "ながら"
             },
             {
               "id": "C",
-              "text": "Vます-stem ながら V"
+              "text": "し"
             },
             {
               "id": "D",
-              "text": "Vています (thói quen)"
+              "text": "まで"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「N も ... し」: Mở rộng danh sách lý do/đặc điểm.",
+          "correct_option_id": "C",
           "source_item_refs": [
             "grammar:612"
           ]
@@ -476,28 +464,27 @@
         {
           "id": "q015",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “vừa ... vừa ...”?",
+          "prompt": "弟は テレビを（　　　）ながら、ごはんを 食べています。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vます-stem ながら V"
+              "text": "見る"
             },
             {
               "id": "B",
-              "text": "Vています (thói quen)"
+              "text": "見て"
             },
             {
               "id": "C",
-              "text": "S1 し、S2 し"
+              "text": "見た"
             },
             {
               "id": "D",
-              "text": "N も ... し"
+              "text": "見"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vます-stem ながら V」: Hai hành động cùng chủ thể, hành động sau là chính.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:609"
           ]
@@ -505,173 +492,170 @@
         {
           "id": "q016",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: đang ở trạng thái?",
+          "prompt": "窓が（　　　）います。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて しまいます"
+              "text": "開いて"
             },
             {
               "id": "B",
-              "text": "Vて しまいました"
+              "text": "開けて"
             },
             {
               "id": "C",
-              "text": "Transitive／intransitive state"
+              "text": "開きて"
             },
             {
               "id": "D",
-              "text": "Vています (kết quả)"
+              "text": "開け"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vています (kết quả)」: Diễn tả trạng thái do hành động tự động từ để lại.",
+          "correct_option_id": "A",
           "source_item_refs": [
-            "grammar:613"
+            "grammar:613",
+            "grammar:616"
           ]
         },
         {
           "id": "q017",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Diễn tả hoàn thành hoàn toàn.",
+          "prompt": "財布を なくして（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Transitive／intransitive state"
+              "text": "あります"
             },
             {
               "id": "B",
-              "text": "Vています (kết quả)"
+              "text": "しまいました"
             },
             {
               "id": "C",
-              "text": "Vて しまいます"
+              "text": "おきました"
             },
             {
               "id": "D",
-              "text": "Vて しまいました"
-            }
-          ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vて しまいます」: Diễn tả hoàn thành hoàn toàn.",
-          "source_item_refs": [
-            "grammar:614"
-          ]
-        },
-        {
-          "id": "q018",
-          "category": "grammar",
-          "prompt": "Câu 「でんしゃに かさを わすれて しまいました。」 minh họa mẫu nào?",
-          "stimulus_id": null,
-          "options": [
-            {
-              "id": "A",
-              "text": "Vて しまいます"
-            },
-            {
-              "id": "B",
-              "text": "Vて しまいました"
-            },
-            {
-              "id": "C",
-              "text": "Transitive／intransitive state"
-            },
-            {
-              "id": "D",
-              "text": "Vています (kết quả)"
+              "text": "みました"
             }
           ],
           "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vて しまいました」: Dùng khi sự việc ngoài ý muốn xảy ra.",
           "source_item_refs": [
             "grammar:615"
           ]
         },
         {
-          "id": "q019",
+          "id": "q018",
           "category": "grammar",
-          "prompt": "Ví dụ 「ドアが あいています。」 sử dụng cấu trúc nào?",
+          "prompt": "宿題は きょう中に（　　　）しまいます。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Transitive／intransitive state"
+              "text": "して"
             },
             {
               "id": "B",
-              "text": "Vています (kết quả)"
+              "text": "した"
             },
             {
               "id": "C",
-              "text": "Vて しまいます"
+              "text": "し"
             },
             {
               "id": "D",
-              "text": "Vて しまいました"
+              "text": "する"
             }
           ],
           "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Transitive／intransitive state」: Phân biệt hành động có chủ ý và trạng thái tự xảy ra.",
           "source_item_refs": [
+            "grammar:614"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "電気が（　　　）います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つけて"
+            },
+            {
+              "id": "B",
+              "text": "つけ"
+            },
+            {
+              "id": "C",
+              "text": "つくて"
+            },
+            {
+              "id": "D",
+              "text": "ついて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:613",
             "grammar:616"
           ]
         },
         {
           "id": "q020",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “đang ở trạng thái”?",
+          "prompt": "大切な コップを（　　　）しまいました。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて しまいます"
+              "text": "割って"
             },
             {
               "id": "B",
-              "text": "Vて しまいました"
+              "text": "割れて"
             },
             {
               "id": "C",
-              "text": "Transitive／intransitive state"
+              "text": "割りて"
             },
             {
               "id": "D",
-              "text": "Vています (kết quả)"
+              "text": "割る"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vています (kết quả)」: Diễn tả trạng thái do hành động tự động từ để lại.",
+          "correct_option_id": "A",
           "source_item_refs": [
-            "grammar:613"
+            "grammar:615",
+            "grammar:616"
           ]
         },
         {
           "id": "q021",
           "category": "grammar",
-          "prompt": "Mẫu nào diễn tả: được làm sẵn?",
+          "prompt": "会議室に いすが 並べて（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vないで おきます"
+              "text": "います"
             },
             {
               "id": "B",
-              "text": "Vておく (chuẩn bị)"
+              "text": "あります"
             },
             {
               "id": "C",
-              "text": "Vて あります"
+              "text": "おきます"
             },
             {
               "id": "D",
-              "text": "Vて おきます"
+              "text": "しまいます"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vて あります」: Trạng thái kết quả do ai đó có chủ ý tạo ra.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:617"
           ]
@@ -679,57 +663,56 @@
         {
           "id": "q022",
           "category": "grammar",
-          "prompt": "Chọn cấu trúc phù hợp với cách dùng: Chuẩn bị trước cho mục đích sau đó.",
+          "prompt": "旅行の前に、ホテルを 予約して（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて あります"
+              "text": "あります"
             },
             {
               "id": "B",
-              "text": "Vて おきます"
+              "text": "います"
             },
             {
               "id": "C",
-              "text": "Vないで おきます"
+              "text": "おきます"
             },
             {
               "id": "D",
-              "text": "Vておく (chuẩn bị)"
+              "text": "しまいます"
             }
           ],
-          "correct_option_id": "B",
-          "explanation_vi": "Đáp án đúng là 「Vて おきます」: Chuẩn bị trước cho mục đích sau đó.",
+          "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:618"
+            "grammar:618",
+            "grammar:620"
           ]
         },
         {
           "id": "q023",
           "category": "grammar",
-          "prompt": "Câu 「あしたまで この ままに して おきます。」 minh họa mẫu nào?",
+          "prompt": "まだ 使いますから、電気は 消さないで（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vないで おきます"
+              "text": "あります"
             },
             {
               "id": "B",
-              "text": "Vておく (chuẩn bị)"
+              "text": "います"
             },
             {
               "id": "C",
-              "text": "Vて あります"
+              "text": "しまいます"
             },
             {
               "id": "D",
-              "text": "Vて おきます"
+              "text": "おきます"
             }
           ],
-          "correct_option_id": "A",
-          "explanation_vi": "Đáp án đúng là 「Vないで おきます」: Chủ ý không làm trước một tình huống.",
+          "correct_option_id": "D",
           "source_item_refs": [
             "grammar:619"
           ]
@@ -737,57 +720,56 @@
         {
           "id": "q024",
           "category": "grammar",
-          "prompt": "Ví dụ 「しりょうを コピーして おきます。」 sử dụng cấu trúc nào?",
+          "prompt": "パーティーの前に、飲み物を 買って（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vて あります"
+              "text": "おきます"
             },
             {
               "id": "B",
-              "text": "Vて おきます"
+              "text": "あります"
             },
             {
               "id": "C",
-              "text": "Vないで おきます"
+              "text": "います"
             },
             {
               "id": "D",
-              "text": "Vておく (chuẩn bị)"
+              "text": "みます"
             }
           ],
-          "correct_option_id": "D",
-          "explanation_vi": "Đáp án đúng là 「Vておく (chuẩn bị)」: Nhấn mạnh lợi ích cho kế hoạch tương lai.",
+          "correct_option_id": "A",
           "source_item_refs": [
+            "grammar:618",
             "grammar:620"
           ]
         },
         {
           "id": "q025",
           "category": "grammar",
-          "prompt": "Trong Lesson, mẫu nào phù hợp với nghĩa “được làm sẵn”?",
+          "prompt": "地図は 壁に はって（　　　）。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "Vないで おきます"
+              "text": "います"
             },
             {
               "id": "B",
-              "text": "Vておく (chuẩn bị)"
+              "text": "あります"
             },
             {
               "id": "C",
-              "text": "Vて あります"
+              "text": "おきます"
             },
             {
               "id": "D",
-              "text": "Vて おきます"
+              "text": "しまいます"
             }
           ],
-          "correct_option_id": "C",
-          "explanation_vi": "Đáp án đúng là 「Vて あります」: Trạng thái kết quả do ai đó có chủ ý tạo ra.",
+          "correct_option_id": "B",
           "source_item_refs": [
             "grammar:617"
           ]
