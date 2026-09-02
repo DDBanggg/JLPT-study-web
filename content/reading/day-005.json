@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-005",
+  "study_day": 5,
+  "items": [
+    {
+      "id": 21,
+      "title": "Reading 21 — 雨降って、地固まる",
+      "passage_jp": "【相談】去年結婚しました。妻は働いていますから、わたしも料理や掃除をしています。月曜日と木曜日はごみの日です。ごみはいつもわたしが捨てます。先週の月曜日の晩、妻はごみを見て、「きょうはごみの日だったけど。」と言いました。「僕は『きょうはごみの日だ。』と言ったよ。」「いいえ、言わなかった。わたしは聞かなかった。」「言った。」「言わなかった。」どちらも自分が正しいと思いました。けんかして、それからわたしと妻は話しません。わたしは仲直りしたいです。中川先生、アドバイスをお願いします。（会社員・28歳）\n\n【答え】まず花を買って、帰ってください。そして、あなたから「ごめんね。」と言ってください。奥さんもきっとあなたと仲直りしたいと思っていますよ。結婚生活は楽しいことだけではありません。時々けんかになります。顔を見たくないと思ったり、話したくないと思ったりします。でも、あなたは奥さんといっしょにいたいでしょう？ 奥さんも同じだと思いますよ。夫婦はけんかして、仲直りして、またけんかして、仲直りして、だんだんいい夫婦になります。「雨降って、地固まる」と言いますね。（中川花子）",
+      "translation_vi": "【Tư vấn】Tôi kết hôn năm ngoái. Vì vợ tôi cũng đi làm nên tôi nấu ăn và dọn dẹp. Thứ Hai và thứ Năm là ngày đổ rác; tôi luôn là người mang rác đi. Tối thứ Hai tuần trước, vợ tôi nhìn túi rác và nói: “Hôm nay là ngày đổ rác mà.” Tôi nói mình đã nhắc rồi, còn vợ bảo không nghe thấy. Cả hai đều cho rằng mình đúng. Chúng tôi cãi nhau rồi không nói chuyện. Tôi muốn làm hòa. Xin cô Nakagawa cho lời khuyên. (Nhân viên công ty, 28 tuổi)\n\n【Trả lời】Trước hết hãy mua hoa rồi về nhà và chủ động nói “Anh xin lỗi”. Chắc chắn vợ anh cũng muốn làm hòa. Hôn nhân không chỉ có chuyện vui; đôi khi vợ chồng cãi nhau, không muốn nhìn mặt hay nói chuyện với nhau. Nhưng anh vẫn muốn ở bên vợ và cô ấy cũng vậy. Vợ chồng cãi nhau rồi làm hòa, lại cãi nhau rồi làm hòa, và dần trở thành một đôi vợ chồng tốt. Người ta có câu “Sau cơn mưa, đất càng rắn chắc”. (Nakagawa Hanako)",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 21",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"だれがごみを捨てましたか。","options":[{"id":"A","text":"夫が捨てました"},{"id":"B","text":"妻が捨てました"},{"id":"C","text":"どちらも捨てませんでした"}],"correct_option_id":"C"},
+        {"id":"q2","question_type":"mcq","question_jp":"中川先生は何と言いましたか。","options":[{"id":"A","text":"夫はいつも花を買わなければならない"},{"id":"B","text":"夫婦はけんかをしてはいけない"},{"id":"C","text":"夫婦はけんかをしてもいいから、すぐ仲直りしなければならない"}],"correct_option_id":"C"},
+        {"id":"q3","question_type":"mcq","question_jp":"「雨降って、地固まる」の意味はどれだと思いますか。","options":[{"id":"A","text":"けんかして、仲直りして、またけんかします"},{"id":"B","text":"けんかして、仲直りして、夫婦の愛は強くなる"},{"id":"C","text":"けんかして、仲直りして、家の仕事をいっしょにする"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Reading 22 — テレビ放送",
+      "passage_jp": "日本で初めてテレビ放送をした日は1953年2月1日です。そのとき東京にあったテレビは1200〜1500台でした。サラリーマンの1か月の給料は1万5000円ぐらいでしたが、テレビは20万円ぐらいでした。ですから、たくさんの人が駅の前やデパートや公園にあるテレビを見ました。\n\nテレビを初めて見た人はびっくりして、「このラジオは人を見ることができる。」と言いました。テレビの中に人がいると思った人もたくさんいました。放送は1日に4時間だけでした。\n\n1959年4月に皇太子の結婚式がありました。結婚式を見たい人はテレビを買いました。日本のテレビは4月に200万台になりました。\n\n1964年10月にアジアで初めてのオリンピックが東京でありました。たくさんの人がカラーテレビを買いました。\n\n今は一人でパソコンやケータイでテレビ番組を見たり、おふろでテレビを見たりすることができます。見たい番組を見たい時間に見ることもできます。これからテレビはどうなると思いますか。",
+      "translation_vi": "Ngày phát sóng truyền hình đầu tiên ở Nhật Bản là 1 tháng 2 năm 1953. Lúc đó Tokyo chỉ có khoảng 1.200–1.500 máy. Lương tháng của nhân viên công ty khoảng 15.000 yên nhưng một chiếc tivi khoảng 200.000 yên, nên nhiều người xem những chiếc tivi đặt trước ga, trong cửa hàng bách hóa và công viên.\n\nNgười lần đầu thấy tivi rất ngạc nhiên và nói rằng đó là chiếc radio có thể nhìn thấy người. Nhiều người còn tưởng có người ở bên trong. Mỗi ngày chỉ phát sóng bốn giờ.\n\nTháng 4 năm 1959 có lễ cưới của thái tử. Những người muốn xem đã mua tivi và số tivi ở Nhật tăng lên hai triệu chiếc.\n\nTháng 10 năm 1964, Thế vận hội đầu tiên tại châu Á được tổ chức ở Tokyo, khiến nhiều người mua tivi màu.\n\nNgày nay mỗi người có thể xem chương trình trên máy tính hay điện thoại, xem trong phòng tắm và xem chương trình mình muốn vào thời gian mình muốn. Tivi tương lai sẽ trở thành thế nào?",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 22",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"1959年に何がありましたか。","accepted_answers":["皇太子の結婚式","皇太子の結婚式がありました"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"1959年4月にテレビは何台になりましたか。","accepted_answers":["200万台","二百万台"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"1964年に何がありましたか。","accepted_answers":["東京オリンピック","オリンピック"]},
+        {"id":"q4","question_type":"true_false","question_jp":"1950年ごろのサラリーマンは1年の給料でテレビを買うことができました。","correct_answer":false},
+        {"id":"q5","question_type":"true_false","question_jp":"初めてテレビを見た人は人が見えるラジオだと思いました。","correct_answer":true},
+        {"id":"q6","question_type":"true_false","question_jp":"今は家族がみんな別々に好きな番組を見ることができます。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Reading 23 — コーヒーを飲むと",
+      "passage_jp": "コーヒーは今から200年ぐらい前に、オランダ人が日本へ持って来ました。明治時代の初めまでコーヒーを飲む人は少なかったですが、今、日本人は1年に1人560杯ぐらいコーヒーを飲みます。\n\nところで、コーヒーは体に悪いと思っている人はいませんか。実はコーヒーはいろいろないい働きがあります。まず、疲れたとき、眠いけど仕事や勉強をしなければならないとき、コーヒーを飲むと元気になります。頭の働きがよくなります。日本の大学でコーヒーの働きについて調べたことがあります。トラックの運転手が長い時間、車を運転してから簡単な計算をしました。眠かったですから、まちがいがたくさんありました。コーヒーを飲んでからもう一度計算をしました。まちがいは少なくなりました。\n\n次にコーヒーを飲むと、リラックスすることができます。ですから、わたしたちは喫茶店で友達と話すとき、仕事が終わって少し休むとき、よくコーヒーを飲みます。\n\nまた、熱いコーヒーを飲むと、体が温かくなります。コーヒー1杯は2分のジョギングと同じ働きをします。皆さん、ちょっと休んで、コーヒーでも飲みませんか。",
+      "translation_vi": "Khoảng 200 năm trước, người Hà Lan mang cà phê đến Nhật Bản. Cho đến đầu thời Minh Trị, rất ít người uống cà phê, nhưng hiện nay trung bình mỗi người Nhật uống khoảng 560 cốc một năm.\n\nCó ai cho rằng cà phê có hại cho cơ thể không? Thực ra cà phê có nhiều tác dụng tốt. Khi mệt hay buồn ngủ nhưng vẫn phải làm việc hoặc học, uống cà phê giúp tỉnh táo và đầu óc hoạt động tốt hơn. Một trường đại học Nhật từng nghiên cứu tác dụng này: tài xế xe tải làm phép tính đơn giản sau khi lái lâu và mắc nhiều lỗi vì buồn ngủ; sau khi uống cà phê, số lỗi giảm xuống.\n\nCà phê cũng giúp thư giãn, vì vậy người ta thường uống khi trò chuyện với bạn ở quán hoặc nghỉ một lát sau giờ làm.\n\nNgoài ra, cà phê nóng làm ấm cơ thể. Một cốc cà phê có tác dụng tương đương hai phút chạy bộ. Mọi người hãy nghỉ một chút và uống cà phê nhé.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 23",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"明治時代の初め、日本人はよくコーヒーを飲みました。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"日本の大学はトラックの運転手の計算のし方について調べました。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"疲れたとき、コーヒーは体にいいです。","correct_answer":true},
+        {"id":"q4","question_type":"short_answer","question_jp":"コーヒーの働きを4つ書いてください。","accepted_answers":["元気になる、頭の働きがよくなる、リラックスできる、体が温かくなる"]}
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Reading 24 — 日本語でお願いします",
+      "passage_jp": "わたしはアランです。大阪に住んでいるフランス人です。日本人の友達や会社の人、近所の人といつも日本語で話します。\n\nでも、デパートやレストランで店の人はわたしを見ると、英語で話します。わたしは日本語で質問しますが、店の人は英語で答えます。時々、店の人が話す英語がわかりませんから、「ちょっとわかりません。」と日本語で言うと、また英語で説明してくれます。\n\nこの間、図書館へ行く道がわかりませんでしたから、駅の前で日本人の男の人に日本語で聞きました。男の人は「だめ、だめ。」と言いました。\n\n今度は女の人に聞きました。女の人は「図書館、えーと、ライブラリー？」と言いました。それから英語で道を説明してくれました。長い時間がかかりました。わたしは「ありがとうございました。」と英語で言いました。それから教えてもらった道を行きましたが、図書館はありませんでした。\n\n日本人の皆さん、日本語でお願いします。",
+      "translation_vi": "Tôi là Alain, một người Pháp sống ở Osaka. Tôi luôn nói tiếng Nhật với bạn bè người Nhật, đồng nghiệp và hàng xóm.\n\nNhưng ở cửa hàng bách hóa hay nhà hàng, nhân viên thấy tôi liền nói tiếng Anh. Tôi hỏi bằng tiếng Nhật còn họ trả lời bằng tiếng Anh. Đôi khi tôi không hiểu tiếng Anh của họ; dù tôi nói bằng tiếng Nhật rằng mình không hiểu, họ lại tiếp tục giải thích bằng tiếng Anh.\n\nGần đây tôi không biết đường đến thư viện nên hỏi một người đàn ông Nhật trước ga bằng tiếng Nhật. Ông ấy nói “Không, không”. Tôi lại hỏi một phụ nữ. Cô ấy nói “Thư viện… library?” rồi giải thích đường đi bằng tiếng Anh, mất rất lâu. Tôi cảm ơn bằng tiếng Anh rồi đi theo đường được chỉ nhưng ở đó không có thư viện.\n\nMọi người Nhật ơi, xin hãy nói tiếng Nhật với tôi.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 24",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"アランさんは日本人と時々英語で話します。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"アランさんは日本語がわかりませんから、日本人は英語で話します。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"駅の前で日本人と話したとき、女の人は男の人より親切でした。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"アランさんが図書館へ行ったとき、図書館は休みでした。","correct_answer":false},
+        {"id":"q5","question_type":"mcq","question_jp":"アランさんはどうして「日本語でお願いします」と言いましたか。","options":[{"id":"A","text":"英語が下手ですから"},{"id":"B","text":"日本人の英語より日本語のほうがよくわかりますから"},{"id":"C","text":"日本語を覚えたいですから"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Reading 25 — 将来は…",
+      "passage_jp": "山本君、川田君、佐藤君は同じ高校を出ました。そして、今……。\n\n【山本一郎】僕は今、小さい引っ越しの会社で働いています。友達はみんな大学へ行きましたが、僕は大学で勉強したいことが見つかりませんでした。大学へ行っても意味がないと思いました。働いて、自分のお金で好きなことをしたいです。どこか外国へ行きたいです。いろいろ経験したら、ほんとうにしたいことが見つかると思います。\n\n【川田司】富士大学で経済を勉強しています。ほんとうは経済の勉強より音楽のほうが好きだから、ミュージシャンになりたいけど……。でも、両親が将来を考えたら、大学を出なければならないと言いました。僕もいくら好きなことをしても、安定した生活ができなかったら、幸せになることはできないと思います。\n\n【佐藤健】高校を出るとき、両親とけんかをしました。僕は劇団に入って、好きな演劇をすると言いました。両親は大学へ行かなければならない、演劇で生活することはできない、将来きっと後悔すると言いました。僕はうちを出て、今一人で生活しています。親からお金をもらっていません。生活は苦しいです。でも、したいことがありますから、苦しくても、頑張ります。",
+      "translation_vi": "Yamamoto, Kawada và Satō tốt nghiệp cùng một trường trung học phổ thông. Còn hiện nay…\n\n【Yamamoto Ichirō】Tôi đang làm tại một công ty chuyển nhà nhỏ. Bạn bè đều vào đại học nhưng tôi không tìm thấy điều mình muốn học, nên cho rằng vào đại học cũng vô nghĩa. Tôi muốn làm việc, dùng tiền mình kiếm được để làm điều mình thích và đi một nước nào đó. Sau khi trải nghiệm nhiều việc, tôi nghĩ mình sẽ tìm thấy điều thật sự muốn làm.\n\n【Kawada Tsukasa】Tôi học kinh tế tại Đại học Fuji. Thật ra tôi thích âm nhạc hơn kinh tế và muốn trở thành nhạc sĩ. Nhưng bố mẹ nói rằng nếu nghĩ đến tương lai thì phải tốt nghiệp đại học. Tôi cũng nghĩ rằng dù làm điều mình thích đến đâu, nếu không có cuộc sống ổn định thì không thể hạnh phúc.\n\n【Satō Ken】Khi tốt nghiệp cấp ba, tôi cãi nhau với bố mẹ. Tôi nói sẽ gia nhập đoàn kịch để theo đuổi sân khấu. Bố mẹ nói tôi phải vào đại học, không thể sống bằng nghề diễn và sau này chắc chắn sẽ hối hận. Tôi rời nhà và sống một mình, không nhận tiền của bố mẹ. Cuộc sống khó khăn nhưng vì có điều muốn làm nên dù khó tôi vẫn cố gắng.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 25",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"山本君は何で外国へ行きますか。","options":[{"id":"A","text":"自分で働いたお金"},{"id":"B","text":"両親にもらったお金"}],"correct_option_id":"A"},
+        {"id":"q2","question_type":"mcq","question_jp":"川田君はどちらのほうが将来役に立つと思っていますか。","options":[{"id":"A","text":"経済より音楽"},{"id":"B","text":"音楽より経済"}],"correct_option_id":"B"},
+        {"id":"q3","question_type":"mcq","question_jp":"佐藤君は今の生活をどう思っていますか。","options":[{"id":"A","text":"苦しいですから、後悔しています"},{"id":"B","text":"苦しいですが、後悔していません"}],"correct_option_id":"B"},
+        {"id":"q4","question_type":"short_answer","question_jp":"山本君はどうして大学へ行きませんでしたか。","accepted_answers":["大学で勉強したいことが見つかりませんでしたから","勉強したいことが見つからなかったから"]},
+        {"id":"q5","question_type":"short_answer","question_jp":"川田君はどうして大学に入りましたか。","accepted_answers":["両親が大学を出なければならないと言ったから","安定した生活が必要だと思ったから"]},
+        {"id":"q6","question_type":"short_answer","question_jp":"佐藤君はどうして両親とけんかをしましたか。","accepted_answers":["劇団に入って演劇をしたかったから","両親が大学へ行かなければならないと言ったから"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-004",
+  "study_day": 4,
+  "items": [
+    {
+      "id": 16,
+      "title": "Reading 16 — 想像の動物",
+      "passage_jp": "1. これは体がとても長くて、足が4本あります。水の中に住んでいます。雨と風の神様です。これはヨーロッパでは悪い動物ですが、日本や中国ではいい動物です。\n\n2. この動物は砂漠に住んでいます。背が低くて、1メートルぐらいです。体はライオンです。頭は人です。エジプトにこの動物の名前の店や町などがあります。\n\n3. 日本とインドにいます。山の奥に住んでいます。顔が赤くて、鼻が高いです。いつもうちわを持っています。\n\n4. ヨーロッパと中国と日本の海に住んでいます。体の下の半分は魚です。ヨーロッパのは髪が長くて、若くて、きれいです。そして、歌が上手です。\n\n5. これはギリシャに住んでいます。体の上の半分は人、下の半分は馬です。この動物は女の人が好きです。ギリシャ人はこの動物が嫌いです。",
+      "translation_vi": "1. Con vật này có thân rất dài và bốn chân. Nó sống dưới nước, là thần mưa và gió. Ở châu Âu nó là con vật xấu, nhưng tại Nhật Bản và Trung Quốc nó là con vật tốt.\n\n2. Con vật này sống ở sa mạc, thấp khoảng một mét. Thân là sư tử, đầu là người. Ở Ai Cập có cửa hàng và thị trấn mang tên con vật này.\n\n3. Nó có ở Nhật Bản và Ấn Độ, sống sâu trong núi. Mặt đỏ, mũi cao và lúc nào cũng cầm quạt.\n\n4. Nó sống ở biển châu Âu, Trung Quốc và Nhật Bản. Nửa dưới cơ thể là cá. Loại ở châu Âu có mái tóc dài, trẻ đẹp và hát hay.\n\n5. Nó sống ở Hy Lạp. Nửa trên cơ thể là người, nửa dưới là ngựa. Con vật này thích phụ nữ, còn người Hy Lạp thì ghét nó.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 16",
+      "questions": []
+    },
+    {
+      "id": 17,
+      "title": "Reading 17 — 江戸時代",
+      "passage_jp": "江戸時代は1603年から1868年までで、約260年ありました。この時代はいろいろな規則がありました。\n\n江戸時代の人は外国へ行ってはいけませんでした。そして、外国の船は日本に入ってはいけませんでした。長崎だけ入ってもよかったです。また、キリスト教を信じてはいけませんでした。みんなお寺に名前を登録しなければなりませんでした。それから、牛肉と豚肉を食べてはいけませんでした。\n\n江戸時代は藩がありました。藩に大名がいました。大名は自分の藩と江戸にうちがありました。そして、半年、藩に、半年、江戸に住まなければなりませんでした。奥さんと子どもは江戸に住んでいました。江戸まで歩いて行かなければなりませんでしたから、とても大変でした。\n\nまた、江戸時代の長男はお父さんの仕事をしなければなりませんでした。いろいろな規則がありましたが、平和な時代でした。",
+      "translation_vi": "Thời Edo kéo dài khoảng 260 năm, từ năm 1603 đến năm 1868. Thời đại này có rất nhiều quy định.\n\nNgười thời Edo không được ra nước ngoài và tàu nước ngoài không được vào Nhật Bản; chỉ Nagasaki được phép tiếp nhận tàu. Người dân cũng không được theo đạo Cơ Đốc, phải đăng ký tên tại chùa và không được ăn thịt bò hay thịt lợn.\n\nThời Edo có các phiên và mỗi phiên có một lãnh chúa. Lãnh chúa có nhà ở phiên của mình và ở Edo, phải sống nửa năm tại phiên rồi nửa năm tại Edo. Vợ con họ sống ở Edo. Vì phải đi bộ đến Edo nên việc đi lại rất vất vả.\n\nNgoài ra, con trai trưởng thời Edo phải nối nghiệp cha. Tuy có nhiều quy định nhưng đó là một thời đại hòa bình.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 17",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"外国へ行きます。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"キリスト教を信じます。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"牛肉を食べます。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"大名は好きな所に家族と住みます。","correct_answer":false},
+        {"id":"q5","question_type":"true_false","question_jp":"長男は好きな仕事をします。","correct_answer":false}
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Reading 18 — 個人旅行？ 団体旅行？",
+      "passage_jp": "まゆみさんとはるかさんの趣味は外国を旅行することです。でも、旅行のし方が違います。2人の意見を聞いてください。\n\nはるかさん — 個人旅行\n自分でビザやパスポートを取りに行きます。スケジュールを自分で作って、好きなホテルを予約します。好きな所へ自由に行って、ゆっくり見ることができます。自分で荷物を持たなければなりませんが、すぐ次の所へ行くことができます。外国語の勉強がたくさんできます。外国人の友達を作ることができます。\n\nまゆみさん — 団体旅行\n旅行に行くまえに、準備しなくてもいいです。旅行会社の人がします。旅行会社の人はおもしろくて、有名な所をよく知っています。1日にたくさん見ることができます。重い荷物を持たなくてもいいです。旅行会社の人が集めて、持って行きます。外国語がわからなくてもいいです。日本語で説明を聞くことができます。",
+      "translation_vi": "Sở thích của Mayumi và Haruka là du lịch nước ngoài, nhưng cách đi của hai người khác nhau. Hãy nghe ý kiến của họ.\n\nHaruka — du lịch cá nhân\nTự mình đi làm thị thực và hộ chiếu, tự lập lịch và đặt khách sạn mình thích. Có thể tự do đến nơi mình muốn và thong thả tham quan. Dù phải tự mang hành lý nhưng có thể lập tức đi sang địa điểm tiếp theo. Cũng có thể học được nhiều ngoại ngữ và kết bạn với người nước ngoài.\n\nMayumi — du lịch theo đoàn\nTrước chuyến đi không cần tự chuẩn bị vì nhân viên công ty du lịch sẽ làm. Họ vui tính và biết rõ các địa điểm nổi tiếng, nên trong một ngày có thể xem được nhiều nơi. Không cần mang hành lý nặng vì nhân viên sẽ gom và chuyển đi. Không biết ngoại ngữ cũng không sao vì có thể nghe giải thích bằng tiếng Nhật.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 18",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"わたしは外国に友達がいます。友達に会いに行きたいです。個人旅行と団体旅行とどちらがいいですか。","options":[{"id":"A","text":"個人旅行"},{"id":"B","text":"団体旅行"}],"correct_option_id":"A"},
+        {"id":"q2","question_type":"mcq","question_jp":"わたしは外国旅行が初めてです。個人旅行と団体旅行とどちらがいいですか。","options":[{"id":"A","text":"個人旅行"},{"id":"B","text":"団体旅行"}],"correct_option_id":"B"},
+        {"id":"q3","question_type":"mcq","question_jp":"わたしは英語を話すことができません。個人旅行と団体旅行とどちらがいいですか。","options":[{"id":"A","text":"個人旅行"},{"id":"B","text":"団体旅行"}],"correct_option_id":"B"},
+        {"id":"q4","question_type":"mcq","question_jp":"わたしは好きな所だけ見たいです。個人旅行と団体旅行とどちらがいいですか。","options":[{"id":"A","text":"個人旅行"},{"id":"B","text":"団体旅行"}],"correct_option_id":"A"},
+        {"id":"q5","question_type":"mcq","question_jp":"わたしは重い荷物を持つことができません。個人旅行と団体旅行とどちらがいいですか。","options":[{"id":"A","text":"個人旅行"},{"id":"B","text":"団体旅行"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Reading 19 — 相撲",
+      "passage_jp": "相撲を見たことがありますか。相撲は日本の古いスポーツです。\n\n日本では1300年ぐらい前から相撲をしていました。1年に1回、7月に天皇の前で相撲をしました。それから、相撲は侍のスポーツになりました。侍は強くなりたかったですから、よく相撲の練習をしました。江戸時代に相撲はプロスポーツになりました。年に2回、たくさんの人が相撲を見に行きました。みんなゆっくり相撲を見ました。ごはんを食べたり、お茶を飲んだりしてもよかったです。有名な力士は歌舞伎や物語の主人公になりました。\n\n今、相撲は1年に6回あります。東京で3回、それから大阪と名古屋と福岡です。\n\n相撲はおもしろいスポーツです。いろいろな力士がいます。体が大きい人や小さい人、モンゴルやロシアなどいろいろな国の人もいます。時々、小さい力士が大きい力士に勝ちます。今、外国のテレビでも相撲を見ることができます。それで、日本から外国へ相撲を見に来る人もいます。",
+      "translation_vi": "Bạn đã từng xem sumo chưa? Sumo là một môn thể thao lâu đời của Nhật Bản.\n\nỞ Nhật người ta đã đấu sumo từ khoảng 1.300 năm trước. Mỗi năm một lần vào tháng 7, họ đấu trước mặt thiên hoàng. Sau đó sumo trở thành môn thể thao của võ sĩ samurai. Vì muốn khỏe hơn, các samurai thường luyện sumo. Đến thời Edo, sumo trở thành thể thao chuyên nghiệp. Mỗi năm hai lần, rất nhiều người đi xem và có thể vừa thong thả xem vừa ăn cơm, uống trà. Những lực sĩ nổi tiếng còn trở thành nhân vật chính trong kabuki và truyện.\n\nNgày nay có sáu giải sumo mỗi năm: ba giải ở Tokyo và các giải còn lại tại Osaka, Nagoya và Fukuoka.\n\nSumo là môn thể thao thú vị với nhiều kiểu lực sĩ: người to, người nhỏ và cả người từ Mông Cổ, Nga cùng nhiều nước khác. Đôi khi một lực sĩ nhỏ thắng lực sĩ lớn. Nay người ta có thể xem sumo trên truyền hình nước ngoài, vì vậy cũng có người từ nước ngoài đến Nhật để xem sumo.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 19",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"日本ではいつから相撲を始めましたか。","accepted_answers":["1300年ぐらい前から","約1300年前から"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"いつ相撲はプロスポーツになりましたか。","accepted_answers":["江戸時代","江戸時代に"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"今、相撲は1年に何回見ることができますか。","accepted_answers":["6回","六回"]},
+        {"id":"q4","question_type":"short_answer","question_jp":"外国の人も力士になることができますか。","accepted_answers":["はい","はい、できます","できます"]}
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Reading 20 — 伊能忠敬の一生",
+      "passage_jp": "1745年　千葉県で生まれた。算術が得意だった。\n\n1762年　結婚して、奥さんのうちの名前「伊能」になった。奥さんのうちは酒屋と米屋をしていた。忠敬が来てから、店はとても大きくなった。自分で測量の勉強をした。\n\n1782年　「天明の大飢饉」。米を買って村の人を助けた。\n\n1795年　仕事をやめて、江戸へ行った。江戸で有名な先生に天文学を習った。\n\n1800年　北海道を測量して、地図をかいた。それから日本中を歩いて測量した。\n\n1816年　仕事を終えた。\n\n1818年　亡くなった。\n\n1821年　日本の地図ができた。\n\n1995年　切手の人になった。",
+      "translation_vi": "Năm 1745: sinh tại tỉnh Chiba, giỏi số học.\n\nNăm 1762: kết hôn và lấy họ của gia đình vợ là Inō. Nhà vợ kinh doanh rượu sake và gạo. Sau khi Tadataka đến, cửa hàng trở nên rất lớn. Ông tự học đo đạc.\n\nNăm 1782: trong nạn đói lớn Tenmei, ông mua gạo cứu dân làng.\n\nNăm 1795: nghỉ việc và đến Edo, học thiên văn với một thầy giáo nổi tiếng.\n\nNăm 1800: đo đạc Hokkaido và vẽ bản đồ, sau đó đi bộ khắp Nhật Bản để đo đạc.\n\nNăm 1816: kết thúc công việc.\n\nNăm 1818: qua đời.\n\nNăm 1821: bản đồ Nhật Bản được hoàn thành.\n\nNăm 1995: chân dung ông được in trên tem.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 20",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"この切手はいくらですか。","accepted_answers":["80円","八十円"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"この人はだれですか。","accepted_answers":["伊能忠敬","いのうただたか"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"何歳までうちの仕事をしていましたか。","accepted_answers":["50歳","五十歳"]},
+        {"id":"q4","question_type":"short_answer","question_jp":"仕事をやめてから、どこへ行って、何の勉強を始めましたか。","accepted_answers":["江戸へ行って、天文学の勉強を始めました","江戸、天文学"]},
+        {"id":"q5","question_type":"short_answer","question_jp":"何年までに全部で9回測量に行きましたか。","accepted_answers":["1816年","千八百十六年"]}
+      ]
+    }
+  ]
+}

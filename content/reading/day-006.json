@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-006",
+  "study_day": 6,
+  "items": [
+    {
+      "id": 26,
+      "title": "Reading 26 — 宇宙ステーションの生活はどうですか",
+      "passage_jp": "—宇宙ステーションはどこにあるんですか。\n—地球から400キロ上を飛んでいます。\n—えっ？ ステーションが飛んでいるんですか。\n—はい。90分で1回地球を回っています。1日に16回、朝と夜が来るんですよ。\n—じゃ、寝る時間や起きる時間はどうやってわかるんですか。\n—グリニッジ標準時を使っています。\n—どうして宇宙ステーションの中ではいつも「泳いで」いるんですか。\n—重力がありませんから、歩くことができないんです。\n—いつも宇宙服を着ているんですか。\n—いいえ。宇宙服はステーションの外に出て仕事をするとき着ます。ステーションの中では普通の服を着ています。\n—服は洗濯するんですか。\n—いいえ。宇宙では水が大切ですから、洗濯しません。4、5日着て、捨てます。\n—水も地球から運んでいるんですか。\n—はい。でも、水は重いですから、たくさん運ぶことができません。ですから、わたしたちのおしっこから水を作っています。飲むこともできるんですよ。\n—リサイクルですね。じゃ、おふろは？\n—ありません。もちろんシャワーもありません。代わりに体をふきます。\n—雑誌で読んだんですが、宇宙で生活すると、背が高くなるんですか。\n—はい。宇宙では1、2センチ高くなります。しかし、地球へ帰ったら、前と同じになります。\n—10年宇宙にいたら、どうなるんですか。\n—まだ、わかりません。今、研究しています。",
+      "translation_vi": "—Trạm vũ trụ ở đâu?\n—Nó bay cách Trái Đất 400 km.\n—Trạm đang bay sao?\n—Vâng, cứ 90 phút nó quay quanh Trái Đất một vòng; mỗi ngày có 16 lần ngày và đêm.\n—Vậy làm sao biết giờ ngủ và giờ thức?\n—Chúng tôi dùng Giờ chuẩn Greenwich.\n—Tại sao trong trạm mọi người luôn như đang bơi?\n—Vì không có trọng lực nên không thể đi bộ.\n—Có luôn mặc đồ vũ trụ không?\n—Không. Chỉ mặc khi ra ngoài làm việc; trong trạm mặc quần áo bình thường.\n—Có giặt quần áo không?\n—Không. Nước rất quý nên mặc bốn, năm ngày rồi bỏ.\n—Nước cũng được chở từ Trái Đất lên à?\n—Vâng, nhưng nước nặng nên không thể chở nhiều. Vì vậy chúng tôi làm nước từ nước tiểu và còn có thể uống được.\n—Tái chế nhỉ. Còn bồn tắm?\n—Không có, vòi sen cũng không. Thay vào đó chúng tôi lau người.\n—Tôi đọc rằng sống trong vũ trụ sẽ cao lên, có đúng không?\n—Có, cao thêm một hai xăng-ti-mét, nhưng trở về Trái Đất sẽ như cũ.\n—Nếu ở vũ trụ mười năm thì sao?\n—Chưa biết. Hiện vẫn đang nghiên cứu.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 26",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"宇宙では暗くなったら寝て、明るくなったら起きる。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"ステーションではおふろに入ったり、洗濯したりすることができる。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"ステーションで使う水は全部地球から運んでいる。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"宇宙から帰ると、背が高くなる。","correct_answer":false}
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Reading 27 — 忍者",
+      "passage_jp": "忍者は昔、厳しい訓練をしていた。スポーツの選手と同じだ。とても速く歩いたり、走ったりすることができた。高い壁を登ることや長い時間水の中にいることもできた。目や耳がよくて、遠くの物を見たり、音を聞いたりすることができた。\n\n映画やマンガでは時々おもしろいまちがいがある。忍者が水の上を歩いたり、空を飛んだりしている。でも、実際は無理だ。忍者はとても速く動いたり、いろいろな道具を使ったりした。それで、普通の人ができないことができたのだ。\n\n滋賀県や三重県には昔、忍者が住んでいたうちがある。うちの中にはいろいろおもしろい物がある。部屋の壁の前に立つと、壁が回転して、人が消える。小さい秘密の戸から隣の部屋の中へ入る。忍者のうちは迷路と同じだ。\n\nでも、今、忍者には会えない。残念だ。",
+      "translation_vi": "Ngày xưa ninja trải qua việc rèn luyện khắc nghiệt, giống như vận động viên. Họ có thể đi và chạy rất nhanh, trèo tường cao, ở lâu dưới nước; mắt tai tốt nên có thể nhìn và nghe từ xa.\n\nPhim và truyện tranh đôi khi miêu tả sai một cách thú vị, chẳng hạn ninja đi trên mặt nước hay bay trên trời. Thực tế điều đó là không thể. Ninja di chuyển rất nhanh và dùng nhiều dụng cụ, nhờ vậy làm được những việc người bình thường không thể làm.\n\nỞ tỉnh Shiga và Mie còn có những ngôi nhà ninja xưa. Bên trong có nhiều thiết bị thú vị: đứng trước tường thì tường xoay và người biến mất; một cánh cửa bí mật nhỏ dẫn sang phòng bên. Nhà ninja giống như mê cung.\n\nNhưng ngày nay không thể gặp ninja nữa. Thật đáng tiếc.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 27",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"忍者は厳しい訓練をしました。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"忍者は普通の人より目や耳がよかったです。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"忍者は水の上を歩いたり、空を飛んだりすることができました。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"忍者のうちに今も忍者が住んでいます。","correct_answer":false},
+        {"id":"q5","question_type":"short_answer","question_jp":"忍者はどうして普通の人ができないことができましたか。","accepted_answers":["とても速く動いたり、いろいろな道具を使ったりしたから","速く動いて、道具を使ったから"]},
+        {"id":"q6","question_type":"short_answer","question_jp":"忍者のうちはどうして迷路と同じですか。","accepted_answers":["回転する壁や秘密の戸があるから","壁が回転して、秘密の戸から隣の部屋へ入るから"]}
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Reading 28 — 昼ごはんはどこで？ 何を？",
+      "passage_jp": "昼ごはんについていろいろな人に聞きました。\n\n【中村正さん・会社員】たいてい社員食堂で食べています。安いし、それにメニューを見ると、料理のカロリーがわかるんです。実は去年こちらに転勤して、今一人で住んでいるから、晩ごはんはほとんど外食なんです。ですから、昼ごはんは社員食堂で、栄養やカロリーを考えて、体にいい物を選んで食べています。\n\n【佐藤洋子さん・主婦】うちで一人でテレビを見ながら食べています。きょうはきのうの晩ごはんのすき焼きがありましたから、それを食べました。今、1週間に1回、ダンス教室に通っています。その日は友達と教室の近くのレストランで食べます。わたしはいつも1,500円の日替わりランチです。ちょっと高いけど、おいしいし、静かだし、サービスもいいし……。みんなでおしゃべりしながら食べます。\n\n【チャンさん・日本語学校の学生】いつも学校の近くの弁当屋で弁当を買っています。メニューも多いし、あまり高くないし、それにおかずもごはんも温かいですから。味もまあまあです。日本の食べ物はちょっと甘いですが、もう慣れました。教室で友達と食べます。\n\n【山本健太君・小学校1年生】教室で給食を食べます。みんないっしょに大きい声で「いただきます」と言ってから食べます。先生はいつも「よくかみましょう。嫌いな物も食べましょう」と言います。でも、僕は嫌いなおかずは友達にあげます。給食でカレーがいちばん好きです。",
+      "translation_vi": "Chúng tôi hỏi nhiều người về bữa trưa.\n\n【Nakamura Tadashi, nhân viên công ty】Thường ăn ở căng-tin nhân viên vì rẻ và thực đơn ghi lượng calo. Năm ngoái anh chuyển công tác đến đây và sống một mình nên hầu như tối nào cũng ăn ngoài. Vì vậy bữa trưa ở căng-tin anh cân nhắc dinh dưỡng, calo và chọn món tốt cho sức khỏe.\n\n【Satō Yōko, nội trợ】Thường ăn một mình ở nhà vừa ăn vừa xem tivi. Hôm nay cô ăn sukiyaki còn lại từ tối qua. Mỗi tuần một lần cô học khiêu vũ; hôm đó ăn cùng bạn tại nhà hàng gần lớp, thường gọi suất trưa trong ngày giá 1.500 yên. Hơi đắt nhưng ngon, yên tĩnh, phục vụ tốt và mọi người vừa ăn vừa trò chuyện.\n\n【Chan, học viên trường tiếng Nhật】Luôn mua cơm hộp ở cửa hàng gần trường vì nhiều món, không đắt và cả cơm lẫn thức ăn đều nóng. Vị cũng tạm ổn. Đồ ăn Nhật hơi ngọt nhưng cậu đã quen. Cậu ăn cùng bạn trong lớp.\n\n【Yamamoto Kenta, học sinh lớp Một】Ăn suất trưa của trường trong lớp. Cả lớp cùng nói lớn “Itadakimasu” rồi mới ăn. Giáo viên luôn nhắc nhai kỹ và ăn cả món mình không thích, nhưng Kenta đem món không thích cho bạn. Em thích cà ri nhất.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 28",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"中村さんはどこで昼ごはんを食べますか。何を食べますか。どうしてですか。","accepted_answers":["社員食堂で、栄養やカロリーを考えて体にいい物を食べます。安くてカロリーがわかるからです"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"佐藤さんはどこで昼ごはんを食べますか。何を食べますか。どうしてですか。","accepted_answers":["たいていうちで晩ごはんの残りを食べます。ダンスの日はレストランで日替わりランチを食べます"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"チャンさんはどこで昼ごはんを食べますか。何を食べますか。どうしてですか。","accepted_answers":["教室で弁当を食べます。安くて温かいからです"]},
+        {"id":"q4","question_type":"short_answer","question_jp":"山本健太君はどこで昼ごはんを食べますか。何を食べますか。どうしてですか。","accepted_answers":["教室で給食を食べます。カレーがいちばん好きです"]}
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Reading 29 — わたしの失敗",
+      "passage_jp": "【ライトさん】わたしは先週、友達のうちへ遊びに行きました。大阪駅で来た電車にすぐ乗りました。友達はうちの近くの駅で待っていると言いました。でも、わたしが乗った電車はその駅を通り過ぎてしまいました。それは特急電車でした。京都までどこにも止まりませんでした。わたしはもう一度大阪へ行く電車に乗りました。友達は駅で2時間待っていてくれました。うれしかったです。\n\n【ジョンさん】先週、日本人のうちにホームステイしました。晩ごはんのあとで、お父さんが「おふろ、どうぞ」と言ってくれました。日本のおふろは初めてでした。バスタブは大きくて、お湯がたくさん入っていました。お湯は少し熱かったです。お湯の中でゆっくり体を洗いました。そして、汚れたお湯を全部捨てました。次にお父さんがふろ場へ行きました。「あれ？ お湯が入っていない。」お父さんはびっくりしました。日本のおふろは外で体を洗ってから、中に入るんですね。知りませんでした。\n\n【ミゲルさん】わたしは水曜日の夜、日本人の友達のうちでスペイン語を教えています。先週、友達が「来月スペインへ旅行に行きますから、もっと勉強したいです。土曜日も来ましょうか」と聞きました。彼は「土曜日はいいです」と言いました。土曜日に友達のうちへ行きました。家の電気は消えていました。ベルを押しましたが、返事がありませんでした。日曜日、彼に電話しました。「きのう、あなたのうちへ行きましたよ。」「『土曜日はいいです』と言ったでしょう？」",
+      "translation_vi": "【Light】Tuần trước tôi đi chơi nhà bạn. Tại ga Osaka, tôi lên ngay chuyến tàu vừa đến. Bạn nói sẽ chờ ở ga gần nhà, nhưng tàu tôi lên chạy qua ga đó vì là tàu tốc hành và không dừng đâu cho đến Kyoto. Tôi phải bắt tàu quay lại Osaka. Người bạn đã chờ tôi hai giờ ở ga, khiến tôi rất cảm động.\n\n【John】Tuần trước tôi ở homestay tại một gia đình Nhật. Sau bữa tối, người bố mời tôi tắm. Đây là lần đầu tôi dùng bồn tắm Nhật. Bồn lớn, đầy nước hơi nóng. Tôi thong thả tắm rửa trong bồn rồi xả hết nước bẩn. Khi người bố vào sau và thấy không còn nước, ông rất ngạc nhiên. Hóa ra ở Nhật phải rửa sạch người bên ngoài rồi mới vào bồn. Tôi đã không biết điều đó.\n\n【Miguel】Tối thứ Tư tôi dạy tiếng Tây Ban Nha tại nhà một người bạn Nhật. Tuần trước bạn ấy nói sẽ đi Tây Ban Nha tháng tới và muốn học thêm, rồi hỏi tôi có đến cả thứ Bảy không. Anh ấy trả lời “Thứ Bảy thì thôi/được rồi”. Tôi hiểu là đồng ý nên thứ Bảy đến nhà nhưng đèn tắt, bấm chuông cũng không ai trả lời. Chủ nhật tôi gọi điện; anh ấy nhắc rằng mình đã nói “Thứ Bảy thì thôi”.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 29",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"ライトさんは特急電車に乗ってしまった。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"ライトさんの友達のうちから近い駅は特急が止まる。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"日本のおふろは、バスタブの中で体をきれいに洗って、お湯を捨てる。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"ミゲルさんは「いいです」の意味をまちがえた。","correct_answer":true},
+        {"id":"q5","question_type":"short_answer","question_jp":"ライトさんはどうしてうれしかったのですか。","accepted_answers":["友達が駅で2時間待っていてくれたから"]},
+        {"id":"q6","question_type":"short_answer","question_jp":"ジョンさんがホームステイしたうちのお父さんはどうしてびっくりしましたか。","accepted_answers":["バスタブのお湯が全部捨ててあったから","お湯が入っていなかったから"]},
+        {"id":"q7","question_type":"short_answer","question_jp":"ミゲルさんの友達は土曜日、どうしてうちにいませんでしたか。","accepted_answers":["「土曜日はいいです」は来なくてもいいという意味だったから"]}
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Reading 30 — 日本でいちばん",
+      "passage_jp": "時計がなかったら不便ですが、たくさんあっても大変です。広島県福山市の赤繁さんのうちには時間を音で知らせる時計が560あります。壁に掛ける時計が310、置き時計が210、そのほかの時計が40です。日本でいちばん時計の音がうるさいうちです。560の時計が決まった時間になると、音を出します。\n\nほとんど古い時計で、そのままにしておくと止まってしまいます。毎日ねじを巻かなければなりません。赤繁さんは1日中、時計のねじを巻いていますから、右手がいつも痛いと言っています。もし一度に560の時計が全部鳴ったら、耳も痛くなってしまいますね。でも、みんな古い時計ですから、少しずつ違う時間に鳴ります。ですから、赤繁さんの耳は痛くならないのです。\n\n赤繁さんにちょっと聞きました。\n—どうしてそんなにたくさん時計を集めているんですか。\n—30年前に骨董屋で見つけた時計を修理してから、時計が好きになりました。壊れた時計を直すと動きますね。それが楽しいんです。今も古い時計を見ると買ってしまいます。もう離れの4つの部屋がいっぱいで、押し入れにも積んであります。\n—毎日ねじを巻くんですね。時計の音がうるさくないですか。\n—好きな時計の音ですから、すぐ慣れましたよ。音楽と同じです。\n—将来、時計の博物館を作りたいと思っていますか。\n—ええ。でも今はお金がありませんから……。しばらくこのままにしておきます。",
+      "translation_vi": "Không có đồng hồ thì bất tiện, nhưng có quá nhiều cũng rất vất vả. Nhà ông Akashige ở Fukuyama, Hiroshima có 560 chiếc đồng hồ báo giờ bằng âm thanh: 310 đồng hồ treo tường, 210 đồng hồ để bàn và 40 loại khác. Đây là ngôi nhà có tiếng đồng hồ ồn nhất Nhật Bản.\n\nPhần lớn là đồng hồ cổ, để nguyên sẽ dừng nên ngày nào cũng phải lên dây cót. Ông dành cả ngày lên dây khiến tay phải luôn đau. Nếu 560 chiếc cùng reo một lúc thì tai cũng sẽ đau, nhưng vì đồng hồ cổ chạy lệch nhau một chút nên chúng reo vào những giờ khác nhau.\n\nÔng bắt đầu thích đồng hồ sau khi sửa được một chiếc mua ở cửa hàng đồ cổ ba mươi năm trước. Sửa đồng hồ hỏng rồi thấy nó chạy lại khiến ông vui. Bây giờ cứ thấy đồng hồ cổ là ông mua. Bốn phòng ở nhà phụ đã đầy, tủ cũng chất kín. Ông đã quen với âm thanh yêu thích ấy và thấy nó giống âm nhạc. Ông muốn mở bảo tàng đồng hồ trong tương lai nhưng hiện chưa có tiền nên tạm thời vẫn để nguyên như vậy.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 30",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"赤繁さんはどうして時計を集めているのですか。","options":[{"id":"A","text":"時計があると、便利だから"},{"id":"B","text":"時計の修理が好きだから"},{"id":"C","text":"時計の音を聞きながら寝たいから"}],"correct_option_id":"B"},
+        {"id":"q2","question_type":"mcq","question_jp":"赤繁さんはどうして手が痛いのですか。","options":[{"id":"A","text":"時計を直すから"},{"id":"B","text":"時計のねじを巻いているから"},{"id":"C","text":"骨董屋からうちまで時計を運ぶから"}],"correct_option_id":"B"},
+        {"id":"q3","question_type":"mcq","question_jp":"時計が鳴っても、どうして耳が痛くならないのですか。","options":[{"id":"A","text":"少し音が小さいから"},{"id":"B","text":"時計の音は音楽だから"},{"id":"C","text":"鳴る時間が同じではないから"}],"correct_option_id":"C"}
+      ]
+    }
+  ]
+}

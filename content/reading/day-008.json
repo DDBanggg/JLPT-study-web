@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-008",
+  "study_day": 8,
+  "items": [
+    {
+      "id": 36,
+      "title": "Reading 36 — 動物の目",
+      "passage_jp": "皆さんは動物園へ行ったことがあるでしょう？ 短い足や大きい耳、長い鼻など、動物の体はいろいろです。目の形や位置もいろいろです。どうしてシマウマの目は顔の横にあるのですか。ライオンの目は2つ並んでいるのですか。\n\nライオンはほかの動物の肉を食べます。その目は遠くに動物がいても、すぐ走って行って捕まえられるように、顔の前に2つ並んでいます。2つ並んでいなければ、正しい距離がわかりません。\n\nサルの目も顔の前に並んでいます。サルは木から木へ跳ぶとき、失敗しないようによく前を見なければなりません。\n\nヒトの目も同じです。ヒトは2本の足で歩けるようになって、手が使えるようになりました。それで難しい仕事ができます。\n\n草や木の葉を食べる動物の目はどうですか。シマウマはライオンなどにいつも気をつけていなければなりません。ですから、草を食べていても後ろの方まで見えるように、目が顔の横に付いています。\n\nカバは水の中にいますが、頭の上に目がありますから、目だけ水から出して周りを見ることができます。動物の目は食べる物や住んでいる所によって違うのです。今度動物園へ行ったら、動物の目をよく見てください。おもしろいことが見つかるかもしれませんよ。",
+      "translation_vi": "Bạn từng đi sở thú chưa? Cơ thể động vật có chân ngắn, tai lớn, mũi dài và nhiều hình dạng khác nhau; mắt cũng khác về hình dáng và vị trí.\n\nSư tử ăn thịt động vật khác. Hai mắt nằm cạnh nhau phía trước mặt để xác định đúng khoảng cách, chạy đến và bắt con mồi ở xa. Mắt khỉ cũng ở phía trước để nhìn chính xác khi nhảy từ cây này sang cây khác. Mắt người cũng vậy; nhờ đi bằng hai chân và dùng được tay, con người làm được công việc phức tạp.\n\nCòn động vật ăn cỏ và lá thì sao? Ngựa vằn luôn phải cảnh giác với sư tử, nên mắt nằm hai bên mặt để vừa ăn cỏ vừa nhìn được phía sau. Hà mã có mắt trên đỉnh đầu để chỉ nhô mắt khỏi nước mà vẫn quan sát xung quanh.\n\nMắt động vật khác nhau tùy thức ăn và môi trường sống. Lần tới đi sở thú, hãy quan sát kỹ, bạn có thể phát hiện điều thú vị.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 36",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"ライオンの目はうしろの方まで見えます。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"サルは目が顔の前に2つ並んでいますから、正しい距離がわかります。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"シマウマはうしろからライオンが来ても見えますから、逃げることができます。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"カバの目は、水から目だけ出して周りが見られるように、頭の上にあります。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Reading 37 — 55年かかってゴールインした日本人選手",
+      "passage_jp": "日本は1912年の第5回ストックホルム大会からオリンピックに参加した。日本ではまだオリンピックはほとんど知られていなかった。選手を決めるマラソン大会が開かれて、20歳の学生が2時間32分45秒の記録で勝った。これはそのときの世界記録より27分速かった。学生の名前は金栗四三。\n\n金栗はオリンピック選手に選ばれた。ストックホルムへ行くお金がなかったが、先生や友達がお金を集めてくれた。それで、やっと参加することができた。金栗は1番になるかもしれないと思われていた。しかし、マラソンが行われた7月14日はとても暑い日だった。走っているうちにだんだん気分が悪くなった。水を飲んだり、頭から水を浴びたりしたが、32キロの所で倒れてしまった。近くに住んでいた人が助け、その人のうちに泊まった。次の日、元気になって日本選手のホテルへ帰った。\n\n「消えた日本人」はスウェーデンのニュースになっていた。大会の人も心配したが、金栗は恥ずかしかった。\n\n1967年、75歳の金栗は招待されてストックホルムへ行った。競技場でたくさんの人に迎えられ、みんなの前をゆっくり走ってゴールインした。「ミスター・カナグリ、ニッポン。ゴールイン。時間は55年……。これでストックホルム大会は全部の競技を終わりました。」金栗は「長い道のりでした」と話した。",
+      "translation_vi": "Nhật Bản tham dự Olympic từ kỳ Stockholm lần thứ năm năm 1912, khi Olympic còn gần như chưa được biết đến trong nước. Một cuộc thi marathon được tổ chức để chọn vận động viên; sinh viên 20 tuổi Kanakuri Shizō thắng với 2 giờ 32 phút 45 giây, nhanh hơn kỷ lục thế giới lúc đó 27 phút.\n\nKanakuri được chọn nhưng không có tiền đi Stockholm; thầy giáo và bạn bè góp tiền giúp. Người ta cho rằng anh có thể về nhất. Tuy nhiên ngày thi 14 tháng 7 rất nóng. Anh dần thấy khó chịu, uống nước và dội nước lên đầu nhưng gục ở km 32. Một người sống gần đó giúp và cho anh nghỉ qua đêm. Hôm sau khỏe lại, anh về khách sạn đội Nhật.\n\nTin “người Nhật biến mất” xuất hiện ở Thụy Điển. Ban tổ chức lo lắng còn Kanakuri thì xấu hổ.\n\nNăm 1967, Kanakuri 75 tuổi được mời lại Stockholm. Ông chạy chậm trước mọi người và cán đích. Sân vận động thông báo thời gian là 55 năm và kỳ Stockholm nay mới hoàn tất mọi môn thi. Ông nói đó là một chặng đường dài.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 37",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"1912年ごろ日本ではオリンピックはとても人気があった。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"第5回大会のまえは金栗の記録が世界でいちばん速かった。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"金栗は自分のお金でオリンピックに参加した。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"オリンピックのまえに、金栗は必ずマラソンで勝つと言われていた。","correct_answer":false},
+        {"id":"q5","question_type":"mcq","question_jp":"ゴールインした今、どんな気持ちですか。","options":[{"id":"A","text":"ストックホルム大会のことをいろいろ思い出しています"},{"id":"B","text":"東京のマラソン大会のことをいろいろ思い出しています"}],"correct_option_id":"A"},
+        {"id":"q6","question_type":"mcq","question_jp":"どうして走れなくなったんですか。","options":[{"id":"A","text":"長い距離を走ったから"},{"id":"B","text":"とても暑い日だったから"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Reading 38 — 消したいもの",
+      "passage_jp": "「あなたがいちばん消したいものは何ですか。」鉛筆や消しゴムを作っている会社が日本人1,000人にアンケートをした。いろいろな答えがあった。\n\nいちばん多いのは、男の人も女の人も今までにした恥ずかしいことだった。恥ずかしいことを消したいと思う人は100人以上いた。若い人の例が多い。年を取ると恥ずかしいことがたくさんあって、きっと思い出すのが大変なのだ。\n\n男の人が消したいもので2番目に多いのが銀行や人から借りたお金、3番目が悪い政治家だった。女の人の答えで2番目に消したいのは顔にあるにきびやしみなどで、3番目は体の脂肪だった。学校に通っている子どもたちがいちばん消したいのは学校の成績、次に入学試験、3番目は恥ずかしいことだった。\n\nほかに「今までの人生」「病気」「年」「失恋」などの答えもかなりあった。また、「禁煙の約束」「主人のゴルフの予定」「結婚の約束をした恋人」「嫌いな課長の髪」など、おもしろい答えもいろいろあった。\n\n何でも消せる消しゴムを発明したら、きっとたくさん売れるだろう。でも、気をつけたほうがいい。「嫌いな人」を消したいと思っている人もいる。",
+      "translation_vi": "Một công ty sản xuất bút chì và tẩy hỏi 1.000 người Nhật: “Điều bạn muốn xóa nhất là gì?”. Có nhiều câu trả lời.\n\nPhổ biến nhất ở cả nam lẫn nữ là những chuyện đáng xấu hổ từng làm; hơn một trăm người muốn xóa chúng. Phần lớn ví dụ đến từ người trẻ. Có lẽ khi lớn tuổi, chuyện xấu hổ quá nhiều nên khó nhớ hết.\n\nĐiều đàn ông muốn xóa nhiều thứ hai là tiền vay ngân hàng hay người khác; thứ ba là chính trị gia tồi. Với phụ nữ, thứ hai là mụn và vết nám trên mặt, thứ ba là mỡ cơ thể. Trẻ đang đi học muốn xóa điểm số nhất, tiếp đến kỳ thi đầu vào và thứ ba là chuyện xấu hổ.\n\nCác câu trả lời khác gồm cuộc đời đã qua, bệnh tật, tuổi tác, thất tình; còn có lời hứa bỏ thuốc, lịch chơi golf của chồng, người yêu đã hứa cưới và mái tóc của trưởng phòng đáng ghét.\n\nNếu phát minh cục tẩy xóa được mọi thứ chắc sẽ bán chạy. Nhưng phải cẩn thận, vì có người muốn xóa cả người mình ghét.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 38",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"男の人はお金は要らないと思っている。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"きれいになりたいと思っている女の人が多い。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"子どもはみんな学校の勉強が好きで、成績もいい。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"何でも消せる消しゴムを発明したら、たくさん売れるだろう。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Reading 39 — 万次郎",
+      "passage_jp": "1827年、高知の小さな村に元気な男の子が生まれました。名前は万次郎。父が亡くなったので、万次郎は家族のために働かなければなりませんでした。\n\n1841年、14歳のとき、村の男4人と海へ魚をとりに行きました。強い風で船が流され、遠い南の鳥島という無人島に着き、男5人だけの生活が始まりました。143日後、アメリカの捕鯨船に助けられました。船は航海を続けてハワイに着きました。村の男4人はハワイで降りましたが、万次郎はアメリカへ行きたいと言いました。船長は頭がよく元気な万次郎を気に入り、アメリカへ連れて行きました。\n\n1843年、万次郎のアメリカ生活が始まりました。船長の息子になって学校に通い、英語、数学、造船などを勉強しました。万次郎はアメリカに留学した初めての日本人だと言われています。\n\n学校を出て働いていましたが、国へ帰りたくなり、ハワイにいる村の男といっしょに帰ろうと思いました。当時は江戸時代で、幕府は日本人が国外へ出ることも外国人が日本へ入ることも禁止し、一度出た日本人の帰国も許していませんでした。\n\n1851年、それでも万次郎たちは帰国しました。すぐ捕えられて調べられましたが、1年9か月後に許され、漂流から11年10か月後にやっとうちへ帰れました。\n\n1853年、万次郎の新しい生活が始まりました。幕府から武士の身分と名字をもらい、中浜万次郎になりました。通訳、翻訳、英語の先生、造船の仕事などをして国のために頑張りました。1868年の明治維新で日本は大きく変わり、彼が教えた人たちも新しい日本のために働きました。1898年、亡くなりました。",
+      "translation_vi": "Năm 1827, Manjirō sinh tại một làng nhỏ ở Kōchi. Cha mất nên cậu phải làm việc giúp gia đình.\n\nNăm 1841, lúc 14 tuổi, cậu cùng bốn người làng đi đánh cá. Bão cuốn thuyền đến đảo hoang Torishima, nơi năm người sống 143 ngày trước khi được tàu săn cá voi Mỹ cứu. Bốn người xuống Hawaii, còn Manjirō muốn đến Mỹ. Thuyền trưởng quý cậu bé thông minh, khỏe mạnh và đưa cậu theo.\n\nTừ năm 1843, Manjirō sống ở Mỹ như con trai thuyền trưởng, đi học tiếng Anh, toán, đóng tàu và được xem là người Nhật đầu tiên du học Mỹ.\n\nSau khi tốt nghiệp và làm việc, cậu muốn về nước cùng người làng ở Hawaii. Nhưng thời Edo cấm người Nhật ra nước ngoài, người nước ngoài vào Nhật và cả người đã rời nước quay về.\n\nDù vậy họ về Nhật năm 1851, lập tức bị bắt thẩm vấn. Sau một năm chín tháng mới được tha và phải mất 11 năm 10 tháng kể từ ngày trôi dạt mới về đến nhà.\n\nNăm 1853, Mạc phủ ban cho ông địa vị samurai và họ Naka-hama. Ông làm phiên dịch, dịch thuật, dạy tiếng Anh và đóng tàu để phục vụ đất nước. Sau Minh Trị Duy Tân năm 1868, những người ông dạy cũng góp sức xây dựng nước Nhật mới. Ông mất năm 1898.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 39",
+      "questions": []
+    },
+    {
+      "id": 40,
+      "title": "Reading 40 — 常識",
+      "passage_jp": "わたしのうちに今、ブラジルのアナさんがホームステイしています。アナさんがかぜをひいたとき、母は「シャワーを浴びたり、おふろに入ったりしたらだめよ」と言いました。アナさんは「どうしていけないか、わかりません。病気のときは清潔が大切だし、わたしのうちでは熱が下がるようにシャワーを浴びたり、ぬるいお湯に入ったりします」と言いました。わたしたちはびっくりしました。熱があったり、かぜをひいたりしているときは、おふろに入らないほうがいいと信じていたからです。\n\n学校で友達に聞いてみましたが、みんな「おふろは入らないほうがいいと思う」と言いました。理由は「常識だよ。子どものときからいつも言われたよ」。わたしはどうしてそんな常識ができたか調べました。\n\n昔、日本の家は冬とても寒かったので、おふろの入り方にも習慣がありました。熱いお湯に長く入ると疲れます。体の調子が悪いとき、おふろに入って疲れると病気がひどくなります。それで、かぜや熱のときは入ってはいけないと思うようになりました。今は家の中も暖かく、シャワーもあり、ほとんど問題はありませんが、昔の常識のとおりにしている人が多いのです。\n\n食べ物にも昔から言われていることがあります。「うなぎと梅干し」「すいかと天ぷら」などはいっしょに食べるとおなかをこわすと言われています。医学的に正しいものはほとんどないのですが、多くの人がまだ信じています。\n\n生活が変わっても昔の常識をそのまま信じているのは変です。時々その常識が正しいか、どうしてできたか考えてみたほうがいいでしょう。",
+      "translation_vi": "Ana người Brazil đang ở homestay nhà tôi. Khi cô bị cảm, mẹ tôi bảo không được tắm vòi sen hay ngâm bồn. Ana không hiểu vì sao; ở nhà cô, khi bệnh người ta giữ sạch sẽ và tắm nước ấm để hạ sốt. Chúng tôi ngạc nhiên vì luôn tin rằng bị cảm hay sốt thì không nên tắm.\n\nBạn bè ở trường cũng nói vậy chỉ vì đó là “thường thức” được nghe từ nhỏ. Tôi tìm hiểu nguồn gốc của quan niệm này.\n\nNgày xưa nhà Nhật rất lạnh vào mùa đông. Ngâm nước nóng lâu gây mệt; khi sức khỏe kém, mệt thêm có thể làm bệnh nặng. Vì vậy hình thành quan niệm không tắm khi cảm sốt. Nay nhà ấm và có vòi sen nên hầu như không còn vấn đề, nhưng nhiều người vẫn làm theo thường thức cũ.\n\nVới đồ ăn cũng có những điều truyền miệng như không ăn lươn với mơ muối hay dưa hấu với tempura vì sẽ đau bụng. Hầu hết không có căn cứ y học nhưng nhiều người vẫn tin.\n\nCuộc sống đã thay đổi mà vẫn tin nguyên xi thường thức xưa là điều lạ. Đôi khi nên xem điều ấy có đúng không và vì sao nó hình thành.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 40",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"かぜのときや熱が高いとき、おふろに入らないのは世界中の常識だ。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"熱があるとき、ぬるいおふろに入って、体の熱を下げようと思う人がいる。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"うなぎと梅干しをいっしょに食べても、医学的にはほとんど問題がない。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"生活が変わっても、常識はなかなか変わらない。","correct_answer":true}
+      ]
+    }
+  ]
+}

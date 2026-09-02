@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-002",
+  "study_day": 2,
+  "items": [
+    {
+      "id": 6,
+      "title": "Reading 6 — お花見",
+      "passage_jp": null,
+      "translation_vi": null,
+      "media": [
+        {
+          "id": "hanami-flyer",
+          "type": "image",
+          "src": "/reading/assets/day-002/r006-flyer.png",
+          "alt": "Tờ thông báo chuyến đi ngắm hoa ở núi Yoshino"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 6",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"何曜日ですか。","accepted_answers":["土曜日"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"何をしますか。","accepted_answers":["お花見","お花見をします"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"何時にあべの橋駅で会いますか。","accepted_answers":["午前7時30分","7時30分"]},
+        {"id":"q4","question_type":"short_answer","question_jp":"いくらですか。","accepted_answers":["2550円","2,550円","二千五百五十円"]},
+        {"id":"q5","question_type":"short_answer","question_jp":"お弁当と何を持って行きますか。","accepted_answers":["飲み物"]}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Reading 7 — もらいました・あげました",
+      "passage_jp": "わたしは去年ペルーから日本へ来ました。ワットさんにテレビをもらいました。松本さんに机をもらいました。山田さんにコートをもらいました。会社の人に自転車を借りました。わたしは皆さんにペルーのお土産をあげました。\n\nわたしは来週、国へ帰ります。きょう会社の人に自転車を返しました。友達にテレビと机をあげました。でも、コートをあげませんでした。わたしの身長は165センチです。友達の身長は2メートルです。",
+      "translation_vi": "Năm ngoái tôi từ Peru đến Nhật Bản. Tôi được anh Watt tặng một chiếc tivi, được anh Matsumoto tặng một cái bàn và được anh Yamada tặng một chiếc áo khoác. Tôi mượn xe đạp của một người trong công ty. Tôi tặng mọi người quà lưu niệm của Peru.\n\nTuần sau tôi sẽ về nước. Hôm nay tôi đã trả xe đạp cho người trong công ty. Tôi tặng chiếc tivi và cái bàn cho một người bạn, nhưng không tặng chiếc áo khoác. Tôi cao 165 xăng-ti-mét, còn người bạn của tôi cao 2 mét.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 7",
+      "questions": []
+    },
+    {
+      "id": 8,
+      "title": "Reading 8 — 町の生活・田舎の生活",
+      "passage_jp": "山川さん、お元気ですか。もう12月です。寒いですね。町は今とてもにぎやかです。そして、きれいです。毎日忙しいですが、おもしろいです。お正月にわたしのうちへ来ませんか。いっしょに楽しいお正月のパーティーをしましょう。\n\n12月3日　町田太郎\n\n町田さん、先週はどうもありがとうございました。町の生活はおもしろいですね。そして、便利です。でも、とても忙しいです。食べ物も高いです。町の生活は大変ですね。\n\n田舎の生活はあまり便利じゃありませんが、静かです。そして、とてもきれいです。今度はわたしのうちへ来ませんか。ここの野菜はおいしいですよ。いっしょにごはんを食べましょう。\n\n1月7日　山川健",
+      "translation_vi": "Anh Yamakawa, anh có khỏe không? Đã là tháng 12 rồi. Trời lạnh nhỉ. Thành phố lúc này rất nhộn nhịp và đẹp. Ngày nào tôi cũng bận nhưng cuộc sống rất thú vị. Dịp Tết anh đến nhà tôi nhé? Chúng ta hãy cùng tổ chức một bữa tiệc Tết vui vẻ.\n\nNgày 3 tháng 12 — Machida Tarō\n\nAnh Machida, cảm ơn anh rất nhiều về tuần trước. Cuộc sống ở thành phố thật thú vị và tiện lợi. Tuy nhiên, nó rất bận rộn và đồ ăn cũng đắt. Cuộc sống thành phố vất vả nhỉ.\n\nCuộc sống ở nông thôn không tiện lợi lắm nhưng yên tĩnh và rất đẹp. Lần tới anh đến nhà tôi nhé? Rau ở đây ngon lắm. Chúng ta cùng ăn cơm nhé.\n\nNgày 7 tháng 1 — Yamakawa Ken",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 8",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"山川さんは12月に町田さんに手紙をどうしましたか。","options":[{"id":"A","text":"もらいました"},{"id":"B","text":"あげました"}],"correct_option_id":"A"},
+        {"id":"q2","question_type":"mcq","question_jp":"町田さんはどうですか。","options":[{"id":"A","text":"暇です"},{"id":"B","text":"暇じゃありません"}],"correct_option_id":"B"},
+        {"id":"q3","question_type":"mcq","question_jp":"町の生活はおもしろいですが、どうですか。","options":[{"id":"A","text":"便利じゃありません"},{"id":"B","text":"忙しいです"}],"correct_option_id":"B"},
+        {"id":"q4","question_type":"mcq","question_jp":"田舎の生活はどうですか。","options":[{"id":"A","text":"にぎやかです"},{"id":"B","text":"静かです"}],"correct_option_id":"B"},
+        {"id":"q5","question_type":"mcq","question_jp":"田舎の野菜はどうですか。","options":[{"id":"A","text":"高いです"},{"id":"B","text":"おいしいです"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Reading 9 — 日本が好きです",
+      "passage_jp": "インタビュー\n\nムスヤさんは写真家です。日本の山の写真をたくさん撮りました。\n\n—うちはどちらですか。\n—長野です。長野で日本の古いうちを買いました。畳の部屋はとても便利ですから、好きです。仕事と食事を同じ部屋でします。そして、同じ部屋で寝ます。\n\n—ムスヤさんの国はタンザニアですね。\n—ええ、とても暑い国です。大きいこたつを買いました。でも、わたしは長野の冬が好きです。山がとてもきれいです。\n\n—奥さんは日本の方ですね。どんな方ですか。\n—妻はいつも元気です。そして、料理が上手です。毎日おいしい料理を食べますから、わたしも元気です。\n\n—日本の生活はどうですか。\n—日本の生活はおもしろいです。わたしは日本がとても好きです。\n\n—ありがとうございました。",
+      "translation_vi": "Phỏng vấn\n\nAnh Musuya là nhiếp ảnh gia. Anh đã chụp rất nhiều ảnh núi non Nhật Bản.\n\n—Nhà anh ở đâu?\n—Ở Nagano. Tôi đã mua một ngôi nhà cổ của Nhật ở Nagano. Tôi thích phòng trải chiếu tatami vì nó rất tiện. Tôi làm việc và ăn uống trong cùng một phòng, rồi cũng ngủ trong phòng ấy.\n\n—Quê hương của anh là Tanzania phải không?\n—Vâng, đó là một đất nước rất nóng. Tôi đã mua một chiếc kotatsu lớn. Nhưng tôi thích mùa đông ở Nagano. Núi non rất đẹp.\n\n—Vợ anh là người Nhật nhỉ. Cô ấy là người thế nào?\n—Vợ tôi lúc nào cũng khỏe khoắn và nấu ăn giỏi. Ngày nào tôi cũng được ăn món ngon nên tôi cũng khỏe.\n\n—Cuộc sống ở Nhật thế nào?\n—Cuộc sống ở Nhật rất thú vị. Tôi rất thích Nhật Bản.\n\n—Xin cảm ơn.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 9",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"ムスヤさんのうちは長野です。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"ムスヤさんはこたつがあります。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"ムスヤさんは長野の冬が嫌いです。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"ムスヤさんの奥さんは料理があまり上手じゃありません。","correct_answer":false},
+        {"id":"q5","question_type":"short_answer","question_jp":"ムスヤさんはどうして畳の部屋が好きですか。","accepted_answers":["とても便利ですから","便利ですから"]},
+        {"id":"q6","question_type":"short_answer","question_jp":"ムスヤさんはどうしていつも元気ですか。","accepted_answers":["毎日おいしい料理を食べますから","奥さんの料理がおいしいですから"]}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Reading 10 — 美術館",
+      "passage_jp": "きのう、友達と「みんなの美術館」へ行きました。おもしろい絵がたくさんありました。\n\n1. 窓の近くに男の人と女の人がいます。女の人の後ろに地図があります。ヨーロッパの地図です。\n\n2. 絵の真ん中に町があります。町の左に男の人が、右に女の人がいます。町の右の上に木があります。木の中に男の人と女の人がいます。この女の人は男の人の奥さんです。\n\n3. テーブルの上に果物やナイフやグラスがあります。でも、ワインはありません。\n\n4. ピアノの上に花があります。ピアノの前に女の人がいます。女の人のそばに猫がいます。猫は目がありますが、女の人は目がありません。\n\n5. 高い山があります。山の上に白い雲があります。山と山の間に川があります。川の近くに桜がたくさんあります。",
+      "translation_vi": "Hôm qua tôi đã đến “Bảo tàng mỹ thuật Minna” cùng một người bạn. Ở đó có rất nhiều bức tranh thú vị.\n\n1. Gần cửa sổ có một người đàn ông và một người phụ nữ. Phía sau người phụ nữ có một tấm bản đồ châu Âu.\n\n2. Giữa bức tranh có một thị trấn. Bên trái thị trấn có một người đàn ông, bên phải có một người phụ nữ. Phía trên bên phải thị trấn có một cái cây; trong cây có một người đàn ông và một người phụ nữ. Người phụ nữ này là vợ của người đàn ông.\n\n3. Trên bàn có trái cây, dao và ly, nhưng không có rượu vang.\n\n4. Trên đàn piano có hoa. Trước đàn piano có một người phụ nữ và bên cạnh cô ấy có một con mèo. Con mèo có mắt nhưng người phụ nữ không có mắt.\n\n5. Có những ngọn núi cao, phía trên núi là mây trắng. Giữa hai ngọn núi có một con sông và gần sông có rất nhiều cây anh đào.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 10",
+      "questions": []
+    }
+  ]
+}

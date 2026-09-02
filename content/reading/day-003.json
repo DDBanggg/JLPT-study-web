@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-003",
+  "study_day": 3,
+  "items": [
+    {
+      "id": 11,
+      "title": "Reading 11 — お祭り",
+      "passage_jp": "先週、佐藤さんのうちで1週間ホームステイをしました。佐藤さんの家族は4人です。お父さんとお母さんと健太ちゃんと妹のみきちゃんです。\n\n佐藤さんのうちの近くに大きい神社があります。神社の夏祭りはとても有名です。わたしは佐藤さんの家族といっしょに行きました。\n\n神社にいろいろなゲームの店や食べ物の店がありました。健太ちゃんはゲームを3回しました。そして、おもちゃの車をもらいました。わたしはお祭りのTシャツを買いました。それから、たこ焼きを食べました。健太ちゃんは6つ、みきちゃんは4つ、わたしは8つ食べました。お父さんはお好み焼きを2枚食べました。\n\nそれから、おみこしを見ました。お祭りの舞台の上にきれいな女の人が1人と男の人が4人いました。わたしは写真をたくさん撮りました。日本のお祭りはおもしろいです。そして、にぎやかです。",
+      "translation_vi": "Tuần trước tôi đã ở homestay một tuần tại nhà gia đình Satō. Gia đình Satō có bốn người: bố, mẹ, bé Kenta và em gái Miki.\n\nGần nhà Satō có một ngôi đền lớn. Lễ hội mùa hè của ngôi đền rất nổi tiếng. Tôi đã đi cùng gia đình Satō.\n\nTrong đền có nhiều quầy trò chơi và quầy đồ ăn. Kenta chơi trò chơi ba lần và nhận được một chiếc ô tô đồ chơi. Tôi mua một chiếc áo phông của lễ hội rồi ăn takoyaki. Kenta ăn sáu viên, Miki ăn bốn viên, còn tôi ăn tám viên. Bố ăn hai chiếc okonomiyaki.\n\nSau đó chúng tôi xem kiệu mikoshi. Trên sân khấu lễ hội có một phụ nữ xinh đẹp và bốn người đàn ông. Tôi đã chụp rất nhiều ảnh. Lễ hội Nhật Bản thật thú vị và náo nhiệt.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 11",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"わたしは一人でお祭りへ行きました。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"健太ちゃんはゲームを1回だけしました。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"お父さんはたこ焼きを食べませんでした。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"舞台の上に5人いました。","correct_answer":true},
+        {"id":"q5","question_type":"short_answer","question_jp":"健太ちゃんはおもちゃの何をもらいましたか。","accepted_answers":["車","おもちゃの車"]},
+        {"id":"q6","question_type":"short_answer","question_jp":"みきちゃんはたこ焼きをいくつ食べましたか。","accepted_answers":["4つ","四つ"]},
+        {"id":"q7","question_type":"short_answer","question_jp":"お父さんはお好み焼きを何枚食べましたか。","accepted_answers":["2枚","二枚"]},
+        {"id":"q8","question_type":"short_answer","question_jp":"舞台の上に女の人が何人いましたか。","accepted_answers":["1人","一人"]}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Reading 12 — 沖縄旅行",
+      "passage_jp": "わたしはことしの3月に初めて沖縄へ行きました。沖縄は九州の南にあります。大阪から船で行きました。38時間かかりました。それから1週間旅行しました。毎日いい天気でしたが、少し暑かったです。\n\nいろいろな所へ行きました。那覇は沖縄でいちばん大きい町です。旅行者がとても多かったです。台湾や東南アジアの人もたくさんいました。店に珍しい物がたくさんありました。\n\n海はほんとうにすばらしかったです。海にはきれいな魚がたくさんいました。\n\n時々沖縄のことばがわかりませんでしたが、人は親切でした。沖縄の料理はおいしかったです。それに沖縄の音楽もすてきでした。\n\n沖縄旅行はとても楽しかったです。わたしは沖縄が大好きです。",
+      "translation_vi": "Tháng 3 năm nay, lần đầu tiên tôi đến Okinawa. Okinawa nằm ở phía nam Kyushu. Tôi đi tàu thủy từ Osaka, mất 38 giờ, rồi du lịch trong một tuần. Ngày nào thời tiết cũng đẹp nhưng hơi nóng.\n\nTôi đã đi nhiều nơi. Naha là thành phố lớn nhất Okinawa và có rất đông khách du lịch. Cũng có nhiều người từ Đài Loan và Đông Nam Á. Trong các cửa hàng có nhiều món đồ lạ.\n\nBiển thật sự tuyệt vời, trong biển có rất nhiều cá đẹp.\n\nĐôi khi tôi không hiểu tiếng địa phương Okinawa nhưng mọi người rất tử tế. Đồ ăn Okinawa ngon và âm nhạc Okinawa cũng rất hay.\n\nChuyến đi Okinawa rất vui. Tôi rất yêu Okinawa.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 12",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"大阪から沖縄まで船で3日ぐらいです。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"沖縄の3月は涼しいです。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"那覇はとてもにぎやかな町です。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"沖縄の海はあまりきれいじゃありません。","correct_answer":false},
+        {"id":"q5","question_type":"true_false","question_jp":"旅行はとてもよかったです。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Reading 13 — 宝くじ",
+      "passage_jp": "宝くじが当たりました。3億円です。信じられません。仕事をやめます。そして、いろいろな所へ遊びに行きたいです。うちや車が欲しいです。\n\n朝の9時に銀行へ3億円をもらいに行きました。机の上に新しい一万円札が3万枚ありました。銀行員は機械で数えました。わたしは自分で数えたかったですから、手で数えました。1枚、2枚、3枚……。とても疲れましたから、ちょっと休みました。銀行の隣のレストランへ食事に行きました。そして、また数えました。5時までかかりました。\n\nそれから警官といっしょにうちへ帰りました。3万枚の一万円札はとても重かったです。3億円ありますから、警官に100万円あげました。\n\n「ありがとうございます。あなたはいい人ですね。あなたは……」\n\n「あなた、あなた、7時ですよ。」妻の声でした。夢は終わりました。朝です。楽しい夢でした。今晩も同じ夢を見たいです。",
+      "translation_vi": "Tôi trúng xổ số, được 300 triệu yên. Thật không thể tin nổi. Tôi sẽ nghỉ việc và muốn đi chơi nhiều nơi. Tôi muốn có nhà và ô tô.\n\nChín giờ sáng tôi đến ngân hàng nhận 300 triệu yên. Trên bàn có ba mươi nghìn tờ tiền 10.000 yên mới. Nhân viên ngân hàng đếm bằng máy. Vì muốn tự đếm nên tôi đếm bằng tay: một tờ, hai tờ, ba tờ… Tôi rất mệt nên nghỉ một lúc, sang nhà hàng cạnh ngân hàng ăn rồi lại tiếp tục đếm. Đến 5 giờ mới xong.\n\nSau đó tôi về nhà cùng một cảnh sát. Ba mươi nghìn tờ 10.000 yên rất nặng. Vì có 300 triệu yên nên tôi tặng người cảnh sát một triệu yên.\n\n“Cảm ơn. Anh đúng là người tốt. Anh…”\n\n“Anh ơi, anh ơi, 7 giờ rồi.” Đó là giọng vợ tôi. Giấc mơ đã kết thúc. Trời đã sáng. Đó là một giấc mơ vui. Tối nay tôi cũng muốn mơ lại giấc mơ ấy.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 13",
+      "questions": []
+    },
+    {
+      "id": 14,
+      "title": "Reading 14 — ビデオレター",
+      "passage_jp": "マナさんからビデオレターをもらいました。マナさんは今、大阪を旅行しています。\n\n「皆さん、こんにちは。お元気ですか。大阪はとてもにぎやかです。今、心斎橋にいます。大阪でいちばんにぎやかな所です。橋の上で男の人がギターを弾いています。外国人もいます。音楽は世界のことばですね。\n\n道頓堀へ来ました。ここは有名なグリコの看板の前です。人がたくさん待っています。初めてたこ焼きを食べました。熱かったですが、とてもおいしかったです。\n\n今、通天閣から大阪の町を見ています。あれは大阪城公園です。広いです。子どもが遊んでいます。木の下で男の人が寝ています。女の人が犬と散歩しています。\n\nこれから大阪城を見に行きます。じゃ、またビデオレターを送ります。」",
+      "translation_vi": "Tôi nhận được một video thư từ Mana. Hiện giờ Mana đang du lịch Osaka.\n\n“Chào mọi người. Mọi người khỏe không? Osaka rất náo nhiệt. Bây giờ tôi đang ở Shinsaibashi, nơi nhộn nhịp nhất Osaka. Trên cầu có một người đàn ông đang chơi guitar. Cũng có người nước ngoài. Âm nhạc đúng là ngôn ngữ của thế giới nhỉ.\n\nTôi đã đến Dōtonbori. Đây là phía trước tấm biển Glico nổi tiếng. Có rất nhiều người đang chờ. Lần đầu tiên tôi ăn takoyaki. Nó nóng nhưng rất ngon.\n\nBây giờ tôi đang ngắm thành phố Osaka từ Tsūtenkaku. Kia là công viên thành Osaka. Công viên rất rộng. Trẻ em đang chơi, một người đàn ông đang ngủ dưới gốc cây và một người phụ nữ đang dắt chó đi dạo.\n\nSau đây tôi sẽ đi xem thành Osaka. Hẹn gặp lại, tôi sẽ gửi thêm video thư.”",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 14",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"マナさんはだれにビデオレターを送りましたか。","accepted_answers":["わたし","みんな"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"男の人はどこでギターを弾いていますか。","accepted_answers":["橋の上","心斎橋の橋の上"]},
+        {"id":"q3","question_type":"short_answer","question_jp":"たこ焼きはどうでしたか。","accepted_answers":["熱かったですが、とてもおいしかったです","熱くておいしかったです"]},
+        {"id":"q4","question_type":"short_answer","question_jp":"女の人は大阪城公園で何をしていますか。","accepted_answers":["犬と散歩しています","犬を散歩させています"]},
+        {"id":"q5","question_type":"short_answer","question_jp":"マナさんはこれから何をしますか。","accepted_answers":["大阪城を見に行きます","大阪城を見ます"]}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Reading 15 — 高校",
+      "passage_jp": "日本では小学校と中学校の9年間は義務教育です。高校は義務教育ではありませんが、97パーセント以上が高校へ行きます。3年勉強します。高校生の50パーセントぐらいが大学へ行きます。\n\nわたしは去年高校を出ました。わたしの高校は制服がありません。髪型も自由です。クラブがたくさんあります。わたしはサッカーをしていました。アルバイトもしました。高校生活は楽しかったです。\n\nわたしの妹は今、女の生徒だけの高校へ行っています。規則がたくさんあります。髪を染めてはいけません。ピアスや化粧をしてはいけません。制服の形を変えてはいけません。アルバイトをしてはいけません。\n\n兄のうちの人は定時制高校へ行っています。昼、パン屋で働いていますから、夜勉強しています。だいたい午後5時半から9時半までです。4年勉強します。定時制高校にはいろいろな生徒がいます。髪型や化粧などの規則はありません。時々、生徒より先生のほうが若いです。今、定時制高校はとても少ないです。",
+      "translation_vi": "Ở Nhật Bản, chín năm tiểu học và trung học cơ sở là giáo dục bắt buộc. Trung học phổ thông không thuộc giáo dục bắt buộc nhưng hơn 97% học sinh vẫn học lên cấp này trong ba năm. Khoảng 50% học sinh trung học phổ thông học tiếp đại học.\n\nNăm ngoái tôi tốt nghiệp trung học phổ thông. Trường tôi không có đồng phục và kiểu tóc cũng tự do. Trường có nhiều câu lạc bộ; tôi đã chơi bóng đá và cũng đi làm thêm. Cuộc sống cấp ba rất vui.\n\nEm gái tôi hiện học ở một trường chỉ dành cho nữ sinh. Trường có nhiều nội quy: không được nhuộm tóc, đeo khuyên tai hay trang điểm, không được sửa kiểu đồng phục và không được đi làm thêm.\n\nMột người trong gia đình anh tôi học trường trung học phổ thông hệ buổi tối. Ban ngày người ấy làm ở tiệm bánh mì nên học vào buổi tối, khoảng từ 5 giờ 30 đến 9 giờ 30, trong bốn năm. Trường buổi tối có nhiều loại học sinh và không có quy định về kiểu tóc hay trang điểm. Đôi khi giáo viên còn trẻ hơn học sinh. Hiện nay loại trường này rất ít.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 15",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"妹の高校の生徒は髪を染めてはいけません。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"わたしの高校の生徒はアルバイトをしてもいいです。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"定時制高校には制服があります。","correct_answer":false}
+      ]
+    }
+  ]
+}

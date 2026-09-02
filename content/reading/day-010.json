@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-010",
+  "study_day": 10,
+  "items": [
+    {
+      "id": 46,
+      "title": "Reading 46 — 長靴",
+      "passage_jp": "僕は3歳のとき、パトカーに乗ったことがあります。冬のある日の午後でした。友達の健ちゃんの家へ遊びに行こうと思いました。母は弟の世話で忙しそうでしたから、僕は「健ちゃんのうちへ行く」と言って、一人で出かけました。お古の長靴をはいていました。いとこが大きくなって、はけなくなったので、くれたのです。もらったばかりで、うれしかったのをよく覚えています。\n\n健ちゃんのうちは隣の団地の4階でした。同じ建物が4つあり、建物の入り口も4つありました。僕は何回も遊びに行ったことがあるのに、どれかよくわかりませんでした。「2つ目の入り口のはずだ」と思って、4階まで頑張って上りました。\n\nドアをノックしましたが、ドアを開けた女の人は全然知らない人でした。「健ちゃんと遊ぶ」と言いましたが、その人は健ちゃんを知りませんでした。ここへ引っ越ししたばかりだったのです。\n\n名前を聞かれたので、「みのる」と答えました。家はどこか、父の名前は何か聞かれましたが、僕は答えられませんでした。女の人は僕の服や長靴を調べて、長靴の中にいとこの名前が書いてあるのを見つけました。でも、その名前は僕が言ったのと違うし、住所もないので、女の人は僕を近くの交番へ連れて行きました。\n\n警官が名前とうちを聞きました。僕は名前を教えましたが、警官も長靴の名前を見て、信じてくれませんでした。僕はパトカーで警察署へ連れて行かれました。ほかの警官がまた同じ質問をしましたが、僕はもう何も答えませんでした。\n\n5時ごろ、やっと両親が来ました。僕はテレビを見ながら、警官がくれたパンを食べているところでした。両親の顔を見て、大きな声で泣いてしまいました。\n\n母は僕が健ちゃんのうちにいると思っていましたが、健ちゃんのお母さんは僕が来なかったと言いました。それで、警察に連絡したのです。両親は警官にしかられました。僕はそれからしばらく、パトカーに乗ったことが自慢でした。",
+      "translation_vi": "Khi ba tuổi, tôi từng được ngồi xe cảnh sát. Một buổi chiều mùa đông, thấy mẹ bận chăm em, tôi tự đi đến nhà Ken-chan trong khu chung cư bên cạnh. Tôi mang đôi ủng cũ mà anh họ đã cho vì không còn đi vừa.\n\nCác tòa nhà và lối vào giống nhau nên dù từng đến nhiều lần, tôi vẫn không nhận ra đúng chỗ. Tôi đoán lối thứ hai, leo lên tầng bốn rồi gõ cửa, nhưng người phụ nữ mở cửa hoàn toàn xa lạ và không biết Ken-chan vì bà mới chuyển đến.\n\nTôi chỉ nói được tên mình, không trả lời được nhà ở đâu hay tên cha. Người phụ nữ tìm thấy tên anh họ viết trong ủng; tên ấy khác tên tôi và không có địa chỉ nên bà đưa tôi đến đồn cảnh sát gần đó. Cảnh sát cũng không tin vì cái tên trong ủng, rồi đưa tôi bằng xe tuần tra đến sở cảnh sát. Khi một cảnh sát khác hỏi lại những câu giống hệt, tôi không trả lời nữa.\n\nKhoảng năm giờ, cha mẹ mới đến. Vừa thấy họ, tôi òa khóc. Mẹ tưởng tôi đang ở nhà Ken-chan, nhưng mẹ Ken-chan nói tôi không đến nên họ đã báo cảnh sát. Cha mẹ bị cảnh sát mắng. Sau đó một thời gian, chuyện từng được ngồi xe cảnh sát lại trở thành niềm tự hào của tôi.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 46",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "mcq",
+          "question_jp": "長靴をはいて出かけるところ",
+          "options": [
+            {
+              "id": "A",
+              "image_src": "/reading/assets/day-010/r046-option-a.png"
+            },
+            {
+              "id": "B",
+              "image_src": "/reading/assets/day-010/r046-option-b.png"
+            },
+            {
+              "id": "C",
+              "image_src": "/reading/assets/day-010/r046-option-c.png"
+            },
+            {
+              "id": "D",
+              "image_src": "/reading/assets/day-010/r046-option-d.png"
+            },
+            {
+              "id": "E",
+              "image_src": "/reading/assets/day-010/r046-option-e.png"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "q2",
+          "question_type": "mcq",
+          "question_jp": "知らない女の人に会ったとき",
+          "options": [
+            {
+              "id": "A",
+              "image_src": "/reading/assets/day-010/r046-option-a.png"
+            },
+            {
+              "id": "B",
+              "image_src": "/reading/assets/day-010/r046-option-b.png"
+            },
+            {
+              "id": "C",
+              "image_src": "/reading/assets/day-010/r046-option-c.png"
+            },
+            {
+              "id": "D",
+              "image_src": "/reading/assets/day-010/r046-option-d.png"
+            },
+            {
+              "id": "E",
+              "image_src": "/reading/assets/day-010/r046-option-e.png"
+            }
+          ],
+          "correct_option_id": "E"
+        },
+        {
+          "id": "q3",
+          "question_type": "mcq",
+          "question_jp": "パトカーに乗っているところ",
+          "options": [
+            {
+              "id": "A",
+              "image_src": "/reading/assets/day-010/r046-option-a.png"
+            },
+            {
+              "id": "B",
+              "image_src": "/reading/assets/day-010/r046-option-b.png"
+            },
+            {
+              "id": "C",
+              "image_src": "/reading/assets/day-010/r046-option-c.png"
+            },
+            {
+              "id": "D",
+              "image_src": "/reading/assets/day-010/r046-option-d.png"
+            },
+            {
+              "id": "E",
+              "image_src": "/reading/assets/day-010/r046-option-e.png"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "q4",
+          "question_type": "mcq",
+          "question_jp": "警察署で名前を聞かれたとき",
+          "options": [
+            {
+              "id": "A",
+              "image_src": "/reading/assets/day-010/r046-option-a.png"
+            },
+            {
+              "id": "B",
+              "image_src": "/reading/assets/day-010/r046-option-b.png"
+            },
+            {
+              "id": "C",
+              "image_src": "/reading/assets/day-010/r046-option-c.png"
+            },
+            {
+              "id": "D",
+              "image_src": "/reading/assets/day-010/r046-option-d.png"
+            },
+            {
+              "id": "E",
+              "image_src": "/reading/assets/day-010/r046-option-e.png"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "q5",
+          "question_type": "mcq",
+          "question_jp": "両親が迎えに来たとき",
+          "options": [
+            {
+              "id": "A",
+              "image_src": "/reading/assets/day-010/r046-option-a.png"
+            },
+            {
+              "id": "B",
+              "image_src": "/reading/assets/day-010/r046-option-b.png"
+            },
+            {
+              "id": "C",
+              "image_src": "/reading/assets/day-010/r046-option-c.png"
+            },
+            {
+              "id": "D",
+              "image_src": "/reading/assets/day-010/r046-option-d.png"
+            },
+            {
+              "id": "E",
+              "image_src": "/reading/assets/day-010/r046-option-e.png"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "q6",
+          "question_type": "short_answer",
+          "question_jp": "どうして長靴にいとこの名前が書いてあったのですか。",
+          "accepted_answers": [
+            "いとこが大きくなってはけなくなった長靴をくれたから",
+            "いとこにもらった長靴だったから"
+          ]
+        },
+        {
+          "id": "q7",
+          "question_type": "short_answer",
+          "question_jp": "どうして「僕」は警察署で質問されても、答えませんでしたか。",
+          "accepted_answers": [
+            "ほかの警官がまた同じ質問をしたから",
+            "同じ質問を何度もされたから"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Reading 47 — 空を飛ぶ自動車",
+      "passage_jp": "空を飛ぶ自動車が欲しいと思ったことはありませんか。マンガや映画の中で見たことがある人もいるでしょう。\n\n実は、アメリカのある会社がほんとうに空を飛べる車（スカイカー）を作って、売っているのです。この会社が2012年に発表したスカイカーは、空に上がるとき762メートルの滑走路が必要です。値段は2,300万円でしたが、100人が予約をしたそうです。\n\nそして、次の年にこの会社は垂直に飛べるスカイカーを作っていると発表しました。道が込んでいたら、すぐ空へ上がって、すいている場所まで飛ぶことができるそうです。交通の規則など、まだいろいろ問題があるようですが、実際に運転できるようになったら、おもしろいですね。\n\n車の名前：TF-X。乗れる人：4人。いちばん速い速度：322 km/h。飛べる距離：805 km。燃料：ガソリンと電気。",
+      "translation_vi": "Bạn từng muốn có ô tô bay chưa? Có lẽ nhiều người đã thấy nó trong truyện tranh hay phim.\n\nThực tế, một công ty Mỹ đã chế tạo và bán xe bay, gọi là skycar. Mẫu công bố năm 2012 cần đường băng dài 762 mét để cất cánh. Giá là 23 triệu yên nhưng nghe nói đã có 100 người đặt mua.\n\nNăm sau, công ty thông báo đang chế tạo mẫu có thể cất cánh thẳng đứng. Khi đường đông, xe có thể bay lên ngay và đi đến nơi đường thoáng. Vẫn còn nhiều vấn đề như luật giao thông, nhưng nếu thật sự lái được thì rất thú vị.\n\nTF-X chở bốn người, tốc độ tối đa 322 km/h, tầm bay 805 km và dùng xăng cùng điện.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 47",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "true_false",
+          "question_jp": "スカイカーは飛行機と同じだ。",
+          "correct_answer": false
+        },
+        {
+          "id": "q2",
+          "question_type": "true_false",
+          "question_jp": "今、アメリカでスカイカーが買える。",
+          "correct_answer": true
+        },
+        {
+          "id": "q3",
+          "question_type": "true_false",
+          "question_jp": "2012年に発表されたスカイカーは、道が込んでいたら、すぐ空に上がって飛べる。",
+          "correct_answer": false
+        },
+        {
+          "id": "q4",
+          "question_type": "short_answer",
+          "question_jp": "TF-Xには何人乗れますか。",
+          "accepted_answers": [
+            "4人",
+            "四人"
+          ]
+        },
+        {
+          "id": "q5",
+          "question_type": "short_answer",
+          "question_jp": "TF-Xはいちばん速いとき、1時間に何キロ進みますか。",
+          "accepted_answers": [
+            "322キロ",
+            "322 km",
+            "322km"
+          ]
+        },
+        {
+          "id": "q6",
+          "question_type": "short_answer",
+          "question_jp": "TF-Xは一度に何キロ飛べますか。",
+          "accepted_answers": [
+            "805キロ",
+            "805 km",
+            "805km"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Reading 48 — 竹取物語",
+      "passage_jp": "昔、竹取のおじいさんがいました。毎日山から竹を取って来て、いろいろな物を作って売っていました。ある日、おじいさんは不思議な光を出している竹を見つけて切りました。中には小さな、かわいい女の子がいました。子どもがいないおじいさんとおばあさんはとても喜び、その子を「かぐや姫」と呼んで、大切に育てました。かぐや姫はどんどん大きくなって、とてもきれいになりました。\n\n美しいかぐや姫のことを聞いて、男たちが結婚を申し込みに来ました。しかし、かぐや姫は結婚したくありませんでした。五人の男があきらめなかったので、「わたしがお願いした物を探して来た人と結婚します」と言い、男たちを遠い国へ行かせました。頼んだ物はとても珍しく、探すのが大変でした。\n\n一人はインドへ仏の石の鉢を探しに行きました。一人は東の海へ行って、宝石でできた木の枝を取って来なければなりませんでした。一人は絶対に燃えないねずみの皮の着物を探しに中国へ行きました。一人は竜の首にある玉、もう一人はつばめが持っている玉を取って来なければなりませんでした。しかし、だれもかぐや姫が頼んだ物を持って来ることができませんでした。無理をして病気になった男や、死んでしまった男もいました。\n\n天皇もかぐや姫のことを聞き、会いに来ました。何度も気持ちを伝えましたが、「はい」と言わせることはできませんでした。\n\nそれから三年が過ぎ、夏になりました。かぐや姫は毎晩、月を見て泣くようになりました。「わたしはこの世界の者ではありません。月の世界から来たのです。次の満月の晩に月へ帰らなければなりません。それで、とても悲しいのです」と言いました。\n\n驚いたおじいさんは天皇に、かぐや姫を帰らせないでほしいとお願いしました。満月の夜、天皇はたくさんの兵隊に家を守らせました。しかし夜中、家の周りが不思議な光で明るくなり、兵隊たちは何も見えなくなりました。月から車が迎えに来て、かぐや姫を乗せて空へ飛んで行きました。\n\n帰るとき、かぐや姫はおじいさんたちに贈り物をしました。手紙と不死の薬です。おじいさんとおばあさんは悲しんで薬を飲まず、死んでしまいました。天皇も、かぐや姫がいない世界で長く生きても意味がないと思い、高い山の上で薬を焼かせました。それから、その山は「不死の山」から「富士の山」、そして「富士山」という名前になったのです。",
+      "translation_vi": "Ngày xưa có ông lão đốn tre. Một hôm, ông cắt cây tre phát sáng và thấy bên trong một bé gái nhỏ xinh. Hai ông bà không có con rất vui, đặt tên cô là công chúa Kaguya và nuôi nấng hết lòng. Cô lớn rất nhanh và trở nên vô cùng xinh đẹp.\n\nNhiều chàng trai đến cầu hôn nhưng cô không muốn lấy chồng. Với năm người không chịu bỏ cuộc, cô hứa lấy người tìm được vật quý hiếm mà mình yêu cầu rồi sai họ đi các vùng xa. Không ai mang đúng vật về; có người còn lâm bệnh hoặc chết vì cố làm điều không thể. Thiên hoàng cũng bày tỏ tình cảm nhiều lần nhưng không được cô đồng ý.\n\nBa năm sau, Kaguya đêm nào cũng nhìn trăng và khóc. Cô thú nhận mình đến từ Mặt Trăng và phải trở về vào đêm trăng tròn kế tiếp. Thiên hoàng cho binh lính canh nhà, nhưng ánh sáng kỳ lạ khiến họ không nhìn thấy gì; xe từ Mặt Trăng đưa cô bay đi.\n\nKaguya để lại thư và thuốc bất tử. Hai ông bà đau buồn không uống thuốc rồi qua đời. Thiên hoàng cũng cho rằng sống lâu trong thế giới không có Kaguya là vô nghĩa nên sai đốt thuốc trên núi cao. Chuyện kể tên núi dần đổi từ “núi bất tử” thành núi Phú Sĩ.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 48",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "mcq",
+          "question_jp": "かぐや姫は地球の人でしたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい"
+            },
+            {
+              "id": "B",
+              "text": "いいえ"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "q2",
+          "question_type": "mcq",
+          "question_jp": "かぐや姫は男たちに何をさせましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "珍しい物を探しに行く"
+            },
+            {
+              "id": "B",
+              "text": "結婚の準備をする"
+            },
+            {
+              "id": "C",
+              "text": "月へ帰る車を作る"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "q3",
+          "question_type": "mcq",
+          "question_jp": "かぐや姫は天皇と結婚したいと思いましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "はい"
+            },
+            {
+              "id": "B",
+              "text": "いいえ"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "q4",
+          "question_type": "mcq",
+          "question_jp": "どうしてかぐや姫は月を見て悲しそうでしたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "月が嫌いだから"
+            },
+            {
+              "id": "B",
+              "text": "おじいさんたちと別れなければならないから"
+            },
+            {
+              "id": "C",
+              "text": "地球の人と結婚できないから"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "q5",
+          "question_type": "mcq",
+          "question_jp": "どうして天皇は不死の薬を焼かせましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "おじいさんたちが死んだから"
+            },
+            {
+              "id": "B",
+              "text": "薬が古いから"
+            },
+            {
+              "id": "C",
+              "text": "長生きしても意味がないから"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Reading 49 — 人生",
+      "passage_jp": "【結婚式】では、新郎新婦をご紹介いたします。新郎の宝田太郎さんは1971年に京都でお生まれになりました。今年29歳でいらっしゃいます。1993年にさくら大学を卒業なさって、アップル銀行に入られました。銀行に入られて2年目にアメリカの大学に留学なさいました。学生時代は相撲をなさっていて、料理もお上手だそうです。新婦の花子さんは1965年にニューヨークでお生まれになり、パリ、ロンドン、モスクワで子ども時代を過ごされました。国際人でいらっしゃいます。ご趣味はいろいろなものをデザインすることで、結婚後もデザインのお仕事を続けられるそうです。\n\n【退職】宝田部長はきょう退職なさいます。銀行に入られてから25年、世界中のいろいろな支店にお勤めになりました。働きながら見たこと、考えたことをお書きになり、本を出されました。書きたいことがまだまだあるので、書く時間を作るために、このたび銀行をやめる決心をなさいました。デザイナーの花子夫人も賛成なさっているそうです。宝田さんの新しいご出発をお祝いし、ご成功をお祈りして、乾杯。\n\n【結婚50周年】宝田君、花子さん、ご結婚50周年おめでとうございます。「50年」と口で言うのは易しいですが、ほんとうに長い年月です。50年間いろいろなことがあったでしょう。たぶんけんかもなさったと思います。これからも健康に気をつけて、お二人で人生を楽しみながら、60周年、70周年をお迎えください。\n\n【葬式】宝田さん、どうしてこんなに急に逝ってしまわれたのですか。何を話せばいいか、ことばが見つかりません。たぶん去年先に逝かれた奥様にお会いになりたくて、急がれたのですね。わたしたちはとても寂しいですが、宝田さんは今ごろ奥様とお会いになって、いろいろなお話をなさっているのでしょう。どうぞ安らかにお眠りください。",
+      "translation_vi": "Bốn bài phát biểu kể lại cuộc đời Taro Takarada. Tại lễ cưới năm anh 29 tuổi, người dẫn giới thiệu anh sinh năm 1971 ở Kyoto, tốt nghiệp Đại học Sakura rồi vào Ngân hàng Apple năm 1993 và du học Mỹ vào năm thứ hai làm việc. Cô dâu Hanako sinh năm 1965 tại New York, lớn lên ở Paris, London và Moskva, thích thiết kế và sẽ tiếp tục làm việc sau khi cưới.\n\nSau 25 năm làm tại nhiều chi nhánh ngân hàng trên thế giới, Taro nghỉ hưu để dành thời gian viết sách; Hanako ủng hộ quyết định ấy. Đến kỷ niệm 50 năm cưới, bạn bè chúc hai người khỏe mạnh và tiếp tục tận hưởng cuộc sống. Bài cuối là lời tiễn tại tang lễ Taro: người nói đoán ông vội ra đi để gặp lại người vợ đã mất trước đó một năm và cầu chúc ông yên nghỉ.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 49",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "太郎は1993年に何を出て、アップル銀行に入りましたか。",
+          "accepted_answers": [
+            "さくら大学",
+            "さくら大学を出た"
+          ]
+        },
+        {
+          "id": "q2",
+          "question_type": "short_answer",
+          "question_jp": "太郎は何年にアメリカの大学に留学しましたか。",
+          "accepted_answers": [
+            "1995年"
+          ]
+        },
+        {
+          "id": "q3",
+          "question_type": "short_answer",
+          "question_jp": "太郎は何年に花子と結婚しましたか。",
+          "accepted_answers": [
+            "2000年"
+          ]
+        },
+        {
+          "id": "q4",
+          "question_type": "short_answer",
+          "question_jp": "太郎は何年に銀行を退職しましたか。",
+          "accepted_answers": [
+            "2018年"
+          ]
+        },
+        {
+          "id": "q5",
+          "question_type": "true_false",
+          "question_jp": "太郎と花子は長生きした。",
+          "correct_answer": true
+        },
+        {
+          "id": "q6",
+          "question_type": "true_false",
+          "question_jp": "太郎は花子より早く死んだ。",
+          "correct_answer": false
+        },
+        {
+          "id": "q7",
+          "question_type": "true_false",
+          "question_jp": "太郎はいろいろな会社で働いた経験がある。",
+          "correct_answer": false
+        },
+        {
+          "id": "q8",
+          "question_type": "mcq",
+          "question_jp": "4番目のスピーチはどこでしていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "卒業式"
+            },
+            {
+              "id": "B",
+              "text": "葬式"
+            },
+            {
+              "id": "C",
+              "text": "スピーチ大会"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Reading 50 — 紫式部に聞く",
+      "passage_jp": "司会：皆さん、こんにちは。「タイム・マシン」の時間です。きょうは昔の有名な人に来ていただきました。紫式部さんは世界で初めての長い小説『源氏物語』をお書きになった方です。紫式部さん、『源氏物語』を書かれたとき、1,000年後も読まれると思われましたか。\n\n紫式部：いいえ。今の人気にびっくりしております。マンガやミュージカルにもなっているそうですね。\n\n司会：どうして1,000年後の今も人気があると思われますか。\n\n紫式部：いろいろな読み方ができるからだと思います。この小説のテーマは愛ですが、昔も今も愛について人の考え方や気持ちは変わりません。また、平安時代の政治や文化、習慣を知ることができます。\n\n司会：『源氏物語』が外国語に翻訳されているのをご存じですか。\n\n紫式部：はい。こちらへ来るとき、タイムマシンの中で新聞を読みました。英語、フランス語、ドイツ語、ロシア語、中国語、韓国語など30以上のことばに翻訳されているそうですね。\n\n司会：ええ。チェコ語、オランダ語、モンゴル語などにも翻訳されています。タイ語に翻訳されたマンガもあるそうですよ。\n\n紫式部：そうですか。うれしいです。でも、今の日本人はマンガは読みますが、本はあまり読まないと聞いております。ちょっと残念です。\n\n司会：ところで、ご家族を紹介していただけますか。\n\n紫式部：私は20代の終わりごろ結婚いたしました。夫は藤原宣孝と申します。娘が一人おります。結婚後、夫は九州に転勤になりましたが、私はいっしょに参りませんでした。頭がよくて、おもしろい人でしたが、2年後に病気で死んでしまいました。\n\n司会：それからどうなさいましたか。\n\n紫式部：天皇の奥様に和歌などをお教えする仕事をいたしました。\n\n司会：働きながら、『源氏物語』を書かれたのですね。\n\n紫式部：はい。仕事を始めるまえから書いておりましたが、働くようになってからも続けました。\n\n司会：今の時代の人で、だれかお会いになりたい方がいらっしゃいますか。\n\n紫式部：はい。私は小説を書く人に興味があります。今、人気がある村上春樹さんにぜひお目にかかりたいです。\n\n司会：村上春樹さんですか。今度機会があれば、お二人の対談をこの番組でお願いしたいです。きょうはどうもありがとうございました。",
+      "translation_vi": "Trong chương trình hư cấu “Cỗ máy thời gian”, người dẫn phỏng vấn Murasaki Shikibu, tác giả của Truyện Genji, cuốn tiểu thuyết dài được giới thiệu là đầu tiên trên thế giới. Bà không ngờ tác phẩm vẫn được đọc sau một nghìn năm và ngạc nhiên khi nó được chuyển thành truyện tranh, nhạc kịch. Theo bà, tác phẩm còn hấp dẫn vì có nhiều cách đọc; tình yêu và cảm xúc con người không đổi, đồng thời độc giả có thể biết về chính trị, văn hóa và phong tục thời Heian.\n\nTruyện Genji đã được dịch sang hơn ba mươi ngôn ngữ, gồm cả nhiều ngôn ngữ châu Âu và châu Á. Bà vui nhưng tiếc rằng người Nhật hiện đại đọc truyện tranh nhiều hơn đọc sách.\n\nBà kết hôn vào cuối tuổi hai mươi với Fujiwara no Nobutaka và có một con gái. Chồng chuyển công tác đến Kyushu nhưng bà không đi cùng; hai năm sau ông mất vì bệnh. Sau đó bà dạy thơ waka cho hoàng hậu. Bà bắt đầu viết Truyện Genji trước khi nhận việc và tiếp tục viết trong thời gian làm việc. Trong những người đương đại, bà muốn gặp nhà văn Murakami Haruki.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 50",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "true_false",
+          "question_jp": "紫式部は『源氏物語』を書いたとき、1,000年後も読まれると思っていた。",
+          "correct_answer": false
+        },
+        {
+          "id": "q2",
+          "question_type": "true_false",
+          "question_jp": "紫式部の結婚生活はあまり長くなかった。",
+          "correct_answer": true
+        },
+        {
+          "id": "q3",
+          "question_type": "true_false",
+          "question_jp": "紫式部は和歌が上手だった。",
+          "correct_answer": true
+        },
+        {
+          "id": "q4",
+          "question_type": "true_false",
+          "question_jp": "紫式部は仕事を始めてから、『源氏物語』を書いた。",
+          "correct_answer": false
+        },
+        {
+          "id": "q5",
+          "question_type": "true_false",
+          "question_jp": "『源氏物語』は今も読まれている。",
+          "correct_answer": true
+        },
+        {
+          "id": "q6",
+          "question_type": "true_false",
+          "question_jp": "『源氏物語』は平安時代の政治について書かれた小説だ。",
+          "correct_answer": false
+        },
+        {
+          "id": "q7",
+          "question_type": "true_false",
+          "question_jp": "『源氏物語』に書かれている愛は、今の人が考える愛と違う。",
+          "correct_answer": false
+        },
+        {
+          "id": "q8",
+          "question_type": "true_false",
+          "question_jp": "『源氏物語』はアジアの国のことばには翻訳されていない。",
+          "correct_answer": false
+        }
+      ]
+    }
+  ]
+}

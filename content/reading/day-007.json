@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-007",
+  "study_day": 7,
+  "items": [
+    {
+      "id": 31,
+      "title": "Reading 31 — 1月1日",
+      "passage_jp": "きょうは1月1日です。わたしの家族はみんな毎年1月1日に新年の決意を発表します。\n\n父・龍男（49歳）：太ると困るから、食事に気をつけて運動します。去年はジョギングを始めましたが、続けられませんでした。ことしは50歳になるし、会社で部長になったし、体に気をつけようと思っています。お酒もできるだけ飲まないつもりです。\n\n母・幸子（43歳）：ことしは介護のボランティアを始めようと思っています。若いときから介護の仕事をやりたかったんです。ボランティアをしながら勉強をして、資格も取るつもりです。皆さん、応援よろしくお願いします。\n\nわたし・恵（17歳）：わたしはアジアの踊りに興味があります。特にインドネシアのバリの踊りが好きだから、将来はバリで踊りを研究したいと思っています。それで、ことしからインドネシア語の勉強を始めようと思っています。\n\n弟・龍夫（10歳）：ことし5年生になるから、学校のスポーツクラブに入れます。僕は野球のクラブに入ろうと思っています。僕は足も速いし、上手に打てるから、すぐ試合に出られると思います。みんな見に来てください。それから去年は宿題をよく忘れたけど、ことしは忘れないつもりです。",
+      "translation_vi": "Hôm nay là ngày 1 tháng 1. Hằng năm vào ngày này, mọi người trong gia đình tôi công bố quyết tâm năm mới.\n\nBố Tatsuo, 49 tuổi, sẽ chú ý ăn uống và tập thể dục để không béo. Năm ngoái ông bắt đầu chạy bộ nhưng không duy trì được. Năm nay tròn 50 tuổi và lên chức trưởng phòng nên ông quyết chăm sóc sức khỏe, hạn chế rượu tối đa.\n\nMẹ Sachiko, 43 tuổi, muốn bắt đầu làm tình nguyện chăm sóc người già, điều bà mong muốn từ trẻ. Bà sẽ vừa tình nguyện vừa học để lấy chứng chỉ.\n\nTôi là Megumi, 17 tuổi, thích các điệu múa châu Á, đặc biệt là múa Bali. Tương lai tôi muốn nghiên cứu múa tại Bali nên năm nay bắt đầu học tiếng Indonesia.\n\nEm trai Tatsuo, 10 tuổi, lên lớp Năm nên có thể vào câu lạc bộ thể thao. Em định tham gia bóng chày, tin rằng mình chạy nhanh và đánh bóng giỏi nên sớm được thi đấu. Năm ngoái em thường quên bài tập nhưng năm nay quyết không quên nữa.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 31",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"お父さんはことしもジョギングを続けます。","correct_answer":false},
+        {"id":"q2","question_type":"true_false","question_jp":"お母さんは介護の資格を取ってから、ボランティアをしようと思っています。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"恵さんはことし踊りの研究にバリへ行く予定です。","correct_answer":false},
+        {"id":"q4","question_type":"true_false","question_jp":"龍夫君はことし宿題を必ずやろうと思っています。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Reading 32 — 桜とお花見",
+      "passage_jp": "日本人に「いちばん好きな花は何ですか」と聞いたら、多くの人が「桜」と答えるでしょう。春になって桜が咲くと、周りの景色がみんなピンク色になります。ほんとうにきれいです。そして、満開の桜は風が吹くと一斉に散ります。桜は散るときも、とてもきれいです。\n\n春には、たくさんの人が桜を見に行きます。お花見は1,200年ぐらい前から続いている日本の春の大きいイベントです。桜が咲く時期は南から北へだんだん移ります。沖縄の桜は1月ごろ咲きますが、北海道の桜は5月ごろ咲きます。ですから、お花見のシーズンになると、天気予報の中で桜がいつ満開になるか予想を発表します。桜は1、2週間で散ってしまいますから、予想を聞いてお花見の日を決めます。\n\nお花見は桜の下でします。桜を見ながら食べたり飲んだり、歌ったり踊ったりします。バーベキューなどができる公園もあります。昼の桜もいいですが、夜の桜もとてもきれいです。でも、お花見のころの夜はちょっと寒いかもしれませんから、セーターなどを持って行ったほうがいいでしょう。\n\n日本には桜の名所がたくさんあります。春になると、桜の名所も町の公園も朝から夜まで人でいっぱいです。お花見は、日本人が短い桜の季節を楽しむ大切なイベントなのです。",
+      "translation_vi": "Nếu hỏi người Nhật loài hoa họ thích nhất, nhiều người sẽ trả lời hoa anh đào. Khi xuân đến và hoa nở, cảnh vật xung quanh nhuộm hồng rất đẹp. Hoa mãn khai gặp gió sẽ đồng loạt rơi; lúc rơi cũng rất đẹp.\n\nMùa xuân có rất nhiều người đi ngắm hoa. Hanami là sự kiện lớn của mùa xuân Nhật Bản có từ khoảng 1.200 năm trước. Mùa hoa dịch dần từ nam lên bắc: Okinawa nở khoảng tháng 1, Hokkaido khoảng tháng 5. Dự báo thời tiết công bố dự đoán ngày hoa mãn khai; vì hoa chỉ kéo dài một hai tuần nên người ta nghe dự báo để chọn ngày đi.\n\nHanami diễn ra dưới cây anh đào. Mọi người vừa ngắm hoa vừa ăn uống, hát và nhảy; có công viên cho phép nướng thịt. Hoa ban ngày đẹp, ban đêm cũng rất đẹp, nhưng đêm mùa hanami có thể lạnh nên nên mang áo len.\n\nNhật có nhiều địa điểm nổi tiếng về hoa anh đào. Mùa xuân, các nơi ấy và công viên trong thành phố chật kín người từ sáng đến tối. Hanami là sự kiện quan trọng để người Nhật tận hưởng mùa hoa ngắn ngủi.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 32",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"日本人の好きな花で、桜はいちばん人気があります。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"沖縄の桜が咲いたら、多くの人が北海道へ行きます。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"天気予報を聞いてから、お花見の日を決めたほうがいいです。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"お花見のとき、桜の下で食べたり飲んだりしてはいけません。","correct_answer":false},
+        {"id":"q5","question_type":"true_false","question_jp":"夜、お花見をするときは、着る物に気をつけたほうがいいです。","correct_answer":true}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Reading 33 — 大声大会",
+      "passage_jp": "わたしの町では毎年12月に大声大会があります。大きい声で何か叫んで、1年の嫌なことを忘れるのです。\n\n去年のテーマは「あの人に言いたい」でした。ほとんどの人は「税金を下げろ！」とか「首相はやめろ！」とか叫びましたが、外国から参加したある女の人は「トーホク！ ガンバロー！」と叫びました。この声が大会でいちばん大きい声でした。大きい地震があった東北の人に「元気を出して、いっしょに頑張りましょう」と言いたかったのです。\n\nほかに、「山本！ 早く借金を返せ！」「良子、結婚してくれ！」「社長！ 下手な英語を使うな！」「幸子、かんにーん！」などがありました。「かんにん」は大阪弁で「すみません」という意味です。この人は何か幸子さんに謝りたいことがあるのでしょう。\n\n毎日の生活では大声で叫ぶチャンスがありません。1年に一度、大声で叫んで、1年のストレスを全部出してしまいましょう。",
+      "translation_vi": "Thị trấn tôi tổ chức cuộc thi hét lớn vào tháng 12 hằng năm. Mọi người hét điều gì đó thật to để quên chuyện khó chịu trong năm.\n\nChủ đề năm ngoái là “Điều muốn nói với người ấy”. Phần lớn hét “Giảm thuế đi!” hay “Thủ tướng hãy từ chức!”, nhưng một phụ nữ nước ngoài hét “Tōhoku! Cố lên!”. Đó là tiếng hét lớn nhất cuộc thi. Cô muốn động viên người dân Tōhoku sau trận động đất lớn.\n\nCòn có những tiếng hét như “Yamamoto! Trả nợ mau!”, “Yoshiko, cưới anh nhé!”, “Giám đốc! Đừng dùng thứ tiếng Anh tệ hại ấy!” và “Sachiko, tha lỗi cho anh!”. “Kannin” trong phương ngữ Osaka nghĩa là xin lỗi; chắc người đàn ông đó có điều muốn xin lỗi Sachiko.\n\nTrong cuộc sống hằng ngày hiếm khi có cơ hội hét thật to. Mỗi năm một lần, hãy hét lên và trút hết căng thẳng của cả năm.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 33",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"去年の大会で1番になった人のことばはどれですか。","options":[{"id":"A","text":"首相はやめろ"},{"id":"B","text":"税金を下げろ"},{"id":"C","text":"トーホク！ ガンバロー"}],"correct_option_id":"C"},
+        {"id":"q2","question_type":"true_false","question_jp":"大声大会に参加したら、嫌なことが忘れられる。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"大声大会に参加したら、ストレスを出してしまうことができる。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"大声大会に参加したら、給料が上がって、税金が下がる。","correct_answer":false}
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Reading 34 — あなたの国では？",
+      "passage_jp": "日本ではあいさつするとき、頭を下げます。握手をしたり、体に触ったりするあいさつはありません。また、日本人は「わたし」と言うとき、人差し指で自分の鼻を指します。\n\n手を使うジェスチャーはいろいろあります。人の前や間を歩くとき、手を立てて上げたり下げたりします。これは「ちょっとすみません」という意味です。また、手を顔の前で横に何回も振ります。これは「さようなら」のジェスチャーではありません。「わかりません」「できません」などの意味です。\n\n人や犬などを呼ぶとき、日本人は手のひらを下に向けて振ります。また、日本人は口の前に人差し指を立てて「シーッ」と言います。これは「話すな！」という意味です。みんなの前で話すときは、ポケットに手を入れて話してはいけません。また、日本人は相手の目をあまり見ないで話します。じっと見ると失礼なのです。\n\nこのほかに笑うとき、手で口を隠す女の人がいます。昔、女の人はほかの人に歯を見せてはいけませんでした。それで今もその習慣のとおりにしているのです。\n\n日本では小さい子どもに「いい子だね」と言うとき、頭に触ります。しかし、タイなどの東南アジアの国では、頭に触ってはいけません。旅行のガイドブックにはタイへ行ったら、人の頭に触るなと書いてあります。世界にはいろいろなジェスチャーがあります。",
+      "translation_vi": "Ở Nhật, khi chào người ta cúi đầu; không có kiểu chào bắt tay hay chạm vào cơ thể. Khi nói “tôi”, người Nhật dùng ngón trỏ chỉ vào mũi mình.\n\nCó nhiều cử chỉ bằng tay. Khi đi qua trước mặt hoặc giữa những người khác, người ta dựng bàn tay rồi đưa lên xuống để nói “xin phép”. Xua tay ngang trước mặt nhiều lần không có nghĩa tạm biệt mà là “không biết” hoặc “không thể”.\n\nKhi gọi người hay chó, người Nhật úp lòng bàn tay xuống rồi vẫy. Họ cũng dựng ngón trỏ trước miệng và nói “suỵt”, nghĩa là “đừng nói”. Khi phát biểu trước mọi người không được cho tay vào túi. Người Nhật cũng không nhìn chằm chằm vào mắt đối phương vì như vậy là thất lễ.\n\nNgoài ra, có phụ nữ che miệng bằng tay khi cười. Ngày xưa, phụ nữ không được để người khác nhìn thấy răng, nên đến nay vẫn còn làm theo thói quen ấy.\n\nỞ Nhật người ta chạm đầu trẻ nhỏ khi khen “ngoan lắm”. Nhưng tại Thái Lan và một số nước Đông Nam Á lại không được chạm vào đầu người khác; sách hướng dẫn du lịch cũng ghi điều này. Trên thế giới có rất nhiều cử chỉ khác nhau.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 34",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"人がたくさんいる所で松本さんを呼びました。松本さんは「えっ、わたし？」と言いながら、こちらを見ました。","options":[{"id":"A","image_src":"/reading/assets/day-007/r034-option-a.png"},{"id":"B","image_src":"/reading/assets/day-007/r034-option-b.png"},{"id":"C","image_src":"/reading/assets/day-007/r034-option-c.png"}],"correct_option_id":"B"},
+        {"id":"q2","question_type":"mcq","question_jp":"公園で男の子が遊んでいます。友達に「こっちへ来て！」と言いました。","options":[{"id":"A","image_src":"/reading/assets/day-007/r034-option-a.png"},{"id":"B","image_src":"/reading/assets/day-007/r034-option-b.png"},{"id":"C","image_src":"/reading/assets/day-007/r034-option-c.png"}],"correct_option_id":"C"},
+        {"id":"q3","question_type":"mcq","question_jp":"町で外国人が日本人に道を聞きました。その日本人は「英語、わからない！」と言いました。","options":[{"id":"A","image_src":"/reading/assets/day-007/r034-option-a.png"},{"id":"B","image_src":"/reading/assets/day-007/r034-option-b.png"},{"id":"C","image_src":"/reading/assets/day-007/r034-option-c.png"}],"correct_option_id":"A"}
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Reading 35 — 自動販売機",
+      "passage_jp": "日本は自動販売機が多い国だ。ボタンを押せば、簡単に飲み物やお菓子などいろいろな物が買える。今、日本では飲み物の販売機がいちばん多くて257万台ある。2番目はプリペイドカードや靴下など生活用品を売る販売機で86万台ある。3番目はたばこの販売機で23万台ある。食べ物の販売機が7万台ぐらい、切符などの販売機が4万台ある。全部で377万台以上だ。\n\nいつでも使うことができるから便利だが、問題もある。日本では20歳にならなければ、お酒を飲んだり、たばこを吸ったりすることはできない。しかし、夜はだれも見ていないから、子どもでも販売機でたばこやお酒が買える。また、24時間動かすと電気もむだになる。\n\nそれで、お酒の販売機は夜11時から朝5時まで止めてある。たばこは「タスポ」というカードを機械にタッチしなければ買えない。このカードは大人しか持てない。また、最近では販売機のほとんどが節電タイプになっている。1991年と比べると、2013年には飲み物の販売機が使う電力は75パーセント減った。\n\nしかし、販売機は町の美しさを壊すし、ごみが増えると言う人もいる。古くて静かな京都のお寺でも、門の前に販売機が置いてある。そばのごみ箱はいつでもごみでいっぱいだ。また、夜中に販売機の前に若い人が集まって騒いだりする。便利な販売機だが、問題はまだある。",
+      "translation_vi": "Nhật Bản là nước có nhiều máy bán hàng tự động. Chỉ cần bấm nút là có thể mua đồ uống, bánh kẹo và nhiều thứ. Nhiều nhất là 2,57 triệu máy bán đồ uống; tiếp theo là 860.000 máy bán thẻ trả trước, tất và đồ sinh hoạt; 230.000 máy thuốc lá, khoảng 70.000 máy thực phẩm và 40.000 máy bán vé, tổng cộng hơn 3,77 triệu máy.\n\nMáy tiện vì dùng được bất cứ lúc nào nhưng cũng có vấn đề. Người dưới 20 tuổi không được uống rượu hay hút thuốc, song ban đêm không ai trông nên trẻ em vẫn có thể mua. Hoạt động 24 giờ cũng lãng phí điện.\n\nVì vậy máy rượu dừng từ 11 giờ đêm đến 5 giờ sáng. Muốn mua thuốc lá phải chạm thẻ Taspo mà chỉ người lớn có. Phần lớn máy mới là loại tiết kiệm điện; so với năm 1991, đến năm 2013 điện tiêu thụ của máy đồ uống đã giảm 75%.\n\nTuy nhiên, có người nói máy làm xấu cảnh quan và tăng rác. Ngay trước cổng những ngôi chùa cổ yên tĩnh ở Kyoto cũng có máy, thùng rác bên cạnh luôn đầy. Nửa đêm thanh niên còn tụ tập và gây ồn trước máy. Máy tiện lợi nhưng vẫn còn nhiều vấn đề.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 35",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"大人は夜11時まで販売機でお酒が買える。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"販売機でたばこを買うときは、カードを販売機に入れる。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"2013年までに、全部の販売機が使う電力は75パーセント減った。","correct_answer":false},
+        {"id":"q4","question_type":"short_answer","question_jp":"京都のお寺の前に販売機がありますが、どんな問題がありますか。2つ書いてください。","accepted_answers":["ごみ箱がいつもごみでいっぱいで、夜中に若い人が集まって騒ぐことです"]}
+      ]
+    }
+  ]
+}

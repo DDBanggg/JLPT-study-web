@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-009",
+  "study_day": 9,
+  "items": [
+    {
+      "id": 41,
+      "title": "Reading 41 — ロボットといっしょ",
+      "passage_jp": "日本は「ロボット大国」と言われている。「ロボット」と聞くと、自動車工場などをイメージするかもしれない。しかし、日本ではもっといろいろな所でロボットが使われている。\n\n今、日本では子どもの数が少なくなって、お年寄りがどんどん増えている。お年寄りが一人で生活するのは大変だ。体が自由に動かなくなって、ほかの人に手伝ってもらわなければならない人も多い。それで、人の世話をしたり、ペットになったり、体の動きを助けたりするロボットが作られている。\n\nよく売れているのはロボット掃除機だ。家の中をきれいに掃除してくれる。アザラシのロボットはかわいいし、人のことばを聞いていろいろな表情をするので、お年寄りにとても人気がある。体操を教えるロボットもある。そのとおりに体を動かすと、だんだん元気になって、あまりけがをしなくなる。体操ロボットもアザラシロボットも介護施設でよく使われている。\n\n動かなくなった手や足の代わりに働いてくれるロボットもある。食事のとき口まで食べ物を運んだり、歩くとき手や足が使えるように助けたりしてくれる。\n\n確かに賢いロボットといっしょに生活できるのは便利で、すばらしい。ロボットだから、えさをやったり、散歩に連れて行ったりしなくてもいい。でも、毎日ロボットだけといっしょだったら、ちょっと寂しいと思う。",
+      "translation_vi": "Nhật Bản được gọi là cường quốc robot. Nghe đến robot, người ta có thể nghĩ đến nhà máy ô tô, nhưng tại Nhật robot còn được dùng ở nhiều nơi khác.\n\nSố trẻ em giảm còn người già tăng. Nhiều người già sống một mình rất khó khăn và cần người khác giúp khi cơ thể không còn linh hoạt. Vì vậy có robot chăm sóc người, làm thú cưng và hỗ trợ vận động.\n\nRobot hút bụi bán rất chạy. Robot hải cẩu dễ thương, nghe lời người và biểu lộ nhiều nét mặt nên được người già yêu thích. Robot dạy thể dục giúp người tập khỏe dần và ít bị thương. Cả hai loại thường được dùng ở cơ sở chăm sóc.\n\nCũng có robot thay cho tay chân không cử động được, đưa thức ăn đến miệng hoặc hỗ trợ đi lại.\n\nSống cùng robot thông minh tiện lợi và tuyệt vời; không cần cho ăn hay dắt đi dạo. Nhưng nếu mỗi ngày chỉ ở cùng robot thì có lẽ hơi cô đơn.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 41",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"日本ではいろいろな所でロボットを使っている。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"アザラシのロボットはおしゃべりができる。","correct_answer":false},
+        {"id":"q3","question_type":"true_false","question_jp":"体操ロボットに習ったとおりに体を動かすと、体の調子がよくなる。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"ロボットを使うと、手や足が治って、動かすことができるようになる。","correct_answer":false},
+        {"id":"q5","question_type":"short_answer","question_jp":"どうして、人の世話をしたり、ペットになったりするロボットが作られているのですか。","accepted_answers":["お年寄りが増えて、一人で生活するのが大変な人が多いから"]}
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Reading 42 — 肉を食べると",
+      "passage_jp": "世界中の人が食べる肉の量は毎年増えている。その大きな原因は人々の食生活が変わったからだ。日本でも魚や野菜より肉が好きな子どもが多い。\n\n今、世界では牛や羊、豚、鶏など、たくさんの家畜が飼われている。家畜の数は世界の人口の3倍以上で、今も増えている。増えた牛や羊を飼うのに新しい草地が必要になり、草地を作るために世界中の森の木が切られている。森がなくなると地球は暖かくなる。\n\nまた、家畜は小麦、とうもろこし、大豆などの穀物をたくさん食べる。家畜は世界中の穀物の30パーセント以上を食べている。それに水やエネルギーも必要だ。1キロの牛肉を作るのに、11キロの穀物と20,000リットルの水、8リットルの石油が必要だと言われている。\n\n世界中の人々の9人に1人は食べる物がない。食べる肉の量を減らせば、食べ物がない人々のために穀物を使うことができるかもしれない。人や地球のために、どんな食生活がいいか、わたしたちは考えなければならない。",
+      "translation_vi": "Lượng thịt con người trên thế giới ăn tăng mỗi năm, chủ yếu do chế độ ăn thay đổi. Ở Nhật cũng có nhiều trẻ thích thịt hơn cá và rau.\n\nThế giới nuôi rất nhiều gia súc, gia cầm như bò, cừu, lợn, gà; số lượng lớn hơn ba lần dân số thế giới và vẫn tăng. Cần đồng cỏ mới để nuôi thêm bò cừu, nên rừng bị chặt. Mất rừng khiến Trái Đất nóng lên.\n\nGia súc còn ăn nhiều lúa mì, ngô, đậu tương và hơn 30% ngũ cốc toàn cầu, đồng thời cần nước và năng lượng. Để sản xuất một kg thịt bò cần khoảng 11 kg ngũ cốc, 20.000 lít nước và 8 lít dầu mỏ.\n\nCứ chín người trên thế giới thì một người thiếu ăn. Nếu giảm lượng thịt, có thể dùng ngũ cốc cho những người ấy. Chúng ta phải suy nghĩ về chế độ ăn tốt cho con người và Trái Đất.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 42",
+      "questions": [
+        {"id":"q1","question_type":"short_answer","question_jp":"どうして人が食べる肉の量が増えているのですか。","accepted_answers":["人々の食生活が変わったから"]},
+        {"id":"q2","question_type":"short_answer","question_jp":"今、世界で飼っている家畜はどのくらいいますか。","accepted_answers":["世界の人口の3倍以上","人口の三倍以上"]}
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Reading 43 — お元気ですか",
+      "passage_jp": "宛先：佐藤朝子　件名：お元気ですか\n\nおばさん\nお元気ですか。お正月はいかがでしたか。僕は、この冬休みは大学生活最後の休みなので、ちょっと遠いですが、ガラパゴスへ行って来ました。ガラパゴスのカメやイグアナはとても珍しそうでした。\n\nところで、この間、うちの近くの川でワニが発見されました。どうしてワニが日本の川にいるのでしょうか。きっとだれかが捨てたのだと思います。ペット屋で買って育てていたワニが、大きくなって邪魔になったからでしょう。勝手な人ですね。ワニたちも困っているでしょう。動物を飼うことについてもっと厳しい規制が必要だと思います。\n\nこちらは今晩から雪が降りそうです。おばさん、かぜをひかないように気をつけてください。\n田中博\n追伸：旅行のとき撮った写真を送ります。\n\n宛先：田中博　件名：Re: お元気ですか\n\nひろしくん\nメールをありがとう。お返事遅くなってごめんなさい。こちらは少しずつ暖かくなって、もうすぐ梅が咲きそうです。ガラパゴス旅行の写真を見ました。とても楽しそうで、卒業するまえにいい思い出ができてよかったですね。\n\nこの間、近所の公園でカメが発見されました。とても大きいカメだったので、子どもたちが驚いて騒いで大変でした。もしかしたらガラパゴスのカメかもしれませんね。\n\n動物を捨てるのはほんとうに困りますね。卒業試験が終わったら、一度遊びに来てください。博君が好きな肉じゃがを作って待っています。健太とみきも「博君に会いたい」と言っていますよ。\n佐藤朝子\n追伸：お正月に撮った家族の写真を添付します。健太もみきも大きくなったでしょう？",
+      "translation_vi": "Hiroshi viết cho cô Asako rằng kỳ nghỉ đông này là kỳ nghỉ cuối thời sinh viên nên cậu đã đi Galápagos và thấy rùa, cự đà rất lạ. Gần nhà cậu có một con cá sấu bị phát hiện trong sông; chắc ai đó mua làm thú cưng rồi vứt đi khi nó lớn và vướng víu. Cậu cho rằng cần quy định nghiêm hơn về việc nuôi động vật. Cậu gửi kèm ảnh chuyến đi và nhắc cô giữ sức vì chỗ cậu sắp có tuyết.\n\nAsako xin lỗi vì trả lời muộn. Nơi cô ở đang ấm dần và hoa mơ sắp nở. Cô thấy ảnh Galápagos rất vui và mừng Hiroshi có kỷ niệm đẹp trước khi tốt nghiệp. Gần đây một con rùa rất lớn xuất hiện ở công viên gần nhà khiến trẻ con náo động; cô đùa rằng có thể là rùa Galápagos. Cô đồng ý việc vứt thú nuôi gây phiền toái, mời Hiroshi đến chơi sau kỳ thi tốt nghiệp và hứa nấu nikujaga. Kenta và Miki cũng muốn gặp cậu. Cô đính kèm ảnh gia đình chụp dịp Tết.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 43",
+      "questions": [
+        {"id":"q1","question_type":"mcq","question_jp":"田中博さんは何月ごろメールを送りましたか。","options":[{"id":"A","text":"1月"},{"id":"B","text":"6月"},{"id":"C","text":"12月"}],"correct_option_id":"A"},
+        {"id":"q2","question_type":"mcq","question_jp":"田中博さんと佐藤朝子さんはどんな関係ですか。","options":[{"id":"A","text":"友達"},{"id":"B","text":"恋人"},{"id":"C","text":"親戚"}],"correct_option_id":"C"},
+        {"id":"q3","question_type":"true_false","question_jp":"田中博さんはもうすぐ大学を卒業する。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"田中博さんはペットを飼う人は法律を守らなければならないと思っている。","correct_answer":true},
+        {"id":"q5","question_type":"true_false","question_jp":"佐藤朝子さんは珍しいペットを飼うことはよくないと思っている。","correct_answer":false},
+        {"id":"q6","question_type":"true_false","question_jp":"佐藤朝子さんは博君がうちへ遊びに来たら、お正月に撮った写真を見せるつもりだ。","correct_answer":false},
+        {"id":"q7","question_type":"mcq","question_jp":"博さんが朝子さんに送った写真はどれですか。","options":[{"id":"A","image_src":"/reading/assets/day-009/r043-option-a.png"},{"id":"B","image_src":"/reading/assets/day-009/r043-option-b.png"},{"id":"C","image_src":"/reading/assets/day-009/r043-option-c.png"}],"correct_option_id":"B"}
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Reading 44 — カレー",
+      "passage_jp": "カレーライスを食べたことがありますか。カレーはインドなどアジアのいろいろな国でよく食べられています。日本では白いごはんの上にカレーをかけて食べるカレーライスが多いです。\n\nカレーは明治時代の初めにイギリスから日本に紹介されました。18世紀にインドでカレーの味を知ったイギリス人が国へ帰って作りました。イギリスでは作り方を少し変え、イギリス人が好きな味にしました。日本人はこの作り方を習いました。\n\n今のカレーにはいろいろな野菜が入っていますが、明治時代にはあまり入っていませんでした。肉のほかにエビやカエルを使いました。値段も高かったので、普通の人はあまり食べられませんでした。\n\n明治時代の終わりに日本でカレー粉が作れるようになり、値段も安くなりました。いろいろな野菜も使われるようになりました。カレーは作り方が簡単で栄養もあるので軍隊でよく作られました。軍隊で食べた人たちが家でも作り、それで日本中に広がったと言われています。\n\n1950年代に固形のカレールウができ、もっと作りやすくなって食べる人が増えました。カレーライスのほかに、カレーパンやカレーうどんなどもよく食べられています。アメリカのスーパーでは日本のカレールウがたくさん売られ、あるインド人も買って国へ持ち帰りました。日本のカレーは日本料理と言ってもいいでしょう。",
+      "translation_vi": "Cà ri được ăn rộng rãi ở Ấn Độ và nhiều nước châu Á. Tại Nhật phổ biến nhất là cơm trắng rưới cà ri.\n\nCà ri được giới thiệu từ Anh vào đầu thời Minh Trị. Người Anh biết hương vị cà ri tại Ấn Độ thế kỷ 18, đem về nước và thay đổi công thức theo khẩu vị mình; người Nhật học công thức đó.\n\nCà ri Minh Trị ít rau, ngoài thịt còn dùng tôm và ếch. Giá đắt nên người bình thường hiếm khi được ăn. Cuối thời Minh Trị, Nhật sản xuất được bột cà ri, giá rẻ hơn và dùng nhiều rau hơn. Vì dễ nấu và giàu dinh dưỡng, quân đội thường nấu; những người từng ăn trong quân đội về nhà tiếp tục nấu nên món này lan khắp Nhật.\n\nThập niên 1950 xuất hiện viên cà ri roux, giúp nấu dễ hơn và số người ăn tăng. Ngoài cơm cà ri còn có bánh mì cà ri và udon cà ri. Siêu thị Mỹ bán nhiều roux Nhật; một người Ấn còn mua mang về nước. Có thể coi cà ri Nhật là món Nhật.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 44",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"日本人はインドのカレーの作り方をイギリス人から習った。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"明治時代の終わりにカレーの値段が安くなった。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"日本ではカレーライスのほかに、カレーを使ったいろいろな食べ物がある。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"あるインド人はアメリカで日本のカレールウを買って、インドへ持って帰った。","correct_answer":true},
+        {"id":"q5","question_type":"short_answer","question_jp":"どうして日本中でカレーを食べるようになったのですか。","accepted_answers":["軍隊でカレーを食べた人たちが、うちでも作って食べたから"]}
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Reading 45 — 119番に電話をかける",
+      "passage_jp": "急に病気になったり、大きなけがをしたりした場合は、すぐ119番に電話をかけて救急車を呼ばなければなりません。しかし、電話をしたのにうまく話せなくて、時間をむだにする場合があります。\n\n消防署の人は、泣きながら「赤ちゃんが、赤ちゃんが」とだけ言う電話を受け、何が起きたか、救急車がどこへ行けばいいかわからなかった経験を話しました。「落ち着いてください」と言い、やっと住所と名前を聞けましたが、出発が遅れました。家族が急に倒れたりけがをしたりすると、多くの人は驚いてきちんと話せなくなるのです。\n\n消防署によると、大切なことは4つです。①病気か火事かを言う。病気なら救急車、火事なら消防車です。②名前と住所を言う。③病院へ運ぶ人が男か女か、年齢も言う。④様子を説明する。\n\n電話のそばに住所、名前、電話番号を書いたメモを貼っておけば、慌てていても読めて気持ちも落ち着きます。非常の場合にうまく電話できるよう、準備しておきましょう。",
+      "translation_vi": "Khi đột ngột bị bệnh hay chấn thương nặng, phải gọi 119 ngay để gọi xe cấp cứu. Nhưng có người gọi mà không nói được rõ, làm mất thời gian.\n\nMột nhân viên cứu hỏa kể từng nhận cuộc gọi của người vừa khóc vừa chỉ nói “Em bé, em bé”, khiến họ không biết chuyện gì xảy ra và phải đi đâu. Sau khi trấn an mới hỏi được địa chỉ và tên, nhưng xe đã xuất phát chậm. Khi người thân đột ngột gục xuống hay bị thương, phần lớn mọi người hoảng hốt và không thể nói rõ.\n\nCó bốn điều quan trọng: nói đó là bệnh hay hỏa hoạn; nói tên và địa chỉ; cho biết người cần đưa đi viện là nam hay nữ và bao nhiêu tuổi; mô tả tình trạng.\n\nNên dán cạnh điện thoại một tờ ghi địa chỉ, tên và số điện thoại. Khi hoảng vẫn có thể đọc, giúp bình tĩnh hơn. Hãy chuẩn bị để gọi điện tốt trong trường hợp khẩn cấp.",
+      "media": [],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 2, Reading 45",
+      "questions": [
+        {"id":"q1","question_type":"true_false","question_jp":"急に病気になったり、大きなけがをしたりしたら、119番に電話をかける。","correct_answer":true},
+        {"id":"q2","question_type":"true_false","question_jp":"火事の場合も、急に病気になった場合も、119番に電話をかける。","correct_answer":true},
+        {"id":"q3","question_type":"true_false","question_jp":"119番に電話をかけたとき、名前と住所を必ず言う。","correct_answer":true},
+        {"id":"q4","question_type":"true_false","question_jp":"非常の場合は、電話で必要なことを伝えるのにメモが役に立つ。","correct_answer":true}
+      ]
+    }
+  ]
+}

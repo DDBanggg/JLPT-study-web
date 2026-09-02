@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-001",
+  "study_day": 1,
+  "items": [
+    {
+      "id": 1,
+      "title": "Reading 1 — お国はどちらですか",
+      "passage_jp": null,
+      "translation_vi": null,
+      "media": [
+        {
+          "id": "world-map",
+          "type": "image",
+          "src": "/reading/assets/day-001/r001-map.png",
+          "alt": "Bản đồ thế giới với các thành phố được đánh số"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 1",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "初めまして。ワシントンです。アメリカから来ました。うちはニューヨークです。どこから来ましたか。地図の番号を書いてください。",
+          "accepted_answers": ["2", "②"]
+        },
+        {
+          "id": "q2",
+          "question_type": "short_answer",
+          "question_jp": "皆さん、こちらはナセルさんです。ナセルです。エジプトのカイロから来ました。どこから来ましたか。地図の番号を書いてください。",
+          "accepted_answers": ["8", "⑧"]
+        },
+        {
+          "id": "q3",
+          "question_type": "short_answer",
+          "question_jp": "ホーさんは中国の方ですか。いいえ、ベトナムのハノイから来ました。どこから来ましたか。地図の番号を書いてください。",
+          "accepted_answers": ["5", "⑤"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Reading 2 — ジュースをお願いします",
+      "passage_jp": null,
+      "translation_vi": null,
+      "media": [
+        {
+          "id": "restaurant-menu",
+          "type": "image",
+          "src": "/reading/assets/day-001/r002-menu.png",
+          "alt": "Thực đơn và giá tại nhà hàng"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 2",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "ホン：カレーとコーヒーをください。いくらですか。",
+          "accepted_answers": ["1050円", "1,050円", "千五十円"]
+        },
+        {
+          "id": "q2",
+          "question_type": "short_answer",
+          "question_jp": "ジル：サンドイッチとジュースをお願いします。いくらですか。",
+          "accepted_answers": ["950円", "九百五十円"]
+        },
+        {
+          "id": "q3",
+          "question_type": "short_answer",
+          "question_jp": "マーク：スパゲッティとサラダとビールをください。いくらですか。",
+          "accepted_answers": ["1500円", "1,500円", "千五百円"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reading 3 — こうべまでいくらですか",
+      "passage_jp": null,
+      "translation_vi": null,
+      "media": [
+        {
+          "id": "rail-map",
+          "type": "image",
+          "src": "/reading/assets/day-001/r003-map.png",
+          "alt": "Sơ đồ các ga quanh Osaka"
+        },
+        {
+          "id": "fare-table",
+          "type": "image",
+          "src": "/reading/assets/day-001/r003-fares.png",
+          "alt": "Bảng giá vé JR từ ga Osaka"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 3",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "すみません。きょうとまでいくらですか。",
+          "accepted_answers": ["560円", "五百六十円"]
+        },
+        {
+          "id": "q2",
+          "question_type": "short_answer",
+          "question_jp": "ならへ行きます。いくらですか。",
+          "accepted_answers": ["800円", "八百円"]
+        },
+        {
+          "id": "q3",
+          "question_type": "short_answer",
+          "question_jp": "あかしまで300円ですか。いいえ、あかしはいくらですか。",
+          "accepted_answers": ["920円", "九百二十円"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Reading 4 — いつ行きますか",
+      "passage_jp": null,
+      "translation_vi": null,
+      "media": [
+        {
+          "id": "weekly-schedule",
+          "type": "image",
+          "src": "/reading/assets/day-001/r004-weekly-schedule.png",
+          "alt": "Lịch một tuần của Ken"
+        },
+        {
+          "id": "clinic-hours",
+          "type": "image",
+          "src": "/reading/assets/day-001/r004-clinic-hours.png",
+          "alt": "Lịch khám của phòng nha Shiozaki"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 4",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "ケンさんはいつ歯医者へ行きますか。",
+          "accepted_answers": ["火曜日の朝", "木曜日の朝", "金曜日の昼", "日曜日の朝"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reading 5 — 何時の飛行機で？",
+      "passage_jp": "田中さんは月曜日の朝、福岡から東京の本社へ行きます。本社の会議は10時から5時までです。本社から空港までJRで30分です。夜、福岡へ帰ります。",
+      "translation_vi": "Sáng thứ Hai, anh Tanaka đi từ Fukuoka đến trụ sở chính ở Tokyo. Cuộc họp tại trụ sở chính diễn ra từ 10 giờ đến 5 giờ. Từ trụ sở chính đến sân bay mất 30 phút bằng JR. Buổi tối, anh trở về Fukuoka.",
+      "media": [
+        {
+          "id": "flight-timetable",
+          "type": "image",
+          "src": "/reading/assets/day-001/r005-flights.png",
+          "alt": "Bảng giờ bay giữa Fukuoka và Tokyo Haneda"
+        }
+      ],
+      "source_ref": "25 Bài đọc hiểu sơ cấp — Tập 1, Reading 5",
+      "questions": [
+        {
+          "id": "q1",
+          "question_type": "short_answer",
+          "question_jp": "何時の飛行機で行きますか。",
+          "accepted_answers": ["8時", "8:00", "午前8時"]
+        },
+        {
+          "id": "q2",
+          "question_type": "short_answer",
+          "question_jp": "何時の飛行機で帰りますか。",
+          "accepted_answers": ["18時15分", "18:15", "午後6時15分"]
+        }
+      ]
+    }
+  ]
+}
