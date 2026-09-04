@@ -53,16 +53,16 @@ describe("roadmap and Schedule derivation", () => {
     });
   });
 
-  it("returns Content Pending for an unpublished roadmap resource", async () => {
+  it("loads the published Daily Test Day 2 summary", async () => {
     const result = await loadProgramRoadmap();
     if (result.state !== "available") throw new Error("Roadmap missing");
     const dailyTest = getRoadmapDay(result.data, 2).tasks[0];
 
     expect(getTaskContentPath(dailyTest, 2)).toBe("tests/daily/day-002.json");
     await expect(loadTaskContentSummary(dailyTest, 2)).resolves.toEqual({
-      state: "pending",
+      state: "available",
       itemIds: [],
-      total: null,
+      total: 45,
     });
   });
 

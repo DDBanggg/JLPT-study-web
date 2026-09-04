@@ -45,6 +45,59 @@ describe("content validation foundation", () => {
     }
   });
 
+  it.each([
+    [2, [20, 25], ["grammar", "vocabulary"]],
+    [3, [15, 15, 15], ["grammar", "vocabulary", "kanji"]],
+  ])("accepts the canonical Daily Test distribution for Day %i", async (day, counts, categories) => {
+    const document = dailyTestDocument(day as number);
+    const errors = await validateTemporaryDailyDocument(document);
+    expect(errors).toEqual([]);
+    expect(document.coverage).toEqual({ from_day: (day as number) - 1, to_day: (day as number) - 1 });
+    expect(document.sections.map((section) => section.questions.length)).toEqual(counts);
+    expect(document.sections.map((section) => section.max_score)).toEqual(counts);
+    expect(document.sections.map((section) => section.id)).toEqual(categories);
+    expect(document.sections.flatMap((section) => section.questions)).toHaveLength(45);
+  });
+
+  it.each([
+    ["Day 2 with Kanji", () => {
+      const document = dailyTestDocument(2);
+      document.sections.push(dailySection("kanji", 15, 46, 1));
+      return document;
+    }, "must contain exactly 2 sections"],
+    ["Day 2 with 15/15 only", () => {
+      const document = dailyTestDocument(2);
+      document.sections.forEach((section) => {
+        section.max_score = 15;
+        section.questions = section.questions.slice(0, 15);
+      });
+      return document;
+    }, "grammar section max_score must equal 20"],
+    ["standard day with wrong distribution", () => {
+      const document = dailyTestDocument(3);
+      document.sections[0].max_score = 16;
+      return document;
+    }, "grammar section max_score must equal 15"],
+    ["wrong coverage day", () => {
+      const document = dailyTestDocument(3);
+      document.coverage = { from_day: 3, to_day: 3 };
+      return document;
+    }, "coverage must equal Study Day 2"],
+    ["wrong category count", () => {
+      const document = dailyTestDocument(3);
+      document.sections[0].questions[0].category = "vocabulary";
+      return document;
+    }, "category must equal 'grammar'"],
+    ["source_item_ref from the wrong Study Day", () => {
+      const document = dailyTestDocument(3);
+      document.sections[0].questions[0].source_item_refs = ["grammar:301"];
+      return document;
+    }, "must resolve to grammar Study Day 2"],
+  ])("rejects Daily Test with %s", async (_label, createDocument, expectedError) => {
+    const errors = await validateTemporaryDailyDocument(createDocument());
+    expect(errors.some((error) => error.includes(expectedError as string))).toBe(true);
+  });
+
   it("accepts Vocabulary surface and legacy items but rejects an empty surface", async () => {
     const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-vocabulary-surface-"));
     const vocabulary = {
@@ -340,6 +393,80 @@ async function validateTemporaryDocument(document: unknown, prefix: string): Pro
   } finally {
     await rm(contentRoot, { recursive: true, force: true });
   }
+}
+
+async function validateTemporaryDailyDocument(document: ReturnType<typeof dailyTestDocument>) {
+  const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-daily-test-"));
+  try {
+    await writeFile(path.join(contentRoot, "daily.json"), JSON.stringify(document));
+    for (const day of [1, 2, 3]) {
+      const dayText = String(day).padStart(3, "0");
+      await writeFile(path.join(contentRoot, `grammar-${dayText}.json`), JSON.stringify({
+        schema_version: 1,
+        id: `grammar-day-${dayText}`,
+        study_day: day,
+        items: [{ id: day * 100 + 1 }],
+      }));
+      await writeFile(path.join(contentRoot, `vocabulary-${dayText}.json`), JSON.stringify({
+        schema_version: 1,
+        id: `vocabulary-day-${dayText}`,
+        study_day: day,
+        target: 50,
+        pool_size: 1,
+        items: [{ id: day * 100 + 11, hiragana: "ことば", kanji: null }],
+      }));
+      await writeFile(path.join(contentRoot, `kanji-${dayText}.json`), JSON.stringify({
+        schema_version: 1,
+        id: `kanji-day-${dayText}`,
+        study_day: day,
+        items: [{ id: day * 100 + 21, kanji: "日", han_viet: "nhật", meaning_vi: "ngày" }],
+      }));
+    }
+    return (await validateContentRoot(contentRoot)).errors;
+  } finally {
+    await rm(contentRoot, { recursive: true, force: true });
+  }
+}
+
+function dailySection(category: string, count: number, firstQuestion: number, coveredDay: number) {
+  const sourceOffset = category === "grammar" ? 1 : category === "vocabulary" ? 11 : 21;
+  return {
+    id: category,
+    title: category,
+    max_score: count,
+    questions: Array.from({ length: count }, (_, index) => ({
+      id: `q${String(firstQuestion + index).padStart(3, "0")}`,
+      category,
+      prompt: "問題です。",
+      stimulus_id: null,
+      options: ["A", "B", "C", "D"].map((id) => ({ id, text: id })),
+      correct_option_id: "A",
+      source_item_refs: [`${category}:${coveredDay * 100 + sourceOffset}`],
+    })),
+  };
+}
+
+function dailyTestDocument(day: number) {
+  const coveredDay = day - 1;
+  const definitions = day === 2
+    ? [["grammar", 20], ["vocabulary", 25]] as const
+    : [["grammar", 15], ["vocabulary", 15], ["kanji", 15]] as const;
+  let firstQuestion = 1;
+  const sections = definitions.map(([category, count]) => {
+    const section = dailySection(category, count, firstQuestion, coveredDay);
+    firstQuestion += count;
+    return section;
+  });
+  return {
+    schema_version: 1,
+    id: `daily-${String(day).padStart(3, "0")}`,
+    type: "daily",
+    title: `Daily Test — Day ${day}`,
+    study_day: day,
+    coverage: { from_day: coveredDay, to_day: coveredDay },
+    stimuli: [],
+    sections,
+  };
 }
 
 async function validateTemporaryReadingItems(

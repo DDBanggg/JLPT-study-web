@@ -1,0 +1,1288 @@
+{
+  "schema_version": 1,
+  "id": "daily-002",
+  "type": "daily",
+  "title": "Daily Test — Day 2",
+  "study_day": 2,
+  "coverage": {
+    "from_day": 1,
+    "to_day": 1
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 20,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "こちらは 新しい 留学生です。名前は リーさん（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "です"
+            },
+            {
+              "id": "B",
+              "text": "ではありません"
+            },
+            {
+              "id": "C",
+              "text": "ですか"
+            },
+            {
+              "id": "D",
+              "text": "でした"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "A「佐藤さんは 医者ですか。」B「いいえ、医者（　　　）。看護師です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゃありません"
+            },
+            {
+              "id": "B",
+              "text": "ですか"
+            },
+            {
+              "id": "C",
+              "text": "でした"
+            },
+            {
+              "id": "D",
+              "text": "です"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:102"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "A「受付の方は 山田さん（　　　）。」B「はい、そうです。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もです"
+            },
+            {
+              "id": "B",
+              "text": "でした"
+            },
+            {
+              "id": "C",
+              "text": "ですか"
+            },
+            {
+              "id": "D",
+              "text": "じゃありません"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:103"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "兄だけでなく、姉（　　　）大学生です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "も"
+            },
+            {
+              "id": "B",
+              "text": "は"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:104"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "（本を手に持って）A「（　　　）は だれの本ですか。」B「わたしのです。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "この"
+            },
+            {
+              "id": "B",
+              "text": "こちらの"
+            },
+            {
+              "id": "C",
+              "text": "これ"
+            },
+            {
+              "id": "D",
+              "text": "ここ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:105"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "（遠くの建物を指して）（　　　）建物は 図書館です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "どれ"
+            },
+            {
+              "id": "B",
+              "text": "あれ"
+            },
+            {
+              "id": "C",
+              "text": "あの"
+            },
+            {
+              "id": "D",
+              "text": "あそこ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:106"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "これは 京都（　　　）地図です。旅行で使います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:107"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "A「この鍵は 田中さんのですか。」B「いいえ、（　　　）。わたしのです。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "います"
+            },
+            {
+              "id": "B",
+              "text": "そうです"
+            },
+            {
+              "id": "C",
+              "text": "あります"
+            },
+            {
+              "id": "D",
+              "text": "ちがいます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:108"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "（話し手のすぐ近くを示して）案内所は（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "この"
+            },
+            {
+              "id": "B",
+              "text": "これ"
+            },
+            {
+              "id": "C",
+              "text": "ここ"
+            },
+            {
+              "id": "D",
+              "text": "そちら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:109"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "A「コピー機は（　　　）ですか。」B「会議室の前です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いつ"
+            },
+            {
+              "id": "B",
+              "text": "だれ"
+            },
+            {
+              "id": "C",
+              "text": "どこ"
+            },
+            {
+              "id": "D",
+              "text": "いくら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:110"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "社長の部屋は このビル（　　　）五階です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:111"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "A「出口は どちらですか。」B「（　　　）です。右へどうぞ。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そちら"
+            },
+            {
+              "id": "B",
+              "text": "それ"
+            },
+            {
+              "id": "C",
+              "text": "そこを"
+            },
+            {
+              "id": "D",
+              "text": "その"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:112"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "会議は 午後二時（　　　）始まります。遅れないでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:113"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "先週は 忙しかったので、テレビを 一度も（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "見ませんでした"
+            },
+            {
+              "id": "B",
+              "text": "見ます"
+            },
+            {
+              "id": "C",
+              "text": "見ません"
+            },
+            {
+              "id": "D",
+              "text": "見ました"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:114"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "この図書館は 朝八時（　　　）夜八時まで 開いています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まで"
+            },
+            {
+              "id": "B",
+              "text": "から"
+            },
+            {
+              "id": "C",
+              "text": "と"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:115"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "朝ごはんに パン（　　　）卵を 食べました。ほかには食べていません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "や"
+            },
+            {
+              "id": "B",
+              "text": "も"
+            },
+            {
+              "id": "C",
+              "text": "と"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:116"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "来年、留学のために 日本（　　　）行きます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "と"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:117"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "雪でしたから、駅まで タクシー（　　　）行きました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:118"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "一人ではなく、同僚（　　　）出張しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:119"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "きょうは 家で休みました。外へは（　　　）出かけませんでした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "どこへ"
+            },
+            {
+              "id": "B",
+              "text": "どこへも"
+            },
+            {
+              "id": "C",
+              "text": "どこかへ"
+            },
+            {
+              "id": "D",
+              "text": "どこで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:120"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "次の言葉「お名前」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おっなまえ"
+            },
+            {
+              "id": "B",
+              "text": "おまなえ"
+            },
+            {
+              "id": "C",
+              "text": "おなまえ"
+            },
+            {
+              "id": "D",
+              "text": "おなえ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:161"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "毎朝、目覚まし時計が鳴ると、すぐベッドから（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰ります"
+            },
+            {
+              "id": "B",
+              "text": "起きます"
+            },
+            {
+              "id": "C",
+              "text": "寝ます"
+            },
+            {
+              "id": "D",
+              "text": "休みます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:131"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "夜十一時です。電気を消して、もう（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "働きます"
+            },
+            {
+              "id": "B",
+              "text": "行きます"
+            },
+            {
+              "id": "C",
+              "text": "寝ます"
+            },
+            {
+              "id": "D",
+              "text": "起きます"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:132"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "父は銀行員です。毎日、銀行で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰ります"
+            },
+            {
+              "id": "B",
+              "text": "休みます"
+            },
+            {
+              "id": "C",
+              "text": "寝ます"
+            },
+            {
+              "id": "D",
+              "text": "働きます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:133"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "熱がありますから、きょうは会社を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "休みます"
+            },
+            {
+              "id": "B",
+              "text": "終わります"
+            },
+            {
+              "id": "C",
+              "text": "勉強します"
+            },
+            {
+              "id": "D",
+              "text": "働きます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:134"
+          ]
+        },
+        {
+          "id": "q026",
+          "category": "vocabulary",
+          "prompt": "来週 日本語の試験があるので、毎晩（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "休みます"
+            },
+            {
+              "id": "B",
+              "text": "寝ます"
+            },
+            {
+              "id": "C",
+              "text": "帰ります"
+            },
+            {
+              "id": "D",
+              "text": "勉強します"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:135"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "vocabulary",
+          "prompt": "来月、旅行で北海道へ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "行きます"
+            },
+            {
+              "id": "B",
+              "text": "起きます"
+            },
+            {
+              "id": "C",
+              "text": "来ます"
+            },
+            {
+              "id": "D",
+              "text": "帰ります"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:141"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "vocabulary",
+          "prompt": "先生はまだいませんが、もうすぐ教室へ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰ります"
+            },
+            {
+              "id": "B",
+              "text": "寝ます"
+            },
+            {
+              "id": "C",
+              "text": "来ます"
+            },
+            {
+              "id": "D",
+              "text": "行きます"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:142"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "vocabulary",
+          "prompt": "仕事が終わったので、今から家へ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰ります"
+            },
+            {
+              "id": "B",
+              "text": "起きます"
+            },
+            {
+              "id": "C",
+              "text": "働きます"
+            },
+            {
+              "id": "D",
+              "text": "来ます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:143"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "vocabulary",
+          "prompt": "A「この仕事はだれがしますか。」B「（　　　）がします。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わたし"
+            },
+            {
+              "id": "B",
+              "text": "みなさん"
+            },
+            {
+              "id": "C",
+              "text": "あの人"
+            },
+            {
+              "id": "D",
+              "text": "あなた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:101"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "vocabulary",
+          "prompt": "目の前の人に質問します。「（　　　）は学生ですか。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あの人"
+            },
+            {
+              "id": "B",
+              "text": "みなさん"
+            },
+            {
+              "id": "C",
+              "text": "あなた"
+            },
+            {
+              "id": "D",
+              "text": "わたし"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:102"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "vocabulary",
+          "prompt": "遠くにいる男性を指して、「（　　　）はどなたですか。」と聞きました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あの人"
+            },
+            {
+              "id": "B",
+              "text": "わたし"
+            },
+            {
+              "id": "C",
+              "text": "みなさん"
+            },
+            {
+              "id": "D",
+              "text": "あなた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:103"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "vocabulary",
+          "prompt": "次の言葉「みなさん」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "みさなん"
+            },
+            {
+              "id": "B",
+              "text": "みっなさん"
+            },
+            {
+              "id": "C",
+              "text": "みなん"
+            },
+            {
+              "id": "D",
+              "text": "みなさん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:104"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "vocabulary",
+          "prompt": "わたしが手に持っている物を示します。「（　　　）は日本の新聞です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "それ"
+            },
+            {
+              "id": "B",
+              "text": "あれ"
+            },
+            {
+              "id": "C",
+              "text": "これ"
+            },
+            {
+              "id": "D",
+              "text": "あそこ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:111"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "vocabulary",
+          "prompt": "あなたが持っている辞書を見て聞きます。「（　　　）は新しい辞書ですか。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "それ"
+            },
+            {
+              "id": "B",
+              "text": "あれ"
+            },
+            {
+              "id": "C",
+              "text": "ここ"
+            },
+            {
+              "id": "D",
+              "text": "これ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:112"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "vocabulary",
+          "prompt": "二人から遠い所にある建物を指します。「（　　　）は大学です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "それ"
+            },
+            {
+              "id": "B",
+              "text": "ここ"
+            },
+            {
+              "id": "C",
+              "text": "これ"
+            },
+            {
+              "id": "D",
+              "text": "あれ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:113"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "vocabulary",
+          "prompt": "話し手のいる場所を示して言います。「（　　　）が受付です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ここ"
+            },
+            {
+              "id": "B",
+              "text": "そこ"
+            },
+            {
+              "id": "C",
+              "text": "あそこ"
+            },
+            {
+              "id": "D",
+              "text": "それ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:121"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "vocabulary",
+          "prompt": "聞き手のすぐそばを指して、「荷物は（　　　）に置いてください。」と言います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "それ"
+            },
+            {
+              "id": "B",
+              "text": "ここ"
+            },
+            {
+              "id": "C",
+              "text": "あそこ"
+            },
+            {
+              "id": "D",
+              "text": "そこ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:122"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "vocabulary",
+          "prompt": "二人から遠い駅を指して言います。「（　　　）から電車に乗ります。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そこ"
+            },
+            {
+              "id": "B",
+              "text": "ここ"
+            },
+            {
+              "id": "C",
+              "text": "あそこ"
+            },
+            {
+              "id": "D",
+              "text": "それ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:123"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "vocabulary",
+          "prompt": "A「もう出かけますか。」B「いいえ、（　　　）はまだ七時です。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "何時"
+            },
+            {
+              "id": "B",
+              "text": "ここ"
+            },
+            {
+              "id": "C",
+              "text": "今"
+            },
+            {
+              "id": "D",
+              "text": "あそこ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:137"
+          ]
+        },
+        {
+          "id": "q041",
+          "category": "vocabulary",
+          "prompt": "次の言葉「何時」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんじ"
+            },
+            {
+              "id": "B",
+              "text": "なじ"
+            },
+            {
+              "id": "C",
+              "text": "なっんじ"
+            },
+            {
+              "id": "D",
+              "text": "なじん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:140"
+          ]
+        },
+        {
+          "id": "q042",
+          "category": "vocabulary",
+          "prompt": "「本」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぼん"
+            },
+            {
+              "id": "B",
+              "text": "おきます"
+            },
+            {
+              "id": "C",
+              "text": "いま"
+            },
+            {
+              "id": "D",
+              "text": "ほん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:114"
+          ]
+        },
+        {
+          "id": "q043",
+          "category": "vocabulary",
+          "prompt": "「辞書」の 正しい読み方を 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じょし"
+            },
+            {
+              "id": "B",
+              "text": "じょ"
+            },
+            {
+              "id": "C",
+              "text": "じしょ"
+            },
+            {
+              "id": "D",
+              "text": "じっしょ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:115"
+          ]
+        },
+        {
+          "id": "q044",
+          "category": "vocabulary",
+          "prompt": "日本語の授業を受けるために（　　　）へ行きます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "食堂"
+            },
+            {
+              "id": "B",
+              "text": "事務所"
+            },
+            {
+              "id": "C",
+              "text": "教室"
+            },
+            {
+              "id": "D",
+              "text": "駅"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:124"
+          ]
+        },
+        {
+          "id": "q045",
+          "category": "vocabulary",
+          "prompt": "「学校」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "がっこう"
+            },
+            {
+              "id": "B",
+              "text": "がこっう"
+            },
+            {
+              "id": "C",
+              "text": "がっっこう"
+            },
+            {
+              "id": "D",
+              "text": "がっう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:144"
+          ]
+        }
+      ]
+    }
+  ]
+}

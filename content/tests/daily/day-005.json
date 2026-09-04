@@ -1,0 +1,1297 @@
+{
+  "schema_version": 1,
+  "id": "daily-005",
+  "type": "daily",
+  "title": "Daily Test — Day 5",
+  "study_day": 5,
+  "coverage": {
+    "from_day": 4,
+    "to_day": 4
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "駅に着いて、切符を（　　　）、改札を出ました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "見せます"
+            },
+            {
+              "id": "B",
+              "text": "見せて"
+            },
+            {
+              "id": "C",
+              "text": "見せた"
+            },
+            {
+              "id": "D",
+              "text": "見せる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "毎朝、まずシャワーを（　　　）、朝ごはんを 食べます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "浴びたから"
+            },
+            {
+              "id": "B",
+              "text": "浴びるから"
+            },
+            {
+              "id": "C",
+              "text": "浴びてから"
+            },
+            {
+              "id": "D",
+              "text": "浴びながら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:402"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "このパソコンは 軽（　　　）、持ち運びやすいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いで"
+            },
+            {
+              "id": "B",
+              "text": "かった"
+            },
+            {
+              "id": "C",
+              "text": "く"
+            },
+            {
+              "id": "D",
+              "text": "くて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:403"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "兄は 医者（　　　）、姉は 看護師です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "な"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:404"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "試験中です。隣の人と 話さ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ないですか"
+            },
+            {
+              "id": "B",
+              "text": "ないでください"
+            },
+            {
+              "id": "C",
+              "text": "なければなりません"
+            },
+            {
+              "id": "D",
+              "text": "なくてもいいです"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:405",
+            "grammar:408"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "図書館の本は 期限までに 返さ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なくてもいいです"
+            },
+            {
+              "id": "B",
+              "text": "ないほうがいいです"
+            },
+            {
+              "id": "C",
+              "text": "なければなりません"
+            },
+            {
+              "id": "D",
+              "text": "ないでください"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:406"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "予約した人は、受付で住所を 書か（　　　）。名前だけで大丈夫です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ないほうがいいです"
+            },
+            {
+              "id": "B",
+              "text": "なければなりません"
+            },
+            {
+              "id": "C",
+              "text": "ないでください"
+            },
+            {
+              "id": "D",
+              "text": "なくてもいいです"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:407"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "このカードがあれば、ATMで お金を下ろすことが（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "できます"
+            },
+            {
+              "id": "B",
+              "text": "なります"
+            },
+            {
+              "id": "C",
+              "text": "あります"
+            },
+            {
+              "id": "D",
+              "text": "します"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:409"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "弟の夢は プロのサッカー選手に（　　　）ことです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なります"
+            },
+            {
+              "id": "B",
+              "text": "なる"
+            },
+            {
+              "id": "C",
+              "text": "なって"
+            },
+            {
+              "id": "D",
+              "text": "なった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:410"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "大事な発表を（　　　）まえに、何度も練習しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "します"
+            },
+            {
+              "id": "B",
+              "text": "した"
+            },
+            {
+              "id": "C",
+              "text": "して"
+            },
+            {
+              "id": "D",
+              "text": "する"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:411",
+            "grammar:412"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "わたしは 一度だけ 馬に（　　　）ことが あります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乗って"
+            },
+            {
+              "id": "B",
+              "text": "乗ります"
+            },
+            {
+              "id": "C",
+              "text": "乗る"
+            },
+            {
+              "id": "D",
+              "text": "乗った"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:413"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "長い休みには、国へ（　　　）り、友達と旅行したりします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰った"
+            },
+            {
+              "id": "B",
+              "text": "帰って"
+            },
+            {
+              "id": "C",
+              "text": "帰る"
+            },
+            {
+              "id": "D",
+              "text": "帰ります"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:414"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "最初はにぎやかでしたが、夜になると町が（　　　）なりました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "静かな"
+            },
+            {
+              "id": "B",
+              "text": "静かで"
+            },
+            {
+              "id": "C",
+              "text": "静かに"
+            },
+            {
+              "id": "D",
+              "text": "静かく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:416"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "きのう見た映画は あまり（　　　）。途中で寝てしまいました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おもしろくなかった"
+            },
+            {
+              "id": "B",
+              "text": "おもしろくない"
+            },
+            {
+              "id": "C",
+              "text": "おもしろかった"
+            },
+            {
+              "id": "D",
+              "text": "おもしろいでした"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:418"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "先月は忙しくて、一日も 会社を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "休みました"
+            },
+            {
+              "id": "B",
+              "text": "休みませんでした"
+            },
+            {
+              "id": "C",
+              "text": "休まないでした"
+            },
+            {
+              "id": "D",
+              "text": "休みません"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:420"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "電車に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "降ります"
+            },
+            {
+              "id": "B",
+              "text": "乗ります"
+            },
+            {
+              "id": "C",
+              "text": "返します"
+            },
+            {
+              "id": "D",
+              "text": "予約します"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:401"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "駅で電車を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乗り換えます"
+            },
+            {
+              "id": "B",
+              "text": "降ります"
+            },
+            {
+              "id": "C",
+              "text": "入ります"
+            },
+            {
+              "id": "D",
+              "text": "直します"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:402"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "部屋に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "予約します"
+            },
+            {
+              "id": "B",
+              "text": "降ります"
+            },
+            {
+              "id": "C",
+              "text": "出ます"
+            },
+            {
+              "id": "D",
+              "text": "入ります"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:407"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "家を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "降ります"
+            },
+            {
+              "id": "B",
+              "text": "予約します"
+            },
+            {
+              "id": "C",
+              "text": "乗り換えます"
+            },
+            {
+              "id": "D",
+              "text": "出ます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:408"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "お金を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "払います"
+            },
+            {
+              "id": "B",
+              "text": "乗ります"
+            },
+            {
+              "id": "C",
+              "text": "入ります"
+            },
+            {
+              "id": "D",
+              "text": "出かけます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:414"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "本を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "返します"
+            },
+            {
+              "id": "B",
+              "text": "降ります"
+            },
+            {
+              "id": "C",
+              "text": "洗います"
+            },
+            {
+              "id": "D",
+              "text": "出かけます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:415"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "午後（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乗ります"
+            },
+            {
+              "id": "B",
+              "text": "出かけます"
+            },
+            {
+              "id": "C",
+              "text": "払います"
+            },
+            {
+              "id": "D",
+              "text": "入ります"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:416"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "手を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "降ります"
+            },
+            {
+              "id": "B",
+              "text": "出ます"
+            },
+            {
+              "id": "C",
+              "text": "払います"
+            },
+            {
+              "id": "D",
+              "text": "洗います"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:422"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "父は車を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "運転します"
+            },
+            {
+              "id": "B",
+              "text": "出ます"
+            },
+            {
+              "id": "C",
+              "text": "払います"
+            },
+            {
+              "id": "D",
+              "text": "出かけます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:428"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「予約します」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よやくしす"
+            },
+            {
+              "id": "B",
+              "text": "よやしくます"
+            },
+            {
+              "id": "C",
+              "text": "よっやくします"
+            },
+            {
+              "id": "D",
+              "text": "よやくします"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:429"
+          ]
+        },
+        {
+          "id": "q026",
+          "category": "vocabulary",
+          "prompt": "この時計は動きません。店で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直します"
+            },
+            {
+              "id": "B",
+              "text": "乗ります"
+            },
+            {
+              "id": "C",
+              "text": "洗います"
+            },
+            {
+              "id": "D",
+              "text": "払います"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:443"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "vocabulary",
+          "prompt": "「大丈夫」の 正しい読み方を 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だいょじうぶ"
+            },
+            {
+              "id": "B",
+              "text": "だいじょぶ"
+            },
+            {
+              "id": "C",
+              "text": "だっいじょうぶ"
+            },
+            {
+              "id": "D",
+              "text": "だいじょうぶ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:463"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "vocabulary",
+          "prompt": "次の言葉「仕事」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しっごと"
+            },
+            {
+              "id": "B",
+              "text": "しと"
+            },
+            {
+              "id": "C",
+              "text": "しごと"
+            },
+            {
+              "id": "D",
+              "text": "しとご"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:446"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "vocabulary",
+          "prompt": "「趣味」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しみ"
+            },
+            {
+              "id": "B",
+              "text": "しみゅ"
+            },
+            {
+              "id": "C",
+              "text": "しゅみ"
+            },
+            {
+              "id": "D",
+              "text": "しっゅみ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:447"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "vocabulary",
+          "prompt": "大阪へ行く途中、京都駅で別の電車に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乗り換えます"
+            },
+            {
+              "id": "B",
+              "text": "出ます"
+            },
+            {
+              "id": "C",
+              "text": "降ります"
+            },
+            {
+              "id": "D",
+              "text": "乗ります"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:403"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "「明」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おおい"
+            },
+            {
+              "id": "B",
+              "text": "はやい"
+            },
+            {
+              "id": "C",
+              "text": "ひろい"
+            },
+            {
+              "id": "D",
+              "text": "あかるい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:401"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "「くらい」を 漢字で書くと、どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "重"
+            },
+            {
+              "id": "B",
+              "text": "広"
+            },
+            {
+              "id": "C",
+              "text": "暗"
+            },
+            {
+              "id": "D",
+              "text": "少"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:402"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "「広」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おおい"
+            },
+            {
+              "id": "B",
+              "text": "ひろい"
+            },
+            {
+              "id": "C",
+              "text": "おもい"
+            },
+            {
+              "id": "D",
+              "text": "みじかい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:403"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "「おおい」の 漢字として正しいものを 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "重"
+            },
+            {
+              "id": "B",
+              "text": "早"
+            },
+            {
+              "id": "C",
+              "text": "利"
+            },
+            {
+              "id": "D",
+              "text": "多"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:404"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "読み方が「すくない」になる漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "明"
+            },
+            {
+              "id": "B",
+              "text": "少"
+            },
+            {
+              "id": "C",
+              "text": "元"
+            },
+            {
+              "id": "D",
+              "text": "多"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:405"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "「ながい」に 使う漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "長"
+            },
+            {
+              "id": "B",
+              "text": "多"
+            },
+            {
+              "id": "C",
+              "text": "暗"
+            },
+            {
+              "id": "D",
+              "text": "気"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:406"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "「短」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あかるい"
+            },
+            {
+              "id": "B",
+              "text": "みじかい"
+            },
+            {
+              "id": "C",
+              "text": "おおい"
+            },
+            {
+              "id": "D",
+              "text": "ながい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:407"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "次のうち、「わるい」と読む漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "利"
+            },
+            {
+              "id": "B",
+              "text": "暗"
+            },
+            {
+              "id": "C",
+              "text": "悪"
+            },
+            {
+              "id": "D",
+              "text": "元"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:408"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "「重」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はやい"
+            },
+            {
+              "id": "B",
+              "text": "すくない"
+            },
+            {
+              "id": "C",
+              "text": "ひろい"
+            },
+            {
+              "id": "D",
+              "text": "おもい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:409"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "読み方が「かるい」になる漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "少"
+            },
+            {
+              "id": "B",
+              "text": "元"
+            },
+            {
+              "id": "C",
+              "text": "明"
+            },
+            {
+              "id": "D",
+              "text": "軽"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:410"
+          ]
+        },
+        {
+          "id": "q041",
+          "category": "kanji",
+          "prompt": "「早」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "くらい"
+            },
+            {
+              "id": "B",
+              "text": "はやい"
+            },
+            {
+              "id": "C",
+              "text": "あかるい"
+            },
+            {
+              "id": "D",
+              "text": "ながい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:411"
+          ]
+        },
+        {
+          "id": "q042",
+          "category": "kanji",
+          "prompt": "「べん」を 漢字で書くと、どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "便"
+            },
+            {
+              "id": "B",
+              "text": "多"
+            },
+            {
+              "id": "C",
+              "text": "少"
+            },
+            {
+              "id": "D",
+              "text": "明"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:412"
+          ]
+        },
+        {
+          "id": "q043",
+          "category": "kanji",
+          "prompt": "「利」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "べん"
+            },
+            {
+              "id": "B",
+              "text": "り"
+            },
+            {
+              "id": "C",
+              "text": "き"
+            },
+            {
+              "id": "D",
+              "text": "げん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:413"
+          ]
+        },
+        {
+          "id": "q044",
+          "category": "kanji",
+          "prompt": "「げん」の 漢字として正しいものを 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "早"
+            },
+            {
+              "id": "B",
+              "text": "短"
+            },
+            {
+              "id": "C",
+              "text": "元"
+            },
+            {
+              "id": "D",
+              "text": "少"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:414"
+          ]
+        },
+        {
+          "id": "q045",
+          "category": "kanji",
+          "prompt": "「気」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "き"
+            },
+            {
+              "id": "B",
+              "text": "り"
+            },
+            {
+              "id": "C",
+              "text": "べん"
+            },
+            {
+              "id": "D",
+              "text": "げん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:415"
+          ]
+        }
+      ]
+    }
+  ]
+}

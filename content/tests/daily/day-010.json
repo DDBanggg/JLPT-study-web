@@ -1,0 +1,1295 @@
+{
+  "schema_version": 1,
+  "id": "daily-010",
+  "type": "daily",
+  "title": "Daily Test — Day 10",
+  "study_day": 10,
+  "coverage": {
+    "from_day": 9,
+    "to_day": 9
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "研究の方法について、先生に詳しく説明して（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いただきました"
+            },
+            {
+              "id": "B",
+              "text": "やりました"
+            },
+            {
+              "id": "C",
+              "text": "くださいました"
+            },
+            {
+              "id": "D",
+              "text": "あげました"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:901"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "道に迷ったとき、校長先生が駅まで案内して（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やりました"
+            },
+            {
+              "id": "B",
+              "text": "いただきました"
+            },
+            {
+              "id": "C",
+              "text": "あげました"
+            },
+            {
+              "id": "D",
+              "text": "くださいました"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:902"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "毎朝、わたしは庭の花に水を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もらいます"
+            },
+            {
+              "id": "B",
+              "text": "くださいます"
+            },
+            {
+              "id": "C",
+              "text": "やります"
+            },
+            {
+              "id": "D",
+              "text": "いただきます"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:903"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "卒業式で、学長から記念品を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あげました"
+            },
+            {
+              "id": "B",
+              "text": "いただきました"
+            },
+            {
+              "id": "C",
+              "text": "やりました"
+            },
+            {
+              "id": "D",
+              "text": "くださいました"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:904"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "医者に（　　　）ために、大学で一生懸命勉強しています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なる"
+            },
+            {
+              "id": "B",
+              "text": "なって"
+            },
+            {
+              "id": "C",
+              "text": "なった"
+            },
+            {
+              "id": "D",
+              "text": "なります"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:905"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "地域の子供たち（　　　）、無料の図書室を作りました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "でために"
+            },
+            {
+              "id": "B",
+              "text": "にために"
+            },
+            {
+              "id": "C",
+              "text": "をために"
+            },
+            {
+              "id": "D",
+              "text": "のために"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:906"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "この軽いかばんは 出張に持っていく（　　　）便利です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ためを"
+            },
+            {
+              "id": "B",
+              "text": "のを"
+            },
+            {
+              "id": "C",
+              "text": "のでを"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:907"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "A「この小さい機械は何（　　　）使いますか。」B「温度を測るのに使います。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:908"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "棚の箱が傾いていて、今にも（　　　）そうです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "落ち"
+            },
+            {
+              "id": "B",
+              "text": "落ちて"
+            },
+            {
+              "id": "C",
+              "text": "落ちた"
+            },
+            {
+              "id": "D",
+              "text": "落ちる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:909"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "このスープは いいにおいがして、（　　　）そうです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おいしかっ"
+            },
+            {
+              "id": "B",
+              "text": "おいしい"
+            },
+            {
+              "id": "C",
+              "text": "おいしく"
+            },
+            {
+              "id": "D",
+              "text": "おいし"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:910"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "ここで待っていてください。コピー用紙を倉庫から取って（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しまいます"
+            },
+            {
+              "id": "B",
+              "text": "いきます"
+            },
+            {
+              "id": "C",
+              "text": "あります"
+            },
+            {
+              "id": "D",
+              "text": "きます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:911"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "日本で暮らして半年たち、生活にも少しずつ慣れて（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いきました"
+            },
+            {
+              "id": "B",
+              "text": "きました"
+            },
+            {
+              "id": "C",
+              "text": "ありました"
+            },
+            {
+              "id": "D",
+              "text": "おきました"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:912"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "この箱に本を入れ（　　　）。一人では持てません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すぎました"
+            },
+            {
+              "id": "B",
+              "text": "やすかったです"
+            },
+            {
+              "id": "C",
+              "text": "なさいました"
+            },
+            {
+              "id": "D",
+              "text": "そうでした"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:913"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "この説明書は 絵が多くて、とても（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わかりすぎ"
+            },
+            {
+              "id": "B",
+              "text": "わかりそう"
+            },
+            {
+              "id": "C",
+              "text": "わかりなさい"
+            },
+            {
+              "id": "D",
+              "text": "わかりやすい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:915"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "電車が運休した（　　　）、会社に遅れると連絡してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "場合で"
+            },
+            {
+              "id": "B",
+              "text": "場合にて"
+            },
+            {
+              "id": "C",
+              "text": "場合を"
+            },
+            {
+              "id": "D",
+              "text": "場合は"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:917"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "学校に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "連絡します"
+            },
+            {
+              "id": "B",
+              "text": "通います"
+            },
+            {
+              "id": "C",
+              "text": "混ぜます"
+            },
+            {
+              "id": "D",
+              "text": "減ります"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:901"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "仕事に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "上がります"
+            },
+            {
+              "id": "B",
+              "text": "働きます"
+            },
+            {
+              "id": "C",
+              "text": "慣れます"
+            },
+            {
+              "id": "D",
+              "text": "助けます"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:903"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "会社で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "助けます"
+            },
+            {
+              "id": "B",
+              "text": "働きます"
+            },
+            {
+              "id": "C",
+              "text": "通います"
+            },
+            {
+              "id": "D",
+              "text": "下がります"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:904"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "お湯を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "増えます"
+            },
+            {
+              "id": "B",
+              "text": "下がります"
+            },
+            {
+              "id": "C",
+              "text": "変わります"
+            },
+            {
+              "id": "D",
+              "text": "沸かします"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:912"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "卵と砂糖を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "使います"
+            },
+            {
+              "id": "B",
+              "text": "混ぜます"
+            },
+            {
+              "id": "C",
+              "text": "通います"
+            },
+            {
+              "id": "D",
+              "text": "働きます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:913"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "言葉の意味が分からないときは、辞書を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "使います"
+            },
+            {
+              "id": "B",
+              "text": "混ぜます"
+            },
+            {
+              "id": "C",
+              "text": "沸かします"
+            },
+            {
+              "id": "D",
+              "text": "助けます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:916"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "人口が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "下がります"
+            },
+            {
+              "id": "B",
+              "text": "慣れます"
+            },
+            {
+              "id": "C",
+              "text": "助けます"
+            },
+            {
+              "id": "D",
+              "text": "増えます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:921"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "お金が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "増えます"
+            },
+            {
+              "id": "B",
+              "text": "下がります"
+            },
+            {
+              "id": "C",
+              "text": "減ります"
+            },
+            {
+              "id": "D",
+              "text": "働きます"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:922"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "温度が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "助けます"
+            },
+            {
+              "id": "B",
+              "text": "上がります"
+            },
+            {
+              "id": "C",
+              "text": "増えます"
+            },
+            {
+              "id": "D",
+              "text": "慣れます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:923"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "値段が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "下がります"
+            },
+            {
+              "id": "B",
+              "text": "慣れます"
+            },
+            {
+              "id": "C",
+              "text": "助けます"
+            },
+            {
+              "id": "D",
+              "text": "通います"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:924"
+          ]
+        },
+        {
+          "id": "q026",
+          "category": "vocabulary",
+          "prompt": "予定が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "上がります"
+            },
+            {
+              "id": "B",
+              "text": "変わります"
+            },
+            {
+              "id": "C",
+              "text": "連絡します"
+            },
+            {
+              "id": "D",
+              "text": "混ぜます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:925"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "vocabulary",
+          "prompt": "「助けます」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たけすます"
+            },
+            {
+              "id": "B",
+              "text": "たすけます"
+            },
+            {
+              "id": "C",
+              "text": "たっすけます"
+            },
+            {
+              "id": "D",
+              "text": "たすけす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:945"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "vocabulary",
+          "prompt": "「連絡します」の 正しい読み方を 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "れんくらします"
+            },
+            {
+              "id": "B",
+              "text": "れんらくします"
+            },
+            {
+              "id": "C",
+              "text": "れんらくしす"
+            },
+            {
+              "id": "D",
+              "text": "れっんらくします"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:946"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "vocabulary",
+          "prompt": "次の言葉「もし」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なれます"
+            },
+            {
+              "id": "B",
+              "text": "もじ"
+            },
+            {
+              "id": "C",
+              "text": "かわります"
+            },
+            {
+              "id": "D",
+              "text": "もし"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:989"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "vocabulary",
+          "prompt": "「例えば」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たとば"
+            },
+            {
+              "id": "B",
+              "text": "たとえば"
+            },
+            {
+              "id": "C",
+              "text": "たっとえば"
+            },
+            {
+              "id": "D",
+              "text": "たえとば"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:990"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "「祝」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "みやげ"
+            },
+            {
+              "id": "B",
+              "text": "むすめ"
+            },
+            {
+              "id": "C",
+              "text": "いわい"
+            },
+            {
+              "id": "D",
+              "text": "まい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:901"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "「まい」を 漢字で書くと、どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "息"
+            },
+            {
+              "id": "B",
+              "text": "直"
+            },
+            {
+              "id": "C",
+              "text": "替"
+            },
+            {
+              "id": "D",
+              "text": "舞"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:902"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "「産」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "めずらしい"
+            },
+            {
+              "id": "B",
+              "text": "なおす"
+            },
+            {
+              "id": "C",
+              "text": "むす"
+            },
+            {
+              "id": "D",
+              "text": "みやげ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:903"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "「そ」の 漢字として正しいものを 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産"
+            },
+            {
+              "id": "B",
+              "text": "祖"
+            },
+            {
+              "id": "C",
+              "text": "法"
+            },
+            {
+              "id": "D",
+              "text": "舞"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:904"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "「娘」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まい"
+            },
+            {
+              "id": "B",
+              "text": "むすめ"
+            },
+            {
+              "id": "C",
+              "text": "いわい"
+            },
+            {
+              "id": "D",
+              "text": "みやげ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:905"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "「むす」に 使う漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "娘"
+            },
+            {
+              "id": "B",
+              "text": "息"
+            },
+            {
+              "id": "C",
+              "text": "治"
+            },
+            {
+              "id": "D",
+              "text": "舞"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:906"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "「文」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そ"
+            },
+            {
+              "id": "B",
+              "text": "しゅく"
+            },
+            {
+              "id": "C",
+              "text": "ぶん"
+            },
+            {
+              "id": "D",
+              "text": "ほう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:907"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "次のうち、「ぽう」と読む漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "替"
+            },
+            {
+              "id": "B",
+              "text": "珍"
+            },
+            {
+              "id": "C",
+              "text": "息"
+            },
+            {
+              "id": "D",
+              "text": "法"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:908"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "「宿」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せい"
+            },
+            {
+              "id": "B",
+              "text": "ぶん"
+            },
+            {
+              "id": "C",
+              "text": "ぽう"
+            },
+            {
+              "id": "D",
+              "text": "しゅく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:909"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "読み方が「なおす」になる漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産"
+            },
+            {
+              "id": "B",
+              "text": "直"
+            },
+            {
+              "id": "C",
+              "text": "娘"
+            },
+            {
+              "id": "D",
+              "text": "文"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:910"
+          ]
+        },
+        {
+          "id": "q041",
+          "category": "kanji",
+          "prompt": "「替」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かえます"
+            },
+            {
+              "id": "B",
+              "text": "まい"
+            },
+            {
+              "id": "C",
+              "text": "むすめ"
+            },
+            {
+              "id": "D",
+              "text": "いわい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:911"
+          ]
+        },
+        {
+          "id": "q042",
+          "category": "kanji",
+          "prompt": "「めずらしい」を 漢字で書くと、どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産"
+            },
+            {
+              "id": "B",
+              "text": "珍"
+            },
+            {
+              "id": "C",
+              "text": "文"
+            },
+            {
+              "id": "D",
+              "text": "宿"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:912"
+          ]
+        },
+        {
+          "id": "q043",
+          "category": "kanji",
+          "prompt": "「政」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぶん"
+            },
+            {
+              "id": "B",
+              "text": "せい"
+            },
+            {
+              "id": "C",
+              "text": "ほう"
+            },
+            {
+              "id": "D",
+              "text": "しゅく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:913"
+          ]
+        },
+        {
+          "id": "q044",
+          "category": "kanji",
+          "prompt": "「じ」の 漢字として正しいものを 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産"
+            },
+            {
+              "id": "B",
+              "text": "治"
+            },
+            {
+              "id": "C",
+              "text": "文"
+            },
+            {
+              "id": "D",
+              "text": "祝"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:914"
+          ]
+        },
+        {
+          "id": "q045",
+          "category": "kanji",
+          "prompt": "「化」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そ"
+            },
+            {
+              "id": "B",
+              "text": "じ"
+            },
+            {
+              "id": "C",
+              "text": "か"
+            },
+            {
+              "id": "D",
+              "text": "せい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:915"
+          ]
+        }
+      ]
+    }
+  ]
+}

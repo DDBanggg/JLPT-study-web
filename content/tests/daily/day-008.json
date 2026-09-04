@@ -1,0 +1,1299 @@
+{
+  "schema_version": 1,
+  "id": "daily-008",
+  "type": "daily",
+  "title": "Daily Test — Day 8",
+  "study_day": 8,
+  "coverage": {
+    "from_day": 7,
+    "to_day": 7
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "卒業後は 海外で（　　　）と 思っています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "働けよう"
+            },
+            {
+              "id": "B",
+              "text": "働いてよう"
+            },
+            {
+              "id": "C",
+              "text": "働きよう"
+            },
+            {
+              "id": "D",
+              "text": "働こう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:701",
+            "grammar:702"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "来月の大会には 出ない（　　　）。けがが治っていないからです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "でしょうです"
+            },
+            {
+              "id": "B",
+              "text": "予定ます"
+            },
+            {
+              "id": "C",
+              "text": "と思うです"
+            },
+            {
+              "id": "D",
+              "text": "つもりです"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:703",
+            "grammar:704"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "この薬は食後に（　　　）ほうが いいですよ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飲みた"
+            },
+            {
+              "id": "B",
+              "text": "飲んだ"
+            },
+            {
+              "id": "C",
+              "text": "飲んで"
+            },
+            {
+              "id": "D",
+              "text": "飲みます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:705"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "熱が高いなら、今夜は お風呂に（　　　）ほうが いいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "入らないで"
+            },
+            {
+              "id": "B",
+              "text": "入らなく"
+            },
+            {
+              "id": "C",
+              "text": "入りない"
+            },
+            {
+              "id": "D",
+              "text": "入らない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:706"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "天気予報では 晴れですが、山では雨が降る（　　　）。念のため傘を持ちましょう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれません"
+            },
+            {
+              "id": "B",
+              "text": "ほうがいいです"
+            },
+            {
+              "id": "C",
+              "text": "つもりです"
+            },
+            {
+              "id": "D",
+              "text": "でしょうです"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:707",
+            "grammar:708"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "監督は選手に「最後まで（　　　）！」と大きな声で命令しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "走っている"
+            },
+            {
+              "id": "B",
+              "text": "走れ"
+            },
+            {
+              "id": "C",
+              "text": "走ろう"
+            },
+            {
+              "id": "D",
+              "text": "走るな"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:709"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "標識に「立入禁止」とあります。これは「ここに（　　　）」という意味です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "入るな"
+            },
+            {
+              "id": "B",
+              "text": "入れ"
+            },
+            {
+              "id": "C",
+              "text": "入っている"
+            },
+            {
+              "id": "D",
+              "text": "入ろう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:710",
+            "grammar:711"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "母は「夕食は七時にできる」（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と言いです"
+            },
+            {
+              "id": "B",
+              "text": "でしょう"
+            },
+            {
+              "id": "C",
+              "text": "と思いました"
+            },
+            {
+              "id": "D",
+              "text": "と言いました"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:712"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "地図に 描いてある（　　　）、駅から歩いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あとで"
+            },
+            {
+              "id": "B",
+              "text": "とおりに"
+            },
+            {
+              "id": "C",
+              "text": "ながら"
+            },
+            {
+              "id": "D",
+              "text": "ので"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:713"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "授業が（　　　）あとで、先生に質問しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わります"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "終わって"
+            },
+            {
+              "id": "D",
+              "text": "終わる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:714"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "時間がなかったので、コーヒーを（　　　）会社へ出ました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飲みません"
+            },
+            {
+              "id": "B",
+              "text": "飲まなかった"
+            },
+            {
+              "id": "C",
+              "text": "飲まないで"
+            },
+            {
+              "id": "D",
+              "text": "飲まなくて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:715"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "説明書を よく読め（　　　）、使い方がわかります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たらで"
+            },
+            {
+              "id": "B",
+              "text": "ても"
+            },
+            {
+              "id": "C",
+              "text": "なら"
+            },
+            {
+              "id": "D",
+              "text": "ば"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:717"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "部屋がもう少し（　　　）、このアパートを借りたいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "広ければ"
+            },
+            {
+              "id": "B",
+              "text": "広くれば"
+            },
+            {
+              "id": "C",
+              "text": "広いれば"
+            },
+            {
+              "id": "D",
+              "text": "広けれたら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:718"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "初心者（　　　）、この教科書がわかりやすいですよ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ければ"
+            },
+            {
+              "id": "B",
+              "text": "なら"
+            },
+            {
+              "id": "C",
+              "text": "たら"
+            },
+            {
+              "id": "D",
+              "text": "ば"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:719"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "今 出発し（　　　）、最終バスに間に合いません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なくても"
+            },
+            {
+              "id": "B",
+              "text": "ないで"
+            },
+            {
+              "id": "C",
+              "text": "なければ"
+            },
+            {
+              "id": "D",
+              "text": "なかったらで"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:720"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "ベルが鳴りました。先生が教室に入り、授業を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "戻ります"
+            },
+            {
+              "id": "B",
+              "text": "始めます"
+            },
+            {
+              "id": "C",
+              "text": "休みます"
+            },
+            {
+              "id": "D",
+              "text": "続けます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:701"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "大学を卒業しても、日本語の勉強を（　　　）つもりです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "続けます"
+            },
+            {
+              "id": "B",
+              "text": "休みます"
+            },
+            {
+              "id": "C",
+              "text": "始めます"
+            },
+            {
+              "id": "D",
+              "text": "変えます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:702"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "机の下を探したら、なくした鍵を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "戻ります"
+            },
+            {
+              "id": "B",
+              "text": "見つけます"
+            },
+            {
+              "id": "C",
+              "text": "申し込みます"
+            },
+            {
+              "id": "D",
+              "text": "受けます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:703"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "来月、日本語能力試験を（　　　）予定です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "受けます"
+            },
+            {
+              "id": "B",
+              "text": "参加します"
+            },
+            {
+              "id": "C",
+              "text": "見つけます"
+            },
+            {
+              "id": "D",
+              "text": "申し込みます"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:704"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "この講座で勉強したいので、きょう事務所で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "見つけます"
+            },
+            {
+              "id": "B",
+              "text": "受けます"
+            },
+            {
+              "id": "C",
+              "text": "続けます"
+            },
+            {
+              "id": "D",
+              "text": "申し込みます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:705"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "出張が終わったら、金曜日に国へ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "受けます"
+            },
+            {
+              "id": "B",
+              "text": "続けます"
+            },
+            {
+              "id": "C",
+              "text": "始めます"
+            },
+            {
+              "id": "D",
+              "text": "戻ります"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:711"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "駅まで走ったので、最終電車に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "戻ります"
+            },
+            {
+              "id": "B",
+              "text": "間に合います"
+            },
+            {
+              "id": "C",
+              "text": "参加します"
+            },
+            {
+              "id": "D",
+              "text": "休みます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:714"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "一週間ずっと働いたので、日曜日は家で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "見つけます"
+            },
+            {
+              "id": "B",
+              "text": "申し込みます"
+            },
+            {
+              "id": "C",
+              "text": "参加します"
+            },
+            {
+              "id": "D",
+              "text": "休みます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:715"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "次の言葉「気をつけます」は どう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きをけつます"
+            },
+            {
+              "id": "B",
+              "text": "きをつけす"
+            },
+            {
+              "id": "C",
+              "text": "きっをつけます"
+            },
+            {
+              "id": "D",
+              "text": "きをつけます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:734"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「参加します」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さんかしす"
+            },
+            {
+              "id": "B",
+              "text": "さんしかます"
+            },
+            {
+              "id": "C",
+              "text": "さんかします"
+            },
+            {
+              "id": "D",
+              "text": "さっんかします"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:747"
+          ]
+        },
+        {
+          "id": "q026",
+          "category": "vocabulary",
+          "prompt": "旅行の日は、みんなで相談して（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "戻ります"
+            },
+            {
+              "id": "B",
+              "text": "休みます"
+            },
+            {
+              "id": "C",
+              "text": "変えます"
+            },
+            {
+              "id": "D",
+              "text": "決めます"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:790"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "vocabulary",
+          "prompt": "台風が来るので、旅行の予定を来月に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "参加します"
+            },
+            {
+              "id": "B",
+              "text": "変えます"
+            },
+            {
+              "id": "C",
+              "text": "間に合います"
+            },
+            {
+              "id": "D",
+              "text": "決めます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:792"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "vocabulary",
+          "prompt": "留学するかどうか、まず家族と（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "戻ります"
+            },
+            {
+              "id": "B",
+              "text": "変えます"
+            },
+            {
+              "id": "C",
+              "text": "決めます"
+            },
+            {
+              "id": "D",
+              "text": "相談します"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:793"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "vocabulary",
+          "prompt": "「警察」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けいさつ"
+            },
+            {
+              "id": "B",
+              "text": "けさいつ"
+            },
+            {
+              "id": "C",
+              "text": "けっいさつ"
+            },
+            {
+              "id": "D",
+              "text": "けいつ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:726"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "vocabulary",
+          "prompt": "「信号」の 読み方は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しっんごう"
+            },
+            {
+              "id": "B",
+              "text": "しんごう"
+            },
+            {
+              "id": "C",
+              "text": "しごんう"
+            },
+            {
+              "id": "D",
+              "text": "しんう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:729"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "「園」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "えん"
+            },
+            {
+              "id": "B",
+              "text": "しょう"
+            },
+            {
+              "id": "C",
+              "text": "じん"
+            },
+            {
+              "id": "D",
+              "text": "ざい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:701"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "読み方が「ひ」になる漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "神"
+            },
+            {
+              "id": "B",
+              "text": "飛"
+            },
+            {
+              "id": "C",
+              "text": "合"
+            },
+            {
+              "id": "D",
+              "text": "雪"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:702"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "「機」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひ"
+            },
+            {
+              "id": "B",
+              "text": "えん"
+            },
+            {
+              "id": "C",
+              "text": "き"
+            },
+            {
+              "id": "D",
+              "text": "じん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:703"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "音読みが「しょう」の漢字を 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "神"
+            },
+            {
+              "id": "B",
+              "text": "将"
+            },
+            {
+              "id": "C",
+              "text": "顔"
+            },
+            {
+              "id": "D",
+              "text": "受"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:704"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "「神」の 音読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じん"
+            },
+            {
+              "id": "B",
+              "text": "ざい"
+            },
+            {
+              "id": "C",
+              "text": "ひ"
+            },
+            {
+              "id": "D",
+              "text": "しょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:705"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "「てい」の 漢字として正しいものを 選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "決"
+            },
+            {
+              "id": "B",
+              "text": "定"
+            },
+            {
+              "id": "C",
+              "text": "神"
+            },
+            {
+              "id": "D",
+              "text": "将"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:706"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "「顔」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ゆう"
+            },
+            {
+              "id": "B",
+              "text": "うけます"
+            },
+            {
+              "id": "C",
+              "text": "ほし"
+            },
+            {
+              "id": "D",
+              "text": "かお"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:707"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "「うけます」に 使う漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "済"
+            },
+            {
+              "id": "B",
+              "text": "将"
+            },
+            {
+              "id": "C",
+              "text": "定"
+            },
+            {
+              "id": "D",
+              "text": "受"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:708"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "「決」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きめます"
+            },
+            {
+              "id": "B",
+              "text": "ほし"
+            },
+            {
+              "id": "C",
+              "text": "そら"
+            },
+            {
+              "id": "D",
+              "text": "ゆう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:709"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "次のうち、「ほし」と読む漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "済"
+            },
+            {
+              "id": "B",
+              "text": "決"
+            },
+            {
+              "id": "C",
+              "text": "雪"
+            },
+            {
+              "id": "D",
+              "text": "星"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:710"
+          ]
+        },
+        {
+          "id": "q041",
+          "category": "kanji",
+          "prompt": "「雪」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほし"
+            },
+            {
+              "id": "B",
+              "text": "ゆき"
+            },
+            {
+              "id": "C",
+              "text": "そら"
+            },
+            {
+              "id": "D",
+              "text": "うけます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:711"
+          ]
+        },
+        {
+          "id": "q042",
+          "category": "kanji",
+          "prompt": "読み方が「そら」になる漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "園"
+            },
+            {
+              "id": "B",
+              "text": "空"
+            },
+            {
+              "id": "C",
+              "text": "決"
+            },
+            {
+              "id": "D",
+              "text": "合"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:712"
+          ]
+        },
+        {
+          "id": "q043",
+          "category": "kanji",
+          "prompt": "「夕」の 訓読みは どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きめます"
+            },
+            {
+              "id": "B",
+              "text": "ゆう"
+            },
+            {
+              "id": "C",
+              "text": "そら"
+            },
+            {
+              "id": "D",
+              "text": "うけます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:713"
+          ]
+        },
+        {
+          "id": "q044",
+          "category": "kanji",
+          "prompt": "「ざい」を 漢字で書くと、どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "園"
+            },
+            {
+              "id": "B",
+              "text": "機"
+            },
+            {
+              "id": "C",
+              "text": "定"
+            },
+            {
+              "id": "D",
+              "text": "済"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:714"
+          ]
+        },
+        {
+          "id": "q045",
+          "category": "kanji",
+          "prompt": "次のうち、「あいます」と読む漢字は どれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "合"
+            },
+            {
+              "id": "B",
+              "text": "飛"
+            },
+            {
+              "id": "C",
+              "text": "将"
+            },
+            {
+              "id": "D",
+              "text": "定"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:715"
+          ]
+        }
+      ]
+    }
+  ]
+}

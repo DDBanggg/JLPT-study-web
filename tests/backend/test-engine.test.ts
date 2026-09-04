@@ -67,10 +67,23 @@ describe("shared Test Engine", () => {
     const roadmap = await loadProgramRoadmap();
     if (roadmap.state !== "available") throw new Error("Roadmap missing");
     const published = findTestLocation(roadmap.data, "grammar-test-002");
-    const pending = findTestLocation(roadmap.data, "daily-002");
-    if (!published || !pending) throw new Error("Roadmap test missing");
+    const dailyDay2 = findTestLocation(roadmap.data, "daily-002");
+    const pending = findTestLocation(roadmap.data, "daily-011");
+    if (!published || !dailyDay2 || !pending) throw new Error("Roadmap test missing");
 
     expect((await loadTestContent(published)).state).toBe("available");
+    const dailyResult = await loadTestContent(dailyDay2);
+    expect(dailyResult.state).toBe("available");
+    if (dailyResult.state !== "available") throw new Error("Daily Test Day 2 missing");
+    expect(dailyResult.data.coverage).toEqual({ from_day: 1, to_day: 1 });
+    expect(dailyResult.data.sections.map(({ id, max_score, questions }) => ({
+      id,
+      max_score,
+      questions: questions.length,
+    }))).toEqual([
+      { id: "grammar", max_score: 20, questions: 20 },
+      { id: "vocabulary", max_score: 25, questions: 25 },
+    ]);
     expect(await loadTestContent(pending)).toEqual({ state: "pending" });
   });
 

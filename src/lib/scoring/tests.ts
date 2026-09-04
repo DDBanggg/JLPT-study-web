@@ -23,7 +23,8 @@ type TestQuestion = {
   stimulus_id: string | null;
   options: TestOption[];
   correct_option_id: string;
-  explanation_vi: string;
+  explanation_vi?: string;
+  source_item_refs?: string[];
   [key: string]: unknown;
 };
 type TestSection = {
@@ -85,11 +86,17 @@ function validateQuestion(value: unknown): value is TestQuestion {
     typeof value.prompt === "string" &&
     (value.stimulus_id === null || typeof value.stimulus_id === "string") &&
     value.options.length >= 2 &&
+    value.options.every((option) =>
+      isRecord(option) &&
+      typeof option.id === "string" &&
+      typeof option.text === "string" &&
+      option.text.trim().length > 0
+    ) &&
     optionIds.every((id) => typeof id === "string") &&
     new Set(optionIds).size === optionIds.length &&
     typeof value.correct_option_id === "string" &&
     optionIds.includes(value.correct_option_id) &&
-    typeof value.explanation_vi === "string"
+    (!Object.hasOwn(value, "explanation_vi") || typeof value.explanation_vi === "string")
   );
 }
 
@@ -151,17 +158,33 @@ function validateTestDocument(
     );
   }
   if (documentType === "daily") {
-    const expected = ["grammar", "vocabulary", "kanji"];
+    const expected = studyDay === 2
+      ? [
+          { id: "grammar", count: 20 },
+          { id: "vocabulary", count: 25 },
+        ]
+      : [
+          { id: "grammar", count: 15 },
+          { id: "vocabulary", count: 15 },
+          { id: "kanji", count: 15 },
+        ];
     return (
       value.coverage.from_day === studyDay - 1 &&
       value.coverage.to_day === studyDay - 1 &&
-      sections.length === 3 &&
+      sections.length === expected.length &&
       sections.every(
         (section, index) =>
-          section.id === expected[index] &&
-          section.max_score === 15 &&
-          section.questions.length === 15 &&
-          section.questions.every((question) => question.category === expected[index]),
+          section.id === expected[index].id &&
+          section.max_score === expected[index].count &&
+          section.questions.length === expected[index].count &&
+          section.questions.every((question) =>
+            question.category === expected[index].id &&
+            Array.isArray(question.source_item_refs) &&
+            question.source_item_refs.length > 0 &&
+            question.source_item_refs.every((reference) =>
+              new RegExp(`^${expected[index].id}:[1-9][0-9]*$`).test(reference)
+            )
+          ),
       )
     );
   }
@@ -259,7 +282,7 @@ export function scoreTest(
         selected_option_id: selectedOption,
         correct_option_id: question.correct_option_id,
         correct: selectedOption === question.correct_option_id,
-        explanation_vi: question.explanation_vi,
+        explanation_vi: question.explanation_vi ?? "",
       };
     }),
   );

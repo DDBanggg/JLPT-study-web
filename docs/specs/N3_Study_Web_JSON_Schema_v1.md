@@ -712,15 +712,25 @@ In a published Grammar Test file, the `grammar` section's `questions` array cont
 }
 ```
 
-Validation must enforce exactly:
-- 15 Grammar
-- 15 Vocabulary
-- 15 Kanji
-- 45 total
+N5/N4 Daily Tests always contain 45 questions and use one of two canonical
+distributions determined by the covered Study Day:
+
+- if the covered Study Day has Grammar, Vocabulary, and Kanji: 15 Grammar,
+  15 Vocabulary, and 15 Kanji;
+- if the covered Study Day has no Kanji: 20 Grammar and 25 Vocabulary, with the
+  Kanji section omitted entirely.
+
+`max_score` equals the question count for each section, so every Daily Test has
+45 raw points. Validation must enforce the applicable category distribution,
+not only the 45-question total.
 
 Daily Test Day X covers Day X-1.
 
 For new content, every Daily Test question should include `source_item_refs` that resolve only to Grammar, Vocabulary, or Kanji items from Study Day X-1. Weak Items are not a content source for Daily Test generation.
+
+Daily Test questions may omit `explanation_vi`. When omitted, the runtime returns
+an empty explanation in review responses. Daily Test production files must not
+add placeholder explanation, translation, hint, or notes fields.
 
 ## 13. JLPT-style specialization
 
@@ -759,7 +769,7 @@ Vocabulary target/pool counts, Kanji required/optional field structure, Reading
 stimulus/translation/media/text-image-option rules, all four Reading question variants
 and their answer references, Reading asset path format plus file existence under
 `publicRoot`, test/question-ID uniqueness, Grammar Test structure/count/grouping/coverage,
-and Daily Test section/total counts. Runtime Reading validation checks asset path format;
+and canonical Daily Test section/category/score/total counts. Runtime Reading validation checks asset path format;
 `npm run validate-content` additionally checks referenced file existence. Other bullets
 above remain **specification requirements / future validator requirements** until
 implemented in validator code.

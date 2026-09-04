@@ -210,8 +210,13 @@ Listening
 = 1 video tương ứng mỗi Lesson
 
 Daily Test ngày kế tiếp
-= 15 Grammar + 15 Vocabulary + 15 Kanji
 = 45 câu
+
+Nếu ngày được kiểm tra có đủ Grammar + Vocabulary + Kanji:
+= 15 Grammar + 15 Vocabulary + 15 Kanji
+
+Nếu ngày được kiểm tra không có Kanji:
+= 20 Grammar + 25 Vocabulary, bỏ hẳn Kanji section
 ```
 
 Ví dụ package chuẩn bị cho Day 2:
@@ -318,7 +323,7 @@ JSON sử dụng shared Test Question schema và một section `grammar` với `
 
 Với content mới, mỗi Grammar Test question nên có `source_item_refs` trỏ tới Grammar item của cùng Study Day để chứng minh coverage thực tế.
 
-Không dùng Grammar Test để thay thế Daily Test. Daily Test ngày kế tiếp vẫn kiểm tra Grammar, Vocabulary và Kanji của ngày trước.
+Không dùng Grammar Test để thay thế Daily Test. Daily Test ngày kế tiếp kiểm tra Grammar, Vocabulary và, khi source day có, Kanji của ngày trước.
 
 ---
 
@@ -760,13 +765,15 @@ Day 2 học Lesson 6–10
 Daily Test Day 3
 ```
 
-Format cố định:
+Format N5/N4 luôn có 45 câu. Phân bổ phụ thuộc vào source của Study Day X-1:
 
 ```text
-15 Grammar
-15 Vocabulary
-15 Kanji
-= 45 câu
+Covered day có Kanji:
+15 Grammar + 15 Vocabulary + 15 Kanji = 45 câu
+
+Covered day không có Kanji:
+20 Grammar + 25 Vocabulary = 45 câu
+Kanji section omitted
 ```
 
 Tất cả câu hỏi phải dựa trên kiến thức mới của ngày trước.
@@ -780,7 +787,9 @@ Không cần hỏi toàn bộ item.
 
 Không dùng Weak Items.
 
-Với content mới, mỗi Test Question nên có `source_item_refs` trỏ tới item Day X-1 theo format canonical trong JSON Schema v1.4. Field này giúp validator tương lai kiểm tra coverage thực tế thay vì chỉ đọc `coverage.from_day/to_day`.
+Với content mới, mỗi Test Question phải có `source_item_refs` trỏ tới item đúng category của Day X-1 theo format canonical trong JSON Schema v1.4. Validator kiểm tra cả cú pháp, khả năng resolve và covered Study Day.
+
+Daily Test question có thể không có `explanation_vi`; không thêm placeholder `explanation_vi`, `translation_vi`, `hint` hoặc `notes` vào production Daily Test.
 
 ---
 
@@ -1033,7 +1042,7 @@ Mỗi N5/N4 Study Day vẫn bắt buộc:
 
 ### Daily Test dependency
 
-Không tạo Daily Test chỉ từ Grammar batch. Daily Test Day X+1 chỉ được tạo sau khi ba nguồn của coverage Day X đã hoàn thành và được review:
+Không tạo Daily Test chỉ từ Grammar batch. Daily Test Day X+1 chỉ được tạo sau khi mọi nguồn có trong coverage Day X đã hoàn thành và được review:
 
 ```text
 Grammar Day X
@@ -1043,6 +1052,8 @@ Grammar Day X
 Daily Test Day X+1
 ```
 
+Nếu Day X không có Kanji (hiện tại là Study Day 1), không bổ sung Kanji từ ngày khác; tạo Daily Test với 20 Grammar + 25 Vocabulary và bỏ Kanji section.
+
 Ví dụ:
 
 ```text
@@ -1051,7 +1062,7 @@ Day 2 Grammar + Vocabulary + Kanji complete and reviewed
 create Daily Test Day 3
 ```
 
-Reading và Listening không phải source của Daily Test hiện tại. Daily Test vẫn giữ 15 Grammar + 15 Vocabulary + 15 Kanji = 45 questions.
+Reading và Listening không phải source của Daily Test hiện tại. Daily Test vẫn giữ 45 questions với phân bổ canonical theo việc covered day có Kanji hay không.
 
 ### Batch checkpoints
 
@@ -1174,7 +1185,7 @@ Reading stimulus/translation/media/text-image option rules
 Reading asset path format và referenced-file existence dưới publicRoot
 Reading mcq/true_false/short_answer/matching structure và answer references
 Grammar Test section/count/category/coverage/lesson_groups
-Daily Test 15/15/15 section counts và 45 total
+Daily Test canonical section/category/max-score counts (20/25 khi covered day không có Kanji; 15/15/15 khi có Kanji) và 45 total
 ```
 
 Validator hiện tại **chưa** kiểm tra toàn bộ required fields/types ngoài phạm vi đã

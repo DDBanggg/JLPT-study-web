@@ -423,7 +423,81 @@ async function validateReadingAssets(assetPaths, publicRoot, file, errors) {
   }
 }
 
-function validateTest(document, file, errors) {
+function validateDailyQuestion(
+  question,
+  expectedCategory,
+  expectedId,
+  coveredDay,
+  sourceItemIds,
+  file,
+  errors,
+) {
+  const label = `daily question '${question?.id ?? "<unknown>"}'`;
+  if (question?.id !== expectedId) {
+    errors.push(`${file}: ${label} must use deterministic id '${expectedId}'`);
+  }
+  if (question?.category !== expectedCategory) {
+    errors.push(`${file}: ${label} category must equal '${expectedCategory}'`);
+  }
+  if (!isNonEmptyString(question?.prompt)) {
+    errors.push(`${file}: ${label} prompt must be a non-empty string`);
+  }
+  if (question?.stimulus_id !== null) {
+    errors.push(`${file}: ${label} stimulus_id must equal null`);
+  }
+
+  const options = Array.isArray(question?.options) ? question.options : [];
+  const expectedOptionIds = ["A", "B", "C", "D"];
+  const optionIds = options.map((option) => option?.id);
+  if (
+    options.length !== expectedOptionIds.length ||
+    optionIds.some((id, index) => id !== expectedOptionIds[index])
+  ) {
+    errors.push(`${file}: ${label} option IDs must be exactly A/B/C/D`);
+  }
+  if (options.some((option) => !isNonEmptyString(option?.text))) {
+    errors.push(`${file}: ${label} option text must be non-empty`);
+  }
+  if (!isNonEmptyString(question?.correct_option_id) || !optionIds.includes(question.correct_option_id)) {
+    errors.push(`${file}: ${label} correct_option_id must reference an option`);
+  }
+
+  const references = Array.isArray(question?.source_item_refs) ? question.source_item_refs : [];
+  if (references.length === 0) {
+    errors.push(`${file}: ${label} source_item_refs must be a non-empty array`);
+  }
+  if (hasDuplicates(references)) {
+    errors.push(`${file}: ${label} source_item_refs must be unique`);
+  }
+  const expectedPrefix = `${expectedCategory}:`;
+  const availableIds = sourceItemIds.get(`${expectedCategory}:${coveredDay}`) ?? new Set();
+  for (const reference of references) {
+    const match = typeof reference === "string"
+      ? /^(grammar|vocabulary|kanji):([1-9][0-9]*)$/.exec(reference)
+      : null;
+    if (!match) {
+      errors.push(`${file}: ${label} has malformed source_item_ref '${reference}'`);
+      continue;
+    }
+    if (!reference.startsWith(expectedPrefix)) {
+      errors.push(`${file}: ${label} source_item_ref '${reference}' must match its category`);
+      continue;
+    }
+    if (!availableIds.has(match[2])) {
+      errors.push(
+        `${file}: ${label} source_item_ref '${reference}' must resolve to ${expectedCategory} Study Day ${coveredDay}`,
+      );
+    }
+  }
+
+  for (const forbiddenField of ["explanation_vi", "translation_vi", "hint", "notes"]) {
+    if (Object.hasOwn(question ?? {}, forbiddenField)) {
+      errors.push(`${file}: ${label} must not contain ${forbiddenField}`);
+    }
+  }
+}
+
+function validateTest(document, file, errors, sourceItemIds) {
   if (!Array.isArray(document.sections)) return;
 
   if (!ALLOWED_TEST_TYPES.has(document.type)) {
@@ -484,22 +558,63 @@ function validateTest(document, file, errors) {
 
   if (document.type !== "daily") return;
 
-  const requiredCounts = new Map([
-    ["grammar", 15],
-    ["vocabulary", 15],
-    ["kanji", 15],
-  ]);
+  const coveredDay = document.study_day - 1;
+  const expectedSections = document.study_day === 2
+    ? [
+        { id: "grammar", count: 20 },
+        { id: "vocabulary", count: 25 },
+      ]
+    : [
+        { id: "grammar", count: 15 },
+        { id: "vocabulary", count: 15 },
+        { id: "kanji", count: 15 },
+      ];
 
-  for (const [sectionId, expected] of requiredCounts) {
-    const section = document.sections.find((candidate) => candidate.id === sectionId);
-    const actual = Array.isArray(section?.questions) ? section.questions.length : 0;
-    if (actual !== expected) errors.push(`${file}: daily ${sectionId} section must contain ${expected} questions`);
+  if (
+    document.coverage?.from_day !== coveredDay ||
+    document.coverage?.to_day !== coveredDay
+  ) {
+    errors.push(`${file}: daily test coverage must equal Study Day ${coveredDay}`);
   }
+  if (document.sections.length !== expectedSections.length) {
+    errors.push(`${file}: daily test must contain exactly ${expectedSections.length} sections`);
+  }
+
+  let questionNumber = 1;
+  expectedSections.forEach((expectedSection, sectionIndex) => {
+    const section = document.sections[sectionIndex];
+    if (section?.id !== expectedSection.id) {
+      errors.push(`${file}: daily section ${sectionIndex + 1} must be '${expectedSection.id}'`);
+    }
+    if (section?.max_score !== expectedSection.count) {
+      errors.push(
+        `${file}: daily ${expectedSection.id} section max_score must equal ${expectedSection.count}`,
+      );
+    }
+    const sectionQuestions = Array.isArray(section?.questions) ? section.questions : [];
+    if (sectionQuestions.length !== expectedSection.count) {
+      errors.push(
+        `${file}: daily ${expectedSection.id} section must contain ${expectedSection.count} questions`,
+      );
+    }
+    for (const question of sectionQuestions) {
+      validateDailyQuestion(
+        question,
+        expectedSection.id,
+        `q${String(questionNumber).padStart(3, "0")}`,
+        coveredDay,
+        sourceItemIds,
+        file,
+        errors,
+      );
+      questionNumber += 1;
+    }
+  });
 
   if (questions.length !== 45) errors.push(`${file}: daily test must contain exactly 45 questions`);
 }
 
-function validateDocument(document, file, errors, assetPaths) {
+function validateDocument(document, file, errors, assetPaths, sourceItemIds) {
   if (!document || typeof document !== "object" || Array.isArray(document)) {
     errors.push(`${file}: root value must be a JSON object`);
     return;
@@ -510,7 +625,7 @@ function validateDocument(document, file, errors, assetPaths) {
   validateRoadmap(document, file, errors);
   validateLearningPool(document, file, errors);
   validateReading(document, file, errors, assetPaths);
-  validateTest(document, file, errors);
+  validateTest(document, file, errors, sourceItemIds);
 }
 
 export async function validateContentRoot(contentRoot, options = {}) {
@@ -520,15 +635,38 @@ export async function validateContentRoot(contentRoot, options = {}) {
     ? options
     : options.publicRoot ?? DEFAULT_PUBLIC_ROOT;
 
+  const parsedDocuments = [];
   for (const file of files) {
     try {
       const document = JSON.parse(await readFile(file, "utf8"));
-      const relativeFile = path.relative(contentRoot, file);
-      const assetPaths = new Set();
-      validateDocument(document, relativeFile, errors, assetPaths);
-      await validateReadingAssets(assetPaths, publicRoot, relativeFile, errors);
+      parsedDocuments.push({ document, file, relativeFile: path.relative(contentRoot, file) });
     } catch (error) {
       errors.push(`${path.relative(contentRoot, file)}: invalid JSON (${error.message})`);
+    }
+  }
+
+  const sourceItemIds = new Map();
+  for (const { document } of parsedDocuments) {
+    for (const category of ["grammar", "vocabulary", "kanji"]) {
+      if (
+        document?.id === `${category}-day-${String(document.study_day).padStart(3, "0")}` &&
+        Array.isArray(document.items)
+      ) {
+        sourceItemIds.set(
+          `${category}:${document.study_day}`,
+          new Set(document.items.map((item) => String(item?.id))),
+        );
+      }
+    }
+  }
+
+  for (const { document, relativeFile } of parsedDocuments) {
+    try {
+      const assetPaths = new Set();
+      validateDocument(document, relativeFile, errors, assetPaths, sourceItemIds);
+      await validateReadingAssets(assetPaths, publicRoot, relativeFile, errors);
+    } catch (error) {
+      errors.push(`${relativeFile}: validation failed (${error.message})`);
     }
   }
 
