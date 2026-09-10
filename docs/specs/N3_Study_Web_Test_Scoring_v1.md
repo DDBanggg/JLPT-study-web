@@ -163,8 +163,8 @@ option_id = null → 0 raw points
 
 ## 9. Invalid content
 
-- Grammar Test must contain 5 lesson groups, 5 questions per lesson, and 25 questions total.
-- Daily Test must contain 15 Grammar, 15 Vocabulary, and 15 Kanji questions.
+- N5/N4 Grammar Test must contain 5 lesson groups, 5 questions per lesson, and 25 questions total; N3 groups by the assigned lesson/Part while retaining 25 total questions.
+- N5/N4 Daily Test keeps its existing 45-question distribution; N3 Daily Test contains 10 Grammar, 15 Vocabulary, and 15 Kanji questions (40 total).
 - A JLPT-style section must contain at least one question; `raw_total = 0` is invalid.
 
 Invalid test content must fail validation.

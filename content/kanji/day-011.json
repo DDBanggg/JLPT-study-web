@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-011",
+  "study_day": 11,
+  "items": [
+    {
+      "id": 1101,
+      "kanji": "回",
+      "han_viet": "HỒI",
+      "meaning_vi": "xoay",
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "kunyomi": [
+        "まわ・る",
+        "まわ・す"
+      ],
+      "compounds": [
+        {
+          "word": "回す",
+          "reading": "まわす",
+          "meaning_vi": "xoay, vặn, chuyền, chuyển"
+        },
+        {
+          "word": "回る",
+          "reading": "まわる",
+          "meaning_vi": "xoay quanh, đi vòng quanh, quay"
+        },
+        {
+          "word": "回収",
+          "reading": "かいしゅう",
+          "meaning_vi": "thu hồi, thu gom"
+        },
+        {
+          "word": "次回",
+          "reading": "じかい",
+          "meaning_vi": "lần sau, lần tiếp theo"
+        },
+        {
+          "word": "遠回り",
+          "reading": "とおまわり",
+          "meaning_vi": "đi đường vòng, vòng vo"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "XOAY 回 chuyển tình hình XUNG QUANH 囗 chỉ bằng 1 lời NÓI 口"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 回"
+    },
+    {
+      "id": 1102,
+      "kanji": "因",
+      "han_viet": "NHÂN",
+      "meaning_vi": "nguyên nhân",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "よ・る"
+      ],
+      "compounds": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning_vi": "nguyên nhân, lý do"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "NGUYÊN NHÂN 因 gì khiến đám đông VÂY QUANH 囗 tòa ĐẠI 大 sứ quán vậy?"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 因"
+    },
+    {
+      "id": 1103,
+      "kanji": "困",
+      "han_viet": "KHỐN",
+      "meaning_vi": "khó",
+      "onyomi": [
+        "コン"
+      ],
+      "kunyomi": [
+        "こま・る"
+      ],
+      "compounds": [
+        {
+          "word": "困る",
+          "reading": "こまる",
+          "meaning_vi": "gặp khó khăn, rắc rối, bối rối"
+        },
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning_vi": "khó khăn, gian nan"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Việc QUÂY LẠI 囗 sẽ khiến cho CÂY 木 KHÓ 困 phát triển"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 困"
+    },
+    {
+      "id": 1104,
+      "kanji": "恥",
+      "han_viet": "SỈ",
+      "meaning_vi": "xấu hổ",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "は・ずかしい",
+        "は・じる",
+        "はじ",
+        "は・じらう"
+      ],
+      "compounds": [
+        {
+          "word": "恥ずかしい",
+          "reading": "はずかしい",
+          "meaning_vi": "xấu hổ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Khi XẤU HỔ 恥, TAI 耳 đỏ lên và TIM 心 đập mạnh"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 6 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 恥"
+    },
+    {
+      "id": 1105,
+      "kanji": "取",
+      "han_viet": "THỦ",
+      "meaning_vi": "lấy",
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "と・る"
+      ],
+      "compounds": [
+        {
+          "word": "取る",
+          "reading": "とる",
+          "meaning_vi": "lấy, giữ; đạt được, giành được; loại bỏ, bỏ đi"
+        },
+        {
+          "word": "やり取り",
+          "reading": "やりとり",
+          "meaning_vi": "trao đổi qua lại, đối đáp"
+        },
+        {
+          "word": "受け取る",
+          "reading": "うけとる",
+          "meaning_vi": "nhận, tiếp nhận, hiểu được"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "LẤY 取 TAY 又 bịt TAI 耳 lại vì tiếng ồn quá lớn"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 6 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 取"
+    },
+    {
+      "id": 1106,
+      "kanji": "最",
+      "han_viet": "TỐI",
+      "meaning_vi": "nhất",
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [
+        "もっと・も"
+      ],
+      "compounds": [
+        {
+          "word": "最も",
+          "reading": "もっとも",
+          "meaning_vi": "nhất, vô cùng, cực kỳ"
+        },
+        {
+          "word": "最高",
+          "reading": "さいこう",
+          "meaning_vi": "cao nhất, nhất; tuyệt vời, tuyệt nhất"
+        },
+        {
+          "word": "最初",
+          "reading": "さいしょ",
+          "meaning_vi": "đầu tiên, ban đầu, lúc đầu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Ngày tôi thích NHẤT 最 là NGÀY 日 LẤY 取 thưởng Tết"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 6 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 最"
+    }
+  ]
+}

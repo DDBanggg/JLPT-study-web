@@ -406,10 +406,10 @@ Validate:
 - Kanji required fields and optional-field structure
 - Kanji source-exhaustive coverage; no target or pool quota
 - Grammar Test = 25 Grammar questions
-- Grammar Test = 5 lessons × 5 questions
+- Grammar Test grouping = 5 lessons × 5 questions for N5/N4; assigned lesson/Part grouping for N3
 - Grammar Test section max score = 25
-- Daily Test = 45 questions
-- Daily Test = 15 Grammar / 15 Vocabulary / 15 Kanji
+- Daily Test = 45 questions for N5/N4; 40 questions for N3
+- N3 Daily Test = 10 Grammar / 15 Vocabulary / 15 Kanji
 - answer indices
 - roadmap references
 - YouTube metadata

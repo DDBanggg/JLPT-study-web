@@ -689,6 +689,10 @@ For new content, every question should include `source_item_refs` linking it to 
 
 Do not infer a replacement grouping rule if a later phase does not use exactly 5 lessons per Study Day. Update the specification first.
 
+N3 Grammar Tests keep 25 questions but group by the assigned lesson/Part rather than
+forcing the N5/N4 five-lesson shape. For the first N3 contract, C1L1P1 on Study Day 11
+uses one `lesson_groups` entry for Lesson 1 containing all 25 question IDs.
+
 Grammar Test uses raw scoring `x / 25`; it is not scaled to `/60`.
 
 In a published Grammar Test file, the `grammar` section's `questions` array contains all 25 shared Test Question objects; the empty array above abbreviates the structural example only.
@@ -725,6 +729,15 @@ distributions determined by the covered Study Day:
 not only the 45-question total.
 
 Daily Test Day X covers Day X-1.
+
+N3 Daily Tests use a separate fixed distribution:
+
+```text
+10 Grammar + 15 Vocabulary + 15 Kanji = 40 questions
+```
+
+This contract starts with Daily Test Day 12 covering C1L1P1 on Study Day 11. Existing
+N5/N4 Daily Tests on Day 2–11 retain their published 45-question distributions.
 
 For new content, every Daily Test question should include `source_item_refs` that resolve only to Grammar, Vocabulary, or Kanji items from Study Day X-1. Weak Items are not a content source for Daily Test generation.
 
@@ -769,7 +782,7 @@ Vocabulary target/pool counts, Kanji required/optional field structure, Reading
 stimulus/translation/media/text-image-option rules, all four Reading question variants
 and their answer references, Reading asset path format plus file existence under
 `publicRoot`, test/question-ID uniqueness, Grammar Test structure/count/grouping/coverage,
-and canonical Daily Test section/category/score/total counts. Runtime Reading validation checks asset path format;
+and phase-aware Daily Test section/category/score/total counts (45 for N5/N4, 40 for N3). Runtime Reading validation checks asset path format;
 `npm run validate-content` additionally checks referenced file existence. Other bullets
 above remain **specification requirements / future validator requirements** until
 implemented in validator code.
@@ -781,7 +794,7 @@ Structurally valid JSON may still be poor learning content. Content lint is a se
 - Fields ending in `_vi` (`explanation_vi`, `meaning_vi`, `usage_vi`, `notes_vi`, `translation_vi`, `description_vi`) contain primarily Vietnamese explanation. Japanese may appear in examples or quotations, but the main explanation must not accidentally be entirely Japanese.
 - Reading `translation_vi` translates passage text only and never describes media.
 - Image answer-option alt text is neutral and does not disclose answer semantics.
-- Generated MCQ answer positions avoid obvious patterns. As a soft guideline, each A/B/C/D appears about 5–8 times in a 25-question test and about 9–13 times in a 45-question test. Source-faithful tests may deviate when justified.
+- Generated MCQ answer positions avoid obvious patterns. As a soft guideline, each A/B/C/D appears about 5–8 times in a 25-question test and about 9–13 times in a 40–45-question test. Source-faithful tests may deviate when justified.
 - Options are non-empty and non-duplicate; the correct answer is not duplicated; distractors are meaningful, format-compatible, and use an appropriate grammatical/lexical class.
 - A test contains no duplicate or near-duplicate questions unless the source provides a documented reason.
 - Grammar Test contains 5 questions per lesson and tests only same-day Grammar.

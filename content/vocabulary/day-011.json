@@ -1,0 +1,873 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-011",
+  "study_day": 11,
+  "target": 50,
+  "pool_size": 44,
+  "items": [
+    {
+      "id": 1101,
+      "surface": "次回",
+      "hiragana": "じかい",
+      "kanji": "次回",
+      "meaning_vi": "lần sau, lần tiếp theo",
+      "examples": [
+        {
+          "jp": "次回は気をつけます。",
+          "vi": "Lần sau tôi sẽ chú ý."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 001 — 次回"
+    },
+    {
+      "id": 1102,
+      "surface": "原因",
+      "hiragana": "げんいん",
+      "kanji": "原因",
+      "meaning_vi": "nguyên nhân, lý do",
+      "examples": [
+        {
+          "jp": "失敗の原因を調べる。",
+          "vi": "Tìm hiểu nguyên nhân thất bại."
+        },
+        {
+          "jp": "原因不明の病気になる。",
+          "vi": "Mắc một căn bệnh không rõ nguyên nhân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 002 — 原因"
+    },
+    {
+      "id": 1103,
+      "surface": "習慣",
+      "hiragana": "しゅうかん",
+      "kanji": "習慣",
+      "meaning_vi": "thói quen, tập quán",
+      "examples": [
+        {
+          "jp": "この仕事を始めてから、早起きの習慣が身に付いた。",
+          "vi": "Từ khi bắt đầu công việc này, tôi đã hình thành thói quen dậy sớm."
+        },
+        {
+          "jp": "この国には、玄関で靴を脱ぐ習慣がある。",
+          "vi": "Ở đất nước này có tập quán cởi giày ở lối vào."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 003 — 習慣"
+    },
+    {
+      "id": 1104,
+      "surface": "最後",
+      "hiragana": "さいご",
+      "kanji": "最後",
+      "meaning_vi": "cuối cùng, lần cuối",
+      "examples": [
+        {
+          "jp": "アルバイト最後の日に、パーティーを開いてもらった。",
+          "vi": "Vào ngày cuối làm thêm, mọi người đã tổ chức tiệc cho tôi."
+        },
+        {
+          "jp": "こちらにあるものが、最後の１つでございます。",
+          "vi": "Món ở đây là món cuối cùng ạ."
+        },
+        {
+          "jp": "最後まであきらめてはいけない。",
+          "vi": "Không được bỏ cuộc cho đến cuối cùng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 004 — 最後"
+    },
+    {
+      "id": 1105,
+      "surface": "最終",
+      "hiragana": "さいしゅう",
+      "kanji": "最終",
+      "meaning_vi": "sau cùng, cuối cùng (giai đoạn)",
+      "examples": [
+        {
+          "jp": "最終電車は11時58分です。",
+          "vi": "Chuyến tàu cuối là lúc 11 giờ 58 phút."
+        },
+        {
+          "jp": "旅行の最終日に風邪を引いてしまいました。",
+          "vi": "Tôi đã bị cảm vào ngày cuối của chuyến du lịch."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 005 — 最終"
+    },
+    {
+      "id": 1106,
+      "surface": "最初",
+      "hiragana": "さいしょ",
+      "kanji": "最初",
+      "meaning_vi": "đầu tiên, ban đầu, lúc đầu",
+      "examples": [
+        {
+          "jp": "最初は漢字が全然読めなかったけど、今は読める。",
+          "vi": "Ban đầu tôi hoàn toàn không đọc được Kanji, nhưng giờ đã đọc được."
+        },
+        {
+          "jp": "合格できないことは、最初からわかっていた。",
+          "vi": "Ngay từ đầu tôi đã biết là mình không thể đỗ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 006 — 最初"
+    },
+    {
+      "id": 1107,
+      "surface": "最新",
+      "hiragana": "さいしん",
+      "kanji": "最新",
+      "meaning_vi": "mới nhất, hiện đại nhất",
+      "examples": [
+        {
+          "jp": "このデータは、今年最新のデータです。",
+          "vi": "Đây là dữ liệu mới nhất của năm nay."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 007 — 最新"
+    },
+    {
+      "id": 1108,
+      "surface": "最多",
+      "hiragana": "さいた",
+      "kanji": "最多",
+      "meaning_vi": "nhiều nhất (số lượng)",
+      "examples": [
+        {
+          "jp": "今年は台風の数がこの5年で最多だった。",
+          "vi": "Năm nay có số cơn bão nhiều nhất trong năm năm qua."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 008 — 最多"
+    },
+    {
+      "id": 1109,
+      "surface": "最大",
+      "hiragana": "さいだい",
+      "kanji": "最大",
+      "meaning_vi": "lớn nhất, cực đại, tối đa",
+      "examples": [
+        {
+          "jp": "この会場は最大で1万人入ります。",
+          "vi": "Hội trường này chứa được tối đa mười nghìn người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 009 — 最大"
+    },
+    {
+      "id": 1110,
+      "surface": "最中",
+      "hiragana": "さいちゅう",
+      "kanji": "最中",
+      "meaning_vi": "đang trong lúc, giữa chừng",
+      "examples": [
+        {
+          "jp": "試合の最中に地震が起きた。",
+          "vi": "Động đất xảy ra giữa lúc trận đấu đang diễn ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 010 — 最中"
+    },
+    {
+      "id": 1111,
+      "surface": "感情",
+      "hiragana": "かんじょう",
+      "kanji": "感情",
+      "meaning_vi": "cảm xúc, tình cảm",
+      "examples": [
+        {
+          "jp": "私は感情が表に出やすい。",
+          "vi": "Cảm xúc của tôi dễ bộc lộ ra ngoài."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 011 — 感情"
+    },
+    {
+      "id": 1112,
+      "surface": "事情",
+      "hiragana": "じじょう",
+      "kanji": "事情",
+      "meaning_vi": "sự tình, hoàn cảnh; lý do",
+      "examples": [
+        {
+          "jp": "彼は中国に住んでいたから、中国の事情に詳しい。",
+          "vi": "Vì từng sống ở Trung Quốc nên anh ấy hiểu rõ tình hình ở đó."
+        },
+        {
+          "jp": "家庭の事情で仕事をやめた。",
+          "vi": "Tôi nghỉ việc vì hoàn cảnh gia đình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 012 — 事情"
+    },
+    {
+      "id": 1113,
+      "surface": "情報",
+      "hiragana": "じょうほう",
+      "kanji": "情報",
+      "meaning_vi": "thông tin",
+      "examples": [
+        {
+          "jp": "事件の情報を集める。",
+          "vi": "Thu thập thông tin về vụ việc."
+        },
+        {
+          "jp": "この本には、役に立つ情報がたくさんある。",
+          "vi": "Cuốn sách này có nhiều thông tin hữu ích."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 013 — 情報"
+    },
+    {
+      "id": 1114,
+      "surface": "表情",
+      "hiragana": "ひょうじょう",
+      "kanji": "表情",
+      "meaning_vi": "biểu cảm, nét mặt",
+      "examples": [
+        {
+          "jp": "彼女は表情がよく変わる。",
+          "vi": "Nét mặt cô ấy thay đổi liên tục."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 014 — 表情"
+    },
+    {
+      "id": 1115,
+      "surface": "友情",
+      "hiragana": "ゆうじょう",
+      "kanji": "友情",
+      "meaning_vi": "tình bạn",
+      "examples": [
+        {
+          "jp": "私たちは友情を大切にしている。",
+          "vi": "Chúng tôi coi trọng tình bạn."
+        },
+        {
+          "jp": "彼と私の間に、友情が生まれた。",
+          "vi": "Một tình bạn đã nảy sinh giữa tôi và anh ấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 015 — 友情"
+    },
+    {
+      "id": 1116,
+      "surface": "調子",
+      "hiragana": "ちょうし",
+      "kanji": "調子",
+      "meaning_vi": "tình trạng, trạng thái (của cơ thể, máy móc, công việc,...)",
+      "examples": [
+        {
+          "jp": "最近、体の調子がいい。",
+          "vi": "Gần đây tình trạng sức khỏe của tôi tốt."
+        },
+        {
+          "jp": "パソコンの調子が悪くて、メールが送信できない。",
+          "vi": "Máy tính trục trặc nên tôi không gửi được email."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 016 — 調子"
+    },
+    {
+      "id": 1117,
+      "surface": "熱",
+      "hiragana": "ねつ",
+      "kanji": "熱",
+      "meaning_vi": "sốt; nhiệt, sức nóng",
+      "examples": [
+        {
+          "jp": "40度の熱が出て、会社を休んだ。",
+          "vi": "Tôi sốt 40 độ nên đã nghỉ làm."
+        },
+        {
+          "jp": "太陽の熱で、道路が熱くなっている。",
+          "vi": "Mặt đường nóng lên vì sức nóng của mặt trời."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 017 — 熱"
+    },
+    {
+      "id": 1118,
+      "surface": "急ぎ",
+      "hiragana": "いそぎ",
+      "kanji": "急ぎ",
+      "meaning_vi": "khẩn cấp, vội vàng, gấp rút",
+      "examples": [
+        {
+          "jp": "課長から急ぎの仕事を頼まれた。",
+          "vi": "Trưởng phòng giao cho tôi một công việc gấp."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 018 — 急ぎ"
+    },
+    {
+      "id": 1119,
+      "surface": "性格",
+      "hiragana": "せいかく",
+      "kanji": "性格",
+      "meaning_vi": "tính cách",
+      "examples": [
+        {
+          "jp": "前の彼氏とは、性格が合わなくて別れた。",
+          "vi": "Tôi chia tay bạn trai cũ vì tính cách không hợp."
+        },
+        {
+          "jp": "弟は顔はいいが、性格が悪い。",
+          "vi": "Em trai tôi đẹp trai nhưng tính cách xấu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 019 — 性格"
+    },
+    {
+      "id": 1120,
+      "surface": "始め",
+      "hiragana": "はじめ",
+      "kanji": "始め",
+      "meaning_vi": "lúc bắt đầu, lúc khởi đầu",
+      "examples": [
+        {
+          "jp": "授業の始めに単語テストをする。",
+          "vi": "Đầu giờ học sẽ có bài kiểm tra từ vựng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 020 — 始め"
+    },
+    {
+      "id": 1121,
+      "surface": "始まり",
+      "hiragana": "はじまり",
+      "kanji": "始まり",
+      "meaning_vi": "sự khởi đầu, sự bắt đầu",
+      "examples": [
+        {
+          "jp": "雨の影響で試合の始まりが遅れた。",
+          "vi": "Trận đấu bắt đầu muộn do ảnh hưởng của mưa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 021 — 始まり"
+    },
+    {
+      "id": 1122,
+      "surface": "将来",
+      "hiragana": "しょうらい",
+      "kanji": "将来",
+      "meaning_vi": "tương lai",
+      "examples": [
+        {
+          "jp": "社長は会社の将来を考えている。",
+          "vi": "Giám đốc đang suy nghĩ về tương lai của công ty."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 022 — 将来"
+    },
+    {
+      "id": 1123,
+      "surface": "給料",
+      "hiragana": "きゅうりょう",
+      "kanji": "給料",
+      "meaning_vi": "tiền lương",
+      "examples": [
+        {
+          "jp": "給料が少ないので、違う仕事がしたい。",
+          "vi": "Vì lương thấp nên tôi muốn làm công việc khác."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 023 — 給料"
+    },
+    {
+      "id": 1124,
+      "surface": "暮らし",
+      "hiragana": "くらし",
+      "kanji": "暮らし",
+      "meaning_vi": "cuộc sống",
+      "examples": [
+        {
+          "jp": "日本の暮らしに少しずつ慣れてきました。",
+          "vi": "Tôi đã dần quen với cuộc sống ở Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 024 — 暮らし"
+    },
+    {
+      "id": 1125,
+      "surface": "壁",
+      "hiragana": "かべ",
+      "kanji": "壁",
+      "meaning_vi": "bức tường",
+      "examples": [
+        {
+          "jp": "部屋の壁に写真を飾った。",
+          "vi": "Tôi trang trí ảnh trên tường phòng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 025 — 壁"
+    },
+    {
+      "id": 1126,
+      "surface": "機械",
+      "hiragana": "きかい",
+      "kanji": "機械",
+      "meaning_vi": "máy móc",
+      "examples": [
+        {
+          "jp": "この機械の使い方を教えていただけませんか。",
+          "vi": "Bạn có thể chỉ cho tôi cách dùng chiếc máy này được không?"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 026 — 機械"
+    },
+    {
+      "id": 1127,
+      "surface": "電球",
+      "hiragana": "でんきゅう",
+      "kanji": "電球",
+      "meaning_vi": "bóng đèn tròn",
+      "examples": [
+        {
+          "jp": "あれ？電気がつかない。電球が切れたのかな。",
+          "vi": "Ủa? Đèn không sáng. Có lẽ bóng đèn bị cháy rồi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 027 — 電球"
+    },
+    {
+      "id": 1128,
+      "surface": "前日",
+      "hiragana": "ぜんじつ",
+      "kanji": "前日",
+      "meaning_vi": "ngày hôm trước",
+      "examples": [
+        {
+          "jp": "旅行の前日は、わくわくして眠れなかった。",
+          "vi": "Đêm trước chuyến đi, tôi háo hức đến mức không ngủ được."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 028 — 前日"
+    },
+    {
+      "id": 1129,
+      "surface": "全力",
+      "hiragana": "ぜんりょく",
+      "kanji": "全力",
+      "meaning_vi": "toàn lực, hết sức",
+      "examples": [
+        {
+          "jp": "駅まで全力で走って、ぎりぎり電車に間に合った。",
+          "vi": "Tôi chạy hết sức đến ga và vừa kịp chuyến tàu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 029 — 全力"
+    },
+    {
+      "id": 1130,
+      "surface": "悲しみ",
+      "hiragana": "かなしみ",
+      "kanji": "悲しみ",
+      "meaning_vi": "nỗi buồn",
+      "examples": [
+        {
+          "jp": "彼女と別れた悲しみで、勉強する気分になれない。",
+          "vi": "Vì nỗi buồn chia tay cô ấy nên tôi không có tâm trạng học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 030 — 悲しみ"
+    },
+    {
+      "id": 1131,
+      "surface": "困難",
+      "hiragana": "こんなん",
+      "kanji": "困難",
+      "meaning_vi": "khó khăn, gian nan, trở ngại",
+      "examples": [
+        {
+          "jp": "事故で足をけがしているので、歩くのが困難だ。",
+          "vi": "Vì bị thương ở chân trong tai nạn nên việc đi lại rất khó khăn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N / Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 031 — 困難"
+    },
+    {
+      "id": 1132,
+      "surface": "最高",
+      "hiragana": "さいこう",
+      "kanji": "最高",
+      "meaning_vi": "cao nhất; tuyệt vời",
+      "examples": [
+        {
+          "jp": "世界最高の山はエベレストです。",
+          "vi": "Ngọn núi cao nhất thế giới là Everest."
+        },
+        {
+          "jp": "好きなチームが試合で勝って、最高の気分だ。",
+          "vi": "Đội tôi thích thắng trận nên tôi cảm thấy tuyệt nhất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N / Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 032 — 最高"
+    },
+    {
+      "id": 1133,
+      "surface": "最低",
+      "hiragana": "さいてい",
+      "kanji": "最低",
+      "meaning_vi": "thấp nhất, tối thiểu; tồi tệ",
+      "examples": [
+        {
+          "jp": "今日の最低気温は0度でした。",
+          "vi": "Nhiệt độ thấp nhất hôm nay là 0 độ."
+        },
+        {
+          "jp": "あの男は嘘つきで、最低だ。",
+          "vi": "Gã đó là kẻ nói dối, thật tệ hại."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N / Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 033 — 最低"
+    },
+    {
+      "id": 1134,
+      "surface": "無理",
+      "hiragana": "むり",
+      "kanji": "無理",
+      "meaning_vi": "quá sức, không thể",
+      "examples": [
+        {
+          "jp": "今日中にこの量の仕事を終わらせるなんて無理な話だ。",
+          "vi": "Hoàn thành chừng này công việc trong hôm nay là điều không thể."
+        },
+        {
+          "jp": "無理なお願いをしてしまい、すみません。",
+          "vi": "Xin lỗi vì đã đưa ra một yêu cầu quá sức."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N / Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 034 — 無理"
+    },
+    {
+      "id": 1135,
+      "surface": "無駄",
+      "hiragana": "むだ",
+      "kanji": "無駄",
+      "meaning_vi": "vô ích, lãng phí",
+      "examples": [
+        {
+          "jp": "部屋にある無駄な物を捨てる。",
+          "vi": "Vứt bỏ những đồ không cần thiết trong phòng."
+        },
+        {
+          "jp": "母は毎日近所の人と無駄話をしている。",
+          "vi": "Mẹ tôi ngày nào cũng tán gẫu với hàng xóm."
+        },
+        {
+          "jp": "料理を落として無駄にしてしまった。",
+          "vi": "Tôi làm rơi thức ăn nên đã lãng phí mất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N / Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 035 — 無駄"
+    },
+    {
+      "id": 1136,
+      "surface": "豊か",
+      "hiragana": "ゆたか",
+      "kanji": "豊か",
+      "meaning_vi": "phong phú, dư dả, giàu có",
+      "examples": [
+        {
+          "jp": "鈴木さんは音楽に関する知識が豊かだ。",
+          "vi": "Anh Suzuki có kiến thức phong phú về âm nhạc."
+        },
+        {
+          "jp": "妻と二人で豊かな暮らしを送る。",
+          "vi": "Tôi sống một cuộc sống sung túc cùng vợ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 036 — 豊か"
+    },
+    {
+      "id": 1137,
+      "surface": "感情的",
+      "hiragana": "かんじょうてき",
+      "kanji": "感情的",
+      "meaning_vi": "dễ xúc động, mang tính cảm xúc",
+      "examples": [
+        {
+          "jp": "彼は感情的になりやすい。",
+          "vi": "Anh ấy dễ trở nên xúc động."
+        },
+        {
+          "jp": "感情的になって、泣いてしまった。",
+          "vi": "Tôi xúc động và đã bật khóc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 037 — 感情的"
+    },
+    {
+      "id": 1138,
+      "surface": "固い",
+      "hiragana": "かたい",
+      "kanji": "固い",
+      "meaning_vi": "cứng, chặt (không dễ mở); (ý chí) quả quyết, không lay chuyển; bảo thủ",
+      "examples": [
+        {
+          "jp": "この瓶は、ふたが固くて開かない。",
+          "vi": "Nắp chiếc lọ này chặt quá nên không mở được."
+        },
+        {
+          "jp": "息子の留学するという意志は固く、止められなかった。",
+          "vi": "Ý chí đi du học của con trai tôi rất kiên định nên tôi không ngăn được."
+        },
+        {
+          "jp": "父は頭が固くて、人の話を聞かない。",
+          "vi": "Cha tôi bảo thủ và không chịu nghe người khác."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 038 — 固い"
+    },
+    {
+      "id": 1139,
+      "surface": "悲しい",
+      "hiragana": "かなしい",
+      "kanji": "悲しい",
+      "meaning_vi": "buồn, đau khổ",
+      "examples": [
+        {
+          "jp": "ペットの犬が死んで、とても悲しい。",
+          "vi": "Con chó nuôi đã chết nên tôi rất buồn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 039 — 悲しい"
+    },
+    {
+      "id": 1140,
+      "surface": "引く",
+      "hiragana": "ひく",
+      "kanji": "引く",
+      "meaning_vi": "kéo; gạch (chân); rút; trừ; thu hút",
+      "examples": [
+        {
+          "jp": "押しても引いてもドアが開かない。",
+          "vi": "Dù đẩy hay kéo, cánh cửa vẫn không mở."
+        },
+        {
+          "jp": "重要な単語に線を引く。",
+          "vi": "Gạch chân những từ quan trọng."
+        },
+        {
+          "jp": "おみくじを引く。",
+          "vi": "Rút quẻ omikuji."
+        },
+        {
+          "jp": "５引く３は２。",
+          "vi": "Năm trừ ba bằng hai."
+        },
+        {
+          "jp": "大きい声で叫んだら、周囲の目を引いた。",
+          "vi": "Khi tôi hét lớn, tôi đã thu hút ánh nhìn của mọi người xung quanh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 040 — 引く"
+    },
+    {
+      "id": 1141,
+      "surface": "運ぶ",
+      "hiragana": "はこぶ",
+      "kanji": "運ぶ",
+      "meaning_vi": "vận chuyển",
+      "examples": [
+        {
+          "jp": "荷物を運ぶ。",
+          "vi": "Vận chuyển hành lý."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 041 — 運ぶ"
+    },
+    {
+      "id": 1142,
+      "surface": "治る",
+      "hiragana": "なおる",
+      "kanji": "治る",
+      "meaning_vi": "khỏi (bệnh), lành lại",
+      "examples": [
+        {
+          "jp": "なかなか風邪が治らない。",
+          "vi": "Mãi mà cảm vẫn không khỏi."
+        },
+        {
+          "jp": "傷口が治る。",
+          "vi": "Vết thương lành lại."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 042 — 治る"
+    },
+    {
+      "id": 1143,
+      "surface": "向かう",
+      "hiragana": "むかう",
+      "kanji": "向かう",
+      "meaning_vi": "hướng đến, tiến về phía (hướng, mục tiêu); đối diện",
+      "examples": [
+        {
+          "jp": "今、ホテルに向かっています。",
+          "vi": "Bây giờ tôi đang trên đường đến khách sạn."
+        },
+        {
+          "jp": "目標に向かって努力する。",
+          "vi": "Nỗ lực hướng tới mục tiêu."
+        },
+        {
+          "jp": "先生に向かって失礼なことを言うべきではない。",
+          "vi": "Không nên nói điều thất lễ với giáo viên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 043 — 向かう"
+    },
+    {
+      "id": 1144,
+      "surface": "届く",
+      "hiragana": "とどく",
+      "kanji": "届く",
+      "meaning_vi": "đến nơi, được giao tới; với tới",
+      "examples": [
+        {
+          "jp": "海外にいる友達から荷物が届いた。",
+          "vi": "Một kiện hàng từ người bạn ở nước ngoài đã được gửi tới."
+        },
+        {
+          "jp": "危ない物は、子供の手が届かない所に置いてください。",
+          "vi": "Hãy để đồ nguy hiểm ở nơi trẻ em không với tới được."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 044 — 届く"
+    }
+  ]
+}

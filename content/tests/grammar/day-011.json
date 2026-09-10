@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-011",
+  "type": "grammar",
+  "title": "Grammar Test — Day 11",
+  "study_day": 11,
+  "coverage": {
+    "from_day": 11,
+    "to_day": 11
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この歌は（　　　）歌うほど好きになる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "歌えば"
+            },
+            {
+              "id": "B",
+              "text": "歌うなら"
+            },
+            {
+              "id": "C",
+              "text": "歌っても"
+            },
+            {
+              "id": "D",
+              "text": "歌ったら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "荷物は軽ければ（　　　）ほど、運びやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "軽かった"
+            },
+            {
+              "id": "B",
+              "text": "軽ければ"
+            },
+            {
+              "id": "C",
+              "text": "軽く"
+            },
+            {
+              "id": "D",
+              "text": "軽い"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "説明は（　　　）簡単なほど、子供にもわかりやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "簡単だったら"
+            },
+            {
+              "id": "B",
+              "text": "簡単なら"
+            },
+            {
+              "id": "C",
+              "text": "簡単でも"
+            },
+            {
+              "id": "D",
+              "text": "簡単に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "駅に近い家は、便利であれば（　　　）ほど家賃も高くなる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あった"
+            },
+            {
+              "id": "B",
+              "text": "あれば"
+            },
+            {
+              "id": "C",
+              "text": "あって"
+            },
+            {
+              "id": "D",
+              "text": "ある"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "仕事は複雑で（　　　）複雑であるほど、説明に時間がかかる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あるなら"
+            },
+            {
+              "id": "B",
+              "text": "あったら"
+            },
+            {
+              "id": "C",
+              "text": "あれば"
+            },
+            {
+              "id": "D",
+              "text": "あっても"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "この町は人が（　　　）多いほど、店も増える。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "多ければ"
+            },
+            {
+              "id": "B",
+              "text": "多くても"
+            },
+            {
+              "id": "C",
+              "text": "多いなら"
+            },
+            {
+              "id": "D",
+              "text": "多かったら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "明日も熱が（　　　）ようなら、学校を休んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "高く"
+            },
+            {
+              "id": "B",
+              "text": "高い"
+            },
+            {
+              "id": "C",
+              "text": "高いな"
+            },
+            {
+              "id": "D",
+              "text": "高くて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "一人でこの機械を使うのが（　　　）ようなら、私を呼んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "無理に"
+            },
+            {
+              "id": "B",
+              "text": "無理な"
+            },
+            {
+              "id": "C",
+              "text": "無理で"
+            },
+            {
+              "id": "D",
+              "text": "無理だ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "駅まで歩いて（　　　）ようなら、タクシーを使ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "行けない"
+            },
+            {
+              "id": "B",
+              "text": "行けません"
+            },
+            {
+              "id": "C",
+              "text": "行けなく"
+            },
+            {
+              "id": "D",
+              "text": "行けなかったら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "店員：この靴を履いてみてください。少しでも歩きにくい（　　　）、別の靴をお持ちします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようなら"
+            },
+            {
+              "id": "B",
+              "text": "ように"
+            },
+            {
+              "id": "C",
+              "text": "ようで"
+            },
+            {
+              "id": "D",
+              "text": "ような"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "今晩、家で静かに勉強できる（　　　）あれば、その部屋で勉強してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ように"
+            },
+            {
+              "id": "B",
+              "text": "ような"
+            },
+            {
+              "id": "C",
+              "text": "ようで"
+            },
+            {
+              "id": "D",
+              "text": "ようなら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "私の説明が（　　　）ようなら、もっとゆっくり話します。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わかりにくく"
+            },
+            {
+              "id": "B",
+              "text": "わかりにくくて"
+            },
+            {
+              "id": "C",
+              "text": "わかりにくいな"
+            },
+            {
+              "id": "D",
+              "text": "わかりにくい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "後ろの席の人にも字が見えるよう（　　　）、大きく書いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "な"
+            },
+            {
+              "id": "D",
+              "text": "の"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "子供が安全に道を（　　　）ように、車を止めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "渡れる"
+            },
+            {
+              "id": "B",
+              "text": "渡れて"
+            },
+            {
+              "id": "C",
+              "text": "渡れます"
+            },
+            {
+              "id": "D",
+              "text": "渡れれば"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "大切な紙を風で飛ばされ（　　　）ように、本を上に置いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なく"
+            },
+            {
+              "id": "B",
+              "text": "なければ"
+            },
+            {
+              "id": "C",
+              "text": "ません"
+            },
+            {
+              "id": "D",
+              "text": "ない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "家族が（　　　）ように、小さい声で電話した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "起きなく"
+            },
+            {
+              "id": "B",
+              "text": "起きません"
+            },
+            {
+              "id": "C",
+              "text": "起きない"
+            },
+            {
+              "id": "D",
+              "text": "起きなかったら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "誰でもボタンを（　　　）ように、機械を低い台の上に置いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "押せる"
+            },
+            {
+              "id": "B",
+              "text": "押せば"
+            },
+            {
+              "id": "C",
+              "text": "押せます"
+            },
+            {
+              "id": "D",
+              "text": "押せて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "雨の日でも服がぬれない（　　　）、かばんに入れて運びました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようの"
+            },
+            {
+              "id": "B",
+              "text": "ように"
+            },
+            {
+              "id": "C",
+              "text": "ようを"
+            },
+            {
+              "id": "D",
+              "text": "ような"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "水を大切にしたいので、これからは、歯をみがく間は水を（　　　）ようにします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "止めます"
+            },
+            {
+              "id": "B",
+              "text": "止めれば"
+            },
+            {
+              "id": "C",
+              "text": "止める"
+            },
+            {
+              "id": "D",
+              "text": "止めて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "お金が足りないので、今月から、外で食事を（　　　）ようにします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しません"
+            },
+            {
+              "id": "B",
+              "text": "しない"
+            },
+            {
+              "id": "C",
+              "text": "しなければ"
+            },
+            {
+              "id": "D",
+              "text": "しなく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "お客様には、これからもていねいに話すよう（　　　）してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "の"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "な"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "体を動かすために、明日からみんなで階段を使うよう（　　　）しましょう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "と"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "また約束を間違えた。これからは、約束したらすぐに手帳に（　　　）ようにしなきゃ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "書きます"
+            },
+            {
+              "id": "B",
+              "text": "書いて"
+            },
+            {
+              "id": "C",
+              "text": "書けば"
+            },
+            {
+              "id": "D",
+              "text": "書く"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "図書館では、これから携帯電話で（　　　）ようにしてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "話しません"
+            },
+            {
+              "id": "B",
+              "text": "話さなく"
+            },
+            {
+              "id": "C",
+              "text": "話さなければ"
+            },
+            {
+              "id": "D",
+              "text": "話さない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "朝起きるのが大変なので、今日から早く（　　　）ようにします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "寝ます"
+            },
+            {
+              "id": "B",
+              "text": "寝る"
+            },
+            {
+              "id": "C",
+              "text": "寝れば"
+            },
+            {
+              "id": "D",
+              "text": "寝て"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        }
+      ]
+    }
+  ]
+}

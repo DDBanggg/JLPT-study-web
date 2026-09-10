@@ -66,6 +66,27 @@ describe("roadmap and Schedule derivation", () => {
     });
   });
 
+  it("maps C1L1P1 to Day 11 and its Daily Test to Day 12", async () => {
+    const result = await loadProgramRoadmap();
+    if (result.state !== "available") throw new Error("Roadmap missing");
+
+    expect(getRoadmapDay(result.data, 11).tasks.map(({ type }) => type)).toEqual([
+      "daily_test",
+      "end_test",
+      "grammar",
+      "grammar_test",
+      "vocabulary",
+      "kanji",
+    ]);
+    const day12 = getRoadmapDay(result.data, 12);
+    expect(day12.tasks.map(({ resource_id }) => resource_id)).toEqual(["daily-012"]);
+    await expect(loadTaskContentSummary(day12.tasks[0], 12)).resolves.toEqual({
+      state: "available",
+      itemIds: [],
+      total: 40,
+    });
+  });
+
   it("derives available, in-progress and finished task DTOs", async () => {
     const result = await loadProgramRoadmap();
     if (result.state !== "available") throw new Error("Roadmap missing");

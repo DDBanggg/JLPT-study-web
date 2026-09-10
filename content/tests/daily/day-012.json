@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-012",
+  "type": "daily",
+  "title": "Daily Test — Day 12",
+  "study_day": 12,
+  "coverage": {
+    "from_day": 11,
+    "to_day": 11
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この料理は、時間をかけて（　　　）ほど、味がよくなる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "煮れば煮る"
+            },
+            {
+              "id": "B",
+              "text": "煮るなら煮る"
+            },
+            {
+              "id": "C",
+              "text": "煮たら煮る"
+            },
+            {
+              "id": "D",
+              "text": "煮ても煮る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "冬の朝は、気温が低ければ低い（　　　）、ベッドから出たくなくなる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "より"
+            },
+            {
+              "id": "B",
+              "text": "ほど"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "さえ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "ホテルの部屋を見てから決めてください。二人で使うには（　　　）ようなら、別の部屋をご案内します。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "狭く"
+            },
+            {
+              "id": "B",
+              "text": "狭くて"
+            },
+            {
+              "id": "C",
+              "text": "狭い"
+            },
+            {
+              "id": "D",
+              "text": "狭いな"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "買う前に試してみてください。このカメラが（　　　）なら、もう少し小さい物をお見せします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "重くよう"
+            },
+            {
+              "id": "B",
+              "text": "重くてよう"
+            },
+            {
+              "id": "C",
+              "text": "重いよう"
+            },
+            {
+              "id": "D",
+              "text": "重いなよう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1102"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "ピアノの音が外へ（　　　）ように、窓を全部閉めてから練習した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "聞こえなかったら"
+            },
+            {
+              "id": "B",
+              "text": "聞こえなく"
+            },
+            {
+              "id": "C",
+              "text": "聞こえない"
+            },
+            {
+              "id": "D",
+              "text": "聞こえません"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "料理をしながら時間が（　　　）ように、台所に時計を置いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わかって"
+            },
+            {
+              "id": "B",
+              "text": "わかります"
+            },
+            {
+              "id": "C",
+              "text": "わかれば"
+            },
+            {
+              "id": "D",
+              "text": "わかる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "明日の朝すぐに出発できる（　　　）、今夜のうちに荷物を全部かばんに入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようの"
+            },
+            {
+              "id": "B",
+              "text": "ようを"
+            },
+            {
+              "id": "C",
+              "text": "ように"
+            },
+            {
+              "id": "D",
+              "text": "ような"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1103"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "仕事の間違いを減らしたい。明日から、書類を出す前に名前と数字を（　　　）ようにします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確かめて"
+            },
+            {
+              "id": "B",
+              "text": "確かめれば"
+            },
+            {
+              "id": "C",
+              "text": "確かめます"
+            },
+            {
+              "id": "D",
+              "text": "確かめる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "次の授業から、わからないことがあったら、その日のうちに先生に質問するように（　　　）ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "する"
+            },
+            {
+              "id": "B",
+              "text": "して"
+            },
+            {
+              "id": "C",
+              "text": "し"
+            },
+            {
+              "id": "D",
+              "text": "した"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "もう試合で同じ失敗をしたくない。これからは、ボールから目を（　　　）ようにしなきゃ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "離さなく"
+            },
+            {
+              "id": "B",
+              "text": "離さなければ"
+            },
+            {
+              "id": "C",
+              "text": "離しません"
+            },
+            {
+              "id": "D",
+              "text": "離さない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "なぜ火が出たのか。警察が火事の（　　　）を調べています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "原因"
+            },
+            {
+              "id": "B",
+              "text": "場所"
+            },
+            {
+              "id": "C",
+              "text": "時間"
+            },
+            {
+              "id": "D",
+              "text": "結果"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1102"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "この国では、家に入るときに靴を脱ぐ（　　　）がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "経験"
+            },
+            {
+              "id": "B",
+              "text": "習慣"
+            },
+            {
+              "id": "C",
+              "text": "予定"
+            },
+            {
+              "id": "D",
+              "text": "準備"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1103"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "これは昨日発売された、いちばん新しいカメラです。（　　　）のモデルです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "最新"
+            },
+            {
+              "id": "B",
+              "text": "最終"
+            },
+            {
+              "id": "C",
+              "text": "最初"
+            },
+            {
+              "id": "D",
+              "text": "最中"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1107"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "今年は去年より100人多い500人が来ました。これまでで（　　　）の人数です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "最新"
+            },
+            {
+              "id": "B",
+              "text": "最多"
+            },
+            {
+              "id": "C",
+              "text": "最終"
+            },
+            {
+              "id": "D",
+              "text": "最中"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1108"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "食事の（　　　）に電話が鳴ったので、食べるのをやめて電話に出た。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "最中"
+            },
+            {
+              "id": "B",
+              "text": "次回"
+            },
+            {
+              "id": "C",
+              "text": "将来"
+            },
+            {
+              "id": "D",
+              "text": "前日"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1110"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "旅行の前に、ホテルの料金や電車の時間などの（　　　）をインターネットで集めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "予定"
+            },
+            {
+              "id": "B",
+              "text": "経験"
+            },
+            {
+              "id": "C",
+              "text": "情報"
+            },
+            {
+              "id": "D",
+              "text": "事情"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1113"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "笑ったり泣いたりして、顔の（　　　）が次々と変わった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "表情"
+            },
+            {
+              "id": "B",
+              "text": "性格"
+            },
+            {
+              "id": "C",
+              "text": "事情"
+            },
+            {
+              "id": "D",
+              "text": "友情"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1114"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "朝からパソコンの（　　　）が悪く、何度も止まってしまう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "性格"
+            },
+            {
+              "id": "B",
+              "text": "気分"
+            },
+            {
+              "id": "C",
+              "text": "感情"
+            },
+            {
+              "id": "D",
+              "text": "調子"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1116"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "体がだるいので、体温を測ったら、39度の（　　　）があった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "体"
+            },
+            {
+              "id": "B",
+              "text": "病気"
+            },
+            {
+              "id": "C",
+              "text": "風邪"
+            },
+            {
+              "id": "D",
+              "text": "熱"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1117"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "会社から毎月もらう（　　　）の一部を、家賃に使っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "給料"
+            },
+            {
+              "id": "B",
+              "text": "仕事"
+            },
+            {
+              "id": "C",
+              "text": "時間"
+            },
+            {
+              "id": "D",
+              "text": "予定"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1123"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "瓶のふたが（　　　）ので、力を入れても開けられない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "固い"
+            },
+            {
+              "id": "B",
+              "text": "丸い"
+            },
+            {
+              "id": "C",
+              "text": "軽い"
+            },
+            {
+              "id": "D",
+              "text": "細い"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1138"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "高い棚に手が（　　　）ので、台に乗って本を取った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "治らない"
+            },
+            {
+              "id": "B",
+              "text": "向かわない"
+            },
+            {
+              "id": "C",
+              "text": "運ばない"
+            },
+            {
+              "id": "D",
+              "text": "届かない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1144"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「事情」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じじょう"
+            },
+            {
+              "id": "B",
+              "text": "じしょう"
+            },
+            {
+              "id": "C",
+              "text": "ししょう"
+            },
+            {
+              "id": "D",
+              "text": "しじょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1112"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「電球」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てんきょう"
+            },
+            {
+              "id": "B",
+              "text": "でんきょう"
+            },
+            {
+              "id": "C",
+              "text": "てんきゅう"
+            },
+            {
+              "id": "D",
+              "text": "でんきゅう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1127"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「ゆたか」に合う書き方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "豊い"
+            },
+            {
+              "id": "B",
+              "text": "豊な"
+            },
+            {
+              "id": "C",
+              "text": "豊る"
+            },
+            {
+              "id": "D",
+              "text": "豊か"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1136"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "「回収」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "がいしゅう"
+            },
+            {
+              "id": "B",
+              "text": "かいしゅう"
+            },
+            {
+              "id": "C",
+              "text": "かいじゅう"
+            },
+            {
+              "id": "D",
+              "text": "かいしょう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1101"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "「次回」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しかい"
+            },
+            {
+              "id": "B",
+              "text": "しがい"
+            },
+            {
+              "id": "C",
+              "text": "じかい"
+            },
+            {
+              "id": "D",
+              "text": "じがい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1101"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "「原因」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "げんいん"
+            },
+            {
+              "id": "B",
+              "text": "けんいん"
+            },
+            {
+              "id": "C",
+              "text": "げんにん"
+            },
+            {
+              "id": "D",
+              "text": "けんにん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1102"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "「困難」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "くなん"
+            },
+            {
+              "id": "B",
+              "text": "こんなん"
+            },
+            {
+              "id": "C",
+              "text": "こなん"
+            },
+            {
+              "id": "D",
+              "text": "こんねん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1103"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "「恥ずかしい」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがしい"
+            },
+            {
+              "id": "B",
+              "text": "はづがしい"
+            },
+            {
+              "id": "C",
+              "text": "はずかしい"
+            },
+            {
+              "id": "D",
+              "text": "はづかしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1104"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "「受け取る」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うけまる"
+            },
+            {
+              "id": "B",
+              "text": "うけとる"
+            },
+            {
+              "id": "C",
+              "text": "うけしゅる"
+            },
+            {
+              "id": "D",
+              "text": "うけどる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1105"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "「最も」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さいも"
+            },
+            {
+              "id": "B",
+              "text": "もっと"
+            },
+            {
+              "id": "C",
+              "text": "もっとも"
+            },
+            {
+              "id": "D",
+              "text": "もとも"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1106"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "「最高」の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さいごう"
+            },
+            {
+              "id": "B",
+              "text": "さいご"
+            },
+            {
+              "id": "C",
+              "text": "さいこう"
+            },
+            {
+              "id": "D",
+              "text": "さいこ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1106"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "この道は工事中なので、駅まで（　　　）して帰ろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "回収"
+            },
+            {
+              "id": "B",
+              "text": "次回"
+            },
+            {
+              "id": "C",
+              "text": "原因"
+            },
+            {
+              "id": "D",
+              "text": "遠回り"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1101"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "警察は事故の（　　　）を詳しく調べている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "次回"
+            },
+            {
+              "id": "B",
+              "text": "困難"
+            },
+            {
+              "id": "C",
+              "text": "最初"
+            },
+            {
+              "id": "D",
+              "text": "原因"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1102"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "財布を家に置いてきて、こまっています。「こまって」の書き方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "取って"
+            },
+            {
+              "id": "B",
+              "text": "困って"
+            },
+            {
+              "id": "C",
+              "text": "回って"
+            },
+            {
+              "id": "D",
+              "text": "因って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1103"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "人前で名前を間違えて、とても（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "恥ずかしかった"
+            },
+            {
+              "id": "B",
+              "text": "困難だった"
+            },
+            {
+              "id": "C",
+              "text": "最初だった"
+            },
+            {
+              "id": "D",
+              "text": "遠回りだった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1104"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "そこの塩をとってください。「とって」の書き方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "回って"
+            },
+            {
+              "id": "B",
+              "text": "取って"
+            },
+            {
+              "id": "C",
+              "text": "最って"
+            },
+            {
+              "id": "D",
+              "text": "困って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1105"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "仕事の内容について、取引先とメールで何度も（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "遠回り"
+            },
+            {
+              "id": "B",
+              "text": "やり取り"
+            },
+            {
+              "id": "C",
+              "text": "回収"
+            },
+            {
+              "id": "D",
+              "text": "困難"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1105"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "この仕事を始めた（　　　）は、失敗ばかりだった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "次回"
+            },
+            {
+              "id": "B",
+              "text": "最高"
+            },
+            {
+              "id": "C",
+              "text": "最初"
+            },
+            {
+              "id": "D",
+              "text": "原因"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1106"
+          ]
+        }
+      ]
+    }
+  ]
+}

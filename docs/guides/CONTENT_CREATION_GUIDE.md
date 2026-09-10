@@ -233,6 +233,15 @@ content/tests/daily/day-003.json
 
 Nếu ngày đó là test-only day thì chỉ cần chuẩn bị đúng các task có trong roadmap.
 
+Với N3, một Part có thể được publish độc lập theo rolling content. Contract đầu tiên:
+
+```text
+C1L1P1 → Study Day 11
+Grammar 4 + Vocabulary 44 + Kanji 6 + Grammar Test 25
+Daily Test Day 12 → review Day 11 với 10 Grammar + 15 Vocabulary + 15 Kanji = 40
+Reading/Listening có thể vắng mặt khi chưa được assign; không tạo placeholder.
+```
+
 ---
 
 # 5. Grammar
@@ -324,6 +333,9 @@ JSON sử dụng shared Test Question schema và một section `grammar` với `
 Với content mới, mỗi Grammar Test question nên có `source_item_refs` trỏ tới Grammar item của cùng Study Day để chứng minh coverage thực tế.
 
 Không dùng Grammar Test để thay thế Daily Test. Daily Test ngày kế tiếp kiểm tra Grammar, Vocabulary và, khi source day có, Kanji của ngày trước.
+
+N3 groups theo lesson/Part thực tế thay vì ép mô hình N5/N4. Với C1L1P1 ở Day 11,
+`lesson_groups` có một group cho Lesson 1 chứa đủ 25 question IDs.
 
 ---
 
@@ -791,6 +803,15 @@ Với content mới, mỗi Test Question phải có `source_item_refs` trỏ t�
 
 Daily Test question có thể không có `explanation_vi`; không thêm placeholder `explanation_vi`, `translation_vi`, `hint` hoặc `notes` vào production Daily Test.
 
+N3 dùng contract riêng:
+
+```text
+10 Grammar + 15 Vocabulary + 15 Kanji = 40 câu
+```
+
+Contract 40 câu bắt đầu từ Daily Test Day 12; Day 2–11 tiếp tục dùng đúng các phân bổ
+N5/N4 đã publish. Quy tắc `Daily Test Day X → Study Day X-1` không đổi.
+
 ---
 
 # 11. Weekly / Monthly / End / Mock Test
@@ -1062,7 +1083,8 @@ Day 2 Grammar + Vocabulary + Kanji complete and reviewed
 create Daily Test Day 3
 ```
 
-Reading và Listening không phải source của Daily Test hiện tại. Daily Test vẫn giữ 45 questions với phân bổ canonical theo việc covered day có Kanji hay không.
+Reading và Listening không phải source của Daily Test hiện tại. Daily Test giữ contract
+45 câu cho N5/N4 và 40 câu cho N3.
 
 ### Batch checkpoints
 
@@ -1217,7 +1239,7 @@ Content Lint là lớp riêng với Schema Validation. Đây là **specification
 
 - Generated MCQ không được có một answer position hoàn toàn vắng mặt hoặc tạo pattern rõ ràng.
 - Soft guideline cho 25 câu: mỗi A/B/C/D khoảng 5–8 lần.
-- Soft guideline cho 45 câu: mỗi A/B/C/D khoảng 9–13 lần.
+- Soft guideline cho 40–45 câu: mỗi A/B/C/D khoảng 9–13 lần.
 - Source-faithful test được phép lệch khi có lý do; generated test phải chủ động cân bằng.
 
 ### Option quality

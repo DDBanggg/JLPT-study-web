@@ -163,11 +163,17 @@ function validateTestDocument(
           { id: "grammar", count: 20 },
           { id: "vocabulary", count: 25 },
         ]
-      : [
-          { id: "grammar", count: 15 },
-          { id: "vocabulary", count: 15 },
-          { id: "kanji", count: 15 },
-        ];
+      : studyDay <= 11
+        ? [
+            { id: "grammar", count: 15 },
+            { id: "vocabulary", count: 15 },
+            { id: "kanji", count: 15 },
+          ]
+        : [
+            { id: "grammar", count: 10 },
+            { id: "vocabulary", count: 15 },
+            { id: "kanji", count: 15 },
+          ];
     return (
       value.coverage.from_day === studyDay - 1 &&
       value.coverage.to_day === studyDay - 1 &&

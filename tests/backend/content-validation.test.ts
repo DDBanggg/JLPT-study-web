@@ -38,7 +38,37 @@ describe("content validation foundation", () => {
       document.lesson_groups[0].question_ids.pop();
       await writeFile(path.join(contentRoot, "day-002.json"), JSON.stringify(document));
       expect((await validateContentRoot(contentRoot)).errors).toContain(
-        "day-002.json: every grammar test lesson_group must contain 5 question_ids",
+        "day-002.json: every grammar test lesson_group for Study Day 2 must contain 5 question_ids",
+      );
+    } finally {
+      await rm(contentRoot, { recursive: true, force: true });
+    }
+  });
+
+  it("accepts one 25-question lesson group for an N3 Grammar Test", async () => {
+    const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-grammar-test-part-"));
+    const questions = Array.from({ length: 25 }, (_, index) => ({
+      id: `q${String(index + 1).padStart(3, "0")}`,
+      category: "grammar",
+    }));
+    const document = {
+      schema_version: 1,
+      id: "grammar-test-011",
+      type: "grammar",
+      study_day: 11,
+      coverage: { from_day: 11, to_day: 11 },
+      lesson_groups: [{ lesson: 1, question_ids: questions.map(({ id }) => id) }],
+      sections: [{ id: "grammar", max_score: 25, questions }],
+    };
+
+    try {
+      await writeFile(path.join(contentRoot, "day-011.json"), JSON.stringify(document));
+      expect((await validateContentRoot(contentRoot)).errors).toEqual([]);
+
+      document.lesson_groups[0].question_ids.pop();
+      await writeFile(path.join(contentRoot, "day-011.json"), JSON.stringify(document));
+      expect((await validateContentRoot(contentRoot)).errors).toContain(
+        "day-011.json: every grammar test lesson_group for Study Day 11 must contain 25 question_ids",
       );
     } finally {
       await rm(contentRoot, { recursive: true, force: true });
@@ -48,6 +78,7 @@ describe("content validation foundation", () => {
   it.each([
     [2, [20, 25], ["grammar", "vocabulary"]],
     [3, [15, 15, 15], ["grammar", "vocabulary", "kanji"]],
+    [12, [10, 15, 15], ["grammar", "vocabulary", "kanji"]],
   ])("accepts the canonical Daily Test distribution for Day %i", async (day, counts, categories) => {
     const document = dailyTestDocument(day as number);
     const errors = await validateTemporaryDailyDocument(document);
@@ -56,7 +87,9 @@ describe("content validation foundation", () => {
     expect(document.sections.map((section) => section.questions.length)).toEqual(counts);
     expect(document.sections.map((section) => section.max_score)).toEqual(counts);
     expect(document.sections.map((section) => section.id)).toEqual(categories);
-    expect(document.sections.flatMap((section) => section.questions)).toHaveLength(45);
+    expect(document.sections.flatMap((section) => section.questions)).toHaveLength(
+      counts.reduce((total, count) => total + count, 0),
+    );
   });
 
   it.each([
@@ -78,6 +111,15 @@ describe("content validation foundation", () => {
       document.sections[0].max_score = 16;
       return document;
     }, "grammar section max_score must equal 15"],
+    ["N3 day with the N5/N4 distribution", () => {
+      const document = dailyTestDocument(12);
+      document.sections[0].max_score = 15;
+      document.sections[0].questions.push(...Array.from({ length: 5 }, (_, index) => ({
+        ...document.sections[0].questions[index],
+        id: `q${String(41 + index).padStart(3, "0")}`,
+      })));
+      return document;
+    }, "grammar section max_score must equal 10"],
     ["wrong coverage day", () => {
       const document = dailyTestDocument(3);
       document.coverage = { from_day: 3, to_day: 3 };
@@ -399,7 +441,7 @@ async function validateTemporaryDailyDocument(document: ReturnType<typeof dailyT
   const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-daily-test-"));
   try {
     await writeFile(path.join(contentRoot, "daily.json"), JSON.stringify(document));
-    for (const day of [1, 2, 3]) {
+    for (const day of [1, 2, 3, 11]) {
       const dayText = String(day).padStart(3, "0");
       await writeFile(path.join(contentRoot, `grammar-${dayText}.json`), JSON.stringify({
         schema_version: 1,
@@ -450,7 +492,9 @@ function dailyTestDocument(day: number) {
   const coveredDay = day - 1;
   const definitions = day === 2
     ? [["grammar", 20], ["vocabulary", 25]] as const
-    : [["grammar", 15], ["vocabulary", 15], ["kanji", 15]] as const;
+    : day <= 11
+      ? [["grammar", 15], ["vocabulary", 15], ["kanji", 15]] as const
+      : [["grammar", 10], ["vocabulary", 15], ["kanji", 15]] as const;
   let firstQuestion = 1;
   const sections = definitions.map(([category, count]) => {
     const section = dailySection(category, count, firstQuestion, coveredDay);

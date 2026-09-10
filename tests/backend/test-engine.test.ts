@@ -129,6 +129,23 @@ describe("shared Test Engine", () => {
     });
   });
 
+  it("loads and raw-scores the 40-question N3 Daily Test", async () => {
+    const roadmap = await loadProgramRoadmap();
+    if (roadmap.state !== "available") throw new Error("Roadmap missing");
+    const location = findTestLocation(roadmap.data, "daily-012");
+    if (!location) throw new Error("N3 Daily Test missing from roadmap");
+    const loaded = await loadTestContent(location);
+    if (loaded.state !== "available") throw new Error("N3 Daily Test content missing");
+
+    const answers = correctAnswers(loaded.data);
+    answers[0].option_id = null as unknown as string;
+    expect(scoreTest(loaded.data, answers).result).toMatchObject({
+      test_type: "daily",
+      score: 39,
+      max_score: 40,
+    });
+  });
+
   it("linearly scores JLPT-style sections to 60/60/60", () => {
     const sections = ["language", "reading", "listening"].map((id) => ({
       id,

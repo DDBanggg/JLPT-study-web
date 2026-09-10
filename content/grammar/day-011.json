@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-011",
+  "study_day": 11,
+  "items": [
+    {
+      "id": 1101,
+      "structure": "～ば～ほど",
+      "formation": [
+        "Vば + Vるほど",
+        "Aいければ + Aいほど",
+        "Aな/Nなら + Aな/Nほど",
+        "Aなであれば + (Aなで)あるほど",
+        "Nであれば + (Nで)あるほど"
+      ],
+      "meaning_vi": "Càng… càng…",
+      "usage_vi": "Cùng với sự thay đổi của một hành vi hoặc trạng thái, sự việc khác cũng thay đổi theo. Hành vi trước ～ば càng tiến triển hoặc trạng thái càng mạnh thì mức độ của vế sau càng tăng tương ứng. Giữ riêng cách nối của động từ, tính từ い, tính từ な và danh từ.",
+      "examples": [
+        {
+          "jp": "男性は背が高ければ高いほど人気がある。",
+          "vi": "Nam giới càng cao thì càng được yêu thích."
+        },
+        {
+          "jp": "あの人のことを知れば知るほど好きになる。",
+          "vi": "Càng hiểu về người đó, tôi càng thích họ hơn."
+        },
+        {
+          "jp": "日本語が上手であればあるほど、日本の会社で働きやすくなる。",
+          "vi": "Tiếng Nhật càng giỏi thì càng dễ làm việc tại công ty Nhật."
+        },
+        {
+          "jp": "日本語は勉強すればするほど面白くなる。",
+          "vi": "Tiếng Nhật càng học càng thấy thú vị."
+        },
+        {
+          "jp": "私は、困難なら困難なほど、頑張ろうと思う性格だ。",
+          "vi": "Tôi là kiểu người càng gặp việc khó càng muốn cố gắng."
+        },
+        {
+          "jp": "「努力すればするほど、夢に近づけます。」",
+          "vi": "Càng nỗ lực, bạn càng tiến gần đến ước mơ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 18 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > mẫu 1 — ～ば～ほど"
+    },
+    {
+      "id": 1102,
+      "structure": "～ようなら",
+      "formation": [
+        "Thể thường + ようなら / ようであれば; Aな giữ な + ようなら / ようであれば"
+      ],
+      "meaning_vi": "Nếu như… (giả sử xảy ra một tình huống nào đó)",
+      "usage_vi": "Giả định tình huống có thể xảy ra trong tương lai, từ đó đưa ra hướng xử lý, hành động hoặc lời khuyên. Có thể giao quyết định cho người nghe: nếu bạn cảm thấy như thế, tùy tình hình của bạn. Sắc thái mềm mại, lịch sự, tôn trọng quyết định của người nghe.",
+      "examples": [
+        {
+          "jp": "遅れるようなら、連絡してください。",
+          "vi": "Nếu có vẻ sẽ đến muộn, hãy liên lạc nhé."
+        },
+        {
+          "jp": "この問題が解けないようなら、大学に行くのは無理だよ。",
+          "vi": "Nếu không giải được bài này thì việc vào đại học là không thể đâu."
+        },
+        {
+          "jp": "その荷物、一人で運ぶのが無理なようなら、手伝いますよ。",
+          "vi": "Nếu một mình mang hành lý đó có vẻ quá sức, tôi sẽ giúp."
+        },
+        {
+          "jp": "忙しいようなら、無理に参加しなくてもいいですよ。",
+          "vi": "Nếu có vẻ bận thì bạn không cần cố tham gia đâu."
+        },
+        {
+          "jp": "仕事が早く終わるようなら、ぜひ忘年会に参加してください。",
+          "vi": "Nếu công việc có vẻ sẽ xong sớm, nhất định hãy tham gia tiệc tất niên."
+        },
+        {
+          "jp": "明日天気がいいようなら、サッカーをしましょう。",
+          "vi": "Nếu ngày mai thời tiết có vẻ đẹp thì chúng ta chơi bóng đá nhé."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 19 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > mẫu 2 — ～ようなら"
+    },
+    {
+      "id": 1103,
+      "structure": "～ように",
+      "formation": [
+        "Vる / Vない + ように"
+      ],
+      "meaning_vi": "Để V / Để không V",
+      "usage_vi": "Thực hiện hành động ở vế sau để đạt trạng thái hoặc kết quả mong muốn ở vế trước. Trước ように thường là động từ không có tính ý chí, biểu thị trạng thái kết quả. Sau ように là hành động thực hiện vì mục đích phía trước. Chủ ngữ hai vế có thể khác nhau.",
+      "examples": [
+        {
+          "jp": "この薬は子供でも飲めるように甘い味がついています。",
+          "vi": "Thuốc này có vị ngọt để trẻ em cũng có thể uống được."
+        },
+        {
+          "jp": "この病院は、忙しい人でも来られるように、夜も開いています。",
+          "vi": "Bệnh viện này mở cửa cả ban đêm để người bận rộn cũng có thể đến khám."
+        },
+        {
+          "jp": "子供がゲームをやりすぎないように、2時間を超えて続けていたら、ゲームの機械を取り上げています。",
+          "vi": "Để trẻ không chơi game quá nhiều, nếu chơi liên tục quá hai giờ thì tôi sẽ cất máy game đi."
+        },
+        {
+          "jp": "早く病気が治るように祈っています。",
+          "vi": "Tôi đang cầu nguyện để bệnh chóng khỏi."
+        },
+        {
+          "jp": "道を間違えないように気を付けてね。",
+          "vi": "Hãy chú ý để không đi nhầm đường nhé."
+        },
+        {
+          "jp": "日本の会社で働けるように、日本語を勉強しています。",
+          "vi": "Tôi học tiếng Nhật để có thể làm việc tại một công ty Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 20 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > mẫu 3 — ～ように"
+    },
+    {
+      "id": 1104,
+      "structure": "～ようにする",
+      "formation": [
+        "Vる / Vない + ようにする"
+      ],
+      "meaning_vi": "(Sẽ) cố gắng V / không V để thực hiện một mục tiêu",
+      "usage_vi": "Từ thời điểm nói hoặc một thời điểm nào đó trở đi, có ý thức thực hiện thường xuyên vì một mục đích. Khi đi với động từ vô ý chí, mang nghĩa cố gắng tạo ra một trạng thái nào đó.",
+      "examples": [
+        {
+          "jp": "もう大人なんですから、遅刻しないようにしましょう。",
+          "vi": "Vì đã là người lớn rồi nên chúng ta hãy cố gắng không đi muộn."
+        },
+        {
+          "jp": "目に悪いから、寝る前にスマートフォンやパソコンを使わないようにしましょう。",
+          "vi": "Vì không tốt cho mắt nên chúng ta hãy cố gắng không dùng điện thoại thông minh hay máy tính trước khi ngủ."
+        },
+        {
+          "jp": "赤ちゃんが口の中に入る大きさのものを持っていたら、すぐに取り上げるようにしてください。危ないですから。",
+          "vi": "Nếu em bé cầm vật nhỏ có thể cho vào miệng, xin hãy lấy ra ngay vì rất nguy hiểm."
+        },
+        {
+          "jp": "電話の前にメールをするようにします。",
+          "vi": "Tôi sẽ cố gắng gửi email trước khi gọi điện."
+        },
+        {
+          "jp": "この前のテストの結果があまりよくなかったから、これから毎日勉強するようにしなきゃ。",
+          "vi": "Vì kết quả bài kiểm tra trước không tốt lắm nên từ giờ mình phải cố học mỗi ngày."
+        }
+      ],
+      "notes_vi": [
+        "Vるようにしてください: (Xin) hãy cố gắng V.",
+        "Vるようにしましょう: Hãy cùng cố gắng V.",
+        "Vるようにしなきゃ: Phải cố gắng V."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 21 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > mẫu 4 — ～ようにする"
+    }
+  ]
+}

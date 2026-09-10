@@ -23,6 +23,33 @@ const ALLOWED_TASK_TYPES = new Set([
 
 const ALLOWED_TEST_TYPES = new Set(["grammar", "daily", "weekly", "monthly", "end", "mock"]);
 
+function grammarTestGroupingForDay(studyDay) {
+  return studyDay <= 10
+    ? { groupCount: 5, questionsPerGroup: 5 }
+    : { groupCount: 1, questionsPerGroup: 25 };
+}
+
+function dailyTestDistributionForDay(studyDay) {
+  if (studyDay === 2) {
+    return [
+      { id: "grammar", count: 20 },
+      { id: "vocabulary", count: 25 },
+    ];
+  }
+  if (studyDay <= 11) {
+    return [
+      { id: "grammar", count: 15 },
+      { id: "vocabulary", count: 15 },
+      { id: "kanji", count: 15 },
+    ];
+  }
+  return [
+    { id: "grammar", count: 10 },
+    { id: "vocabulary", count: 15 },
+    { id: "kanji", count: 15 },
+  ];
+}
+
 async function findJsonFiles(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
@@ -458,6 +485,9 @@ function validateDailyQuestion(
   if (options.some((option) => !isNonEmptyString(option?.text))) {
     errors.push(`${file}: ${label} option text must be non-empty`);
   }
+  if (hasDuplicates(options.map((option) => option?.text))) {
+    errors.push(`${file}: ${label} option text must be unique`);
+  }
   if (!isNonEmptyString(question?.correct_option_id) || !optionIds.includes(question.correct_option_id)) {
     errors.push(`${file}: ${label} correct_option_id must reference an option`);
   }
@@ -519,6 +549,7 @@ function validateTest(document, file, errors, sourceItemIds) {
       Array.isArray(group?.question_ids) ? group.question_ids : [],
     );
     const questionIds = questions.map((question) => question.id);
+    const grouping = grammarTestGroupingForDay(document.study_day);
 
     if (questions.length !== 25 || grammarQuestions.length !== 25) {
       errors.push(`${file}: grammar test must contain exactly 25 questions`);
@@ -538,13 +569,20 @@ function validateTest(document, file, errors, sourceItemIds) {
     ) {
       errors.push(`${file}: grammar test coverage must equal its study_day`);
     }
-    if (lessonGroups.length !== 5) {
-      errors.push(`${file}: grammar test must contain exactly 5 lesson_groups`);
+    if (lessonGroups.length !== grouping.groupCount) {
+      errors.push(
+        `${file}: grammar test for Study Day ${document.study_day} must contain exactly ${grouping.groupCount} lesson_groups`,
+      );
     }
     addDuplicateErrors(lessonGroups.map((group) => group?.lesson), "lesson number", file, errors);
     for (const group of lessonGroups) {
-      if (!Array.isArray(group?.question_ids) || group.question_ids.length !== 5) {
-        errors.push(`${file}: every grammar test lesson_group must contain 5 question_ids`);
+      if (
+        !Array.isArray(group?.question_ids) ||
+        group.question_ids.length !== grouping.questionsPerGroup
+      ) {
+        errors.push(
+          `${file}: every grammar test lesson_group for Study Day ${document.study_day} must contain ${grouping.questionsPerGroup} question_ids`,
+        );
       }
     }
     addDuplicateErrors(groupedQuestionIds, "lesson-group question id", file, errors);
@@ -559,16 +597,7 @@ function validateTest(document, file, errors, sourceItemIds) {
   if (document.type !== "daily") return;
 
   const coveredDay = document.study_day - 1;
-  const expectedSections = document.study_day === 2
-    ? [
-        { id: "grammar", count: 20 },
-        { id: "vocabulary", count: 25 },
-      ]
-    : [
-        { id: "grammar", count: 15 },
-        { id: "vocabulary", count: 15 },
-        { id: "kanji", count: 15 },
-      ];
+  const expectedSections = dailyTestDistributionForDay(document.study_day);
 
   if (
     document.coverage?.from_day !== coveredDay ||
@@ -611,7 +640,10 @@ function validateTest(document, file, errors, sourceItemIds) {
     }
   });
 
-  if (questions.length !== 45) errors.push(`${file}: daily test must contain exactly 45 questions`);
+  const expectedTotal = expectedSections.reduce((total, section) => total + section.count, 0);
+  if (questions.length !== expectedTotal) {
+    errors.push(`${file}: daily test must contain exactly ${expectedTotal} questions`);
+  }
 }
 
 function validateDocument(document, file, errors, assetPaths, sourceItemIds) {

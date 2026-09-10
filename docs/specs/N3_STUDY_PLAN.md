@@ -3,7 +3,7 @@
 **Project:** `DDBanggg/JLPT-study-web`
 **Document role:** Canonical planning guide for the N3 phase
 **Runtime schema:** `schema_version = 1` unless the implementation phase explicitly requires otherwise
-**Current scope:** N3 core learning from **Study Day 12 to Day 74**, followed by a proposed exam-preparation phase for **Day 75–100**
+**Current scope:** N3 begins with C1L1P1 on **Study Day 11**; the existing core milestones continue through **Day 74**, followed by a proposed exam-preparation phase for **Day 75–100**
 
 ---
 
@@ -13,10 +13,11 @@ This document defines the learning architecture for the JLPT N3 phase after the 
 
 ```text
 Day 1–10 → N5/N4 normal review
-Day 11   → N4 closeout
+Day 11   → N4 closeout + N3 C1L1P1
            - Daily Test 11 reviews Day 10
            - N4 End Test
-Day 12   → N3 starts
+           - C1L1P1 learning + same-day Grammar Test
+Day 12   → Daily Test 12 reviews C1L1P1
 ```
 
 The N3 plan is designed around four principles:
@@ -26,12 +27,13 @@ The N3 plan is designed around four principles:
 3. **Split each Gungun lesson across two Study Days** to keep the daily workload realistic.
 4. **Use one week for one chapter** whenever possible, ending each week with a chapter-level test.
 
-The core N3 learning phase therefore lasts:
+The original nine-week milestone structure remains in place, with C1L1P1 published one
+day early alongside N4 closeout and Day 12 reserved for its Daily Test:
 
 ```text
-9 weeks × 7 days = 63 Study Days
-
-Day 12 → Day 74
+C1L1P1 learning → Day 11
+C1L1P1 Daily Test → Day 12
+remaining core milestones → Day 13–74
 ```
 
 After that, Day 75–100 remains available for gap filling, test practice, mock exams and final revision.
@@ -166,7 +168,8 @@ Total:
 26 Gungun N3 lessons
 ```
 
-This 26-lesson order is the backbone of Study Day 12–71.
+This 26-lesson order is the backbone of the N3 learning sequence. C1L1P1 is mapped to
+Day 11; the remaining roadmap continues from Day 13 after its Day 12 Daily Test.
 
 ---
 
@@ -368,7 +371,7 @@ Do not consume valuable real JLPT-style test resources as normal daily learning 
 ## Phase A — Core N3 learning
 
 ```text
-Day 12 → Day 71
+Day 11 → Day 71, with Day 12 used for the C1L1P1 Daily Test
 ```
 
 Content:
@@ -398,20 +401,20 @@ Day 74 → N3 Comprehensive Progress Test
 Total:
 
 ```text
-Day 12 → Day 74
-= 63 days
-= 9 weeks
+Day 11 → Day 74
+= C1L1P1 early integration plus the existing nine-week milestone structure
 ```
 
 ---
 
 # 7. Master 9-Week Roadmap
 
-## Week 1 — Day 12–18 — Chapter 1
+## Week 1 transition — Day 11–18 — Chapter 1
 
 | Study Day | Content |
 |---|---|
-| Day 12 | Chapter 1 — Lesson 1 — Part A |
+| Day 11 | Chapter 1 — Lesson 1 — Part A (alongside N4 closeout) |
+| Day 12 | Daily Test — reviews Chapter 1 Lesson 1 Part A |
 | Day 13 | Chapter 1 — Lesson 1 — Part B |
 | Day 14 | Chapter 1 — Lesson 2 — Part A |
 | Day 15 | Chapter 1 — Lesson 2 — Part B |
@@ -992,19 +995,15 @@ The transition is locked:
 Day 11
 1. Daily Test 11 → reviews Day 10 N4 content
 2. N4 End Test
+3. Grammar C1L1P1
+4. Grammar Test C1L1P1
+5. Vocabulary C1L1P1
+6. Kanji C1L1P1
 
 Day 12
-1. Grammar
-2. Grammar Test
-3. Vocabulary
-4. Kanji
-5. Reading
-6. Listening
+1. Daily Test 12 → reviews C1L1P1 on Day 11
 
-NO Daily Test on Day 12
-
-Day 13 onward
-Daily Test reviews the previous N3 learning day
+Reading and Listening are not part of this incremental C1L1P1 publication.
 ```
 
 ---
@@ -1015,8 +1014,8 @@ Locked transition and N3 rule:
 
 ```text
 Daily Test 11 → reviews Day 10 N4 content
-Day 12       → no Daily Test
-Day 13 onward → reviews the previous N3 learning day
+Daily Test 12 → reviews C1L1P1 on Day 11
+Later N3 Daily Tests → review the previous N3 learning day
 ```
 
 For normal N3 Study Days, previous-day content will include:
@@ -1027,13 +1026,13 @@ Vocabulary
 Kanji
 ```
 
-so the existing standard distribution is a natural candidate:
+N3 uses this distribution:
 
 ```text
-15 Grammar
+10 Grammar
 15 Vocabulary
 15 Kanji
-= 45 questions
+= 40 questions
 ```
 
 Rules:
@@ -1046,7 +1045,7 @@ Rules:
 - exactly one defensible answer,
 - `source_item_refs` must resolve to the covered day.
 
-**Status:** recommended to preserve unless N3 workload testing shows a reason to change.
+**Status:** locked for N3 production beginning with Daily Test Day 12.
 
 ---
 
@@ -1345,26 +1344,24 @@ N3 Study Days continue global Study Day numbering.
 Examples:
 
 ```text
-grammar-day-012
-vocabulary-day-012
-kanji-day-012
-reading-day-012
-listening-day-012
+grammar-day-011
+vocabulary-day-011
+kanji-day-011
 ```
 
 Grammar Test:
 
 ```text
-grammar-test-012
+grammar-test-011
 ```
 
 Daily Test:
 
 ```text
-daily-013
+daily-012
 ```
 
-if it covers N3 learning from Study Day 12.
+if it covers N3 learning from Study Day 11.
 
 Published IDs remain immutable.
 
@@ -1445,13 +1442,13 @@ The following decisions are considered locked unless intentionally reopened:
 ```text
 N5/N4 normal review = Day 1–10
 
-Day 11 = N4 closeout
+Day 11 = N4 closeout + C1L1P1 learning
 Daily Test 11 reviews Day 10
 N4 End Test runs on Day 11
 
-N3 starts Day 12
-Day 12 has no Daily Test
-Day 13 onward: normal N3 Daily Test reviews the previous N3 learning day
+N3 starts with C1L1P1 on Day 11
+Daily Test 12 reviews Day 11 with 10 Grammar + 15 Vocabulary + 15 Kanji
+Later N3 Daily Tests review the previous N3 learning day
 
 Gungun is the N3 curriculum backbone
 
@@ -1466,8 +1463,8 @@ Chapter 9:
 4 learning days + Weekly Test + Coverage Review + Comprehensive Test
 
 N3 core phase:
-Day 12–74
-9 weeks / 63 days
+Day 11–74, with C1L1P1 integrated on Day 11 and its Daily Test on Day 12
+Existing weekly milestone days remain unchanged
 
 Weekly Test days:
 Day 18, 25, 32, 39, 46, 53, 60, 67, 72
@@ -1588,7 +1585,7 @@ M4 — Create Kanji source + Vô Diện mapping
 M5 — Create Reading source manifest
 M6 — Inventory Listening playlists
 M7 — Audit Weekly Test content/source details
-M8 — Update program roadmap Day 12–74
+M8 — Update program roadmap Day 11–74
 M9 — Generate N3 content chapter by chapter
 M10 — Run coverage audit
 M11 — Design Day 75–100 detailed exam-preparation roadmap
@@ -1608,13 +1605,15 @@ N5/N4 normal review
         ↓
 Day 11
 Daily Test 11 reviews Day 10
-N4 End Test
+N4 End Test + N3 C1L1P1
         ↓
-Day 12–71
+Day 12
+Daily Test 12 reviews C1L1P1
+        ↓
+Later N3 learning days
 26 Gungun N3 lessons
 each lesson split across 2 days
-Day 12 has no Daily Test
-Day 13 onward uses the normal N3 Daily Test rule
+Daily Tests review the previous N3 learning day
         ↓
 Weekly Tests as chapter-ending tests
 Day 18, 25, 32, 39, 46, 53, 60, 67

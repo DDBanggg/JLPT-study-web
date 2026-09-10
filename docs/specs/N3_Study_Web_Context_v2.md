@@ -86,8 +86,8 @@ Exact N3 sources, detailed topic mapping, reading allocation, listening playlist
 
 ## Daily Test
 
-- 45 questions
-- 15 Grammar
+- 40 questions for N3 (existing N5/N4 tests retain 45)
+- 10 Grammar
 - 15 Vocabulary
 - 15 Kanji
 - 100% based on previous Study Day's new knowledge
