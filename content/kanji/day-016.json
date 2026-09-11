@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-016",
+  "study_day": 16,
+  "items": [
+    {
+      "id": 1601,
+      "kanji": "残",
+      "han_viet": "TÀN",
+      "meaning_vi": "sót lại",
+      "onyomi": [
+        "ザン"
+      ],
+      "kunyomi": [
+        "のこ・る",
+        "のこ・す"
+      ],
+      "compounds": [
+        {
+          "word": "残す",
+          "reading": "のこす",
+          "meaning_vi": "để lại, chừa lại"
+        },
+        {
+          "word": "残る",
+          "reading": "のこる",
+          "meaning_vi": "còn lại, sót lại, vẫn còn"
+        },
+        {
+          "word": "残り",
+          "reading": "のこり",
+          "meaning_vi": "phần còn lại, dư lại, còn thừa"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "meaning_vi": "tăng ca, làm thêm giờ"
+        },
+        {
+          "word": "残念",
+          "reading": "ざんねん",
+          "meaning_vi": "đáng tiếc, thất vọng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 49 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 残"
+    },
+    {
+      "id": 1602,
+      "kanji": "列",
+      "han_viet": "LIỆT",
+      "meaning_vi": "hàng",
+      "onyomi": [
+        "レツ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "列",
+          "reading": "れつ",
+          "meaning_vi": "hàng, dãy, cột, hàng lối"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 49 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 列"
+    },
+    {
+      "id": 1603,
+      "kanji": "例",
+      "han_viet": "LỆ",
+      "meaning_vi": "ví dụ",
+      "onyomi": [
+        "レイ"
+      ],
+      "kunyomi": [
+        "たと・える"
+      ],
+      "compounds": [
+        {
+          "word": "例外",
+          "reading": "れいがい",
+          "meaning_vi": "ngoại lệ, trường hợp đặc biệt không theo quy tắc chung"
+        },
+        {
+          "word": "例",
+          "reading": "れい",
+          "meaning_vi": "ví dụ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 49 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 例"
+    },
+    {
+      "id": 1604,
+      "kanji": "浅",
+      "han_viet": "THIỂN",
+      "meaning_vi": "nông",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "あさ・い"
+      ],
+      "compounds": [
+        {
+          "word": "浅い",
+          "reading": "あさい",
+          "meaning_vi": "nông, cạn, nông cạn"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 50 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 浅"
+    },
+    {
+      "id": 1605,
+      "kanji": "湖",
+      "han_viet": "HỒ",
+      "meaning_vi": "hồ",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "みずうみ"
+      ],
+      "compounds": [
+        {
+          "word": "湖",
+          "reading": "みずうみ",
+          "meaning_vi": "hồ, ao lớn"
+        },
+        {
+          "word": "琵琶湖",
+          "reading": "びわこ",
+          "meaning_vi": "hồ Biwa"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 50 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 湖"
+    },
+    {
+      "id": 1606,
+      "kanji": "滞",
+      "han_viet": "TRỆ",
+      "meaning_vi": "đình trệ",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "とどこお・る"
+      ],
+      "compounds": [
+        {
+          "word": "滞在",
+          "reading": "たいざい",
+          "meaning_vi": "lưu trú, ở lại tạm thời"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 50 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 滞"
+    }
+  ]
+}

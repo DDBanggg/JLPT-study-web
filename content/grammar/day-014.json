@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-014",
+  "study_day": 14,
+  "items": [
+    {
+      "id": 1401,
+      "structure": "～って（１）",
+      "formation": [
+        "N + って"
+      ],
+      "meaning_vi": "N thì…",
+      "usage_vi": "Đứng sau chủ đề của câu, thay cho は trong văn nói.",
+      "examples": [
+        {
+          "jp": "あなたの恋人ってどんな人ですか。",
+          "vi": "Người yêu của bạn là người như thế nào?"
+        },
+        {
+          "jp": "日本語ってどうすれば上手になりますか。",
+          "vi": "Về tiếng Nhật thì làm thế nào để giỏi lên?"
+        },
+        {
+          "jp": "すみません、会社のパーティーっていつですか。",
+          "vi": "Xin lỗi, tiệc của công ty là khi nào?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 41 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～って（１）"
+    },
+    {
+      "id": 1402,
+      "structure": "～って（２）",
+      "formation": [
+        "V thể thường + (んだ) + って",
+        "Aい + (んだ) + って",
+        "N / Aな bỏ な + (なん)だ + って"
+      ],
+      "meaning_vi": "Nghe nói là… / Thấy bảo là…",
+      "usage_vi": "Trích lại lời người khác hoặc thông tin nghe từ nơi khác. Nguồn cũng nêu cách nói thường gặp んだって.",
+      "examples": [
+        {
+          "jp": "今週はずっと晴れだって。",
+          "vi": "Nghe nói cả tuần này trời sẽ nắng."
+        },
+        {
+          "jp": "彼は今日、ちこくして先生におこられたって。",
+          "vi": "Nghe nói hôm nay anh ấy đến muộn và bị thầy giáo mắng."
+        },
+        {
+          "jp": "その荷物は小さいけど結構重いって。",
+          "vi": "Nghe nói kiện hành lý đó nhỏ nhưng khá nặng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 42 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～って（２）"
+    },
+    {
+      "id": 1403,
+      "structure": "～って（３）",
+      "formation": [
+        "Mệnh đề thể ngắn + って"
+      ],
+      "meaning_vi": "Là…",
+      "usage_vi": "Thay と trong と思う、という、と書いてある khi dẫn lời, suy nghĩ hoặc nội dung được viết. Khi hỏi dùng 何て, không dùng 何って.",
+      "examples": [
+        {
+          "jp": "彼と初めて話したけど、いい人だなって思った。",
+          "vi": "Lần đầu nói chuyện với anh ấy, tôi đã nghĩ anh ấy là người tốt."
+        },
+        {
+          "jp": "彼は来月から日本に留学するってみんなに言っていた。",
+          "vi": "Anh ấy nói với mọi người rằng từ tháng sau sẽ du học Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 43 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～って（３）"
+    },
+    {
+      "id": 1404,
+      "structure": "～って（４）/ ～という",
+      "formation": [
+        "N1 + という / って + N2",
+        "N1 + っていう + N2"
+      ],
+      "meaning_vi": "N2 gọi là N1",
+      "usage_vi": "N1 là tên riêng hoặc danh từ cụ thể. N2 thuộc cùng loại nhưng nghĩa rộng hơn N1. Văn nói có っていう / って.",
+      "examples": [
+        {
+          "jp": "私は日本という国から来ました。",
+          "vi": "Tôi đến từ đất nước mang tên Nhật Bản."
+        },
+        {
+          "jp": "これはフォーという料理でベトナムではとても有名です。",
+          "vi": "Đây là món phở, rất nổi tiếng ở Việt Nam."
+        },
+        {
+          "jp": "私はズンモリって日本語センターで、N5からN2まで勉強した。",
+          "vi": "Tôi đã học từ N5 đến N2 tại trung tâm tiếng Nhật mang tên Dung Mori."
+        }
+      ],
+      "notes_vi": [
+        "Trang đáp án 47 đánh số/tiêu đề các cách dùng って không khớp trang bài học 41–44; giữ thứ tự và phân biệt theo trang bài học, không theo số mục đáp án."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 44 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～って（４）/ ～という"
+    }
+  ]
+}

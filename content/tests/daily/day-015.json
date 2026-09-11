@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-015",
+  "type": "daily",
+  "title": "Daily Test — Day 15",
+  "study_day": 15,
+  "coverage": {
+    "from_day": 14,
+    "to_day": 14
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "「いただきます」（　　　）、食べる前に言う言葉だよね。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "って"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "君のアルバイト（　　　）、一日に何時間ぐらい働くの？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "って"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1401"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "父から連絡があった。電車が止まって、まだ駅に（　　　）って。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いる"
+            },
+            {
+              "id": "B",
+              "text": "いて"
+            },
+            {
+              "id": "C",
+              "text": "い"
+            },
+            {
+              "id": "D",
+              "text": "いれば"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1402"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "弟の話では、昨日の公園はとても静か（　　　）って。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "く"
+            },
+            {
+              "id": "B",
+              "text": "くて"
+            },
+            {
+              "id": "C",
+              "text": "かった"
+            },
+            {
+              "id": "D",
+              "text": "だった"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1402"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "さっき電話で聞いたよ。田中さんは今日、会社を（　　　）んだって。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "休めば"
+            },
+            {
+              "id": "B",
+              "text": "休み"
+            },
+            {
+              "id": "C",
+              "text": "休む"
+            },
+            {
+              "id": "D",
+              "text": "休んで"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1402"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "箱に「上に物を置かないで」（　　　）書いてあったので、何も載せなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "って"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1403"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "妹はあの犬を見て「かわいい」（　　　）言って、写真を撮った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "って"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1403"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "友達の説明を聞いて、なるほど、そういうことか（　　　）思った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "って"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1403"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "受付で聞いてください。「たなか」（　　　）先生が案内してくれます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "といったら"
+            },
+            {
+              "id": "B",
+              "text": "という"
+            },
+            {
+              "id": "C",
+              "text": "といえば"
+            },
+            {
+              "id": "D",
+              "text": "といって"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1404"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "旅行先で、「もみじ」（　　　）旅館に泊まりました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "っていったら"
+            },
+            {
+              "id": "B",
+              "text": "っていえば"
+            },
+            {
+              "id": "C",
+              "text": "っていう"
+            },
+            {
+              "id": "D",
+              "text": "っていって"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1404"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "まだ一度もスキーをしたことがありません。（　　　）向けの教室に入りたいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "犯人"
+            },
+            {
+              "id": "B",
+              "text": "親戚"
+            },
+            {
+              "id": "C",
+              "text": "初心者"
+            },
+            {
+              "id": "D",
+              "text": "警察"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1402"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "これは学校で決めた（　　　）です。学生はみんな守ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "作品"
+            },
+            {
+              "id": "B",
+              "text": "景色"
+            },
+            {
+              "id": "C",
+              "text": "規則"
+            },
+            {
+              "id": "D",
+              "text": "体力"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1405"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "箱の外はきれいだが、（　　　）は汚れていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "窓側"
+            },
+            {
+              "id": "B",
+              "text": "内側"
+            },
+            {
+              "id": "C",
+              "text": "中心"
+            },
+            {
+              "id": "D",
+              "text": "以前"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1406"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "飛行機から外の景色を見たいので、（　　　）の席を選んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "窓側"
+            },
+            {
+              "id": "B",
+              "text": "内側"
+            },
+            {
+              "id": "C",
+              "text": "裏側"
+            },
+            {
+              "id": "D",
+              "text": "以前"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1408"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "毎朝、生徒たちは同じデザインの（　　　）を着て学校へ行く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "年賀状"
+            },
+            {
+              "id": "B",
+              "text": "入場料"
+            },
+            {
+              "id": "C",
+              "text": "作品"
+            },
+            {
+              "id": "D",
+              "text": "制服"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1409"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "今日は国で決めた（　　　）なので、学校も会社も休みです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "割合"
+            },
+            {
+              "id": "B",
+              "text": "以前"
+            },
+            {
+              "id": "C",
+              "text": "中心"
+            },
+            {
+              "id": "D",
+              "text": "祝日"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1410"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "この美術館の（　　　）は大人一人五百円です。入口で払ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "親戚"
+            },
+            {
+              "id": "B",
+              "text": "入場料"
+            },
+            {
+              "id": "C",
+              "text": "景色"
+            },
+            {
+              "id": "D",
+              "text": "体力"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1415"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "百人のうち三十人が女子です。女子の（　　　）は三割です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "割合"
+            },
+            {
+              "id": "B",
+              "text": "景色"
+            },
+            {
+              "id": "C",
+              "text": "体力"
+            },
+            {
+              "id": "D",
+              "text": "事件"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1417"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "この絵は、小学生が描いた（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "法則"
+            },
+            {
+              "id": "B",
+              "text": "作品"
+            },
+            {
+              "id": "C",
+              "text": "警察"
+            },
+            {
+              "id": "D",
+              "text": "制服"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1419"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "毎日走って、長い時間運動できる（　　　）をつけたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "以前"
+            },
+            {
+              "id": "B",
+              "text": "事件"
+            },
+            {
+              "id": "C",
+              "text": "体力"
+            },
+            {
+              "id": "D",
+              "text": "裏側"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1423"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "人のお金を盗んだ（　　　）が、昨日つかまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "初心者"
+            },
+            {
+              "id": "B",
+              "text": "警察"
+            },
+            {
+              "id": "C",
+              "text": "親戚"
+            },
+            {
+              "id": "D",
+              "text": "犯人"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1425"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "川の水が増えています。ここで泳ぐのは（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "若い"
+            },
+            {
+              "id": "B",
+              "text": "積極的"
+            },
+            {
+              "id": "C",
+              "text": "和菓子"
+            },
+            {
+              "id": "D",
+              "text": "危険"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1432"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「年賀状」をどう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ねんがしょう"
+            },
+            {
+              "id": "B",
+              "text": "ねんがじょう"
+            },
+            {
+              "id": "C",
+              "text": "ねんかじょう"
+            },
+            {
+              "id": "D",
+              "text": "ねんがじょ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1411"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「親戚」をどう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しんぜき"
+            },
+            {
+              "id": "B",
+              "text": "しんせき"
+            },
+            {
+              "id": "C",
+              "text": "じんせき"
+            },
+            {
+              "id": "D",
+              "text": "しんせつ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1418"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「戦争」をどう読みますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せんしょう"
+            },
+            {
+              "id": "B",
+              "text": "せんぞう"
+            },
+            {
+              "id": "C",
+              "text": "ぜんそう"
+            },
+            {
+              "id": "D",
+              "text": "せんそう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1426"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "昔の武士は（刀）を持っていた。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かなた"
+            },
+            {
+              "id": "B",
+              "text": "かなだ"
+            },
+            {
+              "id": "C",
+              "text": "かだな"
+            },
+            {
+              "id": "D",
+              "text": "かたな"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1401"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "日本に来たのは（初めて）です。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょめて"
+            },
+            {
+              "id": "B",
+              "text": "はじめて"
+            },
+            {
+              "id": "C",
+              "text": "はしめて"
+            },
+            {
+              "id": "D",
+              "text": "はじめで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1402"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "店で（商品券）を使った。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうひんげん"
+            },
+            {
+              "id": "B",
+              "text": "しょうびんけん"
+            },
+            {
+              "id": "C",
+              "text": "しょひんけん"
+            },
+            {
+              "id": "D",
+              "text": "しょうひんけん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1403"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "自然の（法則）を学んだ。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうそく"
+            },
+            {
+              "id": "B",
+              "text": "ほそく"
+            },
+            {
+              "id": "C",
+              "text": "ほうぞく"
+            },
+            {
+              "id": "D",
+              "text": "ほうしょく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1404"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "紙の（裏側）にも字がある。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うちがわ"
+            },
+            {
+              "id": "B",
+              "text": "まどがわ"
+            },
+            {
+              "id": "C",
+              "text": "うらかわ"
+            },
+            {
+              "id": "D",
+              "text": "うらがわ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1405"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "将来の人口を（予測）する。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よしょく"
+            },
+            {
+              "id": "B",
+              "text": "ようそく"
+            },
+            {
+              "id": "C",
+              "text": "よぞく"
+            },
+            {
+              "id": "D",
+              "text": "よそく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1406"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "学校で（制服）を着る。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいふく"
+            },
+            {
+              "id": "B",
+              "text": "せいぷく"
+            },
+            {
+              "id": "C",
+              "text": "せいぶく"
+            },
+            {
+              "id": "D",
+              "text": "せふく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1407"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "人数を（制限）する。括弧の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいがん"
+            },
+            {
+              "id": "B",
+              "text": "せいげん"
+            },
+            {
+              "id": "C",
+              "text": "せいけん"
+            },
+            {
+              "id": "D",
+              "text": "せげん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1407"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "この教室はしょしんしゃ向けです。「しょしんしゃ」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "制服"
+            },
+            {
+              "id": "B",
+              "text": "最初"
+            },
+            {
+              "id": "C",
+              "text": "初心者"
+            },
+            {
+              "id": "D",
+              "text": "商品券"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1402"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "にゅうじょうけんを入口で見せる。「にゅうじょうけん」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "制限"
+            },
+            {
+              "id": "B",
+              "text": "割引券"
+            },
+            {
+              "id": "C",
+              "text": "入場券"
+            },
+            {
+              "id": "D",
+              "text": "商品券"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1403"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "このわりびきけんを使うと安くなります。「わりびきけん」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "入場券"
+            },
+            {
+              "id": "B",
+              "text": "商品券"
+            },
+            {
+              "id": "C",
+              "text": "割引券"
+            },
+            {
+              "id": "D",
+              "text": "規則"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1403"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "会社のきそくを守る。「きそく」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "規則"
+            },
+            {
+              "id": "B",
+              "text": "予測"
+            },
+            {
+              "id": "C",
+              "text": "測定"
+            },
+            {
+              "id": "D",
+              "text": "法則"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1404"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "箱のうちがわを調べる。「うちがわ」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "窓側"
+            },
+            {
+              "id": "B",
+              "text": "制限"
+            },
+            {
+              "id": "C",
+              "text": "内側"
+            },
+            {
+              "id": "D",
+              "text": "裏側"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1405"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "まどがわの席が空いています。「まどがわ」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "窓側"
+            },
+            {
+              "id": "B",
+              "text": "初心者"
+            },
+            {
+              "id": "C",
+              "text": "内側"
+            },
+            {
+              "id": "D",
+              "text": "裏側"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1405"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "走る速さをそくていする。「そくてい」に合う漢字を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "測定"
+            },
+            {
+              "id": "B",
+              "text": "制限"
+            },
+            {
+              "id": "C",
+              "text": "予測"
+            },
+            {
+              "id": "D",
+              "text": "法則"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1406"
+          ]
+        }
+      ]
+    }
+  ]
+}

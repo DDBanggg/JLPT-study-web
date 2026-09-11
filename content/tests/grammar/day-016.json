@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-016",
+  "type": "grammar",
+  "title": "Grammar Test — Day 16",
+  "study_day": 16,
+  "coverage": {
+    "from_day": 16,
+    "to_day": 16
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "先生に日本の歴史（　　　）ついて質問しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "将来の仕事について（　　　）作文を書きました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "の"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "明日の会議（　　　）ついて、メールで知らせてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この本には、海の生き物について（　　　）書いてあります。山の動物だけではありません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "も"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "旅行の予定について（　　　）、まだ何も決めていません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "は"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "この薬の使い方に（　　　）、医者から説明を聞いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ついた"
+            },
+            {
+              "id": "B",
+              "text": "つき"
+            },
+            {
+              "id": "C",
+              "text": "つく"
+            },
+            {
+              "id": "D",
+              "text": "ついて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "日本の食べ物について（　　　）本を図書館で借りた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "の"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "この町の昔の様子に（　　　）調べたいと思います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つけば"
+            },
+            {
+              "id": "B",
+              "text": "つく"
+            },
+            {
+              "id": "C",
+              "text": "ついた"
+            },
+            {
+              "id": "D",
+              "text": "ついて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "山田さんの研究に（　　　）、詳しく教えていただけますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ついた"
+            },
+            {
+              "id": "B",
+              "text": "つく"
+            },
+            {
+              "id": "C",
+              "text": "ついて"
+            },
+            {
+              "id": "D",
+              "text": "つけば"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "来月、東京に（　　　）、国際会議が開かれます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おき"
+            },
+            {
+              "id": "B",
+              "text": "おける"
+            },
+            {
+              "id": "C",
+              "text": "おいた"
+            },
+            {
+              "id": "D",
+              "text": "おいて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "学校に（　　　）教育の役割を考える。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おき"
+            },
+            {
+              "id": "B",
+              "text": "おいた"
+            },
+            {
+              "id": "C",
+              "text": "おいて"
+            },
+            {
+              "id": "D",
+              "text": "おける"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "この時代において（　　　）、女性が働くことは簡単ではなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "は"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "この問題は、社会全体に（　　　）重要な問題です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おいて"
+            },
+            {
+              "id": "B",
+              "text": "おき"
+            },
+            {
+              "id": "C",
+              "text": "おける"
+            },
+            {
+              "id": "D",
+              "text": "おいた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "今回の大会に（　　　）、新しい記録が生まれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おいて"
+            },
+            {
+              "id": "B",
+              "text": "おき"
+            },
+            {
+              "id": "C",
+              "text": "おける"
+            },
+            {
+              "id": "D",
+              "text": "おいた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "現代社会において（　　　）家族の役割を研究する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "教育に（　　　）も、言葉は大切な役割を持っています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おき"
+            },
+            {
+              "id": "B",
+              "text": "おいて"
+            },
+            {
+              "id": "C",
+              "text": "おける"
+            },
+            {
+              "id": "D",
+              "text": "おいた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "この調査（　　　）おいて、重要な結果が得られた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "私（　　　）とって、母の料理が一番おいしい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "この道具は、料理人にとって（　　　）大切な物です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "の"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "学生に（　　　）、この値段は高すぎます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とる"
+            },
+            {
+              "id": "B",
+              "text": "とって"
+            },
+            {
+              "id": "C",
+              "text": "とれば"
+            },
+            {
+              "id": "D",
+              "text": "とった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "この町は、私にとって（　　　）第二のふるさとです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "は"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "初めて日本に来た人に（　　　）、漢字の多い地図は読みにくい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とって"
+            },
+            {
+              "id": "B",
+              "text": "とる"
+            },
+            {
+              "id": "C",
+              "text": "とれば"
+            },
+            {
+              "id": "D",
+              "text": "とった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "外国人だけでなく、日本人にとって（　　　）難しい問題です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "も"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "私にとって（　　　）幸せは、家族と元気に暮らすことです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "この一冊は、彼女（　　　）とって特別な本だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "へ"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        }
+      ]
+    }
+  ]
+}

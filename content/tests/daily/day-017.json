@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-017",
+  "type": "daily",
+  "title": "Daily Test — Day 17",
+  "study_day": 17,
+  "coverage": {
+    "from_day": 16,
+    "to_day": 16
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "お客様から、新しい商品の値段に（　　　）質問がありました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つく"
+            },
+            {
+              "id": "B",
+              "text": "つけば"
+            },
+            {
+              "id": "C",
+              "text": "ついて"
+            },
+            {
+              "id": "D",
+              "text": "ついた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "事故について（　　　）新聞記事を読んで、原因がわかりました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "生徒たちは、将来住みたい家（　　　）ついて話し合った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "へ"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1601"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この報告書では、地方に（　　　）医療の問題を取り上げています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おける"
+            },
+            {
+              "id": "B",
+              "text": "おいた"
+            },
+            {
+              "id": "C",
+              "text": "おき"
+            },
+            {
+              "id": "D",
+              "text": "おいて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "十九世紀のヨーロッパ（　　　）おいて、大きな変化が起きた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "経済の分野において（　　　）、この研究は高く評価されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "は"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1602"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "目の見えない人（　　　）とって、駅の音の案内はとても大切です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へ"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "引っ越してきた私にとって（　　　）初めての友達は、隣のおばあさんでした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "の"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "毎日忙しい父に（　　　）、日曜日の朝は貴重な時間だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とった"
+            },
+            {
+              "id": "B",
+              "text": "とれば"
+            },
+            {
+              "id": "C",
+              "text": "とる"
+            },
+            {
+              "id": "D",
+              "text": "とって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "水は、人間にとっても動物にとって（　　　）、生きるために必要です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "も"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1603"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "ケーキを半分食べました。（　　　）は冷蔵庫に入れておきます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残り"
+            },
+            {
+              "id": "B",
+              "text": "効果"
+            },
+            {
+              "id": "C",
+              "text": "大会"
+            },
+            {
+              "id": "D",
+              "text": "流れ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1601"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "この薬を飲んだら痛みがなくなった。薬の（　　　）があったのだろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "年上"
+            },
+            {
+              "id": "B",
+              "text": "効果"
+            },
+            {
+              "id": "C",
+              "text": "列"
+            },
+            {
+              "id": "D",
+              "text": "態度"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1602"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "この店は外国から買った（　　　）を売っています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "商品"
+            },
+            {
+              "id": "B",
+              "text": "態度"
+            },
+            {
+              "id": "C",
+              "text": "年上"
+            },
+            {
+              "id": "D",
+              "text": "平日"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1603"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "土日は休みですが、（　　　）は毎日会社へ行きます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "大会"
+            },
+            {
+              "id": "B",
+              "text": "都会"
+            },
+            {
+              "id": "C",
+              "text": "都市"
+            },
+            {
+              "id": "D",
+              "text": "平日"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1608"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "三に四をかけると十二です。これは（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "例外"
+            },
+            {
+              "id": "B",
+              "text": "温度"
+            },
+            {
+              "id": "C",
+              "text": "方法"
+            },
+            {
+              "id": "D",
+              "text": "掛け算"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1611"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "仕事で困ったら、まず自分の（　　　）に相談してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "温度"
+            },
+            {
+              "id": "B",
+              "text": "上司"
+            },
+            {
+              "id": "C",
+              "text": "効果"
+            },
+            {
+              "id": "D",
+              "text": "商品"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1613"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "この店では普通、予約が必要だが、今日は（　　　）で予約なしでも入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "例外"
+            },
+            {
+              "id": "B",
+              "text": "温度"
+            },
+            {
+              "id": "C",
+              "text": "列"
+            },
+            {
+              "id": "D",
+              "text": "態度"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1616"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "服を洗おうとしたが、（　　　）が動かないので手で洗った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "汚れ"
+            },
+            {
+              "id": "B",
+              "text": "洗濯物"
+            },
+            {
+              "id": "C",
+              "text": "洗濯機"
+            },
+            {
+              "id": "D",
+              "text": "洗剤"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1620"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "服の汚れを落とすために、水だけでなく（　　　）も使う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "態度"
+            },
+            {
+              "id": "B",
+              "text": "洗濯物"
+            },
+            {
+              "id": "C",
+              "text": "血液"
+            },
+            {
+              "id": "D",
+              "text": "洗剤"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1622"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "この池は（　　　）ので、子供が入っても水はひざまでしかありません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "浅い"
+            },
+            {
+              "id": "B",
+              "text": "辛い"
+            },
+            {
+              "id": "C",
+              "text": "厳しい"
+            },
+            {
+              "id": "D",
+              "text": "深い"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1629"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "これはなくしてはいけない（　　　）書類です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残念な"
+            },
+            {
+              "id": "B",
+              "text": "重要な"
+            },
+            {
+              "id": "C",
+              "text": "平気な"
+            },
+            {
+              "id": "D",
+              "text": "おしゃれな"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1635"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "壊れやすい物ですから、（　　　）に包んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "自然"
+            },
+            {
+              "id": "B",
+              "text": "丁寧"
+            },
+            {
+              "id": "C",
+              "text": "残念"
+            },
+            {
+              "id": "D",
+              "text": "平気"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1637"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「平方メートル」の読み方を選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へいぼうメートル"
+            },
+            {
+              "id": "B",
+              "text": "へいほメートル"
+            },
+            {
+              "id": "C",
+              "text": "へほうメートル"
+            },
+            {
+              "id": "D",
+              "text": "へいほうメートル"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1607"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「言語」の読み方を選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "げんこ"
+            },
+            {
+              "id": "B",
+              "text": "げんご"
+            },
+            {
+              "id": "C",
+              "text": "げご"
+            },
+            {
+              "id": "D",
+              "text": "けんご"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1619"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「血液」の読み方を選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けついき"
+            },
+            {
+              "id": "B",
+              "text": "けつえき"
+            },
+            {
+              "id": "C",
+              "text": "げつえき"
+            },
+            {
+              "id": "D",
+              "text": "けつえぎ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1626"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "今日は（残業）で帰りが遅くなる。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ざんぎょう"
+            },
+            {
+              "id": "B",
+              "text": "ざんぎょ"
+            },
+            {
+              "id": "C",
+              "text": "さんぎょう"
+            },
+            {
+              "id": "D",
+              "text": "ざんきょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1601"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "食事の（残り）を片付ける。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のごり"
+            },
+            {
+              "id": "B",
+              "text": "のり"
+            },
+            {
+              "id": "C",
+              "text": "のこり"
+            },
+            {
+              "id": "D",
+              "text": "ざんり"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1601"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "長い（列）に並ぶ。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "れち"
+            },
+            {
+              "id": "B",
+              "text": "れつ"
+            },
+            {
+              "id": "C",
+              "text": "れい"
+            },
+            {
+              "id": "D",
+              "text": "れっ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1602"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "今回は（例外）です。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "れいかい"
+            },
+            {
+              "id": "B",
+              "text": "れがい"
+            },
+            {
+              "id": "C",
+              "text": "れいがい"
+            },
+            {
+              "id": "D",
+              "text": "れつがい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1603"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "川の水が（浅い）。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あざい"
+            },
+            {
+              "id": "B",
+              "text": "せんい"
+            },
+            {
+              "id": "C",
+              "text": "あさい"
+            },
+            {
+              "id": "D",
+              "text": "あしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1604"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "旅行で（琵琶湖）へ行った。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "びわご"
+            },
+            {
+              "id": "B",
+              "text": "びばこ"
+            },
+            {
+              "id": "C",
+              "text": "ひわこ"
+            },
+            {
+              "id": "D",
+              "text": "びわこ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1605"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "京都に一週間（滞在）した。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たいざい"
+            },
+            {
+              "id": "B",
+              "text": "だいざい"
+            },
+            {
+              "id": "C",
+              "text": "たいさい"
+            },
+            {
+              "id": "D",
+              "text": "たいざん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1606"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "試合に負けて（残念）だった。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ざねん"
+            },
+            {
+              "id": "B",
+              "text": "ざんれん"
+            },
+            {
+              "id": "C",
+              "text": "さんねん"
+            },
+            {
+              "id": "D",
+              "text": "ざんねん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1601"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "おかずを少しのこす。「のこす」に合う漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残り"
+            },
+            {
+              "id": "B",
+              "text": "残る"
+            },
+            {
+              "id": "C",
+              "text": "残念"
+            },
+            {
+              "id": "D",
+              "text": "残す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1601"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "机の上に本がのこる。「のこる」に合う漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残る"
+            },
+            {
+              "id": "B",
+              "text": "残す"
+            },
+            {
+              "id": "C",
+              "text": "残り"
+            },
+            {
+              "id": "D",
+              "text": "残業"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1601"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "一つ、れいを挙げてください。「れい」に合う漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "浅"
+            },
+            {
+              "id": "B",
+              "text": "滞"
+            },
+            {
+              "id": "C",
+              "text": "列"
+            },
+            {
+              "id": "D",
+              "text": "例"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1603"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "山の中にみずうみがある。「みずうみ」に合う漢字はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "例"
+            },
+            {
+              "id": "B",
+              "text": "湖"
+            },
+            {
+              "id": "C",
+              "text": "列"
+            },
+            {
+              "id": "D",
+              "text": "浅"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1605"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "来月、仕事で東京に一週間たいざいする。「たいざい」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "滞在"
+            },
+            {
+              "id": "B",
+              "text": "残業"
+            },
+            {
+              "id": "C",
+              "text": "例外"
+            },
+            {
+              "id": "D",
+              "text": "行列"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1606"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "この川は（　　　）ので、歩いて渡れる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "浅い"
+            },
+            {
+              "id": "B",
+              "text": "深い"
+            },
+            {
+              "id": "C",
+              "text": "広い"
+            },
+            {
+              "id": "D",
+              "text": "近い"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1604"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "窓口の前で、一つの（　　　）を作って待ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "湖"
+            },
+            {
+              "id": "B",
+              "text": "列"
+            },
+            {
+              "id": "C",
+              "text": "残念"
+            },
+            {
+              "id": "D",
+              "text": "例"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1602"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-017",
+  "study_day": 17,
+  "items": [
+    {
+      "id": 1701,
+      "structure": "～に対して（１）",
+      "formation": [
+        "N1 + に対し / に対して（は / も）",
+        "N1 + に対しての / に対する + N2"
+      ],
+      "meaning_vi": "Đối với / Với / Cho đối tượng nào đó",
+      "usage_vi": "Vế sau thể hiện hành động hoặc cảm xúc hướng tới đối tượng N phía trước. Không gộp với nghĩa đối chiếu hai vế của に対して（２）.",
+      "examples": [
+        {
+          "jp": "年上の人に対しては、ていねいな言葉を使った方がいい。",
+          "vi": "Với người lớn tuổi hơn, nên dùng lời nói lịch sự."
+        },
+        {
+          "jp": "先生は私の質問に対して答えてくれなかった。",
+          "vi": "Thầy giáo đã không trả lời câu hỏi của tôi."
+        },
+        {
+          "jp": "社長に対する社員たちからの信頼は大きい。",
+          "vi": "Nhân viên rất tin tưởng giám đốc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 65 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～に対して（１）"
+    },
+    {
+      "id": 1702,
+      "structure": "～に対して（２）",
+      "formation": [
+        "Thể thường + のに対し（て）",
+        "Aな / Aな bỏ な + である + のに対し（て）",
+        "N + な / N + である + のに対し（て）",
+        "N + に対して"
+      ],
+      "meaning_vi": "Trái với… / So với… thì…",
+      "usage_vi": "Đặt hai vế cạnh nhau để so sánh. Có thể thể hiện sự trái ngược hoặc hai tính chất không liên quan đến nhau.",
+      "examples": [
+        {
+          "jp": "兄は背が高いのに対して、私は背が低い。",
+          "vi": "Trái với anh trai cao, tôi lại thấp."
+        },
+        {
+          "jp": "今、ベトナムは夏なのに対してオーストラリアは冬だ。",
+          "vi": "Hiện giờ Việt Nam là mùa hè trong khi Australia là mùa đông."
+        },
+        {
+          "jp": "みんなが遊んでいるのに対し、彼は一人で勉強している。",
+          "vi": "Trong khi mọi người vui chơi, anh ấy học một mình."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 66 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～に対して（２）"
+    },
+    {
+      "id": 1703,
+      "structure": "～に従って（１）",
+      "formation": [
+        "N + に従って"
+      ],
+      "meaning_vi": "Tuân theo / Theo đúng như…",
+      "usage_vi": "Thực hiện hành động theo chỉ thị, hướng dẫn, quy tắc, nội dung hoặc lời dạy đã có sẵn. Nguồn nêu 指示、命令、ルール、規則、教え làm các loại nội dung được tuân theo.",
+      "examples": [
+        {
+          "jp": "私は親の希望に従って、医者になった。",
+          "vi": "Tôi trở thành bác sĩ theo nguyện vọng của bố mẹ."
+        },
+        {
+          "jp": "私が考えたこの方法に従ってダイエットすれば、1か月で5キロ痩せられます。",
+          "vi": "Nếu giảm cân theo phương pháp tôi nghĩ ra thì một tháng có thể giảm 5 kg."
+        },
+        {
+          "jp": "この洗剤は、説明に従って正しく使用してください。",
+          "vi": "Hãy sử dụng chất tẩy rửa này đúng theo hướng dẫn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 67 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～に従って（１）"
+    },
+    {
+      "id": 1704,
+      "structure": "～に従って（２）",
+      "formation": [
+        "N / Vる + に従って"
+      ],
+      "meaning_vi": "Cùng với… thì… / Chủ thể này càng… thì chủ thể kia cũng càng…",
+      "usage_vi": "Cả hai vế diễn tả sự biến đổi theo thời gian, tình huống hoặc hoàn cảnh. Vế sau thay đổi do ảnh hưởng, tác động của vế trước. Thường dùng trong văn viết và phân tích.",
+      "examples": [
+        {
+          "jp": "時間が経つに従って、頭が痛くなってきた。",
+          "vi": "Theo thời gian trôi qua, đầu tôi càng đau."
+        },
+        {
+          "jp": "日本語の勉強が進むに従って、日本語が面白くなってきた。",
+          "vi": "Càng học tiếng Nhật, tôi càng thấy tiếng Nhật thú vị."
+        },
+        {
+          "jp": "時代の流れに従って、刀を作れる人は減ってきている。",
+          "vi": "Theo dòng chảy thời đại, số người biết làm kiếm ngày càng giảm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 68 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～に従って（２）"
+    }
+  ]
+}

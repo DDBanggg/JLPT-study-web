@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-013",
+  "type": "grammar",
+  "title": "Grammar Test — Day 13",
+  "study_day": 13,
+  "coverage": {
+    "from_day": 13,
+    "to_day": 13
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "健康のため、毎晩お酒を（　　　）ようにしています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飲まない"
+            },
+            {
+              "id": "B",
+              "text": "飲まなく"
+            },
+            {
+              "id": "C",
+              "text": "飲みません"
+            },
+            {
+              "id": "D",
+              "text": "飲まなければ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "朝の時間を大切にして、新聞を（　　　）ようにしています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "読む"
+            },
+            {
+              "id": "B",
+              "text": "読みます"
+            },
+            {
+              "id": "C",
+              "text": "読めば"
+            },
+            {
+              "id": "D",
+              "text": "読んで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "毎日少しでも歩くよう（　　　）しています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "と"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "大事な書類は、なくさないように（　　　）います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "する"
+            },
+            {
+              "id": "B",
+              "text": "して"
+            },
+            {
+              "id": "C",
+              "text": "し"
+            },
+            {
+              "id": "D",
+              "text": "した"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "体を冷やさないために、冬は温かい物を（　　　）ようにしています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "食べて"
+            },
+            {
+              "id": "B",
+              "text": "食べる"
+            },
+            {
+              "id": "C",
+              "text": "食べます"
+            },
+            {
+              "id": "D",
+              "text": "食べれば"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "忙しくても、友達からの手紙には返事を（　　　）ようにしています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "書く"
+            },
+            {
+              "id": "B",
+              "text": "書きます"
+            },
+            {
+              "id": "C",
+              "text": "書けば"
+            },
+            {
+              "id": "D",
+              "text": "書いて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "歯のために、甘い物を食べすぎ（　　　）ようにしています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ません"
+            },
+            {
+              "id": "B",
+              "text": "なければ"
+            },
+            {
+              "id": "C",
+              "text": "なく"
+            },
+            {
+              "id": "D",
+              "text": "ない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "妻と相談してから高い物を買う（　　　）しています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ように"
+            },
+            {
+              "id": "B",
+              "text": "ような"
+            },
+            {
+              "id": "C",
+              "text": "ようの"
+            },
+            {
+              "id": "D",
+              "text": "ようを"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1301"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "客：料理はできましたか。店員：いいえ、今から（　　　）ところです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "作っていた"
+            },
+            {
+              "id": "B",
+              "text": "作っている"
+            },
+            {
+              "id": "C",
+              "text": "作る"
+            },
+            {
+              "id": "D",
+              "text": "作った"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "まだ電話をかけていません。これから店に（　　　）ところです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "電話する"
+            },
+            {
+              "id": "B",
+              "text": "電話していた"
+            },
+            {
+              "id": "C",
+              "text": "電話した"
+            },
+            {
+              "id": "D",
+              "text": "電話している"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "今、切符を買っています。ちょうど切符を（　　　）ところなので、少し待ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "買う"
+            },
+            {
+              "id": "B",
+              "text": "買っている"
+            },
+            {
+              "id": "C",
+              "text": "買った"
+            },
+            {
+              "id": "D",
+              "text": "買っていた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "まだ掃除は終わっていません。今、床を（　　　）ところです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "掃除した"
+            },
+            {
+              "id": "B",
+              "text": "掃除し終わった"
+            },
+            {
+              "id": "C",
+              "text": "掃除していた"
+            },
+            {
+              "id": "D",
+              "text": "掃除している"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "荷物はたった今、全部（　　　）ところです。もう運ぶ物はありません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "運んでいる"
+            },
+            {
+              "id": "B",
+              "text": "運び終わった"
+            },
+            {
+              "id": "C",
+              "text": "運び始めた"
+            },
+            {
+              "id": "D",
+              "text": "運び始める"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "まだ服を選んでいません。これから旅行に持っていく服を（　　　）ところです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "選んだ"
+            },
+            {
+              "id": "B",
+              "text": "選んでいた"
+            },
+            {
+              "id": "C",
+              "text": "選び終わった"
+            },
+            {
+              "id": "D",
+              "text": "選ぶ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "Ａ：もう外に出た？　Ｂ：まだ。ちょうど今、靴を（　　　）ところ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "洗った"
+            },
+            {
+              "id": "B",
+              "text": "はいている"
+            },
+            {
+              "id": "C",
+              "text": "ぬいだ"
+            },
+            {
+              "id": "D",
+              "text": "買った"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "Ａ：もう駅に着いた？　Ｂ：うん。たった今、（　　　）ところ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "着いていた"
+            },
+            {
+              "id": "B",
+              "text": "着く"
+            },
+            {
+              "id": "C",
+              "text": "着いた"
+            },
+            {
+              "id": "D",
+              "text": "着いている"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "今はまだ学校です。授業が終わったので、これから家に（　　　）ところです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "帰っていた"
+            },
+            {
+              "id": "B",
+              "text": "帰らない"
+            },
+            {
+              "id": "C",
+              "text": "帰った"
+            },
+            {
+              "id": "D",
+              "text": "帰る"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1302"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "この町には先週（　　　）ばかりなので、道がよくわかりません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "来た"
+            },
+            {
+              "id": "B",
+              "text": "来れば"
+            },
+            {
+              "id": "C",
+              "text": "来る"
+            },
+            {
+              "id": "D",
+              "text": "来て"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "このかばんは昨日（　　　）ばかりなのに、もう汚れてしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "買えば"
+            },
+            {
+              "id": "B",
+              "text": "買う"
+            },
+            {
+              "id": "C",
+              "text": "買って"
+            },
+            {
+              "id": "D",
+              "text": "買った"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "先月日本語を習い（　　　）ばかりですから、まだ難しい話はできません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めれば"
+            },
+            {
+              "id": "B",
+              "text": "始めて"
+            },
+            {
+              "id": "C",
+              "text": "始める"
+            },
+            {
+              "id": "D",
+              "text": "始めた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "朝ご飯を食べた（　　　）だから、まだおなかがすいていない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりの"
+            },
+            {
+              "id": "B",
+              "text": "ばかりに"
+            },
+            {
+              "id": "C",
+              "text": "ばかり"
+            },
+            {
+              "id": "D",
+              "text": "ばかりを"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "あの店は先週開いたばかり（　　　）、まだお客さんが少ない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "の"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "さっき説明を（　　　）ばかりなのに、もうやり方がわからなくなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "聞いた"
+            },
+            {
+              "id": "B",
+              "text": "聞けば"
+            },
+            {
+              "id": "C",
+              "text": "聞いて"
+            },
+            {
+              "id": "D",
+              "text": "聞く"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "そのニュースは今朝知った（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりを"
+            },
+            {
+              "id": "C",
+              "text": "ばかり"
+            },
+            {
+              "id": "D",
+              "text": "ばかりの"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "まだ経験がありません。仕事を（　　　）ばかりなので、いろいろ教えてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "始める"
+            },
+            {
+              "id": "C",
+              "text": "始めた"
+            },
+            {
+              "id": "D",
+              "text": "始めれば"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1303"
+          ]
+        }
+      ]
+    }
+  ]
+}

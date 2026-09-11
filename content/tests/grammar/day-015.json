@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-015",
+  "type": "grammar",
+  "title": "Grammar Test — Day 15",
+  "study_day": 15,
+  "coverage": {
+    "from_day": 15,
+    "to_day": 15
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "今日は暑くて、空も青い。本当に夏（　　　）日だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしかったら"
+            },
+            {
+              "id": "C",
+              "text": "らしくて"
+            },
+            {
+              "id": "D",
+              "text": "らしい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "泣いている子に自分のお菓子をあげるなんて、やさしい姉（　　　）ね。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしい"
+            },
+            {
+              "id": "B",
+              "text": "らしくて"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "もう大人なんだから、大人（　　　）行動してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしかった"
+            },
+            {
+              "id": "C",
+              "text": "らしい"
+            },
+            {
+              "id": "D",
+              "text": "らしければ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "花がたくさん咲いて、春（　　　）景色になりました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしい"
+            },
+            {
+              "id": "B",
+              "text": "らしくて"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "人と同じ服でなくてもいい。自分（　　　）服を着たい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしい"
+            },
+            {
+              "id": "C",
+              "text": "らしくて"
+            },
+            {
+              "id": "D",
+              "text": "らしければ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "いつも静かな彼が大声で怒るなんて、彼（　　　）ない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしければ"
+            },
+            {
+              "id": "B",
+              "text": "らしく"
+            },
+            {
+              "id": "C",
+              "text": "らしい"
+            },
+            {
+              "id": "D",
+              "text": "らしかった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "今日は雪が降って、冬（　　　）寒さですね。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしくて"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "失敗を人のせいにするなんて、大人（　　　）ない態度だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしかった"
+            },
+            {
+              "id": "B",
+              "text": "らしければ"
+            },
+            {
+              "id": "C",
+              "text": "らしく"
+            },
+            {
+              "id": "D",
+              "text": "らしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "弟は元気に外を走り回っていて、子供（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしい"
+            },
+            {
+              "id": "B",
+              "text": "らしくて"
+            },
+            {
+              "id": "C",
+              "text": "らしく"
+            },
+            {
+              "id": "D",
+              "text": "らしければ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この部屋は、本が多くて勉強好きの兄（　　　）部屋だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしくて"
+            },
+            {
+              "id": "B",
+              "text": "らしければ"
+            },
+            {
+              "id": "C",
+              "text": "らしく"
+            },
+            {
+              "id": "D",
+              "text": "らしい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "周りの人をまねするだけでなく、あなた（　　　）生きてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしかった"
+            },
+            {
+              "id": "C",
+              "text": "らしい"
+            },
+            {
+              "id": "D",
+              "text": "らしければ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "会社に入って一年たち、話し方も社会人（　　　）なってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしかった"
+            },
+            {
+              "id": "B",
+              "text": "らしければ"
+            },
+            {
+              "id": "C",
+              "text": "らしい"
+            },
+            {
+              "id": "D",
+              "text": "らしく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "料理にも花にも秋（　　　）色が使われています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしい"
+            },
+            {
+              "id": "C",
+              "text": "らしくて"
+            },
+            {
+              "id": "D",
+              "text": "らしければ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "この学校では、会話（　　　）中心に日本語を教えています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "駅（　　　）中心に、店やホテルが集まっています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "この本は、子供の生活を中心（　　　）書かれています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "野菜を中心と（　　　）料理を出す店です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "し"
+            },
+            {
+              "id": "B",
+              "text": "すれば"
+            },
+            {
+              "id": "C",
+              "text": "して"
+            },
+            {
+              "id": "D",
+              "text": "した"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "この町では、川を中心（　　　）して祭りが行われます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "と"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "歴史を中心（　　　）する授業を受けました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "と"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "今日の会議では、来年の予定を中心に（　　　）話をします。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すれば"
+            },
+            {
+              "id": "B",
+              "text": "した"
+            },
+            {
+              "id": "C",
+              "text": "し"
+            },
+            {
+              "id": "D",
+              "text": "して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "家族（　　　）中心とした生活を送りたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "この店は、魚を中心に（　　　）食事で人気があります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "して"
+            },
+            {
+              "id": "B",
+              "text": "し"
+            },
+            {
+              "id": "C",
+              "text": "する"
+            },
+            {
+              "id": "D",
+              "text": "すれば"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "私たちは山田先生を中心（　　　）、新しい教室を作りました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "の"
+            },
+            {
+              "id": "B",
+              "text": "を"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "映画（　　　）中心として、日本の文化を学んでいます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "駅を中心（　　　）した地図を作ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        }
+      ]
+    }
+  ]
+}

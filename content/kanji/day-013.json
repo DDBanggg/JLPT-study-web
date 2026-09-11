@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-013",
+  "study_day": 13,
+  "items": [
+    {
+      "id": 1301,
+      "kanji": "亡",
+      "han_viet": "VONG",
+      "meaning_vi": "chết",
+      "onyomi": [
+        "ボウ",
+        "モウ"
+      ],
+      "kunyomi": [
+        "な・い"
+      ],
+      "compounds": [
+        {
+          "word": "亡くす",
+          "reading": "なくす",
+          "meaning_vi": "mất đi, đánh mất"
+        },
+        {
+          "word": "亡くなる",
+          "reading": "なくなる",
+          "meaning_vi": "qua đời, mất"
+        },
+        {
+          "word": "死亡",
+          "reading": "しぼう",
+          "meaning_vi": "tử vong, qua đời"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 7 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 亡"
+    },
+    {
+      "id": 1302,
+      "kanji": "忘",
+      "han_viet": "VONG",
+      "meaning_vi": "quên",
+      "onyomi": [
+        "ボウ"
+      ],
+      "kunyomi": [
+        "わす・れる"
+      ],
+      "compounds": [
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning_vi": "quên, bỏ quên, không nhớ"
+        },
+        {
+          "word": "忘れ物",
+          "reading": "わすれもの",
+          "meaning_vi": "đồ bị bỏ quên, đồ thất lạc"
+        },
+        {
+          "word": "忘年会",
+          "reading": "ぼうねんかい",
+          "meaning_vi": "tiệc tất niên, tiệc cuối năm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 7 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 忘"
+    },
+    {
+      "id": 1303,
+      "kanji": "望",
+      "han_viet": "VỌNG",
+      "meaning_vi": "hy vọng",
+      "onyomi": [
+        "ボウ",
+        "モウ"
+      ],
+      "kunyomi": [
+        "のぞ・む"
+      ],
+      "compounds": [
+        {
+          "word": "望む",
+          "reading": "のぞむ",
+          "meaning_vi": "mong muốn, kỳ vọng, hy vọng"
+        },
+        {
+          "word": "希望",
+          "reading": "きぼう",
+          "meaning_vi": "hy vọng, mong muốn, nguyện vọng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 7 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 望"
+    },
+    {
+      "id": 1304,
+      "kanji": "忙",
+      "han_viet": "MANG",
+      "meaning_vi": "bận rộn",
+      "onyomi": [
+        "ボウ"
+      ],
+      "kunyomi": [
+        "いそが・しい"
+      ],
+      "compounds": [
+        {
+          "word": "忙しい",
+          "reading": "いそがしい",
+          "meaning_vi": "bận rộn"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 8 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 忙"
+    },
+    {
+      "id": 1305,
+      "kanji": "慣",
+      "han_viet": "QUÁN",
+      "meaning_vi": "quen",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "な・れる",
+        "な・らす"
+      ],
+      "compounds": [
+        {
+          "word": "慣れる",
+          "reading": "なれる",
+          "meaning_vi": "thích nghi với, quen với"
+        },
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "meaning_vi": "thói quen, tập quán, phong tục"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 8 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 慣"
+    },
+    {
+      "id": 1306,
+      "kanji": "情",
+      "han_viet": "TÌNH",
+      "meaning_vi": "tình cảm",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "なさ・け"
+      ],
+      "compounds": [
+        {
+          "word": "感情",
+          "reading": "かんじょう",
+          "meaning_vi": "cảm xúc, tình cảm"
+        },
+        {
+          "word": "事情",
+          "reading": "じじょう",
+          "meaning_vi": "sự tình, hoàn cảnh, tình hình, lý do"
+        },
+        {
+          "word": "情報",
+          "reading": "じょうほう",
+          "meaning_vi": "thông tin, tin tức"
+        },
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning_vi": "biểu cảm, nét mặt, vẻ mặt"
+        },
+        {
+          "word": "友情",
+          "reading": "ゆうじょう",
+          "meaning_vi": "tình bạn, tình hữu nghị"
+        },
+        {
+          "word": "感情的",
+          "reading": "かんじょうてき",
+          "meaning_vi": "mang tính cảm xúc, dễ xúc động, thiên về cảm xúc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 8 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 情"
+    }
+  ]
+}

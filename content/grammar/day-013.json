@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-013",
+  "study_day": 13,
+  "items": [
+    {
+      "id": 1301,
+      "structure": "～ようにしている",
+      "formation": [
+        "Vる / Vない + ようにしている"
+      ],
+      "meaning_vi": "Cố gắng duy trì thói quen làm / không làm V",
+      "usage_vi": "Người nói đang cố gắng duy trì làm hoặc không làm một việc như thói quen. Trọng tâm là nỗ lực đang được duy trì.",
+      "examples": [
+        {
+          "jp": "健康のために、毎日野菜を食べるようにしています。",
+          "vi": "Vì sức khỏe, tôi cố gắng duy trì việc ăn rau mỗi ngày."
+        },
+        {
+          "jp": "日本語が上手になりたいから、毎日日本語で話すようにしています。",
+          "vi": "Vì muốn giỏi tiếng Nhật, tôi cố gắng nói tiếng Nhật hằng ngày."
+        },
+        {
+          "jp": "無駄なものを買わないようにしています。",
+          "vi": "Tôi cố gắng không mua những thứ không cần thiết."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 22 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > ～ようにしている"
+    },
+    {
+      "id": 1302,
+      "structure": "～ところだ",
+      "formation": [
+        "Vる + ところだ",
+        "Vている + ところだ",
+        "Vた + ところだ"
+      ],
+      "meaning_vi": "Sắp sửa V / Đúng lúc đang V / Vừa mới V",
+      "usage_vi": "Phân biệt ba thời điểm: ngay trước khi hành động xảy ra, lúc hành động đang diễn ra, và ngay sau khi hành động hoàn thành.",
+      "examples": [
+        {
+          "jp": "電球、取り替えた？　これから取り替えるところ。",
+          "vi": "Đã thay bóng đèn chưa? Bây giờ tôi chuẩn bị thay."
+        },
+        {
+          "jp": "寝坊して急いでゴミを出しに行ったら、ちょうどゴミを回収しているところでした。",
+          "vi": "Vì ngủ quên, tôi vội đi đổ rác thì đúng lúc người ta đang thu gom rác."
+        },
+        {
+          "jp": "荷物、届きましたか。　はい。ちょうど今、受け取ったところです。",
+          "vi": "Hành lý đã đến chưa? Vâng, tôi vừa mới nhận được ngay lúc này."
+        }
+      ],
+      "notes_vi": [
+        "Ví dụ chính nằm ở trang in 24; formation và nuance nằm ở trang 23.",
+        "Vる: thường đi với ちょうど、今から、これから.",
+        "Vている: thường đi với ちょうど、今.",
+        "Vた: thường đi với たった今、今、ちょうど、さっき、ついさっき.",
+        "Không dùng Vているところ để nói chung về một việc kéo dài lâu; có thể dùng để chỉ một giai đoạn cụ thể trong quá trình. Nguồn đối chiếu 日本語の勉強をしています với 日本語の「て形」を勉強しているところです."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 23 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > ～ところだ"
+    },
+    {
+      "id": 1303,
+      "structure": "～たばかりだ",
+      "formation": [
+        "Vた + ばかりだ",
+        "Vたばかり + で / だから / ですが / なんだけど / なのに"
+      ],
+      "meaning_vi": "Vừa mới V",
+      "usage_vi": "Hành động đã xảy ra và người nói cảm thấy khoảng thời gian từ lúc kết thúc đến hiện tại vẫn ngắn. Đây là cảm nhận chủ quan: có thể dùng cho việc xảy ra ngay trước đó, tuần trước, tháng trước hoặc năm trước nếu người nói vẫn cảm thấy mới.",
+      "examples": [
+        {
+          "jp": "さっき帰ってきたばかりなので、まだメールをチェックしていないんです。",
+          "vi": "Tôi vừa mới về nên vẫn chưa kiểm tra thư điện tử."
+        },
+        {
+          "jp": "さっき聞いたばかりのことを、もう忘れちゃったの。",
+          "vi": "Chuyện vừa nghe lúc nãy mà đã quên rồi sao?"
+        },
+        {
+          "jp": "父を亡くしたばかりで、まだ悲しみから抜け出せない。",
+          "vi": "Tôi vừa mất bố nên vẫn chưa thoát khỏi nỗi buồn."
+        }
+      ],
+      "notes_vi": [
+        "Cuối câu: Vたばかりだ / Vたばかりです / Vたばかりである.",
+        "Ở giữa câu, Vたばかり đóng vai trò danh từ. Khác với ところだ ở thời điểm ngay sau hành động, たばかりだ nhấn mạnh cảm nhận thời gian của người nói."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 25 | CHƯƠNG 1 > BÀI 1 > NGỮ PHÁP > ～たばかりだ"
+    }
+  ]
+}

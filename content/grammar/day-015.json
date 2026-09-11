@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-015",
+  "study_day": 15,
+  "items": [
+    {
+      "id": 1501,
+      "structure": "～らしい",
+      "formation": [
+        "N + らしい",
+        "N1 + らしい + N2"
+      ],
+      "meaning_vi": "Ra dáng / Đậm chất / Chuẩn…",
+      "usage_vi": "Biểu thị tính chất điển hình của một sự việc, sự vật hoặc đối tượng. Nらしい dùng như tính từ đuôi い và có thể bổ nghĩa danh từ phía sau. Chỉ dạy nghĩa điển hình này, không thêm nghĩa suy đoán/nghe nói.",
+      "examples": [
+        {
+          "jp": "息子は高校生になり、だんだん大人らしい顔になってきた。",
+          "vi": "Con trai tôi lên cấp ba và khuôn mặt dần ra dáng người lớn."
+        },
+        {
+          "jp": "あの子は遊ばないで勉強ばかりしていて、子供らしくない。",
+          "vi": "Đứa trẻ đó chỉ học mà không chơi, chẳng giống tính cách trẻ con."
+        }
+      ],
+      "notes_vi": [
+        "Nguồn có dạng phủ định 子供らしくない và 夏らしくなくなる trong đáp án trang 47."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 45 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～らしい"
+    },
+    {
+      "id": 1502,
+      "structure": "～を中心に",
+      "formation": [
+        "N1 + を中心に / を中心と（して）",
+        "N1 + を中心にした / を中心とした + N2",
+        "N1 + を中心にする / を中心とする + N2"
+      ],
+      "meaning_vi": "Chủ yếu là… / Trọng tâm là…",
+      "usage_vi": "Nhấn mạnh trọng tâm của hành động hoặc của sự vật, sự việc.",
+      "examples": [
+        {
+          "jp": "私はダイエットのため、野菜を中心とした食事をしている。",
+          "vi": "Để giảm cân, tôi ăn theo chế độ chủ yếu là rau."
+        },
+        {
+          "jp": "私の授業では、文法ではなく会話を中心に教えている。",
+          "vi": "Trong lớp của tôi, việc dạy tập trung vào hội thoại thay vì ngữ pháp."
+        },
+        {
+          "jp": "この店は、パスタを中心とするイタリア料理の店だ。",
+          "vi": "Đây là nhà hàng Ý với các món chủ yếu là mì pasta."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 46 | CHƯƠNG 1 > BÀI 2 > NGỮ PHÁP > ～を中心に"
+    }
+  ]
+}

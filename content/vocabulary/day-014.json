@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-014",
+  "study_day": 14,
+  "target": 50,
+  "pool_size": 38,
+  "items": [
+    {
+      "id": 1401,
+      "surface": "初め",
+      "hiragana": "はじめ",
+      "kanji": "初め",
+      "meaning_vi": "lúc đầu, khởi đầu, phần đầu",
+      "examples": [
+        {
+          "jp": "彼のことを、初めは嫌な人だと思ったが、だんだんいい人だとわかってきた。",
+          "vi": "Ban đầu tôi nghĩ anh ấy là người khó chịu, nhưng dần dần tôi nhận ra anh ấy là người tốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 1 — 初め"
+    },
+    {
+      "id": 1402,
+      "surface": "初心者",
+      "hiragana": "しょしんしゃ",
+      "kanji": "初心者",
+      "meaning_vi": "người mới bắt đầu, người chưa có kinh nghiệm",
+      "examples": [
+        {
+          "jp": "スキーの初心者は、スキー板をつけて歩くことから始めます。",
+          "vi": "Người mới trượt tuyết sẽ bắt đầu từ việc đi bộ với ván trượt tuyết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 2 — 初心者"
+    },
+    {
+      "id": 1403,
+      "surface": "〜券",
+      "hiragana": "～けん",
+      "kanji": "〜券",
+      "meaning_vi": "vé ~, phiếu ~",
+      "examples": [
+        {
+          "jp": "商品券",
+          "vi": "Phiếu quà tặng"
+        },
+        {
+          "jp": "入場券",
+          "vi": "Vé vào cổng"
+        },
+        {
+          "jp": "割引券",
+          "vi": "Phiếu giảm giá"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 3 — 〜券"
+    },
+    {
+      "id": 1404,
+      "surface": "法則",
+      "hiragana": "ほうそく",
+      "kanji": "法則",
+      "meaning_vi": "quy luật, định luật (quy tắc mang tính tự nhiên hoặc khoa học, như định luật vật lý)",
+      "examples": [
+        {
+          "jp": "動物も人間も、自然の法則の中で生きている。",
+          "vi": "Cả động vật lẫn con người đều sống trong các quy luật của tự nhiên."
+        },
+        {
+          "jp": "日本語の発音の法則を学ぶ。",
+          "vi": "Học các quy tắc phát âm của tiếng Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 4 — 法則"
+    },
+    {
+      "id": 1405,
+      "surface": "規則",
+      "hiragana": "きそく",
+      "kanji": "規則",
+      "meaning_vi": "quy tắc, nội quy (quy định do con người đặt ra)",
+      "examples": [
+        {
+          "jp": "学校の規則を守る。",
+          "vi": "Tuân thủ nội quy của trường học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 5 — 規則"
+    },
+    {
+      "id": 1406,
+      "surface": "内側",
+      "hiragana": "うちがわ",
+      "kanji": "内側",
+      "meaning_vi": "bên trong, phía trong",
+      "examples": [
+        {
+          "jp": "窓の内側を拭いてください。",
+          "vi": "Hãy lau bên trong cửa sổ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 6 — 内側"
+    },
+    {
+      "id": 1407,
+      "surface": "裏側",
+      "hiragana": "うらがわ",
+      "kanji": "裏側",
+      "meaning_vi": "mặt sau, phía sau; mặt trái",
+      "examples": [
+        {
+          "jp": "お皿の裏側まで、きちんと洗ってください。",
+          "vi": "Hãy rửa sạch cả mặt dưới của cái đĩa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 7 — 裏側"
+    },
+    {
+      "id": 1408,
+      "surface": "窓側",
+      "hiragana": "まどがわ",
+      "kanji": "窓側",
+      "meaning_vi": "phía cửa sổ",
+      "examples": [
+        {
+          "jp": "飛行機の窓側の席を予約する。",
+          "vi": "Đặt chỗ ngồi gần cửa sổ máy bay."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 8 — 窓側"
+    },
+    {
+      "id": 1409,
+      "surface": "制服",
+      "hiragana": "せいふく",
+      "kanji": "制服",
+      "meaning_vi": "đồng phục",
+      "examples": [
+        {
+          "jp": "私の学校の制服はデザインがいい。",
+          "vi": "Đồng phục trường tôi có thiết kế đẹp."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 9 — 制服"
+    },
+    {
+      "id": 1410,
+      "surface": "祝日",
+      "hiragana": "しゅくじつ",
+      "kanji": "祝日",
+      "meaning_vi": "ngày lễ",
+      "examples": [
+        {
+          "jp": "昨日は祝日だったので、会社が休みでした。",
+          "vi": "Hôm qua là ngày lễ nên công ty được nghỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 10 — 祝日"
+    },
+    {
+      "id": 1411,
+      "surface": "年賀状",
+      "hiragana": "ねんがじょう",
+      "kanji": "年賀状",
+      "meaning_vi": "thiệp năm mới",
+      "examples": [
+        {
+          "jp": "お正月には、友達に年賀状を送る。",
+          "vi": "Vào dịp Tết, tôi gửi thiệp chúc mừng năm mới cho bạn bè."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 33 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 11 — 年賀状"
+    },
+    {
+      "id": 1412,
+      "surface": "和菓子",
+      "hiragana": "わがし",
+      "kanji": "和菓子",
+      "meaning_vi": "bánh kẹo truyền thống Nhật Bản",
+      "examples": [
+        {
+          "jp": "お茶を飲みながら、和菓子を食べる。",
+          "vi": "Vừa uống trà, vừa ăn bánh kẹo Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 12 — 和菓子"
+    },
+    {
+      "id": 1413,
+      "surface": "洋菓子",
+      "hiragana": "ようがし",
+      "kanji": "洋菓子",
+      "meaning_vi": "bánh kẹo phương Tây",
+      "examples": [
+        {
+          "jp": "友達の誕生日に、洋菓子をプレゼントしました。",
+          "vi": "Tôi đã tặng bánh kẹo kiểu Tây vào sinh nhật của bạn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 13 — 洋菓子"
+    },
+    {
+      "id": 1414,
+      "surface": "生き物",
+      "hiragana": "いきもの",
+      "kanji": "生き物",
+      "meaning_vi": "vật sống, sinh vật",
+      "examples": [
+        {
+          "jp": "動物園には、珍しい生き物がたくさんいます。",
+          "vi": "Ở sở thú có rất nhiều loài động vật hiếm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 14 — 生き物"
+    },
+    {
+      "id": 1415,
+      "surface": "入場料",
+      "hiragana": "にゅうじょうりょう",
+      "kanji": "入場料",
+      "meaning_vi": "phí vào cổng",
+      "examples": [
+        {
+          "jp": "入場料は、入口で支払ってください。",
+          "vi": "Vui lòng thanh toán phí vào cổng ở lối vào."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 15 — 入場料"
+    },
+    {
+      "id": 1416,
+      "surface": "以前",
+      "hiragana": "いぜん",
+      "kanji": "以前",
+      "meaning_vi": "lúc trước, trước kia, thuở trước",
+      "examples": [
+        {
+          "jp": "私は以前、受付の仕事をしていました。",
+          "vi": "Trước đây tôi từng làm công việc lễ tân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 16 — 以前"
+    },
+    {
+      "id": 1417,
+      "surface": "割合",
+      "hiragana": "わりあい",
+      "kanji": "割合",
+      "meaning_vi": "tỷ lệ",
+      "examples": [
+        {
+          "jp": "この学校の男子学生と女子学生の割合は同じくらいだ。",
+          "vi": "Tỷ lệ nam sinh và nữ sinh ở trường này gần như bằng nhau."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 17 — 割合"
+    },
+    {
+      "id": 1418,
+      "surface": "親戚",
+      "hiragana": "しんせき",
+      "kanji": "親戚",
+      "meaning_vi": "họ hàng",
+      "examples": [
+        {
+          "jp": "お正月には親戚が集まる。",
+          "vi": "Họ hàng tụ họp lại với nhau vào dịp Tết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 18 — 親戚"
+    },
+    {
+      "id": 1419,
+      "surface": "作品",
+      "hiragana": "さくひん",
+      "kanji": "作品",
+      "meaning_vi": "tác phẩm",
+      "examples": [
+        {
+          "jp": "子供が作った作品を部屋に飾る。",
+          "vi": "Trang trí căn phòng bằng tác phẩm do bọn trẻ làm."
+        },
+        {
+          "jp": "芸術作品を見ても、良さがよくわからない。",
+          "vi": "Dù nhìn các tác phẩm nghệ thuật, tôi cũng không hiểu rõ điểm hay của chúng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 19 — 作品"
+    },
+    {
+      "id": 1420,
+      "surface": "事件",
+      "hiragana": "じけん",
+      "kanji": "事件",
+      "meaning_vi": "vụ việc, vụ án",
+      "examples": [
+        {
+          "jp": "今朝、職場の近くで事件があった。",
+          "vi": "Sáng nay đã xảy ra một vụ việc gần chỗ làm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 20 — 事件"
+    },
+    {
+      "id": 1421,
+      "surface": "中心",
+      "hiragana": "ちゅうしん",
+      "kanji": "中心",
+      "meaning_vi": "trung tâm",
+      "examples": [
+        {
+          "jp": "街の中心に、大きなビルがある。",
+          "vi": "Ở trung tâm thành phố có một tòa nhà lớn."
+        },
+        {
+          "jp": "社会人になり、仕事中心の生活になる。",
+          "vi": "Khi trở thành người đi làm, cuộc sống xoay quanh công việc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 21 — 中心"
+    },
+    {
+      "id": 1422,
+      "surface": "景色",
+      "hiragana": "けしき",
+      "kanji": "景色",
+      "meaning_vi": "phong cảnh, cảnh sắc",
+      "examples": [
+        {
+          "jp": "ここからの景色はとてもきれいだ。",
+          "vi": "Phong cảnh nhìn từ đây rất đẹp."
+        },
+        {
+          "jp": "イタリアの町の景色は素晴らしい。",
+          "vi": "Những thị trấn ở Ý có phong cảnh tuyệt vời."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 34 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 22 — 景色"
+    },
+    {
+      "id": 1423,
+      "surface": "体力",
+      "hiragana": "たいりょく",
+      "kanji": "体力",
+      "meaning_vi": "thể lực",
+      "examples": [
+        {
+          "jp": "年を取ると体力が落ちる。",
+          "vi": "Khi có tuổi thì thể lực giảm sút."
+        },
+        {
+          "jp": "運動をすると、体力がつく。",
+          "vi": "Nếu tập thể dục thì sẽ tăng cường thể lực."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 23 — 体力"
+    },
+    {
+      "id": 1424,
+      "surface": "警察",
+      "hiragana": "けいさつ",
+      "kanji": "警察",
+      "meaning_vi": "cảnh sát",
+      "examples": [
+        {
+          "jp": "財布を盗まれたので、警察に相談した。",
+          "vi": "Vì bị trộm mất ví nên tôi đã báo cảnh sát."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 24 — 警察"
+    },
+    {
+      "id": 1425,
+      "surface": "犯人",
+      "hiragana": "はんにん",
+      "kanji": "犯人",
+      "meaning_vi": "hung thủ, thủ phạm",
+      "examples": [
+        {
+          "jp": "警察が万引きした犯人をつかまえた。",
+          "vi": "Cảnh sát đã bắt được kẻ trộm vặt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 25 — 犯人"
+    },
+    {
+      "id": 1426,
+      "surface": "戦争",
+      "hiragana": "せんそう",
+      "kanji": "戦争",
+      "meaning_vi": "chiến tranh, cuộc chiến",
+      "examples": [
+        {
+          "jp": "この国では、10年前からずっと戦争が続いている。",
+          "vi": "Ở đất nước này, chiến tranh đã kéo dài suốt từ 10 năm trước."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 26 — 戦争"
+    },
+    {
+      "id": 1427,
+      "surface": "育児",
+      "hiragana": "いくじ",
+      "kanji": "育児",
+      "meaning_vi": "nuôi trẻ, chăm sóc trẻ",
+      "examples": [
+        {
+          "jp": "育児をしていると、自分の時間がなかなか取れない。",
+          "vi": "Khi nuôi dạy con cái, tôi rất khó dành thời gian cho bản thân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 27 — 育児"
+    },
+    {
+      "id": 1428,
+      "surface": "パスタ",
+      "hiragana": "パスタ",
+      "kanji": null,
+      "meaning_vi": "mì pasta",
+      "examples": [
+        {
+          "jp": "パスタが大好きです。",
+          "vi": "Tôi rất thích món pasta."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 28 — パスタ"
+    },
+    {
+      "id": 1429,
+      "surface": "センター",
+      "hiragana": "センター",
+      "kanji": null,
+      "meaning_vi": "trung tâm",
+      "examples": [
+        {
+          "jp": "新しい文化センターが、駅の近くにできました。",
+          "vi": "Một trung tâm văn hóa mới đã được xây dựng gần nhà ga."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 29 — センター"
+    },
+    {
+      "id": 1430,
+      "surface": "迷惑",
+      "hiragana": "めいわく",
+      "kanji": "迷惑",
+      "meaning_vi": "phiền phức, bất tiện",
+      "examples": [
+        {
+          "jp": "夜に大きな声で話すのは、迷惑だ。",
+          "vi": "Việc nói lớn tiếng vào ban đêm thật sự rất phiền."
+        },
+        {
+          "jp": "両親には迷惑をかけてばかりで、申し訳ない。",
+          "vi": "Tôi cảm thấy rất áy náy vì lúc nào cũng gây phiền phức cho bố mẹ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 30 — 迷惑"
+    },
+    {
+      "id": 1431,
+      "surface": "面倒",
+      "hiragana": "めんどう",
+      "kanji": "面倒",
+      "meaning_vi": "phiền phức, rắc rối; chăm sóc ai đó (面倒を見る)",
+      "examples": [
+        {
+          "jp": "今から食事を作るのは面倒だから、コンビニで買おう。",
+          "vi": "Bây giờ mà nấu ăn thì phiền phức quá, nên mua ở cửa hàng tiện lợi thôi."
+        },
+        {
+          "jp": "妹と弟の面倒を見る。",
+          "vi": "Trông nom em gái và em trai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 31 — 面倒"
+    },
+    {
+      "id": 1432,
+      "surface": "危険",
+      "hiragana": "きけん",
+      "kanji": "危険",
+      "meaning_vi": "nguy hiểm",
+      "examples": [
+        {
+          "jp": "この川で泳ぐのは危険です。",
+          "vi": "Bơi ở con sông này rất nguy hiểm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 32 — 危険"
+    },
+    {
+      "id": 1433,
+      "surface": "嫌",
+      "hiragana": "いや",
+      "kanji": "嫌",
+      "meaning_vi": "ghét, không thích",
+      "examples": [
+        {
+          "jp": "朝早く起きるのは嫌だ。",
+          "vi": "Tôi ghét phải dậy sớm vào buổi sáng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 35 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 33 — 嫌"
+    },
+    {
+      "id": 1434,
+      "surface": "いい加減",
+      "hiragana": "いいかげん",
+      "kanji": "いい加減",
+      "meaning_vi": "vô trách nhiệm, qua loa; vừa phải, đủ rồi",
+      "examples": [
+        {
+          "jp": "いつも冗談ばかり言って、いい加減にしてくれ。",
+          "vi": "Toàn nói đùa thôi, làm ơn nghiêm túc chút đi."
+        },
+        {
+          "jp": "いい加減に、勉強しないと合格できないよ。",
+          "vi": "Nếu không học hành đàng hoàng thì không thể đỗ được đâu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 36 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 34 — いい加減"
+    },
+    {
+      "id": 1435,
+      "surface": "積極的",
+      "hiragana": "せっきょくてき",
+      "kanji": "積極的",
+      "meaning_vi": "một cách tích cực",
+      "examples": [
+        {
+          "jp": "田中社長は、会社を大きくすることに積極的だ。",
+          "vi": "Giám đốc Tanaka rất tích cực trong việc mở rộng công ty."
+        },
+        {
+          "jp": "積極的に日本語で話すようにしている。",
+          "vi": "Tôi cố gắng tích cực nói chuyện bằng tiếng Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 36 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 35 — 積極的"
+    },
+    {
+      "id": 1436,
+      "surface": "面倒くさい",
+      "hiragana": "めんどうくさい",
+      "kanji": "面倒くさい",
+      "meaning_vi": "phiền hà, rắc rối",
+      "examples": [
+        {
+          "jp": "休日に仕事をするなんて面倒くさい。",
+          "vi": "Làm việc vào ngày nghỉ thật phiền phức."
+        },
+        {
+          "jp": "面倒くさいことは後回しにする。",
+          "vi": "Những việc phiền phức thì để sau."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 36 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 36 — 面倒くさい"
+    },
+    {
+      "id": 1437,
+      "surface": "若い",
+      "hiragana": "わかい",
+      "kanji": "若い",
+      "meaning_vi": "trẻ, trẻ trung",
+      "examples": [
+        {
+          "jp": "若いころからたばこを吸っていたが、子供が生まれたので禁煙することにした。",
+          "vi": "Hồi còn trẻ tôi hay hút thuốc, nhưng vì có con nên đã quyết định bỏ thuốc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 36 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 37 — 若い"
+    },
+    {
+      "id": 1438,
+      "surface": "争う",
+      "hiragana": "あらそう",
+      "kanji": "争う",
+      "meaning_vi": "tranh chấp, tranh giành",
+      "examples": [
+        {
+          "jp": "その国は、長い間隣の国と争っている。",
+          "vi": "Quốc gia đó đã tranh chấp với nước láng giềng trong một thời gian dài."
+        },
+        {
+          "jp": "今、４つのチームが優勝を争っている。",
+          "vi": "Hiện tại, bốn đội đang tranh nhau chức vô địch."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 36 | CHƯƠNG 1 > BÀI 2 > TỪ VỰNG > mục 38 — 争う"
+    }
+  ]
+}

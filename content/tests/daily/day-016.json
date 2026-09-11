@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-016",
+  "type": "daily",
+  "title": "Daily Test — Day 16",
+  "study_day": 16,
+  "coverage": {
+    "from_day": 15,
+    "to_day": 15
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "今日は太陽が出て、風も暖かい。やっと春（　　　）なってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしければ"
+            },
+            {
+              "id": "B",
+              "text": "らしく"
+            },
+            {
+              "id": "C",
+              "text": "らしい"
+            },
+            {
+              "id": "D",
+              "text": "らしかった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "いつも時間を守る田中さんが遅れるなんて、田中さん（　　　）ないですね。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしく"
+            },
+            {
+              "id": "B",
+              "text": "らしい"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしかった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "小さかった妹が自分で予定を決めるようになり、大人（　　　）考え方をするようになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしい"
+            },
+            {
+              "id": "B",
+              "text": "らしく"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしくて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "大きな声であいさつをして、元気な子供（　　　）姿を見せてくれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしければ"
+            },
+            {
+              "id": "B",
+              "text": "らしい"
+            },
+            {
+              "id": "C",
+              "text": "らしく"
+            },
+            {
+              "id": "D",
+              "text": "らしくて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "人前でも無理に自分を変えず、私（　　　）話せばいいと思う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "らしい"
+            },
+            {
+              "id": "B",
+              "text": "らしかった"
+            },
+            {
+              "id": "C",
+              "text": "らしければ"
+            },
+            {
+              "id": "D",
+              "text": "らしく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1501"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "今度の集まりでは、旅行の写真（　　　）中心に話をしたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "新しい病院を中心（　　　）した町づくりが始まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "が"
+            },
+            {
+              "id": "B",
+              "text": "と"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "の"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "この番組は、海外で働く人を中心に（　　　）番組です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "して"
+            },
+            {
+              "id": "B",
+              "text": "すれば"
+            },
+            {
+              "id": "C",
+              "text": "した"
+            },
+            {
+              "id": "D",
+              "text": "し"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "図書館では、小学生を中心（　　　）、本を読む会を開いています。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "が"
+            },
+            {
+              "id": "C",
+              "text": "の"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "私たちは朝ご飯（　　　）中心として、一日の食事を考え直しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "が"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1502"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "去年は百人だった会員が、今年は百五十人に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "落ちた"
+            },
+            {
+              "id": "B",
+              "text": "切れた"
+            },
+            {
+              "id": "C",
+              "text": "増えた"
+            },
+            {
+              "id": "D",
+              "text": "倒れた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1502"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "留学の費用を払うために、アルバイトでお金を（　　　）いる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "割って"
+            },
+            {
+              "id": "B",
+              "text": "測って"
+            },
+            {
+              "id": "C",
+              "text": "倒して"
+            },
+            {
+              "id": "D",
+              "text": "貯めて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1503"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "強い風で庭の木が（　　　）しまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "積んで"
+            },
+            {
+              "id": "B",
+              "text": "倒して"
+            },
+            {
+              "id": "C",
+              "text": "倒れて"
+            },
+            {
+              "id": "D",
+              "text": "祝って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1505"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "重い箱をトラックに（　　　）から、出発した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "落ちて"
+            },
+            {
+              "id": "B",
+              "text": "積んで"
+            },
+            {
+              "id": "C",
+              "text": "積もって"
+            },
+            {
+              "id": "D",
+              "text": "切れて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1507"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "一晩で雪が三十センチも（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "積んだ"
+            },
+            {
+              "id": "B",
+              "text": "割った"
+            },
+            {
+              "id": "C",
+              "text": "積もった"
+            },
+            {
+              "id": "D",
+              "text": "測った"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1508"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "この切符は昨日で期限が（　　　）ので、今日は使えません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "褒めた"
+            },
+            {
+              "id": "B",
+              "text": "切れた"
+            },
+            {
+              "id": "C",
+              "text": "祝った"
+            },
+            {
+              "id": "D",
+              "text": "並んだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1511"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "この曲を聞くと、子供のころのことを（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "測る"
+            },
+            {
+              "id": "B",
+              "text": "思い出す"
+            },
+            {
+              "id": "C",
+              "text": "割る"
+            },
+            {
+              "id": "D",
+              "text": "貯める"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1512"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "みんなで歌を歌って、友達の誕生日を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "測った"
+            },
+            {
+              "id": "B",
+              "text": "祝った"
+            },
+            {
+              "id": "C",
+              "text": "積んだ"
+            },
+            {
+              "id": "D",
+              "text": "並んだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1513"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "人気の店なので、入口にたくさんの人が（　　　）いる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯めて"
+            },
+            {
+              "id": "B",
+              "text": "割って"
+            },
+            {
+              "id": "C",
+              "text": "並んで"
+            },
+            {
+              "id": "D",
+              "text": "測って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1516"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "先生は作文を読んで「よく書けました」と（　　　）くれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "割って"
+            },
+            {
+              "id": "B",
+              "text": "倒して"
+            },
+            {
+              "id": "C",
+              "text": "積んで"
+            },
+            {
+              "id": "D",
+              "text": "褒めて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1517"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "お金が足りなくなり、その会社は（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倒産"
+            },
+            {
+              "id": "B",
+              "text": "成長"
+            },
+            {
+              "id": "C",
+              "text": "受験"
+            },
+            {
+              "id": "D",
+              "text": "到着"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1524"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "千円の服が二百円安くなった。二割の（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "行動"
+            },
+            {
+              "id": "B",
+              "text": "到着"
+            },
+            {
+              "id": "C",
+              "text": "割引"
+            },
+            {
+              "id": "D",
+              "text": "成長"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1529"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「作業」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ざぎょう"
+            },
+            {
+              "id": "B",
+              "text": "さぎょ"
+            },
+            {
+              "id": "C",
+              "text": "さぎょう"
+            },
+            {
+              "id": "D",
+              "text": "さきょう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1525"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「受験」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しゅけん"
+            },
+            {
+              "id": "B",
+              "text": "じゅうけん"
+            },
+            {
+              "id": "C",
+              "text": "じゅげん"
+            },
+            {
+              "id": "D",
+              "text": "じゅけん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1532"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「会議中」の「中」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ちゅう"
+            },
+            {
+              "id": "B",
+              "text": "なか"
+            },
+            {
+              "id": "C",
+              "text": "じゅう"
+            },
+            {
+              "id": "D",
+              "text": "うち"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1535"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "算数で（割り算）を習う。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わざん"
+            },
+            {
+              "id": "B",
+              "text": "わりさん"
+            },
+            {
+              "id": "C",
+              "text": "かつざん"
+            },
+            {
+              "id": "D",
+              "text": "わりざん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1501"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "水とお茶の（割合）を変える。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わりあい"
+            },
+            {
+              "id": "B",
+              "text": "かつあい"
+            },
+            {
+              "id": "C",
+              "text": "わいあい"
+            },
+            {
+              "id": "D",
+              "text": "わりがい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1501"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "正しい（判断）が必要だ。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はだん"
+            },
+            {
+              "id": "B",
+              "text": "はんだん"
+            },
+            {
+              "id": "C",
+              "text": "ばんだん"
+            },
+            {
+              "id": "D",
+              "text": "はんたん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1502"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "電車の（到着）を待つ。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "とうじゃく"
+            },
+            {
+              "id": "B",
+              "text": "とちゃく"
+            },
+            {
+              "id": "C",
+              "text": "とうちゃく"
+            },
+            {
+              "id": "D",
+              "text": "とうちょく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1503"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "古い家が（倒れる）。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たおれる"
+            },
+            {
+              "id": "B",
+              "text": "たうれる"
+            },
+            {
+              "id": "C",
+              "text": "たおる"
+            },
+            {
+              "id": "D",
+              "text": "とうれる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1504"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "弟の（面倒）を見る。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "めんとう"
+            },
+            {
+              "id": "B",
+              "text": "めんどう"
+            },
+            {
+              "id": "C",
+              "text": "めんど"
+            },
+            {
+              "id": "D",
+              "text": "めどう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1504"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "選手たちが（競争）する。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうぞう"
+            },
+            {
+              "id": "B",
+              "text": "きょうしょう"
+            },
+            {
+              "id": "C",
+              "text": "きょそう"
+            },
+            {
+              "id": "D",
+              "text": "きょうそう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1505"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "車が来るから（危ない）。括弧の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きない"
+            },
+            {
+              "id": "B",
+              "text": "あふない"
+            },
+            {
+              "id": "C",
+              "text": "あぶない"
+            },
+            {
+              "id": "D",
+              "text": "あやない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1506"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "学校のじかんわりを確認する。「じかんわり」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "割り算"
+            },
+            {
+              "id": "B",
+              "text": "割引"
+            },
+            {
+              "id": "C",
+              "text": "割合"
+            },
+            {
+              "id": "D",
+              "text": "時間割"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1501"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "コップがわれた。「われた」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倒れた"
+            },
+            {
+              "id": "B",
+              "text": "割った"
+            },
+            {
+              "id": "C",
+              "text": "争った"
+            },
+            {
+              "id": "D",
+              "text": "割れた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1501"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "正しい（　　　）をするには、十分な情報が必要だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "判断"
+            },
+            {
+              "id": "B",
+              "text": "割合"
+            },
+            {
+              "id": "C",
+              "text": "到着"
+            },
+            {
+              "id": "D",
+              "text": "競争"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1502"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "大きな相手をたおした。「たおした」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倒した"
+            },
+            {
+              "id": "B",
+              "text": "倒れた"
+            },
+            {
+              "id": "C",
+              "text": "割った"
+            },
+            {
+              "id": "D",
+              "text": "争った"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1504"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "その会社はとうさんした。「とうさん」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "競争"
+            },
+            {
+              "id": "B",
+              "text": "判断"
+            },
+            {
+              "id": "C",
+              "text": "到着"
+            },
+            {
+              "id": "D",
+              "text": "倒産"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1504"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "せんそうが終わり、町に人が戻った。「せんそう」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倒産"
+            },
+            {
+              "id": "B",
+              "text": "戦争"
+            },
+            {
+              "id": "C",
+              "text": "競争"
+            },
+            {
+              "id": "D",
+              "text": "危険"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1505"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "ここに入るのはきけんです。「きけん」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "面倒"
+            },
+            {
+              "id": "B",
+              "text": "判断"
+            },
+            {
+              "id": "C",
+              "text": "危険"
+            },
+            {
+              "id": "D",
+              "text": "割合"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1506"
+          ]
+        }
+      ]
+    }
+  ]
+}

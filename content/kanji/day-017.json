@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-017",
+  "study_day": 17,
+  "items": [
+    {
+      "id": 1701,
+      "kanji": "洗",
+      "han_viet": "TẨY",
+      "meaning_vi": "rửa",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "あら・う"
+      ],
+      "compounds": [
+        {
+          "word": "洗う",
+          "reading": "あらう",
+          "meaning_vi": "rửa, giặt, tẩy, làm sạch"
+        },
+        {
+          "word": "洗濯機",
+          "reading": "せんたくき",
+          "meaning_vi": "máy giặt"
+        },
+        {
+          "word": "洗濯物",
+          "reading": "せんたくもの",
+          "meaning_vi": "quần áo giặt, đồ giặt"
+        },
+        {
+          "word": "洗剤",
+          "reading": "せんざい",
+          "meaning_vi": "chất tẩy rửa, bột giặt, xà phòng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 51 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 洗"
+    },
+    {
+      "id": 1702,
+      "kanji": "汚",
+      "han_viet": "Ô",
+      "meaning_vi": "ô nhiễm, bẩn",
+      "onyomi": [
+        "オ"
+      ],
+      "kunyomi": [
+        "よご・れる",
+        "よご・す",
+        "けが・れる",
+        "けが・す"
+      ],
+      "compounds": [
+        {
+          "word": "汚す",
+          "reading": "よごす",
+          "meaning_vi": "làm bẩn, làm dơ"
+        },
+        {
+          "word": "汚れる",
+          "reading": "よごれる",
+          "meaning_vi": "bị bẩn, bị dơ, vấy bẩn"
+        },
+        {
+          "word": "汚れ",
+          "reading": "よごれ",
+          "meaning_vi": "vết bẩn, vết dơ, vết nhơ"
+        },
+        {
+          "word": "汚い",
+          "reading": "きたない",
+          "meaning_vi": "bẩn, dơ, bừa bộn, tục tĩu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "きたない được nguồn dạy qua từ ví dụ 汚い; không có trong ô 訓, vì vậy giữ reading ở compound."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 51 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 汚"
+    },
+    {
+      "id": 1703,
+      "kanji": "法",
+      "han_viet": "PHÁP",
+      "meaning_vi": "pháp luật",
+      "onyomi": [
+        "ホウ",
+        "ハッ",
+        "ホッ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "方法",
+          "reading": "ほうほう",
+          "meaning_vi": "phương pháp, cách làm, cách thức"
+        },
+        {
+          "word": "法律",
+          "reading": "ほうりつ",
+          "meaning_vi": "pháp luật, luật pháp, quy định pháp lý"
+        },
+        {
+          "word": "法則",
+          "reading": "ほうそく",
+          "meaning_vi": "quy luật, định luật"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 51 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 法"
+    },
+    {
+      "id": 1704,
+      "kanji": "温",
+      "han_viet": "ÔN",
+      "meaning_vi": "ấm",
+      "onyomi": [
+        "オン"
+      ],
+      "kunyomi": [
+        "あたた・かい",
+        "あたた・まる",
+        "あたた・める"
+      ],
+      "compounds": [
+        {
+          "word": "温まる",
+          "reading": "あたたまる",
+          "meaning_vi": "ấm lên, trở nên ấm"
+        },
+        {
+          "word": "温める",
+          "reading": "あたためる",
+          "meaning_vi": "làm ấm, hâm nóng"
+        },
+        {
+          "word": "温かい",
+          "reading": "あたたかい",
+          "meaning_vi": "ấm áp"
+        },
+        {
+          "word": "温度",
+          "reading": "おんど",
+          "meaning_vi": "nhiệt độ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Nguồn ghi （が）温まる và （を）温める."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 52 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 温"
+    },
+    {
+      "id": 1705,
+      "kanji": "消",
+      "han_viet": "TIÊU",
+      "meaning_vi": "tiêu tan",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "き・える",
+        "け・す"
+      ],
+      "compounds": [
+        {
+          "word": "消す",
+          "reading": "けす",
+          "meaning_vi": "tắt, xóa, dập tắt"
+        },
+        {
+          "word": "消える",
+          "reading": "きえる",
+          "meaning_vi": "bị tắt, biến mất, tan biến, mất dấu"
+        },
+        {
+          "word": "取り消す",
+          "reading": "とりけす",
+          "meaning_vi": "hủy bỏ, xóa bỏ"
+        },
+        {
+          "word": "消費量",
+          "reading": "しょうひりょう",
+          "meaning_vi": "lượng tiêu thụ, mức tiêu dùng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 52 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 消"
+    },
+    {
+      "id": 1706,
+      "kanji": "液",
+      "han_viet": "DỊCH",
+      "meaning_vi": "dịch",
+      "onyomi": [
+        "エキ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "血液",
+          "reading": "けつえき",
+          "meaning_vi": "máu, huyết dịch"
+        },
+        {
+          "word": "血液型",
+          "reading": "けつえきがた",
+          "meaning_vi": "nhóm máu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 52 | CHƯƠNG 1 > BÀI 3 > CHỮ HÁN > 液"
+    }
+  ]
+}

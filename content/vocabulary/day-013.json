@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-013",
+  "study_day": 13,
+  "target": 50,
+  "pool_size": 43,
+  "items": [
+    {
+      "id": 1301,
+      "surface": "抜く",
+      "hiragana": "ぬく",
+      "kanji": "抜く",
+      "meaning_vi": "nhổ, rút; loại bỏ; vượt qua; xuyên qua",
+      "examples": [
+        {
+          "jp": "ワインの栓を抜く。",
+          "vi": "Mở nút chai rượu vang."
+        },
+        {
+          "jp": "肩の力を抜いて、気楽に生きよう。",
+          "vi": "Hãy thả lỏng và sống thoải mái đi."
+        },
+        {
+          "jp": "彼を抜いて、私は一番になった。",
+          "vi": "Tôi đã vượt qua anh ấy và trở thành người đứng đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 45 — 抜く"
+    },
+    {
+      "id": 1302,
+      "surface": "抜ける",
+      "hiragana": "ぬける",
+      "kanji": "抜ける",
+      "meaning_vi": "thoát ra; rơi, rụng; rời khỏi",
+      "examples": [
+        {
+          "jp": "トンネルを抜ける。",
+          "vi": "Đi qua đường hầm."
+        },
+        {
+          "jp": "バイクのタイヤの空気が抜けた。",
+          "vi": "Lốp xe máy bị xì hơi."
+        },
+        {
+          "jp": "まつ毛が抜ける。",
+          "vi": "Lông mi bị rụng."
+        },
+        {
+          "jp": "午前中は会社から抜けられない。",
+          "vi": "Buổi sáng tôi không thể rời khỏi công ty."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 46 — 抜ける"
+    },
+    {
+      "id": 1303,
+      "surface": "抜け出す",
+      "hiragana": "ぬけだす",
+      "kanji": "抜け出す",
+      "meaning_vi": "thoát ra, rời khỏi",
+      "examples": [
+        {
+          "jp": "授業中に教室を抜け出す。",
+          "vi": "Rời khỏi lớp trong giờ học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 47 — 抜け出す"
+    },
+    {
+      "id": 1304,
+      "surface": "壊す",
+      "hiragana": "こわす",
+      "kanji": "壊す",
+      "meaning_vi": "phá hỏng, làm hỏng",
+      "examples": [
+        {
+          "jp": "彼はよく物を壊す。",
+          "vi": "Anh ấy hay làm hỏng đồ."
+        },
+        {
+          "jp": "体を壊したら大変です。",
+          "vi": "Nếu bị ốm thì phiền lắm."
+        },
+        {
+          "jp": "冷たい水をたくさん飲んだから、おなかを壊しちゃった。",
+          "vi": "Vì uống nhiều nước lạnh nên tôi bị đau bụng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 48 — 壊す"
+    },
+    {
+      "id": 1305,
+      "surface": "壊れる",
+      "hiragana": "こわれる",
+      "kanji": "壊れる",
+      "meaning_vi": "bị hỏng",
+      "examples": [
+        {
+          "jp": "テレビが壊れてつかない。",
+          "vi": "Tivi bị hỏng nên không bật lên được."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 49 — 壊れる"
+    },
+    {
+      "id": 1306,
+      "surface": "超える",
+      "hiragana": "こえる",
+      "kanji": "超える",
+      "meaning_vi": "vượt quá, vượt qua",
+      "examples": [
+        {
+          "jp": "入場者が100万人を超える。",
+          "vi": "Số người vào cổng vượt quá 1 triệu người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 50 — 超える"
+    },
+    {
+      "id": 1307,
+      "surface": "開く",
+      "hiragana": "ひらく",
+      "kanji": "開く",
+      "meaning_vi": "mở; (hoa) nở; khai trương, tổ chức",
+      "examples": [
+        {
+          "jp": "自動ドアが開く。",
+          "vi": "Cửa tự động mở ra."
+        },
+        {
+          "jp": "チューリップの花が開く。",
+          "vi": "Hoa tulip nở."
+        },
+        {
+          "jp": "ネットでオンラインショップを開く。",
+          "vi": "Mở cửa hàng online trên mạng."
+        },
+        {
+          "jp": "店は朝9時に開く。",
+          "vi": "Cửa hàng mở cửa lúc 9 giờ sáng."
+        },
+        {
+          "jp": "カーテンを開く。",
+          "vi": "Mở rèm cửa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 51 — 開く"
+    },
+    {
+      "id": 1308,
+      "surface": "解ける",
+      "hiragana": "とける",
+      "kanji": "解ける",
+      "meaning_vi": "được giải quyết, được giải tỏa",
+      "examples": [
+        {
+          "jp": "謎が解ける。",
+          "vi": "Bí ẩn được giải đáp."
+        },
+        {
+          "jp": "緊張が解ける。",
+          "vi": "Sự căng thẳng được giải tỏa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 52 — 解ける"
+    },
+    {
+      "id": 1309,
+      "surface": "解ける",
+      "hiragana": "ほどける",
+      "kanji": "解ける",
+      "meaning_vi": "tuột ra, được cởi ra, tháo ra",
+      "examples": [
+        {
+          "jp": "歩いていたら、靴のひもが解けてしまった。",
+          "vi": "Đang đi bộ thì dây giày bị tuột ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 53 — 解ける"
+    },
+    {
+      "id": 1310,
+      "surface": "暮らす",
+      "hiragana": "くらす",
+      "kanji": "暮らす",
+      "meaning_vi": "sống, sinh sống",
+      "examples": [
+        {
+          "jp": "家族と一緒に暮らしている",
+          "vi": "Tôi đang sống cùng với gia đình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 54 — 暮らす"
+    },
+    {
+      "id": 1311,
+      "surface": "過ごす",
+      "hiragana": "すごす",
+      "kanji": "過ごす",
+      "meaning_vi": "trải qua, dành thời gian",
+      "examples": [
+        {
+          "jp": "休日は、家族と一緒に過ごしたい。",
+          "vi": "Vào ngày nghỉ, tôi muốn dành thời gian với gia đình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 55 — 過ごす"
+    },
+    {
+      "id": 1312,
+      "surface": "望む",
+      "hiragana": "のぞむ",
+      "kanji": "望む",
+      "meaning_vi": "mong muốn, kỳ vọng",
+      "examples": [
+        {
+          "jp": "最近は、結婚を望まない人が増えているらしい。",
+          "vi": "Nghe nói dạo này số người không muốn kết hôn đang tăng lên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 56 — 望む"
+    },
+    {
+      "id": 1313,
+      "surface": "回す",
+      "hiragana": "まわす",
+      "kanji": "回す",
+      "meaning_vi": "xoay, vặn, chuyền, chuyển",
+      "examples": [
+        {
+          "jp": "車のハンドルを回す。",
+          "vi": "Xoay vô lăng ô tô."
+        },
+        {
+          "jp": "資料を読んだら、次の人に回してください。",
+          "vi": "Đọc xong tài liệu thì hãy chuyển cho người tiếp theo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 57 — 回す"
+    },
+    {
+      "id": 1314,
+      "surface": "回る",
+      "hiragana": "まわる",
+      "kanji": "回る",
+      "meaning_vi": "xoay quanh, đi vòng quanh, quay",
+      "examples": [
+        {
+          "jp": "月は地球の周りを回っている。",
+          "vi": "Mặt trăng quay xung quanh Trái Đất."
+        },
+        {
+          "jp": "日本の有名な観光地を回った。",
+          "vi": "Tôi đã đi tham quan các địa điểm du lịch nổi tiếng ở Nhật Bản."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 58 — 回る"
+    },
+    {
+      "id": 1315,
+      "surface": "困る",
+      "hiragana": "こまる",
+      "kanji": "困る",
+      "meaning_vi": "gặp khó khăn, rắc rối; bối rối",
+      "examples": [
+        {
+          "jp": "道がわからなくて、困っています。",
+          "vi": "Tôi đang bối rối vì không biết đường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 14 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 59 — 困る"
+    },
+    {
+      "id": 1316,
+      "surface": "亡くなる",
+      "hiragana": "なくなる",
+      "kanji": "亡くなる",
+      "meaning_vi": "qua đời, mất (trang trọng hơn 死ぬ)",
+      "examples": [
+        {
+          "jp": "電車の事故で、大勢の人が亡くなった。",
+          "vi": "Nhiều người đã thiệt mạng do tai nạn tàu điện."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 60 — 亡くなる"
+    },
+    {
+      "id": 1317,
+      "surface": "亡くす",
+      "hiragana": "なくす",
+      "kanji": "亡くす",
+      "meaning_vi": "mất đi, đánh mất (thường dùng khi mất người thân)",
+      "examples": [
+        {
+          "jp": "大切な人を亡くすのは辛い。",
+          "vi": "Mất đi người quan trọng thật đau khổ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 61 — 亡くす"
+    },
+    {
+      "id": 1318,
+      "surface": "忘れる",
+      "hiragana": "わすれる",
+      "kanji": "忘れる",
+      "meaning_vi": "quên, bỏ quên",
+      "examples": [
+        {
+          "jp": "友達の電話番号を忘れてしまった。",
+          "vi": "Tôi đã quên mất số điện thoại của người bạn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 62 — 忘れる"
+    },
+    {
+      "id": 1319,
+      "surface": "感じる",
+      "hiragana": "かんじる",
+      "kanji": "感じる",
+      "meaning_vi": "cảm thấy",
+      "examples": [
+        {
+          "jp": "今日は昨日より暖かく感じる。",
+          "vi": "Hôm nay tôi cảm thấy ấm hơn hôm qua."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 63 — 感じる"
+    },
+    {
+      "id": 1320,
+      "surface": "知り合う",
+      "hiragana": "しりあう",
+      "kanji": "知り合う",
+      "meaning_vi": "quen biết, làm quen",
+      "examples": [
+        {
+          "jp": "このイベントで、たくさんの人と知り合うことができました。",
+          "vi": "Nhờ sự kiện này, tôi đã quen được rất nhiều người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 64 — 知り合う"
+    },
+    {
+      "id": 1321,
+      "surface": "始まる",
+      "hiragana": "はじまる",
+      "kanji": "始まる",
+      "meaning_vi": "bắt đầu, khởi đầu",
+      "examples": [
+        {
+          "jp": "会議が始まる前に、参加者にこの資料を回してください。",
+          "vi": "Trước khi cuộc họp bắt đầu, hãy chuyền tài liệu này cho những người ❖ tham dự."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 65 — 始まる"
+    },
+    {
+      "id": 1322,
+      "surface": "願う",
+      "hiragana": "ねがう",
+      "kanji": "願う",
+      "meaning_vi": "mong muốn, cầu xin",
+      "examples": [
+        {
+          "jp": "家族がみんな健康に過ごせることを願う。",
+          "vi": "Tôi cầu mong cả gia đình luôn khỏe mạnh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 66 — 願う"
+    },
+    {
+      "id": 1323,
+      "surface": "祈る",
+      "hiragana": "いのる",
+      "kanji": "祈る",
+      "meaning_vi": "cầu nguyện",
+      "examples": [
+        {
+          "jp": "世界平和のために祈る。",
+          "vi": "Tôi cầu nguyện cho hòa bình thế giới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 67 — 祈る"
+    },
+    {
+      "id": 1324,
+      "surface": "取る",
+      "hiragana": "とる",
+      "kanji": "取る",
+      "meaning_vi": "lấy, giữ; đạt được, giành được; loại bỏ, bỏ đi; dành (thời gian)",
+      "examples": [
+        {
+          "jp": "ちょっと、そこにある塩を取ってもらえますか。",
+          "vi": "Bạn có thể lấy giúp tôi chút muối ở đằng kia được không?"
+        },
+        {
+          "jp": "彼はオリンピックで金メダルを取った。",
+          "vi": "Anh ấy đã giành huy chương vàng tại Olympic."
+        },
+        {
+          "jp": "レポートを書くために、十分な時間が取れなかった。",
+          "vi": "Tôi đã không có đủ thời gian để viết báo cáo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 68 — 取る"
+    },
+    {
+      "id": 1325,
+      "surface": "取り出す",
+      "hiragana": "とりだす",
+      "kanji": "取り出す",
+      "meaning_vi": "lấy ra, rút ra",
+      "examples": [
+        {
+          "jp": "かばんから傘を取り出す。",
+          "vi": "Lấy ô ra từ trong cặp."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 15 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 69 — 取り出す"
+    },
+    {
+      "id": 1326,
+      "surface": "取り付ける",
+      "hiragana": "とりつける",
+      "kanji": "取り付ける",
+      "meaning_vi": "lắp đặt, gắn vào, trang bị; thu xếp, sắp xếp được (cuộc hẹn)",
+      "examples": [
+        {
+          "jp": "車にカメラを取り付ける。",
+          "vi": "Lắp đặt camera vào xe."
+        },
+        {
+          "jp": "有名な会社の偉い人との約束を取り付けた。",
+          "vi": "Tôi đã sắp xếp một cuộc hẹn với một nhân vật quan trọng của công ty nổi tiếng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 70 — 取り付ける"
+    },
+    {
+      "id": 1327,
+      "surface": "受け取る",
+      "hiragana": "うけとる",
+      "kanji": "受け取る",
+      "meaning_vi": "nhận, tiếp nhận; hiểu được",
+      "examples": [
+        {
+          "jp": "母からの荷物を受け取った。",
+          "vi": "Tôi đã nhận được bưu phẩm từ mẹ."
+        },
+        {
+          "jp": "まだ家族ビザを受け取ってない。",
+          "vi": "Tôi vẫn chưa nhận được visa gia đình."
+        },
+        {
+          "jp": "彼の言葉をどう受け取ったらいいかわからなかった。",
+          "vi": "Tôi không biết phải hiểu lời anh ấy nói như thế nào."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 71 — 受け取る"
+    },
+    {
+      "id": 1328,
+      "surface": "取り上げる",
+      "hiragana": "とりあげる",
+      "kanji": "取り上げる",
+      "meaning_vi": "đề cập, nêu lên; lấy đi, tịch thu",
+      "examples": [
+        {
+          "jp": "この薬の問題が、テレビで取り上げられた。",
+          "vi": "Vấn đề về loại thuốc này đã được đề cập trên TV."
+        },
+        {
+          "jp": "子供の手からおもちゃを取り上げた。",
+          "vi": "Tôi đã lấy đồ chơi từ tay đứa trẻ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 72 — 取り上げる"
+    },
+    {
+      "id": 1329,
+      "surface": "取り替える",
+      "hiragana": "とりかえる",
+      "kanji": "取り替える",
+      "meaning_vi": "thay thế, đổi lại",
+      "examples": [
+        {
+          "jp": "届いた商品が壊れていたので、取り替えてもらった。",
+          "vi": "Vì sản phẩm nhận được bị hỏng, tôi đã được đổi sang cái khác."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 73 — 取り替える"
+    },
+    {
+      "id": 1330,
+      "surface": "取り消す",
+      "hiragana": "とりけす",
+      "kanji": "取り消す",
+      "meaning_vi": "hủy bỏ, xóa bỏ",
+      "examples": [
+        {
+          "jp": "旅行に行けなくなったので、ホテルの予約を取り消した。",
+          "vi": "Vì không thể đi du lịch được nữa nên tôi đã hủy đặt khách sạn."
+        },
+        {
+          "jp": "昨日言ったことは取り消すよ。",
+          "vi": "Tôi sẽ hủy bỏ những gì đã nói hôm qua."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 74 — 取り消す"
+    },
+    {
+      "id": 1331,
+      "surface": "やり取り",
+      "hiragana": "やりとり",
+      "kanji": "やり取り",
+      "meaning_vi": "trao đổi, trao đổi qua lại",
+      "examples": [
+        {
+          "jp": "友達とSNSでやり取りする。",
+          "vi": "Tôi trao đổi qua lại với bạn bè bằng mạng xã hội."
+        },
+        {
+          "jp": "遠くにいる祖母と手紙のやり取りをする。",
+          "vi": "Tôi trao đổi thư từ với bà đang sống xa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 75 — やり取り"
+    },
+    {
+      "id": 1332,
+      "surface": "遠回り",
+      "hiragana": "とおまわり",
+      "kanji": "遠回り",
+      "meaning_vi": "đi đường vòng; vòng vo",
+      "examples": [
+        {
+          "jp": "電車で行くと遠回りになるから、タクシーで行こう。",
+          "vi": "Đi bằng tàu điện thì thành đi đường vòng nên hãy đi taxi thôi."
+        },
+        {
+          "jp": "遠回りな言い方をしないではっきり言ってくれ。",
+          "vi": "Đừng nói lòng vòng, hãy nói rõ ràng đi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする/Aな"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 76 — 遠回り"
+    },
+    {
+      "id": 1333,
+      "surface": "回収",
+      "hiragana": "かいしゅう",
+      "kanji": "回収",
+      "meaning_vi": "thu hồi, thu gom",
+      "examples": [
+        {
+          "jp": "毎朝8時にごみを回収する。",
+          "vi": "Mỗi sáng lúc 8 giờ sẽ thu gom rác."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 77 — 回収"
+    },
+    {
+      "id": 1334,
+      "surface": "死亡",
+      "hiragana": "しぼう",
+      "kanji": "死亡",
+      "meaning_vi": "tử vong, qua đời",
+      "examples": [
+        {
+          "jp": "この病気で死亡する人が増えているそうだ。",
+          "vi": "Nghe nói số người tử vong vì bệnh này đang tăng lên."
+        },
+        {
+          "jp": "この男性の死亡原因はまだわかっていない。",
+          "vi": "Nguyên nhân tử vong của người đàn ông này vẫn chưa được làm rõ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 16 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 78 — 死亡"
+    },
+    {
+      "id": 1335,
+      "surface": "希望",
+      "hiragana": "きぼう",
+      "kanji": "希望",
+      "meaning_vi": "mong muốn, nguyện vọng",
+      "examples": [
+        {
+          "jp": "面接を希望する時間を知らせてください。",
+          "vi": "Hãy thông báo thời gian bạn mong muốn phỏng vấn."
+        },
+        {
+          "jp": "最近の若い人は、将来にあまり希望が持てないようだ。",
+          "vi": "Người trẻ ngày nay dường như không thể đặt nhiều hy vọng vào tương lai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 79 — 希望"
+    },
+    {
+      "id": 1336,
+      "surface": "後悔",
+      "hiragana": "こうかい",
+      "kanji": "後悔",
+      "meaning_vi": "hối hận, ăn năn",
+      "examples": [
+        {
+          "jp": "あの時、彼女を呼び止めなかったことを、今でも後悔しています。",
+          "vi": "Tôi vẫn hối hận vì lúc đó đã không gọi cô ấy lại."
+        },
+        {
+          "jp": "誰でも失敗して後悔することはある。",
+          "vi": "Ai cũng có lúc thất bại và hối tiếc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 80 — 後悔"
+    },
+    {
+      "id": 1337,
+      "surface": "寝坊",
+      "hiragana": "ねぼう",
+      "kanji": "寝坊",
+      "meaning_vi": "ngủ quên, ngủ nướng",
+      "examples": [
+        {
+          "jp": "寝坊して授業に遅れてしまった。",
+          "vi": "Vì ngủ quên nên tôi đã đến lớp muộn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 81 — 寝坊"
+    },
+    {
+      "id": 1338,
+      "surface": "遅刻",
+      "hiragana": "ちこく",
+      "kanji": "遅刻",
+      "meaning_vi": "trễ giờ, muộn giờ",
+      "examples": [
+        {
+          "jp": "昨日は寝坊して遅刻しそうになったから、今日は早く起きた。",
+          "vi": "Hôm qua suýt bị muộn vì ngủ quên, nên hôm nay tôi dậy sớm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 82 — 遅刻"
+    },
+    {
+      "id": 1339,
+      "surface": "貯金",
+      "hiragana": "ちょきん",
+      "kanji": "貯金",
+      "meaning_vi": "tiền tiết kiệm; tiết kiệm tiền",
+      "examples": [
+        {
+          "jp": "車を買うために貯金している。",
+          "vi": "Tôi đang tiết kiệm để mua xe ô tô."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 83 — 貯金"
+    },
+    {
+      "id": 1340,
+      "surface": "参加",
+      "hiragana": "さんか",
+      "kanji": "参加",
+      "meaning_vi": "tham gia",
+      "examples": [
+        {
+          "jp": "イベントに参加する。",
+          "vi": "Tôi sẽ tham gia sự kiện."
+        },
+        {
+          "jp": "飲み会への参加を希望する方は、私にメールしてください。",
+          "vi": "Những ai muốn tham gia buổi liên hoan thì hãy gửi email cho tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 84 — 参加"
+    },
+    {
+      "id": 1341,
+      "surface": "検査",
+      "hiragana": "けんさ",
+      "kanji": "検査",
+      "meaning_vi": "kiểm tra, xét nghiệm, kiểm định",
+      "examples": [
+        {
+          "jp": "空港では、持ち物検査がある。",
+          "vi": "Có kiểm tra hành lý ở sân bay."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 85 — 検査"
+    },
+    {
+      "id": 1342,
+      "surface": "最も",
+      "hiragana": "もっとも",
+      "kanji": "最も",
+      "meaning_vi": "nhất",
+      "examples": [
+        {
+          "jp": "日本で最も暑いのは、7月と8月です。",
+          "vi": "Ở Nhật, thời gian nóng nhất là tháng 7 và tháng 8."
+        },
+        {
+          "jp": "彼は世界で最も有名なバスケットボール選手の一人だ。",
+          "vi": "Anh ấy là một trong những cầu thủ bóng rổ nổi tiếng nhất thế giới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 86 — 最も"
+    },
+    {
+      "id": 1343,
+      "surface": "ぎりぎり",
+      "hiragana": "ぎりぎり",
+      "kanji": null,
+      "meaning_vi": "sát nút, suýt soát, vừa kịp",
+      "examples": [
+        {
+          "jp": "締め切りぎりぎりにレポートを提出した。",
+          "vi": "Tôi đã nộp báo cáo sát nút trước hạn chót."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 1.pdf | trang in 17 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 87 — ぎりぎり"
+    }
+  ]
+}

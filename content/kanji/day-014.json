@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-014",
+  "study_day": 14,
+  "items": [
+    {
+      "id": 1401,
+      "kanji": "刀",
+      "han_viet": "ĐAO",
+      "meaning_vi": "kiếm",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "かたな"
+      ],
+      "compounds": [
+        {
+          "word": "刀",
+          "reading": "かたな",
+          "meaning_vi": "kiếm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 28 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 刀"
+    },
+    {
+      "id": 1402,
+      "kanji": "初",
+      "han_viet": "SƠ",
+      "meaning_vi": "lần đầu tiên",
+      "onyomi": [
+        "ショ"
+      ],
+      "kunyomi": [
+        "はじ・め",
+        "はじ・めて",
+        "はつ",
+        "うい",
+        "そ・める"
+      ],
+      "compounds": [
+        {
+          "word": "初め",
+          "reading": "はじめ",
+          "meaning_vi": "lúc đầu, khởi đầu, phần đầu"
+        },
+        {
+          "word": "初めて",
+          "reading": "はじめて",
+          "meaning_vi": "lần đầu tiên, lần đầu trải nghiệm điều gì đó"
+        },
+        {
+          "word": "最初",
+          "reading": "さいしょ",
+          "meaning_vi": "đầu tiên, ban đầu"
+        },
+        {
+          "word": "初心者",
+          "reading": "しょしんしゃ",
+          "meaning_vi": "người mới bắt đầu, người chưa có kinh nghiệm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 28 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 初"
+    },
+    {
+      "id": 1403,
+      "kanji": "券",
+      "han_viet": "KHOÁN",
+      "meaning_vi": "vé, phiếu",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "券",
+          "reading": "けん",
+          "meaning_vi": "vé, phiếu, cuống vé"
+        },
+        {
+          "word": "〜券",
+          "reading": "けん",
+          "meaning_vi": "vé ~, phiếu ~"
+        },
+        {
+          "word": "商品券",
+          "reading": "しょうひんけん",
+          "meaning_vi": "phiếu quà tặng, voucher mua sắm"
+        },
+        {
+          "word": "入場券",
+          "reading": "にゅうじょうけん",
+          "meaning_vi": "vé vào cửa, vé vào cổng"
+        },
+        {
+          "word": "割引券",
+          "reading": "わりびきけん",
+          "meaning_vi": "phiếu giảm giá, coupon giảm giá"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 28 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 券"
+    },
+    {
+      "id": 1404,
+      "kanji": "則",
+      "han_viet": "TẮC",
+      "meaning_vi": "quy tắc",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "法則",
+          "reading": "ほうそく",
+          "meaning_vi": "quy luật, định luật"
+        },
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "meaning_vi": "quy tắc, nội quy"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 29 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 則"
+    },
+    {
+      "id": 1405,
+      "kanji": "側",
+      "han_viet": "TRẮC",
+      "meaning_vi": "bên",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "がわ"
+      ],
+      "compounds": [
+        {
+          "word": "内側",
+          "reading": "うちがわ",
+          "meaning_vi": "bên trong, phía trong"
+        },
+        {
+          "word": "裏側",
+          "reading": "うらがわ",
+          "meaning_vi": "mặt sau, phía sau, mặt trái"
+        },
+        {
+          "word": "窓側",
+          "reading": "まどがわ",
+          "meaning_vi": "phía cửa sổ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 29 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 側"
+    },
+    {
+      "id": 1406,
+      "kanji": "測",
+      "han_viet": "TRẮC",
+      "meaning_vi": "đo",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "はか・る"
+      ],
+      "compounds": [
+        {
+          "word": "測る",
+          "reading": "はかる",
+          "meaning_vi": "đo, đo lường"
+        },
+        {
+          "word": "予測",
+          "reading": "よそく",
+          "meaning_vi": "dự đoán, tiên đoán, ước tính trước"
+        },
+        {
+          "word": "測定",
+          "reading": "そくてい",
+          "meaning_vi": "đo đạc, đo lường"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 29 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 測"
+    },
+    {
+      "id": 1407,
+      "kanji": "制",
+      "han_viet": "CHẾ",
+      "meaning_vi": "khống chế",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "制服",
+          "reading": "せいふく",
+          "meaning_vi": "đồng phục"
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning_vi": "hạn chế, giới hạn, quy định về mức độ nào đó"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 30 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 制"
+    }
+  ]
+}

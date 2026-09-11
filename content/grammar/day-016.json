@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-016",
+  "study_day": 16,
+  "items": [
+    {
+      "id": 1601,
+      "structure": "～について",
+      "formation": [
+        "N1 + について（は / も / の N2）"
+      ],
+      "meaning_vi": "Về N1",
+      "usage_vi": "Dùng khi nói, nghe, nghĩ, viết hoặc tìm hiểu về một điều gì đó.",
+      "examples": [
+        {
+          "jp": "私の教授は30年間物理学について研究している。",
+          "vi": "Giáo sư của tôi đã nghiên cứu về vật lý suốt 30 năm."
+        },
+        {
+          "jp": "私は将来についてはあまり考えない性格だ。",
+          "vi": "Tôi có tính cách ít suy nghĩ về tương lai."
+        },
+        {
+          "jp": "先生は日本だけでなく、ベトナムの歴史についてもよく知っている。",
+          "vi": "Thầy giáo biết rõ không chỉ lịch sử Nhật mà cả lịch sử Việt Nam."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 62 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～について"
+    },
+    {
+      "id": 1602,
+      "structure": "～において / ～における",
+      "formation": [
+        "N1 + において（は / も）",
+        "N1 + においての + N2",
+        "N1 + における + N2"
+      ],
+      "meaning_vi": "Ở / Tại / Trong / Trên N1",
+      "usage_vi": "N chỉ địa điểm, hoàn cảnh, trạng thái, phương diện hoặc lĩnh vực. Đây là cách nói dùng trong văn viết; không dùng với những hành động thường ngày đơn giản.",
+      "examples": [
+        {
+          "jp": "彼女は何事においてもまじめにやる性格だ。",
+          "vi": "Cô ấy có tính cách làm việc gì cũng nghiêm túc."
+        },
+        {
+          "jp": "今の日本において、タバコを吸える店はほとんどない。",
+          "vi": "Ở Nhật hiện nay, hầu như không có cửa hàng nào cho hút thuốc."
+        },
+        {
+          "jp": "勉強することにおいて、一番大事なのは続けることだ。",
+          "vi": "Trong việc học, điều quan trọng nhất là tiếp tục duy trì."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 63 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～において / ～における"
+    },
+    {
+      "id": 1603,
+      "structure": "～にとって",
+      "formation": [
+        "N1 + にとって（は / も / の N2）"
+      ],
+      "meaning_vi": "Đối với N1 thì…",
+      "usage_vi": "Danh từ phía trước thường là người hoặc chủ thể. Vế sau đưa ra ý kiến, đánh giá, phán đoán hoặc nhận xét từ phía chủ thể đó.",
+      "examples": [
+        {
+          "jp": "私にとって、彼は家族みたいな存在だ。",
+          "vi": "Đối với tôi, anh ấy giống như người trong gia đình."
+        },
+        {
+          "jp": "日本人にとっても、漢字はとても難しい。",
+          "vi": "Ngay cả đối với người Nhật, chữ Hán cũng rất khó."
+        },
+        {
+          "jp": "私にとって、一番大事なものは家族です。",
+          "vi": "Đối với tôi, điều quan trọng nhất là gia đình."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 64 | CHƯƠNG 1 > BÀI 3 > NGỮ PHÁP > ～にとって"
+    }
+  ]
+}

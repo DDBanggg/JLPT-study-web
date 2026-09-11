@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-017",
+  "type": "grammar",
+  "title": "Grammar Test — Day 17",
+  "study_day": 17,
+  "coverage": {
+    "from_day": 17,
+    "to_day": 17
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "店員はお客様の質問に（　　　）、ていねいに答えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対した"
+            },
+            {
+              "id": "B",
+              "text": "対する"
+            },
+            {
+              "id": "C",
+              "text": "対して"
+            },
+            {
+              "id": "D",
+              "text": "対しての"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "新しい計画に（　　　）意見を聞かせてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対する"
+            },
+            {
+              "id": "B",
+              "text": "対して"
+            },
+            {
+              "id": "C",
+              "text": "対したら"
+            },
+            {
+              "id": "D",
+              "text": "対し"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "父は子供に（　　　）は厳しいが、孫にはやさしい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対しての"
+            },
+            {
+              "id": "B",
+              "text": "対する"
+            },
+            {
+              "id": "C",
+              "text": "対した"
+            },
+            {
+              "id": "D",
+              "text": "対して"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "先生に対して（　　　）感謝の気持ちを手紙に書いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "の"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "彼女は反対意見（　　　）対しても、静かに答えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "外国の文化に（　　　）理解を深めたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対し"
+            },
+            {
+              "id": "B",
+              "text": "対したら"
+            },
+            {
+              "id": "C",
+              "text": "対する"
+            },
+            {
+              "id": "D",
+              "text": "対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "自分の失敗に（　　　）、責任を持ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対する"
+            },
+            {
+              "id": "B",
+              "text": "対して"
+            },
+            {
+              "id": "C",
+              "text": "対しての"
+            },
+            {
+              "id": "D",
+              "text": "対した"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "兄は肉が好きな（　　　）対して、妹は魚が好きだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "父はよく話す（　　　）対して、母は静かだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この町の人口は増えているのに（　　　）、隣の町では減っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対した"
+            },
+            {
+              "id": "B",
+              "text": "対しての"
+            },
+            {
+              "id": "C",
+              "text": "対して"
+            },
+            {
+              "id": "D",
+              "text": "対する"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "私は学生（　　　）対して、姉は会社員です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "でに"
+            },
+            {
+              "id": "D",
+              "text": "なのに"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "南の地方は暖かいのに（　　　）、北の地方は寒い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対しての"
+            },
+            {
+              "id": "B",
+              "text": "対する"
+            },
+            {
+              "id": "C",
+              "text": "対した"
+            },
+            {
+              "id": "D",
+              "text": "対し"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "去年は雨が多かった（　　　）対して、今年は少ない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "説明書（　　　）従って、机を組み立てた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "先生の指示に（　　　）、問題を解いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従えば"
+            },
+            {
+              "id": "B",
+              "text": "従った"
+            },
+            {
+              "id": "C",
+              "text": "従う"
+            },
+            {
+              "id": "D",
+              "text": "従って"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "学校の規則に従っ（　　　）、制服を着ている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たら"
+            },
+            {
+              "id": "B",
+              "text": "た"
+            },
+            {
+              "id": "C",
+              "text": "て"
+            },
+            {
+              "id": "D",
+              "text": "たり"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "係の人の案内（　　　）従って、出口へ進んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "に"
+            },
+            {
+              "id": "C",
+              "text": "で"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "料理の本に書いてある方法に（　　　）、ケーキを作った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従って"
+            },
+            {
+              "id": "B",
+              "text": "従った"
+            },
+            {
+              "id": "C",
+              "text": "従う"
+            },
+            {
+              "id": "D",
+              "text": "従えば"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "私たちは決められた順番（　　　）従って、名前を呼ばれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "年を取るに（　　　）、体力が落ちてきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従えば"
+            },
+            {
+              "id": "B",
+              "text": "従って"
+            },
+            {
+              "id": "C",
+              "text": "従う"
+            },
+            {
+              "id": "D",
+              "text": "従った"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "日が（　　　）に従って、空が暗くなっていった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "沈む"
+            },
+            {
+              "id": "B",
+              "text": "沈んで"
+            },
+            {
+              "id": "C",
+              "text": "沈めば"
+            },
+            {
+              "id": "D",
+              "text": "沈み"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "町の発展（　　　）従って、店の数も増えてきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "を"
+            },
+            {
+              "id": "D",
+              "text": "へ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "気温が（　　　）に従って、氷が少しずつ溶けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "上がれば"
+            },
+            {
+              "id": "B",
+              "text": "上がって"
+            },
+            {
+              "id": "C",
+              "text": "上がり"
+            },
+            {
+              "id": "D",
+              "text": "上がる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "時間の流れに（　　　）、人々の考え方も変わっていく。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従った"
+            },
+            {
+              "id": "B",
+              "text": "従えば"
+            },
+            {
+              "id": "C",
+              "text": "従って"
+            },
+            {
+              "id": "D",
+              "text": "従う"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "試験の日が（　　　）に従って、だんだん不安になってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "近づけば"
+            },
+            {
+              "id": "B",
+              "text": "近づく"
+            },
+            {
+              "id": "C",
+              "text": "近づき"
+            },
+            {
+              "id": "D",
+              "text": "近づいて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        }
+      ]
+    }
+  ]
+}

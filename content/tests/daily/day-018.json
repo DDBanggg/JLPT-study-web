@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-018",
+  "type": "daily",
+  "title": "Daily Test — Day 18",
+  "study_day": 18,
+  "coverage": {
+    "from_day": 17,
+    "to_day": 17
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "お客様からの苦情（　　　）対して、店長が説明した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "この作品に（　　　）評価は、人によって違います。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対したら"
+            },
+            {
+              "id": "B",
+              "text": "対する"
+            },
+            {
+              "id": "C",
+              "text": "対し"
+            },
+            {
+              "id": "D",
+              "text": "対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "生徒たちに対して（　　　）期待を、先生が話してくれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "の"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1701"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "去年の大会には百人が出た（　　　）対して、今年は二百人が出た。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "都会の家賃は高いのに（　　　）、田舎では安い家を借りられる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "対した"
+            },
+            {
+              "id": "B",
+              "text": "対して"
+            },
+            {
+              "id": "C",
+              "text": "対する"
+            },
+            {
+              "id": "D",
+              "text": "対しての"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1702"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "避難の練習では、放送の指示に（　　　）、校庭へ集まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従った"
+            },
+            {
+              "id": "B",
+              "text": "従えば"
+            },
+            {
+              "id": "C",
+              "text": "従う"
+            },
+            {
+              "id": "D",
+              "text": "従って"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "申し込み用紙は、受付の人の説明（　　　）従って書いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を"
+            },
+            {
+              "id": "B",
+              "text": "で"
+            },
+            {
+              "id": "C",
+              "text": "へ"
+            },
+            {
+              "id": "D",
+              "text": "に"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1703"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "子供が（　　　）に従って、着られなくなった服が増えていく。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "育てば"
+            },
+            {
+              "id": "B",
+              "text": "育つ"
+            },
+            {
+              "id": "C",
+              "text": "育って"
+            },
+            {
+              "id": "D",
+              "text": "育ち"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "雪が（　　　）に従って、道を歩くのが難しくなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "積もり"
+            },
+            {
+              "id": "B",
+              "text": "積もれば"
+            },
+            {
+              "id": "C",
+              "text": "積もって"
+            },
+            {
+              "id": "D",
+              "text": "積もる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "日本での生活が長くなる（　　　）従って、日本語を話すことに慣れてきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "で"
+            },
+            {
+              "id": "B",
+              "text": "へ"
+            },
+            {
+              "id": "C",
+              "text": "に"
+            },
+            {
+              "id": "D",
+              "text": "を"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1704"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "授業中に隣の人と（　　　）をしていたら、先生に注意された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "理解"
+            },
+            {
+              "id": "B",
+              "text": "おしゃべり"
+            },
+            {
+              "id": "C",
+              "text": "感謝"
+            },
+            {
+              "id": "D",
+              "text": "計画"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1701"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "毎日運動したら、体重が三キロ減って（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残った"
+            },
+            {
+              "id": "B",
+              "text": "痩せた"
+            },
+            {
+              "id": "C",
+              "text": "育った"
+            },
+            {
+              "id": "D",
+              "text": "続いた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1703"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "全部食べないで、弟の分を少し（　　　）おいてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "溶けて"
+            },
+            {
+              "id": "B",
+              "text": "消えて"
+            },
+            {
+              "id": "C",
+              "text": "残って"
+            },
+            {
+              "id": "D",
+              "text": "残して"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1705"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "赤ちゃんが泣いたので、母親がやさしく（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "抱いた"
+            },
+            {
+              "id": "B",
+              "text": "配った"
+            },
+            {
+              "id": "C",
+              "text": "汚した"
+            },
+            {
+              "id": "D",
+              "text": "消した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1709"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "一人に一枚ずつ、紙を（　　　）ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "配って"
+            },
+            {
+              "id": "B",
+              "text": "嫌って"
+            },
+            {
+              "id": "C",
+              "text": "消えて"
+            },
+            {
+              "id": "D",
+              "text": "吸って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1711"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "熱いお茶に砂糖を入れると、すぐに（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "吸う"
+            },
+            {
+              "id": "B",
+              "text": "溶ける"
+            },
+            {
+              "id": "C",
+              "text": "配る"
+            },
+            {
+              "id": "D",
+              "text": "残す"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1712"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "黒板の字を（　　　）から、新しい文を書いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "温まって"
+            },
+            {
+              "id": "B",
+              "text": "消して"
+            },
+            {
+              "id": "C",
+              "text": "汚れて"
+            },
+            {
+              "id": "D",
+              "text": "消えて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1717"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "お風呂に入って、冷えていた体が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "温まった"
+            },
+            {
+              "id": "B",
+              "text": "汚した"
+            },
+            {
+              "id": "C",
+              "text": "配った"
+            },
+            {
+              "id": "D",
+              "text": "温めた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1719"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "冷たいスープを鍋で（　　　）から飲んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "汚れて"
+            },
+            {
+              "id": "B",
+              "text": "消えて"
+            },
+            {
+              "id": "C",
+              "text": "温まって"
+            },
+            {
+              "id": "D",
+              "text": "温めて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1720"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "この絵は大切な物です。手で（　　　）ないで、少し離れて見てください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "触ら"
+            },
+            {
+              "id": "B",
+              "text": "吸わ"
+            },
+            {
+              "id": "C",
+              "text": "配ら"
+            },
+            {
+              "id": "D",
+              "text": "嫌わ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1723"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "あの日から十年が（　　　）が、今もよく覚えている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "減った"
+            },
+            {
+              "id": "B",
+              "text": "経った"
+            },
+            {
+              "id": "C",
+              "text": "配った"
+            },
+            {
+              "id": "D",
+              "text": "育った"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1725"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "手伝ってくれた友達に、心から（　　　）している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残業"
+            },
+            {
+              "id": "B",
+              "text": "命令"
+            },
+            {
+              "id": "C",
+              "text": "感謝"
+            },
+            {
+              "id": "D",
+              "text": "反対"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1735"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「理解」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "りっかい"
+            },
+            {
+              "id": "B",
+              "text": "りかい"
+            },
+            {
+              "id": "C",
+              "text": "りがい"
+            },
+            {
+              "id": "D",
+              "text": "りけい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1729"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「教授」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうしゅ"
+            },
+            {
+              "id": "B",
+              "text": "きょうじゅう"
+            },
+            {
+              "id": "C",
+              "text": "きょじゅ"
+            },
+            {
+              "id": "D",
+              "text": "きょうじゅ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1736"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「指示」の読み方を選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しじ"
+            },
+            {
+              "id": "B",
+              "text": "じじ"
+            },
+            {
+              "id": "C",
+              "text": "しち"
+            },
+            {
+              "id": "D",
+              "text": "しし"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1739"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "台所で皿を（洗う）。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あらう"
+            },
+            {
+              "id": "B",
+              "text": "あう"
+            },
+            {
+              "id": "C",
+              "text": "あろう"
+            },
+            {
+              "id": "D",
+              "text": "せんう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1701"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "この（洗剤）はよく落ちる。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぜんざい"
+            },
+            {
+              "id": "B",
+              "text": "せんぜい"
+            },
+            {
+              "id": "C",
+              "text": "せんざい"
+            },
+            {
+              "id": "D",
+              "text": "せんさい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1701"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "雨で服が（汚れる）。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よごる"
+            },
+            {
+              "id": "B",
+              "text": "よこれる"
+            },
+            {
+              "id": "C",
+              "text": "よごれる"
+            },
+            {
+              "id": "D",
+              "text": "おれる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1702"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "机に（汚れ）がある。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よごれ"
+            },
+            {
+              "id": "B",
+              "text": "よこれ"
+            },
+            {
+              "id": "C",
+              "text": "よごり"
+            },
+            {
+              "id": "D",
+              "text": "おれ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1702"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "国の（法律）を守る。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうりつ"
+            },
+            {
+              "id": "B",
+              "text": "ほうりち"
+            },
+            {
+              "id": "C",
+              "text": "ほうれつ"
+            },
+            {
+              "id": "D",
+              "text": "ほりつ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1703"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "部屋の（温度）を下げる。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おんどう"
+            },
+            {
+              "id": "B",
+              "text": "おんと"
+            },
+            {
+              "id": "C",
+              "text": "おんど"
+            },
+            {
+              "id": "D",
+              "text": "おうど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1704"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "電気の（消費量）が増えた。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょひりょう"
+            },
+            {
+              "id": "B",
+              "text": "しょうひりょう"
+            },
+            {
+              "id": "C",
+              "text": "しょうびりょう"
+            },
+            {
+              "id": "D",
+              "text": "しょうひりょ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1705"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "自分の（血液型）を知っている。括弧の読みを選んでください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けつえきがた"
+            },
+            {
+              "id": "B",
+              "text": "けつえきかた"
+            },
+            {
+              "id": "C",
+              "text": "けついきがた"
+            },
+            {
+              "id": "D",
+              "text": "げつえきがた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1706"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "せんたくものを外に干す。「せんたくもの」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "洗濯機"
+            },
+            {
+              "id": "B",
+              "text": "洗剤"
+            },
+            {
+              "id": "C",
+              "text": "洗濯物"
+            },
+            {
+              "id": "D",
+              "text": "消費量"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1701"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "新しいせんたくきを買う。「せんたくき」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "洗濯機"
+            },
+            {
+              "id": "B",
+              "text": "温度"
+            },
+            {
+              "id": "C",
+              "text": "洗濯物"
+            },
+            {
+              "id": "D",
+              "text": "洗剤"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1701"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "泥で手をよごす。「よごす」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "消える"
+            },
+            {
+              "id": "B",
+              "text": "洗う"
+            },
+            {
+              "id": "C",
+              "text": "汚す"
+            },
+            {
+              "id": "D",
+              "text": "汚れる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1702"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "別のほうほうでやってみる。「ほうほう」はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "法律"
+            },
+            {
+              "id": "B",
+              "text": "法則"
+            },
+            {
+              "id": "C",
+              "text": "方法"
+            },
+            {
+              "id": "D",
+              "text": "温度"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1703"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "あたたかいお茶を飲む。「あたたかい」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "汚い"
+            },
+            {
+              "id": "B",
+              "text": "温める"
+            },
+            {
+              "id": "C",
+              "text": "温まる"
+            },
+            {
+              "id": "D",
+              "text": "温かい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1704"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "風で火がきえる。「きえる」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "消す"
+            },
+            {
+              "id": "B",
+              "text": "温まる"
+            },
+            {
+              "id": "C",
+              "text": "消える"
+            },
+            {
+              "id": "D",
+              "text": "汚れる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1705"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "ホテルの予約をとりけす。「とりけす」の漢字表記はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "温める"
+            },
+            {
+              "id": "B",
+              "text": "消える"
+            },
+            {
+              "id": "C",
+              "text": "汚す"
+            },
+            {
+              "id": "D",
+              "text": "取り消す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1705"
+          ]
+        }
+      ]
+    }
+  ]
+}

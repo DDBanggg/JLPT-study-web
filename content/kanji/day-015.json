@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-015",
+  "study_day": 15,
+  "items": [
+    {
+      "id": 1501,
+      "kanji": "割",
+      "han_viet": "CÁT",
+      "meaning_vi": "chia",
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [
+        "わ・る",
+        "わり",
+        "わ・れる",
+        "さ・く"
+      ],
+      "compounds": [
+        {
+          "word": "割れる",
+          "reading": "われる",
+          "meaning_vi": "vỡ, bể, nứt ra, chia tách"
+        },
+        {
+          "word": "割る",
+          "reading": "わる",
+          "meaning_vi": "làm vỡ, chia nhỏ, chia tách, làm gãy"
+        },
+        {
+          "word": "割り算",
+          "reading": "わりざん",
+          "meaning_vi": "phép chia trong toán học"
+        },
+        {
+          "word": "割引",
+          "reading": "わりびき",
+          "meaning_vi": "giảm giá, chiết khấu"
+        },
+        {
+          "word": "割引券",
+          "reading": "わりびきけん",
+          "meaning_vi": "phiếu giảm giá, coupon giảm giá"
+        },
+        {
+          "word": "時間割",
+          "reading": "じかんわり",
+          "meaning_vi": "thời khóa biểu, lịch học"
+        },
+        {
+          "word": "割合",
+          "reading": "わりあい",
+          "meaning_vi": "tỷ lệ, phần trăm, tương đối"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Nguồn ghi （が）割れる và （を）割る; giữ distinction tự động từ/tha động từ."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 30 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 割"
+    },
+    {
+      "id": 1502,
+      "kanji": "判",
+      "han_viet": "PHÁN",
+      "meaning_vi": "phán quyết",
+      "onyomi": [
+        "ハン",
+        "バン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning_vi": "phán đoán, đánh giá, quyết định"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Ô 訓 không liệt kê âm; không tự bổ sung."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 30 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 判"
+    },
+    {
+      "id": 1503,
+      "kanji": "到",
+      "han_viet": "ĐÁO",
+      "meaning_vi": "đến",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "到着",
+          "reading": "とうちゃく",
+          "meaning_vi": "đến nơi, đến đích"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 31 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 到"
+    },
+    {
+      "id": 1504,
+      "kanji": "倒",
+      "han_viet": "ĐẢO",
+      "meaning_vi": "ngã",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "たお・れる",
+        "たお・す"
+      ],
+      "compounds": [
+        {
+          "word": "倒れる",
+          "reading": "たおれる",
+          "meaning_vi": "ngã, đổ, gục ngã, phá sản"
+        },
+        {
+          "word": "倒す",
+          "reading": "たおす",
+          "meaning_vi": "làm đổ, đánh bại, hạ gục"
+        },
+        {
+          "word": "倒産",
+          "reading": "とうさん",
+          "meaning_vi": "phá sản, sụp đổ doanh nghiệp"
+        },
+        {
+          "word": "面倒",
+          "reading": "めんどう",
+          "meaning_vi": "phiền phức, rắc rối, chăm sóc ai đó"
+        },
+        {
+          "word": "面倒臭い",
+          "reading": "めんどうくさい",
+          "meaning_vi": "rất phiền phức, rắc rối, lười biếng làm gì đó"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [
+        "Nguồn ghi （が）倒れる và （を）倒す."
+      ],
+      "source_ref": "Chương 1.pdf | trang in 31 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 倒"
+    },
+    {
+      "id": 1505,
+      "kanji": "争",
+      "han_viet": "TRANH",
+      "meaning_vi": "tranh giành",
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "あらそ・う"
+      ],
+      "compounds": [
+        {
+          "word": "争う",
+          "reading": "あらそう",
+          "meaning_vi": "tranh chấp, đấu tranh, tranh giành, cãi vã"
+        },
+        {
+          "word": "競争",
+          "reading": "きょうそう",
+          "meaning_vi": "cạnh tranh, ganh đua"
+        },
+        {
+          "word": "戦争",
+          "reading": "せんそう",
+          "meaning_vi": "chiến tranh, cuộc chiến"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 32 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 争"
+    },
+    {
+      "id": 1506,
+      "kanji": "危",
+      "han_viet": "NGUY",
+      "meaning_vi": "nguy hiểm",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "あぶ・ない",
+        "あや・うい",
+        "あや・ぶむ"
+      ],
+      "compounds": [
+        {
+          "word": "危ない",
+          "reading": "あぶない",
+          "meaning_vi": "nguy hiểm, không an toàn, có thể xảy ra rủi ro"
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "meaning_vi": "nguy hiểm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 1.pdf | trang in 32 | CHƯƠNG 1 > BÀI 2 > CHỮ HÁN > 危"
+    }
+  ]
+}
