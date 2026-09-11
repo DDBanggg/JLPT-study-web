@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-015",
+  "study_day": 15,
+  "items": [
+    {
+      "id": 1501,
+      "title": "夕立と集中豪雨",
+      "passage_jp": "夏の午後に急に降り出す雨を夕立と呼ぶ。夕立は予測ができないが、1、2時間ほどで止み、降った後は涼しくなる。しかし、最近は気候が変化して、夕立とは言えないような、何時間にもわたって同じ場所で激しい雨が降り続くことが増えた。このような集中豪雨は、川の水があふれたり、山がくずれたりするなどの災害を引き起こすこともあり、非常に危険だ。しかし、夕立と違って天気予報でいつどこで発生するか知ることができる。毎日天気予報を確認して、気を付けておくといいだろう。",
+      "translation_vi": "Cơn mưa bất chợt bắt đầu vào buổi chiều mùa hè được gọi là mưa rào yūdachi. Không thể dự đoán yūdachi, nhưng nó sẽ tạnh sau khoảng một hoặc hai giờ và sau cơn mưa trời trở nên mát mẻ. Tuy nhiên, gần đây khí hậu thay đổi, những trận mưa dữ dội kéo dài nhiều giờ tại cùng một nơi, đến mức không thể gọi là yūdachi, đã xuất hiện ngày càng nhiều. Những trận mưa lớn tập trung như vậy đôi khi gây ra thiên tai như nước sông tràn bờ hoặc núi sạt lở, nên cực kỳ nguy hiểm. Tuy vậy, khác với yūdachi, ta có thể biết qua dự báo thời tiết chúng sẽ xảy ra lúc nào và ở đâu. Có lẽ nên kiểm tra dự báo thời tiết mỗi ngày và luôn cẩn thận.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 8 | 夕立と集中豪雨",
+      "questions": [
+        {
+          "id": "c01r-d04-q01",
+          "question_type": "mcq",
+          "question_jp": "集中豪雨は夕立とどう違いますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "同じ場所で何時間も激しく降ることがある"
+            },
+            {
+              "id": "B",
+              "text": "夏には降らない"
+            },
+            {
+              "id": "C",
+              "text": "降った後は必ず暑くなる"
+            },
+            {
+              "id": "D",
+              "text": "天気予報では分からない"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c01r-d04-q02",
+          "question_type": "mcq",
+          "question_jp": "筆者が読者にすすめていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "川の近くに住む"
+            },
+            {
+              "id": "B",
+              "text": "夕立を予測する"
+            },
+            {
+              "id": "C",
+              "text": "雨が降ったら山へ行く"
+            },
+            {
+              "id": "D",
+              "text": "毎日天気予報を確認する"
+            }
+          ],
+          "correct_option_id": "D"
+        }
+      ]
+    }
+  ]
+}

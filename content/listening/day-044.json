@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "listening-day-044",
+  "study_day": 44,
+  "items": [
+    {
+      "id": 4401,
+      "title": "Luyện Nghe N3 JLPT ( Đề 6)Mới Nhất Đầy Đủ Dịch và Đáp Án. (Quỳnh JP)",
+      "description_vi": "Nghe video N3 theo thứ tự của playlist chuẩn.",
+      "youtube": {
+        "type": "video",
+        "video_id": "rzK8BymoPBM",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=rzK8BymoPBM",
+      "source_ref": "N3 Listening playlist — playable video 33 of 80"
+    }
+  ]
+}

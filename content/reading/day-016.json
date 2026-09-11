@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-016",
+  "study_day": 16,
+  "items": [
+    {
+      "id": 1601,
+      "title": "白い車を選ぶ理由",
+      "passage_jp": "昔と比べて、最近は白い車を買う人が減っているらしい。それでも、他の色の車より白い車に乗っている人をよく見る。日本人は白色が好きだから白い車を選ぶのだろうか。白い車を選んだ人に聞くと、白色は目立つので事故にあいにくかったり、夏に車の中が暑くなりにくかったりするからと言っていた。白色が好きだから、白い車に乗っているわけではないらしい。",
+      "translation_vi": "So với trước đây, gần đây dường như số người mua xe màu trắng đang giảm. Dù vậy, ta vẫn thường thấy nhiều người đi xe trắng hơn xe màu khác. Có phải người Nhật chọn xe trắng vì thích màu trắng không? Khi hỏi những người đã chọn xe trắng, họ nói rằng vì màu trắng dễ nổi bật nên xe ít gặp tai nạn hơn, đồng thời vào mùa hè bên trong xe cũng ít bị nóng hơn. Có vẻ họ đi xe trắng không phải vì thích màu trắng.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 9 | 白い車を選ぶ理由",
+      "questions": [
+        {
+          "id": "c01r-d05-q01",
+          "question_type": "mcq",
+          "question_jp": "白い車を選んだ人が話した理由は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "白色がいちばん安いから"
+            },
+            {
+              "id": "B",
+              "text": "日本人は全員白色が好きだから"
+            },
+            {
+              "id": "C",
+              "text": "目立って事故にあいにくく、夏も暑くなりにくいから"
+            },
+            {
+              "id": "D",
+              "text": "他の色の車が買えないから"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    },
+    {
+      "id": 1602,
+      "title": "父と犬",
+      "passage_jp": "父は会社を退職してから、家にいる時間が増えた。特に趣味のない父は、毎日家で暇そうにしている。少し前に、医者からもっと運動するように言われたらしい。それで、最初は色々と運動していたみたいだが、徐々に面倒になったらしく、しなくなった。そんな父を心配して、犬を飼うことにした。最初、父は面倒だと反対していた。しかし、飼ってみるとだんだん可愛くなってきたみたいで、今では、父は面倒くさいといいながら、毎日楽しそうに犬と散歩している。最近は、少し遠くの公園にも行っているらしい。そこで友達もできたらしく随分と元気そうだ。犬を飼ってよかった。",
+      "translation_vi": "Từ sau khi nghỉ việc ở công ty, thời gian bố ở nhà tăng lên. Bố không có sở thích gì đặc biệt nên ngày nào trông cũng có vẻ rảnh rỗi ở nhà. Cách đây ít lâu, hình như bác sĩ đã bảo bố nên vận động nhiều hơn. Vì thế, lúc đầu bố có vẻ đã thử nhiều kiểu vận động, nhưng dường như dần dần thấy phiền nên không tập nữa. Lo lắng cho một người bố như vậy, chúng tôi quyết định nuôi chó. Ban đầu, bố phản đối vì cho rằng việc đó phiền phức. Tuy nhiên, sau khi nuôi thử, hình như bố dần thấy con chó đáng yêu; bây giờ, dù miệng nói là phiền, ngày nào bố cũng vui vẻ dắt chó đi dạo. Gần đây, hình như bố còn đi đến cả công viên hơi xa. Dường như bố cũng đã kết bạn ở đó và trông khỏe khoắn hơn hẳn. Nuôi chó quả là một quyết định đúng đắn.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 9 | 父と犬",
+      "questions": [
+        {
+          "id": "c01r-d05-q02",
+          "question_type": "mcq",
+          "question_jp": "犬を飼ってから、父はどう変わりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会社に戻って働き始めた"
+            },
+            {
+              "id": "B",
+              "text": "毎日犬と散歩し、公園で友達もできて元気になった"
+            },
+            {
+              "id": "C",
+              "text": "医者に運動しないように言われた"
+            },
+            {
+              "id": "D",
+              "text": "犬が嫌いになって外へ出なくなった"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

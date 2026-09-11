@@ -132,7 +132,7 @@ describe("shared Test Engine", () => {
   it("loads and raw-scores the 40-question N3 Daily Test", async () => {
     const roadmap = await loadProgramRoadmap();
     if (roadmap.state !== "available") throw new Error("Roadmap missing");
-    const location = findTestLocation(roadmap.data, "daily-012");
+    const location = findTestLocation(roadmap.data, "daily-013");
     if (!location) throw new Error("N3 Daily Test missing from roadmap");
     const loaded = await loadTestContent(location);
     if (loaded.state !== "available") throw new Error("N3 Daily Test content missing");
@@ -146,7 +146,32 @@ describe("shared Test Engine", () => {
     });
   });
 
-  it("linearly scores JLPT-style sections to 60/60/60", () => {
+  it("loads and scores Weekly with two sections, /120 total and null Listening", async () => {
+    const roadmap = await loadProgramRoadmap();
+    if (roadmap.state !== "available") throw new Error("Roadmap missing");
+    const location = findTestLocation(roadmap.data, "weekly-01");
+    if (!location) throw new Error("Weekly Test missing from roadmap");
+    const loaded = await loadTestContent(location);
+    if (loaded.state !== "available") throw new Error("Weekly Test content missing");
+
+    expect(loaded.data.sections.map(({ id, max_score, questions }) => ({
+      id,
+      max_score,
+      questions: questions.length,
+    }))).toEqual([
+      { id: "language", max_score: 60, questions: 30 },
+      { id: "reading", max_score: 60, questions: 12 },
+    ]);
+    expect(scoreTest(loaded.data, correctAnswers(loaded.data)).result).toMatchObject({
+      test_type: "weekly",
+      language_score: 60,
+      reading_score: 60,
+      listening_score: null,
+      total_score: 120,
+    });
+  });
+
+  it("keeps Monthly/End/Mock scoring on three sections and /180", () => {
     const sections = ["language", "reading", "listening"].map((id) => ({
       id,
       title: id,
@@ -163,11 +188,11 @@ describe("shared Test Engine", () => {
     }));
     const document: TestDocument = {
       schema_version: 1,
-      id: "weekly-test",
-      type: "weekly",
-      title: "Weekly",
-      study_day: 7,
-      coverage: { from_day: 1, to_day: 6 },
+      id: "mock-test",
+      type: "mock",
+      title: "Mock",
+      study_day: 100,
+      coverage: { from_day: 1, to_day: 99 },
       stimuli: [],
       sections,
     };
@@ -176,8 +201,8 @@ describe("shared Test Engine", () => {
       option_id: index % 4 === 0 ? "B" : answer.option_id,
     }));
     expect(scoreTest(document, answers).result).toEqual({
-      test_id: "weekly-test",
-      test_type: "weekly",
+      test_id: "mock-test",
+      test_type: "mock",
       score: null,
       max_score: null,
       language_score: 45,

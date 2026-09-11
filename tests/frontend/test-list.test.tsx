@@ -1,7 +1,10 @@
 import React from "react";
 import { describe, expect, it, vi } from "vitest";
 import { renderToString } from "react-dom/server";
-import { TestListView } from "../../src/components/test/TestListView";
+import {
+  formatTestResultScore,
+  TestListView,
+} from "../../src/components/test/TestListView";
 
 // Mock next/navigation
 vi.mock("next/navigation", () => ({
@@ -24,5 +27,16 @@ describe("Milestone F9 — Test List Components", () => {
     );
 
     expect(html).toContain("animate-pulse");
+  });
+
+  it("formats Weekly as /120 while preserving /180 for other scaled tests", () => {
+    const baseResult = {
+      test_id: "scaled-test",
+      score: null,
+      max_score: null,
+      total_score: 90,
+    };
+    expect(formatTestResultScore({ ...baseResult, test_type: "weekly" })).toBe("90 / 120");
+    expect(formatTestResultScore({ ...baseResult, test_type: "mock" })).toBe("90 / 180");
   });
 });

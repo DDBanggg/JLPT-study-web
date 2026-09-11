@@ -47,6 +47,17 @@ export interface TestListViewProps {
   description: string;
 }
 
+export function formatTestResultScore(result: TestResultData | null): string | null {
+  if (!result) return null;
+  if (result.score !== null && result.max_score !== null) {
+    return `${result.score} / ${result.max_score}`;
+  }
+  if (result.total_score !== null && result.total_score !== undefined) {
+    return `${result.total_score} / ${result.test_type === "weekly" ? 120 : 180}`;
+  }
+  return null;
+}
+
 export function TestListView({ type, title, description }: TestListViewProps) {
   const [data, setData] = useState<TestListData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -141,14 +152,7 @@ export function TestListView({ type, title, description }: TestListViewProps) {
           const result = test.latest_result;
 
           // Format score display
-          let scoreText: string | null = null;
-          if (result) {
-            if (result.score !== null && result.max_score !== null) {
-              scoreText = `${result.score} / ${result.max_score}`;
-            } else if (result.total_score !== null) {
-              scoreText = `${result.total_score} / 180`;
-            }
-          }
+          const scoreText = formatTestResultScore(result);
 
           return (
             <div

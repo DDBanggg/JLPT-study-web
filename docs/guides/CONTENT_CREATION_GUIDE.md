@@ -3,7 +3,7 @@
 **Status:** Operational guide
 **Purpose:** Hướng dẫn chuẩn bị nội dung học theo từng Study Day và chuyển thành JSON dùng cho website.
 **Applies to:** Grammar, Grammar Test, Vocabulary, Kanji, Reading, Listening, Daily/Weekly/Monthly/End/Mock Tests.
-**Updated:** 2026-09-01
+**Updated:** 2026-09-11
 
 The canonical content specification is v1.4. It adds structured visual Reading stimuli
 and text/image question options while preserving the v1.3 authoring and Kanji learning
@@ -236,10 +236,11 @@ Nếu ngày đó là test-only day thì chỉ cần chuẩn bị đúng các tas
 Với N3, một Part có thể được publish độc lập theo rolling content. Contract đầu tiên:
 
 ```text
-C1L1P1 → Study Day 11
+C1L1P1 → Study Day 12
 Grammar 4 + Vocabulary 44 + Kanji 6 + Grammar Test 25
-Daily Test Day 12 → review Day 11 với 10 Grammar + 15 Vocabulary + 15 Kanji = 40
-Reading/Listening có thể vắng mặt khi chưa được assign; không tạo placeholder.
+Daily Test Day 13 → review Day 12 với 10 Grammar + 15 Vocabulary + 15 Kanji = 40
+Reading → một package trên mỗi ngày học Chapter 1, Day 12–17
+Listening → một video khả dụng mỗi ngày từ Day 12
 ```
 
 ---
@@ -334,7 +335,7 @@ Với content mới, mỗi Grammar Test question nên có `source_item_refs` tr�
 
 Không dùng Grammar Test để thay thế Daily Test. Daily Test ngày kế tiếp kiểm tra Grammar, Vocabulary và, khi source day có, Kanji của ngày trước.
 
-N3 groups theo lesson/Part thực tế thay vì ép mô hình N5/N4. Với C1L1P1 ở Day 11,
+N3 groups theo lesson/Part thực tế thay vì ép mô hình N5/N4. Với C1L1P1 ở Day 12,
 `lesson_groups` có một group cho Lesson 1 chứa đủ 25 question IDs.
 
 ---
@@ -759,6 +760,17 @@ Nếu video không embed được:
 
 `source_ref` là optional trên từng Listening item.
 
+N3 sử dụng playlist canonical và ánh xạ độc lập với ranh giới Chapter:
+
+```text
+https://youtube.com/playlist?list=PLR0zccKCKFlXpVafc_clbkOx_SuM-l1iB
+80 video khả dụng → Day 12–91 → đúng 1 video / Study Day
+```
+
+Hai video bị YouTube ẩn hoàn toàn chỉ là thông tin audit, không tiêu thụ Study Day và
+không được đoán metadata. Mapping chi tiết nằm trong
+`docs/specs/N3_LISTENING_PLAYLIST_MANIFEST.md`.
+
 ---
 
 # 10. Daily Test
@@ -809,8 +821,9 @@ N3 dùng contract riêng:
 10 Grammar + 15 Vocabulary + 15 Kanji = 40 câu
 ```
 
-Contract 40 câu bắt đầu từ Daily Test Day 12; Day 2–11 tiếp tục dùng đúng các phân bổ
-N5/N4 đã publish. Quy tắc `Daily Test Day X → Study Day X-1` không đổi.
+Contract 40 câu bắt đầu từ Daily Test Day 13, kiểm tra N3 bắt đầu ở Day 12. Day 2–11
+tiếp tục dùng đúng các phân bổ N5/N4 đã publish; Day 12 không có N3 Daily Test giả.
+Quy tắc `Daily Test Day X → Study Day X-1` không đổi.
 
 ---
 
@@ -818,21 +831,22 @@ N5/N4 đã publish. Quy tắc `Daily Test Day X → Study Day X-1` không đổi
 
 Các bài này dùng shared Test schema.
 
-Sections:
+Weekly N3 dùng đúng hai section:
 
 ```text
-Language Knowledge
-Reading
-Listening
+Language Knowledge  /60 — 30 câu: 10 Grammar + 10 Vocabulary + 10 Kanji
+Reading             /60 — 12 câu
+Total              /120
 ```
 
-Điểm:
+Weekly không có Listening section và lưu `listening_score = null`.
+
+Monthly / End / Mock giữ ba section:
 
 ```text
 Language  /60
 Reading   /60
 Listening /60
-
 Total     /180
 ```
 

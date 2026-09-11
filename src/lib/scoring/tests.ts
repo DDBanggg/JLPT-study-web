@@ -195,6 +195,50 @@ function validateTestDocument(
     );
   }
 
+  if (documentType === "weekly") {
+    const [language, reading] = sections;
+    const languageCategoryCounts = language?.questions.reduce<Record<string, number>>(
+      (counts, question) => ({
+        ...counts,
+        [question.category]: (counts[question.category] ?? 0) + 1,
+      }),
+      {},
+    );
+    const stimulusIds = new Set(
+      (value.stimuli as unknown[])
+        .filter(isRecord)
+        .map((stimulus) => stimulus.id)
+        .filter((id): id is string => typeof id === "string"),
+    );
+    const questionsHaveFourUniqueOptions = sections.every((section) =>
+      section.questions.every((question) =>
+        question.options.length === 4 &&
+        new Set(question.options.map(({ text }) => text)).size === 4
+      )
+    );
+    return (
+      sections.length === 2 &&
+      language?.id === "language" &&
+      language.max_score === 60 &&
+      language.questions.length === 30 &&
+      languageCategoryCounts?.grammar === 10 &&
+      languageCategoryCounts?.vocabulary === 10 &&
+      languageCategoryCounts?.kanji === 10 &&
+      Object.keys(languageCategoryCounts).length === 3 &&
+      language.questions.every((question) => question.stimulus_id === null) &&
+      reading?.id === "reading" &&
+      reading.max_score === 60 &&
+      reading.questions.length === 12 &&
+      reading.questions.every(
+        (question) =>
+          question.category === "reading" &&
+          typeof question.stimulus_id === "string" &&
+          stimulusIds.has(question.stimulus_id),
+      ) &&
+      questionsHaveFourUniqueOptions
+    );
+  }
+
   const expectedScaled = ["language", "reading", "listening"];
   return sections.length === 3 && sections.every(
     (section, index) => section.id === expectedScaled[index] && section.max_score === 60,
@@ -319,7 +363,7 @@ export function scoreTest(
   );
   const languageScore = sectionScores.language ?? 0;
   const readingScore = sectionScores.reading ?? 0;
-  const listeningScore = sectionScores.listening ?? 0;
+  const listeningScore = document.type === "weekly" ? null : sectionScores.listening ?? 0;
   return {
     result: {
       test_id: document.id,
@@ -329,7 +373,7 @@ export function scoreTest(
       language_score: languageScore,
       reading_score: readingScore,
       listening_score: listeningScore,
-      total_score: languageScore + readingScore + listeningScore,
+      total_score: languageScore + readingScore + (listeningScore ?? 0),
     },
     review,
   };

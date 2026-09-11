@@ -527,6 +527,133 @@ function validateDailyQuestion(
   }
 }
 
+function validateWeeklyQuestionOptions(question, file, errors) {
+  const label = `weekly question '${question?.id ?? "<unknown>"}'`;
+  if (!isNonEmptyString(question?.prompt)) {
+    errors.push(`${file}: ${label} prompt must be a non-empty string`);
+  }
+  const options = Array.isArray(question?.options) ? question.options : [];
+  const expectedOptionIds = ["A", "B", "C", "D"];
+  const optionIds = options.map((option) => option?.id);
+  if (
+    options.length !== expectedOptionIds.length ||
+    optionIds.some((id, index) => id !== expectedOptionIds[index])
+  ) {
+    errors.push(`${file}: ${label} option IDs must be exactly A/B/C/D`);
+  }
+  if (options.some((option) => !isNonEmptyString(option?.text))) {
+    errors.push(`${file}: ${label} option text must be non-empty`);
+  }
+  if (hasDuplicates(options.map((option) => option?.text))) {
+    errors.push(`${file}: ${label} option text must be unique`);
+  }
+  if (!isNonEmptyString(question?.correct_option_id) || !optionIds.includes(question.correct_option_id)) {
+    errors.push(`${file}: ${label} correct_option_id must reference an option`);
+  }
+}
+
+function validateWeeklyTest(document, file, errors, sourceItemIds) {
+  const expectedSections = [
+    { id: "language", count: 30 },
+    { id: "reading", count: 12 },
+  ];
+  if (document.sections.length !== expectedSections.length) {
+    errors.push(`${file}: weekly test must contain exactly language and reading sections`);
+  }
+  expectedSections.forEach((expected, index) => {
+    const section = document.sections[index];
+    if (section?.id !== expected.id) {
+      errors.push(`${file}: weekly section ${index + 1} must be '${expected.id}'`);
+    }
+    if (section?.max_score !== 60) {
+      errors.push(`${file}: weekly ${expected.id} section max_score must equal 60`);
+    }
+    if (!Array.isArray(section?.questions) || section.questions.length !== expected.count) {
+      errors.push(`${file}: weekly ${expected.id} section must contain exactly ${expected.count} questions`);
+    }
+  });
+
+  const languageQuestions = Array.isArray(document.sections[0]?.questions)
+    ? document.sections[0].questions
+    : [];
+  const categoryCounts = new Map(["grammar", "vocabulary", "kanji"].map((id) => [id, 0]));
+  for (const question of languageQuestions) {
+    categoryCounts.set(question?.category, (categoryCounts.get(question?.category) ?? 0) + 1);
+    if (question?.stimulus_id !== null) {
+      errors.push(`${file}: weekly language question '${question?.id}' stimulus_id must equal null`);
+    }
+    validateWeeklyQuestionOptions(question, file, errors);
+
+    const references = Array.isArray(question?.source_item_refs) ? question.source_item_refs : [];
+    if (references.length === 0 || hasDuplicates(references)) {
+      errors.push(`${file}: weekly language question '${question?.id}' source_item_refs must be non-empty and unique`);
+    }
+    for (const reference of references) {
+      const match = typeof reference === "string"
+        ? /^(grammar|vocabulary|kanji):([1-9][0-9]*)$/.exec(reference)
+        : null;
+      if (!match) {
+        errors.push(`${file}: weekly language question '${question?.id}' has malformed source_item_ref '${reference}'`);
+        continue;
+      }
+      const resolvesWithinCoverage = Array.from(
+        { length: document.coverage.to_day - document.coverage.from_day + 1 },
+        (_, offset) => document.coverage.from_day + offset,
+      ).some((day) => (sourceItemIds.get(`${match[1]}:${day}`) ?? new Set()).has(match[2]));
+      if (!resolvesWithinCoverage) {
+        errors.push(`${file}: weekly language question '${question?.id}' source_item_ref '${reference}' must resolve within coverage`);
+      }
+    }
+  }
+  for (const category of ["grammar", "vocabulary", "kanji"]) {
+    if (categoryCounts.get(category) !== 10) {
+      errors.push(`${file}: weekly language section must contain exactly 10 ${category} questions`);
+    }
+  }
+  if ([...categoryCounts.keys()].some((category) => !["grammar", "vocabulary", "kanji"].includes(category))) {
+    errors.push(`${file}: weekly language section contains an unsupported category`);
+  }
+
+  const stimuli = Array.isArray(document.stimuli) ? document.stimuli : [];
+  const stimulusIds = stimuli.map((stimulus) => stimulus?.id);
+  if (hasDuplicates(stimulusIds)) {
+    errors.push(`${file}: weekly stimulus IDs must be unique`);
+  }
+  const readingQuestions = Array.isArray(document.sections[1]?.questions)
+    ? document.sections[1].questions
+    : [];
+  for (const question of readingQuestions) {
+    if (question?.category !== "reading") {
+      errors.push(`${file}: every weekly reading question must use category 'reading'`);
+    }
+    if (!isNonEmptyString(question?.stimulus_id) || !stimulusIds.includes(question.stimulus_id)) {
+      errors.push(`${file}: weekly reading question '${question?.id}' must reference a known stimulus`);
+    }
+    validateWeeklyQuestionOptions(question, file, errors);
+  }
+}
+
+function validateThreeSectionScaledTest(document, file, errors) {
+  const expectedSections = ["language", "reading", "listening"];
+  if (
+    document.sections.length !== expectedSections.length ||
+    document.sections.some(
+      (section, index) => section?.id !== expectedSections[index] || section?.max_score !== 60,
+    )
+  ) {
+    errors.push(
+      `${file}: ${document.type} test must contain language, reading, and listening sections with max_score 60`,
+    );
+  }
+  for (const section of document.sections) {
+    const questions = Array.isArray(section?.questions) ? section.questions : [];
+    if (questions.length === 0) {
+      errors.push(`${file}: ${document.type} section '${section?.id}' must contain questions`);
+    }
+    for (const question of questions) validateWeeklyQuestionOptions(question, file, errors);
+  }
+}
+
 function validateTest(document, file, errors, sourceItemIds) {
   if (!Array.isArray(document.sections)) return;
 
@@ -592,6 +719,16 @@ function validateTest(document, file, errors, sourceItemIds) {
     ) {
       errors.push(`${file}: lesson_groups must reference every grammar question exactly once`);
     }
+  }
+
+  if (document.type === "weekly") {
+    validateWeeklyTest(document, file, errors, sourceItemIds);
+    return;
+  }
+
+  if (["monthly", "end", "mock"].includes(document.type)) {
+    validateThreeSectionScaledTest(document, file, errors);
+    return;
   }
 
   if (document.type !== "daily") return;

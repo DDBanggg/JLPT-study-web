@@ -66,25 +66,60 @@ describe("roadmap and Schedule derivation", () => {
     });
   });
 
-  it("maps C1L1P1 to Day 11 and its Daily Test to Day 12", async () => {
+  it("keeps Day 11 N5/N4-only and starts N3 C1L1P1 on Day 12", async () => {
     const result = await loadProgramRoadmap();
     if (result.state !== "available") throw new Error("Roadmap missing");
 
     expect(getRoadmapDay(result.data, 11).tasks.map(({ type }) => type)).toEqual([
       "daily_test",
       "end_test",
+    ]);
+    const day12 = getRoadmapDay(result.data, 12);
+    expect(day12.tasks.map(({ type }) => type)).toEqual([
       "grammar",
       "grammar_test",
       "vocabulary",
       "kanji",
+      "reading",
+      "listening",
     ]);
-    const day12 = getRoadmapDay(result.data, 12);
-    expect(day12.tasks.map(({ resource_id }) => resource_id)).toEqual(["daily-012"]);
     await expect(loadTaskContentSummary(day12.tasks[0], 12)).resolves.toEqual({
+      state: "available",
+      itemIds: [1201, 1202, 1203, 1204],
+      total: 4,
+    });
+
+    const day13 = getRoadmapDay(result.data, 13);
+    expect(day13.tasks[0].resource_id).toBe("daily-013");
+    await expect(loadTaskContentSummary(day13.tasks[0], 13)).resolves.toEqual({
       state: "available",
       itemIds: [],
       total: 40,
     });
+  });
+
+  it("publishes Chapter 1 Reading/Listening and keeps the Day 18 task order", async () => {
+    const result = await loadProgramRoadmap();
+    if (result.state !== "available") throw new Error("Roadmap missing");
+
+    for (let day = 12; day <= 17; day += 1) {
+      const roadmapDay = getRoadmapDay(result.data, day);
+      const reading = roadmapDay.tasks.find(({ type }) => type === "reading");
+      const listening = roadmapDay.tasks.find(({ type }) => type === "listening");
+      if (!reading || !listening) throw new Error(`Foundation task missing on Day ${day}`);
+      await expect(loadTaskContentSummary(reading, day)).resolves.toMatchObject({ state: "available" });
+      await expect(loadTaskContentSummary(listening, day)).resolves.toEqual({
+        state: "available",
+        itemIds: [day * 100 + 1],
+        total: 1,
+      });
+    }
+
+    expect(getRoadmapDay(result.data, 18).tasks.map(({ type }) => type)).toEqual([
+      "daily_test",
+      "weekly_test",
+      "listening",
+    ]);
   });
 
   it("derives available, in-progress and finished task DTOs", async () => {

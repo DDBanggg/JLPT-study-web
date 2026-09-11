@@ -1,4 +1,4 @@
-import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
@@ -10,6 +10,76 @@ describe("content validation foundation", () => {
     const result = await validateContentRoot(path.resolve(process.cwd(), "content"));
     expect(result.errors).toEqual([]);
   });
+
+  it("enforces the N3 Weekly two-section /120 content contract", async () => {
+    const temporaryRoot = await mkdtemp(path.join(tmpdir(), "n3-weekly-test-"));
+    const productionRoot = path.resolve(process.cwd(), "content");
+    try {
+      for (const category of ["grammar", "vocabulary", "kanji"]) {
+        for (let day = 12; day <= 17; day += 1) {
+          const dayText = String(day).padStart(3, "0");
+          const source = await readFile(
+            path.join(productionRoot, category, `day-${dayText}.json`),
+            "utf8",
+          );
+          await writeFile(path.join(temporaryRoot, `${category}-${dayText}.json`), source);
+        }
+      }
+      const weekly = JSON.parse(await readFile(
+        path.join(productionRoot, "tests", "weekly", "day-018.json"),
+        "utf8",
+      ));
+      await writeFile(path.join(temporaryRoot, "weekly.json"), JSON.stringify(weekly));
+      expect((await validateContentRoot(temporaryRoot)).errors).toEqual([]);
+
+      weekly.sections.push({
+        id: "listening",
+        title: "Listening",
+        max_score: 60,
+        questions: [],
+      });
+      await writeFile(path.join(temporaryRoot, "weekly.json"), JSON.stringify(weekly));
+      expect((await validateContentRoot(temporaryRoot)).errors).toContain(
+        "weekly.json: weekly test must contain exactly language and reading sections",
+      );
+    } finally {
+      await rm(temporaryRoot, { recursive: true, force: true });
+    }
+  });
+
+  it.each(["monthly", "end", "mock"])(
+    "preserves the three-section /180 contract for %s tests",
+    async (type) => {
+      const question = (id: string) => ({
+        id,
+        category: id,
+        prompt: "問題です。",
+        stimulus_id: null,
+        options: ["A", "B", "C", "D"].map((optionId) => ({ id: optionId, text: optionId })),
+        correct_option_id: "A",
+      });
+      const document = {
+        schema_version: 1,
+        id: `${type}-test`,
+        type,
+        study_day: 100,
+        coverage: { from_day: 1, to_day: 99 },
+        stimuli: [],
+        sections: ["language", "reading", "listening"].map((id) => ({
+          id,
+          title: id,
+          max_score: 60,
+          questions: [question(`${id}-q1`)],
+        })),
+      };
+      expect(await validateTemporaryDocument(document, `n3-${type}-valid-`)).toEqual([]);
+
+      document.sections.pop();
+      expect((await validateTemporaryDocument(document, `n3-${type}-invalid-`)).some(
+        (error) => error.includes("must contain language, reading, and listening sections"),
+      )).toBe(true);
+    },
+  );
 
   it("enforces the canonical Grammar Test grouping", async () => {
     const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-grammar-test-"));
@@ -53,22 +123,22 @@ describe("content validation foundation", () => {
     }));
     const document = {
       schema_version: 1,
-      id: "grammar-test-011",
+      id: "grammar-test-012",
       type: "grammar",
-      study_day: 11,
-      coverage: { from_day: 11, to_day: 11 },
+      study_day: 12,
+      coverage: { from_day: 12, to_day: 12 },
       lesson_groups: [{ lesson: 1, question_ids: questions.map(({ id }) => id) }],
       sections: [{ id: "grammar", max_score: 25, questions }],
     };
 
     try {
-      await writeFile(path.join(contentRoot, "day-011.json"), JSON.stringify(document));
+      await writeFile(path.join(contentRoot, "day-012.json"), JSON.stringify(document));
       expect((await validateContentRoot(contentRoot)).errors).toEqual([]);
 
       document.lesson_groups[0].question_ids.pop();
-      await writeFile(path.join(contentRoot, "day-011.json"), JSON.stringify(document));
+      await writeFile(path.join(contentRoot, "day-012.json"), JSON.stringify(document));
       expect((await validateContentRoot(contentRoot)).errors).toContain(
-        "day-011.json: every grammar test lesson_group for Study Day 11 must contain 25 question_ids",
+        "day-012.json: every grammar test lesson_group for Study Day 12 must contain 25 question_ids",
       );
     } finally {
       await rm(contentRoot, { recursive: true, force: true });
@@ -78,7 +148,7 @@ describe("content validation foundation", () => {
   it.each([
     [2, [20, 25], ["grammar", "vocabulary"]],
     [3, [15, 15, 15], ["grammar", "vocabulary", "kanji"]],
-    [12, [10, 15, 15], ["grammar", "vocabulary", "kanji"]],
+    [13, [10, 15, 15], ["grammar", "vocabulary", "kanji"]],
   ])("accepts the canonical Daily Test distribution for Day %i", async (day, counts, categories) => {
     const document = dailyTestDocument(day as number);
     const errors = await validateTemporaryDailyDocument(document);
@@ -112,7 +182,7 @@ describe("content validation foundation", () => {
       return document;
     }, "grammar section max_score must equal 15"],
     ["N3 day with the N5/N4 distribution", () => {
-      const document = dailyTestDocument(12);
+      const document = dailyTestDocument(13);
       document.sections[0].max_score = 15;
       document.sections[0].questions.push(...Array.from({ length: 5 }, (_, index) => ({
         ...document.sections[0].questions[index],
@@ -441,7 +511,7 @@ async function validateTemporaryDailyDocument(document: ReturnType<typeof dailyT
   const contentRoot = await mkdtemp(path.join(tmpdir(), "n3-daily-test-"));
   try {
     await writeFile(path.join(contentRoot, "daily.json"), JSON.stringify(document));
-    for (const day of [1, 2, 3, 11]) {
+    for (const day of [1, 2, 3, 12]) {
       const dayText = String(day).padStart(3, "0");
       await writeFile(path.join(contentRoot, `grammar-${dayText}.json`), JSON.stringify({
         schema_version: 1,

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-012",
+  "study_day": 12,
+  "items": [
+    {
+      "id": 1201,
+      "title": "旅行と手ぬぐい",
+      "passage_jp": "私は旅行の荷物はできるだけ少なくするようにしている。そんな私が旅行に必ず持っていくものは、手ぬぐいだ。手ぬぐいはタオルの代わりに水や汗でぬれた手や顔をふいたり、体を洗ったりできるし、スカーフやマフラーの代わりにも使える。そのうえ、タオルよりも薄くて場所を取らないし、洗たくしてもすぐに乾くので、とても便利だ。旅行には手ぬぐいを持っていくことをおすすめしたい。",
+      "translation_vi": "Tôi cố gắng giữ hành lý cho chuyến đi ít nhất có thể. Thế nhưng, thứ mà một người như tôi luôn mang theo khi đi du lịch là khăn tenugui. Tenugui có thể được dùng thay khăn bông để lau tay và mặt bị ướt bởi nước hoặc mồ hôi, hoặc để rửa cơ thể; nó cũng có thể dùng thay khăn choàng hay khăn quàng cổ. Hơn nữa, nó mỏng hơn khăn bông nên không chiếm chỗ, và dù giặt cũng khô ngay, vì thế rất tiện lợi. Tôi muốn khuyên mọi người mang tenugui khi đi du lịch.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 7 | 旅行と手ぬぐい",
+      "questions": [
+        {
+          "id": "c01r-d01-q01",
+          "question_type": "mcq",
+          "question_jp": "筆者が旅行に必ず持っていくものは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "厚いタオル"
+            },
+            {
+              "id": "B",
+              "text": "手ぬぐい"
+            },
+            {
+              "id": "C",
+              "text": "大きなスカーフ"
+            },
+            {
+              "id": "D",
+              "text": "洗たく物"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c01r-d01-q02",
+          "question_type": "mcq",
+          "question_jp": "筆者が手ぬぐいを便利だと考える理由として、正しくないものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "いろいろな使い方ができるから"
+            },
+            {
+              "id": "B",
+              "text": "場所をあまり取らないから"
+            },
+            {
+              "id": "C",
+              "text": "タオルより厚くて暖かいから"
+            },
+            {
+              "id": "D",
+              "text": "洗ってもすぐ乾くから"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    }
+  ]
+}

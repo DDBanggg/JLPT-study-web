@@ -215,6 +215,89 @@ describe("Milestone F10 — Real TestEngine DOM Interaction Tests", () => {
     });
   });
 
+  it("renders Weekly results without Listening and with a /120 total", async () => {
+    const weeklyContent = {
+      schema_version: 1,
+      id: "weekly-01",
+      type: "weekly",
+      title: "Weekly Test — Chapter 1",
+      study_day: 18,
+      stimuli: [],
+      sections: [
+        {
+          id: "language",
+          title: "Language Knowledge",
+          max_score: 60,
+          questions: [{
+            id: "language-1",
+            category: "grammar",
+            prompt: "文法問題",
+            stimulus_id: null,
+            options: [{ id: "A", text: "言語A" }, { id: "B", text: "言語B" }],
+          }],
+        },
+        {
+          id: "reading",
+          title: "Reading",
+          max_score: 60,
+          questions: [{
+            id: "reading-1",
+            category: "reading",
+            prompt: "読解問題",
+            stimulus_id: null,
+            options: [{ id: "A", text: "読解A" }, { id: "B", text: "読解B" }],
+          }],
+        },
+      ],
+    };
+    global.fetch = vi.fn().mockImplementation((url: string) => Promise.resolve({
+      status: 200,
+      json: async () => url.includes("/submit")
+        ? {
+            ok: true,
+            data: {
+              result: {
+                test_id: "weekly-01",
+                test_type: "weekly",
+                score: null,
+                max_score: null,
+                language_score: 45,
+                reading_score: 45,
+                listening_score: null,
+                total_score: 90,
+              },
+              review: [
+                { question_id: "language-1", selected_option_id: "A", correct_option_id: "A", correct: true, explanation_vi: "" },
+                { question_id: "reading-1", selected_option_id: "A", correct_option_id: "A", correct: true, explanation_vi: "" },
+              ],
+              next_task: null,
+            },
+          }
+        : {
+            ok: true,
+            data: {
+              content_state: "available",
+              test_id: "weekly-01",
+              test_type: "weekly",
+              study_day: 18,
+              latest_result: null,
+              content: weeklyContent,
+            },
+          },
+    } as Response));
+
+    render(<TestEngine testId="weekly-01" />);
+    await waitFor(() => expect(screen.getByText("文法問題")).toBeDefined());
+    await userEvent.click(screen.getByText("言語A"));
+    await userEvent.click(screen.getByText("読解A"));
+    await userEvent.click(screen.getAllByRole("button", { name: /Nộp bài thi/i })[0]);
+
+    await waitFor(() => {
+      expect(screen.getByText((_, element) => element?.textContent === "90 / 120")).toBeDefined();
+    });
+    expect(screen.queryByText("Nghe hiểu")).toBeNull();
+  });
+
   it("handles API error with ErrorState and Retry", async () => {
     let callCount = 0;
     global.fetch = vi.fn().mockImplementation(() => {

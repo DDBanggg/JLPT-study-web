@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "listening-day-052",
+  "study_day": 52,
+  "items": [
+    {
+      "id": 5201,
+      "title": "Luyện nghe JLPT N3 mondai 4 : buổi 9: full sub, full dịch, full đáp án Cùng Quỳnh JP sensei.",
+      "description_vi": "Nghe video N3 theo thứ tự của playlist chuẩn.",
+      "youtube": {
+        "type": "video",
+        "video_id": "wbFX1GUm2pU",
+        "playlist_id": null
+      },
+      "fallback_url": "https://www.youtube.com/watch?v=wbFX1GUm2pU",
+      "source_ref": "N3 Listening playlist — playable video 41 of 80"
+    }
+  ]
+}

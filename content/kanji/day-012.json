@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "id": "kanji-day-011",
-  "study_day": 11,
+  "id": "kanji-day-012",
+  "study_day": 12,
   "items": [
     {
-      "id": 1101,
+      "id": 1201,
       "kanji": "回",
       "han_viet": "HỒI",
       "meaning_vi": "xoay",
@@ -50,7 +50,7 @@
       "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 回"
     },
     {
-      "id": 1102,
+      "id": 1202,
       "kanji": "因",
       "han_viet": "NHÂN",
       "meaning_vi": "nguyên nhân",
@@ -74,7 +74,7 @@
       "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 因"
     },
     {
-      "id": 1103,
+      "id": 1203,
       "kanji": "困",
       "han_viet": "KHỐN",
       "meaning_vi": "khó",
@@ -103,7 +103,7 @@
       "source_ref": "Chương 1.pdf | trang in 5 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 困"
     },
     {
-      "id": 1104,
+      "id": 1204,
       "kanji": "恥",
       "han_viet": "SỈ",
       "meaning_vi": "xấu hổ",
@@ -130,7 +130,7 @@
       "source_ref": "Chương 1.pdf | trang in 6 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 恥"
     },
     {
-      "id": 1105,
+      "id": 1205,
       "kanji": "取",
       "han_viet": "THỦ",
       "meaning_vi": "lấy",
@@ -164,7 +164,7 @@
       "source_ref": "Chương 1.pdf | trang in 6 | CHƯƠNG 1 > BÀI 1 > CHỮ HÁN > 取"
     },
     {
-      "id": 1106,
+      "id": 1206,
       "kanji": "最",
       "han_viet": "TỐI",
       "meaning_vi": "nhất",

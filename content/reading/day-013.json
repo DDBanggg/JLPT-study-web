@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-013",
+  "study_day": 13,
+  "items": [
+    {
+      "id": 1301,
+      "title": "怒る前の5秒",
+      "passage_jp": "忙しい時や体調が悪い時は、いつもよりイライラして怒りやすくなってしまう。怒りたくないが、怒ってしまう。そんな時は怒る前にゆっくり5秒数えるといい。完璧ではなくても、自分の気持ちを落ち着かせて、熱くなった頭を冷やす時間を与えるのだ。5秒で気持ちが落ち着かなければ、その場所から離れてみるのもいい。それでもだめなら、怒っていいことだったのかもしれない。",
+      "translation_vi": "Khi bận rộn hoặc sức khỏe không tốt, người ta dễ bực bội và nổi giận hơn bình thường. Dù không muốn nổi giận, ta vẫn có thể nổi giận. Những lúc như vậy, trước khi nổi giận, hãy chậm rãi đếm năm giây. Dù cách này không hoàn hảo, nó vẫn cho ta thời gian để làm dịu cảm xúc và hạ nhiệt cái đầu đang nóng lên. Nếu sau năm giây mà vẫn chưa bình tĩnh, thử rời khỏi chỗ đó cũng là một cách hay. Nếu làm vậy mà vẫn không được, có lẽ đó thật sự là chuyện mà ta có quyền nổi giận.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 7 | 怒る前の5秒",
+      "questions": [
+        {
+          "id": "c01r-d02-q01",
+          "question_type": "mcq",
+          "question_jp": "筆者は、怒りそうになったら最初に何をするといいと言っていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "すぐその場所を離れる"
+            },
+            {
+              "id": "B",
+              "text": "相手に理由を聞く"
+            },
+            {
+              "id": "C",
+              "text": "体調を調べる"
+            },
+            {
+              "id": "D",
+              "text": "ゆっくり5秒数える"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c01r-d02-q02",
+          "question_type": "mcq",
+          "question_jp": "5秒数える目的は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "気持ちと頭を落ち着かせる時間を作るため"
+            },
+            {
+              "id": "B",
+              "text": "怒ってもよい理由を探すため"
+            },
+            {
+              "id": "C",
+              "text": "忙しいことを忘れるため"
+            },
+            {
+              "id": "D",
+              "text": "正確な時間を測るため"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

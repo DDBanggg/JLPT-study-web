@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-017",
+  "study_day": 17,
+  "items": [
+    {
+      "id": 1701,
+      "title": "ミーティング変更のメモ",
+      "passage_jp": "大山さん、お疲れ様です。さきほど、急に部長から明日A市に出張するように言われました。申し訳ありませんが、明日のミーティングを違う日に変えていただけませんか。今週なら、水曜日と木曜日の午後が空いています。来週なら、月曜日の午前以外は空いています。明日は出張で忙しいので、連絡をもらっても返信できないと思います。できれば、今日中に返信をお願いします。中村",
+      "translation_vi": "Anh/chị Ōyama, cảm ơn anh/chị đã làm việc vất vả. Vừa rồi, tôi đột ngột được trưởng phòng yêu cầu ngày mai đi công tác tại thành phố A. Tôi rất xin lỗi, nhưng anh/chị có thể đổi cuộc họp ngày mai sang một ngày khác được không? Nếu là tuần này, tôi rảnh vào chiều thứ Tư và thứ Năm. Nếu là tuần sau, tôi rảnh ngoài sáng thứ Hai. Ngày mai tôi bận đi công tác nên dù nhận được liên lạc, có lẽ tôi cũng không thể trả lời. Nếu có thể, xin anh/chị phản hồi trong hôm nay. Nakamura.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 10 | ミーティング変更のメモ",
+      "questions": [
+        {
+          "id": "c01r-d06-q01",
+          "question_type": "mcq",
+          "question_jp": "ミーティングの日を変える手続きをするのはだれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "大山さん"
+            },
+            {
+              "id": "B",
+              "text": "中村さん"
+            },
+            {
+              "id": "C",
+              "text": "部長"
+            },
+            {
+              "id": "D",
+              "text": "A市の社員"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c01r-d06-q02",
+          "question_type": "mcq",
+          "question_jp": "中村さんの希望に合う返事はどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "明日の出張中に返事をする"
+            },
+            {
+              "id": "B",
+              "text": "来週の月曜日の午前に変更する"
+            },
+            {
+              "id": "C",
+              "text": "返事をせず明日の会議に出る"
+            },
+            {
+              "id": "D",
+              "text": "今日、木曜日の午後に変更できると伝える"
+            }
+          ],
+          "correct_option_id": "D"
+        }
+      ]
+    }
+  ]
+}

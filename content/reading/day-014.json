@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-014",
+  "study_day": 14,
+  "items": [
+    {
+      "id": 1401,
+      "title": "おりがみの力",
+      "passage_jp": "子どものころ、友だちとよくおりがみを折って遊んでいた。おりがみは手を使って細かい作業をしたり、折る順番や次の形を考えたりする。そのため、子どもの集中力や想像力、思考力を育てる効果があるらしい。他の国の人に比べて、日本人は細かい作業が得意だと言われるのは、子どものころからおりがみをしていたからかもしれない。遊びながら、たくさんのことを学べるおりがみは世界に誇れる日本の文化に違いない。",
+      "translation_vi": "Khi còn nhỏ, tôi thường gấp origami chơi cùng bạn bè. Origami khiến ta dùng tay làm những thao tác tỉ mỉ, đồng thời suy nghĩ về thứ tự gấp và hình dạng tiếp theo. Vì vậy, dường như nó có tác dụng nuôi dưỡng khả năng tập trung, trí tưởng tượng và năng lực tư duy của trẻ em. Người ta nói người Nhật giỏi những công việc tỉ mỉ hơn người ở các nước khác; có lẽ đó là vì họ đã gấp origami từ khi còn nhỏ. Origami, một hoạt động giúp ta học được nhiều điều trong khi vui chơi, chắc chắn là một nét văn hóa Nhật Bản có thể tự hào với thế giới.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 1 | trang in 8 | おりがみの力",
+      "questions": [
+        {
+          "id": "c01r-d03-q01",
+          "question_type": "mcq",
+          "question_jp": "おりがみには、どのような効果があるらしいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "子どもを外国へ行かせる"
+            },
+            {
+              "id": "B",
+              "text": "細かい作業を減らす"
+            },
+            {
+              "id": "C",
+              "text": "子どもの集中力や想像力、思考力を育てる"
+            },
+            {
+              "id": "D",
+              "text": "遊ぶ時間を短くする"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c01r-d03-q02",
+          "question_type": "mcq",
+          "question_jp": "おりがみについて、筆者はどう考えていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "子どもには難しすぎる"
+            },
+            {
+              "id": "B",
+              "text": "世界に誇れる日本文化だ"
+            },
+            {
+              "id": "C",
+              "text": "外国の遊びより効果がない"
+            },
+            {
+              "id": "D",
+              "text": "考える力を弱くする"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 **Project:** `DDBanggg/JLPT-study-web`
 **Document role:** Canonical planning guide for the N3 phase
 **Runtime schema:** `schema_version = 1` unless the implementation phase explicitly requires otherwise
-**Current scope:** N3 begins with C1L1P1 on **Study Day 11**; the existing core milestones continue through **Day 74**, followed by a proposed exam-preparation phase for **Day 75–100**
+**Current scope:** Day 11 closes Sprint 1 with N5/N4 review; N3 begins with C1L1P1 on **Study Day 12**. Core milestones continue through **Day 74**, followed by a proposed exam-preparation phase for **Day 75–100**.
 
 ---
 
@@ -13,11 +13,11 @@ This document defines the learning architecture for the JLPT N3 phase after the 
 
 ```text
 Day 1–10 → N5/N4 normal review
-Day 11   → N4 closeout + N3 C1L1P1
+Day 11   → Sprint 1 / N5-N4 closeout only
            - Daily Test 11 reviews Day 10
            - N4 End Test
-           - C1L1P1 learning + same-day Grammar Test
-Day 12   → Daily Test 12 reviews C1L1P1
+Day 12   → N3 C1L1P1 learning + same-day Grammar Test + Reading + Listening
+Day 13   → Daily Test 13 reviews C1L1P1, then N3 C1L1P2
 ```
 
 The N3 plan is designed around four principles:
@@ -27,12 +27,12 @@ The N3 plan is designed around four principles:
 3. **Split each Gungun lesson across two Study Days** to keep the daily workload realistic.
 4. **Use one week for one chapter** whenever possible, ending each week with a chapter-level test.
 
-The original nine-week milestone structure remains in place, with C1L1P1 published one
-day early alongside N4 closeout and Day 12 reserved for its Daily Test:
+The original nine-week milestone structure remains in place, with the N3 foundation
+starting cleanly after the N5/N4 closeout:
 
 ```text
-C1L1P1 learning → Day 11
-C1L1P1 Daily Test → Day 12
+C1L1P1 learning → Day 12
+C1L1P1 Daily Test → Day 13
 remaining core milestones → Day 13–74
 ```
 
@@ -169,7 +169,7 @@ Total:
 ```
 
 This 26-lesson order is the backbone of the N3 learning sequence. C1L1P1 is mapped to
-Day 11; the remaining roadmap continues from Day 13 after its Day 12 Daily Test.
+Day 12 and its Daily Test is mapped to Day 13 before C1L1P2 learning.
 
 ---
 
@@ -278,29 +278,16 @@ without performing a real set-diff because duplicates, overlap with N5/N4 and di
 
 # 4. Listening Sources
 
-Listening source is already selected.
-
-Playlist A:
+The canonical N3 Listening source is:
 
 ```text
-https://www.youtube.com/playlist?list=PLwmjd8C2ZH5XidUxuzLv4sxBiIWXW8t7P
+https://youtube.com/playlist?list=PLR0zccKCKFlXpVafc_clbkOx_SuM-l1iB
 ```
 
-Playlist B:
-
-```text
-https://www.youtube.com/playlist?list=PLwmjd8C2ZH5XGix-5hXN9JMW-bXuWiBrW
-```
-
-Before generating Listening JSON:
-
-1. inventory all videos,
-2. record playlist position,
-3. record title,
-4. record `video_id`,
-5. determine whether a video is lesson-based, topic-based or test-based,
-6. assign sequentially to Study Days,
-7. preserve individual-video fallback URLs.
+The audited public state is 82 reported entries: 80 playable and 2 completely hidden
+unavailable entries. The playable sequence maps one video per day from Day 12 through
+Day 91. Hidden entries do not consume Study Days, and their metadata must not be guessed.
+See `docs/specs/N3_LISTENING_PLAYLIST_MANIFEST.md` for the inventory and mapping.
 
 Do not rely only on playlist embeds.
 
@@ -371,7 +358,7 @@ Do not consume valuable real JLPT-style test resources as normal daily learning 
 ## Phase A — Core N3 learning
 
 ```text
-Day 11 → Day 71, with Day 12 used for the C1L1P1 Daily Test
+Day 12 → Day 71
 ```
 
 Content:
@@ -401,20 +388,20 @@ Day 74 → N3 Comprehensive Progress Test
 Total:
 
 ```text
-Day 11 → Day 74
-= C1L1P1 early integration plus the existing nine-week milestone structure
+Day 12 → Day 74
+= N3 core learning plus the existing nine-week milestone structure
 ```
 
 ---
 
 # 7. Master 9-Week Roadmap
 
-## Week 1 transition — Day 11–18 — Chapter 1
+## Week 1 foundation — Day 11–18 — N5/N4 closeout + Chapter 1
 
 | Study Day | Content |
 |---|---|
-| Day 11 | Chapter 1 — Lesson 1 — Part A (alongside N4 closeout) |
-| Day 12 | Daily Test — reviews Chapter 1 Lesson 1 Part A |
+| Day 11 | Sprint 1 / N5-N4 closeout only — Daily Test 11 + N4 End Test |
+| Day 12 | Chapter 1 — Lesson 1 — Part A |
 | Day 13 | Chapter 1 — Lesson 1 — Part B |
 | Day 14 | Chapter 1 — Lesson 2 — Part A |
 | Day 15 | Chapter 1 — Lesson 2 — Part B |
@@ -910,68 +897,39 @@ Do not flatten visual-native material such as tables, notices, maps or informati
 
 ### Daily distribution
 
-The exact Reading exercise-to-Day mapping must be inventoried before generation.
-
-Preferred rule:
+Chapter 1 Reading is mapped as follows:
 
 ```text
-Reading exercises follow chapter order.
+Chapter 1 day_01 → Day 12
+Chapter 1 day_02 → Day 13
+Chapter 1 day_03 → Day 14
+Chapter 1 day_04 → Day 15
+Chapter 1 day_05 → Day 16
+Chapter 1 day_06 → Day 17
 ```
 
-Each Study Day should receive a realistic amount rather than forcing a fixed number.
-
-Recommended:
-
-```text
-~1 focused Reading exercise / day
-```
-
-with longer or more complex passages allowed to consume a full Reading block.
+The six packages contain seven source-derived text exercises. Every passage keeps a
+complete Vietnamese translation; questions and options remain Japanese-only. Day 18
+has no separate Reading lesson outside the Weekly Test.
 
 ---
 
 # 15. Listening Curriculum
 
-Listening keeps the existing runtime architecture and Listening UI. This plan only needs to freeze the source manifest and Study Day mapping before content production.
+Listening keeps the existing runtime architecture and Listening UI.
 
-Canonical sources:
-
-```text
-Playlist A
-Playlist B
-```
-
-Listening must be mapped only after creating a playlist manifest.
-
-Required manifest fields:
+Canonical mapping:
 
 ```text
-playlist_id
-playlist_position
-video_id
-title
-source_url
-lesson/topic
-estimated role
+playlist PLR0zccKCKFlXpVafc_clbkOx_SuM-l1iB
+80 playable videos in public rendered order
+Day 12 = playable video 1
+Day 91 = playable video 80
+exactly 1 video / Study Day
 ```
 
-Study Day mapping principle:
-
-```text
-sequential + difficulty-aware
-```
-
-Do not assign by URL order blindly if the two playlists serve different pedagogical roles.
-
-The exact number of Listening items per Study Day is **not yet locked**.
-
-Recommended default after inventory:
-
-```text
-1 primary listening item / Study Day
-```
-
-with additional items only when videos are short or intentionally grouped.
+Listening continues through learning, Weekly Test and review days, independent of
+Chapter boundaries. It is excluded from Daily and Weekly test questions.
 
 ---
 
@@ -995,15 +953,28 @@ The transition is locked:
 Day 11
 1. Daily Test 11 → reviews Day 10 N4 content
 2. N4 End Test
-3. Grammar C1L1P1
-4. Grammar Test C1L1P1
-5. Vocabulary C1L1P1
-6. Kanji C1L1P1
 
 Day 12
-1. Daily Test 12 → reviews C1L1P1 on Day 11
+1. Grammar C1L1P1
+2. Grammar Test C1L1P1
+3. Vocabulary C1L1P1
+4. Kanji C1L1P1
+5. Reading
+6. Listening — playable video 1
 
-Reading and Listening are not part of this incremental C1L1P1 publication.
+Day 13–17
+1. Daily Test → reviews the previous N3 learning day
+2. Grammar
+3. Grammar Test
+4. Vocabulary
+5. Kanji
+6. Reading
+7. Listening
+
+Day 18
+1. Daily Test 18 → reviews Day 17
+2. Weekly Test — Chapter 1
+3. Listening — playable video 7
 ```
 
 ---
@@ -1014,7 +985,8 @@ Locked transition and N3 rule:
 
 ```text
 Daily Test 11 → reviews Day 10 N4 content
-Daily Test 12 → reviews C1L1P1 on Day 11
+Day 12 → no N3 Daily Test
+Daily Test 13 → reviews C1L1P1 on Day 12
 Later N3 Daily Tests → review the previous N3 learning day
 ```
 
@@ -1045,7 +1017,7 @@ Rules:
 - exactly one defensible answer,
 - `source_item_refs` must resolve to the covered day.
 
-**Status:** locked for N3 production beginning with Daily Test Day 12.
+**Status:** locked for N3 production beginning with Daily Test Day 13.
 
 ---
 
@@ -1067,14 +1039,13 @@ integrate six Study Days
 move closer to JLPT-style testing
 ```
 
-Chapter Test must assess:
+N3 Weekly Test must assess:
 
 ```text
 Grammar
 Vocabulary
 Kanji
 Reading
-Listening
 ```
 
 The Chapter Test should not be merely a larger Daily Test.
@@ -1085,7 +1056,6 @@ It should combine:
 knowledge recall
 contextual usage
 reading comprehension
-listening comprehension
 exam-like timing/decision making
 ```
 
@@ -1109,7 +1079,17 @@ N3 Weekly Test = end-of-chapter test
 NO new chapter_test type
 ```
 
-The existing Test Engine is reused. Detailed source/question mapping, section content, question counts, scoring and Reading/Listening source selection will be audited separately before Chapter 1 Weekly Test production.
+The fixed N3 Weekly contract is:
+
+```text
+Language: 30 questions — 10 Grammar + 10 Vocabulary + 10 Kanji — 0–60
+Reading: 12 questions — 0–60
+Listening: absent; listening_score = null
+Total: 0–120
+```
+
+Monthly, End and Mock tests retain Language, Reading and Listening sections and a
+maximum total of 180.
 
 ---
 
@@ -1344,24 +1324,24 @@ N3 Study Days continue global Study Day numbering.
 Examples:
 
 ```text
-grammar-day-011
-vocabulary-day-011
-kanji-day-011
+grammar-day-012
+vocabulary-day-012
+kanji-day-012
 ```
 
 Grammar Test:
 
 ```text
-grammar-test-011
+grammar-test-012
 ```
 
 Daily Test:
 
 ```text
-daily-012
+daily-013
 ```
 
-if it covers N3 learning from Study Day 11.
+if it covers N3 learning from Study Day 12.
 
 Published IDs remain immutable.
 
@@ -1442,12 +1422,13 @@ The following decisions are considered locked unless intentionally reopened:
 ```text
 N5/N4 normal review = Day 1–10
 
-Day 11 = N4 closeout + C1L1P1 learning
+Day 11 = Sprint 1 / N5-N4 closeout only
 Daily Test 11 reviews Day 10
 N4 End Test runs on Day 11
 
-N3 starts with C1L1P1 on Day 11
-Daily Test 12 reviews Day 11 with 10 Grammar + 15 Vocabulary + 15 Kanji
+N3 starts with C1L1P1 on Day 12
+Day 12 has no N3 Daily Test
+Daily Test 13 reviews Day 12 with 10 Grammar + 15 Vocabulary + 15 Kanji
 Later N3 Daily Tests review the previous N3 learning day
 
 Gungun is the N3 curriculum backbone
@@ -1463,7 +1444,7 @@ Chapter 9:
 4 learning days + Weekly Test + Coverage Review + Comprehensive Test
 
 N3 core phase:
-Day 11–74, with C1L1P1 integrated on Day 11 and its Daily Test on Day 12
+Day 12–74, with C1L1P1 on Day 12 and its Daily Test on Day 13
 Existing weekly milestone days remain unchanged
 
 Weekly Test days:
@@ -1499,14 +1480,17 @@ Known = remove only
 Reading:
 current v1.4 architecture
 Gungun Reading source
+Chapter 1 Reading packages on Day 12–17
 
 Listening:
 existing runtime architecture and UI
-2 selected YouTube playlists
+canonical playlist PLR0zccKCKFlXpVafc_clbkOx_SuM-l1iB
+80 playable videos mapped one per day from Day 12–91
 
 Chapter Test:
 existing Weekly Test
 no new chapter_test type
+Language /60 + Reading /60 = /120; no Listening section
 
 N3 implementation:
 reuse existing APIs
@@ -1521,7 +1505,7 @@ no BE/FE redesign currently required
 
 ---
 
-# 28. Decisions Still To Be Frozen Before Content Production
+# 28. Remaining Decisions After Chapter 1 Foundation
 
 The following items should be discussed before generating N3 production content:
 
@@ -1537,37 +1521,15 @@ Need map the source-driven Gungun Vocabulary pools and Mimikara 880 audit/priori
 
 Need map the source-exhaustive Gungun Kanji curriculum against the Vô Diện audit source and existing Known Kanji.
 
-### 4. Reading source manifest
+### 4. Reading for Chapters 2–9
 
-Need create:
+Chapter 1 is frozen. Map the remaining Gungun Reading exercises as each later Chapter is integrated.
 
-```text
-Reading source manifest
-```
+### 5. Weekly Tests for Chapters 2–9
 
-mapping actual Gungun exercises to Study Days 12–71.
+Reuse the frozen Chapter 1 two-section `/120` contract and create source-grounded content per Chapter.
 
-### 5. Listening source manifest
-
-Need inventory both playlists and create:
-
-```text
-Listening source manifest
-```
-
-### 6. Weekly Test content/source details
-
-The test type is already locked as the existing Weekly Test. Audit the remaining production details before Chapter 1 Weekly Test production:
-
-```text
-sections
-question counts
-scoring
-source usage
-Reading/Listening format
-```
-
-### 7. Day 75–100 detailed exam-preparation roadmap
+### 6. Day 75–100 detailed exam-preparation roadmap
 
 Need design the final 26-day exam-preparation roadmap after the N3 core curriculum and Weekly Test content/source details are frozen.
 
@@ -1582,11 +1544,11 @@ M1 — Freeze N3 curriculum contract
 M2 — Create Grammar source manifest
 M3 — Create Vocabulary source + Mimikara mapping
 M4 — Create Kanji source + Vô Diện mapping
-M5 — Create Reading source manifest
-M6 — Inventory Listening playlists
-M7 — Audit Weekly Test content/source details
-M8 — Update program roadmap Day 11–74
-M9 — Generate N3 content chapter by chapter
+M5 — Integrate Reading chapter by chapter
+M6 — Use the frozen Listening playlist mapping
+M7 — Build Weekly Tests with the frozen two-section contract
+M8 — Update program roadmap as each Chapter is published
+M9 — Generate remaining N3 content chapter by chapter
 M10 — Run coverage audit
 M11 — Design Day 75–100 detailed exam-preparation roadmap
 ```
@@ -1605,10 +1567,13 @@ N5/N4 normal review
         ↓
 Day 11
 Daily Test 11 reviews Day 10
-N4 End Test + N3 C1L1P1
+N4 End Test; no N3 learning
         ↓
 Day 12
-Daily Test 12 reviews C1L1P1
+N3 C1L1P1 + Reading + Listening
+        ↓
+Day 13
+Daily Test 13 reviews C1L1P1; N3 C1L1P2
         ↓
 Later N3 learning days
 26 Gungun N3 lessons

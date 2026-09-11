@@ -1,8 +1,8 @@
-# N3 Study Web — Test Scoring Rules v1.1
+# N3 Study Web — Test Scoring Rules v1.2
 
 **Status:** Frozen for MVP  
-**Scoring specification version:** 1.1
-**Date:** 2026-08-29
+**Scoring specification version:** 1.2
+**Date:** 2026-09-11
 
 ## 1. Scoring systems
 
@@ -101,7 +101,23 @@ listening_score = null
 total_score     = null
 ```
 
-## 4. Weekly / Monthly / End / Mock
+## 4. Weekly
+
+Sections:
+
+```text
+Language Knowledge  0–60 — 30 questions
+Reading             0–60 — 12 questions
+Total               0–120
+```
+
+Weekly has no Listening section. Persist `listening_score = null` and calculate:
+
+```text
+total_score = language_score + reading_score
+```
+
+## 5. Monthly / End / Mock
 
 Sections:
 
@@ -112,7 +128,7 @@ Listening           0–60
 Total               0–180
 ```
 
-## 5. Linear section formula
+## 6. Linear section formula
 
 For each section:
 
@@ -132,9 +148,13 @@ Example:
 Displayed score = 43 / 60
 ```
 
-## 6. Total score
+## 7. Total score
 
 ```text
+Weekly:
+total_score = language_score + reading_score
+
+Monthly / End / Mock:
 total_score = language_score + reading_score + listening_score
 ```
 
@@ -147,13 +167,14 @@ Listening  44 / 60
 Total     124 / 180
 ```
 
-## 7. Why this method
+## 8. Why this method
 
-It preserves a familiar 180-point JLPT-style presentation while remaining deterministic and simple.
+It preserves deterministic section scoring while presenting Weekly on a 120-point scale
+and Monthly/End/Mock on the familiar 180-point scale.
 
 It is an internal study metric, not an official JLPT score prediction.
 
-## 8. Unanswered questions
+## 9. Unanswered questions
 
 Unanswered = incorrect for every test type.
 
@@ -161,21 +182,25 @@ Unanswered = incorrect for every test type.
 option_id = null → 0 raw points
 ```
 
-## 9. Invalid content
+## 10. Invalid content
 
 - N5/N4 Grammar Test must contain 5 lesson groups, 5 questions per lesson, and 25 questions total; N3 groups by the assigned lesson/Part while retaining 25 total questions.
 - N5/N4 Daily Test keeps its existing 45-question distribution; N3 Daily Test contains 10 Grammar, 15 Vocabulary, and 15 Kanji questions (40 total).
+- Weekly must contain exactly Language (30 questions: 10 Grammar, 10 Vocabulary, 10 Kanji)
+  and Reading (12 questions), both with `max_score = 60`.
+- Monthly/End/Mock must retain Language, Reading and Listening sections with
+  `max_score = 60` each.
 - A JLPT-style section must contain at least one question; `raw_total = 0` is invalid.
 
 Invalid test content must fail validation.
 
-## 10. Retake
+## 11. Retake
 
 Only the latest submitted result is retained for every logical test.
 
 Question-level attempt history is not persisted.
 
-## 11. Review
+## 12. Review
 
 After Submit, backend returns:
 
@@ -186,7 +211,7 @@ After Submit, backend returns:
 
 Review is displayed but does not require a separate attempt-history table.
 
-## 12. Project target
+## 13. Project target
 
 The project target `stable mock score 110+` means:
 
@@ -196,7 +221,7 @@ The project target `stable mock score 110+` means:
 
 It must not be presented as a guaranteed official JLPT score.
 
-## 13. Database field groups
+## 14. Database field groups
 
 Raw-score Grammar and Daily tests:
 
@@ -209,7 +234,18 @@ listening_score null
 total_score     null
 ```
 
-Weekly/Monthly/End/Mock tests:
+Weekly tests:
+
+```text
+score           null
+max_score       null
+language_score  integer
+reading_score   integer
+listening_score null
+total_score     integer (0–120)
+```
+
+Monthly/End/Mock tests:
 
 ```text
 score           null
@@ -220,7 +256,7 @@ listening_score integer
 total_score     integer
 ```
 
-## 14. Scoring authority
+## 15. Scoring authority
 
 Backend scoring is authoritative.
 

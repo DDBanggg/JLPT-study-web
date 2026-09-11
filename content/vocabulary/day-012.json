@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "id": "vocabulary-day-011",
-  "study_day": 11,
+  "id": "vocabulary-day-012",
+  "study_day": 12,
   "target": 50,
   "pool_size": 44,
   "items": [
     {
-      "id": 1101,
+      "id": 1201,
       "surface": "次回",
       "hiragana": "じかい",
       "kanji": "次回",
@@ -23,7 +23,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 001 — 次回"
     },
     {
-      "id": 1102,
+      "id": 1202,
       "surface": "原因",
       "hiragana": "げんいん",
       "kanji": "原因",
@@ -44,7 +44,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 002 — 原因"
     },
     {
-      "id": 1103,
+      "id": 1203,
       "surface": "習慣",
       "hiragana": "しゅうかん",
       "kanji": "習慣",
@@ -65,7 +65,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 003 — 習慣"
     },
     {
-      "id": 1104,
+      "id": 1204,
       "surface": "最後",
       "hiragana": "さいご",
       "kanji": "最後",
@@ -90,7 +90,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 004 — 最後"
     },
     {
-      "id": 1105,
+      "id": 1205,
       "surface": "最終",
       "hiragana": "さいしゅう",
       "kanji": "最終",
@@ -111,7 +111,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 005 — 最終"
     },
     {
-      "id": 1106,
+      "id": 1206,
       "surface": "最初",
       "hiragana": "さいしょ",
       "kanji": "最初",
@@ -132,7 +132,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 006 — 最初"
     },
     {
-      "id": 1107,
+      "id": 1207,
       "surface": "最新",
       "hiragana": "さいしん",
       "kanji": "最新",
@@ -149,7 +149,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 007 — 最新"
     },
     {
-      "id": 1108,
+      "id": 1208,
       "surface": "最多",
       "hiragana": "さいた",
       "kanji": "最多",
@@ -166,7 +166,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 008 — 最多"
     },
     {
-      "id": 1109,
+      "id": 1209,
       "surface": "最大",
       "hiragana": "さいだい",
       "kanji": "最大",
@@ -183,7 +183,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 009 — 最大"
     },
     {
-      "id": 1110,
+      "id": 1210,
       "surface": "最中",
       "hiragana": "さいちゅう",
       "kanji": "最中",
@@ -200,7 +200,7 @@
       "source_ref": "Chương 1.pdf | trang in 9 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 010 — 最中"
     },
     {
-      "id": 1111,
+      "id": 1211,
       "surface": "感情",
       "hiragana": "かんじょう",
       "kanji": "感情",
@@ -217,7 +217,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 011 — 感情"
     },
     {
-      "id": 1112,
+      "id": 1212,
       "surface": "事情",
       "hiragana": "じじょう",
       "kanji": "事情",
@@ -238,7 +238,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 012 — 事情"
     },
     {
-      "id": 1113,
+      "id": 1213,
       "surface": "情報",
       "hiragana": "じょうほう",
       "kanji": "情報",
@@ -259,7 +259,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 013 — 情報"
     },
     {
-      "id": 1114,
+      "id": 1214,
       "surface": "表情",
       "hiragana": "ひょうじょう",
       "kanji": "表情",
@@ -276,7 +276,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 014 — 表情"
     },
     {
-      "id": 1115,
+      "id": 1215,
       "surface": "友情",
       "hiragana": "ゆうじょう",
       "kanji": "友情",
@@ -297,7 +297,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 015 — 友情"
     },
     {
-      "id": 1116,
+      "id": 1216,
       "surface": "調子",
       "hiragana": "ちょうし",
       "kanji": "調子",
@@ -318,7 +318,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 016 — 調子"
     },
     {
-      "id": 1117,
+      "id": 1217,
       "surface": "熱",
       "hiragana": "ねつ",
       "kanji": "熱",
@@ -339,7 +339,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 017 — 熱"
     },
     {
-      "id": 1118,
+      "id": 1218,
       "surface": "急ぎ",
       "hiragana": "いそぎ",
       "kanji": "急ぎ",
@@ -356,7 +356,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 018 — 急ぎ"
     },
     {
-      "id": 1119,
+      "id": 1219,
       "surface": "性格",
       "hiragana": "せいかく",
       "kanji": "性格",
@@ -377,7 +377,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 019 — 性格"
     },
     {
-      "id": 1120,
+      "id": 1220,
       "surface": "始め",
       "hiragana": "はじめ",
       "kanji": "始め",
@@ -394,7 +394,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 020 — 始め"
     },
     {
-      "id": 1121,
+      "id": 1221,
       "surface": "始まり",
       "hiragana": "はじまり",
       "kanji": "始まり",
@@ -411,7 +411,7 @@
       "source_ref": "Chương 1.pdf | trang in 10 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 021 — 始まり"
     },
     {
-      "id": 1122,
+      "id": 1222,
       "surface": "将来",
       "hiragana": "しょうらい",
       "kanji": "将来",
@@ -428,7 +428,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 022 — 将来"
     },
     {
-      "id": 1123,
+      "id": 1223,
       "surface": "給料",
       "hiragana": "きゅうりょう",
       "kanji": "給料",
@@ -445,7 +445,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 023 — 給料"
     },
     {
-      "id": 1124,
+      "id": 1224,
       "surface": "暮らし",
       "hiragana": "くらし",
       "kanji": "暮らし",
@@ -462,7 +462,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 024 — 暮らし"
     },
     {
-      "id": 1125,
+      "id": 1225,
       "surface": "壁",
       "hiragana": "かべ",
       "kanji": "壁",
@@ -479,7 +479,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 025 — 壁"
     },
     {
-      "id": 1126,
+      "id": 1226,
       "surface": "機械",
       "hiragana": "きかい",
       "kanji": "機械",
@@ -496,7 +496,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 026 — 機械"
     },
     {
-      "id": 1127,
+      "id": 1227,
       "surface": "電球",
       "hiragana": "でんきゅう",
       "kanji": "電球",
@@ -513,7 +513,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 027 — 電球"
     },
     {
-      "id": 1128,
+      "id": 1228,
       "surface": "前日",
       "hiragana": "ぜんじつ",
       "kanji": "前日",
@@ -530,7 +530,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 028 — 前日"
     },
     {
-      "id": 1129,
+      "id": 1229,
       "surface": "全力",
       "hiragana": "ぜんりょく",
       "kanji": "全力",
@@ -547,7 +547,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 029 — 全力"
     },
     {
-      "id": 1130,
+      "id": 1230,
       "surface": "悲しみ",
       "hiragana": "かなしみ",
       "kanji": "悲しみ",
@@ -564,7 +564,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 030 — 悲しみ"
     },
     {
-      "id": 1131,
+      "id": 1231,
       "surface": "困難",
       "hiragana": "こんなん",
       "kanji": "困難",
@@ -581,7 +581,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 031 — 困難"
     },
     {
-      "id": 1132,
+      "id": 1232,
       "surface": "最高",
       "hiragana": "さいこう",
       "kanji": "最高",
@@ -602,7 +602,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 032 — 最高"
     },
     {
-      "id": 1133,
+      "id": 1233,
       "surface": "最低",
       "hiragana": "さいてい",
       "kanji": "最低",
@@ -623,7 +623,7 @@
       "source_ref": "Chương 1.pdf | trang in 11 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 033 — 最低"
     },
     {
-      "id": 1134,
+      "id": 1234,
       "surface": "無理",
       "hiragana": "むり",
       "kanji": "無理",
@@ -644,7 +644,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 034 — 無理"
     },
     {
-      "id": 1135,
+      "id": 1235,
       "surface": "無駄",
       "hiragana": "むだ",
       "kanji": "無駄",
@@ -669,7 +669,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 035 — 無駄"
     },
     {
-      "id": 1136,
+      "id": 1236,
       "surface": "豊か",
       "hiragana": "ゆたか",
       "kanji": "豊か",
@@ -690,7 +690,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 036 — 豊か"
     },
     {
-      "id": 1137,
+      "id": 1237,
       "surface": "感情的",
       "hiragana": "かんじょうてき",
       "kanji": "感情的",
@@ -711,7 +711,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 037 — 感情的"
     },
     {
-      "id": 1138,
+      "id": 1238,
       "surface": "固い",
       "hiragana": "かたい",
       "kanji": "固い",
@@ -736,7 +736,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 038 — 固い"
     },
     {
-      "id": 1139,
+      "id": 1239,
       "surface": "悲しい",
       "hiragana": "かなしい",
       "kanji": "悲しい",
@@ -753,7 +753,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 039 — 悲しい"
     },
     {
-      "id": 1140,
+      "id": 1240,
       "surface": "引く",
       "hiragana": "ひく",
       "kanji": "引く",
@@ -786,7 +786,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 040 — 引く"
     },
     {
-      "id": 1141,
+      "id": 1241,
       "surface": "運ぶ",
       "hiragana": "はこぶ",
       "kanji": "運ぶ",
@@ -803,7 +803,7 @@
       "source_ref": "Chương 1.pdf | trang in 12 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 041 — 運ぶ"
     },
     {
-      "id": 1142,
+      "id": 1242,
       "surface": "治る",
       "hiragana": "なおる",
       "kanji": "治る",
@@ -824,7 +824,7 @@
       "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 042 — 治る"
     },
     {
-      "id": 1143,
+      "id": 1243,
       "surface": "向かう",
       "hiragana": "むかう",
       "kanji": "向かう",
@@ -849,7 +849,7 @@
       "source_ref": "Chương 1.pdf | trang in 13 | CHƯƠNG 1 > BÀI 1 > TỪ VỰNG > mục 043 — 向かう"
     },
     {
-      "id": 1144,
+      "id": 1244,
       "surface": "届く",
       "hiragana": "とどく",
       "kanji": "届く",

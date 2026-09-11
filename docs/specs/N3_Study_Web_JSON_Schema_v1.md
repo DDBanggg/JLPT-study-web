@@ -556,8 +556,7 @@ Canonical JLPT-style test:
   "stimuli": [],
   "sections": [
     {"id":"language","title":"Language Knowledge","max_score":60,"questions":[]},
-    {"id":"reading","title":"Reading","max_score":60,"questions":[]},
-    {"id":"listening","title":"Listening","max_score":60,"questions":[]}
+    {"id":"reading","title":"Reading","max_score":60,"questions":[]}
   ]
 }
 ```
@@ -690,7 +689,7 @@ For new content, every question should include `source_item_refs` linking it to 
 Do not infer a replacement grouping rule if a later phase does not use exactly 5 lessons per Study Day. Update the specification first.
 
 N3 Grammar Tests keep 25 questions but group by the assigned lesson/Part rather than
-forcing the N5/N4 five-lesson shape. For the first N3 contract, C1L1P1 on Study Day 11
+forcing the N5/N4 five-lesson shape. For the first N3 contract, C1L1P1 on Study Day 12
 uses one `lesson_groups` entry for Lesson 1 containing all 25 question IDs.
 
 Grammar Test uses raw scoring `x / 25`; it is not scaled to `/60`.
@@ -736,8 +735,9 @@ N3 Daily Tests use a separate fixed distribution:
 10 Grammar + 15 Vocabulary + 15 Kanji = 40 questions
 ```
 
-This contract starts with Daily Test Day 12 covering C1L1P1 on Study Day 11. Existing
-N5/N4 Daily Tests on Day 2–11 retain their published 45-question distributions.
+This contract starts with Daily Test Day 13 covering C1L1P1 on Study Day 12. Existing
+N5/N4 Daily Tests on Day 2–11 retain their published 45-question distributions. Day 12
+has no N3 Daily Test because N3 learning starts on that day.
 
 For new content, every Daily Test question should include `source_item_refs` that resolve only to Grammar, Vocabulary, or Kanji items from Study Day X-1. Weak Items are not a content source for Daily Test generation.
 
@@ -747,7 +747,16 @@ add placeholder explanation, translation, hint, or notes fields.
 
 ## 13. JLPT-style specialization
 
-Weekly / Monthly / End / Mock use:
+N3 Weekly uses:
+
+```text
+language  → 30 questions: 10 Grammar + 10 Vocabulary + 10 Kanji → max_score 60
+reading   → 12 questions → max_score 60
+listening → absent
+Total     → 120
+```
+
+Monthly / End / Mock use:
 
 ```text
 language  → max_score 60

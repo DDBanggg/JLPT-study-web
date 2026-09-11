@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "id": "daily-012",
+  "id": "daily-013",
   "type": "daily",
-  "title": "Daily Test — Day 12",
-  "study_day": 12,
+  "title": "Daily Test — Day 13",
+  "study_day": 13,
   "coverage": {
-    "from_day": 11,
-    "to_day": 11
+    "from_day": 12,
+    "to_day": 12
   },
   "stimuli": [],
   "sections": [
@@ -40,7 +40,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "grammar:1101"
+            "grammar:1201"
           ]
         },
         {
@@ -68,7 +68,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:1101"
+            "grammar:1201"
           ]
         },
         {
@@ -96,7 +96,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:1102"
+            "grammar:1202"
           ]
         },
         {
@@ -124,7 +124,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:1102"
+            "grammar:1202"
           ]
         },
         {
@@ -152,7 +152,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:1103"
+            "grammar:1203"
           ]
         },
         {
@@ -180,7 +180,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:1103"
+            "grammar:1203"
           ]
         },
         {
@@ -208,7 +208,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "grammar:1103"
+            "grammar:1203"
           ]
         },
         {
@@ -236,7 +236,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:1104"
+            "grammar:1204"
           ]
         },
         {
@@ -264,7 +264,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "grammar:1104"
+            "grammar:1204"
           ]
         },
         {
@@ -292,7 +292,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "grammar:1104"
+            "grammar:1204"
           ]
         }
       ]
@@ -327,7 +327,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1102"
+            "vocabulary:1202"
           ]
         },
         {
@@ -355,7 +355,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "vocabulary:1103"
+            "vocabulary:1203"
           ]
         },
         {
@@ -383,7 +383,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1107"
+            "vocabulary:1207"
           ]
         },
         {
@@ -411,7 +411,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "vocabulary:1108"
+            "vocabulary:1208"
           ]
         },
         {
@@ -439,7 +439,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1110"
+            "vocabulary:1210"
           ]
         },
         {
@@ -467,7 +467,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "vocabulary:1113"
+            "vocabulary:1213"
           ]
         },
         {
@@ -495,7 +495,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1114"
+            "vocabulary:1214"
           ]
         },
         {
@@ -523,7 +523,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "vocabulary:1116"
+            "vocabulary:1216"
           ]
         },
         {
@@ -551,7 +551,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "vocabulary:1117"
+            "vocabulary:1217"
           ]
         },
         {
@@ -579,7 +579,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1123"
+            "vocabulary:1223"
           ]
         },
         {
@@ -607,7 +607,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1138"
+            "vocabulary:1238"
           ]
         },
         {
@@ -635,7 +635,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "vocabulary:1144"
+            "vocabulary:1244"
           ]
         },
         {
@@ -663,7 +663,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "vocabulary:1112"
+            "vocabulary:1212"
           ]
         },
         {
@@ -691,7 +691,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "vocabulary:1127"
+            "vocabulary:1227"
           ]
         },
         {
@@ -719,7 +719,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "vocabulary:1136"
+            "vocabulary:1236"
           ]
         }
       ]
@@ -754,7 +754,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1101"
+            "kanji:1201"
           ]
         },
         {
@@ -782,7 +782,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "kanji:1101"
+            "kanji:1201"
           ]
         },
         {
@@ -810,7 +810,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "kanji:1102"
+            "kanji:1202"
           ]
         },
         {
@@ -838,7 +838,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1103"
+            "kanji:1203"
           ]
         },
         {
@@ -866,7 +866,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "kanji:1104"
+            "kanji:1204"
           ]
         },
         {
@@ -894,7 +894,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1105"
+            "kanji:1205"
           ]
         },
         {
@@ -922,7 +922,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "kanji:1106"
+            "kanji:1206"
           ]
         },
         {
@@ -950,7 +950,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "kanji:1106"
+            "kanji:1206"
           ]
         },
         {
@@ -978,7 +978,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "kanji:1101"
+            "kanji:1201"
           ]
         },
         {
@@ -1006,7 +1006,7 @@
           ],
           "correct_option_id": "D",
           "source_item_refs": [
-            "kanji:1102"
+            "kanji:1202"
           ]
         },
         {
@@ -1034,7 +1034,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1103"
+            "kanji:1203"
           ]
         },
         {
@@ -1062,7 +1062,7 @@
           ],
           "correct_option_id": "A",
           "source_item_refs": [
-            "kanji:1104"
+            "kanji:1204"
           ]
         },
         {
@@ -1090,7 +1090,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1105"
+            "kanji:1205"
           ]
         },
         {
@@ -1118,7 +1118,7 @@
           ],
           "correct_option_id": "B",
           "source_item_refs": [
-            "kanji:1105"
+            "kanji:1205"
           ]
         },
         {
@@ -1146,7 +1146,7 @@
           ],
           "correct_option_id": "C",
           "source_item_refs": [
-            "kanji:1106"
+            "kanji:1206"
           ]
         }
       ]

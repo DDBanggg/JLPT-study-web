@@ -363,7 +363,9 @@ export function TestEngine({ testId }: TestEngineProps) {
                   </div>
                 </div>
               ) : (
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 w-full">
+                <div className={`grid grid-cols-2 gap-2 w-full ${
+                  resultScore.test_type === "weekly" ? "sm:grid-cols-3" : "sm:grid-cols-4"
+                }`}>
                   <div className="text-center rounded-xl bg-white border border-slate-100 p-2.5 shadow-2xs">
                     <div className="text-[10px] text-slate-400 uppercase">Ngôn ngữ</div>
                     <div className="text-sm font-bold text-slate-800">
@@ -376,15 +378,19 @@ export function TestEngine({ testId }: TestEngineProps) {
                       {resultScore.reading_score ?? "—"} / 60
                     </div>
                   </div>
-                  <div className="text-center rounded-xl bg-white border border-slate-100 p-2.5 shadow-2xs">
-                    <div className="text-[10px] text-slate-400 uppercase">Nghe hiểu</div>
-                    <div className="text-sm font-bold text-slate-800">
-                      {resultScore.listening_score ?? "—"} / 60
+                  {resultScore.test_type !== "weekly" && (
+                    <div className="text-center rounded-xl bg-white border border-slate-100 p-2.5 shadow-2xs">
+                      <div className="text-[10px] text-slate-400 uppercase">Nghe hiểu</div>
+                      <div className="text-sm font-bold text-slate-800">
+                        {resultScore.listening_score ?? "—"} / 60
+                      </div>
                     </div>
-                  </div>
+                  )}
                   <div className="text-center rounded-xl bg-emerald-600 text-white px-3 py-2.5 shadow-2xs col-span-2 sm:col-span-1">
                     <div className="text-[10px] uppercase font-semibold text-emerald-100">Tổng điểm</div>
-                    <div className="text-lg font-black">{resultScore.total_score ?? "—"} / 180</div>
+                    <div className="text-lg font-black">
+                      {resultScore.total_score ?? "—"} / {resultScore.test_type === "weekly" ? 120 : 180}
+                    </div>
                   </div>
                 </div>
               )}
