@@ -596,6 +596,11 @@ function validateWeeklyTest(document, file, errors, sourceItemIds) {
         errors.push(`${file}: weekly language question '${question?.id}' has malformed source_item_ref '${reference}'`);
         continue;
       }
+      if (match[1] !== question?.category) {
+        errors.push(
+          `${file}: weekly language question '${question?.id}' source_item_ref '${reference}' must match question category '${question?.category}'`,
+        );
+      }
       const resolvesWithinCoverage = Array.from(
         { length: document.coverage.to_day - document.coverage.from_day + 1 },
         (_, offset) => document.coverage.from_day + offset,

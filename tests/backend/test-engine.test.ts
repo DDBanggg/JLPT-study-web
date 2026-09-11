@@ -7,6 +7,7 @@ import {
   loadTestContent,
   sanitizeTestContent,
   scoreTest,
+  validateTestDocument,
   validateSubmittedAnswers,
   type TestDocument,
 } from "../../src/lib/scoring/tests";
@@ -153,6 +154,21 @@ describe("shared Test Engine", () => {
     if (!location) throw new Error("Weekly Test missing from roadmap");
     const loaded = await loadTestContent(location);
     if (loaded.state !== "available") throw new Error("Weekly Test content missing");
+
+    expect(validateTestDocument(loaded.data, location.task, location.day.day)).toBe(true);
+    for (const [category, mismatchedReference] of [
+      ["grammar", "vocabulary:1201"],
+      ["vocabulary", "kanji:1706"],
+      ["kanji", "grammar:1401"],
+    ]) {
+      const invalid = structuredClone(loaded.data);
+      const question = invalid.sections[0].questions.find(
+        ({ category: questionCategory }) => questionCategory === category,
+      );
+      if (!question) throw new Error(`Weekly ${category} question missing`);
+      question.source_item_refs = [mismatchedReference];
+      expect(validateTestDocument(invalid, location.task, location.day.day)).toBe(false);
+    }
 
     expect(loaded.data.sections.map(({ id, max_score, questions }) => ({
       id,

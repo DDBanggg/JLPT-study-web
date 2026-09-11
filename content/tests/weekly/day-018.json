@@ -575,29 +575,29 @@
         {
           "id": "c01w-lang-q20",
           "category": "vocabulary",
-          "prompt": "水や牛乳のように、決まった形を持たないものを（　　　）という。",
+          "prompt": "この薬には、のどの痛みをやわらげる（　　　）がある。",
           "stimulus_id": null,
           "options": [
             {
               "id": "A",
-              "text": "温度"
+              "text": "効果"
             },
             {
               "id": "B",
-              "text": "法律"
+              "text": "原因"
             },
             {
               "id": "C",
-              "text": "液体"
+              "text": "結果"
             },
             {
               "id": "D",
-              "text": "残業"
+              "text": "目的"
             }
           ],
-          "correct_option_id": "C",
+          "correct_option_id": "A",
           "source_item_refs": [
-            "kanji:1706"
+            "vocabulary:1602"
           ]
         },
         {

@@ -100,7 +100,7 @@ function validateQuestion(value: unknown): value is TestQuestion {
   );
 }
 
-function validateTestDocument(
+export function validateTestDocument(
   value: unknown,
   task: RoadmapTask,
   studyDay: number,
@@ -225,7 +225,20 @@ function validateTestDocument(
       languageCategoryCounts?.vocabulary === 10 &&
       languageCategoryCounts?.kanji === 10 &&
       Object.keys(languageCategoryCounts).length === 3 &&
-      language.questions.every((question) => question.stimulus_id === null) &&
+      language.questions.every((question) => {
+        const references = question.source_item_refs;
+        return (
+          question.stimulus_id === null &&
+          Array.isArray(references) &&
+          references.length > 0 &&
+          new Set(references).size === references.length &&
+          references.every(
+            (reference) =>
+              typeof reference === "string" &&
+              new RegExp(`^${question.category}:[1-9][0-9]*$`).test(reference),
+          )
+        );
+      }) &&
       reading?.id === "reading" &&
       reading.max_score === 60 &&
       reading.questions.length === 12 &&

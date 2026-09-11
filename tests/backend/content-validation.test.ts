@@ -32,6 +32,27 @@ describe("content validation foundation", () => {
       await writeFile(path.join(temporaryRoot, "weekly.json"), JSON.stringify(weekly));
       expect((await validateContentRoot(temporaryRoot)).errors).toEqual([]);
 
+      const languageQuestions = weekly.sections[0].questions;
+      const q20 = languageQuestions.find(({ id }: { id: string }) => id === "c01w-lang-q20");
+      expect(q20.source_item_refs).toEqual(["vocabulary:1602"]);
+
+      for (const [category, mismatchedReference] of [
+        ["grammar", "vocabulary:1201"],
+        ["vocabulary", "kanji:1706"],
+        ["kanji", "grammar:1401"],
+      ]) {
+        const question = languageQuestions.find(
+          ({ category: questionCategory }: { category: string }) => questionCategory === category,
+        );
+        const originalReferences = question.source_item_refs;
+        question.source_item_refs = [mismatchedReference];
+        await writeFile(path.join(temporaryRoot, "weekly.json"), JSON.stringify(weekly));
+        expect((await validateContentRoot(temporaryRoot)).errors).toContain(
+          `weekly.json: weekly language question '${question.id}' source_item_ref '${mismatchedReference}' must match question category '${category}'`,
+        );
+        question.source_item_refs = originalReferences;
+      }
+
       weekly.sections.push({
         id: "listening",
         title: "Listening",
