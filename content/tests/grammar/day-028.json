@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-028",
+  "type": "grammar",
+  "title": "Grammar Test — Day 28",
+  "study_day": 28,
+  "coverage": {
+    "from_day": 28,
+    "to_day": 28
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "「本日休業」と書いてある。今日は店が開かない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ということだ"
+            },
+            {
+              "id": "B",
+              "text": "というところだ"
+            },
+            {
+              "id": "C",
+              "text": "というものではない"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "彼が返事をしないのは、この案に賛成していない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というところだ"
+            },
+            {
+              "id": "B",
+              "text": "ということだ"
+            },
+            {
+              "id": "C",
+              "text": "というものではない"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "責任者になる（　　　）は、最後まで判断を引き受けるということだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というもの"
+            },
+            {
+              "id": "B",
+              "text": "というところ"
+            },
+            {
+              "id": "C",
+              "text": "ということ"
+            },
+            {
+              "id": "D",
+              "text": "というわけ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この印は、機械に触れてはいけない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というところだ"
+            },
+            {
+              "id": "B",
+              "text": "というものではない"
+            },
+            {
+              "id": "C",
+              "text": "という場合だ"
+            },
+            {
+              "id": "D",
+              "text": "ということだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "全員が同じ時刻に集まる必要はない。自由に来てよい（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ということだ"
+            },
+            {
+              "id": "B",
+              "text": "というところだ"
+            },
+            {
+              "id": "C",
+              "text": "というものではない"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "「要予約」とは、前もって申し込む必要がある（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というところだ"
+            },
+            {
+              "id": "B",
+              "text": "ということだ"
+            },
+            {
+              "id": "C",
+              "text": "というものではない"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "売上が前年の二倍になった。利用者が大きく増えた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というところだ"
+            },
+            {
+              "id": "B",
+              "text": "というものではない"
+            },
+            {
+              "id": "C",
+              "text": "ということだ"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "この辞書は例文が多い（　　　）、初級者にも使いやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という理由で"
+            },
+            {
+              "id": "C",
+              "text": "という立場で"
+            },
+            {
+              "id": "D",
+              "text": "という点で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "二つの案を費用が少ない（　　　）比べると、A案が優れている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という点で"
+            },
+            {
+              "id": "B",
+              "text": "という意味で"
+            },
+            {
+              "id": "C",
+              "text": "という理由で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この町は病院が近い（　　　）、高齢者から評価されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という点で"
+            },
+            {
+              "id": "C",
+              "text": "という理由で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "電気自動車は走行中に排気ガスを出さない（　　　）注目されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という理由で"
+            },
+            {
+              "id": "C",
+              "text": "という点で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "この部屋は収納が少ない（　　　）、長く住むには不便だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という理由で"
+            },
+            {
+              "id": "C",
+              "text": "という立場で"
+            },
+            {
+              "id": "D",
+              "text": "という点で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "彼の提案は準備期間が短い（　　　）実現が難しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という点で"
+            },
+            {
+              "id": "B",
+              "text": "という意味で"
+            },
+            {
+              "id": "C",
+              "text": "という理由で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "もし一年間外国で暮らせる（　　　）、どの国を選びますか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "としたら"
+            },
+            {
+              "id": "C",
+              "text": "によると"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "この写真が百年前のものだ（　　　）、貴重な資料になる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によると"
+            },
+            {
+              "id": "C",
+              "text": "としたら"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "無人島に一冊だけ本を持って行く（　　　）、何を選ぶ？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によると"
+            },
+            {
+              "id": "C",
+              "text": "に対して"
+            },
+            {
+              "id": "D",
+              "text": "としたら"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "来月会社を辞める（　　　）、今から仕事を引き継がなければならない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "としたら"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によると"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "その薬に強い副作用がある（　　　）、使用を中止すべきだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "としたら"
+            },
+            {
+              "id": "C",
+              "text": "によると"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "十年後にこの町の人口が半分になる（　　　）、どんな対策が必要だろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によると"
+            },
+            {
+              "id": "C",
+              "text": "としたら"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "たとえ給料が高い（　　　）、家族と過ごす時間がなければ選ばない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "についても"
+            },
+            {
+              "id": "C",
+              "text": "によっても"
+            },
+            {
+              "id": "D",
+              "text": "としても"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "たとえ今すぐ出発した（　　　）、受付終了には間に合わない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "としても"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "についても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "仮に計画が延期された（　　　）、準備は続けるつもりだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "としても"
+            },
+            {
+              "id": "C",
+              "text": "についても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "相手が子どもだ（　　　）、約束を破ってよいわけではない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "についても"
+            },
+            {
+              "id": "C",
+              "text": "としても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "たとえ毎日練習した（　　　）、必ず優勝できるとは限らない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "についても"
+            },
+            {
+              "id": "C",
+              "text": "によっても"
+            },
+            {
+              "id": "D",
+              "text": "としても"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "たとえこの情報が本当だ（　　　）、今は公表できない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "としても"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "についても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        }
+      ]
+    }
+  ]
+}

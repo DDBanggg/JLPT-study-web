@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-031",
+  "study_day": 31,
+  "items": [
+    {
+      "id": 3101,
+      "kanji": "麦",
+      "han_viet": "MẠCH",
+      "meaning_vi": "lúa mạch",
+      "onyomi": [
+        "バク"
+      ],
+      "kunyomi": [
+        "むぎ"
+      ],
+      "compounds": [
+        {
+          "word": "小麦粉",
+          "reading": "こむぎこ",
+          "meaning_vi": "bột mì"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 190 | BÀI 3 > CHỮ HÁN > 麦"
+    },
+    {
+      "id": 3102,
+      "kanji": "責",
+      "han_viet": "TRÁCH",
+      "meaning_vi": "trách nhiệm",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "せ・める"
+      ],
+      "compounds": [
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning_vi": "trách nhiệm"
+        },
+        {
+          "word": "無責任",
+          "reading": "むせきにん",
+          "meaning_vi": "vô trách nhiệm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 191 | BÀI 3 > CHỮ HÁN > 責"
+    },
+    {
+      "id": 3103,
+      "kanji": "積",
+      "han_viet": "TÍCH",
+      "meaning_vi": "tích lũy; chất lên",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "つ・む",
+        "つ・もる"
+      ],
+      "compounds": [
+        {
+          "word": "積む",
+          "reading": "つむ",
+          "meaning_vi": "chất lên"
+        },
+        {
+          "word": "積もる",
+          "reading": "つもる",
+          "meaning_vi": "tích tụ"
+        },
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "meaning_vi": "tích cực"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 191 | BÀI 3 > CHỮ HÁN > 積"
+    },
+    {
+      "id": 3104,
+      "kanji": "績",
+      "han_viet": "TÍCH",
+      "meaning_vi": "thành tích",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "成績",
+          "reading": "せいせき",
+          "meaning_vi": "thành tích, kết quả học tập"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 191 | BÀI 3 > CHỮ HÁN > 績"
+    },
+    {
+      "id": 3105,
+      "kanji": "負",
+      "han_viet": "PHỤ",
+      "meaning_vi": "thua; mang",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "ま・ける",
+        "ま・かす",
+        "お・う"
+      ],
+      "compounds": [
+        {
+          "word": "負け",
+          "reading": "まけ",
+          "meaning_vi": "sự thua cuộc"
+        },
+        {
+          "word": "負ける",
+          "reading": "まける",
+          "meaning_vi": "thua"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 192 | BÀI 3 > CHỮ HÁN > 負"
+    },
+    {
+      "id": 3106,
+      "kanji": "敗",
+      "han_viet": "BẠI",
+      "meaning_vi": "thất bại",
+      "onyomi": [
+        "ハイ"
+      ],
+      "kunyomi": [
+        "やぶ・れる"
+      ],
+      "compounds": [
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning_vi": "thất bại"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 192 | BÀI 3 > CHỮ HÁN > 敗"
+    },
+    {
+      "id": 3107,
+      "kanji": "貯",
+      "han_viet": "TRỮ",
+      "meaning_vi": "tích trữ; tiết kiệm",
+      "onyomi": [
+        "チョ"
+      ],
+      "kunyomi": [
+        "た・める",
+        "たくわ・える"
+      ],
+      "compounds": [
+        {
+          "word": "貯める",
+          "reading": "ためる",
+          "meaning_vi": "tiết kiệm"
+        },
+        {
+          "word": "貯まる",
+          "reading": "たまる",
+          "meaning_vi": "được tích lũy"
+        },
+        {
+          "word": "貯金",
+          "reading": "ちょきん",
+          "meaning_vi": "tiền tiết kiệm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 192 | BÀI 3 > CHỮ HÁN > 貯"
+    }
+  ]
+}

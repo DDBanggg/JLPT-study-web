@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-030",
+  "type": "grammar",
+  "title": "Grammar Test — Day 30",
+  "study_day": 30,
+  "coverage": {
+    "from_day": 30,
+    "to_day": 30
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この仕事では語学力（　　　）、海外経験も求められる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のほかに"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "弁当にはご飯（　　　）、みそ汁とお茶が付いている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "のほかに"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "入会には申込書（　　　）、身分証明書が必要です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "のほかに"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この博物館では常設展（　　　）、毎月特別展も開かれる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "のほかに"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "料理教室では材料費（　　　）、道具のレンタル代も払う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のほかに"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "駅前には銀行（　　　）、郵便局や薬局もある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "のほかに"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "この薬は頭痛（　　　）、熱にも効果がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "のほかに"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "在宅勤務は通勤がない（　　　）、運動不足になりやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "ばかりで"
+            },
+            {
+              "id": "C",
+              "text": "ところで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "この町は夏が涼しい（　　　）、冬の雪が多い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ために"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "姉は病院で働く（　　　）、休日には外国人に日本語を教えている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "便利な機械が増える（　　　）、修理できる人は減っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "ばかりで"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "父は家では静かな（　　　）、会社では積極的に意見を言う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "ばかりで"
+            },
+            {
+              "id": "C",
+              "text": "ところで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "観光客が増えて店はにぎわう（　　　）、ごみの問題も大きくなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ために"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "このアプリは電車の時刻を調べられる（　　　）、切符も買える。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけでなく"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "彼女は料理を作る（　　　）、店の会計まで担当している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけでなく"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "その台風では屋根が壊れた（　　　）、道路も水につかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけに"
+            },
+            {
+              "id": "D",
+              "text": "だけでなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "新しい図書館は本が多い（　　　）、勉強する席も広い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけでなく"
+            },
+            {
+              "id": "B",
+              "text": "だけなら"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "この研修では知識を学ぶ（　　　）、実際の機械も操作する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけでなく"
+            },
+            {
+              "id": "C",
+              "text": "だけあって"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "祖父はスマホで電話する（　　　）、写真の編集もできる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけでなく"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "この選手は国内（　　　）、海外でも高く評価されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "C",
+              "text": "ばかりなら"
+            },
+            {
+              "id": "D",
+              "text": "ばかりでなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "その本は若者（　　　）、高齢者にも広く読まれている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "B",
+              "text": "ばかりに"
+            },
+            {
+              "id": "C",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "新しい駅は便利な（　　　）、周辺の景色も美しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "C",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "彼の研究は専門家（　　　）、一般の人からも注目された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "C",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "この工場では製品を作る（　　　）、修理まで行っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "C",
+              "text": "ばかりなら"
+            },
+            {
+              "id": "D",
+              "text": "ばかりでなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "台風は交通に影響した（　　　）、農作物にも被害を与えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "B",
+              "text": "ばかりに"
+            },
+            {
+              "id": "C",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-027",
+  "type": "grammar",
+  "title": "Grammar Test — Day 27",
+  "study_day": 27,
+  "coverage": {
+    "from_day": 27,
+    "to_day": 27
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "肩の痛みが続くなら、専門の医者に診てもらっ（　　　）？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たらどう"
+            },
+            {
+              "id": "B",
+              "text": "てもいい"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "部屋が暗いなら、机を窓の近くへ移し（　　　）ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たらどう"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "説明が難しいなら、図を使って話し（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たことがある"
+            },
+            {
+              "id": "C",
+              "text": "たらどう"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "毎朝遅刻するなら、一本早い電車に乗っ（　　　）？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たことがある"
+            },
+            {
+              "id": "C",
+              "text": "たばかり"
+            },
+            {
+              "id": "D",
+              "text": "たらどう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "野菜が苦手なら、スープにして食べ（　　　）ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たらどう"
+            },
+            {
+              "id": "B",
+              "text": "てもいい"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "仕事に集中できないなら、通知を切っ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たらどう"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "旅行先が決まらないなら、予算から考え（　　　）？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たことがある"
+            },
+            {
+              "id": "C",
+              "text": "たらどう"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "靴がきついなら、一つ大きいサイズを試し（　　　）ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たことがある"
+            },
+            {
+              "id": "C",
+              "text": "たばかり"
+            },
+            {
+              "id": "D",
+              "text": "たらどう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "近所の騒音で困っているなら、管理会社に連絡し（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たらどう"
+            },
+            {
+              "id": "B",
+              "text": "てもいい"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "体力をつけたいなら、短い距離でも毎日歩く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "風邪を早く治したければ、今夜は十分に休む（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "大切な面接では、相手の話を最後まで聞く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "わけだ"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "同じミスを防ぐには、作業後に必ず確認する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "貯金を増やしたいなら、必要のない物を買わない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "山で道に迷ったら、むやみに動かない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "日本語を上達させるには、間違いを恐れず話す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "わけだ"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "朝すっきり起きたいなら、夜更かしをしない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "わけだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2702"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "通勤時間を減らすため、会社の近くへ引っ越す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ことにした"
+            },
+            {
+              "id": "C",
+              "text": "ようになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "健康診断の結果を見て、毎晩の酒を控える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ようになった"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "今年の夏休みは、家族で北海道を旅行する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ようになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだった"
+            },
+            {
+              "id": "D",
+              "text": "ことにした"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "集中して書きたいので、午前中はメールを見ない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことにした"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "ようになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "余った料理は捨てず、明日の弁当に入れる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ことにした"
+            },
+            {
+              "id": "C",
+              "text": "ようになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "新しい技術を学ぶため、週末の講座に通う（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ようになった"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "家計を見直して、車を買う計画は延期する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ようになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだった"
+            },
+            {
+              "id": "D",
+              "text": "ことにした"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "長く迷ったが、父の店を継ぐ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことにした"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "ようになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        }
+      ]
+    }
+  ]
+}

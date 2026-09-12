@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-030",
+  "study_day": 30,
+  "items": [
+    {
+      "id": 3001,
+      "kanji": "支",
+      "han_viet": "CHI",
+      "meaning_vi": "chi trả; hỗ trợ",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "ささ・える"
+      ],
+      "compounds": [
+        {
+          "word": "支払う",
+          "reading": "しはらう",
+          "meaning_vi": "chi trả"
+        },
+        {
+          "word": "支給",
+          "reading": "しきゅう",
+          "meaning_vi": "cấp phát"
+        },
+        {
+          "word": "支社",
+          "reading": "ししゃ",
+          "meaning_vi": "chi nhánh công ty"
+        },
+        {
+          "word": "支出",
+          "reading": "ししゅつ",
+          "meaning_vi": "khoản chi"
+        },
+        {
+          "word": "支店",
+          "reading": "してん",
+          "meaning_vi": "chi nhánh cửa hàng"
+        },
+        {
+          "word": "支度",
+          "reading": "したく",
+          "meaning_vi": "chuẩn bị"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 188 | BÀI 3 > CHỮ HÁN > 支"
+    },
+    {
+      "id": 3002,
+      "kanji": "単",
+      "han_viet": "ĐƠN",
+      "meaning_vi": "đơn; đơn giản",
+      "onyomi": [
+        "タン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "単に",
+          "reading": "たんに",
+          "meaning_vi": "đơn thuần"
+        },
+        {
+          "word": "簡単",
+          "reading": "かんたん",
+          "meaning_vi": "đơn giản"
+        },
+        {
+          "word": "単語",
+          "reading": "たんご",
+          "meaning_vi": "từ vựng"
+        },
+        {
+          "word": "単身",
+          "reading": "たんしん",
+          "meaning_vi": "một mình"
+        },
+        {
+          "word": "単純",
+          "reading": "たんじゅん",
+          "meaning_vi": "đơn giản"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 188 | BÀI 3 > CHỮ HÁN > 単"
+    },
+    {
+      "id": 3003,
+      "kanji": "卒",
+      "han_viet": "TỐT",
+      "meaning_vi": "tốt nghiệp",
+      "onyomi": [
+        "ソツ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "meaning_vi": "tốt nghiệp"
+        },
+        {
+          "word": "卒業式",
+          "reading": "そつぎょうしき",
+          "meaning_vi": "lễ tốt nghiệp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 188 | BÀI 3 > CHỮ HÁN > 卒"
+    },
+    {
+      "id": 3004,
+      "kanji": "示",
+      "han_viet": "THỊ",
+      "meaning_vi": "chỉ ra; biểu thị",
+      "onyomi": [
+        "ジ",
+        "シ"
+      ],
+      "kunyomi": [
+        "しめ・す"
+      ],
+      "compounds": [
+        {
+          "word": "示す",
+          "reading": "しめす",
+          "meaning_vi": "chỉ ra"
+        },
+        {
+          "word": "指示",
+          "reading": "しじ",
+          "meaning_vi": "chỉ thị"
+        },
+        {
+          "word": "展示会",
+          "reading": "てんじかい",
+          "meaning_vi": "triển lãm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 189 | BÀI 3 > CHỮ HÁN > 示"
+    },
+    {
+      "id": 3005,
+      "kanji": "禁",
+      "han_viet": "CẤM",
+      "meaning_vi": "cấm",
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "禁止",
+          "reading": "きんし",
+          "meaning_vi": "cấm"
+        },
+        {
+          "word": "駐車禁止",
+          "reading": "ちゅうしゃきんし",
+          "meaning_vi": "cấm đỗ xe"
+        },
+        {
+          "word": "禁煙",
+          "reading": "きんえん",
+          "meaning_vi": "cấm hút thuốc, bỏ thuốc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 189 | BÀI 3 > CHỮ HÁN > 禁"
+    },
+    {
+      "id": 3006,
+      "kanji": "察",
+      "han_viet": "SÁT",
+      "meaning_vi": "quan sát; xét",
+      "onyomi": [
+        "サツ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "観察",
+          "reading": "かんさつ",
+          "meaning_vi": "quan sát"
+        },
+        {
+          "word": "警察",
+          "reading": "けいさつ",
+          "meaning_vi": "cảnh sát"
+        },
+        {
+          "word": "診察",
+          "reading": "しんさつ",
+          "meaning_vi": "khám bệnh"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 189 | BÀI 3 > CHỮ HÁN > 察"
+    },
+    {
+      "id": 3007,
+      "kanji": "表",
+      "han_viet": "BIỂU",
+      "meaning_vi": "bề mặt; biểu thị",
+      "onyomi": [
+        "ヒョウ"
+      ],
+      "kunyomi": [
+        "おもて",
+        "あらわ・す",
+        "あらわ・れる"
+      ],
+      "compounds": [
+        {
+          "word": "表れる",
+          "reading": "あらわれる",
+          "meaning_vi": "biểu hiện"
+        },
+        {
+          "word": "表す",
+          "reading": "あらわす",
+          "meaning_vi": "thể hiện"
+        },
+        {
+          "word": "代表",
+          "reading": "だいひょう",
+          "meaning_vi": "đại diện"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "meaning_vi": "phát biểu"
+        },
+        {
+          "word": "表情",
+          "reading": "ひょうじょう",
+          "meaning_vi": "nét mặt"
+        },
+        {
+          "word": "表面",
+          "reading": "ひょうめん",
+          "meaning_vi": "bề mặt"
+        },
+        {
+          "word": "時刻表",
+          "reading": "じこくひょう",
+          "meaning_vi": "bảng giờ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 190 | BÀI 3 > CHỮ HÁN > 表"
+    }
+  ]
+}

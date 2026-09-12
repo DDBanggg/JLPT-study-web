@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-027",
+  "study_day": 27,
+  "items": [
+    {
+      "id": 2701,
+      "structure": "～たらどう",
+      "formation": [
+        "Vた + らどう",
+        "Vた + らどうですか"
+      ],
+      "meaning_vi": "Nếu làm V thì sao; thử V xem sao",
+      "usage_vi": "Đưa ra một phương án hoặc lời khuyên nhẹ nhàng dưới dạng gợi ý. ～たらどうですか lịch sự hơn ～たらどう / ～たら？.",
+      "examples": [
+        {
+          "jp": "分からないなら、先生に聞いてみたらどうですか。",
+          "vi": "Nếu không hiểu thì thử hỏi giáo viên xem sao?"
+        },
+        {
+          "jp": "疲れているなら、今日は早く寝たらどう。",
+          "vi": "Nếu mệt thì hôm nay ngủ sớm xem sao."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 162 | BÀI 1 > NGỮ PHÁP > mục 4 — ～たらどう"
+    },
+    {
+      "id": 2702,
+      "structure": "～ことだ",
+      "formation": [
+        "Vる / Vない + ことだ"
+      ],
+      "meaning_vi": "Nên; không nên",
+      "usage_vi": "Đưa ra lời khuyên, ý kiến hoặc cảnh báo mạnh của người nói. Thường dùng từ người ở vị thế trên hoặc người có kinh nghiệm với người nghe.",
+      "examples": [
+        {
+          "jp": "試験に合格したければ、毎日復習することだ。",
+          "vi": "Nếu muốn đỗ kỳ thi thì nên ôn tập mỗi ngày."
+        },
+        {
+          "jp": "具合が悪いときは、無理をしないことだ。",
+          "vi": "Khi không khỏe thì không nên cố sức."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 163 | BÀI 1 > NGỮ PHÁP > mục 5 — ～ことだ"
+    },
+    {
+      "id": 2703,
+      "structure": "～ことにする / ～ことにした",
+      "formation": [
+        "Vる / Vない + ことにする",
+        "Vる / Vない + ことにした"
+      ],
+      "meaning_vi": "Quyết định làm; quyết định không làm",
+      "usage_vi": "Diễn tả quyết định dựa trên ý chí của người nói. ～ことにする là quyết định tại lúc nói; ～ことにした là quyết định đã được đưa ra trước đó.",
+      "examples": [
+        {
+          "jp": "来月から自転車で通勤することにします。",
+          "vi": "Tôi quyết định từ tháng sau sẽ đi làm bằng xe đạp."
+        },
+        {
+          "jp": "健康のため、夜食は食べないことにした。",
+          "vi": "Vì sức khỏe, tôi đã quyết định không ăn đêm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 164 | BÀI 1 > NGỮ PHÁP > mục 6 — ～ことにする / ～ことにした"
+    }
+  ]
+}

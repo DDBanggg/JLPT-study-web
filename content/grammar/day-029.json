@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-029",
+  "study_day": 29,
+  "items": [
+    {
+      "id": 2901,
+      "structure": "～ようとする",
+      "formation": [
+        "V thể ý chí + とする",
+        "V thể ý chí + としている"
+      ],
+      "meaning_vi": "Định làm, cố làm; sắp sửa",
+      "usage_vi": "Với động từ có ý chí, diễn tả hành động định hoặc cố thực hiện. Với động từ không ý chí, diễn tả sự việc sắp xảy ra.",
+      "examples": [
+        {
+          "jp": "家を出ようとしたとき、電話が鳴った。",
+          "vi": "Đúng lúc tôi định ra khỏi nhà thì điện thoại reo."
+        },
+        {
+          "jp": "空が明るくなり、夜が明けようとしている。",
+          "vi": "Trời đang sáng dần, đêm sắp qua."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 184 | BÀI 2 > NGỮ PHÁP > mục 5 — ～ようとする"
+    },
+    {
+      "id": 2902,
+      "structure": "～ようとしない",
+      "formation": [
+        "V thể ý chí + としない",
+        "V thể ý chí + ともしない / とさえしない"
+      ],
+      "meaning_vi": "Quyết không; không chịu",
+      "usage_vi": "Diễn tả người khác kiên quyết từ chối hoặc hoàn toàn không có ý định làm hành động đó. Không dùng để mô tả ý chí của chính người nói.",
+      "examples": [
+        {
+          "jp": "弟は何度起こしても、起きようとしない。",
+          "vi": "Dù gọi bao nhiêu lần, em trai tôi vẫn không chịu dậy."
+        },
+        {
+          "jp": "彼は自分の間違いを認めようともしない。",
+          "vi": "Anh ấy thậm chí không chịu thừa nhận lỗi của mình."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 185 | BÀI 2 > NGỮ PHÁP > mục 6 — ～ようとしない"
+    }
+  ]
+}

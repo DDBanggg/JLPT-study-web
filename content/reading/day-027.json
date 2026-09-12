@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-027",
+  "study_day": 27,
+  "items": [
+    {
+      "id": 2701,
+      "title": "Eスポーツという呼び方",
+      "passage_jp": "高校生の孫が「来週、Eスポーツ大会に出るんだ」と言った。コンピューターゲームの大会だと説明され、私は不思議な気がした。なぜ、それがスポーツの大会なのだろうか。聞いてみると、英語の「スポーツ」には、ルールを守りながら勝ったり負けたりすることを楽しむものという意味があるそうだ。それで、最近ではコンピューターゲームもスポーツと言うらしい。体を動かすことをスポーツだと思っていた私は驚いた。",
+      "translation_vi": "Đứa cháu đang học cấp ba của tôi nói: “Tuần sau cháu sẽ tham gia một giải đấu thể thao điện tử.” Khi được giải thích rằng đó là một giải thi đấu trò chơi máy tính, tôi cảm thấy khó hiểu. Tại sao nó lại là một giải đấu thể thao? Khi hỏi thêm, tôi được biết từ “sport” trong tiếng Anh còn có nghĩa là một hoạt động mà người ta tuân theo luật lệ và tận hưởng việc thắng thua. Vì vậy, gần đây trò chơi máy tính cũng được gọi là thể thao. Tôi vốn nghĩ thể thao là vận động cơ thể nên đã rất ngạc nhiên.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 3 | trang in 17 | 練習2",
+      "questions": [
+        {
+          "id": "c03r-d02-q01",
+          "question_type": "mcq",
+          "question_jp": "この文章は主に何について述べていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "高校生がゲームをやめるべき理由"
+            },
+            {
+              "id": "B",
+              "text": "Eスポーツがスポーツと呼ばれる考え方"
+            },
+            {
+              "id": "C",
+              "text": "英語を勉強する最もよい方法"
+            },
+            {
+              "id": "D",
+              "text": "体を動かす大会のルール"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d02-q02",
+          "question_type": "mcq",
+          "question_jp": "筆者の考えはどのように変わりましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "ゲームはすべて勉強だと考えた"
+            },
+            {
+              "id": "B",
+              "text": "英語には意味が一つしかないと考えた"
+            },
+            {
+              "id": "C",
+              "text": "スポーツは体を動かすものだけではないと知った"
+            },
+            {
+              "id": "D",
+              "text": "孫は大会に出ないほうがよいと考えた"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03r-d02-q03",
+          "question_type": "mcq",
+          "question_jp": "第二段落は文章全体でどんな役割をしていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "最初の疑問に理由を示して答える"
+            },
+            {
+              "id": "B",
+              "text": "孫の学校生活を詳しく説明する"
+            },
+            {
+              "id": "C",
+              "text": "大会の結果を報告する"
+            },
+            {
+              "id": "D",
+              "text": "筆者の子ども時代を紹介する"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

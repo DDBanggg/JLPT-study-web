@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-027",
+  "type": "daily",
+  "title": "Daily Test — Day 27",
+  "study_day": 27,
+  "coverage": {
+    "from_day": 26,
+    "to_day": 26
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "運動不足なら、朝の散歩（　　　）から始めてみよう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんか"
+            },
+            {
+              "id": "B",
+              "text": "だけ"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "自由研究には、駅の利用者数（　　　）を調べるのも面白い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "など"
+            },
+            {
+              "id": "C",
+              "text": "ばかり"
+            },
+            {
+              "id": "D",
+              "text": "まで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "午後のおやつに、果物（　　　）いかがですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "まで"
+            },
+            {
+              "id": "C",
+              "text": "なんか"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "避難袋には水、懐中電灯、薬（　　　）を入れておく。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "など"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "順位（　　　）気にせず、自分の記録を伸ばしたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんか"
+            },
+            {
+              "id": "B",
+              "text": "だけ"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "根拠のない記事（　　　）を読んで、不安になることはない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "など"
+            },
+            {
+              "id": "C",
+              "text": "ばかり"
+            },
+            {
+              "id": "D",
+              "text": "まで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "子どもの冗談（　　　）に本気で怒らないで。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "まで"
+            },
+            {
+              "id": "C",
+              "text": "なんか"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "一週間で橋を修理した（　　　）、作業員の技術はすごい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "なら"
+            },
+            {
+              "id": "D",
+              "text": "なんて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "隣に住んでいた人が有名な作家だった（　　　）、全く知らなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "迷子の犬が三百キロ離れた家へ戻った（　　　）、驚くべき話だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "なんて"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "私たちの（　　　）は希望でいっぱいだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "未来"
+            },
+            {
+              "id": "B",
+              "text": "末っ子"
+            },
+            {
+              "id": "C",
+              "text": "お札"
+            },
+            {
+              "id": "D",
+              "text": "葉"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2601"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "私は 3 人兄弟の（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "お札"
+            },
+            {
+              "id": "B",
+              "text": "末っ子"
+            },
+            {
+              "id": "C",
+              "text": "葉"
+            },
+            {
+              "id": "D",
+              "text": "言葉"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2602"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "この自動販売機は（　　　）が使えない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "葉"
+            },
+            {
+              "id": "B",
+              "text": "言葉"
+            },
+            {
+              "id": "C",
+              "text": "お札"
+            },
+            {
+              "id": "D",
+              "text": "花束"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2603"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "この木は冬になると（　　　）が落ちる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "言葉"
+            },
+            {
+              "id": "B",
+              "text": "花束"
+            },
+            {
+              "id": "C",
+              "text": "常識"
+            },
+            {
+              "id": "D",
+              "text": "葉"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2604"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "彼女は色々な国の（　　　）がわかる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "言葉"
+            },
+            {
+              "id": "B",
+              "text": "常識"
+            },
+            {
+              "id": "C",
+              "text": "日常"
+            },
+            {
+              "id": "D",
+              "text": "現実"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2605"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "彼女の誕生日にバラの（　　　）をあげた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "常識"
+            },
+            {
+              "id": "B",
+              "text": "花束"
+            },
+            {
+              "id": "C",
+              "text": "日常"
+            },
+            {
+              "id": "D",
+              "text": "現実"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2606"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "日本では、電車の中では静かにするのが（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "日常"
+            },
+            {
+              "id": "B",
+              "text": "現実"
+            },
+            {
+              "id": "C",
+              "text": "常識"
+            },
+            {
+              "id": "D",
+              "text": "独身"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2607"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "変わらない（　　　）生活を送る。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "現実"
+            },
+            {
+              "id": "B",
+              "text": "独身"
+            },
+            {
+              "id": "C",
+              "text": "中身"
+            },
+            {
+              "id": "D",
+              "text": "日常"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2608"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "夢が（　　　）になった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "現実"
+            },
+            {
+              "id": "B",
+              "text": "独身"
+            },
+            {
+              "id": "C",
+              "text": "中身"
+            },
+            {
+              "id": "D",
+              "text": "遊園地"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2609"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "私は結婚しているが、弟は（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "中身"
+            },
+            {
+              "id": "B",
+              "text": "独身"
+            },
+            {
+              "id": "C",
+              "text": "遊園地"
+            },
+            {
+              "id": "D",
+              "text": "友人"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2610"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "お弁当箱の（　　　）がない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "遊園地"
+            },
+            {
+              "id": "B",
+              "text": "友人"
+            },
+            {
+              "id": "C",
+              "text": "中身"
+            },
+            {
+              "id": "D",
+              "text": "出会い"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2611"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "日曜日は子供を連れて（　　　）へ行ってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "友人"
+            },
+            {
+              "id": "B",
+              "text": "出会い"
+            },
+            {
+              "id": "C",
+              "text": "感想"
+            },
+            {
+              "id": "D",
+              "text": "遊園地"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2612"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "少しの油断が大きな事故を招く。 【招く】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まねく"
+            },
+            {
+              "id": "B",
+              "text": "ふく"
+            },
+            {
+              "id": "C",
+              "text": "よろこぶ"
+            },
+            {
+              "id": "D",
+              "text": "すくう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2637"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "フルートを吹く。 【吹く】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まねく"
+            },
+            {
+              "id": "B",
+              "text": "ふく"
+            },
+            {
+              "id": "C",
+              "text": "よろこぶ"
+            },
+            {
+              "id": "D",
+              "text": "すくう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2636"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "この薬は食後に飲むと効果的です。 【効果的】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まねく"
+            },
+            {
+              "id": "B",
+              "text": "ふく"
+            },
+            {
+              "id": "C",
+              "text": "こうかてき"
+            },
+            {
+              "id": "D",
+              "text": "よろこぶ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2628"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "試合の相手に笑顔であいさつした。 【相手】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あいて"
+            },
+            {
+              "id": "B",
+              "text": "しゅしょう"
+            },
+            {
+              "id": "C",
+              "text": "そうだん"
+            },
+            {
+              "id": "D",
+              "text": "あいかわらず"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2601"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "首相が新しい政策を発表した。 【首相】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだん"
+            },
+            {
+              "id": "B",
+              "text": "しゅしょう"
+            },
+            {
+              "id": "C",
+              "text": "あいかわらず"
+            },
+            {
+              "id": "D",
+              "text": "はこ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2601"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "進路について先生に相談した。 【相談】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あいかわらず"
+            },
+            {
+              "id": "B",
+              "text": "はこ"
+            },
+            {
+              "id": "C",
+              "text": "そうだん"
+            },
+            {
+              "id": "D",
+              "text": "ふでばこ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2601"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "祖父は相変わらず朝早く散歩している。 【相変わらず】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はこ"
+            },
+            {
+              "id": "B",
+              "text": "ふでばこ"
+            },
+            {
+              "id": "C",
+              "text": "かんそう"
+            },
+            {
+              "id": "D",
+              "text": "あいかわらず"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2601"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "引っ越しの荷物を大きな箱に入れた。 【箱】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はこ"
+            },
+            {
+              "id": "B",
+              "text": "ふでばこ"
+            },
+            {
+              "id": "C",
+              "text": "かんそう"
+            },
+            {
+              "id": "D",
+              "text": "そうぞう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2602"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "筆箱を忘れて友達に鉛筆を借りた。 【筆箱】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かんそう"
+            },
+            {
+              "id": "B",
+              "text": "ふでばこ"
+            },
+            {
+              "id": "C",
+              "text": "そうぞう"
+            },
+            {
+              "id": "D",
+              "text": "よそう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2602"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "映画を見た感想を短く書いた。 【感想】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうぞう"
+            },
+            {
+              "id": "B",
+              "text": "よそう"
+            },
+            {
+              "id": "C",
+              "text": "かんそう"
+            },
+            {
+              "id": "D",
+              "text": "はっそう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2603"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "百年後の町を想像して絵を描いた。 【想像】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よそう"
+            },
+            {
+              "id": "B",
+              "text": "はっそう"
+            },
+            {
+              "id": "C",
+              "text": "りそう"
+            },
+            {
+              "id": "D",
+              "text": "そうぞう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2603"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "天気の変化を【よそう】して傘を持って出た。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "予想"
+            },
+            {
+              "id": "B",
+              "text": "発想"
+            },
+            {
+              "id": "C",
+              "text": "理想"
+            },
+            {
+              "id": "D",
+              "text": "未来"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2603"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "子どもの自由な【はっそう】から新商品が生まれた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "理想"
+            },
+            {
+              "id": "B",
+              "text": "発想"
+            },
+            {
+              "id": "C",
+              "text": "未来"
+            },
+            {
+              "id": "D",
+              "text": "未経験"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2603"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "駅に近くて静かな部屋が私の【りそう】だ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "未来"
+            },
+            {
+              "id": "B",
+              "text": "未経験"
+            },
+            {
+              "id": "C",
+              "text": "理想"
+            },
+            {
+              "id": "D",
+              "text": "末っ子"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2603"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "【みらい】のために今できることを考えよう。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "未経験"
+            },
+            {
+              "id": "B",
+              "text": "末っ子"
+            },
+            {
+              "id": "C",
+              "text": "改札"
+            },
+            {
+              "id": "D",
+              "text": "未来"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2604"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "【みけいけん】でも応募できる仕事を見つけた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "未経験"
+            },
+            {
+              "id": "B",
+              "text": "末っ子"
+            },
+            {
+              "id": "C",
+              "text": "改札"
+            },
+            {
+              "id": "D",
+              "text": "相手"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2604"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "三人兄弟の【すえっこ】は今年小学校に入る。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "改札"
+            },
+            {
+              "id": "B",
+              "text": "末っ子"
+            },
+            {
+              "id": "C",
+              "text": "相手"
+            },
+            {
+              "id": "D",
+              "text": "首相"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2605"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "【かいさつ】を出たところで友人が待っていた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "相手"
+            },
+            {
+              "id": "B",
+              "text": "首相"
+            },
+            {
+              "id": "C",
+              "text": "改札"
+            },
+            {
+              "id": "D",
+              "text": "相談"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2606"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-028",
+  "study_day": 28,
+  "items": [
+    {
+      "id": 2801,
+      "kanji": "吹",
+      "han_viet": "XUY",
+      "meaning_vi": "thổi",
+      "onyomi": [
+        "スイ"
+      ],
+      "kunyomi": [
+        "ふ・く"
+      ],
+      "compounds": [
+        {
+          "word": "吹く",
+          "reading": "ふく",
+          "meaning_vi": "thổi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 167 | BÀI 2 > CHỮ HÁN > 吹"
+    },
+    {
+      "id": 2802,
+      "kanji": "吸",
+      "han_viet": "HẤP",
+      "meaning_vi": "hút; hít",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "す・う"
+      ],
+      "compounds": [
+        {
+          "word": "呼吸",
+          "reading": "こきゅう",
+          "meaning_vi": "hô hấp"
+        },
+        {
+          "word": "吸う",
+          "reading": "すう",
+          "meaning_vi": "hít, hút"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 167 | BÀI 2 > CHỮ HÁN > 吸"
+    },
+    {
+      "id": 2803,
+      "kanji": "呼",
+      "han_viet": "HÔ",
+      "meaning_vi": "gọi; hô",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "よ・ぶ"
+      ],
+      "compounds": [
+        {
+          "word": "呼吸",
+          "reading": "こきゅう",
+          "meaning_vi": "hô hấp"
+        },
+        {
+          "word": "呼びかける",
+          "reading": "よびかける",
+          "meaning_vi": "kêu gọi"
+        },
+        {
+          "word": "呼び出す",
+          "reading": "よびだす",
+          "meaning_vi": "gọi ra, triệu tập"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 167 | BÀI 2 > CHỮ HÁN > 呼"
+    },
+    {
+      "id": 2804,
+      "kanji": "向",
+      "han_viet": "HƯỚNG",
+      "meaning_vi": "hướng; quay về",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "む・く",
+        "む・ける",
+        "む・かう",
+        "む・こう"
+      ],
+      "compounds": [
+        {
+          "word": "向ける",
+          "reading": "むける",
+          "meaning_vi": "hướng về"
+        },
+        {
+          "word": "向く",
+          "reading": "むく",
+          "meaning_vi": "quay về, phù hợp"
+        },
+        {
+          "word": "向かう",
+          "reading": "むかう",
+          "meaning_vi": "tiến về"
+        },
+        {
+          "word": "向かい",
+          "reading": "むかい",
+          "meaning_vi": "phía đối diện"
+        },
+        {
+          "word": "西向き",
+          "reading": "にしむき",
+          "meaning_vi": "hướng tây"
+        },
+        {
+          "word": "方向",
+          "reading": "ほうこう",
+          "meaning_vi": "phương hướng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 168 | BÀI 2 > CHỮ HÁN > 向"
+    },
+    {
+      "id": 2805,
+      "kanji": "局",
+      "han_viet": "CỤC",
+      "meaning_vi": "cục; cơ quan",
+      "onyomi": [
+        "キョク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "薬局",
+          "reading": "やっきょく",
+          "meaning_vi": "hiệu thuốc"
+        },
+        {
+          "word": "結局",
+          "reading": "けっきょく",
+          "meaning_vi": "cuối cùng"
+        },
+        {
+          "word": "郵便局",
+          "reading": "ゆうびんきょく",
+          "meaning_vi": "bưu điện"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 168 | BÀI 2 > CHỮ HÁN > 局"
+    },
+    {
+      "id": 2806,
+      "kanji": "器",
+      "han_viet": "KHÍ",
+      "meaning_vi": "dụng cụ; đồ đựng",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "うつわ"
+      ],
+      "compounds": [
+        {
+          "word": "楽器",
+          "reading": "がっき",
+          "meaning_vi": "nhạc cụ"
+        },
+        {
+          "word": "食器",
+          "reading": "しょっき",
+          "meaning_vi": "đồ ăn uống"
+        },
+        {
+          "word": "容器",
+          "reading": "ようき",
+          "meaning_vi": "đồ đựng"
+        },
+        {
+          "word": "充電器",
+          "reading": "じゅうでんき",
+          "meaning_vi": "bộ sạc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 168 | BÀI 2 > CHỮ HÁN > 器"
+    },
+    {
+      "id": 2807,
+      "kanji": "君",
+      "han_viet": "QUÂN",
+      "meaning_vi": "cậu, bạn",
+      "onyomi": [
+        "クン"
+      ],
+      "kunyomi": [
+        "きみ"
+      ],
+      "compounds": [
+        {
+          "word": "君",
+          "reading": "きみ",
+          "meaning_vi": "cậu, bạn"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 169 | BÀI 2 > CHỮ HÁN > 君"
+    }
+  ]
+}

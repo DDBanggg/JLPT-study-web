@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-031",
+  "type": "grammar",
+  "title": "Grammar Test — Day 31",
+  "study_day": 31,
+  "coverage": {
+    "from_day": 31,
+    "to_day": 31
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "図書館は九時に開くから、もう中に入れる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "彼は毎日十キロ走っているので、体力がある（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "地図では次の角を右に曲がると、銀行が見える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "はずだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "昨日発送された荷物なら、今日の午後に届く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この料理は砂糖を使っていないから、甘くない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "予約表に名前があるので、席は用意されている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "彼女はその会社の設計者だから、機械の使い方を知っている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "はずだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "電池を交換したので、時計は正常に動く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "今日は祝日だから、市役所は休みの（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "説明書どおりに組み立てたから、部品は余らない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "あの店は予約で満席だと聞いたので、今夜は入れない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "はずだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "試験結果はメールで送るそうだから、紙では届かない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "彼は朝六時の飛行機に乗ったから、もう福岡に着いている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "鍵は私が持っているから、弟が先に家へ入れる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "一晩で百ページの報告書を書き終えられる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "彼は海外へ出たことがないので、その島を訪れた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "電源が入っていないのに、機械が動く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "かもしれない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "まだ種をまいていないのだから、花が咲く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "本人しか知らない合言葉を、他人が答えられる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "毎日練習してきた選手が、簡単に諦める（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "この道は工事で閉鎖中だから、バスが通る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "かもしれない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "財布を机に置いたままなので、かばんの中にある（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "彼女は小麦アレルギーだから、そのケーキを食べた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "まだ結果を発表していないのに、全員が知っている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "この部屋は禁煙だから、灰皿が置いてある（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "かもしれない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        }
+      ]
+    }
+  ]
+}

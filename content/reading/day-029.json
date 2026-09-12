@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-029",
+  "study_day": 29,
+  "items": [
+    {
+      "id": 2901,
+      "title": "朝市の二つの役割",
+      "passage_jp": "駅前の朝市は、もともと近くの農家が野菜を売る場所だった。ところが最近は、買い物に来た高齢者が休めるよう、店の間にベンチが置かれ、学生が荷物を運ぶ活動も始まった。野菜を安く買えるだけでなく、人と話す機会が増えたと喜ぶ利用者も多い。朝市は今、買い物の場所であると同時に、地域の人がつながる場所にもなっている。",
+      "translation_vi": "Chợ sáng trước ga vốn là nơi những nông dân gần đó bán rau. Tuy nhiên gần đây, để những người cao tuổi đến mua sắm có thể nghỉ ngơi, ghế dài đã được đặt giữa các quầy và hoạt động sinh viên giúp mang hành lý cũng bắt đầu. Nhiều người sử dụng vui vì không chỉ mua được rau rẻ mà còn có thêm cơ hội trò chuyện với người khác. Hiện nay, chợ sáng vừa là nơi mua sắm, vừa trở thành nơi kết nối người dân trong khu vực.",
+      "media": [],
+      "source_ref": "supplemental-authored | Chapter 3 skimming/gist transfer 1",
+      "questions": [
+        {
+          "id": "c03r-d04-q01",
+          "question_type": "mcq",
+          "question_jp": "この文章の主題は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "朝市の野菜が高くなったこと"
+            },
+            {
+              "id": "B",
+              "text": "朝市が買い物と交流の場になったこと"
+            },
+            {
+              "id": "C",
+              "text": "学生が農家を始めたこと"
+            },
+            {
+              "id": "D",
+              "text": "駅前からベンチがなくなったこと"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d04-q02",
+          "question_type": "mcq",
+          "question_jp": "ベンチや荷物運びの例は何を示していますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "朝市の新しい地域的な役割"
+            },
+            {
+              "id": "B",
+              "text": "農家が野菜を作らない理由"
+            },
+            {
+              "id": "C",
+              "text": "駅を建て直す計画"
+            },
+            {
+              "id": "D",
+              "text": "高齢者が買い物をやめた理由"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03r-d04-q03",
+          "question_type": "mcq",
+          "question_jp": "最後の文はどんな内容をまとめていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "朝市の営業時間"
+            },
+            {
+              "id": "B",
+              "text": "朝市が持つ二つの役割"
+            },
+            {
+              "id": "C",
+              "text": "野菜の作り方"
+            },
+            {
+              "id": "D",
+              "text": "学生の授業内容"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-026",
+  "study_day": 26,
+  "items": [
+    {
+      "id": 2601,
+      "title": "昼寝の前のコーヒー",
+      "passage_jp": "コーヒーを飲むと眠れなくなるから、寝る前には飲まないという人が多いだろう。しかし最近、昼寝の前にはコーヒーを飲むといいと言われるようになってきた。昼寝をすると起きたあとの集中力が上がるが、長く寝るのはよくない。そこで、飲むと目が覚めるというコーヒーの効果を利用するのだ。この効果は、飲んでから約30分後に出るので、昼寝の前に飲むと、30分ぐらいで自然に目が覚める。ぜひやってみてほしい。",
+      "translation_vi": "Nhiều người có lẽ không uống cà phê trước khi ngủ vì uống cà phê sẽ khiến họ không ngủ được. Tuy nhiên, gần đây người ta bắt đầu nói rằng uống cà phê trước khi ngủ trưa lại có lợi. Ngủ trưa giúp tăng khả năng tập trung sau khi thức dậy, nhưng ngủ quá lâu thì không tốt. Vì vậy, người ta tận dụng tác dụng làm tỉnh ngủ của cà phê. Tác dụng này xuất hiện khoảng 30 phút sau khi uống, nên nếu uống trước khi ngủ trưa, ta sẽ tự nhiên tỉnh dậy sau khoảng 30 phút. Tôi rất mong bạn hãy thử cách này.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 3 | trang in 16 | 練習1",
+      "questions": [
+        {
+          "id": "c03r-d01-q01",
+          "question_type": "mcq",
+          "question_jp": "この文章の中心的な内容は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "寝る前は絶対にコーヒーを飲んではいけない"
+            },
+            {
+              "id": "B",
+              "text": "昼寝の前のコーヒーを短い昼寝に利用する方法"
+            },
+            {
+              "id": "C",
+              "text": "集中力を上げるために長く眠る方法"
+            },
+            {
+              "id": "D",
+              "text": "コーヒーを飲まずに自然に起きる方法"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d01-q02",
+          "question_type": "mcq",
+          "question_jp": "コーヒーの効果は文章の中でどんな役割をしていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "昼寝を長くする理由"
+            },
+            {
+              "id": "B",
+              "text": "夜に眠れない原因だけを示すもの"
+            },
+            {
+              "id": "C",
+              "text": "約30分で起きる仕組みを説明するもの"
+            },
+            {
+              "id": "D",
+              "text": "コーヒーの味を説明するもの"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03r-d01-q03",
+          "question_type": "mcq",
+          "question_jp": "筆者が最後に最も伝えたいことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "昼寝をやめてほしい"
+            },
+            {
+              "id": "B",
+              "text": "紹介した方法を試してほしい"
+            },
+            {
+              "id": "C",
+              "text": "毎晩コーヒーを飲んでほしい"
+            },
+            {
+              "id": "D",
+              "text": "集中力を測ってほしい"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

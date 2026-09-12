@@ -1,0 +1,693 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-031",
+  "study_day": 31,
+  "target": 50,
+  "pool_size": 36,
+  "items": [
+    {
+      "id": 3101,
+      "surface": "デザート",
+      "hiragana": "でざーと",
+      "kanji": null,
+      "meaning_vi": "món tráng miệng",
+      "examples": [
+        {
+          "jp": "夕食の後はいつもデザートを食べている。",
+          "vi": "Tôi luôn ăn tráng miệng sau bữa tối."
+        },
+        {
+          "jp": "今日のデザートはケーキにしよう。",
+          "vi": "Món tráng miệng hôm nay mình ăn bánh kem nhé."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 038 — デザート"
+    },
+    {
+      "id": 3102,
+      "surface": "ピーマン",
+      "hiragana": "ぴーまん",
+      "kanji": null,
+      "meaning_vi": "ớt chuông xanh",
+      "examples": [
+        {
+          "jp": "ピーマンを切って、サラダに入れた。",
+          "vi": "Tôi đã cắt ớt chuông xanh và cho vào salad."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 039 — ピーマン"
+    },
+    {
+      "id": 3103,
+      "surface": "ビタミン",
+      "hiragana": "びたみん",
+      "kanji": null,
+      "meaning_vi": "vitamin",
+      "examples": [
+        {
+          "jp": "ビタミンは果物からとることができる。",
+          "vi": "Chúng ta có thể nạp vitamin từ hoa quả."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 040 — ビタミン"
+    },
+    {
+      "id": 3104,
+      "surface": "カロリー",
+      "hiragana": "かろりー",
+      "kanji": null,
+      "meaning_vi": "calo, năng lượng",
+      "examples": [
+        {
+          "jp": "油を使った料理はカロリーが高い。",
+          "vi": "Các món ăn sử dụng dầu có rất nhiều calo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 041 — カロリー"
+    },
+    {
+      "id": 3105,
+      "surface": "完璧",
+      "hiragana": "かんぺき",
+      "kanji": "完璧",
+      "meaning_vi": "hoàn hảo",
+      "examples": [
+        {
+          "jp": "彼のプレゼンテーションは完璧だった。",
+          "vi": "Bài thuyết trình của anh ấy thật hoàn hảo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 042 — 完璧"
+    },
+    {
+      "id": 3106,
+      "surface": "気楽",
+      "hiragana": "きらく",
+      "kanji": "気楽",
+      "meaning_vi": "thoải mái, an nhàn",
+      "examples": [
+        {
+          "jp": "家族と住むより一人で住むほうが気楽だ。",
+          "vi": "Sống một mình thoải mái hơn là sống cùng gia đình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 043 — 気楽"
+    },
+    {
+      "id": 3107,
+      "surface": "単純",
+      "hiragana": "たんじゅん",
+      "kanji": "単純",
+      "meaning_vi": "đơn giản, mộc mạc",
+      "examples": [
+        {
+          "jp": "単純なミスを繰り返す。",
+          "vi": "Lặp đi lặp lại lỗi đơn giản."
+        },
+        {
+          "jp": "彼は単純な性格でだまされやすい。",
+          "vi": "Cậu ấy tính cách đơn thuần nên dễ bị lừa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 044 — 単純"
+    },
+    {
+      "id": 3108,
+      "surface": "偉い",
+      "hiragana": "えらい",
+      "kanji": "偉い",
+      "meaning_vi": "giỏi, tuyệt vời, vĩ đại",
+      "examples": [
+        {
+          "jp": "社長のような偉い人になりたい。",
+          "vi": "Tôi muốn trở thành một người xuất sắc giống như giám đốc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 045 — 偉い"
+    },
+    {
+      "id": 3109,
+      "surface": "ひどい",
+      "hiragana": "ひどい",
+      "kanji": null,
+      "meaning_vi": "tồi tệ, kinh khủng",
+      "examples": [
+        {
+          "jp": "嘘をつくなんてひどいよ。",
+          "vi": "Nói dối là tồi tệ lắm đấy."
+        },
+        {
+          "jp": "昨日はひどい熱",
+          "vi": "Hôm qua tôi bị sốt cao."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 046 — ひどい"
+    },
+    {
+      "id": 3110,
+      "surface": "示す",
+      "hiragana": "しめす",
+      "kanji": "示す",
+      "meaning_vi": "chỉ ra, cho thấy, biểu thị",
+      "examples": [
+        {
+          "jp": "チェックインするときは、ホテルのフロントに身分証を示す必要がある。",
+          "vi": "Khi check in cần xuất trình giấy tờ tùy thân ở quầy tiếp tân khách sạn."
+        },
+        {
+          "jp": "相手に熱意を示す。",
+          "vi": "Tỏ ra nhiệt tình với đối phương."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 047 — 示す"
+    },
+    {
+      "id": 3111,
+      "surface": "表れる",
+      "hiragana": "あらわれる",
+      "kanji": "表れる",
+      "meaning_vi": "xuất hiện, lộ ra",
+      "examples": [
+        {
+          "jp": "彼女は考えが表情に表れやすい。",
+          "vi": "Suy nghĩ của cô ấy dễ dàng thể hiện trên nét mặt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 048 — 表れる"
+    },
+    {
+      "id": 3112,
+      "surface": "貯まる",
+      "hiragana": "たまる",
+      "kanji": "貯まる",
+      "meaning_vi": "được tích lũy, dồn lại",
+      "examples": [
+        {
+          "jp": "お金が貯まったので、海外旅行に行こう。",
+          "vi": "Tiền đã tiết kiệm đủ rồi, đi du lịch nước ngoài nào."
+        },
+        {
+          "jp": "なかなかお金が貯まらない。",
+          "vi": "Mãi mà tôi không tiết kiệm được tiền."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 049 — 貯まる"
+    },
+    {
+      "id": 3113,
+      "surface": "よける",
+      "hiragana": "よける",
+      "kanji": null,
+      "meaning_vi": "tránh, tránh né",
+      "examples": [
+        {
+          "jp": "前から車が走ってきたので、急いでよけた。",
+          "vi": "Vì có xe chạy tới từ phía trước tới nên tôi đã vội tránh ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 050 — よける"
+    },
+    {
+      "id": 3114,
+      "surface": "従う",
+      "hiragana": "したがう",
+      "kanji": "従う",
+      "meaning_vi": "tuân theo; căn cứ theo",
+      "examples": [
+        {
+          "jp": "先生の指示に従う。",
+          "vi": "Làm theo hướng dẫn của giáo viên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 051 — 従う"
+    },
+    {
+      "id": 3115,
+      "surface": "おごる",
+      "hiragana": "おごる",
+      "kanji": null,
+      "meaning_vi": "khao, chiêu đãi",
+      "examples": [
+        {
+          "jp": "先輩がラーメンをおごってくれた。",
+          "vi": "Tiền bối đã khao tôi mỳ ramen."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 052 — おごる"
+    },
+    {
+      "id": 3116,
+      "surface": "ご馳走する",
+      "hiragana": "ごちそうする",
+      "kanji": "ご馳走する",
+      "meaning_vi": "chiêu đãi, thiết đãi",
+      "examples": [
+        {
+          "jp": "旅行中に親切な人にご馳走していただいた。",
+          "vi": "Trong chuyến du lịch, tôi đã được một người tốt bụng mời ăn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 053 — ご馳走する"
+    },
+    {
+      "id": 3117,
+      "surface": "気にする",
+      "hiragana": "きにする",
+      "kanji": "気にする",
+      "meaning_vi": "bận tâm, lo lắng, để ý",
+      "examples": [
+        {
+          "jp": "失敗を気にしすぎないで、次に進もう。",
+          "vi": "Đừng quá bận tâm về thất bại, hãy tiến về phía trước."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 197 | BÀI 3 > TỪ VỰNG > mục 054 — 気にする"
+    },
+    {
+      "id": 3118,
+      "surface": "区切る",
+      "hiragana": "くぎる",
+      "kanji": "区切る",
+      "meaning_vi": "chia, tách, ngắt",
+      "examples": [
+        {
+          "jp": "言葉を区切って話すとわかりやすい。",
+          "vi": "Nói có ngắt nghỉ thì sẽ dễ hiểu."
+        },
+        {
+          "jp": "この部屋はカーテンで２つに区切られている。",
+          "vi": "Căn phòng này được chia làm hai bằng rèm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 055 — 区切る"
+    },
+    {
+      "id": 3119,
+      "surface": "区別",
+      "hiragana": "くべつ",
+      "kanji": "区別",
+      "meaning_vi": "phân biệt",
+      "examples": [
+        {
+          "jp": "生まれたばかりの鳥のオスとメスを区別するのは難しい。",
+          "vi": "Khó mà phân biệt được đực cái khi nhìn vào một chú chim sơ sinh."
+        },
+        {
+          "jp": "いいことと悪いことの区別をつける。",
+          "vi": "Phân biệt tốt xấu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 056 — 区別"
+    },
+    {
+      "id": 3120,
+      "surface": "支給",
+      "hiragana": "しきゅう",
+      "kanji": "支給",
+      "meaning_vi": "cấp phát, chu cấp",
+      "examples": [
+        {
+          "jp": "この日本語学校では教科書が無料で支給される。",
+          "vi": "Ở trường Nhật ngữ này, sách giáo khoa được cung cấp miễn phí."
+        },
+        {
+          "jp": "私の会社はアルバイトにも交通費を支給してくれる。",
+          "vi": "Công ty tôi hỗ trợ tiền đi lại cho cả nhân viên làm thêm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 057 — 支給"
+    },
+    {
+      "id": 3121,
+      "surface": "支出",
+      "hiragana": "ししゅつ",
+      "kanji": "支出",
+      "meaning_vi": "chi tiêu, khoản chi",
+      "examples": [
+        {
+          "jp": "費用は予算から支出する。",
+          "vi": "Chi phí được chi ra từ ngân sách."
+        },
+        {
+          "jp": "支出が収入を上回",
+          "vi": "Chi tiêu vượt quá thu nhập."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 058 — 支出"
+    },
+    {
+      "id": 3122,
+      "surface": "支度",
+      "hiragana": "したく",
+      "kanji": "支度",
+      "meaning_vi": "chuẩn bị, sửa soạn",
+      "examples": [
+        {
+          "jp": "出かけるから早く支度して。",
+          "vi": "Sắp ra ngoài nên hãy chuẩn bị nhanh đi."
+        },
+        {
+          "jp": "朝ご飯の支度をする。",
+          "vi": "Chuẩn bị đồ ăn sáng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 059 — 支度"
+    },
+    {
+      "id": 3123,
+      "surface": "禁煙",
+      "hiragana": "きんえん",
+      "kanji": "禁煙",
+      "meaning_vi": "cấm hút thuốc; bỏ thuốc",
+      "examples": [
+        {
+          "jp": "このレストランは全席禁煙だ。",
+          "vi": "Toàn bộ chỗ ngồi ở nhà hàng này đều là chỗ cấm hút thuốc."
+        },
+        {
+          "jp": "もうすぐ子供が産まれるので、禁煙することにした。",
+          "vi": "Vì con tôi sắp ra đời nên tôi đã quyết định bỏ thuốc lá."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 060 — 禁煙"
+    },
+    {
+      "id": 3124,
+      "surface": "観察",
+      "hiragana": "かんさつ",
+      "kanji": "観察",
+      "meaning_vi": "quan sát",
+      "examples": [
+        {
+          "jp": "息子は虫の観察が好きみたいです。",
+          "vi": "Con trai tôi có vẻ thích quan sát côn trùng."
+        },
+        {
+          "jp": "公園で鳥を観察する。",
+          "vi": "Quan sát chim trong công viên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 061 — 観察"
+    },
+    {
+      "id": 3125,
+      "surface": "診察",
+      "hiragana": "しんさつ",
+      "kanji": "診察",
+      "meaning_vi": "khám bệnh, chẩn đoán",
+      "examples": [
+        {
+          "jp": "足が痛くて、病院で診察してもらった。",
+          "vi": "Vì bị đau chân nên tôi đã đến bệnh viện để được khám."
+        },
+        {
+          "jp": "あの病院は丁寧に診察してくれるので人気です。",
+          "vi": "Bệnh viện đó nổi tiếng vì khám bệnh rất cẩn thận."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 062 — 診察"
+    },
+    {
+      "id": 3126,
+      "surface": "発表",
+      "hiragana": "はっぴょう",
+      "kanji": "発表",
+      "meaning_vi": "phát biểu, công bố",
+      "examples": [
+        {
+          "jp": "クラスで将来の夢を発表する。",
+          "vi": "Phát biểu về ước mơ trong tương lai của mình trước lớp."
+        },
+        {
+          "jp": "研究結果を発表する。",
+          "vi": "Công bố kết quả nghiên cứu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 198 | BÀI 3 > TỪ VỰNG > mục 063 — 発表"
+    },
+    {
+      "id": 3127,
+      "surface": "表現",
+      "hiragana": "ひょうげん",
+      "kanji": "表現",
+      "meaning_vi": "biểu hiện, thể hiện",
+      "examples": [
+        {
+          "jp": "メールに誤解を生む表現があった。",
+          "vi": "Trong email có cách diễn đạt gây hiểu lầm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 064 — 表現"
+    },
+    {
+      "id": 3128,
+      "surface": "学習",
+      "hiragana": "がくしゅう",
+      "kanji": "学習",
+      "meaning_vi": "học tập",
+      "examples": [
+        {
+          "jp": "外国語を学習する。",
+          "vi": "Tôi học ngoại ngữ."
+        },
+        {
+          "jp": "私は色々な国の学習者に日本語を教えています。",
+          "vi": "Tôi dạy tiếng Nhật cho học viên đến từ nhiều quốc gia khác nhau."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 065 — 学習"
+    },
+    {
+      "id": 3129,
+      "surface": "出版",
+      "hiragana": "しゅっぱん",
+      "kanji": "出版",
+      "meaning_vi": "xuất bản",
+      "examples": [
+        {
+          "jp": "彼女は有名な出版社に勤めている。",
+          "vi": "Cô ấy đang làm việc ở một nhà xuất bản nổi tiếng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 066 — 出版"
+    },
+    {
+      "id": 3130,
+      "surface": "期待",
+      "hiragana": "きたい",
+      "kanji": "期待",
+      "meaning_vi": "kỳ vọng, hy vọng",
+      "examples": [
+        {
+          "jp": "あの子はとても優秀で、周りから将来を期待されている。",
+          "vi": "Đứa trẻ đó rất xuất sắc và đang được mọi người xung quanh đặt nhiều ❖ kỳ vọng, hy vọng kỳ vọng vào tương lai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 067 — 期待"
+    },
+    {
+      "id": 3131,
+      "surface": "帰宅",
+      "hiragana": "きたく",
+      "kanji": "帰宅",
+      "meaning_vi": "về nhà",
+      "examples": [
+        {
+          "jp": "平日は、午後５時に帰宅する。",
+          "vi": "Ngày thường thì tôi sẽ về nhà lúc 5 giờ chiều."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 068 — 帰宅"
+    },
+    {
+      "id": 3132,
+      "surface": "強化",
+      "hiragana": "きょうか",
+      "kanji": "強化",
+      "meaning_vi": "tăng cường, củng cố",
+      "examples": [
+        {
+          "jp": "新しい選手を入れて、チームを強化する。",
+          "vi": "Chúng tôi củng cố đội hình bằng cách đưa thêm cầu thủ mới vào."
+        },
+        {
+          "jp": "体力を強化するために、毎日走っている。",
+          "vi": "Tôi chạy mỗi ngày để tăng cường thể lực."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 069 — 強化"
+    },
+    {
+      "id": 3133,
+      "surface": "レンタル",
+      "hiragana": "れんたる",
+      "kanji": null,
+      "meaning_vi": "thuê",
+      "examples": [
+        {
+          "jp": "この駅では自転車をレンタルできる。",
+          "vi": "Bạn có thể thuê xe đạp tại nhà ga này."
+        },
+        {
+          "jp": "車をレンタルしてドライブに行く。",
+          "vi": "Tôi thuê ô tô để lái xe đi dạo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 070 — レンタル"
+    },
+    {
+      "id": 3134,
+      "surface": "十分",
+      "hiragana": "じゅうぶん",
+      "kanji": "十分",
+      "meaning_vi": "đầy đủ",
+      "examples": [
+        {
+          "jp": "週末は十分休むようにしている。",
+          "vi": "Tôi cố gắng nghỉ ngơi đầy đủ vào cuối tuần."
+        },
+        {
+          "jp": "十分勉強したつもりだったが、試験に合格できなかった。",
+          "vi": "Tôi cứ ngỡ là đã học kỹ nhưng vẫn không thể đỗ kỳ thi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT/Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 071 — 十分"
+    },
+    {
+      "id": 3135,
+      "surface": "ぼろぼろ",
+      "hiragana": "ぼろぼろ",
+      "kanji": null,
+      "meaning_vi": "rách nát, tả tơi, te tua",
+      "examples": [
+        {
+          "jp": "私は子供のころは貧乏で、ぼろぼろな家に住んでいた。",
+          "vi": "Hồi nhỏ, tôi nghèo và sống trong một căn nhà tồi tàn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT/Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 072 — ぼろぼろ"
+    },
+    {
+      "id": 3136,
+      "surface": "単に",
+      "hiragana": "たんに",
+      "kanji": "単に",
+      "meaning_vi": "đơn thuần, chỉ là",
+      "examples": [
+        {
+          "jp": "彼が来なかったのは、単に約束を忘れていたからだと思う。",
+          "vi": "Tôi nghĩ việc anh ấy không đến đơn giản là vì đã quên mất cuộc hẹn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 199 | BÀI 3 > TỪ VỰNG > mục 073 — 単に"
+    }
+  ]
+}

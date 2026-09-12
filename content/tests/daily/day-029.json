@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-029",
+  "type": "daily",
+  "title": "Daily Test — Day 29",
+  "study_day": 29,
+  "coverage": {
+    "from_day": 28,
+    "to_day": 28
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この切符では途中下車できない。駅を出たら無効になる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ということだ"
+            },
+            {
+              "id": "B",
+              "text": "というところだ"
+            },
+            {
+              "id": "C",
+              "text": "というものではない"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "毎日続ける（　　　）は、短時間でも習慣を守るということだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というもの"
+            },
+            {
+              "id": "B",
+              "text": "ということ"
+            },
+            {
+              "id": "C",
+              "text": "というところ"
+            },
+            {
+              "id": "D",
+              "text": "というわけ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "返却期限が金曜日なら、木曜日までは借りられる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "というところだ"
+            },
+            {
+              "id": "B",
+              "text": "というものではない"
+            },
+            {
+              "id": "C",
+              "text": "ということだ"
+            },
+            {
+              "id": "D",
+              "text": "という場合だ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2801"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "紙の本は書き込みやすい（　　　）、電子書籍とは違う良さがある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という理由で"
+            },
+            {
+              "id": "C",
+              "text": "という立場で"
+            },
+            {
+              "id": "D",
+              "text": "という点で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この靴は雨でも滑りにくい（　　　）、山歩きに適している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という点で"
+            },
+            {
+              "id": "B",
+              "text": "という意味で"
+            },
+            {
+              "id": "C",
+              "text": "という理由で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "新しい制度は手続きが簡単だ（　　　）利用しやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という点で"
+            },
+            {
+              "id": "C",
+              "text": "という理由で"
+            },
+            {
+              "id": "D",
+              "text": "という立場で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "もし自分で店を開く（　　　）、小さな本屋にしたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によると"
+            },
+            {
+              "id": "C",
+              "text": "としたら"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "この証言が間違いだ（　　　）、調査を最初からやり直す必要がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によると"
+            },
+            {
+              "id": "C",
+              "text": "に対して"
+            },
+            {
+              "id": "D",
+              "text": "としたら"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "たとえ反対する人が多い（　　　）、必要性を説明し続けたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "としても"
+            },
+            {
+              "id": "B",
+              "text": "にしては"
+            },
+            {
+              "id": "C",
+              "text": "についても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "たとえ無料で使える（　　　）、安全性を確認してから登録する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にしては"
+            },
+            {
+              "id": "B",
+              "text": "としても"
+            },
+            {
+              "id": "C",
+              "text": "についても"
+            },
+            {
+              "id": "D",
+              "text": "によっても"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2804"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "家の（　　　）に新しいコンビニができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "向かい"
+            },
+            {
+              "id": "B",
+              "text": "薬局"
+            },
+            {
+              "id": "C",
+              "text": "容器"
+            },
+            {
+              "id": "D",
+              "text": "充電器"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2801"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "病院の帰りに（　　　）に寄った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "容器"
+            },
+            {
+              "id": "B",
+              "text": "薬局"
+            },
+            {
+              "id": "C",
+              "text": "充電器"
+            },
+            {
+              "id": "D",
+              "text": "期間"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2802"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "夕飯の残りを（　　　）に移して冷蔵庫に入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "充電器"
+            },
+            {
+              "id": "B",
+              "text": "期間"
+            },
+            {
+              "id": "C",
+              "text": "容器"
+            },
+            {
+              "id": "D",
+              "text": "日当たり"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2803"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "パソコンの（　　　）をなくしてしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "期間"
+            },
+            {
+              "id": "B",
+              "text": "日当たり"
+            },
+            {
+              "id": "C",
+              "text": "速度"
+            },
+            {
+              "id": "D",
+              "text": "充電器"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2804"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "申し込みできる（　　　）は１か月です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "期間"
+            },
+            {
+              "id": "B",
+              "text": "日当たり"
+            },
+            {
+              "id": "C",
+              "text": "速度"
+            },
+            {
+              "id": "D",
+              "text": "坂道"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2805"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "5 階は（　　　）がいいので洗濯物がよく乾く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "速度"
+            },
+            {
+              "id": "B",
+              "text": "日当たり"
+            },
+            {
+              "id": "C",
+              "text": "坂道"
+            },
+            {
+              "id": "D",
+              "text": "栄養"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2806"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "一定の（　　　）で歩く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "坂道"
+            },
+            {
+              "id": "B",
+              "text": "栄養"
+            },
+            {
+              "id": "C",
+              "text": "速度"
+            },
+            {
+              "id": "D",
+              "text": "泡"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2807"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "毎朝（　　　）を上って会社に行く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "栄養"
+            },
+            {
+              "id": "B",
+              "text": "泡"
+            },
+            {
+              "id": "C",
+              "text": "行き先"
+            },
+            {
+              "id": "D",
+              "text": "坂道"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2808"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "体調が悪い時は、（　　　）がある物を食べるといい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "栄養"
+            },
+            {
+              "id": "B",
+              "text": "泡"
+            },
+            {
+              "id": "C",
+              "text": "行き先"
+            },
+            {
+              "id": "D",
+              "text": "親指"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2809"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "ビールをグラスに注ぐと白い（　　　）ができる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "行き先"
+            },
+            {
+              "id": "B",
+              "text": "泡"
+            },
+            {
+              "id": "C",
+              "text": "親指"
+            },
+            {
+              "id": "D",
+              "text": "人差し指"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2810"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "（　　　）がわからないと不安になる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "親指"
+            },
+            {
+              "id": "B",
+              "text": "人差し指"
+            },
+            {
+              "id": "C",
+              "text": "行き先"
+            },
+            {
+              "id": "D",
+              "text": "中指"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2811"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "（　　　）を上げるのは、「賛成」という意味です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "人差し指"
+            },
+            {
+              "id": "B",
+              "text": "中指"
+            },
+            {
+              "id": "C",
+              "text": "薬指"
+            },
+            {
+              "id": "D",
+              "text": "親指"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2812"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "この辞書は作文に役立つ。 【役立つ】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やくだつ"
+            },
+            {
+              "id": "B",
+              "text": "きにいる"
+            },
+            {
+              "id": "C",
+              "text": "のぼる"
+            },
+            {
+              "id": "D",
+              "text": "むく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2838"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "外出するときはマスクをするように呼びかける。 【呼びかける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きにいる"
+            },
+            {
+              "id": "B",
+              "text": "よびかける"
+            },
+            {
+              "id": "C",
+              "text": "やくだつ"
+            },
+            {
+              "id": "D",
+              "text": "のぼる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2833"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "あそこのトイレは臭いので、使いたくない。 【臭い】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きにいる"
+            },
+            {
+              "id": "B",
+              "text": "やくだつ"
+            },
+            {
+              "id": "C",
+              "text": "くさい"
+            },
+            {
+              "id": "D",
+              "text": "のぼる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2832"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "海から強い風が吹いてきた。 【吹く】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふく"
+            },
+            {
+              "id": "B",
+              "text": "こきゅう"
+            },
+            {
+              "id": "C",
+              "text": "すう"
+            },
+            {
+              "id": "D",
+              "text": "よびかける"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2801"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "走った後は呼吸をゆっくり整えた。 【呼吸】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すう"
+            },
+            {
+              "id": "B",
+              "text": "こきゅう"
+            },
+            {
+              "id": "C",
+              "text": "よびかける"
+            },
+            {
+              "id": "D",
+              "text": "よびだす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2802"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "森で新鮮な空気を深く吸った。 【吸う】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よびかける"
+            },
+            {
+              "id": "B",
+              "text": "よびだす"
+            },
+            {
+              "id": "C",
+              "text": "すう"
+            },
+            {
+              "id": "D",
+              "text": "むける"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2802"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "警察は住民に注意を呼びかけた。 【呼びかける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よびだす"
+            },
+            {
+              "id": "B",
+              "text": "むける"
+            },
+            {
+              "id": "C",
+              "text": "むかい"
+            },
+            {
+              "id": "D",
+              "text": "よびかける"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2803"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "先生は放課後に私を職員室へ呼び出した。 【呼び出す】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よびだす"
+            },
+            {
+              "id": "B",
+              "text": "むける"
+            },
+            {
+              "id": "C",
+              "text": "むかい"
+            },
+            {
+              "id": "D",
+              "text": "ほうこう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2803"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "カメラを夕日に向けて写真を撮った。 【向ける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "むかい"
+            },
+            {
+              "id": "B",
+              "text": "むける"
+            },
+            {
+              "id": "C",
+              "text": "ほうこう"
+            },
+            {
+              "id": "D",
+              "text": "やっきょく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2804"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "郵便局の向かいに新しい店ができた。 【向かい】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうこう"
+            },
+            {
+              "id": "B",
+              "text": "やっきょく"
+            },
+            {
+              "id": "C",
+              "text": "むかい"
+            },
+            {
+              "id": "D",
+              "text": "ゆうびんきょく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2804"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "地図で駅の方向を確認した。 【方向】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やっきょく"
+            },
+            {
+              "id": "B",
+              "text": "ゆうびんきょく"
+            },
+            {
+              "id": "C",
+              "text": "がっき"
+            },
+            {
+              "id": "D",
+              "text": "ほうこう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2804"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "病院の帰りに【やっきょく】で薬を受け取った。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "薬局"
+            },
+            {
+              "id": "B",
+              "text": "郵便局"
+            },
+            {
+              "id": "C",
+              "text": "楽器"
+            },
+            {
+              "id": "D",
+              "text": "食器"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2805"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "【ゆうびんきょく】から海外へ荷物を送った。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "楽器"
+            },
+            {
+              "id": "B",
+              "text": "郵便局"
+            },
+            {
+              "id": "C",
+              "text": "食器"
+            },
+            {
+              "id": "D",
+              "text": "容器"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2805"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "姉は三歳から【がっき】を習っている。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "食器"
+            },
+            {
+              "id": "B",
+              "text": "容器"
+            },
+            {
+              "id": "C",
+              "text": "楽器"
+            },
+            {
+              "id": "D",
+              "text": "充電器"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2806"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "食事の後で【しょっき】を洗った。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "容器"
+            },
+            {
+              "id": "B",
+              "text": "充電器"
+            },
+            {
+              "id": "C",
+              "text": "君"
+            },
+            {
+              "id": "D",
+              "text": "食器"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2806"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "残った料理を【ようき】に移して冷蔵庫に入れた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "容器"
+            },
+            {
+              "id": "B",
+              "text": "充電器"
+            },
+            {
+              "id": "C",
+              "text": "君"
+            },
+            {
+              "id": "D",
+              "text": "吹く"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2806"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "旅行前に携帯の【じゅうでんき】をかばんへ入れた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "君"
+            },
+            {
+              "id": "B",
+              "text": "充電器"
+            },
+            {
+              "id": "C",
+              "text": "吹く"
+            },
+            {
+              "id": "D",
+              "text": "呼吸"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2806"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "【きみ】なら最後までやり遂げられるよ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "吹く"
+            },
+            {
+              "id": "B",
+              "text": "呼吸"
+            },
+            {
+              "id": "C",
+              "text": "君"
+            },
+            {
+              "id": "D",
+              "text": "吸う"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2807"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-030",
+  "study_day": 30,
+  "items": [
+    {
+      "id": 3001,
+      "structure": "～のほかに / ～ほかは",
+      "formation": [
+        "N + のほかに / のほか",
+        "Thể thường / Nの / Aな + ほかは"
+      ],
+      "meaning_vi": "Ngoài... ra; ngoại trừ... thì",
+      "usage_vi": "～のほかに bổ sung sự vật, lựa chọn hoặc đặc điểm bên cạnh điều đã nêu. ～ほかは đối chiếu: ngoại trừ khía cạnh phía trước thì các khía cạnh còn lại khác hoặc ngược lại.",
+      "examples": [
+        {
+          "jp": "身分証明書のほかに、写真も必要です。",
+          "vi": "Ngoài giấy tờ tùy thân, còn cần cả ảnh."
+        },
+        {
+          "jp": "駅から遠いほかは、とても住みやすい部屋だ。",
+          "vi": "Ngoại trừ việc xa ga, đây là căn phòng rất dễ sống."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 200 | BÀI 3 > NGỮ PHÁP > mục 1 — ～のほかに / ～ほかは"
+    },
+    {
+      "id": 3002,
+      "structure": "～一方で",
+      "formation": [
+        "Thể thường + 一方で",
+        "Aな / N + である + 一方で"
+      ],
+      "meaning_vi": "Một mặt... mặt khác; trong khi; đồng thời",
+      "usage_vi": "So sánh hai khía cạnh tương phản hoặc diễn tả hai hành động, vai trò diễn ra song song. Chủ ngữ của hai vế có thể giống hoặc khác nhau.",
+      "examples": [
+        {
+          "jp": "都会は便利な一方で、生活費が高い。",
+          "vi": "Thành phố một mặt tiện lợi, mặt khác chi phí sinh hoạt cao."
+        },
+        {
+          "jp": "彼女は会社で働く一方で、夜は大学で学んでいる。",
+          "vi": "Cô ấy vừa làm ở công ty, vừa học đại học vào buổi tối."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 201 | BÀI 3 > NGỮ PHÁP > mục 2 — ～一方で"
+    },
+    {
+      "id": 3003,
+      "structure": "～だけでなく",
+      "formation": [
+        "Thể thường / N + だけでなく",
+        "Aな + な + だけでなく"
+      ],
+      "meaning_vi": "Không chỉ... mà còn",
+      "usage_vi": "Cho biết không chỉ nội dung phía trước mà nội dung khác cũng đúng. Vế sau thường có も; trong hội thoại có thể dùng だけじゃなく.",
+      "examples": [
+        {
+          "jp": "この図書館では本を借りるだけでなく、映画も見られる。",
+          "vi": "Ở thư viện này không chỉ mượn sách mà còn có thể xem phim."
+        },
+        {
+          "jp": "彼は仕事が速いだけでなく、正確だ。",
+          "vi": "Anh ấy không chỉ làm việc nhanh mà còn chính xác."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 202 | BÀI 3 > NGỮ PHÁP > mục 3 — ～だけでなく"
+    },
+    {
+      "id": 3004,
+      "structure": "～ばかりでなく",
+      "formation": [
+        "Thể thường + ばかりで（は）なく",
+        "Aな / N + である + ばかりで（は）なく"
+      ],
+      "meaning_vi": "Không những... mà còn",
+      "usage_vi": "Có nghĩa tương đương だけで（は）なく và thường mang sắc thái văn viết hơn. Vế sau thường đi với も、まで hoặc さえ.",
+      "examples": [
+        {
+          "jp": "この店は料理ばかりでなく、サービスもいい。",
+          "vi": "Quán này không những đồ ăn ngon mà phục vụ cũng tốt."
+        },
+        {
+          "jp": "彼は日本語ばかりでなく、中国語も話せる。",
+          "vi": "Anh ấy không chỉ nói được tiếng Nhật mà còn nói được tiếng Trung."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 203 | BÀI 3 > NGỮ PHÁP > mục 4 — ～ばかりでなく"
+    }
+  ]
+}

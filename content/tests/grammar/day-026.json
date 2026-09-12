@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-026",
+  "type": "grammar",
+  "title": "Grammar Test — Day 26",
+  "study_day": 26,
+  "coverage": {
+    "from_day": 26,
+    "to_day": 26
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "送別会の贈り物は、写真立て（　　　）どうでしょう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんか"
+            },
+            {
+              "id": "B",
+              "text": "だけ"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "休日には陶芸教室（　　　）に参加してみたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "なんか"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "申込書と本人確認書類（　　　）を受付へお持ちください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "など"
+            },
+            {
+              "id": "D",
+              "text": "まで"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "庭にラベンダー（　　　）を植えると、香りも楽しめます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "など"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "雨の日は家で昔の映画（　　　）見ない？",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんか"
+            },
+            {
+              "id": "B",
+              "text": "だけ"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "地域の祭りでは、焼きそば（　　　）がよく売れる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "など"
+            },
+            {
+              "id": "C",
+              "text": "ばかり"
+            },
+            {
+              "id": "D",
+              "text": "まで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "初めての一人旅なら、京都（　　　）はどうですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "まで"
+            },
+            {
+              "id": "C",
+              "text": "なんか"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "会議では費用や日程（　　　）について話し合った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "など"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2601"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "約束を何度も破る人の言葉（　　　）、もう信じられない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "高価な時計（　　　）なくても、時間は確認できる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "なんか"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "経験の少ない私（　　　）に、代表は務まりません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "まで"
+            },
+            {
+              "id": "C",
+              "text": "なんか"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "見た目だけの評価（　　　）、気にする必要はない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "など"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "一度失敗したこと（　　　）で、夢を諦めたくない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんか"
+            },
+            {
+              "id": "B",
+              "text": "だけ"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "他人のうわさ（　　　）、聞く価値もないと思う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "なんて"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "古い型のスマホ（　　　）、買ってもすぐ使えなくなるよ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "まで"
+            },
+            {
+              "id": "C",
+              "text": "なんか"
+            },
+            {
+              "id": "D",
+              "text": "ほど"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "私の小さな手助け（　　　）、お礼を言われるほどではありません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけ"
+            },
+            {
+              "id": "B",
+              "text": "ばかり"
+            },
+            {
+              "id": "C",
+              "text": "まで"
+            },
+            {
+              "id": "D",
+              "text": "など"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2602"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "無口な弟が演劇の主役に選ばれた（　　　）、家族全員が驚いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "あの小さな店が百年も続いている（　　　）、信じられない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "なんて"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "なくした指輪が庭で見つかる（　　　）、思ってもみなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "なんて"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "初めて作った料理がこんなに好評だ（　　　）、うれしい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "なら"
+            },
+            {
+              "id": "D",
+              "text": "なんて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "真夏に山の上で雪が降った（　　　）、本当に珍しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "彼女が一人で砂漠を横断した（　　　）、なんて勇気だろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "なんて"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "長年探していた本をこの町で見つける（　　　）、夢のようだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "なんて"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "いつも元気な祖父が入院した（　　　）、まだ受け入れられない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "なら"
+            },
+            {
+              "id": "D",
+              "text": "なんて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "この静かな湖の下に昔の村がある（　　　）、初めて知った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        }
+      ]
+    }
+  ]
+}

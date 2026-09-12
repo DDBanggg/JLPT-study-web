@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-032",
+  "type": "daily",
+  "title": "Daily Test — Day 32",
+  "study_day": 32,
+  "coverage": {
+    "from_day": 31,
+    "to_day": 31
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "十分に水をやったので、この苗は元気になる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "店員が倉庫を確認したから、在庫の数は正しい（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "はずだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "大会は雨でも行うと書いてあるから、中止にはならない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "はずだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この道をまっすぐ進めば、駅前の広場に出る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ことだ"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "はずだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "彼女は通訳として十年働いたので、会話には困らない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずだ"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "わけではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "海から遠い山の町で、津波が来る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "昨日直したばかりの時計が、もう壊れている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "彼は責任者ではないので、最終決定を下せる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "ことになった"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "はずがない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "冷凍庫に入れた水が、熱くなる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "かもしれない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この薬局は二十四時間営業だから、今閉まっている（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "夕食の後はいつも（　　　）を食べている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "デザート"
+            },
+            {
+              "id": "B",
+              "text": "ピーマン"
+            },
+            {
+              "id": "C",
+              "text": "ビタミン"
+            },
+            {
+              "id": "D",
+              "text": "カロリー"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3101"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "（　　　）を切って、サラダに入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ビタミン"
+            },
+            {
+              "id": "B",
+              "text": "ピーマン"
+            },
+            {
+              "id": "C",
+              "text": "カロリー"
+            },
+            {
+              "id": "D",
+              "text": "区別"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3102"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "（　　　）は果物からとることができる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "カロリー"
+            },
+            {
+              "id": "B",
+              "text": "区別"
+            },
+            {
+              "id": "C",
+              "text": "ビタミン"
+            },
+            {
+              "id": "D",
+              "text": "支給"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3103"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "油を使った料理は（　　　）が高い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "区別"
+            },
+            {
+              "id": "B",
+              "text": "支給"
+            },
+            {
+              "id": "C",
+              "text": "支出"
+            },
+            {
+              "id": "D",
+              "text": "カロリー"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3104"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "彼のプレゼンテーションは（　　　）だった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "完璧"
+            },
+            {
+              "id": "B",
+              "text": "気楽"
+            },
+            {
+              "id": "C",
+              "text": "単純"
+            },
+            {
+              "id": "D",
+              "text": "偉い"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3105"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "家族と住むより一人で住むほうが（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "単純"
+            },
+            {
+              "id": "B",
+              "text": "気楽"
+            },
+            {
+              "id": "C",
+              "text": "偉い"
+            },
+            {
+              "id": "D",
+              "text": "ひどい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3106"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "（　　　）なミスを繰り返す。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "偉い"
+            },
+            {
+              "id": "B",
+              "text": "ひどい"
+            },
+            {
+              "id": "C",
+              "text": "単純"
+            },
+            {
+              "id": "D",
+              "text": "完璧"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3107"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "社長のような（　　　）人になりたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひどい"
+            },
+            {
+              "id": "B",
+              "text": "完璧"
+            },
+            {
+              "id": "C",
+              "text": "気楽"
+            },
+            {
+              "id": "D",
+              "text": "偉い"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3108"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "嘘をつくなんて（　　　）よ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひどい"
+            },
+            {
+              "id": "B",
+              "text": "完璧"
+            },
+            {
+              "id": "C",
+              "text": "気楽"
+            },
+            {
+              "id": "D",
+              "text": "単純"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3109"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "チェックインするときは、ホテルのフロントに身分証を（　　　）必要がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯まる"
+            },
+            {
+              "id": "B",
+              "text": "示す"
+            },
+            {
+              "id": "C",
+              "text": "よける"
+            },
+            {
+              "id": "D",
+              "text": "従う"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3110"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "先生の指示に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯まる"
+            },
+            {
+              "id": "B",
+              "text": "よける"
+            },
+            {
+              "id": "C",
+              "text": "従う"
+            },
+            {
+              "id": "D",
+              "text": "おごる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3114"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "生まれたばかりの鳥のオスとメスを（　　　）するのは難しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "表現"
+            },
+            {
+              "id": "B",
+              "text": "学習"
+            },
+            {
+              "id": "C",
+              "text": "出版"
+            },
+            {
+              "id": "D",
+              "text": "区別"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3119"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "彼が来なかったのは、単に約束を忘れていたからだと思う。 【単に】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たんに"
+            },
+            {
+              "id": "B",
+              "text": "じゅうぶん"
+            },
+            {
+              "id": "C",
+              "text": "きょうか"
+            },
+            {
+              "id": "D",
+              "text": "きたく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3136"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "週末は十分休むようにしている。 【十分】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たんに"
+            },
+            {
+              "id": "B",
+              "text": "じゅうぶん"
+            },
+            {
+              "id": "C",
+              "text": "きょうか"
+            },
+            {
+              "id": "D",
+              "text": "きたく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3134"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "新しい選手を入れて、チームを強化する。 【強化】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たんに"
+            },
+            {
+              "id": "B",
+              "text": "じゅうぶん"
+            },
+            {
+              "id": "C",
+              "text": "きょうか"
+            },
+            {
+              "id": "D",
+              "text": "きたく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3132"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "小麦粉に卵と牛乳を混ぜた。 【小麦粉】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こむぎこ"
+            },
+            {
+              "id": "B",
+              "text": "せきにん"
+            },
+            {
+              "id": "C",
+              "text": "むせきにん"
+            },
+            {
+              "id": "D",
+              "text": "つむ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3101"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "自分の仕事には最後まで責任を持つ。 【責任】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "むせきにん"
+            },
+            {
+              "id": "B",
+              "text": "せきにん"
+            },
+            {
+              "id": "C",
+              "text": "つむ"
+            },
+            {
+              "id": "D",
+              "text": "つもる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3102"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "確認せずに情報を広めるのは無責任だ。 【無責任】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つむ"
+            },
+            {
+              "id": "B",
+              "text": "つもる"
+            },
+            {
+              "id": "C",
+              "text": "むせきにん"
+            },
+            {
+              "id": "D",
+              "text": "せっきょくてき"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3102"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "旅行の荷物を車の後ろに積む。 【積む】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもる"
+            },
+            {
+              "id": "B",
+              "text": "せっきょくてき"
+            },
+            {
+              "id": "C",
+              "text": "せいせき"
+            },
+            {
+              "id": "D",
+              "text": "つむ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3103"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "夜の間に雪が十センチ積もった。 【積もる】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもる"
+            },
+            {
+              "id": "B",
+              "text": "せっきょくてき"
+            },
+            {
+              "id": "C",
+              "text": "せいせき"
+            },
+            {
+              "id": "D",
+              "text": "まけ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3103"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "会議では積極的に意見を述べた。 【積極的】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいせき"
+            },
+            {
+              "id": "B",
+              "text": "せっきょくてき"
+            },
+            {
+              "id": "C",
+              "text": "まけ"
+            },
+            {
+              "id": "D",
+              "text": "まける"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3103"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "努力を続けた結果、成績が上がった。 【成績】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まけ"
+            },
+            {
+              "id": "B",
+              "text": "まける"
+            },
+            {
+              "id": "C",
+              "text": "せいせき"
+            },
+            {
+              "id": "D",
+              "text": "しっぱい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3104"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "昨日の負けから多くのことを学んだ。 【負け】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まける"
+            },
+            {
+              "id": "B",
+              "text": "しっぱい"
+            },
+            {
+              "id": "C",
+              "text": "ためる"
+            },
+            {
+              "id": "D",
+              "text": "まけ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3105"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "強い相手にも【まける】つもりはない。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "負ける"
+            },
+            {
+              "id": "B",
+              "text": "失敗"
+            },
+            {
+              "id": "C",
+              "text": "貯める"
+            },
+            {
+              "id": "D",
+              "text": "貯まる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3105"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "【しっぱい】の原因を調べて次に生かす。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯める"
+            },
+            {
+              "id": "B",
+              "text": "失敗"
+            },
+            {
+              "id": "C",
+              "text": "貯まる"
+            },
+            {
+              "id": "D",
+              "text": "貯金"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3106"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "留学のため毎月少しずつお金を【ためる】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯まる"
+            },
+            {
+              "id": "B",
+              "text": "貯金"
+            },
+            {
+              "id": "C",
+              "text": "貯める"
+            },
+            {
+              "id": "D",
+              "text": "小麦粉"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3107"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "この店で買い物をするとポイントが【たまる】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯金"
+            },
+            {
+              "id": "B",
+              "text": "小麦粉"
+            },
+            {
+              "id": "C",
+              "text": "責任"
+            },
+            {
+              "id": "D",
+              "text": "貯まる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3107"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "給料の一部を毎月【ちょきん】している。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "貯金"
+            },
+            {
+              "id": "B",
+              "text": "小麦粉"
+            },
+            {
+              "id": "C",
+              "text": "責任"
+            },
+            {
+              "id": "D",
+              "text": "無責任"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3107"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "担当者は遅れの【せきにん】を認めて謝った。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "小麦粉"
+            },
+            {
+              "id": "B",
+              "text": "責任"
+            },
+            {
+              "id": "C",
+              "text": "無責任"
+            },
+            {
+              "id": "D",
+              "text": "積む"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3102"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "料理の【しっぱい】をきっかけに温度を見直した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "小麦粉"
+            },
+            {
+              "id": "B",
+              "text": "責任"
+            },
+            {
+              "id": "C",
+              "text": "失敗"
+            },
+            {
+              "id": "D",
+              "text": "無責任"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3106"
+          ]
+        }
+      ]
+    }
+  ]
+}

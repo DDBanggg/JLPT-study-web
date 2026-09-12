@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-027",
+  "study_day": 27,
+  "items": [
+    {
+      "id": 2701,
+      "kanji": "検",
+      "han_viet": "KIỂM",
+      "meaning_vi": "kiểm tra",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "meaning_vi": "kiểm tra, xét nghiệm"
+        },
+        {
+          "word": "検索",
+          "reading": "けんさく",
+          "meaning_vi": "tìm kiếm, tra cứu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 148 | BÀI 1 > CHỮ HÁN > 検"
+    },
+    {
+      "id": 2702,
+      "kanji": "査",
+      "han_viet": "TRA",
+      "meaning_vi": "điều tra, kiểm tra",
+      "onyomi": [
+        "サ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "meaning_vi": "kiểm tra, xét nghiệm"
+        },
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning_vi": "điều tra, khảo sát"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 149 | BÀI 1 > CHỮ HÁN > 査"
+    },
+    {
+      "id": 2703,
+      "kanji": "果",
+      "han_viet": "QUẢ",
+      "meaning_vi": "quả; kết quả",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "は・たす",
+        "は・てる",
+        "は・て"
+      ],
+      "compounds": [
+        {
+          "word": "果物",
+          "reading": "くだもの",
+          "meaning_vi": "trái cây"
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning_vi": "kết quả"
+        },
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning_vi": "hiệu quả"
+        },
+        {
+          "word": "効果的",
+          "reading": "こうかてき",
+          "meaning_vi": "có hiệu quả"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 149 | BÀI 1 > CHỮ HÁN > 果"
+    },
+    {
+      "id": 2704,
+      "kanji": "葉",
+      "han_viet": "DIỆP",
+      "meaning_vi": "lá; từ ngữ",
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "は"
+      ],
+      "compounds": [
+        {
+          "word": "葉",
+          "reading": "は",
+          "meaning_vi": "lá"
+        },
+        {
+          "word": "紅葉",
+          "reading": "もみじ",
+          "meaning_vi": "lá phong đỏ"
+        },
+        {
+          "word": "紅葉",
+          "reading": "こうよう",
+          "meaning_vi": "sự chuyển màu lá đỏ"
+        },
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "meaning_vi": "từ ngữ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 149 | BÀI 1 > CHỮ HÁN > 葉"
+    },
+    {
+      "id": 2705,
+      "kanji": "束",
+      "han_viet": "THÚC",
+      "meaning_vi": "bó; buộc",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "たば"
+      ],
+      "compounds": [
+        {
+          "word": "花束",
+          "reading": "はなたば",
+          "meaning_vi": "bó hoa"
+        },
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "meaning_vi": "lời hứa"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 150 | BÀI 1 > CHỮ HÁN > 束"
+    },
+    {
+      "id": 2706,
+      "kanji": "常",
+      "han_viet": "THƯỜNG",
+      "meaning_vi": "thường; bình thường",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "つね",
+        "とこ"
+      ],
+      "compounds": [
+        {
+          "word": "常識",
+          "reading": "じょうしき",
+          "meaning_vi": "thường thức"
+        },
+        {
+          "word": "正常",
+          "reading": "せいじょう",
+          "meaning_vi": "bình thường"
+        },
+        {
+          "word": "日常",
+          "reading": "にちじょう",
+          "meaning_vi": "thường ngày"
+        },
+        {
+          "word": "異常",
+          "reading": "いじょう",
+          "meaning_vi": "bất thường"
+        },
+        {
+          "word": "常に",
+          "reading": "つねに",
+          "meaning_vi": "luôn luôn"
+        },
+        {
+          "word": "非常に",
+          "reading": "ひじょうに",
+          "meaning_vi": "rất, cực kỳ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 150 | BÀI 1 > CHỮ HÁN > 常"
+    },
+    {
+      "id": 2707,
+      "kanji": "独",
+      "han_viet": "ĐỘC",
+      "meaning_vi": "một mình; độc lập",
+      "onyomi": [
+        "ドク"
+      ],
+      "kunyomi": [
+        "ひと・り"
+      ],
+      "compounds": [
+        {
+          "word": "独身",
+          "reading": "どくしん",
+          "meaning_vi": "độc thân"
+        },
+        {
+          "word": "独立",
+          "reading": "どくりつ",
+          "meaning_vi": "độc lập"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 150 | BÀI 1 > CHỮ HÁN > 独"
+    }
+  ]
+}

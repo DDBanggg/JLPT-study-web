@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-029",
+  "study_day": 29,
+  "items": [
+    {
+      "id": 2901,
+      "kanji": "否",
+      "han_viet": "PHỦ",
+      "meaning_vi": "phủ định",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "いな"
+      ],
+      "compounds": [
+        {
+          "word": "否定",
+          "reading": "ひてい",
+          "meaning_vi": "phủ định, bác bỏ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 169 | BÀI 2 > CHỮ HÁN > 否"
+    },
+    {
+      "id": 2902,
+      "kanji": "告",
+      "han_viet": "CÁO",
+      "meaning_vi": "báo; thông báo",
+      "onyomi": [
+        "コク"
+      ],
+      "kunyomi": [
+        "つ・げる"
+      ],
+      "compounds": [
+        {
+          "word": "広告",
+          "reading": "こうこく",
+          "meaning_vi": "quảng cáo"
+        },
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning_vi": "báo cáo"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 169 | BÀI 2 > CHỮ HÁN > 告"
+    },
+    {
+      "id": 2903,
+      "kanji": "豆",
+      "han_viet": "ĐẬU",
+      "meaning_vi": "hạt đậu",
+      "onyomi": [
+        "トウ",
+        "ズ"
+      ],
+      "kunyomi": [
+        "まめ"
+      ],
+      "compounds": [
+        {
+          "word": "豆",
+          "reading": "まめ",
+          "meaning_vi": "đậu"
+        },
+        {
+          "word": "納豆",
+          "reading": "なっとう",
+          "meaning_vi": "natto"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 170 | BÀI 2 > CHỮ HÁN > 豆"
+    },
+    {
+      "id": 2904,
+      "kanji": "頭",
+      "han_viet": "ĐẦU",
+      "meaning_vi": "đầu",
+      "onyomi": [
+        "トウ",
+        "ズ",
+        "ト"
+      ],
+      "kunyomi": [
+        "あたま",
+        "かしら"
+      ],
+      "compounds": [
+        {
+          "word": "頭",
+          "reading": "あたま",
+          "meaning_vi": "đầu"
+        },
+        {
+          "word": "頭痛",
+          "reading": "ずつう",
+          "meaning_vi": "đau đầu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 170 | BÀI 2 > CHỮ HÁN > 頭"
+    },
+    {
+      "id": 2905,
+      "kanji": "登",
+      "han_viet": "ĐĂNG",
+      "meaning_vi": "leo; xuất hiện",
+      "onyomi": [
+        "トウ",
+        "ト"
+      ],
+      "kunyomi": [
+        "のぼ・る"
+      ],
+      "compounds": [
+        {
+          "word": "登る",
+          "reading": "のぼる",
+          "meaning_vi": "leo"
+        },
+        {
+          "word": "山登り",
+          "reading": "やまのぼり",
+          "meaning_vi": "leo núi"
+        },
+        {
+          "word": "登山",
+          "reading": "とざん",
+          "meaning_vi": "leo núi"
+        },
+        {
+          "word": "登場",
+          "reading": "とうじょう",
+          "meaning_vi": "xuất hiện"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 170 | BÀI 2 > CHỮ HÁN > 登"
+    },
+    {
+      "id": 2906,
+      "kanji": "喜",
+      "han_viet": "HỶ",
+      "meaning_vi": "vui mừng",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "よろこ・ぶ"
+      ],
+      "compounds": [
+        {
+          "word": "喜ぶ",
+          "reading": "よろこぶ",
+          "meaning_vi": "vui mừng"
+        },
+        {
+          "word": "喜び",
+          "reading": "よろこび",
+          "meaning_vi": "niềm vui"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 171 | BÀI 2 > CHỮ HÁN > 喜"
+    }
+  ]
+}

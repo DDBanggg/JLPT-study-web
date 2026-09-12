@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-031",
+  "study_day": 31,
+  "items": [
+    {
+      "id": 3101,
+      "title": "本を交換する棚",
+      "passage_jp": "公園の入口に、だれでも本を置いたり持ち帰ったりできる小さな棚がある。最初は古い本を再利用するために作られたが、今では本の横に短い感想を書いたカードを置く人もいる。そのカードを読んで、今まで選ばなかった本を手に取る人が増えた。顔を合わせなくても、本を通して知らない人の考えに触れられる。この棚の魅力は、無料で本を得られることだけではない。",
+      "translation_vi": "Ở lối vào công viên có một chiếc kệ nhỏ nơi bất kỳ ai cũng có thể đặt sách hoặc mang sách về. Ban đầu nó được làm để tái sử dụng sách cũ, nhưng hiện nay có người còn đặt bên cạnh sách những tấm thẻ ghi cảm nghĩ ngắn. Sau khi đọc các tấm thẻ đó, số người cầm lên những cuốn sách mà trước đây họ không chọn đã tăng lên. Dù không gặp mặt, mọi người vẫn có thể tiếp xúc với suy nghĩ của người lạ thông qua sách. Sức hấp dẫn của chiếc kệ này không chỉ nằm ở việc có thể nhận sách miễn phí.",
+      "media": [],
+      "source_ref": "supplemental-authored | Chapter 3 skimming/gist transfer 3",
+      "questions": [
+        {
+          "id": "c03r-d06-q01",
+          "question_type": "mcq",
+          "question_jp": "この棚の魅力として文章が強調していることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本を高く売れること"
+            },
+            {
+              "id": "B",
+              "text": "公園で勉強を禁止できること"
+            },
+            {
+              "id": "C",
+              "text": "本を通して他人の考えに触れられること"
+            },
+            {
+              "id": "D",
+              "text": "新しい棚を毎月買えること"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03r-d06-q02",
+          "question_type": "mcq",
+          "question_jp": "感想カードによって何が起きましたか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "棚が公園から移された"
+            },
+            {
+              "id": "B",
+              "text": "選ばなかった本を読む人が増えた"
+            },
+            {
+              "id": "C",
+              "text": "古い本がすべて捨てられた"
+            },
+            {
+              "id": "D",
+              "text": "利用者が顔を合わせなくなった"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d06-q03",
+          "question_type": "mcq",
+          "question_jp": "最後の文の後に続く内容として最も自然なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本を通じた見えない交流にも価値がある。"
+            },
+            {
+              "id": "B",
+              "text": "棚の木材は外国から運ばれた。"
+            },
+            {
+              "id": "C",
+              "text": "公園は毎晩九時に閉まる。"
+            },
+            {
+              "id": "D",
+              "text": "本の値段を上げる必要がある。"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

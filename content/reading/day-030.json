@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-030",
+  "study_day": 30,
+  "items": [
+    {
+      "id": 3001,
+      "title": "短い会議の工夫",
+      "passage_jp": "私の会社では、会議が長すぎることが問題になっていた。そこで、資料は前日までに読み、会議では決める必要がある点だけを話すことにした。また、全員が立ったまま参加する会議も試している。初めは落ち着かないという声もあったが、今では多くの会議が三十分以内に終わる。大切なのは、会議を短くすること自体ではなく、話し合う目的をはっきりさせることだ。",
+      "translation_vi": "Ở công ty tôi, việc các cuộc họp kéo dài quá lâu từng trở thành một vấn đề. Vì vậy, chúng tôi quyết định đọc tài liệu trước ngày họp và trong cuộc họp chỉ trao đổi những điểm cần quyết định. Chúng tôi cũng thử tổ chức cuộc họp mà mọi người đều đứng. Ban đầu có ý kiến cho rằng cách này không thoải mái, nhưng hiện nay nhiều cuộc họp kết thúc trong vòng 30 phút. Điều quan trọng không phải bản thân việc rút ngắn cuộc họp, mà là làm rõ mục đích của việc thảo luận.",
+      "media": [],
+      "source_ref": "supplemental-authored | Chapter 3 skimming/gist transfer 2",
+      "questions": [
+        {
+          "id": "c03r-d05-q01",
+          "question_type": "mcq",
+          "question_jp": "筆者が最も重要だと考えていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会議中は必ず立つこと"
+            },
+            {
+              "id": "B",
+              "text": "資料を会議中に初めて読むこと"
+            },
+            {
+              "id": "C",
+              "text": "話し合う目的を明確にすること"
+            },
+            {
+              "id": "D",
+              "text": "すべての会議をなくすこと"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03r-d05-q02",
+          "question_type": "mcq",
+          "question_jp": "文章の流れとして最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "結果→昔話→質問"
+            },
+            {
+              "id": "B",
+              "text": "問題→工夫→結果と結論"
+            },
+            {
+              "id": "C",
+              "text": "比較→旅行→広告"
+            },
+            {
+              "id": "D",
+              "text": "意見→反対→別の話題"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d05-q03",
+          "question_type": "mcq",
+          "question_jp": "「立ったまま参加する会議」は何として挙げられていますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "会議を効率化するために試した工夫"
+            },
+            {
+              "id": "B",
+              "text": "社員の健康診断"
+            },
+            {
+              "id": "C",
+              "text": "新しい仕事の規則"
+            },
+            {
+              "id": "D",
+              "text": "資料を作らない理由"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

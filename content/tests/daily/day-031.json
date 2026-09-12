@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-031",
+  "type": "daily",
+  "title": "Daily Test — Day 31",
+  "study_day": 31,
+  "coverage": {
+    "from_day": 30,
+    "to_day": 30
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "少し音が大きい（　　　）、この掃除機には満足している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほかは"
+            },
+            {
+              "id": "B",
+              "text": "ために"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "に加えて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "朝が早い（　　　）、今のアルバイトに不満はない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "ほかは"
+            },
+            {
+              "id": "C",
+              "text": "について"
+            },
+            {
+              "id": "D",
+              "text": "に加えて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "表紙が汚れている（　　　）、本の状態はとてもよい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "ほかは"
+            },
+            {
+              "id": "D",
+              "text": "に加えて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3001"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "兄は本社で商品を開発する（　　　）、大学でも研究を続けている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "ばかりで"
+            },
+            {
+              "id": "C",
+              "text": "ところで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この素材は軽い（　　　）、熱に弱いという欠点がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ために"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "母は家計を管理する（　　　）、地域の活動にも参加している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ために"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "発表では結果を示す（　　　）、失敗した点も説明した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけでなく"
+            },
+            {
+              "id": "D",
+              "text": "だけに"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "この道路は幅が狭い（　　　）、夜は照明も少ない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけに"
+            },
+            {
+              "id": "D",
+              "text": "だけでなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "姉は留学費用を自分で貯めた（　　　）、現地の住居まで探した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "B",
+              "text": "ばかりに"
+            },
+            {
+              "id": "C",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この講座では文章の読み方（　　　）、書き方も学べる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばかりに"
+            },
+            {
+              "id": "B",
+              "text": "ばかりでなく"
+            },
+            {
+              "id": "C",
+              "text": "ばかりだが"
+            },
+            {
+              "id": "D",
+              "text": "ばかりなら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "明日、部長が（　　　）を訪問する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "本社"
+            },
+            {
+              "id": "B",
+              "text": "支社"
+            },
+            {
+              "id": "C",
+              "text": "本店"
+            },
+            {
+              "id": "D",
+              "text": "支店"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3001"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "来月から大阪の（　　　）で働くことになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "本店"
+            },
+            {
+              "id": "B",
+              "text": "支社"
+            },
+            {
+              "id": "C",
+              "text": "支店"
+            },
+            {
+              "id": "D",
+              "text": "単身"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3002"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "大阪のこの店は支店で、（　　　）は東京にあるらしい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "単身"
+            },
+            {
+              "id": "B",
+              "text": "展示会"
+            },
+            {
+              "id": "C",
+              "text": "本店"
+            },
+            {
+              "id": "D",
+              "text": "表紙"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3003"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "ホーチミンに、日本の銀行の（　　　）ができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "単身"
+            },
+            {
+              "id": "B",
+              "text": "展示会"
+            },
+            {
+              "id": "C",
+              "text": "表紙"
+            },
+            {
+              "id": "D",
+              "text": "支店"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3004"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "彼は家族をベトナムに残し、（　　　）で日本に働きに来た。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "単身"
+            },
+            {
+              "id": "B",
+              "text": "展示会"
+            },
+            {
+              "id": "C",
+              "text": "表紙"
+            },
+            {
+              "id": "D",
+              "text": "表面"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3005"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "新しい製品の（　　　）が来月開催される。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "表紙"
+            },
+            {
+              "id": "B",
+              "text": "展示会"
+            },
+            {
+              "id": "C",
+              "text": "表面"
+            },
+            {
+              "id": "D",
+              "text": "時刻表"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3006"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "この雑誌の（　　　）の写真は大阪です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "表面"
+            },
+            {
+              "id": "B",
+              "text": "時刻表"
+            },
+            {
+              "id": "C",
+              "text": "表紙"
+            },
+            {
+              "id": "D",
+              "text": "小麦粉"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3007"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "池の（　　　）に氷が張っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "時刻表"
+            },
+            {
+              "id": "B",
+              "text": "小麦粉"
+            },
+            {
+              "id": "C",
+              "text": "服装"
+            },
+            {
+              "id": "D",
+              "text": "表面"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3008"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "飛行機の（　　　）が変更されたので、出発時間を確認してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "時刻表"
+            },
+            {
+              "id": "B",
+              "text": "小麦粉"
+            },
+            {
+              "id": "C",
+              "text": "服装"
+            },
+            {
+              "id": "D",
+              "text": "家庭"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3009"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "卵とバターをよく混ぜてから、（　　　）を入れます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "服装"
+            },
+            {
+              "id": "B",
+              "text": "小麦粉"
+            },
+            {
+              "id": "C",
+              "text": "家庭"
+            },
+            {
+              "id": "D",
+              "text": "博物館"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3010"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "面接にはしっかりした（　　　）で行くべきだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "家庭"
+            },
+            {
+              "id": "B",
+              "text": "博物館"
+            },
+            {
+              "id": "C",
+              "text": "服装"
+            },
+            {
+              "id": "D",
+              "text": "実力"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3011"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "私はお金持ちではない、平凡な（　　　）で育った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "博物館"
+            },
+            {
+              "id": "B",
+              "text": "実力"
+            },
+            {
+              "id": "C",
+              "text": "運"
+            },
+            {
+              "id": "D",
+              "text": "家庭"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3012"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "ここは駐車禁止です。駐車場にとめてください。 【駐車禁止】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ちゅうしゃきんし"
+            },
+            {
+              "id": "B",
+              "text": "かんかく"
+            },
+            {
+              "id": "C",
+              "text": "ぎょうじ"
+            },
+            {
+              "id": "D",
+              "text": "きょり"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3031"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "学校行事に参加する。 【行事】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かんかく"
+            },
+            {
+              "id": "B",
+              "text": "ぎょうじ"
+            },
+            {
+              "id": "C",
+              "text": "ちゅうしゃきんし"
+            },
+            {
+              "id": "D",
+              "text": "きょり"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3030"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "家から会社までは距離がある。 【距離】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かんかく"
+            },
+            {
+              "id": "B",
+              "text": "ちゅうしゃきんし"
+            },
+            {
+              "id": "C",
+              "text": "きょり"
+            },
+            {
+              "id": "D",
+              "text": "ぎょうじ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3029"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "レジでカードを使って代金を支払う。 【支払う】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しはらう"
+            },
+            {
+              "id": "B",
+              "text": "しきゅう"
+            },
+            {
+              "id": "C",
+              "text": "ししゃ"
+            },
+            {
+              "id": "D",
+              "text": "したく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3001"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "会社から通勤費が支給される。 【支給】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ししゃ"
+            },
+            {
+              "id": "B",
+              "text": "しきゅう"
+            },
+            {
+              "id": "C",
+              "text": "したく"
+            },
+            {
+              "id": "D",
+              "text": "たんご"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3001"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "来月から大阪支社で働く。 【支社】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "したく"
+            },
+            {
+              "id": "B",
+              "text": "たんご"
+            },
+            {
+              "id": "C",
+              "text": "ししゃ"
+            },
+            {
+              "id": "D",
+              "text": "たんしん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3001"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "朝食を済ませて出発の支度をした。 【支度】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たんご"
+            },
+            {
+              "id": "B",
+              "text": "たんしん"
+            },
+            {
+              "id": "C",
+              "text": "そつぎょう"
+            },
+            {
+              "id": "D",
+              "text": "したく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3001"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "知らない単語をノートにまとめた。 【単語】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たんご"
+            },
+            {
+              "id": "B",
+              "text": "たんしん"
+            },
+            {
+              "id": "C",
+              "text": "そつぎょう"
+            },
+            {
+              "id": "D",
+              "text": "そつぎょうしき"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3002"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "父は仕事のため単身で福岡へ移った。 【単身】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そつぎょう"
+            },
+            {
+              "id": "B",
+              "text": "たんしん"
+            },
+            {
+              "id": "C",
+              "text": "そつぎょうしき"
+            },
+            {
+              "id": "D",
+              "text": "しめす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3002"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "妹は来年大学を卒業する。 【卒業】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そつぎょうしき"
+            },
+            {
+              "id": "B",
+              "text": "しめす"
+            },
+            {
+              "id": "C",
+              "text": "そつぎょう"
+            },
+            {
+              "id": "D",
+              "text": "しじ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3003"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "卒業式で友人と写真を撮った。 【卒業式】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しめす"
+            },
+            {
+              "id": "B",
+              "text": "しじ"
+            },
+            {
+              "id": "C",
+              "text": "てんじかい"
+            },
+            {
+              "id": "D",
+              "text": "そつぎょうしき"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3003"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "このグラフは利用者の増加を【しめす】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "示す"
+            },
+            {
+              "id": "B",
+              "text": "指示"
+            },
+            {
+              "id": "C",
+              "text": "展示会"
+            },
+            {
+              "id": "D",
+              "text": "駐車禁止"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3004"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "係員の【しじ】に従って避難した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "展示会"
+            },
+            {
+              "id": "B",
+              "text": "指示"
+            },
+            {
+              "id": "C",
+              "text": "駐車禁止"
+            },
+            {
+              "id": "D",
+              "text": "禁煙"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3004"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "家具の【てんじかい】で新しい机を見た。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "駐車禁止"
+            },
+            {
+              "id": "B",
+              "text": "禁煙"
+            },
+            {
+              "id": "C",
+              "text": "展示会"
+            },
+            {
+              "id": "D",
+              "text": "観察"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3004"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "ここは【ちゅうしゃきんし】なので車を止められない。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "禁煙"
+            },
+            {
+              "id": "B",
+              "text": "観察"
+            },
+            {
+              "id": "C",
+              "text": "発表"
+            },
+            {
+              "id": "D",
+              "text": "駐車禁止"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3005"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "健康のため今年から【きんえん】を始めた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "禁煙"
+            },
+            {
+              "id": "B",
+              "text": "観察"
+            },
+            {
+              "id": "C",
+              "text": "発表"
+            },
+            {
+              "id": "D",
+              "text": "支払う"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3005"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "公園で野鳥の行動を【かんさつ】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "発表"
+            },
+            {
+              "id": "B",
+              "text": "観察"
+            },
+            {
+              "id": "C",
+              "text": "支払う"
+            },
+            {
+              "id": "D",
+              "text": "支給"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3006"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "研究の成果を学会で【はっぴょう】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "支払う"
+            },
+            {
+              "id": "B",
+              "text": "支給"
+            },
+            {
+              "id": "C",
+              "text": "発表"
+            },
+            {
+              "id": "D",
+              "text": "支社"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3007"
+          ]
+        }
+      ]
+    }
+  ]
+}

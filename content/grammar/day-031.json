@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-031",
+  "study_day": 31,
+  "items": [
+    {
+      "id": 3101,
+      "structure": "～はずだ",
+      "formation": [
+        "Thể thường + はずだ",
+        "Aな + な / である + はずだ",
+        "N + の / である + はずだ"
+      ],
+      "meaning_vi": "Chắc chắn là; lẽ ra; đương nhiên là",
+      "usage_vi": "Đưa ra kết luận có căn cứ hoặc phỏng đoán được người nói xem là đương nhiên từ dữ kiện đang có.",
+      "examples": [
+        {
+          "jp": "発送の連絡が来たから、荷物は明日届くはずだ。",
+          "vi": "Đã có thông báo gửi hàng nên chắc hàng sẽ tới vào ngày mai."
+        },
+        {
+          "jp": "彼は十年大阪に住んでいたから、この辺りに詳しいはずだ。",
+          "vi": "Anh ấy đã sống ở Osaka mười năm nên chắc phải biết rõ khu này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 204 | BÀI 3 > NGỮ PHÁP > mục 5 — ～はずだ"
+    },
+    {
+      "id": 3102,
+      "structure": "～はずがない / ～わけがない",
+      "formation": [
+        "Thể thường + はずがない / わけがない",
+        "Aな + な / である + はずがない / わけがない",
+        "N + の / である + はずがない / わけがない"
+      ],
+      "meaning_vi": "Không thể nào; không có lý nào",
+      "usage_vi": "Nhấn mạnh phán đoán chủ quan rằng một sự việc không thể xảy ra hoặc không có lý do để đúng.",
+      "examples": [
+        {
+          "jp": "鍵をかけたから、だれも入れるはずがない。",
+          "vi": "Tôi đã khóa cửa nên không thể có ai vào được."
+        },
+        {
+          "jp": "一度も練習していない彼が優勝できるわけがない。",
+          "vi": "Anh ấy chưa tập lần nào thì không thể nào vô địch được."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 205 | BÀI 3 > NGỮ PHÁP > mục 6 — ～はずがない / ～わけがない"
+    }
+  ]
+}

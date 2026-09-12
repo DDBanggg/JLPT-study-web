@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-030",
+  "type": "daily",
+  "title": "Daily Test — Day 30",
+  "study_day": 30,
+  "coverage": {
+    "from_day": 29,
+    "to_day": 29
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "研究チームは未知の原因を明らかにし（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ようにしている"
+            },
+            {
+              "id": "C",
+              "text": "ことにしている"
+            },
+            {
+              "id": "D",
+              "text": "つもりでいる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "猫が棚の上の魚を取（　　　）ところを見つけた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "るようにしている"
+            },
+            {
+              "id": "B",
+              "text": "ろうとしている"
+            },
+            {
+              "id": "C",
+              "text": "ったことがある"
+            },
+            {
+              "id": "D",
+              "text": "ることにした"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "新しい制度が全国に広が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "るようにしている"
+            },
+            {
+              "id": "B",
+              "text": "ったことがある"
+            },
+            {
+              "id": "C",
+              "text": "ろうとしている"
+            },
+            {
+              "id": "D",
+              "text": "ることにした"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "選手は転びながらも立ち上が（　　　）とした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "って"
+            },
+            {
+              "id": "B",
+              "text": "った"
+            },
+            {
+              "id": "C",
+              "text": "る"
+            },
+            {
+              "id": "D",
+              "text": "ろう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "日の光が差し、霧が消え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ようにしている"
+            },
+            {
+              "id": "C",
+              "text": "ことにしている"
+            },
+            {
+              "id": "D",
+              "text": "つもりでいる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "係員が頼んでも、客は席を移（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ることにした"
+            },
+            {
+              "id": "B",
+              "text": "ろうとしない"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "警報が鳴っても、何人かは建物から出（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ることにした"
+            },
+            {
+              "id": "B",
+              "text": "ていた"
+            },
+            {
+              "id": "C",
+              "text": "ようとしなかった"
+            },
+            {
+              "id": "D",
+              "text": "たことがある"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "話し合いを勧めたが、両社は妥協（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "することにした"
+            },
+            {
+              "id": "B",
+              "text": "している"
+            },
+            {
+              "id": "C",
+              "text": "したことがある"
+            },
+            {
+              "id": "D",
+              "text": "しようとしない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "妹は転んでも、痛いと言（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おうとしない"
+            },
+            {
+              "id": "B",
+              "text": "うことにした"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "記者が質問しても、監督は理由を明か（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すことにした"
+            },
+            {
+              "id": "B",
+              "text": "そうとしなかった"
+            },
+            {
+              "id": "C",
+              "text": "している"
+            },
+            {
+              "id": "D",
+              "text": "したことがある"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "地下にごみを（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "埋める"
+            },
+            {
+              "id": "B",
+              "text": "気づく"
+            },
+            {
+              "id": "C",
+              "text": "手にする"
+            },
+            {
+              "id": "D",
+              "text": "別れる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2905"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "痛みを（　　　）薬を飲んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "手にする"
+            },
+            {
+              "id": "B",
+              "text": "抑える"
+            },
+            {
+              "id": "C",
+              "text": "別れる"
+            },
+            {
+              "id": "D",
+              "text": "うまくいく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2907"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "友達を（　　　）ために、プレゼントを用意した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "別れる"
+            },
+            {
+              "id": "B",
+              "text": "うまくいく"
+            },
+            {
+              "id": "C",
+              "text": "驚かす"
+            },
+            {
+              "id": "D",
+              "text": "埋める"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2908"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "運動して汗を（　　　）と気分がいい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うまくいく"
+            },
+            {
+              "id": "B",
+              "text": "埋める"
+            },
+            {
+              "id": "C",
+              "text": "終える"
+            },
+            {
+              "id": "D",
+              "text": "かく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2910"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "２（　　　）２は４です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かける"
+            },
+            {
+              "id": "B",
+              "text": "埋める"
+            },
+            {
+              "id": "C",
+              "text": "終える"
+            },
+            {
+              "id": "D",
+              "text": "抑える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2911"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "季節が春から夏へと（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終える"
+            },
+            {
+              "id": "B",
+              "text": "移る"
+            },
+            {
+              "id": "C",
+              "text": "抑える"
+            },
+            {
+              "id": "D",
+              "text": "驚かす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2915"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "日が（　　　）と気温が急に下がった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "抑える"
+            },
+            {
+              "id": "B",
+              "text": "驚かす"
+            },
+            {
+              "id": "C",
+              "text": "沈む"
+            },
+            {
+              "id": "D",
+              "text": "換える"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2918"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "このパソコンは3年間の保証があるので、（　　　）して使える。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "提出"
+            },
+            {
+              "id": "B",
+              "text": "評価"
+            },
+            {
+              "id": "C",
+              "text": "暗記"
+            },
+            {
+              "id": "D",
+              "text": "安心"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2920"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "山田くんはクラスで一番（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いじわる"
+            },
+            {
+              "id": "B",
+              "text": "評価"
+            },
+            {
+              "id": "C",
+              "text": "暗記"
+            },
+            {
+              "id": "D",
+              "text": "デザイン"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2921"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "彼の意見に（　　　）する人がたくさんいる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "暗記"
+            },
+            {
+              "id": "B",
+              "text": "賛成"
+            },
+            {
+              "id": "C",
+              "text": "デザイン"
+            },
+            {
+              "id": "D",
+              "text": "ミス"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2922"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "佐藤部長は部下の意見を（　　　）してばかりいる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "デザイン"
+            },
+            {
+              "id": "B",
+              "text": "ミス"
+            },
+            {
+              "id": "C",
+              "text": "否定"
+            },
+            {
+              "id": "D",
+              "text": "安心"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2923"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "母にテストの結果を（　　　）する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ミス"
+            },
+            {
+              "id": "B",
+              "text": "安心"
+            },
+            {
+              "id": "C",
+              "text": "いじわる"
+            },
+            {
+              "id": "D",
+              "text": "報告"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2924"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "一生懸命戦ったが、結局勝てなかった。 【結局】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けっきょく"
+            },
+            {
+              "id": "B",
+              "text": "あんき"
+            },
+            {
+              "id": "C",
+              "text": "ひょうか"
+            },
+            {
+              "id": "D",
+              "text": "ていしゅつ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2933"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "頭を使って考えるよりも、暗記するほうが得意だ。 【暗記】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けっきょく"
+            },
+            {
+              "id": "B",
+              "text": "あんき"
+            },
+            {
+              "id": "C",
+              "text": "ひょうか"
+            },
+            {
+              "id": "D",
+              "text": "ていしゅつ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2930"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "彼の作品は、若者の間で評価が高い。 【評価】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けっきょく"
+            },
+            {
+              "id": "B",
+              "text": "あんき"
+            },
+            {
+              "id": "C",
+              "text": "ひょうか"
+            },
+            {
+              "id": "D",
+              "text": "ていしゅつ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2929"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "彼は記事の内容を強く否定した。 【否定】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひてい"
+            },
+            {
+              "id": "B",
+              "text": "こうこく"
+            },
+            {
+              "id": "C",
+              "text": "ほうこく"
+            },
+            {
+              "id": "D",
+              "text": "まめ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2901"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "駅の広告を見て展覧会を知った。 【広告】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうこく"
+            },
+            {
+              "id": "B",
+              "text": "こうこく"
+            },
+            {
+              "id": "C",
+              "text": "まめ"
+            },
+            {
+              "id": "D",
+              "text": "なっとう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2902"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "調査の結果を部長に報告した。 【報告】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まめ"
+            },
+            {
+              "id": "B",
+              "text": "なっとう"
+            },
+            {
+              "id": "C",
+              "text": "ほうこく"
+            },
+            {
+              "id": "D",
+              "text": "あたま"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2902"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "畑で育てた豆をスープに入れた。 【豆】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なっとう"
+            },
+            {
+              "id": "B",
+              "text": "あたま"
+            },
+            {
+              "id": "C",
+              "text": "ずつう"
+            },
+            {
+              "id": "D",
+              "text": "まめ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2903"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "朝ご飯に納豆とみそ汁を食べた。 【納豆】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なっとう"
+            },
+            {
+              "id": "B",
+              "text": "あたま"
+            },
+            {
+              "id": "C",
+              "text": "ずつう"
+            },
+            {
+              "id": "D",
+              "text": "のぼる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2903"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "棚に頭をぶつけてしまった。 【頭】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ずつう"
+            },
+            {
+              "id": "B",
+              "text": "あたま"
+            },
+            {
+              "id": "C",
+              "text": "のぼる"
+            },
+            {
+              "id": "D",
+              "text": "やまのぼり"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2904"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "朝から頭痛が続いているので早退した。 【頭痛】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のぼる"
+            },
+            {
+              "id": "B",
+              "text": "やまのぼり"
+            },
+            {
+              "id": "C",
+              "text": "ずつう"
+            },
+            {
+              "id": "D",
+              "text": "とざん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2904"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "休日に家族で低い山へ登る。 【登る】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やまのぼり"
+            },
+            {
+              "id": "B",
+              "text": "とざん"
+            },
+            {
+              "id": "C",
+              "text": "とうじょう"
+            },
+            {
+              "id": "D",
+              "text": "のぼる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2905"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "【やまのぼり】には歩きやすい靴が必要だ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "山登り"
+            },
+            {
+              "id": "B",
+              "text": "登山"
+            },
+            {
+              "id": "C",
+              "text": "登場"
+            },
+            {
+              "id": "D",
+              "text": "喜ぶ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2905"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "安全な【とざん】のため天気を確認した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "登場"
+            },
+            {
+              "id": "B",
+              "text": "登山"
+            },
+            {
+              "id": "C",
+              "text": "喜ぶ"
+            },
+            {
+              "id": "D",
+              "text": "喜び"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2905"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "映画の最後に意外な人物が【とうじょう】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "喜ぶ"
+            },
+            {
+              "id": "B",
+              "text": "喜び"
+            },
+            {
+              "id": "C",
+              "text": "登場"
+            },
+            {
+              "id": "D",
+              "text": "否定"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2905"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "合格の知らせを聞いて両親が【よろこぶ】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "喜び"
+            },
+            {
+              "id": "B",
+              "text": "否定"
+            },
+            {
+              "id": "C",
+              "text": "広告"
+            },
+            {
+              "id": "D",
+              "text": "喜ぶ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2906"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "新しい命の誕生は家族の大きな【よろこび】だ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "喜び"
+            },
+            {
+              "id": "B",
+              "text": "否定"
+            },
+            {
+              "id": "C",
+              "text": "広告"
+            },
+            {
+              "id": "D",
+              "text": "報告"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2906"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "事故がなかったことを家族に【ほうこく】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "否定"
+            },
+            {
+              "id": "B",
+              "text": "報告"
+            },
+            {
+              "id": "C",
+              "text": "広告"
+            },
+            {
+              "id": "D",
+              "text": "豆"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2902"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "新製品が市場に【とうじょう】して話題になった。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "否定"
+            },
+            {
+              "id": "B",
+              "text": "広告"
+            },
+            {
+              "id": "C",
+              "text": "登場"
+            },
+            {
+              "id": "D",
+              "text": "報告"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2905"
+          ]
+        }
+      ]
+    }
+  ]
+}

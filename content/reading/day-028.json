@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-028",
+  "study_day": 28,
+  "items": [
+    {
+      "id": 2801,
+      "title": "日本で発達したシャーペン",
+      "passage_jp": "日本に留学したばかりのころ、文房具店に入って驚いてしまった。私の国では、シャープペンシルはあまり売られていないが、その店には100円の安い物から5000円以上する高い物まで、すごい数のシャーペンが並んでいたのだ。芯も太さが0.3mmから1.5mmまであって、濃さもいろいろな物が売られていた。イギリスで生まれたシャーペンだが、初めは1.5mmや1.0mmの芯しかなかった。だが、約60年前、ある日本の会社が、複雑な漢字でも美しく書けるよう、世界で初めて0.5mmの折れにくい芯を作ることにチャレンジして、成功したのだそうだ。それからシャーペンが日本中で使われるようになったらしい。私は、来日してからずっとシャーペンを愛用している。鉛筆のように先が丸くならず、小さい字がきれいに書けるからだ。今、使っているのは安い物だが、来年、就職したら、少しいい物を買おうと思っている。",
+      "translation_vi": "Khi mới sang Nhật du học, tôi đã rất ngạc nhiên lúc bước vào một cửa hàng văn phòng phẩm. Ở nước tôi, bút chì kim không được bán nhiều, nhưng tại cửa hàng ấy có vô số loại, từ loại rẻ 100 yên đến loại đắt hơn 5.000 yên. Ruột bút cũng có độ dày từ 0,3 mm đến 1,5 mm và được bán với nhiều độ đậm khác nhau. Bút chì kim ra đời ở Anh, nhưng ban đầu chỉ có ruột 1,5 mm hoặc 1,0 mm. Tuy nhiên, khoảng 60 năm trước, một công ty Nhật Bản đã thử chế tạo và thành công với loại ruột 0,5 mm khó gãy đầu tiên trên thế giới, để có thể viết đẹp cả những chữ Hán phức tạp. Từ đó, bút chì kim dường như được sử dụng khắp Nhật Bản. Từ khi đến Nhật, tôi luôn yêu thích dùng bút chì kim vì đầu bút không bị tròn như bút chì và có thể viết chữ nhỏ đẹp. Hiện tôi dùng loại rẻ, nhưng năm sau khi đi làm, tôi định mua một chiếc tốt hơn một chút.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 3 | trang in 17 | 練習3",
+      "questions": [
+        {
+          "id": "c03r-d03-q01",
+          "question_type": "mcq",
+          "question_jp": "文章全体の話題として最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "日本の文房具店で鉛筆が消えた理由"
+            },
+            {
+              "id": "B",
+              "text": "シャーペンが日本で発達し筆者に愛用されるまで"
+            },
+            {
+              "id": "C",
+              "text": "高いシャーペンだけがよく売れる理由"
+            },
+            {
+              "id": "D",
+              "text": "イギリスの会社が漢字を研究した歴史"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03r-d03-q02",
+          "question_type": "mcq",
+          "question_jp": "第二段落の中心は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "日本の会社が細く折れにくい芯を作ったこと"
+            },
+            {
+              "id": "B",
+              "text": "筆者が文房具店で働いたこと"
+            },
+            {
+              "id": "C",
+              "text": "シャーペンが日本で発明されたこと"
+            },
+            {
+              "id": "D",
+              "text": "鉛筆の値段が上がったこと"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03r-d03-q03",
+          "question_type": "mcq",
+          "question_jp": "最後の段落から分かる筆者の気持ちはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "シャーペンを使うのをやめたい"
+            },
+            {
+              "id": "B",
+              "text": "今の安い物に強い不満だけがある"
+            },
+            {
+              "id": "C",
+              "text": "シャーペンを便利だと感じ、将来よい物を買いたい"
+            },
+            {
+              "id": "D",
+              "text": "鉛筆で漢字を書くほうがよいと思う"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    }
+  ]
+}

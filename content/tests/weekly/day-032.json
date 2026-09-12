@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "id": "weekly-03",
+  "type": "weekly",
+  "title": "Weekly Test — Chapter 3",
+  "study_day": 32,
+  "coverage": {
+    "from_day": 26,
+    "to_day": 31
+  },
+  "stimuli": [
+    {
+      "id": "c03w-rs01",
+      "type": "reading",
+      "title": "Reading Passage 1",
+      "content_jp": "町に一つだけ残った映画館は、古い作品を上映するだけでは客が増えず、閉館を考えていた。そこで月に一度、上映後に地域の人が映画について話す会を始めた。若い人も参加するようになり、映画を見ない日でも会場を勉強会に使いたいという申し出が来た。映画館は、作品を見る場所から、人が集まって考えを交換する場所へ変わり始めている。"
+    },
+    {
+      "id": "c03w-rs02",
+      "type": "reading",
+      "title": "Reading Passage 2",
+      "content_jp": "駅前のカフェでは、持ち帰り用の飲み物を何度も使えるカップで販売し始めた。客は代金とは別に三百円を払い、後で店にカップを返すと、その三百円が戻る。最初は面倒だという客もいたが、返却場所を駅や図書館にも増やしたところ、利用者が多くなった。ごみを減らすには、環境によい商品を作るだけでなく、返しやすい仕組みも必要なのだ。"
+    },
+    {
+      "id": "c03w-rs03",
+      "type": "reading",
+      "title": "Reading Passage 3",
+      "content_jp": "ある小学校は、放課後の校庭を地域の人にも開放している。以前は子どもが帰ると静かだったが、今は高齢者が歩いたり、親子がボール遊びをしたりしている。ただし、子どもの安全を守るため、利用できる場所と時間を分けた。学校側は、施設を開くだけでなく、異なる世代が安心して過ごせるルールを整えることが大切だと考えている。"
+    },
+    {
+      "id": "c03w-rs04",
+      "type": "reading",
+      "title": "Reading Passage 4",
+      "content_jp": "大学の学生たちは、町を歩きながら川の音、商店の呼び声、電車の音などを録音し、インターネット上の地図にまとめた。観光名所の写真は多いが、音から町を知る資料は少ないと考えたからだ。完成した地図を聞いた住民からは、「普段気にしなかった町の特徴に気づいた」という感想が届いた。学生たちは今後、季節ごとの音も加えたいと考えている。"
+    }
+  ],
+  "sections": [
+    {
+      "id": "language",
+      "title": "Language",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c03w-lang-q01",
+          "category": "grammar",
+          "prompt": "水族館で生まれたばかりのペンギンが、もう泳げる（　　　）、驚いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なんて"
+            },
+            {
+              "id": "B",
+              "text": "ので"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "なら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2603"
+          ]
+        },
+        {
+          "id": "c03w-lang-q02",
+          "category": "grammar",
+          "prompt": "目が疲れるなら、画面の明るさを下げ（　　　）ですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもいい"
+            },
+            {
+              "id": "B",
+              "text": "たらどう"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "たばかり"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2701"
+          ]
+        },
+        {
+          "id": "c03w-lang-q03",
+          "category": "grammar",
+          "prompt": "食品を無駄にしないため、冷蔵庫の中を週に一度確認する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになった"
+            },
+            {
+              "id": "B",
+              "text": "ようになった"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2703"
+          ]
+        },
+        {
+          "id": "c03w-lang-q04",
+          "category": "grammar",
+          "prompt": "この制度は離れた場所から申請できる（　　　）、以前より便利だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "という意味で"
+            },
+            {
+              "id": "B",
+              "text": "という理由で"
+            },
+            {
+              "id": "C",
+              "text": "という立場で"
+            },
+            {
+              "id": "D",
+              "text": "という点で"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2802"
+          ]
+        },
+        {
+          "id": "c03w-lang-q05",
+          "category": "grammar",
+          "prompt": "もし海の上に町を作る（　　　）、水や電気をどう確保するだろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "としたら"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によると"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2803"
+          ]
+        },
+        {
+          "id": "c03w-lang-q06",
+          "category": "grammar",
+          "prompt": "古い木が倒れ（　　　）とした瞬間、作業員が大声で知らせた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ながら"
+            },
+            {
+              "id": "B",
+              "text": "よう"
+            },
+            {
+              "id": "C",
+              "text": "そう"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "c03w-lang-q07",
+          "category": "grammar",
+          "prompt": "何度手紙を送っても、店は返金に応じ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たがらない"
+            },
+            {
+              "id": "B",
+              "text": "ることがない"
+            },
+            {
+              "id": "C",
+              "text": "ようとしない"
+            },
+            {
+              "id": "D",
+              "text": "ないわけではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "c03w-lang-q08",
+          "category": "grammar",
+          "prompt": "この小説は物語が面白い（　　　）、登場人物の心理も丁寧に描かれている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だけなら"
+            },
+            {
+              "id": "B",
+              "text": "だけあって"
+            },
+            {
+              "id": "C",
+              "text": "だけに"
+            },
+            {
+              "id": "D",
+              "text": "だけでなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3003"
+          ]
+        },
+        {
+          "id": "c03w-lang-q09",
+          "category": "grammar",
+          "prompt": "オンラインでの買い物は便利な（　　　）、商品を直接確認できないという欠点もある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ために"
+            },
+            {
+              "id": "C",
+              "text": "ばかりで"
+            },
+            {
+              "id": "D",
+              "text": "ところで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3002"
+          ]
+        },
+        {
+          "id": "c03w-lang-q10",
+          "category": "grammar",
+          "prompt": "一度も水に入ったことがない人が、急に遠くまで泳げる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かもしれない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことになった"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3102"
+          ]
+        },
+        {
+          "id": "c03w-lang-q11",
+          "category": "vocabulary",
+          "prompt": "卒業する先輩に（　　　）を贈った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "遊園地"
+            },
+            {
+              "id": "B",
+              "text": "友人"
+            },
+            {
+              "id": "C",
+              "text": "花束"
+            },
+            {
+              "id": "D",
+              "text": "出会い"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2606"
+          ]
+        },
+        {
+          "id": "c03w-lang-q12",
+          "category": "vocabulary",
+          "prompt": "本を読んでいて、降りる駅を（　　　）しまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "分かれる"
+            },
+            {
+              "id": "B",
+              "text": "引き出す"
+            },
+            {
+              "id": "C",
+              "text": "仕上がる"
+            },
+            {
+              "id": "D",
+              "text": "乗り越す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2714"
+          ]
+        },
+        {
+          "id": "c03w-lang-q13",
+          "category": "vocabulary",
+          "prompt": "出張先で携帯の（　　　）を忘れたことに気づいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "充電器"
+            },
+            {
+              "id": "B",
+              "text": "友人"
+            },
+            {
+              "id": "C",
+              "text": "出会い"
+            },
+            {
+              "id": "D",
+              "text": "感想"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2804"
+          ]
+        },
+        {
+          "id": "c03w-lang-q14",
+          "category": "vocabulary",
+          "prompt": "この部屋は南向きで（　　　）がよい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "出会い"
+            },
+            {
+              "id": "B",
+              "text": "日当たり"
+            },
+            {
+              "id": "C",
+              "text": "感想"
+            },
+            {
+              "id": "D",
+              "text": "発想"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2806"
+          ]
+        },
+        {
+          "id": "c03w-lang-q15",
+          "category": "vocabulary",
+          "prompt": "予算を守るため、広告費を（　　　）必要がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "仕上げる"
+            },
+            {
+              "id": "B",
+              "text": "近づける"
+            },
+            {
+              "id": "C",
+              "text": "抑える"
+            },
+            {
+              "id": "D",
+              "text": "乗り遅れる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2907"
+          ]
+        },
+        {
+          "id": "c03w-lang-q16",
+          "category": "vocabulary",
+          "prompt": "何度も話し合ったが、（　　　）最初の案に戻った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "十分"
+            },
+            {
+              "id": "B",
+              "text": "ぼろぼろ"
+            },
+            {
+              "id": "C",
+              "text": "単に"
+            },
+            {
+              "id": "D",
+              "text": "結局"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2933"
+          ]
+        },
+        {
+          "id": "c03w-lang-q17",
+          "category": "vocabulary",
+          "prompt": "駅の（　　　）で最終電車を確認した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "時刻表"
+            },
+            {
+              "id": "B",
+              "text": "改札"
+            },
+            {
+              "id": "C",
+              "text": "リーダー"
+            },
+            {
+              "id": "D",
+              "text": "オーナー"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3009"
+          ]
+        },
+        {
+          "id": "c03w-lang-q18",
+          "category": "vocabulary",
+          "prompt": "練習試合で今の（　　　）を確かめた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "リーダー"
+            },
+            {
+              "id": "B",
+              "text": "実力"
+            },
+            {
+              "id": "C",
+              "text": "オーナー"
+            },
+            {
+              "id": "D",
+              "text": "パートナー"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3014"
+          ]
+        },
+        {
+          "id": "c03w-lang-q19",
+          "category": "vocabulary",
+          "prompt": "似ている二つの鳥を色で（　　　）する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "オーナー"
+            },
+            {
+              "id": "B",
+              "text": "パートナー"
+            },
+            {
+              "id": "C",
+              "text": "区別"
+            },
+            {
+              "id": "D",
+              "text": "夢"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3119"
+          ]
+        },
+        {
+          "id": "c03w-lang-q20",
+          "category": "vocabulary",
+          "prompt": "出発まで時間は（　　　）ある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "早めに"
+            },
+            {
+              "id": "B",
+              "text": "別に"
+            },
+            {
+              "id": "C",
+              "text": "別々に"
+            },
+            {
+              "id": "D",
+              "text": "十分"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3134"
+          ]
+        },
+        {
+          "id": "c03w-lang-q21",
+          "category": "kanji",
+          "prompt": "券売機に千円札を入れた。 【千円札】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せんえんさつ"
+            },
+            {
+              "id": "B",
+              "text": "こうか"
+            },
+            {
+              "id": "C",
+              "text": "ことば"
+            },
+            {
+              "id": "D",
+              "text": "はなたば"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2606"
+          ]
+        },
+        {
+          "id": "c03w-lang-q22",
+          "category": "kanji",
+          "prompt": "山の紅葉は来週が見ごろだ。 【紅葉】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことば"
+            },
+            {
+              "id": "B",
+              "text": "こうよう"
+            },
+            {
+              "id": "C",
+              "text": "はなたば"
+            },
+            {
+              "id": "D",
+              "text": "やくそく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2704"
+          ]
+        },
+        {
+          "id": "c03w-lang-q23",
+          "category": "kanji",
+          "prompt": "何軒も探したが、結局買わなかった。 【結局】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はなたば"
+            },
+            {
+              "id": "B",
+              "text": "やくそく"
+            },
+            {
+              "id": "C",
+              "text": "けっきょく"
+            },
+            {
+              "id": "D",
+              "text": "じょうしき"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2805"
+          ]
+        },
+        {
+          "id": "c03w-lang-q24",
+          "category": "kanji",
+          "prompt": "納豆をよく混ぜてからご飯にかける。 【納豆】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "やくそく"
+            },
+            {
+              "id": "B",
+              "text": "じょうしき"
+            },
+            {
+              "id": "C",
+              "text": "せいじょう"
+            },
+            {
+              "id": "D",
+              "text": "なっとう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2903"
+          ]
+        },
+        {
+          "id": "c03w-lang-q25",
+          "category": "kanji",
+          "prompt": "予約した時間に医師の診察を受けた。 【診察】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しんさつ"
+            },
+            {
+              "id": "B",
+              "text": "じょうしき"
+            },
+            {
+              "id": "C",
+              "text": "せいじょう"
+            },
+            {
+              "id": "D",
+              "text": "にちじょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3006"
+          ]
+        },
+        {
+          "id": "c03w-lang-q26",
+          "category": "kanji",
+          "prompt": "受賞した選手に【はなたば】を渡した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "日常"
+            },
+            {
+              "id": "B",
+              "text": "花束"
+            },
+            {
+              "id": "C",
+              "text": "異常"
+            },
+            {
+              "id": "D",
+              "text": "独身"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2705"
+          ]
+        },
+        {
+          "id": "c03w-lang-q27",
+          "category": "kanji",
+          "prompt": "出口の【ほうこう】へ人が進んでいる。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "日常"
+            },
+            {
+              "id": "B",
+              "text": "異常"
+            },
+            {
+              "id": "C",
+              "text": "方向"
+            },
+            {
+              "id": "D",
+              "text": "独身"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2804"
+          ]
+        },
+        {
+          "id": "c03w-lang-q28",
+          "category": "kanji",
+          "prompt": "薬を飲んだら【ずつう】が治まった。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "異常"
+            },
+            {
+              "id": "B",
+              "text": "独身"
+            },
+            {
+              "id": "C",
+              "text": "独立"
+            },
+            {
+              "id": "D",
+              "text": "頭痛"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2904"
+          ]
+        },
+        {
+          "id": "c03w-lang-q29",
+          "category": "kanji",
+          "prompt": "係員の【しじ】を聞いて列に並んだ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "指示"
+            },
+            {
+              "id": "B",
+              "text": "独身"
+            },
+            {
+              "id": "C",
+              "text": "独立"
+            },
+            {
+              "id": "D",
+              "text": "吹く"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3004"
+          ]
+        },
+        {
+          "id": "c03w-lang-q30",
+          "category": "kanji",
+          "prompt": "旅行のために【ちょきん】を始めた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "独立"
+            },
+            {
+              "id": "B",
+              "text": "貯金"
+            },
+            {
+              "id": "C",
+              "text": "吹く"
+            },
+            {
+              "id": "D",
+              "text": "呼吸"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c03w-read-q01",
+          "category": "reading",
+          "prompt": "この文章の中心は何ですか。",
+          "stimulus_id": "c03w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "映画館が新しい作品だけを上映したこと"
+            },
+            {
+              "id": "B",
+              "text": "映画館が地域の交流の場へ変わっていること"
+            },
+            {
+              "id": "C",
+              "text": "若者が映画を見なくなったこと"
+            },
+            {
+              "id": "D",
+              "text": "町に映画館を十軒建てる計画"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03w-read-q02",
+          "category": "reading",
+          "prompt": "話す会を始めた結果、何が起きましたか。",
+          "stimulus_id": "c03w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "すぐ閉館した"
+            },
+            {
+              "id": "B",
+              "text": "古い作品を捨てた"
+            },
+            {
+              "id": "C",
+              "text": "若者の参加や別の利用希望が生まれた"
+            },
+            {
+              "id": "D",
+              "text": "上映後の会を禁止した"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03w-read-q03",
+          "category": "reading",
+          "prompt": "最後の文は何をまとめていますか。",
+          "stimulus_id": "c03w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "映画館の役割の変化"
+            },
+            {
+              "id": "B",
+              "text": "映画の値段"
+            },
+            {
+              "id": "C",
+              "text": "建物の古さ"
+            },
+            {
+              "id": "D",
+              "text": "上映時間の短さ"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03w-read-q04",
+          "category": "reading",
+          "prompt": "筆者が最も伝えたいことは何ですか。",
+          "stimulus_id": "c03w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "カップを高くすればごみが減る"
+            },
+            {
+              "id": "B",
+              "text": "環境商品には利用しやすい仕組みも必要だ"
+            },
+            {
+              "id": "C",
+              "text": "図書館で飲み物を売るべきだ"
+            },
+            {
+              "id": "D",
+              "text": "すべての客は自分のカップを作るべきだ"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03w-read-q05",
+          "category": "reading",
+          "prompt": "利用者が増えたきっかけは何ですか。",
+          "stimulus_id": "c03w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "飲み物を無料にしたこと"
+            },
+            {
+              "id": "B",
+              "text": "カップを使い捨てにしたこと"
+            },
+            {
+              "id": "C",
+              "text": "返却できる場所を増やしたこと"
+            },
+            {
+              "id": "D",
+              "text": "駅前の店を閉じたこと"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03w-read-q06",
+          "category": "reading",
+          "prompt": "三百円の説明は何のためにありますか。",
+          "stimulus_id": "c03w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "返却の仕組みを具体的に示すため"
+            },
+            {
+              "id": "B",
+              "text": "コーヒーの味を比べるため"
+            },
+            {
+              "id": "C",
+              "text": "図書館の利用料を示すため"
+            },
+            {
+              "id": "D",
+              "text": "店員の給料を説明するため"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03w-read-q07",
+          "category": "reading",
+          "prompt": "校庭はどのように変わりましたか。",
+          "stimulus_id": "c03w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "放課後はだれも入れなくなった"
+            },
+            {
+              "id": "B",
+              "text": "地域のさまざまな世代が使う場所になった"
+            },
+            {
+              "id": "C",
+              "text": "授業だけに使われるようになった"
+            },
+            {
+              "id": "D",
+              "text": "駐車場に変わった"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03w-read-q08",
+          "category": "reading",
+          "prompt": "場所と時間を分けた目的は何ですか。",
+          "stimulus_id": "c03w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "学校を早く閉めるため"
+            },
+            {
+              "id": "B",
+              "text": "高齢者だけを優先するため"
+            },
+            {
+              "id": "C",
+              "text": "子どもの安全を守るため"
+            },
+            {
+              "id": "D",
+              "text": "ボールを売るため"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c03w-read-q09",
+          "category": "reading",
+          "prompt": "文章全体の主張に最も近いものはどれですか。",
+          "stimulus_id": "c03w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "施設開放には安心して使えるルールも重要だ"
+            },
+            {
+              "id": "B",
+              "text": "校庭は広いほどよい"
+            },
+            {
+              "id": "C",
+              "text": "学校は地域と関係を持つべきではない"
+            },
+            {
+              "id": "D",
+              "text": "放課後の運動は必要ない"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03w-read-q10",
+          "category": "reading",
+          "prompt": "学生たちは何を作りましたか。",
+          "stimulus_id": "c03w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "町の音を場所と結び付けた地図"
+            },
+            {
+              "id": "B",
+              "text": "観光名所の写真集"
+            },
+            {
+              "id": "C",
+              "text": "電車だけの時刻表"
+            },
+            {
+              "id": "D",
+              "text": "店の値段を比べる表"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c03w-read-q11",
+          "category": "reading",
+          "prompt": "この活動のねらいは何ですか。",
+          "stimulus_id": "c03w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "音を消して町を静かにすること"
+            },
+            {
+              "id": "B",
+              "text": "写真とは違う方法で町を知ってもらうこと"
+            },
+            {
+              "id": "C",
+              "text": "観光客を町から減らすこと"
+            },
+            {
+              "id": "D",
+              "text": "商店の呼び声を禁止すること"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c03w-read-q12",
+          "category": "reading",
+          "prompt": "住民の感想は何を示していますか。",
+          "stimulus_id": "c03w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "地図によって町の新しい特徴に気づいたこと"
+            },
+            {
+              "id": "B",
+              "text": "録音がすべて失敗したこと"
+            },
+            {
+              "id": "C",
+              "text": "季節の音は必要ないこと"
+            },
+            {
+              "id": "D",
+              "text": "写真のほうが必ず正しいこと"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

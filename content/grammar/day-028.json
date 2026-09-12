@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-028",
+  "study_day": 28,
+  "items": [
+    {
+      "id": 2801,
+      "structure": "～ということだ",
+      "formation": [
+        "Thể thường + ということだ",
+        "A ということは B ということだ"
+      ],
+      "meaning_vi": "Có nghĩa là; tức là",
+      "usage_vi": "Giải thích hoặc diễn giải ý nghĩa của một từ ngữ, phát biểu hay tình huống đã nêu. Trong hội thoại thân mật có thể dùng ～って（いう）こと.",
+      "examples": [
+        {
+          "jp": "ここは土足禁止です。つまり、靴を脱ぐということです。",
+          "vi": "Ở đây cấm đi giày dép, tức là phải cởi giày."
+        },
+        {
+          "jp": "大人になるということは、自分の行動に責任を持つということだ。",
+          "vi": "Trưởng thành có nghĩa là chịu trách nhiệm về hành động của mình."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 180 | BÀI 2 > NGỮ PHÁP > mục 1 — ～ということだ"
+    },
+    {
+      "id": 2802,
+      "structure": "～という点で",
+      "formation": [
+        "Thể thường + という点で",
+        "N + という点で"
+      ],
+      "meaning_vi": "Ở điểm; ở khía cạnh",
+      "usage_vi": "Tách một khía cạnh của sự vật hoặc sự việc để so sánh, đánh giá hay nêu bật đặc điểm. Cụm này thường đi với trợ từ で hoặc が.",
+      "examples": [
+        {
+          "jp": "この靴は軽いという点で、旅行に向いている。",
+          "vi": "Đôi giày này phù hợp đi du lịch ở điểm là nhẹ."
+        },
+        {
+          "jp": "この町は交通が便利だという点で評価が高い。",
+          "vi": "Thành phố này được đánh giá cao ở khía cạnh giao thông thuận tiện."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 181 | BÀI 2 > NGỮ PHÁP > mục 2 — ～という点で"
+    },
+    {
+      "id": 2803,
+      "structure": "～としたら",
+      "formation": [
+        "Thể thường + としたら"
+      ],
+      "meaning_vi": "Giả sử nếu; giả dụ như",
+      "usage_vi": "Đặt ra một giả định, thường là tình huống khó xảy ra trong thực tế, rồi nói suy nghĩ hoặc kết quả dựa trên giả định đó.",
+      "examples": [
+        {
+          "jp": "一か月休めるとしたら、どこへ行きたいですか。",
+          "vi": "Giả sử được nghỉ một tháng, bạn muốn đi đâu?"
+        },
+        {
+          "jp": "その話が事実だとしたら、すぐに調べる必要がある。",
+          "vi": "Nếu câu chuyện đó là sự thật thì cần điều tra ngay."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 182 | BÀI 2 > NGỮ PHÁP > mục 3 — ～としたら"
+    },
+    {
+      "id": 2804,
+      "structure": "～としても",
+      "formation": [
+        "Thể thường + としても"
+      ],
+      "meaning_vi": "Cho dù; ngay cả nếu",
+      "usage_vi": "Nêu một trường hợp giả định rồi khẳng định ý kiến hoặc kết quả vẫn không thay đổi. Thường đi với たとえ、仮に、もし.",
+      "examples": [
+        {
+          "jp": "たとえ失敗したとしても、もう一度挑戦したい。",
+          "vi": "Cho dù thất bại, tôi vẫn muốn thử lại."
+        },
+        {
+          "jp": "今から急いだとしても、最終電車には間に合わない。",
+          "vi": "Cho dù vội từ bây giờ cũng không kịp chuyến tàu cuối."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 183 | BÀI 2 > NGỮ PHÁP > mục 4 — ～としても"
+    }
+  ]
+}

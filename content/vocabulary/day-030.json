@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-030",
+  "study_day": 30,
+  "target": 50,
+  "pool_size": 37,
+  "items": [
+    {
+      "id": 3001,
+      "surface": "本社",
+      "hiragana": "ほんしゃ",
+      "kanji": "本社",
+      "meaning_vi": "trụ sở chính, công ty mẹ",
+      "examples": [
+        {
+          "jp": "明日、部長が本社を訪問する。",
+          "vi": "Ngày mai, trưởng ban sẽ đến thăm trụ sở chính."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 001 — 本社"
+    },
+    {
+      "id": 3002,
+      "surface": "支社",
+      "hiragana": "ししゃ",
+      "kanji": "支社",
+      "meaning_vi": "chi nhánh công ty",
+      "examples": [
+        {
+          "jp": "来月から大阪の支社で働くことになった。",
+          "vi": "Từ tháng sau, tôi sẽ làm việc tại chi nhánh ở Osaka."
+        },
+        {
+          "jp": "この会社は、ベトナムに支社をいくつも持っている。",
+          "vi": "Công ty này có nhiều chi nhánh tại Việt Nam."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 002 — 支社"
+    },
+    {
+      "id": 3003,
+      "surface": "本店",
+      "hiragana": "ほんてん",
+      "kanji": "本店",
+      "meaning_vi": "cửa hàng chính, trụ sở chính",
+      "examples": [
+        {
+          "jp": "大阪のこの店は支店で、本店は東京にあるらしい。",
+          "vi": "Cửa hàng này ở Osaka là chi nhánh, còn cửa hàng chính thì hình như ở ❖ Tokyo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 003 — 本店"
+    },
+    {
+      "id": 3004,
+      "surface": "支店",
+      "hiragana": "してん",
+      "kanji": "支店",
+      "meaning_vi": "chi nhánh cửa hàng, chi nhánh ngân hàng",
+      "examples": [
+        {
+          "jp": "ホーチミンに、日本の銀行の支店ができた。",
+          "vi": "Một chi nhánh ngân hàng Nhật Bản đã mở tại TP.HCM."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 004 — 支店"
+    },
+    {
+      "id": 3005,
+      "surface": "単身",
+      "hiragana": "たんしん",
+      "kanji": "単身",
+      "meaning_vi": "một mình",
+      "examples": [
+        {
+          "jp": "彼は家族をベトナムに残し、単身で日本に働きに来た。",
+          "vi": "Anh ấy đã để lại gia đình ở Việt Nam và một mình đến Nhật Bản làm việc."
+        },
+        {
+          "jp": "彼女は単身で日本に留学することにした。",
+          "vi": "Cô ấy quyết định đi du học Nhật Bản một mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 005 — 単身"
+    },
+    {
+      "id": 3006,
+      "surface": "展示会",
+      "hiragana": "てんじかい",
+      "kanji": "展示会",
+      "meaning_vi": "cuộc triển lãm",
+      "examples": [
+        {
+          "jp": "新しい製品の展示会が来月開催される。",
+          "vi": "Buổi triển lãm sản phẩm mới sẽ được tổ chức vào tháng tới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 006 — 展示会"
+    },
+    {
+      "id": 3007,
+      "surface": "表紙",
+      "hiragana": "ひょうし",
+      "kanji": "表紙",
+      "meaning_vi": "bìa ngoài, trang bìa",
+      "examples": [
+        {
+          "jp": "この雑誌の表紙の写真は大阪です。",
+          "vi": "Bức ảnh trên bìa của tạp chí này là ở Osaka."
+        },
+        {
+          "jp": "表紙の絵を見て、この本を買うことに決めた。",
+          "vi": "Tôi đã quyết định mua cuốn sách này sau khi nhìn thấy tranh vẽ ngoài bìa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 007 — 表紙"
+    },
+    {
+      "id": 3008,
+      "surface": "表面",
+      "hiragana": "ひょうめん",
+      "kanji": "表面",
+      "meaning_vi": "bề mặt, vẻ ngoài",
+      "examples": [
+        {
+          "jp": "池の表面に氷が張っている。",
+          "vi": "Bề mặt ao đã phủ một lớp băng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 008 — 表面"
+    },
+    {
+      "id": 3009,
+      "surface": "時刻表",
+      "hiragana": "じこくひょう",
+      "kanji": "時刻表",
+      "meaning_vi": "bảng giờ, lịch trình thời gian",
+      "examples": [
+        {
+          "jp": "飛行機の時刻表が変更されたので、出発時間を確認してください。",
+          "vi": "Lịch bay đã bị thay đổi, nên vui lòng kiểm tra lại giờ khởi hành."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 009 — 時刻表"
+    },
+    {
+      "id": 3010,
+      "surface": "小麦粉",
+      "hiragana": "こむぎこ",
+      "kanji": "小麦粉",
+      "meaning_vi": "bột mì",
+      "examples": [
+        {
+          "jp": "卵とバターをよく混ぜてから、小麦粉を入れます。",
+          "vi": "Sau khi trộn đều trứng và bơ thì cho bột mì vào."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 193 | BÀI 3 > TỪ VỰNG > mục 010 — 小麦粉"
+    },
+    {
+      "id": 3011,
+      "surface": "服装",
+      "hiragana": "ふくそう",
+      "kanji": "服装",
+      "meaning_vi": "trang phục",
+      "examples": [
+        {
+          "jp": "面接にはしっかりした服装で行くべきだ。",
+          "vi": "Đi phỏng vấn thì nên mặc trang phục chỉnh tề."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 011 — 服装"
+    },
+    {
+      "id": 3012,
+      "surface": "家庭",
+      "hiragana": "かてい",
+      "kanji": "家庭",
+      "meaning_vi": "gia đình",
+      "examples": [
+        {
+          "jp": "私はお金持ちではない、平凡な家庭で育った。",
+          "vi": "Tôi không phải là người giàu có, mà lớn lên trong một gia đình bình thường."
+        },
+        {
+          "jp": "将来は夫と温かい家庭を築きたい。",
+          "vi": "Sau này, tôi muốn cùng chồng xây dựng một gia đình ấm áp yêu thương."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 012 — 家庭"
+    },
+    {
+      "id": 3013,
+      "surface": "博物館",
+      "hiragana": "はくぶつかん",
+      "kanji": "博物館",
+      "meaning_vi": "viện bảo tàng",
+      "examples": [
+        {
+          "jp": "あの博物館には貴重な資料がたくさんある。",
+          "vi": "Bảo tàng đó có rất nhiều tài liệu quý giá."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 013 — 博物館"
+    },
+    {
+      "id": 3014,
+      "surface": "実力",
+      "hiragana": "じつりょく",
+      "kanji": "実力",
+      "meaning_vi": "thực lực",
+      "examples": [
+        {
+          "jp": "試験で自分の実力を試したい。",
+          "vi": "Tôi muốn thử sức mình thông qua kỳ thi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 014 — 実力"
+    },
+    {
+      "id": 3015,
+      "surface": "運",
+      "hiragana": "うん",
+      "kanji": "運",
+      "meaning_vi": "vận may, vận mệnh",
+      "examples": [
+        {
+          "jp": "宝くじが当たるなんて運がいい。",
+          "vi": "Chuyện trúng xổ số đúng là may mắn."
+        },
+        {
+          "jp": "旅行の日に雨が降るなんて、運が悪い。",
+          "vi": "Đúng ngày đi du lịch thì trời lại mưa, thật là xui xẻo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 015 — 運"
+    },
+    {
+      "id": 3016,
+      "surface": "会場",
+      "hiragana": "かいじょう",
+      "kanji": "会場",
+      "meaning_vi": "hội trường, địa điểm",
+      "examples": [
+        {
+          "jp": "私の通っている大学が JLPT の試験会場になった。",
+          "vi": "Trường đại học tôi đang theo học đã trở thành địa điểm tổ chức kỳ thi JLPT."
+        },
+        {
+          "jp": "コンサート会場に観客が入ってきた。",
+          "vi": "Khán giả đã vào hội trường buổi hoà nhạc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 016 — 会場"
+    },
+    {
+      "id": 3017,
+      "surface": "土日",
+      "hiragana": "どにち",
+      "kanji": "土日",
+      "meaning_vi": "cuối tuần, thứ 7 và chủ nhật",
+      "examples": [
+        {
+          "jp": "土日は家族と一緒に過ごすことが多い。",
+          "vi": "Cuối tuần tôi thường ở cùng gia đình."
+        },
+        {
+          "jp": "土日も忙しくて、休む時間がほとんどない。",
+          "vi": "Ngay cả cuối tuần tôi cũng bận, hầu như không có thời gian nghỉ ngơi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 017 — 土日"
+    },
+    {
+      "id": 3018,
+      "surface": "文章",
+      "hiragana": "ぶんしょう",
+      "kanji": "文章",
+      "meaning_vi": "câu văn, đoạn văn, bài viết",
+      "examples": [
+        {
+          "jp": "ベトナム語で書かれた文章を日本語にしてください。",
+          "vi": "Hãy dịch đoạn văn được viết bằng tiếng Việt này sang tiếng Nhật."
+        },
+        {
+          "jp": "新製品を紹介するための文章を考える。",
+          "vi": "Suy nghĩ bài viết để giới thiệu sản phẩm mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 018 — 文章"
+    },
+    {
+      "id": 3019,
+      "surface": "役目",
+      "hiragana": "やくめ",
+      "kanji": "役目",
+      "meaning_vi": "vai trò, nhiệm vụ",
+      "examples": [
+        {
+          "jp": "後輩を指導するのも、先輩としての役目の一つだ。",
+          "vi": "Việc hướng dẫn hậu bối cũng là một trong những vai trò của tiền bối."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 019 — 役目"
+    },
+    {
+      "id": 3020,
+      "surface": "見た目",
+      "hiragana": "みため",
+      "kanji": "見た目",
+      "meaning_vi": "vẻ ngoài, dáng vẻ",
+      "examples": [
+        {
+          "jp": "料理は味だけでなく、見た目も重要だ。",
+          "vi": "Món ăn không chỉ quan trọng về hương vị mà cả về hình thức bên ngoài."
+        },
+        {
+          "jp": "この服、見た目は少し派手だけど、とても着心地がいい。",
+          "vi": "Chiếc áo này, bề ngoài hơi sặc sỡ nhưng lại rất thoải mái khi mặc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 194 | BÀI 3 > TỪ VỰNG > mục 020 — 見た目"
+    },
+    {
+      "id": 3021,
+      "surface": "外見",
+      "hiragana": "がいけん",
+      "kanji": "外見",
+      "meaning_vi": "diện mạo, ngoại hình",
+      "examples": [
+        {
+          "jp": "人を外見で判断してはいけない。",
+          "vi": "Không nên đánh giá con người qua vẻ bề ngoài."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 021 — 外見"
+    },
+    {
+      "id": 3022,
+      "surface": "症状",
+      "hiragana": "しょうじょう",
+      "kanji": "症状",
+      "meaning_vi": "triệu chứng bệnh",
+      "examples": [
+        {
+          "jp": "病気の症状を医者に伝える。",
+          "vi": "Trình bày triệu chứng bệnh cho bác sĩ."
+        },
+        {
+          "jp": "風邪の症状は様々ざまだ。",
+          "vi": "Triệu chứng của bệnh cảm là rất đa dạng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 022 — 症状"
+    },
+    {
+      "id": 3023,
+      "surface": "灰",
+      "hiragana": "はい",
+      "kanji": "灰",
+      "meaning_vi": "tro",
+      "examples": [
+        {
+          "jp": "火事で家が焼けて灰になった。",
+          "vi": "Nhiều ngôi nhà đã bị cháy thành tro."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 023 — 灰"
+    },
+    {
+      "id": 3024,
+      "surface": "学者",
+      "hiragana": "がくしゃ",
+      "kanji": "学者",
+      "meaning_vi": "học giả",
+      "examples": [
+        {
+          "jp": "そんなに詳しく調べるなんて、まるで学者みたいだね。",
+          "vi": "Tìm hiểu kỹ như thế, cứ như một học giả ấy nhỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 024 — 学者"
+    },
+    {
+      "id": 3025,
+      "surface": "学問",
+      "hiragana": "がくもん",
+      "kanji": "学問",
+      "meaning_vi": "học vấn, việc học",
+      "examples": [
+        {
+          "jp": "学問は人生を豊かにする。",
+          "vi": "Học vấn làm phong phú cuộc sống."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 025 — 学問"
+    },
+    {
+      "id": 3026,
+      "surface": "学歴",
+      "hiragana": "がくれき",
+      "kanji": "学歴",
+      "meaning_vi": "trình độ học vấn, bằng cấp",
+      "examples": [
+        {
+          "jp": "今の時代は学歴社会である。",
+          "vi": "Thời đại bây giờ là xã hội coi trọng bằng cấp."
+        },
+        {
+          "jp": "学歴が低いと就職が難",
+          "vi": "Bằng cấp thấp thì khó xin việc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 026 — 学歴"
+    },
+    {
+      "id": 3027,
+      "surface": "記事",
+      "hiragana": "きじ",
+      "kanji": "記事",
+      "meaning_vi": "kí sự, phóng sự, bài báo",
+      "examples": [
+        {
+          "jp": "昨日の事件が新聞の記事になっていた。",
+          "vi": "Vụ việc hôm qua đã được đăng tin lên báo."
+        },
+        {
+          "jp": "この記事によると、今年は旅行者が減少するそうだ。",
+          "vi": "Theo bài báo này thì lượng người đi du lịch năm nay sẽ suy giảm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 027 — 記事"
+    },
+    {
+      "id": 3028,
+      "surface": "自宅",
+      "hiragana": "じたく",
+      "kanji": "自宅",
+      "meaning_vi": "nhà, nhà mình",
+      "examples": [
+        {
+          "jp": "自宅から職場まで、バスで 30 分かかる。",
+          "vi": "Từ nhà đến chỗ làm mất 30 phút đi xe buýt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 028 — 自宅"
+    },
+    {
+      "id": 3029,
+      "surface": "距離",
+      "hiragana": "きょり",
+      "kanji": "距離",
+      "meaning_vi": "khoảng cách",
+      "examples": [
+        {
+          "jp": "家から会社までは距離がある。",
+          "vi": "Khoảng cách từ nhà đến công ty khá xa."
+        },
+        {
+          "jp": "彼女とは遠距離恋愛",
+          "vi": "Tôi và cô ấy yêu xa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 029 — 距離"
+    },
+    {
+      "id": 3030,
+      "surface": "行事",
+      "hiragana": "ぎょうじ",
+      "kanji": "行事",
+      "meaning_vi": "sự kiện, lễ hội",
+      "examples": [
+        {
+          "jp": "学校行事に参加する。",
+          "vi": "Tham gia những sự kiện của trường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 030 — 行事"
+    },
+    {
+      "id": 3031,
+      "surface": "駐車禁止",
+      "hiragana": "ちゅうしゃきんし",
+      "kanji": "駐車禁止",
+      "meaning_vi": "cấm đỗ xe",
+      "examples": [
+        {
+          "jp": "ここは駐車禁止です。駐車場にとめてください。",
+          "vi": "Đây là khu vực cấm đỗ xe. Xin vui lòng đỗ ở bãi đậu xe."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 195 | BÀI 3 > TỪ VỰNG > mục 031 — 駐車禁止"
+    },
+    {
+      "id": 3032,
+      "surface": "間隔",
+      "hiragana": "かんかく",
+      "kanji": "間隔",
+      "meaning_vi": "khoảng cách, khoảng thời gian",
+      "examples": [],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 032 — 間隔"
+    },
+    {
+      "id": 3033,
+      "surface": "コンテスト",
+      "hiragana": "こんてすと",
+      "kanji": null,
+      "meaning_vi": "cuộc thi",
+      "examples": [
+        {
+          "jp": "彼女は絵のコンテストで1 位になった。",
+          "vi": "Cô ấy đã giành giải nhất trong cuộc thi vẽ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 033 — コンテスト"
+    },
+    {
+      "id": 3034,
+      "surface": "トップ",
+      "hiragana": "とっぷ",
+      "kanji": null,
+      "meaning_vi": "vị trí lãnh đạo; hàng đầu",
+      "examples": [
+        {
+          "jp": "あの人がこの会社のトップだ。",
+          "vi": "Người đó chính là người đứng đầu công ty này."
+        },
+        {
+          "jp": "山田さんはいつもクラスで成績がトップだ。",
+          "vi": "Yamada lúc nào cũng có thành tích học tập đứng đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 034 — トップ"
+    },
+    {
+      "id": 3035,
+      "surface": "クーラー",
+      "hiragana": "くーらー",
+      "kanji": null,
+      "meaning_vi": "máy lạnh",
+      "examples": [
+        {
+          "jp": "夏になると、クーラーが欠かせなくなる。",
+          "vi": "Hè đến, máy lạnh là thứ không thể thiếu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 035 — クーラー"
+    },
+    {
+      "id": 3036,
+      "surface": "スパゲッティ",
+      "hiragana": "すぱげってぃ",
+      "kanji": null,
+      "meaning_vi": "mì spaghetti",
+      "examples": [
+        {
+          "jp": "イタリア料理のレストランでスパゲッティを食べた。",
+          "vi": "Tôi đã ăn mì spaghetti tại một nhà hàng Ý."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 036 — スパゲッティ"
+    },
+    {
+      "id": 3037,
+      "surface": "レシピ",
+      "hiragana": "れしぴ",
+      "kanji": null,
+      "meaning_vi": "công thức",
+      "examples": [
+        {
+          "jp": "レシピ通りに作ったら、すごくおいしくできた。",
+          "vi": "Tôi làm đúng theo công thức và kết quả là món ăn rất ngon."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 196 | BÀI 3 > TỪ VỰNG > mục 037 — レシピ"
+    }
+  ]
+}

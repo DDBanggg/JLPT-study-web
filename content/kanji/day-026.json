@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-026",
+  "study_day": 26,
+  "items": [
+    {
+      "id": 2601,
+      "kanji": "相",
+      "han_viet": "TƯƠNG / TƯỚNG",
+      "meaning_vi": "lẫn nhau; tướng",
+      "onyomi": [
+        "ソウ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "あい"
+      ],
+      "compounds": [
+        {
+          "word": "相手",
+          "reading": "あいて",
+          "meaning_vi": "đối phương"
+        },
+        {
+          "word": "首相",
+          "reading": "しゅしょう",
+          "meaning_vi": "thủ tướng"
+        },
+        {
+          "word": "相談",
+          "reading": "そうだん",
+          "meaning_vi": "thảo luận, trao đổi"
+        },
+        {
+          "word": "相変わらず",
+          "reading": "あいかわらず",
+          "meaning_vi": "như mọi khi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 146 | BÀI 1 > CHỮ HÁN > 相"
+    },
+    {
+      "id": 2602,
+      "kanji": "箱",
+      "han_viet": "TƯƠNG",
+      "meaning_vi": "hộp",
+      "onyomi": [],
+      "kunyomi": [
+        "はこ"
+      ],
+      "compounds": [
+        {
+          "word": "箱",
+          "reading": "はこ",
+          "meaning_vi": "hộp"
+        },
+        {
+          "word": "筆箱",
+          "reading": "ふでばこ",
+          "meaning_vi": "hộp bút"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 146 | BÀI 1 > CHỮ HÁN > 箱"
+    },
+    {
+      "id": 2603,
+      "kanji": "想",
+      "han_viet": "TƯỞNG",
+      "meaning_vi": "suy nghĩ; tưởng tượng",
+      "onyomi": [
+        "ソウ",
+        "ソ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "感想",
+          "reading": "かんそう",
+          "meaning_vi": "cảm tưởng"
+        },
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "meaning_vi": "tưởng tượng"
+        },
+        {
+          "word": "予想",
+          "reading": "よそう",
+          "meaning_vi": "dự đoán"
+        },
+        {
+          "word": "発想",
+          "reading": "はっそう",
+          "meaning_vi": "ý tưởng"
+        },
+        {
+          "word": "理想",
+          "reading": "りそう",
+          "meaning_vi": "lý tưởng"
+        },
+        {
+          "word": "可哀想",
+          "reading": "かわいそう",
+          "meaning_vi": "đáng thương"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 146 | BÀI 1 > CHỮ HÁN > 想"
+    },
+    {
+      "id": 2604,
+      "kanji": "未",
+      "han_viet": "VỊ",
+      "meaning_vi": "chưa",
+      "onyomi": [
+        "ミ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "未来",
+          "reading": "みらい",
+          "meaning_vi": "tương lai"
+        },
+        {
+          "word": "未経験",
+          "reading": "みけいけん",
+          "meaning_vi": "chưa có kinh nghiệm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 147 | BÀI 1 > CHỮ HÁN > 未"
+    },
+    {
+      "id": 2605,
+      "kanji": "末",
+      "han_viet": "MẠT",
+      "meaning_vi": "cuối; phần cuối",
+      "onyomi": [
+        "マツ",
+        "バツ"
+      ],
+      "kunyomi": [
+        "すえ"
+      ],
+      "compounds": [
+        {
+          "word": "末っ子",
+          "reading": "すえっこ",
+          "meaning_vi": "con út"
+        },
+        {
+          "word": "月末",
+          "reading": "げつまつ",
+          "meaning_vi": "cuối tháng"
+        },
+        {
+          "word": "年末",
+          "reading": "ねんまつ",
+          "meaning_vi": "cuối năm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 147 | BÀI 1 > CHỮ HÁN > 末"
+    },
+    {
+      "id": 2606,
+      "kanji": "札",
+      "han_viet": "TRÁT",
+      "meaning_vi": "tờ; thẻ",
+      "onyomi": [
+        "サツ"
+      ],
+      "kunyomi": [
+        "ふだ"
+      ],
+      "compounds": [
+        {
+          "word": "お札",
+          "reading": "おさつ",
+          "meaning_vi": "tiền giấy"
+        },
+        {
+          "word": "千円札",
+          "reading": "せんえんさつ",
+          "meaning_vi": "tờ một nghìn yên"
+        },
+        {
+          "word": "改札",
+          "reading": "かいさつ",
+          "meaning_vi": "cổng soát vé"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 148 | BÀI 1 > CHỮ HÁN > 札"
+    },
+    {
+      "id": 2607,
+      "kanji": "杯",
+      "han_viet": "BÔI",
+      "meaning_vi": "cốc; chén",
+      "onyomi": [
+        "ハイ"
+      ],
+      "kunyomi": [
+        "さかずき"
+      ],
+      "compounds": [
+        {
+          "word": "乾杯",
+          "reading": "かんぱい",
+          "meaning_vi": "cạn ly"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 148 | BÀI 1 > CHỮ HÁN > 杯"
+    }
+  ]
+}

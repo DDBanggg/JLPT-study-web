@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-029",
+  "type": "grammar",
+  "title": "Grammar Test — Day 29",
+  "study_day": 29,
+  "coverage": {
+    "from_day": 29,
+    "to_day": 29
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "玄関を出（　　　）とき、宅配便の車が止まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとした"
+            },
+            {
+              "id": "B",
+              "text": "ようにした"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "最後の一口を食べ（　　　）ところで、皿を下げられた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようにした"
+            },
+            {
+              "id": "B",
+              "text": "ようとした"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "電車に乗（　　　）瞬間、ドアが閉まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ることにした"
+            },
+            {
+              "id": "B",
+              "text": "るようにした"
+            },
+            {
+              "id": "C",
+              "text": "ろうとした"
+            },
+            {
+              "id": "D",
+              "text": "ったばかりの"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "古い写真を捨て（　　　）が、思い出して箱に戻した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようにした"
+            },
+            {
+              "id": "B",
+              "text": "ことにした"
+            },
+            {
+              "id": "C",
+              "text": "つもりだった"
+            },
+            {
+              "id": "D",
+              "text": "ようとした"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "質問に答え（　　　）としたが、緊張して声が出なかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よう"
+            },
+            {
+              "id": "B",
+              "text": "ながら"
+            },
+            {
+              "id": "C",
+              "text": "そう"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "店を閉め（　　　）とき、最後の客が入ってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようにした"
+            },
+            {
+              "id": "B",
+              "text": "ようとした"
+            },
+            {
+              "id": "C",
+              "text": "ことにした"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "倒れた自転車を起こ（　　　）としたが、一人では重すぎた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よう"
+            },
+            {
+              "id": "B",
+              "text": "ながら"
+            },
+            {
+              "id": "C",
+              "text": "そう"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "窓を開け（　　　）としたら、強い風でカーテンが飛んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ながら"
+            },
+            {
+              "id": "B",
+              "text": "そう"
+            },
+            {
+              "id": "C",
+              "text": "ため"
+            },
+            {
+              "id": "D",
+              "text": "よう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "駅員に道を尋ね（　　　）としたとき、案内板を見つけた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "よう"
+            },
+            {
+              "id": "B",
+              "text": "ながら"
+            },
+            {
+              "id": "C",
+              "text": "そう"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "子どもが熱い鍋に触れ（　　　）ので、母親が慌てて止めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようにしていた"
+            },
+            {
+              "id": "B",
+              "text": "ようとしていた"
+            },
+            {
+              "id": "C",
+              "text": "ことにしていた"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "長い冬が終わり、桜が咲（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いたところだ"
+            },
+            {
+              "id": "B",
+              "text": "くことにした"
+            },
+            {
+              "id": "C",
+              "text": "こうとしている"
+            },
+            {
+              "id": "D",
+              "text": "いてしまった"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "会議が終わ（　　　）としたところで、新しい問題が出た。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "って"
+            },
+            {
+              "id": "B",
+              "text": "った"
+            },
+            {
+              "id": "C",
+              "text": "る"
+            },
+            {
+              "id": "D",
+              "text": "ろう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "船が港を離れ（　　　）とき、雨が降り始めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしていた"
+            },
+            {
+              "id": "B",
+              "text": "ようにしていた"
+            },
+            {
+              "id": "C",
+              "text": "ことにしていた"
+            },
+            {
+              "id": "D",
+              "text": "つもりだった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2901"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "何度説明しても、祖父は補聴器を使（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うことにした"
+            },
+            {
+              "id": "B",
+              "text": "おうとしない"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "けんかをした二人は、お互いに謝（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ることにした"
+            },
+            {
+              "id": "B",
+              "text": "っている"
+            },
+            {
+              "id": "C",
+              "text": "ろうとしない"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "子どもは野菜を一口も食べ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "ようとしない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "失敗の原因を聞いても、担当者は答え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしない"
+            },
+            {
+              "id": "B",
+              "text": "ようとしている"
+            },
+            {
+              "id": "C",
+              "text": "ることにした"
+            },
+            {
+              "id": "D",
+              "text": "たことがある"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "雨が降っているのに、彼は傘を持（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つことにした"
+            },
+            {
+              "id": "B",
+              "text": "とうとしない"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "母が呼んでも、弟はゲームをやめ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "ようとしない"
+            },
+            {
+              "id": "D",
+              "text": "たことがある"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "医者に注意されたのに、父は生活習慣を変え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "ようとしない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "迷惑をかけた学生は、自分の名前を名乗（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ろうとしない"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "犬は知らない人から餌をもら（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うことにした"
+            },
+            {
+              "id": "B",
+              "text": "おうとしない"
+            },
+            {
+              "id": "C",
+              "text": "っている"
+            },
+            {
+              "id": "D",
+              "text": "ったことがある"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "資料の誤りを示しても、彼女は認め（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "ようとしない"
+            },
+            {
+              "id": "D",
+              "text": "たことがある"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "疲れているのに、赤ちゃんはなかなか寝（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしている"
+            },
+            {
+              "id": "B",
+              "text": "ることにした"
+            },
+            {
+              "id": "C",
+              "text": "たことがある"
+            },
+            {
+              "id": "D",
+              "text": "ようとしない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "大切な話なのに、彼は私の顔を見（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようとしない"
+            },
+            {
+              "id": "B",
+              "text": "ようとしている"
+            },
+            {
+              "id": "C",
+              "text": "ることにした"
+            },
+            {
+              "id": "D",
+              "text": "たことがある"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2902"
+          ]
+        }
+      ]
+    }
+  ]
+}

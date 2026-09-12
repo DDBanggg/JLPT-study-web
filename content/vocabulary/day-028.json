@@ -1,0 +1,748 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-028",
+  "study_day": 28,
+  "target": 50,
+  "pool_size": 39,
+  "items": [
+    {
+      "id": 2801,
+      "surface": "向かい",
+      "hiragana": "むかい",
+      "kanji": "向かい",
+      "meaning_vi": "đối diện, phía đối diện",
+      "examples": [
+        {
+          "jp": "家の向かいに新しいコンビニができた。",
+          "vi": "Đối diện nhà tôi mới mở cửa hàng tiện lợi."
+        },
+        {
+          "jp": "学校の向かいのパン屋さんはおいしい。",
+          "vi": "Cửa hàng bánh mì đối diện trường học ngon đấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 001 — 向かい"
+    },
+    {
+      "id": 2802,
+      "surface": "薬局",
+      "hiragana": "やっきょく",
+      "kanji": "薬局",
+      "meaning_vi": "hiệu thuốc",
+      "examples": [
+        {
+          "jp": "病院の帰りに薬局に寄った。",
+          "vi": "Trên đường từ bệnh viện về tôi ghé vào hiệu thuốc."
+        },
+        {
+          "jp": "この薬局では、化粧品も売っている。",
+          "vi": "Ở hiệu thuốc này cũng bán mỹ phẩm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 002 — 薬局"
+    },
+    {
+      "id": 2803,
+      "surface": "容器",
+      "hiragana": "ようき",
+      "kanji": "容器",
+      "meaning_vi": "đồ đựng, vật chứa",
+      "examples": [
+        {
+          "jp": "夕飯の残りを容器に移して冷蔵庫に入れた。",
+          "vi": "Cho đồ ăn thừa từ bữa tối vào hộp và cho vào tủ lạnh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 003 — 容器"
+    },
+    {
+      "id": 2804,
+      "surface": "充電器",
+      "hiragana": "じゅうでんき",
+      "kanji": "充電器",
+      "meaning_vi": "bộ sạc điện, sạc pin",
+      "examples": [
+        {
+          "jp": "パソコンの充電器をなくしてしまった。",
+          "vi": "Tôi đã làm mất bộ sạc máy tính xách tay."
+        },
+        {
+          "jp": "古い充電器は、充電速度が遅いことがある。",
+          "vi": "Bộ sạc cũ đôi khi tốc độ sạc chậm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 004 — 充電器"
+    },
+    {
+      "id": 2805,
+      "surface": "期間",
+      "hiragana": "きかん",
+      "kanji": "期間",
+      "meaning_vi": "khoảng thời gian",
+      "examples": [
+        {
+          "jp": "申し込みできる期間は１か月です。",
+          "vi": "Thời gian có thể đăng ký là 1 tháng."
+        },
+        {
+          "jp": "工事期間は 3 年です。",
+          "vi": "Thời gian thi công là 3 năm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 005 — 期間"
+    },
+    {
+      "id": 2806,
+      "surface": "日当たり",
+      "hiragana": "ひあたり",
+      "kanji": "日当たり",
+      "meaning_vi": "ánh nắng chiếu vào",
+      "examples": [
+        {
+          "jp": "5 階は日当たりがいいので洗濯物がよく乾く。",
+          "vi": "Tầng 5 có nhiều nắng nên quần áo phơi rất nhanh khô."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 006 — 日当たり"
+    },
+    {
+      "id": 2807,
+      "surface": "速度",
+      "hiragana": "そくど",
+      "kanji": "速度",
+      "meaning_vi": "tốc độ",
+      "examples": [
+        {
+          "jp": "一定の速度で歩く。",
+          "vi": "Đi bộ với tốc độ ổn định."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 007 — 速度"
+    },
+    {
+      "id": 2808,
+      "surface": "坂道",
+      "hiragana": "さかみち",
+      "kanji": "坂道",
+      "meaning_vi": "đường dốc",
+      "examples": [
+        {
+          "jp": "毎朝坂道を上って会社に行く。",
+          "vi": "Sáng nào tôi cũng leo dốc đến công ty."
+        },
+        {
+          "jp": "この先はずっと坂道が続いている。",
+          "vi": "Phía trước là một con dốc kéo dài."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 008 — 坂道"
+    },
+    {
+      "id": 2809,
+      "surface": "栄養",
+      "hiragana": "えいよう",
+      "kanji": "栄養",
+      "meaning_vi": "dinh dưỡng",
+      "examples": [
+        {
+          "jp": "体調が悪い時は、栄養がある物を食べるといい。",
+          "vi": "Khi cơ thể không khỏe thì nên ăn những thực phẩm giàu dinh dưỡng."
+        },
+        {
+          "jp": "最近は、栄養に気を付けている。",
+          "vi": "Dạo này tôi đang chú ý tới vấn đề dinh dưỡng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 009 — 栄養"
+    },
+    {
+      "id": 2810,
+      "surface": "泡",
+      "hiragana": "あわ",
+      "kanji": "泡",
+      "meaning_vi": "bọt, bong bóng",
+      "examples": [
+        {
+          "jp": "ビールをグラスに注ぐと白い泡ができる。",
+          "vi": "Khi rót bia vào cốc thì sẽ có bọt trắng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 172 | BÀI 2 > TỪ VỰNG > mục 010 — 泡"
+    },
+    {
+      "id": 2811,
+      "surface": "行き先",
+      "hiragana": "ゆきさき",
+      "kanji": "行き先",
+      "meaning_vi": "đích đến, điểm đến",
+      "examples": [
+        {
+          "jp": "行き先がわからないと不安になる。",
+          "vi": "Tôi sẽ bất an nếu không biết rõ điểm đến."
+        },
+        {
+          "jp": "行き先によって、服装を変える。",
+          "vi": "Tùy vào điểm đến mà tôi thay đổi trang phục."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 011 — 行き先"
+    },
+    {
+      "id": 2812,
+      "surface": "親指",
+      "hiragana": "おやゆび",
+      "kanji": "親指",
+      "meaning_vi": "ngón cái",
+      "examples": [
+        {
+          "jp": "親指を上げるのは、「賛成」という意味です。",
+          "vi": "Giơ ngón cái lên có nghĩa là đồng ý."
+        },
+        {
+          "jp": "親指と人差し指で丸を作った。",
+          "vi": "Tôi làm hình tròn bằng ngón cái và ngón trỏ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 012 — 親指"
+    },
+    {
+      "id": 2813,
+      "surface": "人差し指",
+      "hiragana": "ひとさしゆび",
+      "kanji": "人差し指",
+      "meaning_vi": "ngón trỏ",
+      "examples": [
+        {
+          "jp": "人差し指が痛くて、字が書けません。",
+          "vi": "Ngón trỏ của tôi bị đau, nên tôi không thể viết chữ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 013 — 人差し指"
+    },
+    {
+      "id": 2814,
+      "surface": "中指",
+      "hiragana": "なかゆび",
+      "kanji": "中指",
+      "meaning_vi": "ngón giữa",
+      "examples": [
+        {
+          "jp": "中指に指輪をつけることは少ない。",
+          "vi": "Ít thấy người ta đeo nhẫn ngón giữa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 014 — 中指"
+    },
+    {
+      "id": 2815,
+      "surface": "薬指",
+      "hiragana": "くすりゆび",
+      "kanji": "薬指",
+      "meaning_vi": "ngón áp út, ngón nhẫn",
+      "examples": [
+        {
+          "jp": "彼女は薬指に美しい指輪をしている。",
+          "vi": "Cô ấy đeo một chiếc nhẫn đẹp trên ngón áp út."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 015 — 薬指"
+    },
+    {
+      "id": 2816,
+      "surface": "小指",
+      "hiragana": "こゆび",
+      "kanji": "小指",
+      "meaning_vi": "ngón út",
+      "examples": [
+        {
+          "jp": "小指を切ってしまった。",
+          "vi": "Tôi đã cắt phải ngón út."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 016 — 小指"
+    },
+    {
+      "id": 2817,
+      "surface": "母親",
+      "hiragana": "ははおや",
+      "kanji": "母親",
+      "meaning_vi": "mẹ, người mẹ",
+      "examples": [
+        {
+          "jp": "母親は子供に愛情を注ぐものだ。",
+          "vi": "Người mẹ nào cũng luôn dành hết tình yêu thương cho con cái."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 017 — 母親"
+    },
+    {
+      "id": 2818,
+      "surface": "一部",
+      "hiragana": "いちぶ",
+      "kanji": "一部",
+      "meaning_vi": "một phần",
+      "examples": [
+        {
+          "jp": "この問題の一部は解決しました。",
+          "vi": "Một phần của vấn đề này đã được giải quyết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 018 — 一部"
+    },
+    {
+      "id": 2819,
+      "surface": "一生",
+      "hiragana": "いっしょう",
+      "kanji": "一生",
+      "meaning_vi": "một đời, cả đời",
+      "examples": [
+        {
+          "jp": "一生あなたを大切にします。",
+          "vi": "Anh sẽ trân trọng em suốt đời."
+        },
+        {
+          "jp": "一生の思い出に残る旅行をしたい。",
+          "vi": "Tôi muốn có một chuyến đi sẽ là kỷ niệm suốt đời."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 019 — 一生"
+    },
+    {
+      "id": 2820,
+      "surface": "一方通行",
+      "hiragana": "いっぽうつうこう",
+      "kanji": "一方通行",
+      "meaning_vi": "đường một chiều",
+      "examples": [
+        {
+          "jp": "この通りは一方通行です。",
+          "vi": "Con phố này là đường một chiều."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 020 — 一方通行"
+    },
+    {
+      "id": 2821,
+      "surface": "マイク",
+      "hiragana": "まいく",
+      "kanji": null,
+      "meaning_vi": "mic, micrô",
+      "examples": [
+        {
+          "jp": "マイクを使うと、声が大きくなります。",
+          "vi": "Khi sử dụng micro, giọng nói sẽ to hơn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 021 — マイク"
+    },
+    {
+      "id": 2822,
+      "surface": "サイズ",
+      "hiragana": "さいず",
+      "kanji": null,
+      "meaning_vi": "kích cỡ",
+      "examples": [
+        {
+          "jp": "サイズを確認してから注文してください。",
+          "vi": "Hãy kiểm tra kích cỡ trước khi đặt hàng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 173 | BÀI 2 > TỪ VỰNG > mục 022 — サイズ"
+    },
+    {
+      "id": 2823,
+      "surface": "事柄",
+      "hiragana": "ことがら",
+      "kanji": "事柄",
+      "meaning_vi": "sự việc, vấn đề",
+      "examples": [
+        {
+          "jp": "面接で、最近特に関心を持った事柄について聞かれた。",
+          "vi": "Tại buổi phỏng vấn, tôi đã được hỏi về những vấn đề mà mình ❖ sự việc, vấn đề đặc biệt quan tâm dạo gần đây."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 023 — 事柄"
+    },
+    {
+      "id": 2824,
+      "surface": "事実",
+      "hiragana": "じじつ",
+      "kanji": "事実",
+      "meaning_vi": "sự thật",
+      "examples": [
+        {
+          "jp": "彼が犯人だというのは明らかな事実です。",
+          "vi": "Việc hắn ta là thủ phạm là sự thật rõ ràng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 024 — 事実"
+    },
+    {
+      "id": 2825,
+      "surface": "掃除機",
+      "hiragana": "そうじき",
+      "kanji": "掃除機",
+      "meaning_vi": "máy hút bụi",
+      "examples": [
+        {
+          "jp": "部屋を片付けて、掃除機をかけよう。",
+          "vi": "Hãy dọn dẹp phòng và hút bụi thôi."
+        },
+        {
+          "jp": "この掃除機は、ゴミを吸う力が弱い。",
+          "vi": "Cái máy hút bụi này lực hút yếu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 025 — 掃除機"
+    },
+    {
+      "id": 2826,
+      "surface": "話題",
+      "hiragana": "わだい",
+      "kanji": "話題",
+      "meaning_vi": "chủ đề, đề tài",
+      "examples": [
+        {
+          "jp": "今話題のアイドルが結婚したらしい。",
+          "vi": "Nghe nói là idol đang hot hiện nay đã kết hôn đấy."
+        },
+        {
+          "jp": "昨日の出来事が、学校中で話題になっている。",
+          "vi": "Sự việc ngày hôm qua đã trở thành đề tài của cả trường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 026 — 話題"
+    },
+    {
+      "id": 2827,
+      "surface": "雰囲気",
+      "hiragana": "ふんいき",
+      "kanji": "雰囲気",
+      "meaning_vi": "bầu không khí",
+      "examples": [
+        {
+          "jp": "和やかな雰囲気の職場で働きたいなぁ。",
+          "vi": "Tôi muốn làm việc trong một môi trường hòa nhã."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 027 — 雰囲気"
+    },
+    {
+      "id": 2828,
+      "surface": "集まり",
+      "hiragana": "あつまり",
+      "kanji": "集まり",
+      "meaning_vi": "tập hợp, buổi gặp mặt",
+      "examples": [
+        {
+          "jp": "今日の午後、町内の集まりがある。",
+          "vi": "Chiều nay sẽ có buổi tập trung trong khu phố."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 028 — 集まり"
+    },
+    {
+      "id": 2829,
+      "surface": "頭痛",
+      "hiragana": "ずつう",
+      "kanji": "頭痛",
+      "meaning_vi": "đau đầu",
+      "examples": [
+        {
+          "jp": "昨日から頭痛が続いている。",
+          "vi": "Tôi bị đau đầu từ hôm qua đến giờ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 029 — 頭痛"
+    },
+    {
+      "id": 2830,
+      "surface": "喜び",
+      "hiragana": "よろこび",
+      "kanji": "喜び",
+      "meaning_vi": "niềm vui, sự vui mừng",
+      "examples": [
+        {
+          "jp": "彼の顔は喜びにあふれていた。",
+          "vi": "Khuôn mặt của anh ấy tràn ngập niềm vui."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 030 — 喜び"
+    },
+    {
+      "id": 2831,
+      "surface": "新鮮",
+      "hiragana": "しんせん",
+      "kanji": "新鮮",
+      "meaning_vi": "tươi mới; trong lành",
+      "examples": [
+        {
+          "jp": "新鮮な魚を料理する。",
+          "vi": "Tôi nấu cá tươi."
+        },
+        {
+          "jp": "自然の中で新鮮な空気を吸う。",
+          "vi": "Tôi hít thở bầu không khí trong lành giữa thiên nhiên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 031 — 新鮮"
+    },
+    {
+      "id": 2832,
+      "surface": "臭い",
+      "hiragana": "くさい",
+      "kanji": "臭い",
+      "meaning_vi": "hôi, thối",
+      "examples": [
+        {
+          "jp": "あそこのトイレは臭いので、使いたくない。",
+          "vi": "Nhà vệ sinh ở đó có mùi hôi, nên tôi không muốn sử dụng."
+        },
+        {
+          "jp": "ドリアンは世界で一番臭い果物として有名だ。",
+          "vi": "Sầu riêng nổi tiếng là quả có mùi nhất thế giới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 032 — 臭い"
+    },
+    {
+      "id": 2833,
+      "surface": "呼びかける",
+      "hiragana": "よびかける",
+      "kanji": "呼びかける",
+      "meaning_vi": "kêu gọi, hô hào",
+      "examples": [
+        {
+          "jp": "外出するときはマスクをするように呼びかける。",
+          "vi": "Kêu gọi mọi người đeo khẩu trang khi ra ngoài."
+        },
+        {
+          "jp": "駅で友達を見かけて呼びかけた。",
+          "vi": "Tôi nhìn thấy bạn ở nhà ga và đã gọi bạn ấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 174 | BÀI 2 > TỪ VỰNG > mục 033 — 呼びかける"
+    },
+    {
+      "id": 2834,
+      "surface": "呼び出す",
+      "hiragana": "よびだす",
+      "kanji": "呼び出す",
+      "meaning_vi": "triệu tập, gọi",
+      "examples": [
+        {
+          "jp": "先生から呼び出された。",
+          "vi": "Tôi bị thầy giáo gọi."
+        },
+        {
+          "jp": "料理ができたら番号でお呼び出ししますね。",
+          "vi": "Khi món ăn đã sẵn sàng, tôi sẽ gọi số của bạn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 034 — 呼び出す"
+    },
+    {
+      "id": 2835,
+      "surface": "向ける",
+      "hiragana": "むける",
+      "kanji": "向ける",
+      "meaning_vi": "quay, hướng về phía",
+      "examples": [
+        {
+          "jp": "彼は自分の趣味以外の事には、あまり関心を向けない。",
+          "vi": "Anh ấy ít khi quan tâm đến những việc nằm ngoài sở thích của mình."
+        },
+        {
+          "jp": "顔を横に向けてください。",
+          "vi": "Hãy quay mặt sang ngang."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 035 — 向ける"
+    },
+    {
+      "id": 2836,
+      "surface": "向く",
+      "hiragana": "むく",
+      "kanji": "向く",
+      "meaning_vi": "hướng về; phù hợp",
+      "examples": [
+        {
+          "jp": "前を向いて歩く。",
+          "vi": "Đi bộ hướng về phía trước"
+        },
+        {
+          "jp": "その教科書は初心者に向いています。",
+          "vi": "Quyển sách này dành cho người mới bắt đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 036 — 向く"
+    },
+    {
+      "id": 2837,
+      "surface": "登る",
+      "hiragana": "のぼる",
+      "kanji": "登る",
+      "meaning_vi": "leo, trèo",
+      "examples": [
+        {
+          "jp": "富士山に登れるのは、夏の間だけです。",
+          "vi": "Leo núi Phú Sĩ thì chỉ có thể vào mùa hè thôi."
+        },
+        {
+          "jp": "子供たちが木に登って遊んでいる。",
+          "vi": "Bọn trẻ đang trèo cây chơi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 037 — 登る"
+    },
+    {
+      "id": 2838,
+      "surface": "役立つ",
+      "hiragana": "やくだつ",
+      "kanji": "役立つ",
+      "meaning_vi": "có ích, hữu ích",
+      "examples": [
+        {
+          "jp": "Youtube は、勉強や仕事に役立つ。",
+          "vi": "Youtube có ích cho học tập và công việc."
+        },
+        {
+          "jp": "このアプリは、日本語の勉強にとても役立ちます。",
+          "vi": "Ứng dụng này rất có ích cho việc học tiếng Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 038 — 役立つ"
+    },
+    {
+      "id": 2839,
+      "surface": "気に入る",
+      "hiragana": "きにいる",
+      "kanji": "気に入る",
+      "meaning_vi": "yêu thích",
+      "examples": [
+        {
+          "jp": "この家が気に入ったので、すぐに契約しました。",
+          "vi": "Vì rất ưng ý ngôi nhà này nên tôi đã ký hợp đồng ngay lập tức."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 3.pdf | trang in 175 | BÀI 2 > TỪ VỰNG > mục 039 — 気に入る"
+    }
+  ]
+}

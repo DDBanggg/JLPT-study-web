@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-026",
+  "study_day": 26,
+  "items": [
+    {
+      "id": 2601,
+      "structure": "～など / ～なんか / ～なんて（１）",
+      "formation": [
+        "N + など / なんか / なんて"
+      ],
+      "meaning_vi": "Chẳng hạn như, kiểu như",
+      "usage_vi": "Đưa ra một ví dụ hoặc gợi ý. など thiên về văn viết; なんか và なんて thường dùng trong hội thoại. Trợ từ phía sau đôi khi được lược trong khẩu ngữ.",
+      "examples": [
+        {
+          "jp": "週末は美術館なんかに行ってみませんか。",
+          "vi": "Cuối tuần thử đi nơi như bảo tàng mỹ thuật nhé?"
+        },
+        {
+          "jp": "ご意見などをお待ちしています。",
+          "vi": "Chúng tôi mong nhận được những ý kiến và góp ý."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 159 | BÀI 1 > NGỮ PHÁP > mục 1 — ～など / ～なんか / ～なんて（１）"
+    },
+    {
+      "id": 2602,
+      "structure": "～など / ～なんか / ～なんて（２）",
+      "formation": [
+        "N + など / なんか / なんて"
+      ],
+      "meaning_vi": "Cái thứ như; một người như (xem nhẹ hoặc khiêm nhường)",
+      "usage_vi": "Nêu sự vật hoặc việc mà người nói xem nhẹ, không coi trọng hoặc không hài lòng. Khi nói về bản thân, mẫu này có thể biểu thị sự khiêm tốn; vế sau thường mang nghĩa phủ định.",
+      "examples": [
+        {
+          "jp": "あの人の言葉など、信じられない。",
+          "vi": "Những lời của người đó thì tôi không thể tin được."
+        },
+        {
+          "jp": "私なんかには、そんな大きな仕事はできません。",
+          "vi": "Một người như tôi thì không thể làm nổi công việc lớn như vậy."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 160 | BÀI 1 > NGỮ PHÁP > mục 2 — ～など / ～なんか / ～なんて（２）"
+    },
+    {
+      "id": 2603,
+      "structure": "～なんて",
+      "formation": [
+        "Thể thường + なんて",
+        "Aな / N + だ / だった + なんて"
+      ],
+      "meaning_vi": "Thật không ngờ rằng; vậy mà",
+      "usage_vi": "Bày tỏ sự ngạc nhiên hoặc xúc động trước sự việc ngoài dự đoán. Phần thể hiện cảm xúc ở sau có thể được đảo lên trước hoặc lược bỏ.",
+      "examples": [
+        {
+          "jp": "四月に東京で雪が降るなんて、驚きました。",
+          "vi": "Thật bất ngờ khi tuyết lại rơi ở Tokyo vào tháng Tư."
+        },
+        {
+          "jp": "私が優勝できたなんて、今でも信じられません。",
+          "vi": "Đến giờ tôi vẫn không thể tin rằng mình đã vô địch."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 3.pdf | trang in 161 | BÀI 1 > NGỮ PHÁP > mục 3 — ～なんて"
+    }
+  ]
+}
