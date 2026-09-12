@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-024",
+  "type": "daily",
+  "title": "Daily Test — Day 24",
+  "study_day": 24,
+  "coverage": {
+    "from_day": 23,
+    "to_day": 23
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "道路が凍っているので、車が事故を起こし（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "B",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "この店は開店前から行列がある。昼には商品がなくなっ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "ても不思議ではない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "台風が近づいているなら、明日の船が欠航になっ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てはいけない"
+            },
+            {
+              "id": "C",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "初めて一人で発表した時、どんなに緊張した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ところか"
+            },
+            {
+              "id": "C",
+              "text": "わけか"
+            },
+            {
+              "id": "D",
+              "text": "ことか"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "困っていた時、先生の一言にどれほど励まされた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことか"
+            },
+            {
+              "id": "B",
+              "text": "ものか"
+            },
+            {
+              "id": "C",
+              "text": "ところか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "十年ぶりに故郷の景色を見て、どれだけ懐かしかった（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ことか"
+            },
+            {
+              "id": "C",
+              "text": "ところか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "彼は地図を持っているから、道に迷うことはない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ところだ"
+            },
+            {
+              "id": "C",
+              "text": "だろう"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "新製品は前の型より軽いので、若い人にも人気が出る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ところだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "だろう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "この治療で本当に痛みがなくなる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だろうか"
+            },
+            {
+              "id": "B",
+              "text": "からだろう"
+            },
+            {
+              "id": "C",
+              "text": "だけだろう"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "山田さんは連絡なしで休んでいる。何かあったの（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "からだろう"
+            },
+            {
+              "id": "B",
+              "text": "だろうか"
+            },
+            {
+              "id": "C",
+              "text": "だけだろう"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "私にはわからないので（　　　）の人に聞いてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他人"
+            },
+            {
+              "id": "B",
+              "text": "手伝い"
+            },
+            {
+              "id": "C",
+              "text": "他"
+            },
+            {
+              "id": "D",
+              "text": "信号"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2301"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "（　　　）に迷惑をかけてはいけません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "手伝い"
+            },
+            {
+              "id": "B",
+              "text": "信号"
+            },
+            {
+              "id": "C",
+              "text": "訳"
+            },
+            {
+              "id": "D",
+              "text": "他人"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2302"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "息子はよく家事の（　　　）をしてくれる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "手伝い"
+            },
+            {
+              "id": "B",
+              "text": "信号"
+            },
+            {
+              "id": "C",
+              "text": "訳"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2303"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "（　　　）が青になったら渡りましょう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "訳"
+            },
+            {
+              "id": "B",
+              "text": "信号"
+            },
+            {
+              "id": "C",
+              "text": "体調"
+            },
+            {
+              "id": "D",
+              "text": "調味料"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2304"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "彼がこんなことをするなんて、（　　　）がわからない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "体調"
+            },
+            {
+              "id": "B",
+              "text": "調味料"
+            },
+            {
+              "id": "C",
+              "text": "訳"
+            },
+            {
+              "id": "D",
+              "text": "羊"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2305"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "（　　　）が悪くて会社を休んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "調味料"
+            },
+            {
+              "id": "B",
+              "text": "羊"
+            },
+            {
+              "id": "C",
+              "text": "交差点"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2306"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "この料理に使う（　　　）は、塩とこしょうだけです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "調味料"
+            },
+            {
+              "id": "B",
+              "text": "羊"
+            },
+            {
+              "id": "C",
+              "text": "交差点"
+            },
+            {
+              "id": "D",
+              "text": "差"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2307"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "この毛布は白くてふわふわで、（　　　）の毛みたいだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "交差点"
+            },
+            {
+              "id": "B",
+              "text": "羊"
+            },
+            {
+              "id": "C",
+              "text": "差"
+            },
+            {
+              "id": "D",
+              "text": "美術"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2308"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "この（　　　）では、よく事故が起こります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "差"
+            },
+            {
+              "id": "B",
+              "text": "美術"
+            },
+            {
+              "id": "C",
+              "text": "交差点"
+            },
+            {
+              "id": "D",
+              "text": "美人"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2309"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "昼と夜の気温の（　　　）が激しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "美術"
+            },
+            {
+              "id": "B",
+              "text": "美人"
+            },
+            {
+              "id": "C",
+              "text": "美容院"
+            },
+            {
+              "id": "D",
+              "text": "差"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2310"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "この学校には（　　　）の専門クラスがある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "美術"
+            },
+            {
+              "id": "B",
+              "text": "美人"
+            },
+            {
+              "id": "C",
+              "text": "美容院"
+            },
+            {
+              "id": "D",
+              "text": "専門"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2311"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「他」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たにん"
+            },
+            {
+              "id": "B",
+              "text": "ほか"
+            },
+            {
+              "id": "C",
+              "text": "てつだい"
+            },
+            {
+              "id": "D",
+              "text": "しんごう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2301"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「他人」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "てつだい"
+            },
+            {
+              "id": "C",
+              "text": "たにん"
+            },
+            {
+              "id": "D",
+              "text": "しんごう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2302"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「手伝い」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "しんごう"
+            },
+            {
+              "id": "D",
+              "text": "てつだい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2303"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「信号」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しんごう"
+            },
+            {
+              "id": "B",
+              "text": "ほか"
+            },
+            {
+              "id": "C",
+              "text": "たにん"
+            },
+            {
+              "id": "D",
+              "text": "てつだい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2304"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "この色の「他」に青と白もあります。「他」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "つたえる"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2301"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "「他人」の荷物を勝手に開けてはいけない。「他人」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "つたえる"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2301"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "変更した集合時間を全員に「伝える」。「伝える」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "つたえる"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2302"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "電話では細かい気持ちまで「伝わる」か心配だ。「伝わる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "つたえる"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2302"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "週末は兄の引っ越しを「手伝う」。「手伝う」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てつだう"
+            },
+            {
+              "id": "B",
+              "text": "ほか"
+            },
+            {
+              "id": "C",
+              "text": "たにん"
+            },
+            {
+              "id": "D",
+              "text": "つたえる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2302"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "留守だった部長に「伝言」を残した。「伝言」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "でんごん"
+            },
+            {
+              "id": "C",
+              "text": "たにん"
+            },
+            {
+              "id": "D",
+              "text": "つたえる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2302"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "この青いコートは姉によく「似合う」。「似合う」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "にあう"
+            },
+            {
+              "id": "D",
+              "text": "つたえる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2303"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "子供は先生の話し方を「真似」している。「真似」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほか"
+            },
+            {
+              "id": "B",
+              "text": "たにん"
+            },
+            {
+              "id": "C",
+              "text": "つたえる"
+            },
+            {
+              "id": "D",
+              "text": "まね"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2303"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。私は友人の説明を（しんじる）ことにした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "他人"
+            },
+            {
+              "id": "C",
+              "text": "信じる"
+            },
+            {
+              "id": "D",
+              "text": "伝える"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2304"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。（しんごう）が青に変わってから横断歩道を渡った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "他人"
+            },
+            {
+              "id": "C",
+              "text": "伝える"
+            },
+            {
+              "id": "D",
+              "text": "信号"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2304"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。約束を何度も破ると（しんよう）を失う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "信用"
+            },
+            {
+              "id": "B",
+              "text": "他"
+            },
+            {
+              "id": "C",
+              "text": "他人"
+            },
+            {
+              "id": "D",
+              "text": "伝える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2304"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。会議の日程について今日中に（へんしん）してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "返信"
+            },
+            {
+              "id": "C",
+              "text": "他人"
+            },
+            {
+              "id": "D",
+              "text": "伝える"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2304"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。彼は正直に謝ったので、今回だけは（ゆるす）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "他人"
+            },
+            {
+              "id": "C",
+              "text": "許す"
+            },
+            {
+              "id": "D",
+              "text": "伝える"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2305"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。学校でアルバイトをするには先生の（きょか）が必要だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "他人"
+            },
+            {
+              "id": "C",
+              "text": "伝える"
+            },
+            {
+              "id": "D",
+              "text": "許可"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2305"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。旅行の前に国際運転（めんきょ）を取った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "免許"
+            },
+            {
+              "id": "B",
+              "text": "他"
+            },
+            {
+              "id": "C",
+              "text": "他人"
+            },
+            {
+              "id": "D",
+              "text": "伝える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2305"
+          ]
+        }
+      ]
+    }
+  ]
+}

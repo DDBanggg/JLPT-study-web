@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-020",
+  "type": "daily",
+  "title": "Daily Test — Day 20",
+  "study_day": 20,
+  "coverage": {
+    "from_day": 19,
+    "to_day": 19
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "音声入力（　　　）、手が使えない時でもメモを残せる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "海外の講師と話すこと（　　　）、教科書にない表現を学んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "にとって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "自動翻訳（　　　）、外国人の客にもすぐ案内できた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "落雷（　　　）、地域全体が停電した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に比べて"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "感染症が広がったこと（　　　）、大会は延期された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "において"
+            },
+            {
+              "id": "C",
+              "text": "にとって"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "道路の凍結（　　　）、配送が大幅に遅れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に比べて"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "に対して"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "利用する航空会社（　　　）、預けられる荷物の重さが違う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "選んだコース（　　　）、卒業に必要な科目は異なる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "において"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "窓を二重にする（　　　）、外の騒音をかなり減らせる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことで"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "だけでは"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "毎月支出を記録する（　　　）、無駄遣いに気づけるようになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ことで"
+            },
+            {
+              "id": "C",
+              "text": "だけでは"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "（　　　）で服がびしょびしょになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "週刊誌"
+            },
+            {
+              "id": "B",
+              "text": "朝刊"
+            },
+            {
+              "id": "C",
+              "text": "汗"
+            },
+            {
+              "id": "D",
+              "text": "辞書"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1901"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "（　　　）で、有名な歌手が結婚したことを知った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "朝刊"
+            },
+            {
+              "id": "B",
+              "text": "辞書"
+            },
+            {
+              "id": "C",
+              "text": "生活費"
+            },
+            {
+              "id": "D",
+              "text": "週刊誌"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1902"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "父は毎朝、コーヒーを飲みながら（　　　）を読む。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "朝刊"
+            },
+            {
+              "id": "B",
+              "text": "辞書"
+            },
+            {
+              "id": "C",
+              "text": "生活費"
+            },
+            {
+              "id": "D",
+              "text": "個人"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1903"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "（　　　）を引いて言葉の意味を調べる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "生活費"
+            },
+            {
+              "id": "B",
+              "text": "辞書"
+            },
+            {
+              "id": "C",
+              "text": "個人"
+            },
+            {
+              "id": "D",
+              "text": "人間"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1904"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "もらったボーナスは、（　　　）にするつもりだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "個人"
+            },
+            {
+              "id": "B",
+              "text": "人間"
+            },
+            {
+              "id": "C",
+              "text": "生活費"
+            },
+            {
+              "id": "D",
+              "text": "馬"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1905"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "チーム競技よりも（　　　）競技のほうが好きだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "人間"
+            },
+            {
+              "id": "B",
+              "text": "馬"
+            },
+            {
+              "id": "C",
+              "text": "体温"
+            },
+            {
+              "id": "D",
+              "text": "個人"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1906"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "（　　　）は一人では生きていけないと言われている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "人間"
+            },
+            {
+              "id": "B",
+              "text": "馬"
+            },
+            {
+              "id": "C",
+              "text": "体温"
+            },
+            {
+              "id": "D",
+              "text": "違い"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1907"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "この牧場では、（　　　）に乗る体験ができる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "体温"
+            },
+            {
+              "id": "B",
+              "text": "馬"
+            },
+            {
+              "id": "C",
+              "text": "違い"
+            },
+            {
+              "id": "D",
+              "text": "文化"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1908"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "（　　　）を上げると、病気になりにくいそうだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "違い"
+            },
+            {
+              "id": "B",
+              "text": "文化"
+            },
+            {
+              "id": "C",
+              "text": "体温"
+            },
+            {
+              "id": "D",
+              "text": "考え"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1909"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "考え方の（　　　）からけんかになることがある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "文化"
+            },
+            {
+              "id": "B",
+              "text": "考え"
+            },
+            {
+              "id": "C",
+              "text": "思い"
+            },
+            {
+              "id": "D",
+              "text": "違い"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1910"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "日本人の恋人といると、（　　　）の違いを感じる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "文化"
+            },
+            {
+              "id": "B",
+              "text": "考え"
+            },
+            {
+              "id": "C",
+              "text": "思い"
+            },
+            {
+              "id": "D",
+              "text": "風景"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1911"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「汗」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "B",
+              "text": "あせ"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "じしょ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:1901"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「週刊誌」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あせ"
+            },
+            {
+              "id": "B",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "C",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "D",
+              "text": "じしょ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1902"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「朝刊」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あせ"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "じしょ"
+            },
+            {
+              "id": "D",
+              "text": "ちょうかん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:1903"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「辞書」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じしょ"
+            },
+            {
+              "id": "B",
+              "text": "あせ"
+            },
+            {
+              "id": "C",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "D",
+              "text": "ちょうかん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1904"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "天気がよかったので、布団を外に「干す」ことにした。「干す」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "へいきん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1901"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "美容院の待合室で「週刊誌」を読んだ。「週刊誌」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "へいきん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1902"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "今朝の「朝刊」に選挙の結果が載っている。「朝刊」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "へいきん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1902"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "三回の試験の「平均」は八十点だった。「平均」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "へいきん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1903"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "この美術館は「平日」なら比較的空いている。「平日」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へいじつ"
+            },
+            {
+              "id": "B",
+              "text": "ほす"
+            },
+            {
+              "id": "C",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "D",
+              "text": "ちょうかん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1903"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "子供たちは世界の「平和」について作文を書いた。「平和」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "へいわ"
+            },
+            {
+              "id": "C",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "D",
+              "text": "ちょうかん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1903"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "特別な出来事のない「平凡」な一日だった。「平凡」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "へいぼん"
+            },
+            {
+              "id": "D",
+              "text": "ちょうかん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1903"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "坂道を走ったら、額から「汗」が流れた。「汗」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほす"
+            },
+            {
+              "id": "B",
+              "text": "しゅうかんし"
+            },
+            {
+              "id": "C",
+              "text": "ちょうかん"
+            },
+            {
+              "id": "D",
+              "text": "あせ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1904"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。赤ちゃんは眠くなると大きな声で（なく）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "干す"
+            },
+            {
+              "id": "B",
+              "text": "週刊誌"
+            },
+            {
+              "id": "C",
+              "text": "泣く"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1905"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。出張の夜は駅前のホテルに（とまる）予定だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "干す"
+            },
+            {
+              "id": "B",
+              "text": "週刊誌"
+            },
+            {
+              "id": "C",
+              "text": "朝刊"
+            },
+            {
+              "id": "D",
+              "text": "泊まる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1906"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。熱いスープを飲んで（した）をやけどした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "舌"
+            },
+            {
+              "id": "B",
+              "text": "干す"
+            },
+            {
+              "id": "C",
+              "text": "週刊誌"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1907"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。晴れたので、洗ったシーツを庭に（ほす）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "週刊誌"
+            },
+            {
+              "id": "B",
+              "text": "干す"
+            },
+            {
+              "id": "C",
+              "text": "朝刊"
+            },
+            {
+              "id": "D",
+              "text": "平均"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:1901"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。父は駅の売店で毎週（しゅうかんし）を買う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "干す"
+            },
+            {
+              "id": "B",
+              "text": "朝刊"
+            },
+            {
+              "id": "C",
+              "text": "週刊誌"
+            },
+            {
+              "id": "D",
+              "text": "平均"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:1902"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。祖父は朝食を取りながら（ちょうかん）を読む。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "干す"
+            },
+            {
+              "id": "B",
+              "text": "週刊誌"
+            },
+            {
+              "id": "C",
+              "text": "平均"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1902"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。このクラスのテストの（へいきん）は七十二点だった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "平均"
+            },
+            {
+              "id": "B",
+              "text": "干す"
+            },
+            {
+              "id": "C",
+              "text": "週刊誌"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:1903"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-021",
+  "study_day": 21,
+  "items": [
+    {
+      "id": 2101,
+      "title": "主文と従属部分（前半）",
+      "passage_jp": "① 今、世界中の海でごみが増え続けている。\n② 実は、以前、漁師たちはごみがとれても海に戻していた。\n③ 参加したい人は歌いたい日本語の歌を決めて、5月7日（金）までに留学生課で申し込んでください。\n④ 当日の集合時間は12時ですが、希望者は午前中に会場のA103で練習することができます。",
+      "translation_vi": "① Hiện nay, rác đang tiếp tục gia tăng ở các vùng biển trên khắp thế giới.\n② Thực ra, trước đây, ngay cả khi ngư dân vớt được rác, họ vẫn trả nó lại biển.\n③ Người muốn tham gia hãy chọn bài hát tiếng Nhật mình muốn hát và đăng ký tại phòng lưu học sinh trước ngày 7 tháng 5 (thứ Sáu).\n④ Giờ tập trung trong ngày hôm đó là 12 giờ, nhưng người có nhu cầu có thể luyện tập tại phòng A103 của địa điểm tổ chức vào buổi sáng.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 2 | trang in 14 | 練習2・項目1–4",
+      "questions": [
+        {
+          "id": "c02r-d03-q01",
+          "question_type": "mcq",
+          "question_jp": "参加したい人が最初に決めることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "集合時間"
+            },
+            {
+              "id": "B",
+              "text": "歌いたい日本語の歌"
+            },
+            {
+              "id": "C",
+              "text": "海の場所"
+            },
+            {
+              "id": "D",
+              "text": "漁師の仕事"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02r-d03-q02",
+          "question_type": "mcq",
+          "question_jp": "申し込みの締め切りはいつですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "当日の12時"
+            },
+            {
+              "id": "B",
+              "text": "午前中"
+            },
+            {
+              "id": "C",
+              "text": "5月7日（金）"
+            },
+            {
+              "id": "D",
+              "text": "世界中"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c02r-d03-q03",
+          "question_type": "mcq",
+          "question_jp": "希望者はいつ練習できますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "当日の午前中"
+            },
+            {
+              "id": "B",
+              "text": "前日の夜"
+            },
+            {
+              "id": "C",
+              "text": "5月7日の午後"
+            },
+            {
+              "id": "D",
+              "text": "毎日12時"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

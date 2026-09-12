@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-020",
+  "study_day": 20,
+  "items": [
+    {
+      "id": 2001,
+      "structure": "～おかげ（で）",
+      "formation": [
+        "Thể thường + おかげで",
+        "Aな + な / である + おかげで",
+        "N + の / である + おかげで",
+        "～おかげか"
+      ],
+      "meaning_vi": "Nhờ, nhờ có",
+      "usage_vi": "Nêu nguyên nhân đem lại kết quả tích cực và thường hàm ý biết ơn. おかげか dùng khi người nói chưa khẳng định chắc nguyên nhân.",
+      "examples": [
+        {
+          "jp": "私が高校を卒業できたのは、先生達のおかげです。",
+          "vi": "Việc tôi có thể tốt nghiệp cấp ba là nhờ các thầy cô."
+        },
+        {
+          "jp": "いつもより早く寝たおかげか、今日はとても調子がいい。",
+          "vi": "Có lẽ nhờ ngủ sớm hơn thường lệ nên hôm nay tôi thấy rất khỏe."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 95 | BÀI 1 > NGỮ PHÁP > mục 5 — ～おかげ（で）"
+    },
+    {
+      "id": 2002,
+      "structure": "～せい（で）",
+      "formation": [
+        "Thể thường + せいで",
+        "Aな + な / である + せいで",
+        "N + の / である + せいで",
+        "～せいか"
+      ],
+      "meaning_vi": "Tại, vì (nguyên nhân tiêu cực)",
+      "usage_vi": "Nêu nguyên nhân dẫn đến kết quả không mong muốn; せいか thể hiện phỏng đoán về nguyên nhân.",
+      "examples": [
+        {
+          "jp": "暑くなってきたせいでよく喉が乾き、水ばかりを飲んでいる。",
+          "vi": "Vì trời nóng dần nên tôi thường khát và chỉ toàn uống nước."
+        },
+        {
+          "jp": "この村は不便なせいか、最近は住む人が全然いなくなった。",
+          "vi": "Có lẽ vì ngôi làng này bất tiện nên gần đây chẳng còn ai sống ở đây."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 96 | BÀI 1 > NGỮ PHÁP > mục 6 — ～せい（で）"
+    },
+    {
+      "id": 2003,
+      "structure": "～ことから",
+      "formation": [
+        "Thể thường + ことから",
+        "Aな / N + である + ことから"
+      ],
+      "meaning_vi": "Từ việc, do việc; căn cứ vào",
+      "usage_vi": "Nêu nguồn gốc tên gọi, căn cứ để phán đoán hoặc nguyên nhân của một kết quả.",
+      "examples": [
+        {
+          "jp": "道が濡れていることから、昨晩雨が降ったことが分かる。",
+          "vi": "Từ việc đường ướt có thể biết tối qua đã mưa."
+        },
+        {
+          "jp": "安全な人生を送ってほしいことから、子供に「AN」と名付けました。",
+          "vi": "Vì mong con có cuộc đời bình an nên tôi đặt tên con là “An”."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 97 | BÀI 1 > NGỮ PHÁP > mục 7 — ～ことから"
+    }
+  ]
+}

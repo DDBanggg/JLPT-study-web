@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-019",
+  "study_day": 19,
+  "items": [
+    {
+      "id": 1901,
+      "structure": "～によって（１）",
+      "formation": [
+        "N / Vること + によって / により"
+      ],
+      "meaning_vi": "Bằng, nhờ vào (phương tiện hoặc phương pháp)",
+      "usage_vi": "Nêu phương tiện hay phương pháp giúp đạt kết quả; により trang trọng hơn. Nguồn lưu ý không dùng cho dụng cụ đời thường quá quen thuộc.",
+      "examples": [
+        {
+          "jp": "インターネットによって、さまざまな情報を得ることができる。",
+          "vi": "Nhờ Internet, có thể thu được nhiều loại thông tin."
+        },
+        {
+          "jp": "日本人とよく交流することにより、日本語も上達しました。",
+          "vi": "Nhờ thường xuyên giao lưu với người Nhật, tiếng Nhật của tôi cũng tiến bộ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 91 | BÀI 1 > NGỮ PHÁP > mục 1 — ～によって（１）"
+    },
+    {
+      "id": 1902,
+      "structure": "～によって（２）",
+      "formation": [
+        "N / Vること + によって / により"
+      ],
+      "meaning_vi": "Do, bởi (nguyên nhân)",
+      "usage_vi": "Nêu nguyên nhân dẫn đến kết quả; thường dùng trong văn viết hoặc cách nói trang trọng.",
+      "examples": [
+        {
+          "jp": "今日は台風によって、学校が休みになった。",
+          "vi": "Hôm nay trường nghỉ do bão."
+        },
+        {
+          "jp": "彼はたくさんタバコを吸ったことによって、病気になった。",
+          "vi": "Anh ấy bị bệnh do hút rất nhiều thuốc lá."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 92 | BÀI 1 > NGỮ PHÁP > mục 2 — ～によって（２）"
+    },
+    {
+      "id": 1903,
+      "structure": "～によって（３）",
+      "formation": [
+        "N + によって / により"
+      ],
+      "meaning_vi": "Tùy theo, phụ thuộc vào",
+      "usage_vi": "Cho biết kết quả hoặc đặc điểm thay đổi theo đối tượng hay điều kiện; thường đi với 違う、変わる、さまざまだ.",
+      "examples": [
+        {
+          "jp": "この店は時間によってメニューが変わる。",
+          "vi": "Thực đơn của quán này thay đổi tùy theo thời gian."
+        },
+        {
+          "jp": "言葉や文化は国によって違うので、とても面白い。",
+          "vi": "Ngôn ngữ và văn hóa khác nhau tùy từng nước nên rất thú vị."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 93 | BÀI 1 > NGỮ PHÁP > mục 3 — ～によって（３）"
+    },
+    {
+      "id": 1904,
+      "structure": "～ことで",
+      "formation": [
+        "Vる + ことで"
+      ],
+      "meaning_vi": "Bằng việc, thông qua việc",
+      "usage_vi": "Nêu hành động hoặc phương pháp tạo ra kết quả ở vế sau.",
+      "examples": [
+        {
+          "jp": "毎日お弁当を持って来ることで、生活費を少なくすることができる。",
+          "vi": "Bằng việc mang cơm hộp mỗi ngày, có thể giảm chi phí sinh hoạt."
+        },
+        {
+          "jp": "2か所でアルバイトをすることで、大学のお金を払っている。",
+          "vi": "Tôi trả tiền học đại học bằng cách làm thêm ở hai nơi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 94 | BÀI 1 > NGỮ PHÁP > mục 4 — ～ことで"
+    }
+  ]
+}

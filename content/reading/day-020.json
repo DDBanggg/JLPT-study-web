@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-020",
+  "study_day": 20,
+  "items": [
+    {
+      "id": 2001,
+      "title": "長い名詞句を分ける",
+      "passage_jp": "① 大学を卒業したばかりの友達\n② この町で生まれ育った有名な俳優\n③ 昨日駅で偶然会った高校時代の友達\n④ 私が昨日図書館で借りた歴史の本\n⑤ 環境を守ることの大切さを教えてくれた先生",
+      "translation_vi": "① Người bạn vừa mới tốt nghiệp đại học\n② Nam diễn viên nổi tiếng sinh ra và lớn lên ở thị trấn này\n③ Người bạn thời cấp ba mà hôm qua tôi tình cờ gặp ở nhà ga\n④ Cuốn sách lịch sử mà hôm qua tôi mượn ở thư viện\n⑤ Người thầy đã dạy tôi tầm quan trọng của việc bảo vệ môi trường",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 2 | trang in 13 | 練習1・項目6–10",
+      "questions": [
+        {
+          "id": "c02r-d02-q01",
+          "question_type": "mcq",
+          "question_jp": "大学を卒業したばかりなのはだれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "俳優"
+            },
+            {
+              "id": "B",
+              "text": "先生"
+            },
+            {
+              "id": "C",
+              "text": "友達"
+            },
+            {
+              "id": "D",
+              "text": "私"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c02r-d02-q02",
+          "question_type": "mcq",
+          "question_jp": "「私が昨日図書館で借りた歴史の本」の中心語はどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "本"
+            },
+            {
+              "id": "B",
+              "text": "私"
+            },
+            {
+              "id": "C",
+              "text": "昨日"
+            },
+            {
+              "id": "D",
+              "text": "図書館"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c02r-d02-q03",
+          "question_type": "mcq",
+          "question_jp": "先生が教えてくれたことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "俳優の育ち方"
+            },
+            {
+              "id": "B",
+              "text": "本の借り方"
+            },
+            {
+              "id": "C",
+              "text": "駅で会う時間"
+            },
+            {
+              "id": "D",
+              "text": "環境を守ることの大切さ"
+            }
+          ],
+          "correct_option_id": "D"
+        }
+      ]
+    }
+  ]
+}

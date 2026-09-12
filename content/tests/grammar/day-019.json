@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-019",
+  "type": "grammar",
+  "title": "Grammar Test — Day 19",
+  "study_day": 19,
+  "coverage": {
+    "from_day": 19,
+    "to_day": 19
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "このアプリ（　　　）、離れた家族とも無料で話せる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "オンライン授業を受けること（　　　）、家でも専門知識を学べる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "新しい技術（　　　）、作業時間が半分になった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "毎日音読すること（　　　）、発音が少しずつ良くなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "に比べて"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この検索サービス（　　　）、必要な資料をすぐ見つけられる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "オンライン診療（　　　）、島に住む患者も専門医の診察を受けられる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "電子チケットを導入すること（　　　）、入場口の待ち時間を短くできた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "にとって"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "強い風（　　　）、電車の運転が中止された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "に比べて"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "システムの故障（　　　）、受付が一時止まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "長時間働いたこと（　　　）、体調を崩してしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "大雪（　　　）、多くの便が欠航になった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "工事（　　　）、道路が朝まで閉鎖された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "に比べて"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "昨夜の地震（　　　）、町の水道管が何か所も壊れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に比べて"
+            },
+            {
+              "id": "C",
+              "text": "に対して"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1902"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "季節（　　　）、この店の営業時間は変わる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "人（　　　）、同じ映画への感想は異なる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "曜日（　　　）、電車の本数が違う。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "に比べて"
+            },
+            {
+              "id": "D",
+              "text": "によって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "地域（　　　）、ごみの出し方が異なる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "によって"
+            },
+            {
+              "id": "B",
+              "text": "に対して"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "天候（　　　）、試合の開始時刻が変わる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "宿泊する部屋（　　　）、窓から見える景色が異なる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1903"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "毎日少しずつ復習する（　　　）、習った言葉を忘れにくくなる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "だけでは"
+            },
+            {
+              "id": "C",
+              "text": "のなら"
+            },
+            {
+              "id": "D",
+              "text": "ことで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "朝早く出発する（　　　）、渋滞を避けられる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことで"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "だけでは"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "地域の活動に参加する（　　　）、近所の人と知り合えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "ことで"
+            },
+            {
+              "id": "C",
+              "text": "だけでは"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "予定を紙に書く（　　　）、忘れ物を減らせる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "だけでは"
+            },
+            {
+              "id": "C",
+              "text": "ことで"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "直接話し合う（　　　）、誤解を解くことができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一方で"
+            },
+            {
+              "id": "B",
+              "text": "だけでは"
+            },
+            {
+              "id": "C",
+              "text": "のなら"
+            },
+            {
+              "id": "D",
+              "text": "ことで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "受付でQRコードを見せる（　　　）、紙の申込書を書かずに入場できる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことで"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "だけでは"
+            },
+            {
+              "id": "D",
+              "text": "のなら"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:1904"
+          ]
+        }
+      ]
+    }
+  ]
+}

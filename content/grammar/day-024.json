@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-024",
+  "study_day": 24,
+  "items": [
+    {
+      "id": 2401,
+      "structure": "～には",
+      "formation": [
+        "Vる + には"
+      ],
+      "meaning_vi": "Để làm V thì",
+      "usage_vi": "Nêu điều kiện, yêu cầu hoặc đánh giá cần thiết để thực hiện hành động phía trước.",
+      "examples": [
+        {
+          "jp": "車を運転するには、免許を取らなければならない。",
+          "vi": "Để lái ô tô thì phải lấy bằng."
+        },
+        {
+          "jp": "この部屋は二人で住むには狭すぎると思う。",
+          "vi": "Tôi nghĩ căn phòng này quá chật để hai người sống."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 136 | BÀI 3 > NGỮ PHÁP > mục 5 — ～には"
+    },
+    {
+      "id": 2402,
+      "structure": "～Vると / Vてはいけないから・ので",
+      "formation": [
+        "Vるといけないから / ので",
+        "Vてはいけないから / ので"
+      ],
+      "meaning_vi": "Vì sẽ không ổn nếu; để tránh tình huống xấu",
+      "usage_vi": "Nêu khả năng xấu cần tránh, rồi đưa ra hành động phòng ngừa ở vế sau.",
+      "examples": [
+        {
+          "jp": "寝坊するといけないから、いつも目覚まし時計を2個セットしている。",
+          "vi": "Vì sẽ không ổn nếu ngủ quên nên tôi luôn đặt hai đồng hồ báo thức."
+        },
+        {
+          "jp": "データが間違っていてはいけないから、何度も調査結果を確認しました。",
+          "vi": "Vì dữ liệu sai thì không được nên tôi đã kiểm tra kết quả khảo sát nhiều lần."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 136 | BÀI 3 > NGỮ PHÁP > mục 6 — ～Vると / Vてはいけないから・ので"
+    }
+  ]
+}

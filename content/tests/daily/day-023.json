@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-023",
+  "type": "daily",
+  "title": "Daily Test — Day 23",
+  "study_day": 23,
+  "coverage": {
+    "from_day": 22,
+    "to_day": 22
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "気温が上がり、山の雪が解け（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "駅前に店ができてから、人が集まり（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わった"
+            },
+            {
+              "id": "B",
+              "text": "始めた"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "申込書を書き（　　　）ら、受付の箱に入れてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "続けた"
+            },
+            {
+              "id": "C",
+              "text": "終わった"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "全員が話し（　　　）まで、結論を出さないことにした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始める"
+            },
+            {
+              "id": "B",
+              "text": "続ける"
+            },
+            {
+              "id": "C",
+              "text": "直す"
+            },
+            {
+              "id": "D",
+              "text": "終わる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "強い風は夜中も吹き（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "続けた"
+            },
+            {
+              "id": "B",
+              "text": "始めた"
+            },
+            {
+              "id": "C",
+              "text": "終わった"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "研究者は結果が出なくても実験を（　　　）いる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "続けて"
+            },
+            {
+              "id": "C",
+              "text": "終わって"
+            },
+            {
+              "id": "D",
+              "text": "直して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "住所を間違えたので、封筒に書き（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "続けた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "条件が変わったため、最初から計算し（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "兄は地域のバスケットボールチームで監督（　　　）活動している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "として"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この古い校舎は災害時の避難所（　　　）も使われる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「姉が元気な女の子を産んだ。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "諦める"
+            },
+            {
+              "id": "B",
+              "text": "嫌がる"
+            },
+            {
+              "id": "C",
+              "text": "産む"
+            },
+            {
+              "id": "D",
+              "text": "踏む"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2201"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「彼女と結婚するつもりだったが、両親に反対されて諦めた。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "嫌がる"
+            },
+            {
+              "id": "B",
+              "text": "踏む"
+            },
+            {
+              "id": "C",
+              "text": "間違う"
+            },
+            {
+              "id": "D",
+              "text": "諦める"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2202"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "犬はお風呂に入れられるのを（　　　）ことが多い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "嫌がる"
+            },
+            {
+              "id": "B",
+              "text": "踏む"
+            },
+            {
+              "id": "C",
+              "text": "間違う"
+            },
+            {
+              "id": "D",
+              "text": "繰り返す"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2203"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「目の前に子供が飛び出してきて、急ブレーキを踏んだ。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "間違う"
+            },
+            {
+              "id": "B",
+              "text": "踏む"
+            },
+            {
+              "id": "C",
+              "text": "繰り返す"
+            },
+            {
+              "id": "D",
+              "text": "立てる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2204"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「間違った問題を復習する。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "繰り返す"
+            },
+            {
+              "id": "B",
+              "text": "立てる"
+            },
+            {
+              "id": "C",
+              "text": "間違う"
+            },
+            {
+              "id": "D",
+              "text": "気がつく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2205"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「練習を繰り返せば、上手になりますよ。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "立てる"
+            },
+            {
+              "id": "B",
+              "text": "気がつく"
+            },
+            {
+              "id": "C",
+              "text": "気になる"
+            },
+            {
+              "id": "D",
+              "text": "繰り返す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2206"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「机に本を立てて置く。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "立てる"
+            },
+            {
+              "id": "B",
+              "text": "気がつく"
+            },
+            {
+              "id": "C",
+              "text": "気になる"
+            },
+            {
+              "id": "D",
+              "text": "任せる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2207"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「T シャツの前と後ろを反対に着ていたことに気がついた。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "気になる"
+            },
+            {
+              "id": "B",
+              "text": "気がつく"
+            },
+            {
+              "id": "C",
+              "text": "任せる"
+            },
+            {
+              "id": "D",
+              "text": "直す"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2208"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "昨日のドラマの続きが（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "任せる"
+            },
+            {
+              "id": "B",
+              "text": "直す"
+            },
+            {
+              "id": "C",
+              "text": "気になる"
+            },
+            {
+              "id": "D",
+              "text": "直る"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2209"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "将来は、息子に会社の経営を（　　　）つもりだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直す"
+            },
+            {
+              "id": "B",
+              "text": "直る"
+            },
+            {
+              "id": "C",
+              "text": "〜直す"
+            },
+            {
+              "id": "D",
+              "text": "任せる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2210"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "壊れたパソコンを（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直す"
+            },
+            {
+              "id": "B",
+              "text": "直る"
+            },
+            {
+              "id": "C",
+              "text": "〜直す"
+            },
+            {
+              "id": "D",
+              "text": "仲直り"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2211"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「産む」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あきらめる"
+            },
+            {
+              "id": "B",
+              "text": "うむ"
+            },
+            {
+              "id": "C",
+              "text": "いやがる"
+            },
+            {
+              "id": "D",
+              "text": "ふむ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2201"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「諦める」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うむ"
+            },
+            {
+              "id": "B",
+              "text": "いやがる"
+            },
+            {
+              "id": "C",
+              "text": "あきらめる"
+            },
+            {
+              "id": "D",
+              "text": "ふむ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2202"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「嫌がる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うむ"
+            },
+            {
+              "id": "B",
+              "text": "あきらめる"
+            },
+            {
+              "id": "C",
+              "text": "ふむ"
+            },
+            {
+              "id": "D",
+              "text": "いやがる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2203"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「踏む」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふむ"
+            },
+            {
+              "id": "B",
+              "text": "うむ"
+            },
+            {
+              "id": "C",
+              "text": "あきらめる"
+            },
+            {
+              "id": "D",
+              "text": "いやがる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2204"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "今年の応募者は去年の二「倍」になった。「倍」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ばい"
+            },
+            {
+              "id": "B",
+              "text": "はい"
+            },
+            {
+              "id": "C",
+              "text": "べい"
+            },
+            {
+              "id": "D",
+              "text": "まい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2201"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "この地方は一年中温暖な「気候」で暮らしやすい。「気候」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きごう"
+            },
+            {
+              "id": "B",
+              "text": "きこう"
+            },
+            {
+              "id": "C",
+              "text": "ぎこう"
+            },
+            {
+              "id": "D",
+              "text": "ぎごう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2202"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "宝くじに当たったという「仮定」で計画を考えた。「仮定」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かじょう"
+            },
+            {
+              "id": "B",
+              "text": "けてい"
+            },
+            {
+              "id": "C",
+              "text": "かてい"
+            },
+            {
+              "id": "D",
+              "text": "けじょう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2203"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "会場の準備は経験のある田中さんに「任せる」。「任せる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まがせる"
+            },
+            {
+              "id": "B",
+              "text": "にかせる"
+            },
+            {
+              "id": "C",
+              "text": "にんせる"
+            },
+            {
+              "id": "D",
+              "text": "まかせる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2204"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "班長として最後まで「責任」を持って作業する。「責任」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せきにん"
+            },
+            {
+              "id": "B",
+              "text": "せきじん"
+            },
+            {
+              "id": "C",
+              "text": "せつにん"
+            },
+            {
+              "id": "D",
+              "text": "せつじん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2204"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "進路についてクラスの「担任」に相談した。「担任」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だんにん"
+            },
+            {
+              "id": "B",
+              "text": "たんにん"
+            },
+            {
+              "id": "C",
+              "text": "たんじん"
+            },
+            {
+              "id": "D",
+              "text": "だんじん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2204"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "駅前で起きた「事件」について警察が発表した。「事件」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しけん"
+            },
+            {
+              "id": "B",
+              "text": "じげん"
+            },
+            {
+              "id": "C",
+              "text": "じけん"
+            },
+            {
+              "id": "D",
+              "text": "しげん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2205"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "参加の「条件」は十八歳以上であることだ。「条件」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しょうけん"
+            },
+            {
+              "id": "B",
+              "text": "じょうげん"
+            },
+            {
+              "id": "C",
+              "text": "しょうげん"
+            },
+            {
+              "id": "D",
+              "text": "じょうけん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2205"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。警察は駅前で起きた（じけん）を調べている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倍"
+            },
+            {
+              "id": "B",
+              "text": "〜倍"
+            },
+            {
+              "id": "C",
+              "text": "事件"
+            },
+            {
+              "id": "D",
+              "text": "気候"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2205"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。この仕事に応募する（じょうけん）は経験があることだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倍"
+            },
+            {
+              "id": "B",
+              "text": "〜倍"
+            },
+            {
+              "id": "C",
+              "text": "気候"
+            },
+            {
+              "id": "D",
+              "text": "条件"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2205"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。壊れた時計を自分で（なおす）のは難しい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直す"
+            },
+            {
+              "id": "B",
+              "text": "倍"
+            },
+            {
+              "id": "C",
+              "text": "〜倍"
+            },
+            {
+              "id": "D",
+              "text": "気候"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2206"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。修理に出せば、このカメラは（なおる）だろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倍"
+            },
+            {
+              "id": "B",
+              "text": "直る"
+            },
+            {
+              "id": "C",
+              "text": "〜倍"
+            },
+            {
+              "id": "D",
+              "text": "気候"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2206"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。商品の状態を店で（ちょくせつ）確認してから買った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倍"
+            },
+            {
+              "id": "B",
+              "text": "〜倍"
+            },
+            {
+              "id": "C",
+              "text": "直接"
+            },
+            {
+              "id": "D",
+              "text": "気候"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2206"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。出発（ちょくぜん）になって、切符がないことに気づいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "倍"
+            },
+            {
+              "id": "B",
+              "text": "〜倍"
+            },
+            {
+              "id": "C",
+              "text": "気候"
+            },
+            {
+              "id": "D",
+              "text": "直前"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2206"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。買う前に二つの店で（ねだん）を比べた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "値段"
+            },
+            {
+              "id": "B",
+              "text": "倍"
+            },
+            {
+              "id": "C",
+              "text": "〜倍"
+            },
+            {
+              "id": "D",
+              "text": "気候"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2207"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-023",
+  "study_day": 23,
+  "items": [
+    {
+      "id": 2301,
+      "structure": "～てもおかしくない / ～ても不思議ではない",
+      "formation": [
+        "Vても + おかしくない / 不思議ではない",
+        "Aい語幹 + くても + おかしくない / 不思議ではない",
+        "Aな / N + でも + おかしくない / 不思議ではない"
+      ],
+      "meaning_vi": "Không có gì lạ nếu; hoàn toàn có thể",
+      "usage_vi": "Cho biết sự việc có khả năng cao hoặc nếu xảy ra cũng không đáng ngạc nhiên. Có thể đi với いつ、だれ、どこ để nói bất cứ lúc nào, ai hay nơi nào cũng có khả năng.",
+      "examples": [
+        {
+          "jp": "そう言われたら、彼が怒ってもおかしくない。",
+          "vi": "Nếu bị nói như thế thì anh ấy nổi giận cũng không có gì lạ."
+        },
+        {
+          "jp": "あれだけ努力してきたから、合格してもおかしくない。",
+          "vi": "Vì đã nỗ lực đến thế nên đỗ cũng không có gì lạ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 132 | BÀI 3 > NGỮ PHÁP > mục 1 — ～てもおかしくない / ～ても不思議ではない"
+    },
+    {
+      "id": 2302,
+      "structure": "～ことか",
+      "formation": [
+        "Thể thường + ことか",
+        "Aな + な + ことか"
+      ],
+      "meaning_vi": "Biết bao, biết chừng nào",
+      "usage_vi": "Nhấn mạnh mức độ lớn của cảm xúc hoặc trạng thái; thường đi với どんなに、どれほど、なんと.",
+      "examples": [
+        {
+          "jp": "彼の行動によって、どれだけの命が救われたことか。",
+          "vi": "Biết bao sinh mạng đã được cứu nhờ hành động của anh ấy."
+        },
+        {
+          "jp": "あの子とのおしゃべりで私の心はどれほど癒されたことか。",
+          "vi": "Cuộc trò chuyện với cô bé ấy đã chữa lành lòng tôi biết bao."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 133 | BÀI 3 > NGỮ PHÁP > mục 2 — ～ことか"
+    },
+    {
+      "id": 2303,
+      "structure": "～だろう",
+      "formation": [
+        "Thể thường + だろう",
+        "Aな / N + だろう"
+      ],
+      "meaning_vi": "Có lẽ, chắc là",
+      "usage_vi": "Nêu phán đoán có độ chắc chắn khá cao, thường đi với たぶん hoặc きっと. Đây là cách nói thân mật; không dùng để nói ý định tương lai của chính mình.",
+      "examples": [
+        {
+          "jp": "ベトナム語を話しているから、あの人たちはきっとベトナム人だろう。",
+          "vi": "Vì họ nói tiếng Việt nên chắc hẳn là người Việt Nam."
+        },
+        {
+          "jp": "プレゼントを渡したら、両親はきっと喜ぶだろうな。",
+          "vi": "Nếu tặng quà, chắc bố mẹ sẽ vui lắm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 134 | BÀI 3 > NGỮ PHÁP > mục 3 — ～だろう"
+    },
+    {
+      "id": 2304,
+      "structure": "～だろうか",
+      "formation": [
+        "Thể thường + だろうか",
+        "Aな / N + だろうか"
+      ],
+      "meaning_vi": "Liệu có phải, không biết liệu",
+      "usage_vi": "Đặt cuối câu để biểu thị nghi vấn, băn khoăn hoặc lo lắng của người nói.",
+      "examples": [
+        {
+          "jp": "山下さんは最近顔色が悪い。病気だろうか。",
+          "vi": "Gần đây sắc mặt anh Yamashita không tốt. Không biết có bị bệnh không."
+        },
+        {
+          "jp": "どんな言葉を使えば、こちらの気持ちが伝わるだろうか。",
+          "vi": "Không biết dùng lời nào thì có thể truyền đạt được tâm ý này."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 135 | BÀI 3 > NGỮ PHÁP > mục 4 — ～だろうか"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-019",
+  "study_day": 19,
+  "items": [
+    {
+      "id": 1901,
+      "title": "名詞を中心に読む（基礎）",
+      "passage_jp": "① 赤い花\n② 日本で働いている人\n③ 父が作ったお弁当\n④ 部長が書いた重要なメール\n⑤ 最近人気がある日本のドラマ",
+      "translation_vi": "① Bông hoa đỏ\n② Người đang làm việc ở Nhật\n③ Hộp cơm do bố làm\n④ Email quan trọng do trưởng phòng viết\n⑤ Bộ phim truyền hình Nhật gần đây được yêu thích",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 2 | trang in 13 | 練習1・項目1–5",
+      "questions": [
+        {
+          "id": "c02r-d01-q01",
+          "question_type": "mcq",
+          "question_jp": "「父が作ったお弁当」で、中心となる名詞はどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "父"
+            },
+            {
+              "id": "B",
+              "text": "お弁当"
+            },
+            {
+              "id": "C",
+              "text": "作った"
+            },
+            {
+              "id": "D",
+              "text": "が"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02r-d01-q02",
+          "question_type": "mcq",
+          "question_jp": "部長がしたことは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "日本のドラマを見た"
+            },
+            {
+              "id": "B",
+              "text": "赤い花を買った"
+            },
+            {
+              "id": "C",
+              "text": "日本で働いた"
+            },
+            {
+              "id": "D",
+              "text": "重要なメールを書いた"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02r-d01-q03",
+          "question_type": "mcq",
+          "question_jp": "最近人気があるものは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "日本のドラマ"
+            },
+            {
+              "id": "B",
+              "text": "赤い花"
+            },
+            {
+              "id": "C",
+              "text": "父のお弁当"
+            },
+            {
+              "id": "D",
+              "text": "部長のメール"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

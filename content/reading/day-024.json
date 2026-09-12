@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-024",
+  "study_day": 24,
+  "items": [
+    {
+      "id": 2401,
+      "title": "地域の料理教室",
+      "passage_jp": "町の国際交流会が、外国から来た人に家庭料理を教えてもらう教室を開くことになった。担当者は、料理を作ることだけが目的ではなく、料理が生まれた地域の暮らしについて話を聞くことも大切だと考えている。参加したい人が増えたため、どの料理を最初の教室で紹介してもらうか、今月末までにアンケートで決めるそうだ。アレルギーがある人も参加できるだろうかという質問には、材料を変えられる場合もあるので申し込みの時に相談してほしいと答えている。",
+      "translation_vi": "Hội giao lưu quốc tế của thị trấn đã quyết định mở một lớp học trong đó những người đến từ nước ngoài sẽ dạy các món ăn gia đình. Người phụ trách cho rằng mục đích không chỉ là nấu ăn mà việc nghe kể về cuộc sống ở vùng đất nơi món ăn ra đời cũng quan trọng. Vì số người muốn tham gia tăng lên, nghe nói họ sẽ quyết định bằng khảo sát trước cuối tháng xem món nào sẽ được giới thiệu trong lớp đầu tiên. Với câu hỏi liệu người bị dị ứng có thể tham gia hay không, ban tổ chức trả lời rằng trong một số trường hợp có thể thay nguyên liệu, vì vậy hãy trao đổi khi đăng ký.",
+      "media": [],
+      "source_ref": "supplemental-authored | Reading Chapter 2 skills transfer",
+      "questions": [
+        {
+          "id": "c02r-d06-q01",
+          "question_type": "mcq",
+          "question_jp": "担当者が料理を作ること以外に大切だと考えていることは何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "参加者を少なくすること"
+            },
+            {
+              "id": "B",
+              "text": "料理が生まれた地域の暮らしについて聞くこと"
+            },
+            {
+              "id": "C",
+              "text": "材料を全部同じにすること"
+            },
+            {
+              "id": "D",
+              "text": "外国へ料理を送り返すこと"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02r-d06-q02",
+          "question_type": "mcq",
+          "question_jp": "最初の教室で紹介する料理はどうやって決めますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "担当者一人で決める"
+            },
+            {
+              "id": "B",
+              "text": "当日にくじで決める"
+            },
+            {
+              "id": "C",
+              "text": "アレルギーの人が決める"
+            },
+            {
+              "id": "D",
+              "text": "アンケートで決める"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02r-d06-q03",
+          "question_type": "mcq",
+          "question_jp": "アレルギーがある人はどうすればいいですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "申し込みの時に相談する"
+            },
+            {
+              "id": "B",
+              "text": "教室に参加しない"
+            },
+            {
+              "id": "C",
+              "text": "今月末まで待つだけにする"
+            },
+            {
+              "id": "D",
+              "text": "自分で材料を持ち帰る"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

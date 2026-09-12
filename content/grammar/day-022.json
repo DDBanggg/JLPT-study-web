@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-022",
+  "study_day": 22,
+  "items": [
+    {
+      "id": 2201,
+      "structure": "～始める",
+      "formation": [
+        "Vます bỏ ます + 始める"
+      ],
+      "meaning_vi": "Bắt đầu làm",
+      "usage_vi": "Diễn tả sự bắt đầu của một hành động kéo dài, thói quen hoặc hiện tượng tự nhiên.",
+      "examples": [
+        {
+          "jp": "私は20歳の時から、タバコを吸い始めました。",
+          "vi": "Tôi bắt đầu hút thuốc từ năm 20 tuổi."
+        },
+        {
+          "jp": "息子は夕方になって、やっと勉強をし始めた。",
+          "vi": "Đến chiều tối, con trai cuối cùng mới bắt đầu học."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 114 | BÀI 2 > NGỮ PHÁP > mục 3 — ～始める"
+    },
+    {
+      "id": 2202,
+      "structure": "～終わる",
+      "formation": [
+        "Vます bỏ ます + 終わる"
+      ],
+      "meaning_vi": "Làm xong, kết thúc làm",
+      "usage_vi": "Diễn tả việc hoàn tất một hành động có quá trình.",
+      "examples": [
+        {
+          "jp": "今日はレポートを書き終わるまで寝ないつもりだ。",
+          "vi": "Hôm nay tôi định không ngủ cho đến khi viết xong báo cáo."
+        },
+        {
+          "jp": "彼が歌い終わってから、次は私が歌わなければならない。",
+          "vi": "Sau khi anh ấy hát xong, tiếp theo tôi phải hát."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 114 | BÀI 2 > NGỮ PHÁP > mục 4 — ～終わる"
+    },
+    {
+      "id": 2203,
+      "structure": "～続ける",
+      "formation": [
+        "Vます bỏ ます + 続ける"
+      ],
+      "meaning_vi": "Tiếp tục làm",
+      "usage_vi": "Diễn tả hành động được tiếp tục hoặc duy trì trong một khoảng thời gian.",
+      "examples": [
+        {
+          "jp": "この財布は10年前に母からもらい、その時からずっと使い続けている。",
+          "vi": "Tôi nhận chiếc ví này từ mẹ mười năm trước và vẫn dùng liên tục từ đó."
+        },
+        {
+          "jp": "N4のクラスが終わった後も、自分で日本語を勉強し続けるつもりです。",
+          "vi": "Sau khi lớp N4 kết thúc, tôi vẫn định tiếp tục tự học tiếng Nhật."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 115 | BÀI 2 > NGỮ PHÁP > mục 5 — ～続ける"
+    },
+    {
+      "id": 2204,
+      "structure": "～直す",
+      "formation": [
+        "Vます bỏ ます + 直す"
+      ],
+      "meaning_vi": "Làm lại, sửa lại",
+      "usage_vi": "Diễn tả thực hiện lại một hành động để sửa hoặc cải thiện. 持ち直す còn dùng khi sức khỏe, kinh tế hay tâm trạng hồi phục.",
+      "examples": [
+        {
+          "jp": "家が古くなってきたので、建て直すことにしました。",
+          "vi": "Vì ngôi nhà đã cũ nên chúng tôi quyết định xây lại."
+        },
+        {
+          "jp": "今年に入って母の病気は進んでいたが、最近少し持ち直した。",
+          "vi": "Từ đầu năm bệnh của mẹ nặng thêm, nhưng gần đây đã hồi phục đôi chút."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 116 | BÀI 2 > NGỮ PHÁP > mục 6 — ～直す"
+    },
+    {
+      "id": 2205,
+      "structure": "～として",
+      "formation": [
+        "N + として",
+        "N + としての + N",
+        "～としても / ～としては"
+      ],
+      "meaning_vi": "Với tư cách, trong vai trò",
+      "usage_vi": "Nêu tư cách, vai trò, chức danh, nghề nghiệp hoặc phương diện mà một người hay sự vật đảm nhiệm.",
+      "examples": [
+        {
+          "jp": "私は今ベトナムで、日本語の教師として働いている。",
+          "vi": "Hiện tôi làm việc tại Việt Nam với tư cách giáo viên tiếng Nhật."
+        },
+        {
+          "jp": "彼は俳優だが、歌手としても有名だ。",
+          "vi": "Anh ấy là diễn viên nhưng cũng nổi tiếng với tư cách ca sĩ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 117 | BÀI 2 > NGỮ PHÁP > mục 7 — ～として"
+    }
+  ]
+}

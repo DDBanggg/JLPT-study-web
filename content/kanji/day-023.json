@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-023",
+  "study_day": 23,
+  "items": [
+    {
+      "id": 2301,
+      "kanji": "他",
+      "han_viet": "THA",
+      "meaning_vi": "khác",
+      "onyomi": [
+        "タ"
+      ],
+      "kunyomi": [
+        "ほか"
+      ],
+      "compounds": [
+        {
+          "word": "他",
+          "reading": "ほか",
+          "meaning_vi": "khác, ngoài ra"
+        },
+        {
+          "word": "他人",
+          "reading": "たにん",
+          "meaning_vi": "người khác"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 01 — 他"
+    },
+    {
+      "id": 2302,
+      "kanji": "伝",
+      "han_viet": "TRUYỀN",
+      "meaning_vi": "truyền đạt",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [
+        "つた・わる",
+        "つた・える",
+        "つた・う"
+      ],
+      "compounds": [
+        {
+          "word": "伝える",
+          "reading": "つたえる",
+          "meaning_vi": "truyền đạt"
+        },
+        {
+          "word": "伝わる",
+          "reading": "つたわる",
+          "meaning_vi": "được truyền đi"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう",
+          "meaning_vi": "giúp đỡ"
+        },
+        {
+          "word": "伝言",
+          "reading": "でんごん",
+          "meaning_vi": "lời nhắn"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 02 — 伝"
+    },
+    {
+      "id": 2303,
+      "kanji": "似",
+      "han_viet": "TỰ",
+      "meaning_vi": "giống",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "に・る"
+      ],
+      "compounds": [
+        {
+          "word": "似合う",
+          "reading": "にあう",
+          "meaning_vi": "hợp, phù hợp"
+        },
+        {
+          "word": "真似",
+          "reading": "まね",
+          "meaning_vi": "bắt chước"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 03 — 似"
+    },
+    {
+      "id": 2304,
+      "kanji": "信",
+      "han_viet": "TÍN",
+      "meaning_vi": "tin; tín hiệu",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "信じる",
+          "reading": "しんじる",
+          "meaning_vi": "tin tưởng"
+        },
+        {
+          "word": "信号",
+          "reading": "しんごう",
+          "meaning_vi": "tín hiệu"
+        },
+        {
+          "word": "信用",
+          "reading": "しんよう",
+          "meaning_vi": "tín nhiệm"
+        },
+        {
+          "word": "返信",
+          "reading": "へんしん",
+          "meaning_vi": "hồi âm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 04 — 信"
+    },
+    {
+      "id": 2305,
+      "kanji": "許",
+      "han_viet": "HỨA",
+      "meaning_vi": "cho phép; tha thứ",
+      "onyomi": [
+        "キョ"
+      ],
+      "kunyomi": [
+        "ゆる・す"
+      ],
+      "compounds": [
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "meaning_vi": "tha thứ, cho phép"
+        },
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning_vi": "sự cho phép"
+        },
+        {
+          "word": "免許",
+          "reading": "めんきょ",
+          "meaning_vi": "giấy phép"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 05 — 許"
+    },
+    {
+      "id": 2306,
+      "kanji": "訳",
+      "han_viet": "DỊCH",
+      "meaning_vi": "dịch; lý do",
+      "onyomi": [
+        "ヤク"
+      ],
+      "kunyomi": [
+        "わけ"
+      ],
+      "compounds": [
+        {
+          "word": "訳す",
+          "reading": "やくす",
+          "meaning_vi": "dịch"
+        },
+        {
+          "word": "申し訳ない",
+          "reading": "もうしわけない",
+          "meaning_vi": "xin lỗi"
+        },
+        {
+          "word": "通訳",
+          "reading": "つうやく",
+          "meaning_vi": "phiên dịch"
+        },
+        {
+          "word": "翻訳",
+          "reading": "ほんやく",
+          "meaning_vi": "biên dịch"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 06 — 訳"
+    },
+    {
+      "id": 2307,
+      "kanji": "誌",
+      "han_viet": "CHÍ",
+      "meaning_vi": "tạp chí",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "meaning_vi": "tạp chí"
+        },
+        {
+          "word": "週刊誌",
+          "reading": "しゅうかんし",
+          "meaning_vi": "tạp chí hàng tuần"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 07 — 誌"
+    }
+  ]
+}

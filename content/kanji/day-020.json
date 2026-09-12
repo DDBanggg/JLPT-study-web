@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-020",
+  "study_day": 20,
+  "items": [
+    {
+      "id": 2001,
+      "kanji": "活",
+      "han_viet": "HOẠT",
+      "meaning_vi": "hoạt động",
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "活動",
+          "reading": "かつどう",
+          "meaning_vi": "hoạt động"
+        },
+        {
+          "word": "活躍",
+          "reading": "かつやく",
+          "meaning_vi": "hoạt động năng nổ, thành công"
+        },
+        {
+          "word": "生活費",
+          "reading": "せいかつひ",
+          "meaning_vi": "chi phí sinh hoạt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 08 — 活"
+    },
+    {
+      "id": 2002,
+      "kanji": "辞",
+      "han_viet": "TỪ",
+      "meaning_vi": "từ bỏ; từ ngữ",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "や・める"
+      ],
+      "compounds": [
+        {
+          "word": "辞める",
+          "reading": "やめる",
+          "meaning_vi": "nghỉ, từ chức"
+        },
+        {
+          "word": "お辞儀",
+          "reading": "おじぎ",
+          "meaning_vi": "cúi chào"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaning_vi": "từ điển"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 09 — 辞"
+    },
+    {
+      "id": 2003,
+      "kanji": "固",
+      "han_viet": "CỐ",
+      "meaning_vi": "cứng; vững chắc",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "かた・める",
+        "かた・まる",
+        "かた・い"
+      ],
+      "compounds": [
+        {
+          "word": "固い",
+          "reading": "かたい",
+          "meaning_vi": "cứng, cứng nhắc"
+        },
+        {
+          "word": "固まる",
+          "reading": "かたまる",
+          "meaning_vi": "đông lại, trở nên vững chắc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 10 — 固"
+    },
+    {
+      "id": 2004,
+      "kanji": "個",
+      "han_viet": "CÁ",
+      "meaning_vi": "cá nhân",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "個人",
+          "reading": "こじん",
+          "meaning_vi": "cá nhân"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 11 — 個"
+    },
+    {
+      "id": 2005,
+      "kanji": "苦",
+      "han_viet": "KHỔ",
+      "meaning_vi": "khổ; đắng",
+      "onyomi": [
+        "ク"
+      ],
+      "kunyomi": [
+        "にが・い",
+        "にが・る",
+        "くる・しい",
+        "くる・しむ",
+        "くる・しめる"
+      ],
+      "compounds": [
+        {
+          "word": "苦しい",
+          "reading": "くるしい",
+          "meaning_vi": "khó chịu, khổ sở"
+        },
+        {
+          "word": "苦労",
+          "reading": "くろう",
+          "meaning_vi": "gian khổ, vất vả"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 12 — 苦"
+    },
+    {
+      "id": 2006,
+      "kanji": "適",
+      "han_viet": "THÍCH",
+      "meaning_vi": "thích hợp",
+      "onyomi": [
+        "テキ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "適当",
+          "reading": "てきとう",
+          "meaning_vi": "phù hợp, thích hợp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 13 — 適"
+    }
+  ]
+}

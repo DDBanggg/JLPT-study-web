@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-021",
+  "study_day": 21,
+  "items": [
+    {
+      "id": 2101,
+      "kanji": "意",
+      "han_viet": "Ý",
+      "meaning_vi": "ý nghĩ; ý chí",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "意義",
+          "reading": "いぎ",
+          "meaning_vi": "ý nghĩa, giá trị"
+        },
+        {
+          "word": "意志",
+          "reading": "いし",
+          "meaning_vi": "ý chí, quyết tâm"
+        },
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "meaning_vi": "ý thức"
+        },
+        {
+          "word": "得意",
+          "reading": "とくい",
+          "meaning_vi": "sở trường"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 01 — 意"
+    },
+    {
+      "id": 2102,
+      "kanji": "識",
+      "han_viet": "THỨC",
+      "meaning_vi": "tri thức; nhận biết",
+      "onyomi": [
+        "シキ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "meaning_vi": "ý thức"
+        },
+        {
+          "word": "常識",
+          "reading": "じょうしき",
+          "meaning_vi": "kiến thức thông thường"
+        },
+        {
+          "word": "知識",
+          "reading": "ちしき",
+          "meaning_vi": "tri thức"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 02 — 識"
+    },
+    {
+      "id": 2103,
+      "kanji": "職",
+      "han_viet": "CHỨC",
+      "meaning_vi": "nghề nghiệp",
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "就職",
+          "reading": "しゅうしょく",
+          "meaning_vi": "tìm việc, xin việc"
+        },
+        {
+          "word": "職業",
+          "reading": "しょくぎょう",
+          "meaning_vi": "nghề nghiệp"
+        },
+        {
+          "word": "退職",
+          "reading": "たいしょく",
+          "meaning_vi": "nghỉ việc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 03 — 職"
+    },
+    {
+      "id": 2104,
+      "kanji": "接",
+      "han_viet": "TIẾP",
+      "meaning_vi": "tiếp xúc",
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [
+        "つ・ぐ"
+      ],
+      "compounds": [
+        {
+          "word": "直接",
+          "reading": "ちょくせつ",
+          "meaning_vi": "trực tiếp"
+        },
+        {
+          "word": "面接",
+          "reading": "めんせつ",
+          "meaning_vi": "phỏng vấn"
+        },
+        {
+          "word": "間接的",
+          "reading": "かんせつてき",
+          "meaning_vi": "gián tiếp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 04 — 接"
+    },
+    {
+      "id": 2105,
+      "kanji": "翌",
+      "han_viet": "DỰC",
+      "meaning_vi": "tiếp theo",
+      "onyomi": [
+        "ヨク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "翌朝",
+          "reading": "よくあさ",
+          "meaning_vi": "sáng hôm sau"
+        },
+        {
+          "word": "翌日",
+          "reading": "よくじつ",
+          "meaning_vi": "ngày hôm sau"
+        },
+        {
+          "word": "翌年",
+          "reading": "よくねん",
+          "meaning_vi": "năm sau"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 05 — 翌"
+    },
+    {
+      "id": 2106,
+      "kanji": "産",
+      "han_viet": "SẢN",
+      "meaning_vi": "sinh; sản xuất",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "う・む",
+        "う・まれる",
+        "うぶ"
+      ],
+      "compounds": [
+        {
+          "word": "産む",
+          "reading": "うむ",
+          "meaning_vi": "sinh, đẻ"
+        },
+        {
+          "word": "産業",
+          "reading": "さんぎょう",
+          "meaning_vi": "công nghiệp"
+        },
+        {
+          "word": "生産",
+          "reading": "せいさん",
+          "meaning_vi": "sản xuất"
+        },
+        {
+          "word": "ベトナム産",
+          "reading": "ベトナムさん",
+          "meaning_vi": "sản xuất tại Việt Nam"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 06 — 産"
+    },
+    {
+      "id": 2107,
+      "kanji": "位",
+      "han_viet": "VỊ",
+      "meaning_vi": "vị trí",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [
+        "くらい"
+      ],
+      "compounds": [
+        {
+          "word": "位置",
+          "reading": "いち",
+          "meaning_vi": "vị trí"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 07 — 位"
+    }
+  ]
+}

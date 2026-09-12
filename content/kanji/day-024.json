@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-024",
+  "study_day": 24,
+  "items": [
+    {
+      "id": 2401,
+      "kanji": "認",
+      "han_viet": "NHẬN",
+      "meaning_vi": "xác nhận",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "みと・める"
+      ],
+      "compounds": [
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning_vi": "xác nhận, kiểm tra lại"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 08 — 認"
+    },
+    {
+      "id": 2402,
+      "kanji": "調",
+      "han_viet": "ĐIỀU",
+      "meaning_vi": "điều tra; điều chỉnh",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "しら・べる",
+        "ととの・う",
+        "ととの・える"
+      ],
+      "compounds": [
+        {
+          "word": "調べる",
+          "reading": "しらべる",
+          "meaning_vi": "tra cứu"
+        },
+        {
+          "word": "体調",
+          "reading": "たいちょう",
+          "meaning_vi": "thể trạng"
+        },
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning_vi": "khảo sát"
+        },
+        {
+          "word": "調整",
+          "reading": "ちょうせい",
+          "meaning_vi": "điều chỉnh"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 09 — 調"
+    },
+    {
+      "id": 2403,
+      "kanji": "議",
+      "han_viet": "NGHỊ",
+      "meaning_vi": "thảo luận",
+      "onyomi": [
+        "ギ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "不思議",
+          "reading": "ふしぎ",
+          "meaning_vi": "kỳ lạ"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "meaning_vi": "cuộc họp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 10 — 議"
+    },
+    {
+      "id": 2404,
+      "kanji": "羊",
+      "han_viet": "DƯƠNG",
+      "meaning_vi": "con cừu",
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "ひつじ"
+      ],
+      "compounds": [
+        {
+          "word": "羊",
+          "reading": "ひつじ",
+          "meaning_vi": "con cừu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 11 — 羊"
+    },
+    {
+      "id": 2405,
+      "kanji": "差",
+      "han_viet": "SAI",
+      "meaning_vi": "khác biệt",
+      "onyomi": [
+        "サ"
+      ],
+      "kunyomi": [
+        "さ・す"
+      ],
+      "compounds": [
+        {
+          "word": "差す",
+          "reading": "さす",
+          "meaning_vi": "giương ô, chiếu sáng"
+        },
+        {
+          "word": "交差点",
+          "reading": "こうさてん",
+          "meaning_vi": "ngã tư"
+        },
+        {
+          "word": "差",
+          "reading": "さ",
+          "meaning_vi": "sự khác biệt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 12 — 差"
+    },
+    {
+      "id": 2406,
+      "kanji": "美",
+      "han_viet": "MỸ",
+      "meaning_vi": "đẹp",
+      "onyomi": [
+        "ビ"
+      ],
+      "kunyomi": [
+        "うつく・しい"
+      ],
+      "compounds": [
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "meaning_vi": "đẹp"
+        },
+        {
+          "word": "美術",
+          "reading": "びじゅつ",
+          "meaning_vi": "mỹ thuật"
+        },
+        {
+          "word": "美人",
+          "reading": "びじん",
+          "meaning_vi": "mỹ nhân"
+        },
+        {
+          "word": "美容院",
+          "reading": "びよういん",
+          "meaning_vi": "tiệm làm đẹp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 120–124 | BÀI 3 > CHỮ HÁN > mục 13 — 美"
+    }
+  ]
+}

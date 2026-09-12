@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-022",
+  "study_day": 22,
+  "items": [
+    {
+      "id": 2201,
+      "kanji": "倍",
+      "han_viet": "BỘI",
+      "meaning_vi": "gấp lần",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "倍",
+          "reading": "ばい",
+          "meaning_vi": "lần, gấp"
+        },
+        {
+          "word": "〜倍",
+          "reading": "ばい",
+          "meaning_vi": "gấp ... lần"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 08 — 倍"
+    },
+    {
+      "id": 2202,
+      "kanji": "候",
+      "han_viet": "HẬU",
+      "meaning_vi": "khí hậu",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "そうろう"
+      ],
+      "compounds": [
+        {
+          "word": "気候",
+          "reading": "きこう",
+          "meaning_vi": "khí hậu"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 09 — 候"
+    },
+    {
+      "id": 2203,
+      "kanji": "仮",
+      "han_viet": "GIẢ",
+      "meaning_vi": "giả định",
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "kunyomi": [
+        "かり"
+      ],
+      "compounds": [
+        {
+          "word": "仮定",
+          "reading": "かてい",
+          "meaning_vi": "giả định, giả thiết"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 10 — 仮"
+    },
+    {
+      "id": 2204,
+      "kanji": "任",
+      "han_viet": "NHIỆM",
+      "meaning_vi": "trách nhiệm; giao phó",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "まか・せる",
+        "まか・す"
+      ],
+      "compounds": [
+        {
+          "word": "任せる",
+          "reading": "まかせる",
+          "meaning_vi": "giao phó"
+        },
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning_vi": "trách nhiệm"
+        },
+        {
+          "word": "担任",
+          "reading": "たんにん",
+          "meaning_vi": "giáo viên chủ nhiệm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 11 — 任"
+    },
+    {
+      "id": 2205,
+      "kanji": "件",
+      "han_viet": "KIỆN",
+      "meaning_vi": "vụ việc; điều kiện",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "件",
+          "reading": "けん",
+          "meaning_vi": "vụ việc"
+        },
+        {
+          "word": "事件",
+          "reading": "じけん",
+          "meaning_vi": "vụ án"
+        },
+        {
+          "word": "条件",
+          "reading": "じょうけん",
+          "meaning_vi": "điều kiện"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 12 — 件"
+    },
+    {
+      "id": 2206,
+      "kanji": "直",
+      "han_viet": "TRỰC",
+      "meaning_vi": "thẳng; sửa",
+      "onyomi": [
+        "チョク",
+        "ジキ"
+      ],
+      "kunyomi": [
+        "ただ・ちに",
+        "なお・す",
+        "なお・る"
+      ],
+      "compounds": [
+        {
+          "word": "直す",
+          "reading": "なおす",
+          "meaning_vi": "sửa"
+        },
+        {
+          "word": "直る",
+          "reading": "なおる",
+          "meaning_vi": "được sửa"
+        },
+        {
+          "word": "直接",
+          "reading": "ちょくせつ",
+          "meaning_vi": "trực tiếp"
+        },
+        {
+          "word": "直前",
+          "reading": "ちょくぜん",
+          "meaning_vi": "ngay trước"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 13 — 直"
+    },
+    {
+      "id": 2207,
+      "kanji": "値",
+      "han_viet": "TRỊ",
+      "meaning_vi": "giá trị",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "ね",
+        "あたい"
+      ],
+      "compounds": [
+        {
+          "word": "値段",
+          "reading": "ねだん",
+          "meaning_vi": "giá cả"
+        },
+        {
+          "word": "値上げ",
+          "reading": "ねあげ",
+          "meaning_vi": "sự tăng giá"
+        },
+        {
+          "word": "価値",
+          "reading": "かち",
+          "meaning_vi": "giá trị"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 119–126 | BÀI 2 > CHỮ HÁN > mục 14 — 値"
+    }
+  ]
+}

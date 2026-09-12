@@ -122,6 +122,47 @@ describe("roadmap and Schedule derivation", () => {
     ]);
   });
 
+  it("publishes Chapter 2 on Day 19–25 and leaves Day 26 pending", async () => {
+    const result = await loadProgramRoadmap();
+    if (result.state !== "available") throw new Error("Roadmap missing");
+
+    expect(getRoadmapDay(result.data, 19).tasks.map(({ type }) => type)).toEqual([
+      "grammar",
+      "grammar_test",
+      "vocabulary",
+      "kanji",
+      "reading",
+      "listening",
+    ]);
+    for (let day = 20; day <= 24; day += 1) {
+      expect(getRoadmapDay(result.data, day).tasks.map(({ type }) => type)).toEqual([
+        "daily_test",
+        "grammar",
+        "grammar_test",
+        "vocabulary",
+        "kanji",
+        "reading",
+        "listening",
+      ]);
+    }
+    expect(getRoadmapDay(result.data, 25).tasks.map(({ type }) => type)).toEqual([
+      "daily_test",
+      "weekly_test",
+      "listening",
+    ]);
+
+    for (let day = 19; day <= 25; day += 1) {
+      const summaries = await Promise.all(
+        getRoadmapDay(result.data, day).tasks.map((task) => loadTaskContentSummary(task, day)),
+      );
+      expect(summaries.every(({ state }) => state === "available")).toBe(true);
+    }
+    expect(getRoadmapDay(result.data, 26)).toMatchObject({
+      roadmap_state: "pending",
+      tasks: [],
+    });
+  });
+
   it("derives available, in-progress and finished task DTOs", async () => {
     const result = await loadProgramRoadmap();
     if (result.state !== "available") throw new Error("Roadmap missing");

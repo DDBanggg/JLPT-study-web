@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-023",
+  "type": "grammar",
+  "title": "Grammar Test — Day 23",
+  "study_day": 23,
+  "coverage": {
+    "from_day": 23,
+    "to_day": 23
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "あれほど練習したのだから、彼が優勝し（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "B",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "この古い橋は、いつ壊れ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "冬の北海道なら、四月に雪が降っ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てはいけない"
+            },
+            {
+              "id": "C",
+              "text": "ても不思議ではない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "彼は三日も寝ていないから、ここで眠っ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てはいけない"
+            },
+            {
+              "id": "C",
+              "text": "てほしい"
+            },
+            {
+              "id": "D",
+              "text": "てもおかしくない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "人気商品だから、今日売り切れ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "B",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "この暑さが続けば、熱中症で倒れる人が出（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "これだけ証拠がそろっているなら、容疑者が逮捕され（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てはいけない"
+            },
+            {
+              "id": "C",
+              "text": "ても不思議ではない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "合格の知らせを聞いて、どれほどうれしかった（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ところか"
+            },
+            {
+              "id": "C",
+              "text": "わけか"
+            },
+            {
+              "id": "D",
+              "text": "ことか"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "家族の応援に何度助けられた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことか"
+            },
+            {
+              "id": "B",
+              "text": "ものか"
+            },
+            {
+              "id": "C",
+              "text": "ところか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "この日をどんなに待っていた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ことか"
+            },
+            {
+              "id": "C",
+              "text": "ところか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "彼の言葉にどれほど勇気をもらった（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ところか"
+            },
+            {
+              "id": "C",
+              "text": "ことか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "海外で一人暮らしをして、母の料理がどんなに恋しかった（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ところか"
+            },
+            {
+              "id": "C",
+              "text": "わけか"
+            },
+            {
+              "id": "D",
+              "text": "ことか"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "海外でなくしたパスポートが見つかった時、どれほど安心した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことか"
+            },
+            {
+              "id": "B",
+              "text": "ものか"
+            },
+            {
+              "id": "C",
+              "text": "ところか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "雲が厚いから、午後は雨になる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "だろう"
+            },
+            {
+              "id": "C",
+              "text": "ところだ"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "毎日練習しているので、彼はきっと合格する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ところだ"
+            },
+            {
+              "id": "C",
+              "text": "だろう"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "駅前なら、夜でも人が多い（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ところだ"
+            },
+            {
+              "id": "C",
+              "text": "ことだ"
+            },
+            {
+              "id": "D",
+              "text": "だろう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "この道をまっすぐ行けば、十分で着く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だろう"
+            },
+            {
+              "id": "B",
+              "text": "つもりだ"
+            },
+            {
+              "id": "C",
+              "text": "ところだ"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "彼女はもう知らせを読んだ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "だろう"
+            },
+            {
+              "id": "C",
+              "text": "ところだ"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "改装して座席が増えたので、この図書館の利用者はさらに増える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "つもりだ"
+            },
+            {
+              "id": "B",
+              "text": "ところだ"
+            },
+            {
+              "id": "C",
+              "text": "だろう"
+            },
+            {
+              "id": "D",
+              "text": "ことだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2303"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "電車は予定どおり来る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "からだろう"
+            },
+            {
+              "id": "B",
+              "text": "だけだろう"
+            },
+            {
+              "id": "C",
+              "text": "ほどだろう"
+            },
+            {
+              "id": "D",
+              "text": "だろうか"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "この説明だけで、みんなに伝わる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だろうか"
+            },
+            {
+              "id": "B",
+              "text": "からだろう"
+            },
+            {
+              "id": "C",
+              "text": "だけだろう"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "忘れ物はどこにある（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "からだろう"
+            },
+            {
+              "id": "B",
+              "text": "だろうか"
+            },
+            {
+              "id": "C",
+              "text": "だけだろう"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "彼は本当に一人で参加するの（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "からだろう"
+            },
+            {
+              "id": "B",
+              "text": "だけだろう"
+            },
+            {
+              "id": "C",
+              "text": "だろうか"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "明日の試合は中止になる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "からだろう"
+            },
+            {
+              "id": "B",
+              "text": "だけだろう"
+            },
+            {
+              "id": "C",
+              "text": "ほどだろう"
+            },
+            {
+              "id": "D",
+              "text": "だろうか"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "海外から送った荷物は、金曜日までに届く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "だろうか"
+            },
+            {
+              "id": "B",
+              "text": "からだろう"
+            },
+            {
+              "id": "C",
+              "text": "だけだろう"
+            },
+            {
+              "id": "D",
+              "text": "ほどだろう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2304"
+          ]
+        }
+      ]
+    }
+  ]
+}

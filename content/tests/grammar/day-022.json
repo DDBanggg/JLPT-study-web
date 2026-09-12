@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-022",
+  "type": "grammar",
+  "title": "Grammar Test — Day 22",
+  "study_day": 22,
+  "coverage": {
+    "from_day": 22,
+    "to_day": 22
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "春になり、庭の花が咲き（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "新しい会社で働き（　　　）から、生活のリズムが変わった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わって"
+            },
+            {
+              "id": "B",
+              "text": "始めて"
+            },
+            {
+              "id": "C",
+              "text": "続けて"
+            },
+            {
+              "id": "D",
+              "text": "直して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "雨が急に降り（　　　）ので、店の中へ入った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わった"
+            },
+            {
+              "id": "B",
+              "text": "続けた"
+            },
+            {
+              "id": "C",
+              "text": "始めた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "子供が歩き（　　　）のは一歳ごろだった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わった"
+            },
+            {
+              "id": "B",
+              "text": "続けた"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "始めた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この町では先月から観光客が増え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2201"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "資料を読み（　　　）から、質問してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "終わって"
+            },
+            {
+              "id": "C",
+              "text": "続けて"
+            },
+            {
+              "id": "D",
+              "text": "直して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "宿題をやり（　　　）まで、テレビは見ない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始める"
+            },
+            {
+              "id": "B",
+              "text": "続ける"
+            },
+            {
+              "id": "C",
+              "text": "終わる"
+            },
+            {
+              "id": "D",
+              "text": "直す"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "全員が食べ（　　　）後で、店を出た。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "続けた"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "終わった"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "メールを書き（　　　）ところで、電話が鳴った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "終わった"
+            },
+            {
+              "id": "B",
+              "text": "始めた"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "その本は昨日ようやく読み（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2202"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "雨は朝から夜まで降り（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "難しくても、日本語の勉強を（　　　）つもりだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始める"
+            },
+            {
+              "id": "B",
+              "text": "終わる"
+            },
+            {
+              "id": "C",
+              "text": "直す"
+            },
+            {
+              "id": "D",
+              "text": "続ける"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "彼は休憩せずに三時間走り（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "続けた"
+            },
+            {
+              "id": "B",
+              "text": "始めた"
+            },
+            {
+              "id": "C",
+              "text": "終わった"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "母からもらった時計を今も使い（　　　）いる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "続けて"
+            },
+            {
+              "id": "C",
+              "text": "終わって"
+            },
+            {
+              "id": "D",
+              "text": "直して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "結果が出るまで調査を（　　　）ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "終わって"
+            },
+            {
+              "id": "C",
+              "text": "続けて"
+            },
+            {
+              "id": "D",
+              "text": "直して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "間違いが多かったので、レポートを書き（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "予定が変わったため、旅行の計画を立て（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直した"
+            },
+            {
+              "id": "B",
+              "text": "始めた"
+            },
+            {
+              "id": "C",
+              "text": "終わった"
+            },
+            {
+              "id": "D",
+              "text": "続けた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "聞こえなかったので、もう一度聞き（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "直した"
+            },
+            {
+              "id": "C",
+              "text": "終わった"
+            },
+            {
+              "id": "D",
+              "text": "続けた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "送る前にメールを読み（　　　）ほうがいい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "続けた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "失敗の原因を調べて、最初からやり（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めた"
+            },
+            {
+              "id": "B",
+              "text": "終わった"
+            },
+            {
+              "id": "C",
+              "text": "続けた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2204"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "田中さんはチームの代表（　　　）、会議に出席した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "として"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "この建物は文化財（　　　）大切に守られている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "彼女は通訳（　　　）国際会議で働いている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "として"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "私は趣味（　　　）写真を撮っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "について"
+            },
+            {
+              "id": "B",
+              "text": "によって"
+            },
+            {
+              "id": "C",
+              "text": "に対して"
+            },
+            {
+              "id": "D",
+              "text": "として"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "この経験はよい思い出（　　　）心に残っている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "として"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-021",
+  "type": "grammar",
+  "title": "Grammar Test — Day 21",
+  "study_day": 21,
+  "coverage": {
+    "from_day": 21,
+    "to_day": 21
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "あと十分しかないので、この仕事は今日中に終わり（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうにない"
+            },
+            {
+              "id": "B",
+              "text": "そうだった"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "道がひどく混んでいて、開始時刻には間に合い（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうでもある"
+            },
+            {
+              "id": "B",
+              "text": "そうもない"
+            },
+            {
+              "id": "C",
+              "text": "そうになった"
+            },
+            {
+              "id": "D",
+              "text": "そうでいる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "説明を何度読んでも、一人では直せ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうでもない"
+            },
+            {
+              "id": "B",
+              "text": "そうにならない"
+            },
+            {
+              "id": "C",
+              "text": "そうにもない"
+            },
+            {
+              "id": "D",
+              "text": "そうでない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "空が暗い。しばらく雨はやみ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうである"
+            },
+            {
+              "id": "D",
+              "text": "そうにない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "この量では、二人だけで全部食べられ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうもない"
+            },
+            {
+              "id": "B",
+              "text": "そうでもある"
+            },
+            {
+              "id": "C",
+              "text": "そうになった"
+            },
+            {
+              "id": "D",
+              "text": "そうでいる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "予算が少なすぎて、駅前の新築マンションは買え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうにない"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "足首を痛めた選手は、明日の決勝には出場でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうもない"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "入口には百人以上並んでいる。閉館までに中へ入れ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうである"
+            },
+            {
+              "id": "D",
+              "text": "そうにない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "充電が残り二パーセントなので、この電話は帰宅まで使え（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうもない"
+            },
+            {
+              "id": "B",
+              "text": "そうだった"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "必要なデータが半分もないため、今日中には結論を出せ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうにもない"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "横風が強く、この飛行機はしばらく着陸でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうにない"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "担当者が二人しかいないので、今月中に全件を処理でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうである"
+            },
+            {
+              "id": "D",
+              "text": "そうもない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "専門用語が多くて、初心者にはこの説明を理解でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうにもない"
+            },
+            {
+              "id": "B",
+              "text": "そうだった"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "子供は暗い部屋を（　　　）。そのため、一人では入ろうとしない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怖がっていない"
+            },
+            {
+              "id": "B",
+              "text": "怖がっている"
+            },
+            {
+              "id": "C",
+              "text": "怖がらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "怖がったことがない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "妹は新しいゲームを（　　　）。誕生日に買ってほしいと母に頼んでいる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "欲しがっていない"
+            },
+            {
+              "id": "B",
+              "text": "欲しがらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "欲しがっている"
+            },
+            {
+              "id": "D",
+              "text": "欲しがったことがない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "犬は雷の音を（　　　）。音がするとすぐ机の下に隠れる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怖がっていない"
+            },
+            {
+              "id": "B",
+              "text": "怖がらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "怖がったことがない"
+            },
+            {
+              "id": "D",
+              "text": "怖がっている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "弟は私と同じ学校へ（　　　）。毎日、その学校について質問してくる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "行きたがっている"
+            },
+            {
+              "id": "B",
+              "text": "行きたがっていない"
+            },
+            {
+              "id": "C",
+              "text": "行きたがらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "行きたがったことがない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "彼女は人前で失敗したことを（　　　）。その話をすると顔を赤くする。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "恥ずかしがっていない"
+            },
+            {
+              "id": "B",
+              "text": "恥ずかしがっている"
+            },
+            {
+              "id": "C",
+              "text": "恥ずかしがらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "恥ずかしがったことがない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "弟は野菜を（　　　）。いつも皿の端によけてしまう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "嫌がっていない"
+            },
+            {
+              "id": "B",
+              "text": "嫌がらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "嫌がっている"
+            },
+            {
+              "id": "D",
+              "text": "嫌がったことがない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "同僚は友人の昇進を（　　　）。自分も同じ役職に就きたいと話している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うらやましがっていない"
+            },
+            {
+              "id": "B",
+              "text": "うらやましがらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "うらやましがったことがない"
+            },
+            {
+              "id": "D",
+              "text": "うらやましがっている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "祖父は一人で食事をするのを（　　　）。そのため、よく私たちを家に招く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "寂しがっている"
+            },
+            {
+              "id": "B",
+              "text": "寂しがっていない"
+            },
+            {
+              "id": "C",
+              "text": "寂しがらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "寂しがったことがない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "学生たちは実験の結果を（　　　）。何度もデータを見比べている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "面白がっていない"
+            },
+            {
+              "id": "B",
+              "text": "面白がっている"
+            },
+            {
+              "id": "C",
+              "text": "面白がらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "面白がったことがない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "娘は発表会で失敗したことを（　　　）。帰宅してからも何度も練習している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "悔しがっていない"
+            },
+            {
+              "id": "B",
+              "text": "悔しがらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "悔しがっている"
+            },
+            {
+              "id": "D",
+              "text": "悔しがったことがない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "子供は注射を（　　　）。診察室の前に来ると泣き出してしまう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怖がっていない"
+            },
+            {
+              "id": "B",
+              "text": "怖がらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "怖がったことがない"
+            },
+            {
+              "id": "D",
+              "text": "怖がっている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "父は私の退職を（　　　）。もう一度考えるよう何度も言ってきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "残念がっている"
+            },
+            {
+              "id": "B",
+              "text": "残念がっていない"
+            },
+            {
+              "id": "C",
+              "text": "残念がらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "残念がったことがない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        }
+      ]
+    }
+  ]
+}

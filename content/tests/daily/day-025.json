@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-025",
+  "type": "daily",
+  "title": "Daily Test — Day 25",
+  "study_day": 25,
+  "coverage": {
+    "from_day": 24,
+    "to_day": 24
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この奨学金に申し込む（　　　）、先生の推薦状が必要です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "壊れた自転車を安全に使う（　　　）、ブレーキを交換しなければならない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "には"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "海外で働く（　　　）、仕事で使う言葉を身に付けることが大切だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "には"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "この薬を買う（　　　）、医師の処方箋を見せる必要がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "へは"
+            },
+            {
+              "id": "D",
+              "text": "には"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "大会でよい成績を残す（　　　）、毎日の体調管理も欠かせない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "途中でスマートフォンの電池が切れる（　　　）、モバイルバッテリーを持って出かけた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "といけないから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "停電でデータが消え（　　　）、予備の電源を用意した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "B",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "C",
+              "text": "てはいけないので"
+            },
+            {
+              "id": "D",
+              "text": "ているところなので"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "会場で席が足りなくなる（　　　）、参加人数を前日に確認する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "ことができるので"
+            },
+            {
+              "id": "C",
+              "text": "つもりだから"
+            },
+            {
+              "id": "D",
+              "text": "といけないから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "薬を二回飲ん（　　　）、飲んだ時刻をノートに書いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ではいけないので"
+            },
+            {
+              "id": "B",
+              "text": "でもかまわないので"
+            },
+            {
+              "id": "C",
+              "text": "だことがあるので"
+            },
+            {
+              "id": "D",
+              "text": "でいるところなので"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "旅行中に現金がなくなる（　　　）、別の場所にも少し分けて入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "といけないから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "（　　　）山道を歩く。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "申し訳ない"
+            },
+            {
+              "id": "B",
+              "text": "伝わる"
+            },
+            {
+              "id": "C",
+              "text": "険しい"
+            },
+            {
+              "id": "D",
+              "text": "似合う"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2401"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "彼に対して（　　　）ことをした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "伝わる"
+            },
+            {
+              "id": "B",
+              "text": "似合う"
+            },
+            {
+              "id": "C",
+              "text": "信じる"
+            },
+            {
+              "id": "D",
+              "text": "申し訳ない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2402"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「明治時代に、日本に欧米の文化が伝わった。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "伝わる"
+            },
+            {
+              "id": "B",
+              "text": "似合う"
+            },
+            {
+              "id": "C",
+              "text": "信じる"
+            },
+            {
+              "id": "D",
+              "text": "訳す"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2403"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "彼女は赤い服がよく（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "信じる"
+            },
+            {
+              "id": "B",
+              "text": "似合う"
+            },
+            {
+              "id": "C",
+              "text": "訳す"
+            },
+            {
+              "id": "D",
+              "text": "許す"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2404"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "彼の話を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "訳す"
+            },
+            {
+              "id": "B",
+              "text": "許す"
+            },
+            {
+              "id": "C",
+              "text": "信じる"
+            },
+            {
+              "id": "D",
+              "text": "差す"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2405"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "英語をベトナム語に（　　　）のは難しい時もある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "許す"
+            },
+            {
+              "id": "B",
+              "text": "差す"
+            },
+            {
+              "id": "C",
+              "text": "治す"
+            },
+            {
+              "id": "D",
+              "text": "訳す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2406"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「あなたのことは絶対に許さない。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "許す"
+            },
+            {
+              "id": "B",
+              "text": "差す"
+            },
+            {
+              "id": "C",
+              "text": "治す"
+            },
+            {
+              "id": "D",
+              "text": "飼う"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2407"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「傘を差して歩く。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "治す"
+            },
+            {
+              "id": "B",
+              "text": "差す"
+            },
+            {
+              "id": "C",
+              "text": "飼う"
+            },
+            {
+              "id": "D",
+              "text": "謝る"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2408"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「ゆっくり休んで、病気を治してください。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飼う"
+            },
+            {
+              "id": "B",
+              "text": "謝る"
+            },
+            {
+              "id": "C",
+              "text": "治す"
+            },
+            {
+              "id": "D",
+              "text": "転ぶ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2409"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "このマンションではペットを（　　　）ことができる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "謝る"
+            },
+            {
+              "id": "B",
+              "text": "転ぶ"
+            },
+            {
+              "id": "C",
+              "text": "濡れる"
+            },
+            {
+              "id": "D",
+              "text": "飼う"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2410"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "日本では（　　　）ときに頭を下げます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "謝る"
+            },
+            {
+              "id": "B",
+              "text": "転ぶ"
+            },
+            {
+              "id": "C",
+              "text": "濡れる"
+            },
+            {
+              "id": "D",
+              "text": "伝言"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2411"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「険しい」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もうしわけない"
+            },
+            {
+              "id": "B",
+              "text": "けわしい"
+            },
+            {
+              "id": "C",
+              "text": "つたわる"
+            },
+            {
+              "id": "D",
+              "text": "にあう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2401"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「申し訳ない」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けわしい"
+            },
+            {
+              "id": "B",
+              "text": "つたわる"
+            },
+            {
+              "id": "C",
+              "text": "もうしわけない"
+            },
+            {
+              "id": "D",
+              "text": "にあう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2402"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「伝わる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "けわしい"
+            },
+            {
+              "id": "B",
+              "text": "もうしわけない"
+            },
+            {
+              "id": "C",
+              "text": "にあう"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2403"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「似合う」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にあう"
+            },
+            {
+              "id": "B",
+              "text": "けわしい"
+            },
+            {
+              "id": "C",
+              "text": "もうしわけない"
+            },
+            {
+              "id": "D",
+              "text": "つたわる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2404"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "送信前にメールの宛先を「確認」した。「確認」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "たいちょう"
+            },
+            {
+              "id": "D",
+              "text": "ちょうさ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2401"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "旅行の前に現地の交通事情を「調べる」。「調べる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "たいちょう"
+            },
+            {
+              "id": "D",
+              "text": "ちょうさ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2402"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "今日は「体調」が悪いので早退した。「体調」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "たいちょう"
+            },
+            {
+              "id": "D",
+              "text": "ちょうさ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2402"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "市は駅の利用者数を「調査」している。「調査」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "たいちょう"
+            },
+            {
+              "id": "D",
+              "text": "ちょうさ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2402"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "全員が参加できるよう日程を「調整」した。「調整」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ちょうせい"
+            },
+            {
+              "id": "B",
+              "text": "かくにん"
+            },
+            {
+              "id": "C",
+              "text": "しらべる"
+            },
+            {
+              "id": "D",
+              "text": "たいちょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2402"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "誰もいない部屋から音がして「不思議」だ。「不思議」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "ふしぎ"
+            },
+            {
+              "id": "C",
+              "text": "しらべる"
+            },
+            {
+              "id": "D",
+              "text": "たいちょう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2403"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "新商品の価格は明日の「会議」で決める。「会議」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "かいぎ"
+            },
+            {
+              "id": "D",
+              "text": "たいちょう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2403"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "牧場で白い「羊」が草を食べていた。「羊」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくにん"
+            },
+            {
+              "id": "B",
+              "text": "しらべる"
+            },
+            {
+              "id": "C",
+              "text": "たいちょう"
+            },
+            {
+              "id": "D",
+              "text": "ひつじ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2404"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。雨が降ってきたので、かばんから傘を出して（さす）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確認"
+            },
+            {
+              "id": "B",
+              "text": "調べる"
+            },
+            {
+              "id": "C",
+              "text": "差す"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2405"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。次の（こうさてん）を右に曲がると郵便局がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確認"
+            },
+            {
+              "id": "B",
+              "text": "調べる"
+            },
+            {
+              "id": "C",
+              "text": "体調"
+            },
+            {
+              "id": "D",
+              "text": "交差点"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2405"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。二つの商品の価格には大きな（さ）がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "差"
+            },
+            {
+              "id": "B",
+              "text": "確認"
+            },
+            {
+              "id": "C",
+              "text": "調べる"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2405"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。山頂から（うつくしい）夕日を見ることができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確認"
+            },
+            {
+              "id": "B",
+              "text": "美しい"
+            },
+            {
+              "id": "C",
+              "text": "調べる"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2406"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。妹は大学で日本の（びじゅつ）を学んでいる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確認"
+            },
+            {
+              "id": "B",
+              "text": "調べる"
+            },
+            {
+              "id": "C",
+              "text": "美術"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2406"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。写真の祖母は若いころから（びじん）だった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "確認"
+            },
+            {
+              "id": "B",
+              "text": "調べる"
+            },
+            {
+              "id": "C",
+              "text": "体調"
+            },
+            {
+              "id": "D",
+              "text": "美人"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2406"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。髪を短く切るため、駅前の（びよういん）を予約した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "美容院"
+            },
+            {
+              "id": "B",
+              "text": "確認"
+            },
+            {
+              "id": "C",
+              "text": "調べる"
+            },
+            {
+              "id": "D",
+              "text": "体調"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2406"
+          ]
+        }
+      ]
+    }
+  ]
+}

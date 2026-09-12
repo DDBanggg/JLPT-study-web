@@ -1,0 +1,667 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-023",
+  "study_day": 23,
+  "target": 50,
+  "pool_size": 38,
+  "items": [
+    {
+      "id": 2301,
+      "surface": "他",
+      "hiragana": "ほか",
+      "kanji": "他",
+      "meaning_vi": "khác, ngoài ra",
+      "examples": [
+        {
+          "jp": "私にはわからないので他の人に聞いてください。",
+          "vi": "Tôi không biết nên cậu hỏi người khác đi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 001 — 他"
+    },
+    {
+      "id": 2302,
+      "surface": "他人",
+      "hiragana": "たにん",
+      "kanji": "他人",
+      "meaning_vi": "người khác, người không liên quan",
+      "examples": [
+        {
+          "jp": "他人に迷惑をかけてはいけません。",
+          "vi": "Không được gây phiền phức cho người khác."
+        },
+        {
+          "jp": "彼は他人の意見を聞いてばかりで、自分の意見は全然言わない。",
+          "vi": "Anh ấy chỉ toàn nghe ý kiến của người khác mà chẳng bao giờ nói ra ý kiến của mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 002 — 他人"
+    },
+    {
+      "id": 2303,
+      "surface": "手伝い",
+      "hiragana": "てつだい",
+      "kanji": "手伝い",
+      "meaning_vi": "sự giúp đỡ",
+      "examples": [
+        {
+          "jp": "息子はよく家事の手伝いをしてくれる。",
+          "vi": "Con trai hay giúp tôi làm việc nhà."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 003 — 手伝い"
+    },
+    {
+      "id": 2304,
+      "surface": "信号",
+      "hiragana": "しんごう",
+      "kanji": "信号",
+      "meaning_vi": "đèn giao thông",
+      "examples": [
+        {
+          "jp": "信号が青になったら渡りましょう。",
+          "vi": "Khi đèn giao thông chuyển sang màu xanh thì chúng ta hãy sang đường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 004 — 信号"
+    },
+    {
+      "id": 2305,
+      "surface": "訳",
+      "hiragana": "わけ",
+      "kanji": "訳",
+      "meaning_vi": "lý do, nguyên nhân, ý nghĩa",
+      "examples": [
+        {
+          "jp": "彼がこんなことをするなんて、訳がわからない。",
+          "vi": "Không hiểu lí do tại sao anh ấy lại làm những việc như thế này."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 005 — 訳"
+    },
+    {
+      "id": 2306,
+      "surface": "体調",
+      "hiragana": "たいちょう",
+      "kanji": "体調",
+      "meaning_vi": "tình trạng cơ thể",
+      "examples": [
+        {
+          "jp": "体調が悪くて会社を休んだ。",
+          "vi": "Cảm thấy không khỏe nên tôi đã xin nghỉ làm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 006 — 体調"
+    },
+    {
+      "id": 2307,
+      "surface": "調味料",
+      "hiragana": "ちょうみりょう",
+      "kanji": "調味料",
+      "meaning_vi": "gia vị",
+      "examples": [
+        {
+          "jp": "この料理に使う調味料は、塩とこしょうだけです。",
+          "vi": "Gia vị cho món này, chỉ có muối và tiêu thôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 007 — 調味料"
+    },
+    {
+      "id": 2308,
+      "surface": "羊",
+      "hiragana": "ひつじ",
+      "kanji": "羊",
+      "meaning_vi": "con cừu",
+      "examples": [
+        {
+          "jp": "この毛布は白くてふわふわで、羊の毛みたいだ。",
+          "vi": "Cái chăn này trắng và mềm mịn, giống như lông cừu vậy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 008 — 羊"
+    },
+    {
+      "id": 2309,
+      "surface": "交差点",
+      "hiragana": "こうさてん",
+      "kanji": "交差点",
+      "meaning_vi": "ngã tư, giao lộ",
+      "examples": [
+        {
+          "jp": "この交差点では、よく事故が起こります。",
+          "vi": "Ở ngã tư này thường có tai nạn xảy ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 009 — 交差点"
+    },
+    {
+      "id": 2310,
+      "surface": "差",
+      "hiragana": "さ",
+      "kanji": "差",
+      "meaning_vi": "sự khác biệt, khoảng cách",
+      "examples": [
+        {
+          "jp": "昼と夜の気温の差が激しい。",
+          "vi": "Sự chênh lệch nhiệt độ giữa ngày và đêm rất lớn"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 010 — 差"
+    },
+    {
+      "id": 2311,
+      "surface": "美術",
+      "hiragana": "びじゅつ",
+      "kanji": "美術",
+      "meaning_vi": "mỹ thuật",
+      "examples": [
+        {
+          "jp": "この学校には美術の専門クラスがある。",
+          "vi": "Trường này có lớp chuyên về mỹ thuật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 011 — 美術"
+    },
+    {
+      "id": 2312,
+      "surface": "美人",
+      "hiragana": "びじん",
+      "kanji": "美人",
+      "meaning_vi": "mỹ nhân, người đẹp",
+      "examples": [
+        {
+          "jp": "あの女優さん、写真よりもずっと美人だね。",
+          "vi": "Nữ diễn viên kia trông xinh hơn nhiều so với trong ảnh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 125 | BÀI 3 > TỪ VỰNG > mục 012 — 美人"
+    },
+    {
+      "id": 2313,
+      "surface": "美容院",
+      "hiragana": "びよういん",
+      "kanji": "美容院",
+      "meaning_vi": "tiệm làm tóc",
+      "examples": [
+        {
+          "jp": "東京の有名な美容院で髪を切った。",
+          "vi": "Tôi đã cắt tóc ở tiệm làm tóc nổi tiếng tại Tokyo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 013 — 美容院"
+    },
+    {
+      "id": 2314,
+      "surface": "専門",
+      "hiragana": "せんもん",
+      "kanji": "専門",
+      "meaning_vi": "chuyên môn",
+      "examples": [
+        {
+          "jp": "これは私の専門外のことだ。",
+          "vi": "Đây là việc nằm ngoài chuyên môn của tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 014 — 専門"
+    },
+    {
+      "id": 2315,
+      "surface": "楽器",
+      "hiragana": "がっき",
+      "kanji": "楽器",
+      "meaning_vi": "nhạc cụ",
+      "examples": [
+        {
+          "jp": "新しい楽器を買うために貯金をしている。",
+          "vi": "Tôi để dành tiền để mua nhạc cụ mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 015 — 楽器"
+    },
+    {
+      "id": 2316,
+      "surface": "首相",
+      "hiragana": "しゅしょう",
+      "kanji": "首相",
+      "meaning_vi": "thủ tướng",
+      "examples": [
+        {
+          "jp": "今の首相は国民からあまり支持されていない。",
+          "vi": "Thủ tướng đương nhiệm hiện không nhận được nhiều sự ủng hộ từ phía người dân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 016 — 首相"
+    },
+    {
+      "id": 2317,
+      "surface": "女優",
+      "hiragana": "じょゆう",
+      "kanji": "女優",
+      "meaning_vi": "nữ diễn viên",
+      "examples": [
+        {
+          "jp": "あの女優はウエストが細くてスタイルがいいですね。",
+          "vi": "Nữ diễn viên ấy eo thon mà dáng cũng đẹp nữa nhỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 017 — 女優"
+    },
+    {
+      "id": 2318,
+      "surface": "俳優",
+      "hiragana": "はいゆう",
+      "kanji": "俳優",
+      "meaning_vi": "diễn viên",
+      "examples": [
+        {
+          "jp": "あの俳優は歌手としても活動している。",
+          "vi": "Vị diễn viên đó cũng hoạt động như một ca sĩ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 018 — 俳優"
+    },
+    {
+      "id": 2319,
+      "surface": "画家",
+      "hiragana": "がか",
+      "kanji": "画家",
+      "meaning_vi": "họa sĩ",
+      "examples": [
+        {
+          "jp": "絵の下に題名と画家の名前が書いてある。",
+          "vi": "Dưới bức tranh có ghi tựa đề và tên họa sĩ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 019 — 画家"
+    },
+    {
+      "id": 2320,
+      "surface": "鼻水",
+      "hiragana": "はなみず",
+      "kanji": "鼻水",
+      "meaning_vi": "nước mũi",
+      "examples": [
+        {
+          "jp": "目のかゆみや鼻水は花粉症の症状だ。",
+          "vi": "Ngứa mắt và chảy nước mũi là những triệu chứng của dị ứng phấn hoa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 020 — 鼻水"
+    },
+    {
+      "id": 2321,
+      "surface": "めまい",
+      "hiragana": "めまい",
+      "kanji": null,
+      "meaning_vi": "chóng mặt",
+      "examples": [
+        {
+          "jp": "椅子から立ち上がったとき、めまいがした。",
+          "vi": "Tôi cảm thấy chóng mặt khi đứng dậy khỏi ghế."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 021 — めまい"
+    },
+    {
+      "id": 2322,
+      "surface": "好み",
+      "hiragana": "このみ",
+      "kanji": "好み",
+      "meaning_vi": "ý thích, gu, thị hiếu TỪ VỰNG ❷",
+      "examples": [
+        {
+          "jp": "ラテン音楽は私の好みではない。",
+          "vi": "Nhạc latinh không phải là gu của tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 022 — 好み"
+    },
+    {
+      "id": 2323,
+      "surface": "印象",
+      "hiragana": "いんしょう",
+      "kanji": "印象",
+      "meaning_vi": "ấn tượng",
+      "examples": [
+        {
+          "jp": "彼に対する第一印象はよくなかった。",
+          "vi": "Ấn tượng đầu tiên của tôi về anh ấy không tốt."
+        },
+        {
+          "jp": "あのシーンが印象に残った。",
+          "vi": "Cảnh quay đó đã để lại ấn tượng cho tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 023 — 印象"
+    },
+    {
+      "id": 2324,
+      "surface": "アマチュア",
+      "hiragana": "あまちゅあ",
+      "kanji": null,
+      "meaning_vi": "nghiệp dư",
+      "examples": [
+        {
+          "jp": "アマチュアのスポーツ大会に参加する。",
+          "vi": "Tham gia các giải đấu thể thao nghiệp dư."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 126 | BÀI 3 > TỪ VỰNG > mục 024 — アマチュア"
+    },
+    {
+      "id": 2325,
+      "surface": "コマーシャル",
+      "hiragana": "こまーしゃる",
+      "kanji": null,
+      "meaning_vi": "thương mại, quảng cáo",
+      "examples": [
+        {
+          "jp": "そのコマーシャルは若者の関心を引きつけた。",
+          "vi": "Quảng cáo đó đã thu hút sự quan tâm của giới trẻ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 025 — コマーシャル"
+    },
+    {
+      "id": 2326,
+      "surface": "タイトル",
+      "hiragana": "たいとる",
+      "kanji": null,
+      "meaning_vi": "tựa đề, tiêu đề",
+      "examples": [
+        {
+          "jp": "先週見た映画のタイトルを忘れてしまった。",
+          "vi": "Tôi đã quên tên bộ phim tôi xem tuần trước."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 026 — タイトル"
+    },
+    {
+      "id": 2327,
+      "surface": "メッセージ",
+      "hiragana": "めっせーじ",
+      "kanji": null,
+      "meaning_vi": "tin nhắn, thông điệp",
+      "examples": [
+        {
+          "jp": "友達からＳＮＳでメッセージが届いた。",
+          "vi": "Tôi nhận được tin nhắn từ một người bạn trên SNS."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 027 — メッセージ"
+    },
+    {
+      "id": 2328,
+      "surface": "ヘルメット",
+      "hiragana": "へるめっと",
+      "kanji": null,
+      "meaning_vi": "mũ bảo hiểm",
+      "examples": [
+        {
+          "jp": "バイクに乗る時は、ヘルメットをかぶらなければならない。",
+          "vi": "Khi đi xe máy, phải đội mũ bảo hiểm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 028 — ヘルメット"
+    },
+    {
+      "id": 2329,
+      "surface": "ファイル",
+      "hiragana": "ふぁいる",
+      "kanji": null,
+      "meaning_vi": "tập tin",
+      "examples": [
+        {
+          "jp": "ファイルを間違って削除してしまった。",
+          "vi": "Tôi đã lỡ xóa nhầm file."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 029 — ファイル"
+    },
+    {
+      "id": 2330,
+      "surface": "アルバム",
+      "hiragana": "あるばむ",
+      "kanji": null,
+      "meaning_vi": "album",
+      "examples": [
+        {
+          "jp": "旅行の写真をアルバムにまとめた。",
+          "vi": "Tôi đã tổng hợp ảnh chuyến du lịch vào album."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 030 — アルバム"
+    },
+    {
+      "id": 2331,
+      "surface": "夜中",
+      "hiragana": "よなか",
+      "kanji": "夜中",
+      "meaning_vi": "nửa đêm, ban đêm",
+      "examples": [
+        {
+          "jp": "夜中にゲームをしていて、気づいたら朝になっていた。",
+          "vi": "Tôi mải chơi game suốt đêm, đến khi nhận ra thì trời đã sáng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 031 — 夜中"
+    },
+    {
+      "id": 2332,
+      "surface": "土地",
+      "hiragana": "とち",
+      "kanji": "土地",
+      "meaning_vi": "đất đai",
+      "examples": [
+        {
+          "jp": "彼は新しい土地に引っ越した。",
+          "vi": "Anh ấy vừa chuyển đến một vùng đất mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 032 — 土地"
+    },
+    {
+      "id": 2333,
+      "surface": "観光地",
+      "hiragana": "かんこうち",
+      "kanji": "観光地",
+      "meaning_vi": "địa điểm du lịch",
+      "examples": [
+        {
+          "jp": "ハノイのおすすめの観光地を教えてください。",
+          "vi": "Bạn có thể gợi ý cho mình vài địa điểm du lịch ở Hà Nội không?"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 033 — 観光地"
+    },
+    {
+      "id": 2334,
+      "surface": "免許",
+      "hiragana": "めんきょ",
+      "kanji": "免許",
+      "meaning_vi": "giấy phép, bằng cấp",
+      "examples": [
+        {
+          "jp": "車を運転するには、免許が必要だ。",
+          "vi": "Để lái xe ô tô thì cần có bằng lái."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 034 — 免許"
+    },
+    {
+      "id": 2335,
+      "surface": "不思議",
+      "hiragana": "ふしぎ",
+      "kanji": "不思議",
+      "meaning_vi": "khó hiểu, kỳ lạ",
+      "examples": [
+        {
+          "jp": "このパソコンは古いので、いつ壊れても不思議ではない。",
+          "vi": "Chiếc máy tính này cũ rồi, nên có hỏng lúc nào cũng không có gì lạ."
+        },
+        {
+          "jp": "この教室では、不思議なことが起こる。",
+          "vi": "Những chuyện kỳ lạ xảy ra trong lớp học này."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 035 — 不思議"
+    },
+    {
+      "id": 2336,
+      "surface": "プロフェッショナル",
+      "hiragana": "ぷろふぇっしょなる",
+      "kanji": null,
+      "meaning_vi": "chuyên nghiệp",
+      "examples": [
+        {
+          "jp": "私たちはアマチュアではなく、プロフェッショナルとして 仕事をしています。",
+          "vi": "Chúng tôi làm việc như những người chuyên nghiệp, không phải nghiệp dư."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 127 | BÀI 3 > TỪ VỰNG > mục 036 — プロフェッショナル"
+    },
+    {
+      "id": 2337,
+      "surface": "一流",
+      "hiragana": "いちりゅう",
+      "kanji": "一流",
+      "meaning_vi": "hàng đầu, đẳng cấp",
+      "examples": [
+        {
+          "jp": "一流企業に勤める。",
+          "vi": "Tôi làm việc tại công ty hàng đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 037 — 一流"
+    },
+    {
+      "id": 2338,
+      "surface": "伝統的",
+      "hiragana": "でんとうてき",
+      "kanji": "伝統的",
+      "meaning_vi": "mang tính truyền thống",
+      "examples": [
+        {
+          "jp": "伝統的な文化を後世に残したい。",
+          "vi": "Tôi muốn lưu giữ văn hóa truyền thống cho thế hệ tương lai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 038 — 伝統的"
+    }
+  ]
+}

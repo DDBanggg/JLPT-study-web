@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-021",
+  "type": "daily",
+  "title": "Daily Test — Day 21",
+  "study_day": 21,
+  "coverage": {
+    "from_day": 20,
+    "to_day": 20
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "近所の人が道を教えてくれた（　　　）、開始前に会場へ着けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おかげで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "店員が忘れ物を保管してくれた（　　　）、財布が無事に戻った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "おかげで"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "毎晩ストレッチを続けた（　　　）、肩の痛みが軽くなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "おかげで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "駅にエレベーターができた（　　　）、大きな荷物でも運びやすい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "おかげで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "保存する前にパソコンが止まった（　　　）、書いた文章が消えてしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "靴のサイズが合わなかった（　　　）、旅行中ずっと足が痛かった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "せいで"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "予約の日付を勘違いした（　　　）、診察を受けられなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "せいで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "指にインクが付いている（　　　）、彼がさっき新聞を読んでいたと分かった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "屋根の形が船に似ている（　　　）、その建物は「船の家」と名付けられた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことから"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "複数の証言が一致した（　　　）、警察は彼の説明が正しいと判断した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ことから"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "この島の景色はとても（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "苦しい"
+            },
+            {
+              "id": "B",
+              "text": "決める"
+            },
+            {
+              "id": "C",
+              "text": "美しい"
+            },
+            {
+              "id": "D",
+              "text": "表す"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2001"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "仕事がなくて、生活が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "決める"
+            },
+            {
+              "id": "B",
+              "text": "表す"
+            },
+            {
+              "id": "C",
+              "text": "守る"
+            },
+            {
+              "id": "D",
+              "text": "苦しい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2002"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「残り時間 1 分でゴールを決めた。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "決める"
+            },
+            {
+              "id": "B",
+              "text": "表す"
+            },
+            {
+              "id": "C",
+              "text": "守る"
+            },
+            {
+              "id": "D",
+              "text": "下げる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2003"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「彼女への気持ちを歌で表します。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "守る"
+            },
+            {
+              "id": "B",
+              "text": "表す"
+            },
+            {
+              "id": "C",
+              "text": "下げる"
+            },
+            {
+              "id": "D",
+              "text": "減らす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2004"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "紫外線から肌を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "下げる"
+            },
+            {
+              "id": "B",
+              "text": "減らす"
+            },
+            {
+              "id": "C",
+              "text": "守る"
+            },
+            {
+              "id": "D",
+              "text": "味わう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2005"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「勉強しているので、テレビの音量を下げてください。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "減らす"
+            },
+            {
+              "id": "B",
+              "text": "味わう"
+            },
+            {
+              "id": "C",
+              "text": "違う"
+            },
+            {
+              "id": "D",
+              "text": "下げる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2006"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "無駄な時間を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "減らす"
+            },
+            {
+              "id": "B",
+              "text": "味わう"
+            },
+            {
+              "id": "C",
+              "text": "違う"
+            },
+            {
+              "id": "D",
+              "text": "払う"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2007"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "久しぶりに日本料理を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "違う"
+            },
+            {
+              "id": "B",
+              "text": "味わう"
+            },
+            {
+              "id": "C",
+              "text": "払う"
+            },
+            {
+              "id": "D",
+              "text": "深まる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2008"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "考え方は人によって（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "払う"
+            },
+            {
+              "id": "B",
+              "text": "深まる"
+            },
+            {
+              "id": "C",
+              "text": "違う"
+            },
+            {
+              "id": "D",
+              "text": "集める"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2009"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「コンビニで電気代を払った。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "深まる"
+            },
+            {
+              "id": "B",
+              "text": "集める"
+            },
+            {
+              "id": "C",
+              "text": "高まる"
+            },
+            {
+              "id": "D",
+              "text": "払う"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2010"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "友達とのきずなが（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "深まる"
+            },
+            {
+              "id": "B",
+              "text": "集める"
+            },
+            {
+              "id": "C",
+              "text": "高まる"
+            },
+            {
+              "id": "D",
+              "text": "高める"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2011"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「美しい」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "くるしい"
+            },
+            {
+              "id": "B",
+              "text": "うつくしい"
+            },
+            {
+              "id": "C",
+              "text": "きめる"
+            },
+            {
+              "id": "D",
+              "text": "あらわす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2001"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「苦しい」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うつくしい"
+            },
+            {
+              "id": "B",
+              "text": "きめる"
+            },
+            {
+              "id": "C",
+              "text": "くるしい"
+            },
+            {
+              "id": "D",
+              "text": "あらわす"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2002"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「決める」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うつくしい"
+            },
+            {
+              "id": "B",
+              "text": "くるしい"
+            },
+            {
+              "id": "C",
+              "text": "あらわす"
+            },
+            {
+              "id": "D",
+              "text": "きめる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2003"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「表す」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "あらわす"
+            },
+            {
+              "id": "B",
+              "text": "うつくしい"
+            },
+            {
+              "id": "C",
+              "text": "くるしい"
+            },
+            {
+              "id": "D",
+              "text": "きめる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "学生たちは海岸の清掃「活動」に参加した。「活動」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "せいかつひ"
+            },
+            {
+              "id": "D",
+              "text": "やめる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "新人選手が決勝戦で「活躍」した。「活躍」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "せいかつひ"
+            },
+            {
+              "id": "D",
+              "text": "やめる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "家賃が上がり、毎月の「生活費」が増えた。「生活費」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "せいかつひ"
+            },
+            {
+              "id": "D",
+              "text": "やめる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "留学するため、来月会社を「辞める」ことにした。「辞める」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "せいかつひ"
+            },
+            {
+              "id": "D",
+              "text": "やめる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2002"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "受付の人は客に深く「お辞儀」をした。「お辞儀」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おじぎ"
+            },
+            {
+              "id": "B",
+              "text": "かつどう"
+            },
+            {
+              "id": "C",
+              "text": "かつやく"
+            },
+            {
+              "id": "D",
+              "text": "せいかつひ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2002"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "知らない表現を国語「辞書」で調べた。「辞書」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "じしょ"
+            },
+            {
+              "id": "C",
+              "text": "かつやく"
+            },
+            {
+              "id": "D",
+              "text": "せいかつひ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2002"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "焼きすぎて、このパンはとても「固い」。「固い」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "かたい"
+            },
+            {
+              "id": "D",
+              "text": "せいかつひ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2003"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "冷蔵庫に入れるとゼリーが「固まる」。「固まる」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつやく"
+            },
+            {
+              "id": "C",
+              "text": "せいかつひ"
+            },
+            {
+              "id": "D",
+              "text": "かたまる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2003"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。チームではなく（こじん）の成績も発表された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活動"
+            },
+            {
+              "id": "B",
+              "text": "活躍"
+            },
+            {
+              "id": "C",
+              "text": "個人"
+            },
+            {
+              "id": "D",
+              "text": "生活費"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2004"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。階段を走って上ったので、息が（くるしい）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活動"
+            },
+            {
+              "id": "B",
+              "text": "活躍"
+            },
+            {
+              "id": "C",
+              "text": "生活費"
+            },
+            {
+              "id": "D",
+              "text": "苦しい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2005"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。祖父は若いころ仕事を探すのに（くろう）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "苦労"
+            },
+            {
+              "id": "B",
+              "text": "活動"
+            },
+            {
+              "id": "C",
+              "text": "活躍"
+            },
+            {
+              "id": "D",
+              "text": "生活費"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2005"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。空いている（てきとう）な席に座ってください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活動"
+            },
+            {
+              "id": "B",
+              "text": "適当"
+            },
+            {
+              "id": "C",
+              "text": "活躍"
+            },
+            {
+              "id": "D",
+              "text": "生活費"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2006"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。地域をきれいにする（かつどう）に参加した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活躍"
+            },
+            {
+              "id": "B",
+              "text": "生活費"
+            },
+            {
+              "id": "C",
+              "text": "活動"
+            },
+            {
+              "id": "D",
+              "text": "辞める"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。姉は海外でも研究者として（かつやく）している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活動"
+            },
+            {
+              "id": "B",
+              "text": "生活費"
+            },
+            {
+              "id": "C",
+              "text": "辞める"
+            },
+            {
+              "id": "D",
+              "text": "活躍"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。アルバイトの収入を毎月の（せいかつひ）にしている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "生活費"
+            },
+            {
+              "id": "B",
+              "text": "活動"
+            },
+            {
+              "id": "C",
+              "text": "活躍"
+            },
+            {
+              "id": "D",
+              "text": "辞める"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        }
+      ]
+    }
+  ]
+}

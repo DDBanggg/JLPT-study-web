@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-021",
+  "study_day": 21,
+  "target": 50,
+  "pool_size": 37,
+  "items": [
+    {
+      "id": 2101,
+      "surface": "意志",
+      "hiragana": "いし",
+      "kanji": "意志",
+      "meaning_vi": "ý chí, quyết tâm",
+      "examples": [
+        {
+          "jp": "彼の意志は固いから変わらないだろう。",
+          "vi": "Ý chí của anh ta rất vững nên chắc sẽ không thay đổi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 001 — 意志"
+    },
+    {
+      "id": 2102,
+      "surface": "知識",
+      "hiragana": "ちしき",
+      "kanji": "知識",
+      "meaning_vi": "tri thức, kiến thức",
+      "examples": [
+        {
+          "jp": "勉強して、知識を身に付ける。",
+          "vi": "Học tập và trang bị kiến thức."
+        },
+        {
+          "jp": "母は知識が豊富で、何でも知っている。",
+          "vi": "Mẹ tôi có kiến thức phong phú, cái gì cũng biết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 002 — 知識"
+    },
+    {
+      "id": 2103,
+      "surface": "就職活動",
+      "hiragana": "しゅうしょくかつどう",
+      "kanji": "就職活動",
+      "meaning_vi": "hoạt động tìm việc",
+      "examples": [
+        {
+          "jp": "来年卒業するので、就職活動を始めました。",
+          "vi": "Năm sau tôi sẽ tốt nghiệp, nên tôi đã bắt đầu hoạt động tìm việc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 003 — 就職活動"
+    },
+    {
+      "id": 2104,
+      "surface": "産業",
+      "hiragana": "さんぎょう",
+      "kanji": "産業",
+      "meaning_vi": "ngành công nghiệp",
+      "examples": [
+        {
+          "jp": "日本は自動車産業が盛んだ。",
+          "vi": "Ngành công nghiệp ô tô ở Nhật Bản rất phát triển."
+        },
+        {
+          "jp": "ベトナムは観光産業に力を入れている。",
+          "vi": "Việt Nam đang chú trọng phát triển ngành du lịch."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 004 — 産業"
+    },
+    {
+      "id": 2105,
+      "surface": "気候",
+      "hiragana": "きこう",
+      "kanji": "気候",
+      "meaning_vi": "khí hậu",
+      "examples": [
+        {
+          "jp": "日本の気候は四季がはっきりしている。",
+          "vi": "Khí hậu Nhật Bản có bốn mùa rõ rệt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 005 — 気候"
+    },
+    {
+      "id": 2106,
+      "surface": "責任",
+      "hiragana": "せきにん",
+      "kanji": "責任",
+      "meaning_vi": "trách nhiệm",
+      "examples": [
+        {
+          "jp": "この学校の責任者は私です。",
+          "vi": "Tôi là người chịu trách nhiệm của trường này."
+        },
+        {
+          "jp": "ミスの責任を取って、会社を辞めることになった。",
+          "vi": "Tôi nhận trách nhiệm cho sai sót nên đã nghỉ việc ở công ty."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 006 — 責任"
+    },
+    {
+      "id": 2107,
+      "surface": "条件",
+      "hiragana": "じょうけん",
+      "kanji": "条件",
+      "meaning_vi": "điều kiện, điều khoản",
+      "examples": [
+        {
+          "jp": "条件がいい会社を選ぶ。",
+          "vi": "Lựa chọn công ty có những điều kiện tốt."
+        },
+        {
+          "jp": "条件が厳しくて、契約を諦めた。",
+          "vi": "Vì điều kiện quá khắt khe nên tôi đã từ bỏ hợp đồng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 007 — 条件"
+    },
+    {
+      "id": 2108,
+      "surface": "勇気",
+      "hiragana": "ゆうき",
+      "kanji": "勇気",
+      "meaning_vi": "dũng khí, can đảm",
+      "examples": [
+        {
+          "jp": "彼は勇気ある青年だ。",
+          "vi": "Cậu ấy là một thanh niên dũng cảm."
+        },
+        {
+          "jp": "母に元気づけられ、勇気が出た。",
+          "vi": "Được mẹ cổ vũ, tôi trở nên can đảm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 008 — 勇気"
+    },
+    {
+      "id": 2109,
+      "surface": "従兄弟",
+      "hiragana": "いとこ",
+      "kanji": "従兄弟",
+      "meaning_vi": "anh em họ",
+      "examples": [
+        {
+          "jp": "夏休みに、いとこたちとプールに行きました。",
+          "vi": "Vào kỳ nghỉ hè, tôi đã đi bơi cùng các anh/chị/em họ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 009 — 従兄弟"
+    },
+    {
+      "id": 2110,
+      "surface": "長女",
+      "hiragana": "ちょうじょ",
+      "kanji": "長女",
+      "meaning_vi": "trưởng nữ, con gái cả",
+      "examples": [
+        {
+          "jp": "彼女は三人姉妹の長女です。",
+          "vi": "Cô ấy là con gái cả trong ba chị em."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 010 — 長女"
+    },
+    {
+      "id": 2111,
+      "surface": "長男",
+      "hiragana": "ちょうなん",
+      "kanji": "長男",
+      "meaning_vi": "trưởng nam, con trai cả",
+      "examples": [
+        {
+          "jp": "長男が親の財産の大半を受け取った。",
+          "vi": "Con trai cả nhận phần lớn tài sản của cha mẹ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 105 | BÀI 2 > TỪ VỰNG > mục 011 — 長男"
+    },
+    {
+      "id": 2112,
+      "surface": "夫妻",
+      "hiragana": "ふさい",
+      "kanji": "夫妻",
+      "meaning_vi": "vợ chồng",
+      "examples": [
+        {
+          "jp": "兄夫妻は毎日運動をして、健康的な生活を送っています。",
+          "vi": "Vợ chồng anh trai tôi tập thể dục mỗi ngày và đang sống một cuộc sống lành mạnh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 012 — 夫妻"
+    },
+    {
+      "id": 2113,
+      "surface": "双子",
+      "hiragana": "ふたご",
+      "kanji": "双子",
+      "meaning_vi": "song sinh, sinh đôi",
+      "examples": [
+        {
+          "jp": "双子は見分けがつかない。",
+          "vi": "Khó phân biệt được cặp song sinh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 013 — 双子"
+    },
+    {
+      "id": 2114,
+      "surface": "孫",
+      "hiragana": "まご",
+      "kanji": "孫",
+      "meaning_vi": "cháu",
+      "examples": [
+        {
+          "jp": "祖父母というものは孫と遊ぶのが大好きです。",
+          "vi": "Ông bà thường rất thích chơi với các cháu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 014 — 孫"
+    },
+    {
+      "id": 2115,
+      "surface": "姪",
+      "hiragana": "めい",
+      "kanji": "姪",
+      "meaning_vi": "cháu gái",
+      "examples": [
+        {
+          "jp": "姪はまだ小学生です。",
+          "vi": "Cháu gái tôi vẫn là học sinh tiểu học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 015 — 姪"
+    },
+    {
+      "id": 2116,
+      "surface": "直前",
+      "hiragana": "ちょくぜん",
+      "kanji": "直前",
+      "meaning_vi": "ngay trước khi",
+      "examples": [
+        {
+          "jp": "結婚式の直前にお腹が痛くなった。",
+          "vi": "Ngay trước khi đám cưới bắt đầu thì tôi bị đau bụng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 016 — 直前"
+    },
+    {
+      "id": 2117,
+      "surface": "直後",
+      "hiragana": "ちょくご",
+      "kanji": "直後",
+      "meaning_vi": "ngay sau khi",
+      "examples": [
+        {
+          "jp": "手術直後はあまり動かないほうがいい。",
+          "vi": "Ngay sau khi phẫu thuật, tốt nhất là không nên vận động quá nhiều."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 017 — 直後"
+    },
+    {
+      "id": 2118,
+      "surface": "価値",
+      "hiragana": "かち",
+      "kanji": "価値",
+      "meaning_vi": "giá trị",
+      "examples": [
+        {
+          "jp": "この宝石には 1 億円の価値がある。",
+          "vi": "Viên đá quý này có giá trị lên tới 100 triệu yên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 018 — 価値"
+    },
+    {
+      "id": 2119,
+      "surface": "年末",
+      "hiragana": "ねんまつ",
+      "kanji": "年末",
+      "meaning_vi": "cuối năm",
+      "examples": [
+        {
+          "jp": "うちの会社は、年末になると必ず忘年会をやる。",
+          "vi": "Công ty tôi cuối năm nào cũng tổ chức tiệc tất niên."
+        },
+        {
+          "jp": "年末は、お正月の準備でみんな忙しい。",
+          "vi": "Cuối năm, mọi người đều bận rộn với việc chuẩn bị Tết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 019 — 年末"
+    },
+    {
+      "id": 2120,
+      "surface": "相手",
+      "hiragana": "あいて",
+      "kanji": "相手",
+      "meaning_vi": "đối phương, đối tượng",
+      "examples": [
+        {
+          "jp": "彼は、私の話相手になってくれるので助かる。",
+          "vi": "Thật may vì có anh ấy là người nói chuyện cùng."
+        },
+        {
+          "jp": "結婚相手は、優しくてお金持ちの人がいい。",
+          "vi": "Đối tượng kết hôn là người tốt bụng và nhiều tiền thì tốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 020 — 相手"
+    },
+    {
+      "id": 2121,
+      "surface": "成績",
+      "hiragana": "せいせき",
+      "kanji": "成績",
+      "meaning_vi": "thành tích ; kết quả học tập",
+      "examples": [
+        {
+          "jp": "中学生のころはクラスで成績が一番だった。",
+          "vi": "Hồi cấp hai, tôi là học sinh có thành tích học tập tốt nhất lớp."
+        },
+        {
+          "jp": "マラソンの大会でいい成績を残すことができた。",
+          "vi": "Tôi đã đạt thành tích tốt trong cuộc thi marathon."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 021 — 成績"
+    },
+    {
+      "id": 2122,
+      "surface": "食器",
+      "hiragana": "しょっき",
+      "kanji": "食器",
+      "meaning_vi": "bát đũa, dụng cụ ăn uống",
+      "examples": [
+        {
+          "jp": "食器を洗うのを手伝ってくれない？",
+          "vi": "Con giúp mẹ rửa bát nhé?"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 022 — 食器"
+    },
+    {
+      "id": 2123,
+      "surface": "収入",
+      "hiragana": "しゅうにゅう",
+      "kanji": "収入",
+      "meaning_vi": "thu nhập",
+      "examples": [
+        {
+          "jp": "収入に見合う生活をする。",
+          "vi": "Sống phù hợp với mức thu nhập của mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 106 | BÀI 2 > TỪ VỰNG > mục 023 — 収入"
+    },
+    {
+      "id": 2124,
+      "surface": "看護師",
+      "hiragana": "かんごし",
+      "kanji": "看護師",
+      "meaning_vi": "điều dưỡng",
+      "examples": [
+        {
+          "jp": "入院中、看護師が親切にしてくれた。",
+          "vi": "Trong thời gian nhập viện, các điều dưỡng viên đã rất ân cần với tôi."
+        },
+        {
+          "jp": "将来の夢は看護師です。",
+          "vi": "Ước mơ trong tương lai của tôi là trở thành điều dưỡng viên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 024 — 看護師"
+    },
+    {
+      "id": 2125,
+      "surface": "直接",
+      "hiragana": "ちょくせつ",
+      "kanji": "直接",
+      "meaning_vi": "trực tiếp",
+      "examples": [
+        {
+          "jp": "直接見て、商品を購入する。",
+          "vi": "Xem trực tiếp rồi mua sản phẩm."
+        },
+        {
+          "jp": "友達と待ち合わせをせずに、直接学校に向かう。",
+          "vi": "Đến thẳng trường luôn mà không đợi bạn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 025 — 直接"
+    },
+    {
+      "id": 2126,
+      "surface": "当然",
+      "hiragana": "とうぜん",
+      "kanji": "当然",
+      "meaning_vi": "đương nhiên",
+      "examples": [
+        {
+          "jp": "借りた物を返すのは当然だ。",
+          "vi": "Trả lại đồ đã mượn là điều đương nhiên."
+        },
+        {
+          "jp": "勉強しなかったので、テストの点数が悪いのは当然の結果だ。",
+          "vi": "Bởi vì không học nên điểm số không tốt là kết quả đương nhiên rồi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 026 — 当然"
+    },
+    {
+      "id": 2127,
+      "surface": "意外",
+      "hiragana": "いがい",
+      "kanji": "意外",
+      "meaning_vi": "ngoài dự kiến, bất ngờ",
+      "examples": [
+        {
+          "jp": "弱いほうのチームが勝つという意外な結果になった。",
+          "vi": "Việc đội yếu hơn chiến thắng chiến thắng là một kết quả ngoài dự tính."
+        },
+        {
+          "jp": "初めて納豆を食べてみたら、意外においしかった。",
+          "vi": "Khi lần đầu ăn thử natto, tôi thấy nó ngon hơn mình tưởng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな/PT"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 027 — 意外"
+    },
+    {
+      "id": 2128,
+      "surface": "正直",
+      "hiragana": "しょうじき",
+      "kanji": "正直",
+      "meaning_vi": "thành thật, trung thực",
+      "examples": [
+        {
+          "jp": "怒らないから、正直に言いなさい。",
+          "vi": "Mẹ sẽ không nổi giận đâu nên hãy nói thật đi."
+        },
+        {
+          "jp": "マイさんは正直だから、嘘はつかないよ。",
+          "vi": "Mai là người thật thà, nên sẽ không nói dối đâu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな/PT"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 028 — 正直"
+    },
+    {
+      "id": 2129,
+      "surface": "素直",
+      "hiragana": "すなお",
+      "kanji": "素直",
+      "meaning_vi": "ngoan ngoãn, thẳng thắn",
+      "examples": [
+        {
+          "jp": "妹は素直な性格で、あまり文句を言わない。",
+          "vi": "Em gái tôi có tính cách ngoan ngoãn, ít khi than phiền."
+        },
+        {
+          "jp": "自分の間違いを素直に認めるのは難しい。",
+          "vi": "Thừa nhận sai lầm của bản thân một cách thẳng thắn là điều không dễ dàng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 029 — 素直"
+    },
+    {
+      "id": 2130,
+      "surface": "得意",
+      "hiragana": "とくい",
+      "kanji": "得意",
+      "meaning_vi": "giỏi, tự tin",
+      "examples": [
+        {
+          "jp": "私はバドミントンが得意です。",
+          "vi": "Tôi giỏi cầu lông."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 030 — 得意"
+    },
+    {
+      "id": 2131,
+      "surface": "間接的",
+      "hiragana": "かんせつてき",
+      "kanji": "間接的",
+      "meaning_vi": "một cách gián tiếp",
+      "examples": [
+        {
+          "jp": "課長はいつも間接的な言い方ばかりで、直接的な言い方はしない。",
+          "vi": "Trưởng phòng toàn nói vòng vo, chẳng bao giờ nói thẳng cả."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 031 — 間接的"
+    },
+    {
+      "id": 2132,
+      "surface": "眠たい",
+      "hiragana": "ねむたい",
+      "kanji": "眠たい",
+      "meaning_vi": "buồn ngủ",
+      "examples": [
+        {
+          "jp": "昨夜遅くまで起きていたので、今、とても眠たいです。",
+          "vi": "Vì đêm qua thức khuya, bây giờ tôi rất buồn ngủ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 032 — 眠たい"
+    },
+    {
+      "id": 2133,
+      "surface": "怖い",
+      "hiragana": "こわい",
+      "kanji": "怖い",
+      "meaning_vi": "sợ, đáng sợ",
+      "examples": [
+        {
+          "jp": "スマホを見ながら歩いていたら、怖い人にぶつかった。",
+          "vi": "Đang vừa đi vừa nhìn điện thoại thì tôi va phải một người trông rất đáng sợ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 107 | BÀI 2 > TỪ VỰNG > mục 033 — 怖い"
+    },
+    {
+      "id": 2134,
+      "surface": "受け入れる",
+      "hiragana": "うけいれる",
+      "kanji": "受け入れる",
+      "meaning_vi": "chấp nhận, tiếp nhận",
+      "examples": [
+        {
+          "jp": "私の大学は、毎年留学生を受け入れている。",
+          "vi": "Trường đại học của tôi năm nào cũng tiếp nhận du học sinh."
+        },
+        {
+          "jp": "鈴木さんの提案を受け入れることにした。",
+          "vi": "Tôi đã quyết định chấp nhận đề xuất của anh Suzuki."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 108 | BÀI 2 > TỪ VỰNG > mục 034 — 受け入れる"
+    },
+    {
+      "id": 2135,
+      "surface": "失う",
+      "hiragana": "うしなう",
+      "kanji": "失う",
+      "meaning_vi": "mất, đánh mất",
+      "examples": [
+        {
+          "jp": "約束を守らないと、信用を失ってしまう",
+          "vi": "Tôi đã đánh mất sự tin tưởng từ anh ấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 108 | BÀI 2 > TỪ VỰNG > mục 035 — 失う"
+    },
+    {
+      "id": 2136,
+      "surface": "悩む",
+      "hiragana": "なやむ",
+      "kanji": "悩む",
+      "meaning_vi": "lo lắng, phiền não",
+      "examples": [
+        {
+          "jp": "人生について悩んでいる。",
+          "vi": "Tôi trăn trở về cuộc đời của mình."
+        },
+        {
+          "jp": "母は最近、頭痛に悩んでいる。",
+          "vi": "Dạo gần đây mẹ tôi khổ sở vì chứng đau đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 108 | BÀI 2 > TỪ VỰNG > mục 036 — 悩む"
+    },
+    {
+      "id": 2137,
+      "surface": "打つ",
+      "hiragana": "うつ",
+      "kanji": "打つ",
+      "meaning_vi": "đánh, đập, gõ, tiêm",
+      "examples": [
+        {
+          "jp": "転んで頭を強く打った。",
+          "vi": "Tôi bị ngã và đập đầu rất mạnh."
+        },
+        {
+          "jp": "病気の予防のために、赤ちゃんは 1 か月に何本も注射打つらしい。",
+          "vi": "Nghe nói để phòng bệnh, em bé phải tiêm rất nhiều mũi trong 1 tháng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 108 | BÀI 2 > TỪ VỰNG > mục 037 — 打つ"
+    }
+  ]
+}

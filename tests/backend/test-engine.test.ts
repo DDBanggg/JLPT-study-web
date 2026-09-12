@@ -187,6 +187,28 @@ describe("shared Test Engine", () => {
     });
   });
 
+  it("loads and scores the Chapter 2 Weekly Test", async () => {
+    const roadmap = await loadProgramRoadmap();
+    if (roadmap.state !== "available") throw new Error("Roadmap missing");
+    const location = findTestLocation(roadmap.data, "weekly-02");
+    if (!location) throw new Error("Chapter 2 Weekly Test missing from roadmap");
+    const loaded = await loadTestContent(location);
+    if (loaded.state !== "available") throw new Error("Chapter 2 Weekly content missing");
+
+    expect(loaded.data.coverage).toEqual({ from_day: 19, to_day: 24 });
+    expect(loaded.data.sections.map(({ id, questions }) => [id, questions.length])).toEqual([
+      ["language", 30],
+      ["reading", 12],
+    ]);
+    expect(scoreTest(loaded.data, correctAnswers(loaded.data)).result).toMatchObject({
+      test_type: "weekly",
+      language_score: 60,
+      reading_score: 60,
+      listening_score: null,
+      total_score: 120,
+    });
+  });
+
   it("keeps Monthly/End/Mock scoring on three sections and /180", () => {
     const sections = ["language", "reading", "listening"].map((id) => ({
       id,

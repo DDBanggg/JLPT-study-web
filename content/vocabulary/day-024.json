@@ -1,0 +1,739 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-024",
+  "study_day": 24,
+  "target": 50,
+  "pool_size": 38,
+  "items": [
+    {
+      "id": 2401,
+      "surface": "険しい",
+      "hiragana": "けわしい",
+      "kanji": "険しい",
+      "meaning_vi": "dốc, hiểm trở ; nghiêm nghị, dữ tợn",
+      "examples": [
+        {
+          "jp": "険しい山道を歩く。",
+          "vi": "Tôi đi bộ trên con đường núi dốc và hiểm trở."
+        },
+        {
+          "jp": "部長は腕を組んで険しい表情をしている。",
+          "vi": "Sếp đang khoanh tay, nét mặt trông có vẻ gay gắt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 039 — 険しい"
+    },
+    {
+      "id": 2402,
+      "surface": "申し訳ない",
+      "hiragana": "もうしわけない",
+      "kanji": "申し訳ない",
+      "meaning_vi": "xin lỗi, thật áy náy",
+      "examples": [
+        {
+          "jp": "彼に対して申し訳ないことをした。",
+          "vi": "Tôi đã làm chuyện có lỗi với anh ấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 040 — 申し訳ない"
+    },
+    {
+      "id": 2403,
+      "surface": "伝わる",
+      "hiragana": "つたわる",
+      "kanji": "伝わる",
+      "meaning_vi": "được truyền đi, lan truyền",
+      "examples": [
+        {
+          "jp": "明治時代に、日本に欧米の文化が伝わった。",
+          "vi": "Vào thời kỳ Minh Trị, văn hóa Âu Mỹ đã được truyền bá vào Nhật Bản."
+        },
+        {
+          "jp": "この素材は熱ねつ  がよく伝わる。",
+          "vi": "Vật liệu này dẫn nhiệt tốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 041 — 伝わる"
+    },
+    {
+      "id": 2404,
+      "surface": "似合う",
+      "hiragana": "にあう",
+      "kanji": "似合う",
+      "meaning_vi": "hợp",
+      "examples": [
+        {
+          "jp": "彼女は赤い服がよく似合う。",
+          "vi": "Cô ấy hợp với quần áo màu đỏ."
+        },
+        {
+          "jp": "私の祖父は、年に似合わず元気だ。",
+          "vi": "Ông tôi khỏe mạnh hơn so với tuổi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 042 — 似合う"
+    },
+    {
+      "id": 2405,
+      "surface": "信じる",
+      "hiragana": "しんじる",
+      "kanji": "信じる",
+      "meaning_vi": "tin tưởng",
+      "examples": [
+        {
+          "jp": "彼の話を信じる。",
+          "vi": "Tôi tin vào câu chuyện của anh ấy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 043 — 信じる"
+    },
+    {
+      "id": 2406,
+      "surface": "訳す",
+      "hiragana": "やくす",
+      "kanji": "訳す",
+      "meaning_vi": "dịch, phiên dịch",
+      "examples": [
+        {
+          "jp": "英語をベトナム語に訳すのは難しい時もある。",
+          "vi": "Đôi khi dịch tiếng Anh sang tiếng Việt cũng khó."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 044 — 訳す"
+    },
+    {
+      "id": 2407,
+      "surface": "許す",
+      "hiragana": "ゆるす",
+      "kanji": "許す",
+      "meaning_vi": "cho phép ; tha thứ",
+      "examples": [
+        {
+          "jp": "あなたのことは絶対に許さない。",
+          "vi": "Tôi tuyệt đối không tha thứ cho bạn."
+        },
+        {
+          "jp": "娘が遊びに行くのを許した。",
+          "vi": "Cho phép con gái đi chơi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 045 — 許す"
+    },
+    {
+      "id": 2408,
+      "surface": "差す",
+      "hiragana": "さす",
+      "kanji": "差す",
+      "meaning_vi": "giương ; chiếu ; nhỏ",
+      "examples": [
+        {
+          "jp": "傘を差して歩く。",
+          "vi": "Tôi giương ô và đi bộ."
+        },
+        {
+          "jp": "部屋の中に日が差してきた。",
+          "vi": "Mặt trời chiếu vào trong phòng."
+        },
+        {
+          "jp": "目が疲れたので目薬を差す。",
+          "vi": "Mỏi mắt quá nên nhỏ thuốc nhỏ mắt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 046 — 差す"
+    },
+    {
+      "id": 2409,
+      "surface": "治す",
+      "hiragana": "なおす",
+      "kanji": "治す",
+      "meaning_vi": "chữa, trị",
+      "examples": [
+        {
+          "jp": "ゆっくり休んで、病気を治してください。",
+          "vi": "Hãy nghỉ ngơi thật tốt và chữa khỏi bệnh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 128 | BÀI 3 > TỪ VỰNG > mục 047 — 治す"
+    },
+    {
+      "id": 2410,
+      "surface": "飼う",
+      "hiragana": "かう",
+      "kanji": "飼う",
+      "meaning_vi": "nuôi, chăm sóc động vật",
+      "examples": [
+        {
+          "jp": "このマンションではペットを飼うことができる。",
+          "vi": "Ở chung cư này bạn có thể nuôi thú cưng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 048 — 飼う"
+    },
+    {
+      "id": 2411,
+      "surface": "謝る",
+      "hiragana": "あやまる",
+      "kanji": "謝る",
+      "meaning_vi": "xin lỗi",
+      "examples": [
+        {
+          "jp": "日本では謝るときに頭を下げます。",
+          "vi": "Ở Nhật Bản, khi xin lỗi người ta thường cúi đầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 049 — 謝る"
+    },
+    {
+      "id": 2412,
+      "surface": "転ぶ",
+      "hiragana": "ころぶ",
+      "kanji": "転ぶ",
+      "meaning_vi": "ngã, té",
+      "examples": [
+        {
+          "jp": "転んで足を怪我してしまった。",
+          "vi": "Tôi đã ngã và bị thương ở chân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 050 — 転ぶ"
+    },
+    {
+      "id": 2413,
+      "surface": "濡れる",
+      "hiragana": "ぬれる",
+      "kanji": "濡れる",
+      "meaning_vi": "bị ướt TỪ VỰNG ❸",
+      "examples": [
+        {
+          "jp": "雨で服が濡れた。",
+          "vi": "Quần áo bị ướt vì trời mưa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 051 — 濡れる"
+    },
+    {
+      "id": 2414,
+      "surface": "伝言",
+      "hiragana": "でんごん",
+      "kanji": "伝言",
+      "meaning_vi": "lời nhắn, thông điệp, truyền lời",
+      "examples": [
+        {
+          "jp": "不参加の人に伝言をする。",
+          "vi": "Truyền đạt lại cho những người không tham gia."
+        },
+        {
+          "jp": "息子に伝言を残す。",
+          "vi": "Để lại lời nhắn cho con trai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 052 — 伝言"
+    },
+    {
+      "id": 2415,
+      "surface": "自信",
+      "hiragana": "じしん",
+      "kanji": "自信",
+      "meaning_vi": "tự tin",
+      "examples": [
+        {
+          "jp": "運動には自信がある。",
+          "vi": "Tự tin về khả năng vận động."
+        },
+        {
+          "jp": "失敗して、自信を失った。",
+          "vi": "Tôi đánh mất sự tự tin sau thất bại."
+        },
+        {
+          "jp": "練習で成功し、自信がついた。",
+          "vi": "Thành công trong luyện tập đã giúp tôi có được sự tự tin."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 053 — 自信"
+    },
+    {
+      "id": 2416,
+      "surface": "宣伝",
+      "hiragana": "せんでん",
+      "kanji": "宣伝",
+      "meaning_vi": "tuyên truyền, quảng cáo",
+      "examples": [
+        {
+          "jp": "新商品の宣伝をする。",
+          "vi": "Tuyên truyền, quảng bá sản phẩm mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 054 — 宣伝"
+    },
+    {
+      "id": 2417,
+      "surface": "信用",
+      "hiragana": "しんよう",
+      "kanji": "信用",
+      "meaning_vi": "tin tưởng, tín nhiệm",
+      "examples": [
+        {
+          "jp": "友達を信用してお金を貸す。",
+          "vi": "Tôi tin tưởng và cho bạn vay tiền."
+        },
+        {
+          "jp": "調査の結果、この会社は信用できないことがわかった。",
+          "vi": "Kết quả điều tra cho thấy không thể tin tưởng được công ty này."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 055 — 信用"
+    },
+    {
+      "id": 2418,
+      "surface": "受信",
+      "hiragana": "じゅしん",
+      "kanji": "受信",
+      "meaning_vi": "nhận tín hiệu , nhận tin nhắn, email,...",
+      "examples": [
+        {
+          "jp": "携帯電話は無線信号を受信することができる。",
+          "vi": "Điện thoại di động có thể nhận tín hiệu không dây."
+        },
+        {
+          "jp": "メールを受信した。",
+          "vi": "Tôi đã nhận được email."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 056 — 受信"
+    },
+    {
+      "id": 2419,
+      "surface": "送信",
+      "hiragana": "そうしん",
+      "kanji": "送信",
+      "meaning_vi": "gửi tín hiệu, gửi tin nhắn",
+      "examples": [
+        {
+          "jp": "送信エラーが発生して、メールが送れなかった。",
+          "vi": "Tôi gửi tin nhắn qua SNS."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 129 | BÀI 3 > TỪ VỰNG > mục 057 — 送信"
+    },
+    {
+      "id": 2420,
+      "surface": "返信",
+      "hiragana": "へんしん",
+      "kanji": "返信",
+      "meaning_vi": "phản hồi, hồi âm",
+      "examples": [
+        {
+          "jp": "佐藤さんはいつも返信が早い。",
+          "vi": "Anh Satou luôn phản hồi nhanh."
+        },
+        {
+          "jp": "このメールを見たら、すぐに返信してください。",
+          "vi": "Xem được email thì hãy phản hồi ngay nhé."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 058 — 返信"
+    },
+    {
+      "id": 2421,
+      "surface": "許可",
+      "hiragana": "きょか",
+      "kanji": "許可",
+      "meaning_vi": "cấp phép, cho phép",
+      "examples": [
+        {
+          "jp": "息子が高校の寮に入るのを許可した。",
+          "vi": "Tôi đã cho phép con trai vào ký túc xá của trường trung học."
+        },
+        {
+          "jp": "アルバイトをするには親の許可が必要です。",
+          "vi": "Cần có sự cho phép của phụ huynh để được đi làm part-time."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 059 — 許可"
+    },
+    {
+      "id": 2422,
+      "surface": "通訳",
+      "hiragana": "つうやく",
+      "kanji": "通訳",
+      "meaning_vi": "thông dịch, phiên dịch",
+      "examples": [
+        {
+          "jp": "日本語からベトナム語への通訳をする。",
+          "vi": "Phiên dịch từ tiếng Nhật sang tiếng Việt."
+        },
+        {
+          "jp": "将来は、通訳の仕事をしたい。",
+          "vi": "Tương lai tôi muốn làm công việc phiên dịch."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 060 — 通訳"
+    },
+    {
+      "id": 2423,
+      "surface": "翻訳",
+      "hiragana": "ほんやく",
+      "kanji": "翻訳",
+      "meaning_vi": "biên dịch, dịch văn bản",
+      "examples": [
+        {
+          "jp": "ベトナム語の教科書を、英語に翻訳する。",
+          "vi": "Dịch sách giáo khoa tiếng Việt sang tiếng Anh."
+        },
+        {
+          "jp": "翻訳者として働く。",
+          "vi": "Làm việc với tư cách biên dịch."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 061 — 翻訳"
+    },
+    {
+      "id": 2424,
+      "surface": "強調",
+      "hiragana": "きょうちょう",
+      "kanji": "強調",
+      "meaning_vi": "nhấn mạnh, làm nổi bật",
+      "examples": [
+        {
+          "jp": "社長は会議の重要性を強調した。",
+          "vi": "Giám đốc nhấn mạnh tầm quan trọng của cuộc họp."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 062 — 強調"
+    },
+    {
+      "id": 2425,
+      "surface": "調整",
+      "hiragana": "ちょうせい",
+      "kanji": "調整",
+      "meaning_vi": "điều chỉnh, sắp xếp",
+      "examples": [
+        {
+          "jp": "スケジュールの調整に時間がかかる。",
+          "vi": "Mất thời gian điều chỉnh lịch trình."
+        },
+        {
+          "jp": "テレビの位置を調整した。",
+          "vi": "Sắp xếp lại vị trí của ti vi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 063 — 調整"
+    },
+    {
+      "id": 2426,
+      "surface": "選択",
+      "hiragana": "せんたく",
+      "kanji": "選択",
+      "meaning_vi": "lựa chọn",
+      "examples": [
+        {
+          "jp": "テストは選択問題なので、日本語が書けなくても大丈夫だ。",
+          "vi": "Vì bài kiểm tra là dạng trắc nghiệm nên không biết viết tiếng Nhật cũng không sao."
+        },
+        {
+          "jp": "高くても、環境に優しい商品を選択する。",
+          "vi": "Dù đắt, tôi vẫn sẽ lựa chọn sản phẩm thân thiện với môi trường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 064 — 選択"
+    },
+    {
+      "id": 2427,
+      "surface": "発生",
+      "hiragana": "はっせい",
+      "kanji": "発生",
+      "meaning_vi": "phát sinh, xảy ra",
+      "examples": [
+        {
+          "jp": "このカーブで交通事故がよく発生するらしい。",
+          "vi": "Có vẻ như thường xuyên xảy ra tai nạn giao thông ở khúc cua này."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 065 — 発生"
+    },
+    {
+      "id": 2428,
+      "surface": "セット",
+      "hiragana": "せっと",
+      "kanji": null,
+      "meaning_vi": "bộ ; ván ; thiết lập",
+      "examples": [
+        {
+          "jp": "セットメニューにはお飲み物も付いています。",
+          "vi": "Thực đơn có sẵn cũng bao gồm đồ uống."
+        },
+        {
+          "jp": "目覚し時計を７時にセットした。",
+          "vi": "Đã cài đồng hồ báo thức lúc 7 giờ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 130 | BÀI 3 > TỪ VỰNG > mục 066 — セット"
+    },
+    {
+      "id": 2429,
+      "surface": "カット",
+      "hiragana": "かっと",
+      "kanji": null,
+      "meaning_vi": "cắt",
+      "examples": [
+        {
+          "jp": "ケーキを人数分にカットする。",
+          "vi": "Chia bánh kem đủ số lượng người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 067 — カット"
+    },
+    {
+      "id": 2430,
+      "surface": "広告",
+      "hiragana": "こうこく",
+      "kanji": "広告",
+      "meaning_vi": "quảng cáo",
+      "examples": [
+        {
+          "jp": "新しい商品を紹介するための広告を作った。",
+          "vi": "Tôi làm quảng cáo để giới thiệu sản phẩm mới."
+        },
+        {
+          "jp": "新しいスマホの広告がテレビで流れている。",
+          "vi": "Quảng cáo điện thoại mới đang phát trên tivi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 068 — 広告"
+    },
+    {
+      "id": 2431,
+      "surface": "建築",
+      "hiragana": "けんちく",
+      "kanji": "建築",
+      "meaning_vi": "kiến trúc • 。 ; xây dựng",
+      "examples": [
+        {
+          "jp": "この家は木造建築だ。",
+          "vi": "Ngôi nhà là kiến trúc bằng gỗ."
+        },
+        {
+          "jp": "新しいビルを建築する。",
+          "vi": "Xây tòa nhà mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 069 — 建築"
+    },
+    {
+      "id": 2432,
+      "surface": "監督",
+      "hiragana": "かんとく",
+      "kanji": "監督",
+      "meaning_vi": "giám sát, chỉ đạo ; đạo diễn, huấn luyện viên",
+      "examples": [
+        {
+          "jp": "事故がないように、工事現場を監督する。",
+          "vi": "Giám sát trực tiếp tại nhà máy để đảm bảo không có sự cố."
+        },
+        {
+          "jp": "野球チームの監督を務めている。",
+          "vi": "Tôi làm huấn luyện viên đội bóng chày."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 070 — 監督"
+    },
+    {
+      "id": 2433,
+      "surface": "あくび",
+      "hiragana": "あくび",
+      "kanji": null,
+      "meaning_vi": "ngáp",
+      "examples": [
+        {
+          "jp": "授業中にあくびをするのは失礼です。",
+          "vi": "Ngáp trong giờ học là thất lễ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 071 — あくび"
+    },
+    {
+      "id": 2434,
+      "surface": "くしゃみ",
+      "hiragana": "くしゃみ",
+      "kanji": null,
+      "meaning_vi": "sổ mũi, hắt hơi",
+      "examples": [
+        {
+          "jp": "くしゃみが出そうだったので、腕で口を覆った。",
+          "vi": "Vì sắp hắt hơi nên tôi đã dùng cánh tay che miệng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 072 — くしゃみ"
+    },
+    {
+      "id": 2435,
+      "surface": "居眠り",
+      "hiragana": "いねむり",
+      "kanji": "居眠り",
+      "meaning_vi": "ngủ gật",
+      "examples": [
+        {
+          "jp": "事故の原因は居眠り運転だった。",
+          "vi": "Nguyên nhân vụ tai nạn là do lái xe trong tình trạng buồn ngủ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 073 — 居眠り"
+    },
+    {
+      "id": 2436,
+      "surface": "うがい",
+      "hiragana": "うがい",
+      "kanji": null,
+      "meaning_vi": "súc miệng",
+      "examples": [
+        {
+          "jp": "食事の後は、うがいをして口の中をきれいにしましょう。",
+          "vi": "Sau khi ăn, hãy súc miệng để làm sạch miệng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 074 — うがい"
+    },
+    {
+      "id": 2437,
+      "surface": "しゃっくり",
+      "hiragana": "しゃっくり",
+      "kanji": null,
+      "meaning_vi": "nấc cụt",
+      "examples": [
+        {
+          "jp": "しゃっくりが止まらなくて、困っています。",
+          "vi": "Tôi không thể ngừng nấc cụt, thật là phiền phức."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 075 — しゃっくり"
+    },
+    {
+      "id": 2438,
+      "surface": "まだまだ",
+      "hiragana": "まだまだ",
+      "kanji": null,
+      "meaning_vi": "vẫn còn, chưa đâu",
+      "examples": [
+        {
+          "jp": "まだまだ頑張らなければなりません。",
+          "vi": "Còn phải cố gắng nhiều nữa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 131 | BÀI 3 > TỪ VỰNG > mục 076 — まだまだ"
+    }
+  ]
+}

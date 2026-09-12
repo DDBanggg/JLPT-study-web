@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-019",
+  "study_day": 19,
+  "items": [
+    {
+      "id": 1901,
+      "kanji": "干",
+      "han_viet": "CAN",
+      "meaning_vi": "khô; phơi",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "ほ・す",
+        "ひ・る"
+      ],
+      "compounds": [
+        {
+          "word": "干す",
+          "reading": "ほす",
+          "meaning_vi": "phơi, làm khô"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 01 — 干"
+    },
+    {
+      "id": 1902,
+      "kanji": "刊",
+      "han_viet": "SAN",
+      "meaning_vi": "xuất bản",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "週刊誌",
+          "reading": "しゅうかんし",
+          "meaning_vi": "tạp chí hàng tuần"
+        },
+        {
+          "word": "朝刊",
+          "reading": "ちょうかん",
+          "meaning_vi": "báo sáng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 02 — 刊"
+    },
+    {
+      "id": 1903,
+      "kanji": "平",
+      "han_viet": "BÌNH",
+      "meaning_vi": "bằng phẳng; bình thường",
+      "onyomi": [
+        "ヘイ",
+        "ビョウ"
+      ],
+      "kunyomi": [
+        "たい・ら",
+        "ひら"
+      ],
+      "compounds": [
+        {
+          "word": "平均",
+          "reading": "へいきん",
+          "meaning_vi": "bình quân, trung bình"
+        },
+        {
+          "word": "平日",
+          "reading": "へいじつ",
+          "meaning_vi": "ngày thường"
+        },
+        {
+          "word": "平和",
+          "reading": "へいわ",
+          "meaning_vi": "hòa bình"
+        },
+        {
+          "word": "平凡",
+          "reading": "へいぼん",
+          "meaning_vi": "bình thường, tầm thường"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 03 — 平"
+    },
+    {
+      "id": 1904,
+      "kanji": "汗",
+      "han_viet": "HÃN",
+      "meaning_vi": "mồ hôi",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "あせ"
+      ],
+      "compounds": [
+        {
+          "word": "汗",
+          "reading": "あせ",
+          "meaning_vi": "mồ hôi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 04 — 汗"
+    },
+    {
+      "id": 1905,
+      "kanji": "泣",
+      "han_viet": "KHẤP",
+      "meaning_vi": "khóc",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "な・く"
+      ],
+      "compounds": [
+        {
+          "word": "泣く",
+          "reading": "なく",
+          "meaning_vi": "khóc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 05 — 泣"
+    },
+    {
+      "id": 1906,
+      "kanji": "泊",
+      "han_viet": "BẠC",
+      "meaning_vi": "trọ qua đêm",
+      "onyomi": [
+        "ハク"
+      ],
+      "kunyomi": [
+        "と・まる",
+        "と・める"
+      ],
+      "compounds": [
+        {
+          "word": "泊まる",
+          "reading": "とまる",
+          "meaning_vi": "trọ lại, ở lại qua đêm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 06 — 泊"
+    },
+    {
+      "id": 1907,
+      "kanji": "舌",
+      "han_viet": "THIỆT",
+      "meaning_vi": "lưỡi",
+      "onyomi": [
+        "ゼツ"
+      ],
+      "kunyomi": [
+        "した"
+      ],
+      "compounds": [
+        {
+          "word": "舌",
+          "reading": "した",
+          "meaning_vi": "lưỡi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 98–104 | BÀI 1 > CHỮ HÁN > mục 07 — 舌"
+    }
+  ]
+}

@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "id": "weekly-02",
+  "type": "weekly",
+  "title": "Weekly Test — Chapter 2",
+  "study_day": 25,
+  "coverage": {
+    "from_day": 19,
+    "to_day": 24
+  },
+  "stimuli": [
+    {
+      "id": "c02w-rs01",
+      "type": "reading",
+      "title": "Reading Passage 1",
+      "content_jp": "市民センターでは、使わなくなった子供服を集め、必要な家庭に無料で渡す活動を始めた。服を持って来る人は、洗った服を大きさ別の箱に入れる。職員が確認しやすくなることで、受け取る人を待たせる時間が短くなるからだ。最近は、服を渡すだけでなく、子育てについて相談できる場所としても利用されている。"
+    },
+    {
+      "id": "c02w-rs02",
+      "type": "reading",
+      "title": "Reading Passage 2",
+      "content_jp": "会社で新しい連絡アプリを使い始めた。上司は「急ぎでない連絡は午後六時以降に送らないでほしい」と説明した。家に帰ってからも仕事の通知が続くと、十分に休めない人がいるためだ。ただし、事故や機械の故障など、すぐ知らせる必要がある場合はこのルールの対象ではない。"
+    },
+    {
+      "id": "c02w-rs03",
+      "type": "reading",
+      "title": "Reading Passage 3",
+      "content_jp": "駅の近くにできた市場では、形が悪いという理由で店に並ばなかった野菜を安く売っている。味や安全性には問題がない。市場を始めた人は、捨てられる食べ物を減らせるだけでなく、農家の収入を守ることにもつながると考えたそうだ。利用者が増えた今、別の町でも開けるだろうかと計画している。"
+    },
+    {
+      "id": "c02w-rs04",
+      "type": "reading",
+      "title": "Reading Passage 4",
+      "content_jp": "来月の交流会に参加する皆様へ。午前十時に体育館の入口へ集まってください。料理を担当する人は九時半に調理室へ来てください。雨でも交流会は行いますが、午後に予定している公園の見学は中止します。その場合、体育館で地域の歴史を紹介する映画を見ます。どちらになるかは前日の午後五時にメールでお知らせします。"
+    }
+  ],
+  "sections": [
+    {
+      "id": "language",
+      "title": "Language Knowledge",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c02w-lang-q01",
+          "category": "grammar",
+          "prompt": "防災アプリ（　　　）、避難所の場所をすぐ確認できる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に対して"
+            },
+            {
+              "id": "B",
+              "text": "として"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:1901"
+          ]
+        },
+        {
+          "id": "c02w-lang-q02",
+          "category": "grammar",
+          "prompt": "隣の人が毎朝花に水をやってくれた（　　　）、旅行中も花を枯らさずに済んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "おかげで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "c02w-lang-q03",
+          "category": "grammar",
+          "prompt": "この町には古い寺が多く残っている（　　　）、昔から文化の中心だったと考えられている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことから"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "c02w-lang-q04",
+          "category": "grammar",
+          "prompt": "会場が満員で、今から行っても席には座れ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうもない"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "c02w-lang-q05",
+          "category": "grammar",
+          "prompt": "小学生の妹は一人で留守番をするのを（　　　）。両親が出かけると泣いてしまう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怖がっていない"
+            },
+            {
+              "id": "B",
+              "text": "怖がらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "怖がっている"
+            },
+            {
+              "id": "D",
+              "text": "怖がったことがない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "c02w-lang-q06",
+          "category": "grammar",
+          "prompt": "この店は祖父が始め、父も四十年間守り（　　　）きた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始めて"
+            },
+            {
+              "id": "B",
+              "text": "終わって"
+            },
+            {
+              "id": "C",
+              "text": "直して"
+            },
+            {
+              "id": "D",
+              "text": "続けて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2203"
+          ]
+        },
+        {
+          "id": "c02w-lang-q07",
+          "category": "grammar",
+          "prompt": "佐藤さんは選手（　　　）だけでなく、若い選手の指導者としても活躍した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "として"
+            },
+            {
+              "id": "B",
+              "text": "について"
+            },
+            {
+              "id": "C",
+              "text": "によって"
+            },
+            {
+              "id": "D",
+              "text": "に対して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2205"
+          ]
+        },
+        {
+          "id": "c02w-lang-q08",
+          "category": "grammar",
+          "prompt": "安全検査に合格したのだから、この機械を来月から使い始め（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てもしかたがない"
+            },
+            {
+              "id": "B",
+              "text": "てもおかしくない"
+            },
+            {
+              "id": "C",
+              "text": "てはいけない"
+            },
+            {
+              "id": "D",
+              "text": "てほしい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2301"
+          ]
+        },
+        {
+          "id": "c02w-lang-q09",
+          "category": "grammar",
+          "prompt": "離れて暮らしてみて、家族の存在がどれほど大切だった（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものか"
+            },
+            {
+              "id": "B",
+              "text": "ところか"
+            },
+            {
+              "id": "C",
+              "text": "ことか"
+            },
+            {
+              "id": "D",
+              "text": "わけか"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2302"
+          ]
+        },
+        {
+          "id": "c02w-lang-q10",
+          "category": "grammar",
+          "prompt": "古い資料を傷め（　　　）、研究員は手袋をしてページをめくった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "B",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "C",
+              "text": "ているところなので"
+            },
+            {
+              "id": "D",
+              "text": "てはいけないので"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "c02w-lang-q11",
+          "category": "vocabulary",
+          "prompt": "子供は（　　　）が半額です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "汗"
+            },
+            {
+              "id": "B",
+              "text": "週刊誌"
+            },
+            {
+              "id": "C",
+              "text": "料金"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:1916"
+          ]
+        },
+        {
+          "id": "c02w-lang-q12",
+          "category": "vocabulary",
+          "prompt": "文脈に合う言葉を選びなさい。「雨の日が続いて、なかなか洗濯物が外に干せない。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "美しい"
+            },
+            {
+              "id": "B",
+              "text": "苦しい"
+            },
+            {
+              "id": "C",
+              "text": "決める"
+            },
+            {
+              "id": "D",
+              "text": "干す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2016"
+          ]
+        },
+        {
+          "id": "c02w-lang-q13",
+          "category": "vocabulary",
+          "prompt": "結婚式の（　　　）にお腹が痛くなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直前"
+            },
+            {
+              "id": "B",
+              "text": "意志"
+            },
+            {
+              "id": "C",
+              "text": "知識"
+            },
+            {
+              "id": "D",
+              "text": "就職活動"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2116"
+          ]
+        },
+        {
+          "id": "c02w-lang-q14",
+          "category": "vocabulary",
+          "prompt": "千葉県は東京の東に（　　　）している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産む"
+            },
+            {
+              "id": "B",
+              "text": "位置"
+            },
+            {
+              "id": "C",
+              "text": "諦める"
+            },
+            {
+              "id": "D",
+              "text": "嫌がる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2216"
+          ]
+        },
+        {
+          "id": "c02w-lang-q15",
+          "category": "vocabulary",
+          "prompt": "今の（　　　）は国民からあまり支持されていない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "他"
+            },
+            {
+              "id": "B",
+              "text": "他人"
+            },
+            {
+              "id": "C",
+              "text": "首相"
+            },
+            {
+              "id": "D",
+              "text": "手伝い"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2316"
+          ]
+        },
+        {
+          "id": "c02w-lang-q16",
+          "category": "vocabulary",
+          "prompt": "新商品の（　　　）をする。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "険しい"
+            },
+            {
+              "id": "B",
+              "text": "申し訳ない"
+            },
+            {
+              "id": "C",
+              "text": "伝わる"
+            },
+            {
+              "id": "D",
+              "text": "宣伝"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2416"
+          ]
+        },
+        {
+          "id": "c02w-lang-q17",
+          "category": "vocabulary",
+          "prompt": "（　　　）は厳しいので、私に一人暮らしをさせてくれません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "両親"
+            },
+            {
+              "id": "B",
+              "text": "汗"
+            },
+            {
+              "id": "C",
+              "text": "週刊誌"
+            },
+            {
+              "id": "D",
+              "text": "朝刊"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:1917"
+          ]
+        },
+        {
+          "id": "c02w-lang-q18",
+          "category": "vocabulary",
+          "prompt": "文脈に合う言葉を選びなさい。「参加者全員の了承を得て、委員長になった。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "美しい"
+            },
+            {
+              "id": "B",
+              "text": "得る"
+            },
+            {
+              "id": "C",
+              "text": "苦しい"
+            },
+            {
+              "id": "D",
+              "text": "決める"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2017"
+          ]
+        },
+        {
+          "id": "c02w-lang-q19",
+          "category": "vocabulary",
+          "prompt": "手術（　　　）はあまり動かないほうがいい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意志"
+            },
+            {
+              "id": "B",
+              "text": "知識"
+            },
+            {
+              "id": "C",
+              "text": "直後"
+            },
+            {
+              "id": "D",
+              "text": "就職活動"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2117"
+          ]
+        },
+        {
+          "id": "c02w-lang-q20",
+          "category": "vocabulary",
+          "prompt": "全校生徒の（　　　）として、スピーチをする。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "産む"
+            },
+            {
+              "id": "B",
+              "text": "諦める"
+            },
+            {
+              "id": "C",
+              "text": "嫌がる"
+            },
+            {
+              "id": "D",
+              "text": "代表"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2217"
+          ]
+        },
+        {
+          "id": "c02w-lang-q21",
+          "category": "kanji",
+          "prompt": "週末は庭で洗濯物を「干す」。下線部の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひる"
+            },
+            {
+              "id": "B",
+              "text": "かんす"
+            },
+            {
+              "id": "C",
+              "text": "ぼす"
+            },
+            {
+              "id": "D",
+              "text": "ほす"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:1901"
+          ]
+        },
+        {
+          "id": "c02w-lang-q22",
+          "category": "kanji",
+          "prompt": "地域の清掃「活動」に参加した。下線部の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かつどう"
+            },
+            {
+              "id": "B",
+              "text": "かつとう"
+            },
+            {
+              "id": "C",
+              "text": "がつどう"
+            },
+            {
+              "id": "D",
+              "text": "がつとう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        },
+        {
+          "id": "c02w-lang-q23",
+          "category": "kanji",
+          "prompt": "来週、希望する会社の「面接」を受ける。下線部の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "めんぜつ"
+            },
+            {
+              "id": "B",
+              "text": "めんせつ"
+            },
+            {
+              "id": "C",
+              "text": "まんせつ"
+            },
+            {
+              "id": "D",
+              "text": "まんぜつ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2104"
+          ]
+        },
+        {
+          "id": "c02w-lang-q24",
+          "category": "kanji",
+          "prompt": "事故が起きた時の「責任」を明確にする。下線部の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せきじん"
+            },
+            {
+              "id": "B",
+              "text": "せつにん"
+            },
+            {
+              "id": "C",
+              "text": "せきにん"
+            },
+            {
+              "id": "D",
+              "text": "せつじん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2204"
+          ]
+        },
+        {
+          "id": "c02w-lang-q25",
+          "category": "kanji",
+          "prompt": "申込書の内容をもう一度「確認」してください。下線部の読み方はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくじん"
+            },
+            {
+              "id": "B",
+              "text": "がくにん"
+            },
+            {
+              "id": "C",
+              "text": "がくじん"
+            },
+            {
+              "id": "D",
+              "text": "かくにん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2401"
+          ]
+        },
+        {
+          "id": "c02w-lang-q26",
+          "category": "kanji",
+          "prompt": "最近、野菜の「ねだん」が上がっている。（　）に入る漢字の語はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "値段"
+            },
+            {
+              "id": "B",
+              "text": "価値"
+            },
+            {
+              "id": "C",
+              "text": "条件"
+            },
+            {
+              "id": "D",
+              "text": "位置"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2207"
+          ]
+        },
+        {
+          "id": "c02w-lang-q27",
+          "category": "kanji",
+          "prompt": "会議の日程を変えるには全員の「きょか」が必要だ。（　）に入る漢字の語はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "免許"
+            },
+            {
+              "id": "B",
+              "text": "許可"
+            },
+            {
+              "id": "C",
+              "text": "仮定"
+            },
+            {
+              "id": "D",
+              "text": "確認"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2305"
+          ]
+        },
+        {
+          "id": "c02w-lang-q28",
+          "category": "kanji",
+          "prompt": "駅前の「こうさてん」で自転車同士の事故が起きた。（　）に入る漢字の語はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "調査"
+            },
+            {
+              "id": "B",
+              "text": "直接"
+            },
+            {
+              "id": "C",
+              "text": "交差点"
+            },
+            {
+              "id": "D",
+              "text": "信号"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2405"
+          ]
+        },
+        {
+          "id": "c02w-lang-q29",
+          "category": "kanji",
+          "prompt": "姉は国際会議で「つうやく」として働いている。（　）に入る漢字の語はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "翻訳"
+            },
+            {
+              "id": "B",
+              "text": "伝言"
+            },
+            {
+              "id": "C",
+              "text": "送信"
+            },
+            {
+              "id": "D",
+              "text": "通訳"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2306"
+          ]
+        },
+        {
+          "id": "c02w-lang-q30",
+          "category": "kanji",
+          "prompt": "兄は海外でも研究者として「かつやく」している。（　）に入る漢字の語はどれですか。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "活躍"
+            },
+            {
+              "id": "B",
+              "text": "活動"
+            },
+            {
+              "id": "C",
+              "text": "苦労"
+            },
+            {
+              "id": "D",
+              "text": "発展"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c02w-read-q01",
+          "category": "reading",
+          "prompt": "服を持って来る人は何をしますか。",
+          "stimulus_id": "c02w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "職員に服を洗ってもらう"
+            },
+            {
+              "id": "B",
+              "text": "洗った服を大きさ別の箱に入れる"
+            },
+            {
+              "id": "C",
+              "text": "家庭ごとに料金を払う"
+            },
+            {
+              "id": "D",
+              "text": "子供服を新しく買う"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02w-read-q02",
+          "category": "reading",
+          "prompt": "職員が確認しやすくなると、何が変わりますか。",
+          "stimulus_id": "c02w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "服の大きさが変わる"
+            },
+            {
+              "id": "B",
+              "text": "活動が無料ではなくなる"
+            },
+            {
+              "id": "C",
+              "text": "市民センターが閉まる"
+            },
+            {
+              "id": "D",
+              "text": "受け取る人の待ち時間が短くなる"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02w-read-q03",
+          "category": "reading",
+          "prompt": "市民センターは今、どんな場所としても使われていますか。",
+          "stimulus_id": "c02w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "子育てについて相談できる場所"
+            },
+            {
+              "id": "B",
+              "text": "服を作る工場"
+            },
+            {
+              "id": "C",
+              "text": "子供が泊まる場所"
+            },
+            {
+              "id": "D",
+              "text": "職員だけが休む場所"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c02w-read-q04",
+          "category": "reading",
+          "prompt": "上司は、急ぎでない連絡をいつ送らないでほしいと言いましたか。",
+          "stimulus_id": "c02w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "午前六時以前"
+            },
+            {
+              "id": "B",
+              "text": "昼休みだけ"
+            },
+            {
+              "id": "C",
+              "text": "午後六時以降"
+            },
+            {
+              "id": "D",
+              "text": "事故が起きた時"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c02w-read-q05",
+          "category": "reading",
+          "prompt": "新しいルールを作った理由は何ですか。",
+          "stimulus_id": "c02w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "アプリが無料ではないから"
+            },
+            {
+              "id": "B",
+              "text": "帰宅後も通知が続くと休めない人がいるから"
+            },
+            {
+              "id": "C",
+              "text": "上司が連絡を読めないから"
+            },
+            {
+              "id": "D",
+              "text": "機械が毎日故障するから"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02w-read-q06",
+          "category": "reading",
+          "prompt": "ルールの対象にならないのはどんな連絡ですか。",
+          "stimulus_id": "c02w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "午後六時前のすべての連絡"
+            },
+            {
+              "id": "B",
+              "text": "家族からの連絡"
+            },
+            {
+              "id": "C",
+              "text": "急ぎではない仕事の連絡"
+            },
+            {
+              "id": "D",
+              "text": "事故など、すぐ知らせる必要がある連絡"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02w-read-q07",
+          "category": "reading",
+          "prompt": "市場で安く売っている野菜はどんな野菜ですか。",
+          "stimulus_id": "c02w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "形が悪く店に並ばなかった野菜"
+            },
+            {
+              "id": "B",
+              "text": "安全性に問題がある野菜"
+            },
+            {
+              "id": "C",
+              "text": "外国から届いた野菜"
+            },
+            {
+              "id": "D",
+              "text": "味がまったくない野菜"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c02w-read-q08",
+          "category": "reading",
+          "prompt": "市場を始めた人の考えに合うものはどれですか。",
+          "stimulus_id": "c02w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "形のよい野菜だけ売るべきだ"
+            },
+            {
+              "id": "B",
+              "text": "農家の収入とは関係がない"
+            },
+            {
+              "id": "C",
+              "text": "食品廃棄を減らし、農家の収入も守れる"
+            },
+            {
+              "id": "D",
+              "text": "市場は一つの町だけでよい"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c02w-read-q09",
+          "category": "reading",
+          "prompt": "利用者が増えたため、何を計画していますか。",
+          "stimulus_id": "c02w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "野菜を捨てること"
+            },
+            {
+              "id": "B",
+              "text": "別の町でも市場を開くこと"
+            },
+            {
+              "id": "C",
+              "text": "市場をすぐ閉めること"
+            },
+            {
+              "id": "D",
+              "text": "安全性の低い野菜を売ること"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02w-read-q10",
+          "category": "reading",
+          "prompt": "料理を担当する人は何時にどこへ行きますか。",
+          "stimulus_id": "c02w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "十時に公園へ行く"
+            },
+            {
+              "id": "B",
+              "text": "五時に体育館へ行く"
+            },
+            {
+              "id": "C",
+              "text": "九時半に体育館の入口へ行く"
+            },
+            {
+              "id": "D",
+              "text": "九時半に調理室へ行く"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02w-read-q11",
+          "category": "reading",
+          "prompt": "雨が降った場合、午後は何をしますか。",
+          "stimulus_id": "c02w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "体育館で地域の歴史の映画を見る"
+            },
+            {
+              "id": "B",
+              "text": "公園を見学する"
+            },
+            {
+              "id": "C",
+              "text": "料理を中止する"
+            },
+            {
+              "id": "D",
+              "text": "メールを書かない"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c02w-read-q12",
+          "category": "reading",
+          "prompt": "午後の予定はいつ、どのように知らされますか。",
+          "stimulus_id": "c02w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "当日の十時に電話で知らされる"
+            },
+            {
+              "id": "B",
+              "text": "前日の九時半に手紙で知らされる"
+            },
+            {
+              "id": "C",
+              "text": "前日の午後五時にメールで知らされる"
+            },
+            {
+              "id": "D",
+              "text": "交流会の後で映画で知らされる"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    }
+  ]
+}

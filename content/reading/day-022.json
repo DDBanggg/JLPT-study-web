@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-022",
+  "study_day": 22,
+  "items": [
+    {
+      "id": 2201,
+      "title": "引用・名詞化・主文（後半）",
+      "passage_jp": "① このような問題に関心を持つ企業や消費者は、日本でも海外でも増えている。\n② 消費者の意識が変化している今、日本でもきっと受け入れられるだろう。\n③ 高校生の孫が「来週、Eスポーツ大会に出るんだ」と言った。\n④ 聞いてみると、英語の「スポーツ」には、ルールを守りながら勝ったり負けたりすることを楽しむものという意味があるそうだ。\n⑤ 暖色を多く使うのは、ファミリーレストランの経営の工夫の一つなのである。",
+      "translation_vi": "① Những doanh nghiệp và người tiêu dùng quan tâm đến vấn đề như thế này đang tăng lên cả ở Nhật Bản lẫn nước ngoài.\n② Giờ đây khi nhận thức của người tiêu dùng đang thay đổi, chắc hẳn điều đó cũng sẽ được chấp nhận tại Nhật Bản.\n③ Đứa cháu đang học cấp ba nói: “Tuần sau cháu sẽ tham gia giải đấu thể thao điện tử.”\n④ Khi hỏi thử thì được biết từ “sport” trong tiếng Anh có nghĩa là một hoạt động tận hưởng chuyện thắng và thua trong khi tuân thủ luật lệ.\n⑤ Việc sử dụng nhiều màu ấm là một trong những cách nhà hàng gia đình tạo nét riêng trong kinh doanh.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 2 | trang in 14 | 練習2・項目5–9",
+      "questions": [
+        {
+          "id": "c02r-d04-q01",
+          "question_type": "mcq",
+          "question_jp": "Eスポーツ大会に出ると言ったのはだれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "消費者"
+            },
+            {
+              "id": "B",
+              "text": "企業の社員"
+            },
+            {
+              "id": "C",
+              "text": "レストランの客"
+            },
+            {
+              "id": "D",
+              "text": "高校生の孫"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c02r-d04-q02",
+          "question_type": "mcq",
+          "question_jp": "英語の「スポーツ」の意味として述べられているものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "暖色を多く使うもの"
+            },
+            {
+              "id": "B",
+              "text": "ルールを守り、勝敗を楽しむもの"
+            },
+            {
+              "id": "C",
+              "text": "海外だけで行うもの"
+            },
+            {
+              "id": "D",
+              "text": "関心を持つ企業のこと"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c02r-d04-q03",
+          "question_type": "mcq",
+          "question_jp": "ファミリーレストランの工夫は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "大会に出ること"
+            },
+            {
+              "id": "B",
+              "text": "外国語を使うこと"
+            },
+            {
+              "id": "C",
+              "text": "暖色を多く使うこと"
+            },
+            {
+              "id": "D",
+              "text": "消費者を減らすこと"
+            }
+          ],
+          "correct_option_id": "C"
+        }
+      ]
+    }
+  ]
+}

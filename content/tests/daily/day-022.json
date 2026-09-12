@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-022",
+  "type": "daily",
+  "title": "Daily Test — Day 22",
+  "study_day": 22,
+  "coverage": {
+    "from_day": 21,
+    "to_day": 21
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "部品が生産中止になっており、この古いカメラは修理でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうにない"
+            },
+            {
+              "id": "B",
+              "text": "そうだった"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "波が高いため、今日中に船は港を出られ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうもない"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "締め切りまで一時間なので、資料を百ページも翻訳でき（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうにもない"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "曇りが厚く、今夜は星を見られ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうだった"
+            },
+            {
+              "id": "B",
+              "text": "そうになる"
+            },
+            {
+              "id": "C",
+              "text": "そうである"
+            },
+            {
+              "id": "D",
+              "text": "そうにない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "予約が半年先まで埋まっていて、春休みには泊まれ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "そうもない"
+            },
+            {
+              "id": "B",
+              "text": "そうだった"
+            },
+            {
+              "id": "C",
+              "text": "そうになる"
+            },
+            {
+              "id": "D",
+              "text": "そうである"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2101"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "息子は初めて見る大きな犬を（　　　）。私の後ろから出ようとしない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怖がっていない"
+            },
+            {
+              "id": "B",
+              "text": "怖がっている"
+            },
+            {
+              "id": "C",
+              "text": "怖がらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "怖がったことがない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "姉は旅行先で買った皿を（　　　）。同じ店で買えないか私に尋ねた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "欲しがっていない"
+            },
+            {
+              "id": "B",
+              "text": "欲しがらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "欲しがっている"
+            },
+            {
+              "id": "D",
+              "text": "欲しがったことがない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "患者は薬の苦い味を（　　　）。薬を口に入れようとしない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "嫌がっていない"
+            },
+            {
+              "id": "B",
+              "text": "嫌がらなくなった"
+            },
+            {
+              "id": "C",
+              "text": "嫌がったことがない"
+            },
+            {
+              "id": "D",
+              "text": "嫌がっている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "友人は自分だけ旅行に誘われなかったことを（　　　）。昨日から元気がない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "悲しがっている"
+            },
+            {
+              "id": "B",
+              "text": "悲しがっていない"
+            },
+            {
+              "id": "C",
+              "text": "悲しがらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "悲しがったことがない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "生徒たちは来月の工場見学に（　　　）。見学先について次々に質問している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "参加したがっていない"
+            },
+            {
+              "id": "B",
+              "text": "参加したがっている"
+            },
+            {
+              "id": "C",
+              "text": "参加したがらなくなった"
+            },
+            {
+              "id": "D",
+              "text": "参加したがったことがない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "彼の（　　　）は固いから変わらないだろう。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "知識"
+            },
+            {
+              "id": "B",
+              "text": "就職活動"
+            },
+            {
+              "id": "C",
+              "text": "意志"
+            },
+            {
+              "id": "D",
+              "text": "産業"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2101"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "勉強して、（　　　）を身に付ける。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "就職活動"
+            },
+            {
+              "id": "B",
+              "text": "産業"
+            },
+            {
+              "id": "C",
+              "text": "気候"
+            },
+            {
+              "id": "D",
+              "text": "知識"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2102"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "来年卒業するので、（　　　）を始めました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "就職活動"
+            },
+            {
+              "id": "B",
+              "text": "産業"
+            },
+            {
+              "id": "C",
+              "text": "気候"
+            },
+            {
+              "id": "D",
+              "text": "責任"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2103"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "日本は自動車（　　　）が盛んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "気候"
+            },
+            {
+              "id": "B",
+              "text": "産業"
+            },
+            {
+              "id": "C",
+              "text": "責任"
+            },
+            {
+              "id": "D",
+              "text": "条件"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2104"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "日本の（　　　）は四季がはっきりしている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "責任"
+            },
+            {
+              "id": "B",
+              "text": "条件"
+            },
+            {
+              "id": "C",
+              "text": "気候"
+            },
+            {
+              "id": "D",
+              "text": "勇気"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2105"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "この学校の（　　　）者は私です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "条件"
+            },
+            {
+              "id": "B",
+              "text": "勇気"
+            },
+            {
+              "id": "C",
+              "text": "従兄弟"
+            },
+            {
+              "id": "D",
+              "text": "責任"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2106"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "（　　　）がいい会社を選ぶ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "条件"
+            },
+            {
+              "id": "B",
+              "text": "勇気"
+            },
+            {
+              "id": "C",
+              "text": "従兄弟"
+            },
+            {
+              "id": "D",
+              "text": "長女"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2107"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "彼は（　　　）ある青年だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "従兄弟"
+            },
+            {
+              "id": "B",
+              "text": "勇気"
+            },
+            {
+              "id": "C",
+              "text": "長女"
+            },
+            {
+              "id": "D",
+              "text": "長男"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2108"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "次の文の意味に最も合う言葉を選びなさい。「夏休みに、いとこたちとプールに行きました。」",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "長女"
+            },
+            {
+              "id": "B",
+              "text": "長男"
+            },
+            {
+              "id": "C",
+              "text": "従兄弟"
+            },
+            {
+              "id": "D",
+              "text": "夫妻"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2109"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "彼女は三人姉妹の（　　　）です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "長男"
+            },
+            {
+              "id": "B",
+              "text": "夫妻"
+            },
+            {
+              "id": "C",
+              "text": "双子"
+            },
+            {
+              "id": "D",
+              "text": "長女"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2110"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "（　　　）が親の財産の大半を受け取った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "長男"
+            },
+            {
+              "id": "B",
+              "text": "夫妻"
+            },
+            {
+              "id": "C",
+              "text": "双子"
+            },
+            {
+              "id": "D",
+              "text": "孫"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2111"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "「意志」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ちしき"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "しゅうしょくかつどう"
+            },
+            {
+              "id": "D",
+              "text": "さんぎょう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:2101"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "「知識」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いし"
+            },
+            {
+              "id": "B",
+              "text": "しゅうしょくかつどう"
+            },
+            {
+              "id": "C",
+              "text": "ちしき"
+            },
+            {
+              "id": "D",
+              "text": "さんぎょう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:2102"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "「就職活動」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いし"
+            },
+            {
+              "id": "B",
+              "text": "ちしき"
+            },
+            {
+              "id": "C",
+              "text": "さんぎょう"
+            },
+            {
+              "id": "D",
+              "text": "しゅうしょくかつどう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:2103"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "「産業」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さんぎょう"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "ちしき"
+            },
+            {
+              "id": "D",
+              "text": "しゅうしょくかつどう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:2104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "地域の祭りを続ける「意義」について話し合った。「意義」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "いしき"
+            },
+            {
+              "id": "D",
+              "text": "とくい"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2101"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "彼は医師になるという強い「意志」を持っている。「意志」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "いしき"
+            },
+            {
+              "id": "D",
+              "text": "とくい"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2101"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "運転中は安全を「意識」することが大切だ。「意識」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "いしき"
+            },
+            {
+              "id": "D",
+              "text": "とくい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2101"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "妹は料理の中でも魚料理が「得意」だ。「得意」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "いしき"
+            },
+            {
+              "id": "D",
+              "text": "とくい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2101"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "研修で機械の安全に関する「知識」を学んだ。「知識」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ちしき"
+            },
+            {
+              "id": "B",
+              "text": "いしき"
+            },
+            {
+              "id": "C",
+              "text": "じょうしき"
+            },
+            {
+              "id": "D",
+              "text": "しゅうしょく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2102"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "列に割り込まないのは社会の「常識」だ。「常識」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "じょうしき"
+            },
+            {
+              "id": "C",
+              "text": "いし"
+            },
+            {
+              "id": "D",
+              "text": "いしき"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2102"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "面接で希望する「職業」について聞かれた。「職業」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しゅうしょく"
+            },
+            {
+              "id": "B",
+              "text": "たいしょく"
+            },
+            {
+              "id": "C",
+              "text": "しょくぎょう"
+            },
+            {
+              "id": "D",
+              "text": "しょくいん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2103"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "兄は大学卒業後、地元の会社に「就職」した。「就職」の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "いぎ"
+            },
+            {
+              "id": "B",
+              "text": "いし"
+            },
+            {
+              "id": "C",
+              "text": "いしき"
+            },
+            {
+              "id": "D",
+              "text": "しゅうしょく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2103"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。申込書の（しょくぎょう）の欄に「教師」と書いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意義"
+            },
+            {
+              "id": "B",
+              "text": "意志"
+            },
+            {
+              "id": "C",
+              "text": "職業"
+            },
+            {
+              "id": "D",
+              "text": "意識"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2103"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。父は六十五歳で会社を（たいしょく）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意義"
+            },
+            {
+              "id": "B",
+              "text": "意志"
+            },
+            {
+              "id": "C",
+              "text": "意識"
+            },
+            {
+              "id": "D",
+              "text": "退職"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2103"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。大切なことなので、電話ではなく（ちょくせつ）伝えたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "直接"
+            },
+            {
+              "id": "B",
+              "text": "意義"
+            },
+            {
+              "id": "C",
+              "text": "意志"
+            },
+            {
+              "id": "D",
+              "text": "意識"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2104"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。来週、第一希望の会社の（めんせつ）を受ける。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意義"
+            },
+            {
+              "id": "B",
+              "text": "面接"
+            },
+            {
+              "id": "C",
+              "text": "意志"
+            },
+            {
+              "id": "D",
+              "text": "意識"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:2104"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。彼は断る時も（かんせつてき）な言い方をする。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意義"
+            },
+            {
+              "id": "B",
+              "text": "意志"
+            },
+            {
+              "id": "C",
+              "text": "間接的"
+            },
+            {
+              "id": "D",
+              "text": "意識"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:2104"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。台風が通り過ぎた（よくあさ）、庭を片づけた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "意義"
+            },
+            {
+              "id": "B",
+              "text": "意志"
+            },
+            {
+              "id": "C",
+              "text": "意識"
+            },
+            {
+              "id": "D",
+              "text": "翌朝"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:2105"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "文中の（　）に入る漢字の語として最も適切なものを選びなさい。検査の（よくじつ）に病院から結果が届いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "翌日"
+            },
+            {
+              "id": "B",
+              "text": "意義"
+            },
+            {
+              "id": "C",
+              "text": "意志"
+            },
+            {
+              "id": "D",
+              "text": "意識"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:2105"
+          ]
+        }
+      ]
+    }
+  ]
+}

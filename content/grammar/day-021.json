@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-021",
+  "study_day": 21,
+  "items": [
+    {
+      "id": 2101,
+      "structure": "～そうにない / ～そうもない / ～そうにもない",
+      "formation": [
+        "Vます bỏ ます + そうにない / そうもない / そうにもない"
+      ],
+      "meaning_vi": "Có vẻ không thể, khó có khả năng",
+      "usage_vi": "Biểu thị khả năng xảy ra rất thấp hoặc hầu như không có; thường dùng với động từ chỉ khả năng, hoàn thành, chuyển động hay biến đổi.",
+      "examples": [
+        {
+          "jp": "この本は出てくる言葉が難しくて読めそうもない。",
+          "vi": "Từ ngữ trong cuốn sách này khó nên có vẻ không đọc nổi."
+        },
+        {
+          "jp": "しばらく雨が止みそうにないから、家でゆっくりしていよう。",
+          "vi": "Mưa có vẻ chưa tạnh trong một thời gian nên cứ thư thả ở nhà thôi."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 112 | BÀI 2 > NGỮ PHÁP > mục 1 — ～そうにない / ～そうもない / ～そうにもない"
+    },
+    {
+      "id": 2102,
+      "structure": "～がる",
+      "formation": [
+        "Vたい bỏ い + がる",
+        "Aい bỏ い + がる",
+        "Aな + がる"
+      ],
+      "meaning_vi": "Tỏ ra, biểu hiện cảm giác hoặc mong muốn",
+      "usage_vi": "Miêu tả biểu hiện về cảm giác, trạng thái hoặc mong muốn của người khác; thường dùng ở dạng ～がっている.",
+      "examples": [
+        {
+          "jp": "彼女が寒がっていたので、僕のコートを貸してあげた。",
+          "vi": "Vì cô ấy tỏ ra lạnh nên tôi cho cô ấy mượn áo khoác."
+        },
+        {
+          "jp": "私がどこへ行くときも、息子は一緒に行きたがる。",
+          "vi": "Mỗi khi tôi đi đâu, con trai cũng muốn đi cùng."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 2.pdf | trang in 113 | BÀI 2 > NGỮ PHÁP > mục 2 — ～がる"
+    }
+  ]
+}

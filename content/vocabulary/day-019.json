@@ -1,0 +1,724 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-019",
+  "study_day": 19,
+  "target": 50,
+  "pool_size": 39,
+  "items": [
+    {
+      "id": 1901,
+      "surface": "汗",
+      "hiragana": "あせ",
+      "kanji": "汗",
+      "meaning_vi": "mồ hôi",
+      "examples": [
+        {
+          "jp": "汗で服がびしょびしょになった。",
+          "vi": "Quần áo tôi ướt sũng vì mồ hôi."
+        },
+        {
+          "jp": "お風呂で汗を流す。",
+          "vi": "Tôi xả sạch mồ hôi trong bồn tắm."
+        },
+        {
+          "jp": "運動をして、たくさん汗をかいた。",
+          "vi": "Tôi đã tập thể dục và ra rất nhiều mồ hôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 001 — 汗"
+    },
+    {
+      "id": 1902,
+      "surface": "週刊誌",
+      "hiragana": "しゅうかんし",
+      "kanji": "週刊誌",
+      "meaning_vi": "tạp chí hàng tuần",
+      "examples": [
+        {
+          "jp": "週刊誌で、有名な歌手が結婚したことを知った。",
+          "vi": "Tôi đã biết tin một ca sĩ nổi tiếng đã kết hôn qua tạp chí tuần."
+        },
+        {
+          "jp": "姉は毎週、週刊誌を買って読んでいる。",
+          "vi": "Chị tôi mua và đọc tạp chí tuần mỗi tuần."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 002 — 週刊誌"
+    },
+    {
+      "id": 1903,
+      "surface": "朝刊",
+      "hiragana": "ちょうかん",
+      "kanji": "朝刊",
+      "meaning_vi": "báo sáng",
+      "examples": [
+        {
+          "jp": "父は毎朝、コーヒーを飲みながら朝刊を読む。",
+          "vi": "Sáng nào bố tôi cũng vừa uống cà phê vừa đọc báo sáng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 003 — 朝刊"
+    },
+    {
+      "id": 1904,
+      "surface": "辞書",
+      "hiragana": "じしょ",
+      "kanji": "辞書",
+      "meaning_vi": "từ điển",
+      "examples": [
+        {
+          "jp": "辞書を引いて言葉の意味を調べる。",
+          "vi": "Tôi tra từ điển để tìm nghĩa của từ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 004 — 辞書"
+    },
+    {
+      "id": 1905,
+      "surface": "生活費",
+      "hiragana": "せいかつひ",
+      "kanji": "生活費",
+      "meaning_vi": "chi phí sinh hoạt",
+      "examples": [
+        {
+          "jp": "もらったボーナスは、生活費にするつもりだ。",
+          "vi": "Tiền thưởng nhận được tôi dự định sẽ dùng vào chi phí sinh hoạt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 005 — 生活費"
+    },
+    {
+      "id": 1906,
+      "surface": "個人",
+      "hiragana": "こじん",
+      "kanji": "個人",
+      "meaning_vi": "cá nhân, riêng tư",
+      "examples": [
+        {
+          "jp": "チーム競技よりも個人競技のほうが好きだ。",
+          "vi": "Tôi thích môn thể thao cá nhân hơn là môn thể thao đồng đội."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 006 — 個人"
+    },
+    {
+      "id": 1907,
+      "surface": "人間",
+      "hiragana": "にんげん",
+      "kanji": "人間",
+      "meaning_vi": "nhân loại, con người",
+      "examples": [
+        {
+          "jp": "人間は一人では生きていけないと言われている。",
+          "vi": "Người ta nói rằng con người không thể sống đơn độc một mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 007 — 人間"
+    },
+    {
+      "id": 1908,
+      "surface": "馬",
+      "hiragana": "うま",
+      "kanji": "馬",
+      "meaning_vi": "con ngựa",
+      "examples": [
+        {
+          "jp": "この牧場では、馬に乗る体験ができる。",
+          "vi": "Ở nông trại này, bạn có thể trải nghiệm cưỡi ngựa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 008 — 馬"
+    },
+    {
+      "id": 1909,
+      "surface": "体温",
+      "hiragana": "たいおん",
+      "kanji": "体温",
+      "meaning_vi": "nhiệt độ cơ thể",
+      "examples": [
+        {
+          "jp": "体温を上げると、病気になりにくいそうだ。",
+          "vi": "Nghe nói nếu tăng nhiệt độ cơ thể sẽ khó mắc bệnh hơn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 009 — 体温"
+    },
+    {
+      "id": 1910,
+      "surface": "違い",
+      "hiragana": "ちがい",
+      "kanji": "違い",
+      "meaning_vi": "sự khác nhau",
+      "examples": [
+        {
+          "jp": "考え方の違いからけんかになることがある。",
+          "vi": "Đôi khi có thể xảy ra cãi vã vì sự khác biệt trong cách suy nghĩ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 010 — 違い"
+    },
+    {
+      "id": 1911,
+      "surface": "文化",
+      "hiragana": "ぶんか",
+      "kanji": "文化",
+      "meaning_vi": "văn hóa",
+      "examples": [
+        {
+          "jp": "日本人の恋人といると、文化の違いを感じる。",
+          "vi": "Khi ở bên người yêu là người Nhật, tôi cảm nhận được sự khác biệt về văn hóa."
+        },
+        {
+          "jp": "日本のお城が文化遺産として登録されている。",
+          "vi": "Những lâu đài ở Nhật Bản được đăng ký là di sản văn hóa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 83 | BÀI 1 > TỪ VỰNG > mục 011 — 文化"
+    },
+    {
+      "id": 1912,
+      "surface": "考え",
+      "hiragana": "かんがえ",
+      "kanji": "考え",
+      "meaning_vi": "suy nghĩ",
+      "examples": [
+        {
+          "jp": "散歩中によくいい考えが浮かぶ。",
+          "vi": "Những ý tưởng hay nảy ra trong đầu lúc đang đi dạo."
+        },
+        {
+          "jp": "彼女はちゃんと自分の考えを持っている。",
+          "vi": "quan điểm"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 012 — 考え"
+    },
+    {
+      "id": 1913,
+      "surface": "思い",
+      "hiragana": "おもい",
+      "kanji": "思い",
+      "meaning_vi": "cảm xúc, suy nghĩ",
+      "examples": [
+        {
+          "jp": "母に感謝の思いを伝える。",
+          "vi": "Bày tỏ lòng biết ơn tới mẹ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 013 — 思い"
+    },
+    {
+      "id": 1914,
+      "surface": "風景",
+      "hiragana": "ふうけい",
+      "kanji": "風景",
+      "meaning_vi": "phong cảnh, khung cảnh",
+      "examples": [
+        {
+          "jp": "窓から見える風景が好きです。",
+          "vi": "Tôi thích phong cảnh nhìn từ cửa sổ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 014 — 風景"
+    },
+    {
+      "id": 1915,
+      "surface": "年齢",
+      "hiragana": "ねんれい",
+      "kanji": "年齢",
+      "meaning_vi": "tuổi tác",
+      "examples": [
+        {
+          "jp": "この仕事に年齢制限はありません。",
+          "vi": "Công việc này không giới hạn độ tuổi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 015 — 年齢"
+    },
+    {
+      "id": 1916,
+      "surface": "料金",
+      "hiragana": "りょうきん",
+      "kanji": "料金",
+      "meaning_vi": "phí, tiền cước",
+      "examples": [
+        {
+          "jp": "子供は料金が半額です。",
+          "vi": "Trẻ em được giảm một nửa phí."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 016 — 料金"
+    },
+    {
+      "id": 1917,
+      "surface": "両親",
+      "hiragana": "りょうしん",
+      "kanji": "両親",
+      "meaning_vi": "bố mẹ",
+      "examples": [
+        {
+          "jp": "両親は厳しいので、私に一人暮らしをさせてくれません。",
+          "vi": "Vì bố mẹ tôi nghiêm khắc nên họ không cho tôi sống một mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 017 — 両親"
+    },
+    {
+      "id": 1918,
+      "surface": "職業",
+      "hiragana": "しょくぎょう",
+      "kanji": "職業",
+      "meaning_vi": "nghề nghiệp",
+      "examples": [
+        {
+          "jp": "将来、どんな職業に就きたいですか。",
+          "vi": "Trong tương lai, bạn muốn làm nghề gì?"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 018 — 職業"
+    },
+    {
+      "id": 1919,
+      "surface": "大雪",
+      "hiragana": "おおゆき",
+      "kanji": "大雪",
+      "meaning_vi": "tuyết rơi nhiều",
+      "examples": [
+        {
+          "jp": "昨日は大雪で電車が止まりました。",
+          "vi": "Hôm qua tàu bị dừng vì tuyết rơi dày."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 019 — 大雪"
+    },
+    {
+      "id": 1920,
+      "surface": "大雨",
+      "hiragana": "おおあめ",
+      "kanji": "大雨",
+      "meaning_vi": "mưa to",
+      "examples": [
+        {
+          "jp": "天気予報が外れて大雨が降った。",
+          "vi": "Dự báo thời tiết bị sai, trời đã mưa to."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 020 — 大雨"
+    },
+    {
+      "id": 1921,
+      "surface": "環境",
+      "hiragana": "かんきょう",
+      "kanji": "環境",
+      "meaning_vi": "môi trường",
+      "examples": [
+        {
+          "jp": "今の職場の環境はとてもいい。",
+          "vi": "Môi trường làm việc hiện tại rất tốt."
+        },
+        {
+          "jp": "自然環境を保護する。",
+          "vi": "Bảo vệ môi trường tự nhiên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 021 — 環境"
+    },
+    {
+      "id": 1922,
+      "surface": "点数",
+      "hiragana": "てんすう",
+      "kanji": "点数",
+      "meaning_vi": "điểm số",
+      "examples": [
+        {
+          "jp": "テストの点数が悪くて、がっかりした。",
+          "vi": "Tôi thất vọng vì điểm kiểm tra kém."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 022 — 点数"
+    },
+    {
+      "id": 1923,
+      "surface": "香り",
+      "hiragana": "かおり",
+      "kanji": "香り",
+      "meaning_vi": "hương thơm",
+      "examples": [
+        {
+          "jp": "彼女の髪からシャンプーの香りがした。",
+          "vi": "Từ tóc cô ấy tỏa ra mùi thơm của dầu gội."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 84 | BÀI 1 > TỪ VỰNG > mục 023 — 香り"
+    },
+    {
+      "id": 1924,
+      "surface": "身長",
+      "hiragana": "しんちょう",
+      "kanji": "身長",
+      "meaning_vi": "chiều cao",
+      "examples": [
+        {
+          "jp": "去年よりも身長が伸びていた。",
+          "vi": "Chiều cao đã tăng hơn hẳn so với năm ngoái."
+        },
+        {
+          "jp": "病院で、身長と体重を測る。",
+          "vi": "Đo chiều cao, cân nặng ở bệnh viện."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 024 — 身長"
+    },
+    {
+      "id": 1925,
+      "surface": "体重",
+      "hiragana": "たいじゅう",
+      "kanji": "体重",
+      "meaning_vi": "cân nặng",
+      "examples": [
+        {
+          "jp": "食べすぎて体重が増えた。",
+          "vi": "Tôi đã tăng cân vì ăn quá nhiều."
+        },
+        {
+          "jp": "医者に、体重が重いので、運動するように言われた。",
+          "vi": "Bị bác sĩ nhắc nhở là vì nặng cân nên cố gắng vận động."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 025 — 体重"
+    },
+    {
+      "id": 1926,
+      "surface": "舌",
+      "hiragana": "した",
+      "kanji": "舌",
+      "meaning_vi": "lưỡi TỪ VỰNG ❷",
+      "examples": [
+        {
+          "jp": "熱いお茶を飲んで、舌をやけどしてしまった。",
+          "vi": "Tôi uống trà nóng và đã bị bỏng lưỡi."
+        },
+        {
+          "jp": "舌は食べ物の味を感じるところだ。",
+          "vi": "Lưỡi là nơi cảm nhận vị của thức ăn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 026 — 舌"
+    },
+    {
+      "id": 1927,
+      "surface": "胸",
+      "hiragana": "むね",
+      "kanji": "胸",
+      "meaning_vi": "ngực",
+      "examples": [
+        {
+          "jp": "首相はナイフで胸を刺されて死亡した。",
+          "vi": "Thủ tướng bị đâm dao vào ngực rồi qua đời."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 027 — 胸"
+    },
+    {
+      "id": 1928,
+      "surface": "量",
+      "hiragana": "りょう",
+      "kanji": "量",
+      "meaning_vi": "lượng",
+      "examples": [
+        {
+          "jp": "米の生産量が一番多い国は中国だ。",
+          "vi": "Trung Quốc là quốc gia sản xuất gạo lớn nhất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 028 — 量"
+    },
+    {
+      "id": 1929,
+      "surface": "以降",
+      "hiragana": "いこう",
+      "kanji": "以降",
+      "meaning_vi": "sau đó, từ đó trở đi",
+      "examples": [
+        {
+          "jp": "11 月 25 日以降、新しい社屋に入ることができる。",
+          "vi": "Từ sau 25 tháng 11, chúng ta có thể vào tòa nhà văn phòng mới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 029 — 以降"
+    },
+    {
+      "id": 1930,
+      "surface": "以外",
+      "hiragana": "いがい",
+      "kanji": "以外",
+      "meaning_vi": "ngoài ra, ngoại trừ",
+      "examples": [
+        {
+          "jp": "野菜はにんじん以外何でも食べられます。",
+          "vi": "Rau thì loại nào tôi cũng ăn được, trừ cà rốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 030 — 以外"
+    },
+    {
+      "id": 1931,
+      "surface": "マナー",
+      "hiragana": "まなー",
+      "kanji": null,
+      "meaning_vi": "phép lịch sự, cách ứng xử, lễ nghi",
+      "examples": [
+        {
+          "jp": "電車の中では電話しないのが日本のマナーです。",
+          "vi": "Việc không nói chuyện điện thoại trên tàu điện là quy tắc ứng xử của Nhật Bản."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 031 — マナー"
+    },
+    {
+      "id": 1932,
+      "surface": "アンケート",
+      "hiragana": "あんけーと",
+      "kanji": null,
+      "meaning_vi": "bản điều tra, khảo sát",
+      "examples": [
+        {
+          "jp": "アンケートに答えるとポイントがもらえる。",
+          "vi": "Bạn sẽ nhận được điểm bằng cách trả lời bảng khảo sát."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 032 — アンケート"
+    },
+    {
+      "id": 1933,
+      "surface": "メニュー",
+      "hiragana": "めにゅー",
+      "kanji": null,
+      "meaning_vi": "thực đơn",
+      "examples": [
+        {
+          "jp": "アレルギーがあるお客様には特別なメニューをご用意します。",
+          "vi": "Chúng tôi sẽ chuẩn bị thực đơn đặc biệt cho khách hàng bị dị ứng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 033 — メニュー"
+    },
+    {
+      "id": 1934,
+      "surface": "ストレス",
+      "hiragana": "すとれす",
+      "kanji": null,
+      "meaning_vi": "căng thẳng",
+      "examples": [
+        {
+          "jp": "最近、仕事が忙しくてストレスが溜まっている。",
+          "vi": "Gần đây, công việc bận rộn nên tôi bị căng thẳng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 85 | BÀI 1 > TỪ VỰNG > mục 034 — ストレス"
+    },
+    {
+      "id": 1935,
+      "surface": "貧乏",
+      "hiragana": "びんぼう",
+      "kanji": "貧乏",
+      "meaning_vi": "nghèo",
+      "examples": [
+        {
+          "jp": "貧乏な家庭で育ちました。",
+          "vi": "Tôi đã lớn lên trong một gia đình nghèo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 86 | BÀI 1 > TỪ VỰNG > mục 035 — 貧乏"
+    },
+    {
+      "id": 1936,
+      "surface": "不満",
+      "hiragana": "ふまん",
+      "kanji": "不満",
+      "meaning_vi": "bất mãn, không hài lòng",
+      "examples": [
+        {
+          "jp": "今の生活に不満な点はない。",
+          "vi": "Tôi không có gì bất mãn về cuộc sống hiện tại."
+        },
+        {
+          "jp": "連絡をくれない恋人に対し、不満を持っている。",
+          "vi": "Tôi không hài lòng với việc người yêu không liên lạc với tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 86 | BÀI 1 > TỪ VỰNG > mục 036 — 不満"
+    },
+    {
+      "id": 1937,
+      "surface": "平凡",
+      "hiragana": "へいぼん",
+      "kanji": "平凡",
+      "meaning_vi": "bình thường, tầm thường",
+      "examples": [
+        {
+          "jp": "私はお金持ちではない、平凡な家庭で育った。",
+          "vi": "Tôi lớn lên trong một gia đình bình thường, không giàu có."
+        },
+        {
+          "jp": "平凡な日常が続いて、つまらない。",
+          "vi": "Cuộc sống tầm thường cứ tiếp diễn, thật nhàm chán."
+        },
+        {
+          "jp": "彼はどこにでもいる平凡な人です。",
+          "vi": "Anh ấy là một người bình thường ta có thể gặp ở bất cứ đâu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 86 | BÀI 1 > TỪ VỰNG > mục 037 — 平凡"
+    },
+    {
+      "id": 1938,
+      "surface": "適当",
+      "hiragana": "てきとう",
+      "kanji": "適当",
+      "meaning_vi": "phù hợp, thích hợp ; qua loa, đại khái",
+      "examples": [
+        {
+          "jp": "その本は適当な場所にしまってください。",
+          "vi": "Hãy cất quyển sách đó vào chỗ phù hợp."
+        },
+        {
+          "jp": "適当な人には仕事を任せられない。",
+          "vi": "Không thể giao công việc cho người vô trách nhiệm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 86 | BÀI 1 > TỪ VỰNG > mục 038 — 適当"
+    },
+    {
+      "id": 1939,
+      "surface": "様々",
+      "hiragana": "さまざま",
+      "kanji": "様々",
+      "meaning_vi": "đa dạng",
+      "examples": [
+        {
+          "jp": "世界には様々な言語がある。",
+          "vi": "Trên thế giới có nhiều ngôn ngữ khác nhau."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 2.pdf | trang in 86 | BÀI 1 > TỪ VỰNG > mục 039 — 様々"
+    }
+  ]
+}

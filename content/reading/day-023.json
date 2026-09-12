@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-023",
+  "study_day": 23,
+  "items": [
+    {
+      "id": 2301,
+      "title": "図書館の新しい席",
+      "passage_jp": "駅前の図書館に、短い時間だけ勉強したい人が使える席ができた。この席を利用するには、入口の機械で希望する時間を選ぶ必要がある。予約できるのは一回につき四十分までだが、次に待っている人がいなければ延長できる。利用者からは、空いている席を探す時間が減ったおかげで、昼休みにも勉強しやすくなったという声が聞かれた。",
+      "translation_vi": "Tại thư viện trước nhà ga đã có chỗ ngồi dành cho người chỉ muốn học trong thời gian ngắn. Để sử dụng chỗ ngồi này, cần chọn khoảng thời gian mong muốn trên máy ở lối vào. Mỗi lần chỉ có thể đặt tối đa 40 phút, nhưng nếu không có người chờ tiếp theo thì có thể gia hạn. Người dùng cho biết nhờ giảm được thời gian tìm chỗ trống nên họ cũng dễ học hơn trong giờ nghỉ trưa.",
+      "media": [],
+      "source_ref": "supplemental-authored | Reading Chapter 2 skills transfer",
+      "questions": [
+        {
+          "id": "c02r-d05-q01",
+          "question_type": "mcq",
+          "question_jp": "新しい席を使う前に何をする必要がありますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "入口の機械で時間を選ぶ"
+            },
+            {
+              "id": "B",
+              "text": "本を四十冊借りる"
+            },
+            {
+              "id": "C",
+              "text": "駅で申し込む"
+            },
+            {
+              "id": "D",
+              "text": "昼休みを延長する"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c02r-d05-q02",
+          "question_type": "mcq",
+          "question_jp": "利用時間を延長できるのはどんな時ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "一回目の利用の時"
+            },
+            {
+              "id": "B",
+              "text": "席が見つからない時"
+            },
+            {
+              "id": "C",
+              "text": "次に待っている人がいない時"
+            },
+            {
+              "id": "D",
+              "text": "入口に機械がない時"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c02r-d05-q03",
+          "question_type": "mcq",
+          "question_jp": "利用者が勉強しやすくなった理由は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "図書館が駅から遠くなったから"
+            },
+            {
+              "id": "B",
+              "text": "席を探す時間が減ったから"
+            },
+            {
+              "id": "C",
+              "text": "予約が不要になったから"
+            },
+            {
+              "id": "D",
+              "text": "昼休みが長くなったから"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

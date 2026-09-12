@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-024",
+  "type": "grammar",
+  "title": "Grammar Test — Day 24",
+  "study_day": 24,
+  "coverage": {
+    "from_day": 24,
+    "to_day": 24
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "この仕事に応募する（　　　）、三年以上の経験が必要だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "外国で車を運転する（　　　）、国際免許を取る必要がある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "には"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "この問題を解く（　　　）、まず条件を整理するとよい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "には"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "健康を保つ（　　　）、十分な睡眠が欠かせない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "へは"
+            },
+            {
+              "id": "D",
+              "text": "には"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "山頂まで登る（　　　）、早朝に出発しなければならない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "日本語の新聞を正確に読む（　　　）、専門用語の辞書が役に立つ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "には"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "初めてのマラソンを完走する（　　　）、数か月の練習が必要だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "には"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "このケーキを上手に焼く（　　　）、オーブンの温度管理が重要だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "へは"
+            },
+            {
+              "id": "D",
+              "text": "には"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "奨学金を受ける（　　　）、一定以上の成績を取らなければならない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "人気の美術館へ確実に入る（　　　）、事前に券を予約したほうがいい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "には"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "このアパートで犬を飼う（　　　）、管理会社の許可が要る。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "には"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "高齢者向けサービスを申し込む（　　　）、本人確認書類を用意してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "では"
+            },
+            {
+              "id": "B",
+              "text": "とは"
+            },
+            {
+              "id": "C",
+              "text": "へは"
+            },
+            {
+              "id": "D",
+              "text": "には"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "国際会議を円滑に進める（　　　）、経験のある通訳が欠かせない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "には"
+            },
+            {
+              "id": "B",
+              "text": "では"
+            },
+            {
+              "id": "C",
+              "text": "とは"
+            },
+            {
+              "id": "D",
+              "text": "へは"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2401"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "遅刻する（　　　）、今夜は早く寝る。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "といけないから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "資料に誤りがあっ（　　　）、提出前にもう一度確認した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "B",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "C",
+              "text": "てはいけないので"
+            },
+            {
+              "id": "D",
+              "text": "ているところなので"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "道に迷う（　　　）、地図を保存しておいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "ことができるので"
+            },
+            {
+              "id": "C",
+              "text": "つもりだから"
+            },
+            {
+              "id": "D",
+              "text": "といけないから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "予約を忘れ（　　　）、予定表に書いておいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "てはいけないので"
+            },
+            {
+              "id": "B",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "C",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "D",
+              "text": "ているところなので"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "風邪をひく（　　　）、ぬれた服をすぐ着替えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "といけないから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "作業中のファイルを失う（　　　）、一時間ごとに保存している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "ことができるので"
+            },
+            {
+              "id": "C",
+              "text": "といけないから"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "日焼けする（　　　）、海へ行く前に日焼け止めを塗った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "ことができるので"
+            },
+            {
+              "id": "C",
+              "text": "つもりだから"
+            },
+            {
+              "id": "D",
+              "text": "といけないから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "終電に乗り遅れる（　　　）、帰る前に時刻表を確認した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "といけないから"
+            },
+            {
+              "id": "B",
+              "text": "ようになってから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "料理にアレルギー物質が入ってい（　　　）、店員に材料を尋ねた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "B",
+              "text": "てはいけないので"
+            },
+            {
+              "id": "C",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "D",
+              "text": "ているところなので"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "家の鍵をなくす（　　　）、予備の鍵を家族に預けてある。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ようになってから"
+            },
+            {
+              "id": "B",
+              "text": "ことができるので"
+            },
+            {
+              "id": "C",
+              "text": "といけないから"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "雨で荷物がぬれ（　　　）、書類を防水袋に入れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たばかりなので"
+            },
+            {
+              "id": "B",
+              "text": "たことがあるので"
+            },
+            {
+              "id": "C",
+              "text": "ているところなので"
+            },
+            {
+              "id": "D",
+              "text": "てはいけないので"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "面接の日を間違える（　　　）、予定表に赤字で書いておいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "といけないから"
+            },
+            {
+              "id": "B",
+              "text": "ようになってから"
+            },
+            {
+              "id": "C",
+              "text": "ことができるので"
+            },
+            {
+              "id": "D",
+              "text": "つもりだから"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2402"
+          ]
+        }
+      ]
+    }
+  ]
+}

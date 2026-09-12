@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-020",
+  "type": "grammar",
+  "title": "Grammar Test — Day 20",
+  "study_day": 20,
+  "coverage": {
+    "from_day": 20,
+    "to_day": 20
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "友達が手伝ってくれた（　　　）、引っ越しが早く終わった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おかげで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "先生の丁寧な説明（　　　）、難しい問題が理解できた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に反して"
+            },
+            {
+              "id": "B",
+              "text": "のおかげで"
+            },
+            {
+              "id": "C",
+              "text": "とは違って"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "毎日練習した（　　　）、大会で優勝できた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "おかげで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "道が空いていた（　　　）、約束の時間に間に合った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "おかげで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "新しい薬（　　　）、体調がよくなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のおかげで"
+            },
+            {
+              "id": "B",
+              "text": "に反して"
+            },
+            {
+              "id": "C",
+              "text": "とは違って"
+            },
+            {
+              "id": "D",
+              "text": "に比べて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "先輩が傘を貸してくれた（　　　）、雨にぬれずに帰れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "おかげで"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "案内図が詳しかった（　　　）、初めての町でも迷わなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "おかげで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "目覚まし時計を二つセットした（　　　）、寝坊せずに済んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "おかげで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "早めに予約した（　　　）、窓側の席を取ることができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おかげで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2001"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "寝不足の（　　　）、会議に集中できなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わりに"
+            },
+            {
+              "id": "B",
+              "text": "せいで"
+            },
+            {
+              "id": "C",
+              "text": "かわりに"
+            },
+            {
+              "id": "D",
+              "text": "ように"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "雨が続いた（　　　）、洗濯物が乾かない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "せいで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "電車が遅れた（　　　）、面接に間に合わなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "せいで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "説明が不十分だった（　　　）、参加者が迷ってしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "風邪の（　　　）、味がよく分からない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わりに"
+            },
+            {
+              "id": "B",
+              "text": "せいで"
+            },
+            {
+              "id": "C",
+              "text": "かわりに"
+            },
+            {
+              "id": "D",
+              "text": "ように"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "宛先を書き間違えた（　　　）、荷物が送り返されてきた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "せいで"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "隣の工事の音がうるさかった（　　　）、昨夜はほとんど眠れなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "のに"
+            },
+            {
+              "id": "B",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "せいで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "朝寝坊した（　　　）、空港行きのバスに乗れなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "せいで"
+            },
+            {
+              "id": "B",
+              "text": "のに"
+            },
+            {
+              "id": "C",
+              "text": "にもかかわらず"
+            },
+            {
+              "id": "D",
+              "text": "一方で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2002"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "窓が開いている（　　　）、誰かが部屋にいると判断した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ことから"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "この町は桜が多い（　　　）、「桜町」と呼ばれている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "ことから"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "足跡が残っている（　　　）、動物が通ったと分かる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "古い記録が見つかった（　　　）、建物の年代が判明した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことから"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "彼が毎日早く来る（　　　）、責任感が強いと評価された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "ことから"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "校舎が丘の上にある（　　　）、その学校は「丘の学校」と呼ばれている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "ことから"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "機械の温度が急に上がった（　　　）、担当者は故障の可能性があると判断した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ものの"
+            },
+            {
+              "id": "B",
+              "text": "一方で"
+            },
+            {
+              "id": "C",
+              "text": "のに"
+            },
+            {
+              "id": "D",
+              "text": "ことから"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "制服の色が違う（　　　）、彼は別の学校の生徒だと気づいた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことから"
+            },
+            {
+              "id": "B",
+              "text": "ものの"
+            },
+            {
+              "id": "C",
+              "text": "一方で"
+            },
+            {
+              "id": "D",
+              "text": "のに"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:2003"
+          ]
+        }
+      ]
+    }
+  ]
+}
