@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-034",
+  "study_day": 34,
+  "items": [
+    {
+      "id": 3401,
+      "title": "結果と評価から意味を推測する（後半）",
+      "passage_jp": "④ このレストランの店員はみんな〇〇で、気持ちよく食事ができた。\n⑤ 最近の若者は何でもインターネットで調べるので、自分で考える力が〇〇と言われている。",
+      "translation_vi": "④ Nhân viên của nhà hàng này ai cũng 〇〇 nên tôi đã có thể dùng bữa một cách dễ chịu.\n⑤ Người ta nói rằng vì giới trẻ gần đây tra cứu mọi thứ trên Internet nên khả năng tự suy nghĩ của họ 〇〇.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 4 | trang in 20–21 | 練習1・項目4–5",
+      "questions": [
+        {
+          "id": "c04r-d02-q01",
+          "question_type": "mcq",
+          "question_jp": "④の〇〇にはどのような態度が入りますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "乱暴である"
+            },
+            {
+              "id": "B",
+              "text": "丁寧である"
+            },
+            {
+              "id": "C",
+              "text": "無関心である"
+            },
+            {
+              "id": "D",
+              "text": "短気である"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c04r-d02-q02",
+          "question_type": "mcq",
+          "question_jp": "⑤の〇〇に入る意味として最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "不足している"
+            },
+            {
+              "id": "B",
+              "text": "十分に伸びている"
+            },
+            {
+              "id": "C",
+              "text": "必要なくなった"
+            },
+            {
+              "id": "D",
+              "text": "世界一強い"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d02-q03",
+          "question_type": "mcq",
+          "question_jp": "二つの文の評価の組み合わせとして正しいものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "④も⑤も肯定的"
+            },
+            {
+              "id": "B",
+              "text": "④は肯定的で⑤は批判的"
+            },
+            {
+              "id": "C",
+              "text": "④は批判的で⑤は肯定的"
+            },
+            {
+              "id": "D",
+              "text": "④も⑤も中立的"
+            }
+          ],
+          "correct_option_id": "B"
+        }
+      ]
+    }
+  ]
+}

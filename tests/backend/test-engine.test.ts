@@ -231,6 +231,75 @@ describe("shared Test Engine", () => {
     });
   });
 
+  it("loads the Chapter 4 Grammar and Daily Tests with canonical counts and numeric refs", async () => {
+    const roadmap = await loadProgramRoadmap();
+    if (roadmap.state !== "available") throw new Error("Roadmap missing");
+
+    for (let day = 33; day <= 38; day += 1) {
+      const grammarLocation = findTestLocation(
+        roadmap.data,
+        `grammar-test-${String(day).padStart(3, "0")}`,
+      );
+      if (!grammarLocation) throw new Error(`Chapter 4 Grammar Test Day ${day} missing`);
+      const grammar = await loadTestContent(grammarLocation);
+      if (grammar.state !== "available") throw new Error(`Grammar Test Day ${day} unavailable`);
+      expect(grammar.data.sections[0].questions).toHaveLength(25);
+      expect(validateTestDocument(grammar.data, grammarLocation.task, day)).toBe(true);
+
+      const dailyDay = day + 1;
+      const dailyLocation = findTestLocation(
+        roadmap.data,
+        `daily-${String(dailyDay).padStart(3, "0")}`,
+      );
+      if (!dailyLocation) throw new Error(`Chapter 4 Daily Test Day ${dailyDay} missing`);
+      const daily = await loadTestContent(dailyLocation);
+      if (daily.state !== "available") throw new Error(`Daily Test Day ${dailyDay} unavailable`);
+      expect(daily.data.sections.map(({ id, questions }) => [id, questions.length])).toEqual([
+        ["grammar", 10],
+        ["vocabulary", 15],
+        ["kanji", 15],
+      ]);
+      expect(validateTestDocument(daily.data, dailyLocation.task, dailyDay)).toBe(true);
+      expect(JSON.stringify(daily.data)).not.toMatch(/(?:grammar|vocabulary|kanji):c04/);
+    }
+  });
+
+  it("loads and scores the Chapter 4 Weekly Test", async () => {
+    const roadmap = await loadProgramRoadmap();
+    if (roadmap.state !== "available") throw new Error("Roadmap missing");
+    const location = findTestLocation(roadmap.data, "weekly-04");
+    if (!location) throw new Error("Chapter 4 Weekly Test missing from roadmap");
+    const loaded = await loadTestContent(location);
+    if (loaded.state !== "available") throw new Error("Chapter 4 Weekly content missing");
+
+    expect(loaded.data.coverage).toEqual({ from_day: 33, to_day: 38 });
+    expect(loaded.data.sections.map(({ id, max_score, questions }) => ({
+      id,
+      max_score,
+      questions: questions.length,
+    }))).toEqual([
+      { id: "language", max_score: 60, questions: 30 },
+      { id: "reading", max_score: 60, questions: 12 },
+    ]);
+    const language = loaded.data.sections.find(({ id }) => id === "language");
+    if (!language) throw new Error("Chapter 4 Weekly language section missing");
+    expect(["grammar", "vocabulary", "kanji"].map((category) =>
+      language.questions.filter((question) => question.category === category).length,
+    )).toEqual([10, 10, 10]);
+    for (const question of language.questions) {
+      expect(question.source_item_refs?.every((ref) => ref.startsWith(`${question.category}:`))).toBe(true);
+    }
+    expect(validateTestDocument(loaded.data, location.task, location.day.day)).toBe(true);
+    expect(JSON.stringify(loaded.data)).not.toMatch(/(?:grammar|vocabulary|kanji):c04/);
+    expect(scoreTest(loaded.data, correctAnswers(loaded.data)).result).toMatchObject({
+      test_type: "weekly",
+      language_score: 60,
+      reading_score: 60,
+      listening_score: null,
+      total_score: 120,
+    });
+  });
+
   it("keeps Monthly/End/Mock scoring on three sections and /180", () => {
     const sections = ["language", "reading", "listening"].map((id) => ({
       id,

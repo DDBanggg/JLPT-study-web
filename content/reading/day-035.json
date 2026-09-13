@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-035",
+  "study_day": 35,
+  "items": [
+    {
+      "id": 3501,
+      "title": "文全体の方向からニュアンスを判断する",
+      "passage_jp": "① 最近の子どもは外で遊ぶ時間が少なすぎると思う。\n② この地域では、昔からお祭りが盛んだと言われている。\n③ 環境を守るために、一人一人の努力が大切だと思う。\n④ 現代社会では、人とのつながりが弱くなっているように感じる。\n⑤ 日本では、食べ物を残すのはよくないと考えられている。",
+      "translation_vi": "① Tôi nghĩ trẻ em gần đây có quá ít thời gian chơi ngoài trời.\n② Người ta nói rằng khu vực này từ xưa đã tổ chức lễ hội rất sôi nổi.\n③ Tôi nghĩ nỗ lực của từng người là quan trọng để bảo vệ môi trường.\n④ Tôi cảm thấy trong xã hội hiện đại, mối liên kết giữa con người đang yếu đi.\n⑤ Ở Nhật, người ta cho rằng bỏ thừa thức ăn là không tốt.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 4 | trang in 21 | 練習2",
+      "questions": [
+        {
+          "id": "c04r-d03-q01",
+          "question_type": "mcq",
+          "question_jp": "①の文のニュアンスとして最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "現状への批判"
+            },
+            {
+              "id": "B",
+              "text": "現状への強い賛成"
+            },
+            {
+              "id": "C",
+              "text": "客観的な日程説明"
+            },
+            {
+              "id": "D",
+              "text": "祭りへの感謝"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d03-q02",
+          "question_type": "mcq",
+          "question_jp": "②の文はどの立場に最も近いですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "否定的な命令"
+            },
+            {
+              "id": "B",
+              "text": "中立的な事実紹介"
+            },
+            {
+              "id": "C",
+              "text": "強い怒り"
+            },
+            {
+              "id": "D",
+              "text": "個人的な後悔"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c04r-d03-q03",
+          "question_type": "mcq",
+          "question_jp": "③の文が表しているのはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "努力への肯定"
+            },
+            {
+              "id": "B",
+              "text": "環境活動への反対"
+            },
+            {
+              "id": "C",
+              "text": "地域の事実だけ"
+            },
+            {
+              "id": "D",
+              "text": "子どもへの非難"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

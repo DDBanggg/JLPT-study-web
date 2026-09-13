@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-035",
+  "study_day": 35,
+  "items": [
+    {
+      "id": 3501,
+      "structure": "～こと",
+      "formation": [
+        "Vる／Vない + こと"
+      ],
+      "meaning_vi": "hãy; phải; không được",
+      "usage_vi": "Cách viết chỉ thị hoặc quy tắc, thường thấy trong thông báo, nội quy và hướng dẫn.",
+      "examples": [
+        {
+          "jp": "そのイベントに参加を希望する者は、はがきに必要事項を書いて本社あてに送ること。",
+          "vi": "Người muốn tham gia sự kiện phải ghi thông tin cần thiết vào bưu thiếp và gửi đến trụ sở chính."
+        },
+        {
+          "jp": "怪しい勧誘には耳を貸さないこと。",
+          "vi": "Không được nghe theo những lời mời chào đáng ngờ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 34 | BÀI 2 > NGỮ PHÁP > mục 1 — ～こと"
+    },
+    {
+      "id": 3502,
+      "structure": "～ことはない",
+      "formation": [
+        "Vる + ことはない"
+      ],
+      "meaning_vi": "không cần phải",
+      "usage_vi": "Khuyên hoặc động viên rằng đối phương không cần thực hiện hành động nào đó.",
+      "examples": [
+        {
+          "jp": "失恋したって落ち込むことはない。",
+          "vi": "Dù thất tình cũng không cần phải suy sụp."
+        },
+        {
+          "jp": "この問題については、あなた一人で責任を感じることはない。",
+          "vi": "Về vấn đề này, bạn không cần một mình cảm thấy có trách nhiệm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 35 | BÀI 2 > NGỮ PHÁP > mục 2 — ～ことはない"
+    },
+    {
+      "id": 3503,
+      "structure": "～（より）ほかない／～しかない",
+      "formation": [
+        "Vる +（より）ほかない／しかない"
+      ],
+      "meaning_vi": "chỉ còn cách",
+      "usage_vi": "Diễn tả không có lựa chọn nào khác ngoài việc thực hiện hành động đó.",
+      "examples": [
+        {
+          "jp": "チケットを買ってしまったから見に行くほかない。",
+          "vi": "Vì đã mua vé rồi nên chỉ còn cách đi xem."
+        },
+        {
+          "jp": "仕事が入ってしまったので、あきらめるしかない。",
+          "vi": "Vì có việc đột xuất nên chỉ còn cách từ bỏ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 36 | BÀI 2 > NGỮ PHÁP > mục 3 — ～（より）ほかない／～しかない"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-038",
+  "study_day": 38,
+  "items": [
+    {
+      "id": 3801,
+      "kanji": "夢",
+      "han_viet": "MỘNG",
+      "meaning_vi": "giấc mơ; say mê",
+      "onyomi": [
+        "ム"
+      ],
+      "kunyomi": [
+        "ゆめ"
+      ],
+      "compounds": [
+        {
+          "word": "夢",
+          "reading": "ゆめ",
+          "meaning_vi": "giấc mơ"
+        },
+        {
+          "word": "夢中",
+          "reading": "むちゅう",
+          "meaning_vi": "say mê"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 43 | BÀI 3 > CHỮ HÁN > 夢"
+    },
+    {
+      "id": 3802,
+      "kanji": "募",
+      "han_viet": "MỘ",
+      "meaning_vi": "tuyển; kêu gọi",
+      "onyomi": [
+        "ボ"
+      ],
+      "kunyomi": [
+        "つの・る"
+      ],
+      "compounds": [
+        {
+          "word": "応募",
+          "reading": "おうぼ",
+          "meaning_vi": "đăng ký, ứng tuyển"
+        },
+        {
+          "word": "募集",
+          "reading": "ぼしゅう",
+          "meaning_vi": "tuyển dụng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 43 | BÀI 3 > CHỮ HÁN > 募"
+    },
+    {
+      "id": 3803,
+      "kanji": "戻",
+      "han_viet": "LỆ",
+      "meaning_vi": "trở lại; hoàn lại",
+      "onyomi": [],
+      "kunyomi": [
+        "もど・る",
+        "もど・す"
+      ],
+      "compounds": [
+        {
+          "word": "戻す",
+          "reading": "もどす",
+          "meaning_vi": "hoàn lại"
+        },
+        {
+          "word": "払い戻す",
+          "reading": "はらいもどす",
+          "meaning_vi": "hoàn tiền"
+        },
+        {
+          "word": "戻る",
+          "reading": "もどる",
+          "meaning_vi": "quay lại"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 44 | BÀI 3 > CHỮ HÁN > 戻"
+    },
+    {
+      "id": 3804,
+      "kanji": "涙",
+      "han_viet": "LỆ",
+      "meaning_vi": "nước mắt",
+      "onyomi": [
+        "ルイ"
+      ],
+      "kunyomi": [
+        "なみだ"
+      ],
+      "compounds": [
+        {
+          "word": "涙",
+          "reading": "なみだ",
+          "meaning_vi": "nước mắt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 44 | BÀI 3 > CHỮ HÁN > 涙"
+    },
+    {
+      "id": 3805,
+      "kanji": "失",
+      "han_viet": "THẤT",
+      "meaning_vi": "mất; thất bại",
+      "onyomi": [
+        "シツ"
+      ],
+      "kunyomi": [
+        "うしな・う"
+      ],
+      "compounds": [
+        {
+          "word": "失う",
+          "reading": "うしなう",
+          "meaning_vi": "làm mất"
+        },
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "meaning_vi": "thất bại"
+        },
+        {
+          "word": "失礼",
+          "reading": "しつれい",
+          "meaning_vi": "thất lễ"
+        },
+        {
+          "word": "失業",
+          "reading": "しつぎょう",
+          "meaning_vi": "thất nghiệp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 45 | BÀI 3 > CHỮ HÁN > 失"
+    },
+    {
+      "id": 3806,
+      "kanji": "賛",
+      "han_viet": "TÁN",
+      "meaning_vi": "tán thành",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "賛成",
+          "reading": "さんせい",
+          "meaning_vi": "tán thành"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 45 | BÀI 3 > CHỮ HÁN > 賛"
+    },
+    {
+      "id": 3807,
+      "kanji": "替",
+      "han_viet": "THẾ",
+      "meaning_vi": "thay thế",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "か・える",
+        "か・わる"
+      ],
+      "compounds": [
+        {
+          "word": "替える",
+          "reading": "かえる",
+          "meaning_vi": "thay đổi"
+        },
+        {
+          "word": "替わる",
+          "reading": "かわる",
+          "meaning_vi": "được thay thế"
+        },
+        {
+          "word": "買い替える",
+          "reading": "かいかえる",
+          "meaning_vi": "mua thay"
+        },
+        {
+          "word": "取り替える",
+          "reading": "とりかえる",
+          "meaning_vi": "đổi, thay"
+        },
+        {
+          "word": "両替",
+          "reading": "りょうがえ",
+          "meaning_vi": "đổi tiền"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 45 | BÀI 3 > CHỮ HÁN > 替"
+    }
+  ]
+}

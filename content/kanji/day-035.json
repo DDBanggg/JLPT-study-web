@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-035",
+  "study_day": 35,
+  "items": [
+    {
+      "id": 3501,
+      "kanji": "要",
+      "han_viet": "YẾU",
+      "meaning_vi": "cần; quan trọng",
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "い・る",
+        "かなめ"
+      ],
+      "compounds": [
+        {
+          "word": "要る",
+          "reading": "いる",
+          "meaning_vi": "cần"
+        },
+        {
+          "word": "重要",
+          "reading": "じゅうよう",
+          "meaning_vi": "quan trọng"
+        },
+        {
+          "word": "要求",
+          "reading": "ようきゅう",
+          "meaning_vi": "yêu cầu"
+        },
+        {
+          "word": "必要",
+          "reading": "ひつよう",
+          "meaning_vi": "cần thiết"
+        },
+        {
+          "word": "不要",
+          "reading": "ふよう",
+          "meaning_vi": "không cần thiết"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 22 | BÀI 2 > CHỮ HÁN > 要"
+    },
+    {
+      "id": 3502,
+      "kanji": "腰",
+      "han_viet": "YÊU",
+      "meaning_vi": "eo; lưng",
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "こし"
+      ],
+      "compounds": [
+        {
+          "word": "腰",
+          "reading": "こし",
+          "meaning_vi": "eo, lưng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 22 | BÀI 2 > CHỮ HÁN > 腰"
+    },
+    {
+      "id": 3503,
+      "kanji": "煙",
+      "han_viet": "YÊN",
+      "meaning_vi": "khói",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "けむ・る",
+        "けむり",
+        "けむ・い"
+      ],
+      "compounds": [
+        {
+          "word": "煙",
+          "reading": "けむり",
+          "meaning_vi": "khói"
+        },
+        {
+          "word": "喫煙",
+          "reading": "きつえん",
+          "meaning_vi": "hút thuốc"
+        },
+        {
+          "word": "禁煙",
+          "reading": "きんえん",
+          "meaning_vi": "cấm hút thuốc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 23 | BÀI 2 > CHỮ HÁN > 煙"
+    },
+    {
+      "id": 3504,
+      "kanji": "焼",
+      "han_viet": "THIÊU",
+      "meaning_vi": "nướng; cháy",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "や・く",
+        "や・ける"
+      ],
+      "compounds": [
+        {
+          "word": "焼く",
+          "reading": "やく",
+          "meaning_vi": "nướng, đốt"
+        },
+        {
+          "word": "焼ける",
+          "reading": "やける",
+          "meaning_vi": "bị cháy, được nướng"
+        },
+        {
+          "word": "焼き肉",
+          "reading": "やきにく",
+          "meaning_vi": "thịt nướng"
+        },
+        {
+          "word": "夕焼け",
+          "reading": "ゆうやけ",
+          "meaning_vi": "hoàng hôn đỏ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 23 | BÀI 2 > CHỮ HÁN > 焼"
+    },
+    {
+      "id": 3505,
+      "kanji": "談",
+      "han_viet": "ĐÀM",
+      "meaning_vi": "trò chuyện; trao đổi",
+      "onyomi": [
+        "ダン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "冗談",
+          "reading": "じょうだん",
+          "meaning_vi": "lời nói đùa"
+        },
+        {
+          "word": "相談",
+          "reading": "そうだん",
+          "meaning_vi": "trao đổi, tư vấn"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 23 | BÀI 2 > CHỮ HÁN > 談"
+    },
+    {
+      "id": 3506,
+      "kanji": "熱",
+      "han_viet": "NHIỆT",
+      "meaning_vi": "nhiệt; nóng; say mê",
+      "onyomi": [
+        "ネツ"
+      ],
+      "kunyomi": [
+        "あつ・い"
+      ],
+      "compounds": [
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "meaning_vi": "nhiệt, sốt"
+        },
+        {
+          "word": "熱中",
+          "reading": "ねっちゅう",
+          "meaning_vi": "say mê"
+        },
+        {
+          "word": "熱心",
+          "reading": "ねっしん",
+          "meaning_vi": "nhiệt tình"
+        },
+        {
+          "word": "熱中症",
+          "reading": "ねっちゅうしょう",
+          "meaning_vi": "sốc nhiệt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 24 | BÀI 2 > CHỮ HÁN > 熱"
+    },
+    {
+      "id": 3507,
+      "kanji": "然",
+      "han_viet": "NHIÊN",
+      "meaning_vi": "như vậy; tự nhiên",
+      "onyomi": [
+        "ゼン",
+        "ネン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "全然",
+          "reading": "ぜんぜん",
+          "meaning_vi": "hoàn toàn không"
+        },
+        {
+          "word": "自然",
+          "reading": "しぜん",
+          "meaning_vi": "tự nhiên"
+        },
+        {
+          "word": "偶然",
+          "reading": "ぐうぜん",
+          "meaning_vi": "tình cờ"
+        },
+        {
+          "word": "当然",
+          "reading": "とうぜん",
+          "meaning_vi": "đương nhiên"
+        },
+        {
+          "word": "突然",
+          "reading": "とつぜん",
+          "meaning_vi": "đột nhiên"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 24 | BÀI 2 > CHỮ HÁN > 然"
+    }
+  ]
+}

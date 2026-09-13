@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "id": "weekly-04",
+  "type": "weekly",
+  "title": "Weekly Test — Chapter 4",
+  "study_day": 39,
+  "coverage": {
+    "from_day": 33,
+    "to_day": 38
+  },
+  "stimuli": [
+    {
+      "id": "c04w-rs01",
+      "type": "reading",
+      "title": "Reading Passage 1",
+      "content_jp": "学校の図書室では、雨の日だけ傘を入れる袋を入口に置いていた。しかし袋は一度使うと捨てられ、ごみが増える。そこで生徒会は、古いタオルで傘の水を拭く方法を提案した。最初は面倒だという声もあったが、今では「手間より、ごみが減るほうが大切だ」と協力する生徒が多い。ここでの「手間」は、特別な技術ではなく、水を拭くために少し時間と労力がかかることを指している。"
+    },
+    {
+      "id": "c04w-rs02",
+      "type": "reading",
+      "title": "Reading Passage 2",
+      "content_jp": "港の朝市では、売れ残った魚をその日のうちに安く販売する「夕市」を始めた。店の人は、値下げすると利益が減ると心配したが、捨てる魚が少なくなり、新しい客も増えた。今では夕市は朝市を支える「思わぬ味方」だと言われている。"
+    },
+    {
+      "id": "c04w-rs03",
+      "type": "reading",
+      "title": "Reading Passage 3",
+      "content_jp": "駅から大学までの近道は車が多く、夏は日差しも強い。一方、川沿いの道は五分ほど余計にかかるが、大きな木が並び、風も通る。学生たちはこの道を「遠い近道」と呼ぶ。時間だけ見れば遠回りだが、疲れにくく安全なので、結果として気楽に通えるからだ。"
+    },
+    {
+      "id": "c04w-rs04",
+      "type": "reading",
+      "title": "Reading Passage 4",
+      "content_jp": "地域センターは新しい机を買う代わりに、古い机を住民と一緒に修理した。傷を完全に消すのではなく、使った年月が分かる部分は残した。完成後、参加者は「新品のようではないが、この町らしい」と話した。ここでの「この町らしい」は、古さを欠点と見るのではなく、住民が手をかけて受け継いだ特徴として評価する言葉である。"
+    }
+  ],
+  "sections": [
+    {
+      "id": "language",
+      "title": "Language",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c04w-lang-q01",
+          "category": "grammar",
+          "prompt": "研究所は海洋プラスチック（　　　）公開講座を開いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "にわたる"
+            },
+            {
+              "id": "C",
+              "text": "を込めた"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "c04w-lang-q02",
+          "category": "grammar",
+          "prompt": "古代の水路は山から町まで十五キロ（　　　）続いていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "c04w-lang-q03",
+          "category": "grammar",
+          "prompt": "演劇の稽古（　　　）、人前で話す自信がついた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通して"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "c04w-lang-q04",
+          "category": "grammar",
+          "prompt": "祖母は旅の安全を願う気持ち（　　　）袋を縫ってくれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "にわたる"
+            },
+            {
+              "id": "C",
+              "text": "を通じた"
+            },
+            {
+              "id": "D",
+              "text": "を込めた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "c04w-lang-q05",
+          "category": "grammar",
+          "prompt": "係員が来るので、壊れた券売機を自分で直す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "c04w-lang-q06",
+          "category": "grammar",
+          "prompt": "大雨で二つの道が閉鎖され、船で渡る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "c04w-lang-q07",
+          "category": "grammar",
+          "prompt": "歯が痛むなら、甘い物を控えた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "c04w-lang-q08",
+          "category": "grammar",
+          "prompt": "人工知能を使った判断にも人が責任を持つ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "c04w-lang-q09",
+          "category": "grammar",
+          "prompt": "ボールが窓に当たり（　　　）が、風で方向が変わり、窓には触れなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけた"
+            },
+            {
+              "id": "B",
+              "text": "、窓を割った"
+            },
+            {
+              "id": "C",
+              "text": "続け、何度も跳ね返った"
+            },
+            {
+              "id": "D",
+              "text": "、その場で止まった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "c04w-lang-q10",
+          "category": "grammar",
+          "prompt": "暖房を（　　　）旅行に出てしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きちんと消して"
+            },
+            {
+              "id": "B",
+              "text": "つけっぱなしで"
+            },
+            {
+              "id": "C",
+              "text": "短時間だけ使って"
+            },
+            {
+              "id": "D",
+              "text": "修理してから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "c04w-lang-q11",
+          "category": "vocabulary",
+          "prompt": "駅で（　　　）になった子どもを係員が保護した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "答案"
+            },
+            {
+              "id": "B",
+              "text": "気温"
+            },
+            {
+              "id": "C",
+              "text": "迷子"
+            },
+            {
+              "id": "D",
+              "text": "住民"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3318"
+          ]
+        },
+        {
+          "id": "c04w-lang-q12",
+          "category": "vocabulary",
+          "prompt": "初めての陶芸は難しそうだったが、（　　　）うまくできた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おかしい"
+            },
+            {
+              "id": "B",
+              "text": "主要"
+            },
+            {
+              "id": "C",
+              "text": "頼もしい"
+            },
+            {
+              "id": "D",
+              "text": "案外"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3334"
+          ]
+        },
+        {
+          "id": "c04w-lang-q13",
+          "category": "vocabulary",
+          "prompt": "急に空いた司会の役は、経験のある先輩が（　　　）ことになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "引き受ける"
+            },
+            {
+              "id": "B",
+              "text": "まとまる"
+            },
+            {
+              "id": "C",
+              "text": "勧める"
+            },
+            {
+              "id": "D",
+              "text": "下る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3410"
+          ]
+        },
+        {
+          "id": "c04w-lang-q14",
+          "category": "vocabulary",
+          "prompt": "手術後の経過がよく、予定より早く（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "交通"
+            },
+            {
+              "id": "B",
+              "text": "退院"
+            },
+            {
+              "id": "C",
+              "text": "仲"
+            },
+            {
+              "id": "D",
+              "text": "年間"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3428"
+          ]
+        },
+        {
+          "id": "c04w-lang-q15",
+          "category": "vocabulary",
+          "prompt": "早朝の飛行機に乗るため、（　　　）を二つ用意した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "仲"
+            },
+            {
+              "id": "B",
+              "text": "年間"
+            },
+            {
+              "id": "C",
+              "text": "目覚まし時計"
+            },
+            {
+              "id": "D",
+              "text": "現在"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3519"
+          ]
+        },
+        {
+          "id": "c04w-lang-q16",
+          "category": "vocabulary",
+          "prompt": "花火大会の日は駅の（　　　）が予想される。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "年間"
+            },
+            {
+              "id": "B",
+              "text": "現在"
+            },
+            {
+              "id": "C",
+              "text": "迷子"
+            },
+            {
+              "id": "D",
+              "text": "混雑"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3610"
+          ]
+        },
+        {
+          "id": "c04w-lang-q17",
+          "category": "vocabulary",
+          "prompt": "原料の値上がりで商品の（　　　）が変更された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "価格"
+            },
+            {
+              "id": "B",
+              "text": "現在"
+            },
+            {
+              "id": "C",
+              "text": "迷子"
+            },
+            {
+              "id": "D",
+              "text": "製品"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3705"
+          ]
+        },
+        {
+          "id": "c04w-lang-q18",
+          "category": "vocabulary",
+          "prompt": "この船は島まで（　　　）四十分かかる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "迷子"
+            },
+            {
+              "id": "B",
+              "text": "片道"
+            },
+            {
+              "id": "C",
+              "text": "製品"
+            },
+            {
+              "id": "D",
+              "text": "親友"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3716"
+          ]
+        },
+        {
+          "id": "c04w-lang-q19",
+          "category": "vocabulary",
+          "prompt": "海外へ出発する前に空港でお金を（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "製品"
+            },
+            {
+              "id": "B",
+              "text": "親友"
+            },
+            {
+              "id": "C",
+              "text": "両替"
+            },
+            {
+              "id": "D",
+              "text": "騒ぎ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3828"
+          ]
+        },
+        {
+          "id": "c04w-lang-q20",
+          "category": "vocabulary",
+          "prompt": "借りた物は（　　　）元の場所へ戻してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わざわざ"
+            },
+            {
+              "id": "B",
+              "text": "ずいぶん"
+            },
+            {
+              "id": "C",
+              "text": "ずっと"
+            },
+            {
+              "id": "D",
+              "text": "きちんと"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3834"
+          ]
+        },
+        {
+          "id": "c04w-lang-q21",
+          "category": "kanji",
+          "prompt": "応募先からの返信を一週間待った。 【返信】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "へんしん"
+            },
+            {
+              "id": "B",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "C",
+              "text": "きょうじゅ"
+            },
+            {
+              "id": "D",
+              "text": "じゅぎょうりょう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3304"
+          ]
+        },
+        {
+          "id": "c04w-lang-q22",
+          "category": "kanji",
+          "prompt": "授業料の支払い期限を大学に確認した。 【授業料】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "B",
+              "text": "じゅぎょうりょう"
+            },
+            {
+              "id": "C",
+              "text": "きょうじゅ"
+            },
+            {
+              "id": "D",
+              "text": "おこる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3402"
+          ]
+        },
+        {
+          "id": "c04w-lang-q23",
+          "category": "kanji",
+          "prompt": "運動中に熱中症にならないよう休憩を取る。 【熱中症】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうじゅ"
+            },
+            {
+              "id": "B",
+              "text": "じゅぎょうりょう"
+            },
+            {
+              "id": "C",
+              "text": "ねっちゅうしょう"
+            },
+            {
+              "id": "D",
+              "text": "おこる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3506"
+          ]
+        },
+        {
+          "id": "c04w-lang-q24",
+          "category": "kanji",
+          "prompt": "火災報知器が鳴り、全員が外へ避難した。 【避難】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅぎょうりょう"
+            },
+            {
+              "id": "B",
+              "text": "おこる"
+            },
+            {
+              "id": "C",
+              "text": "どなる"
+            },
+            {
+              "id": "D",
+              "text": "ひなん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3603"
+          ]
+        },
+        {
+          "id": "c04w-lang-q25",
+          "category": "kanji",
+          "prompt": "出張の往復切符を会社が用意した。 【往復】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おうふく"
+            },
+            {
+              "id": "B",
+              "text": "おこる"
+            },
+            {
+              "id": "C",
+              "text": "どなる"
+            },
+            {
+              "id": "D",
+              "text": "どりょく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3701"
+          ]
+        },
+        {
+          "id": "c04w-lang-q26",
+          "category": "kanji",
+          "prompt": "受付の人が会議室まで【あんない】してくれた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怒鳴る"
+            },
+            {
+              "id": "B",
+              "text": "案内"
+            },
+            {
+              "id": "C",
+              "text": "努力"
+            },
+            {
+              "id": "D",
+              "text": "離婚"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3407"
+          ]
+        },
+        {
+          "id": "c04w-lang-q27",
+          "category": "kanji",
+          "prompt": "新しい寮の【きそく】を入居前に読んだ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "努力"
+            },
+            {
+              "id": "B",
+              "text": "離婚"
+            },
+            {
+              "id": "C",
+              "text": "規則"
+            },
+            {
+              "id": "D",
+              "text": "主婦"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3607"
+          ]
+        },
+        {
+          "id": "c04w-lang-q28",
+          "category": "kanji",
+          "prompt": "店ごとに同じ商品の【かかく】を比べた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "離婚"
+            },
+            {
+              "id": "B",
+              "text": "主婦"
+            },
+            {
+              "id": "C",
+              "text": "案内"
+            },
+            {
+              "id": "D",
+              "text": "価格"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3705"
+          ]
+        },
+        {
+          "id": "c04w-lang-q29",
+          "category": "kanji",
+          "prompt": "町が通訳ボランティアを【ぼしゅう】している。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "募集"
+            },
+            {
+              "id": "B",
+              "text": "主婦"
+            },
+            {
+              "id": "C",
+              "text": "案内"
+            },
+            {
+              "id": "D",
+              "text": "要る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3802"
+          ]
+        },
+        {
+          "id": "c04w-lang-q30",
+          "category": "kanji",
+          "prompt": "ホテルの受付で外貨を【りょうがえ】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "案内"
+            },
+            {
+              "id": "B",
+              "text": "両替"
+            },
+            {
+              "id": "C",
+              "text": "要る"
+            },
+            {
+              "id": "D",
+              "text": "重要"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3807"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading",
+      "max_score": 60,
+      "questions": [
+        {
+          "id": "c04w-read-q01",
+          "category": "reading",
+          "prompt": "ここで「手間」はどんな意味ですか。",
+          "stimulus_id": "c04w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "少しの時間と労力"
+            },
+            {
+              "id": "B",
+              "text": "高い材料費"
+            },
+            {
+              "id": "C",
+              "text": "危険な作業"
+            },
+            {
+              "id": "D",
+              "text": "専門的な知識"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04w-read-q02",
+          "category": "reading",
+          "prompt": "生徒の態度はどう変わりましたか。",
+          "stimulus_id": "c04w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "袋をもっと捨てるようになった"
+            },
+            {
+              "id": "B",
+              "text": "面倒さを感じつつも協力するようになった"
+            },
+            {
+              "id": "C",
+              "text": "図書室へ行かなくなった"
+            },
+            {
+              "id": "D",
+              "text": "傘を使わなくなった"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c04w-read-q03",
+          "category": "reading",
+          "prompt": "文章の評価の方向はどれですか。",
+          "stimulus_id": "c04w-rs01",
+          "options": [
+            {
+              "id": "A",
+              "text": "タオルの使用を強く批判している"
+            },
+            {
+              "id": "B",
+              "text": "雨の日の登校を禁止している"
+            },
+            {
+              "id": "C",
+              "text": "ごみを減らす工夫を肯定している"
+            },
+            {
+              "id": "D",
+              "text": "袋の値段だけを説明している"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c04w-read-q04",
+          "category": "reading",
+          "prompt": "「思わぬ味方」はここで何を表しますか。",
+          "stimulus_id": "c04w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "競争相手の市場"
+            },
+            {
+              "id": "B",
+              "text": "魚を盗む客"
+            },
+            {
+              "id": "C",
+              "text": "朝だけ働く店員"
+            },
+            {
+              "id": "D",
+              "text": "予想外に役立つ存在"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c04w-read-q05",
+          "category": "reading",
+          "prompt": "店の人が最初に心配したことは何ですか。",
+          "stimulus_id": "c04w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "利益が減ること"
+            },
+            {
+              "id": "B",
+              "text": "客が増えすぎること"
+            },
+            {
+              "id": "C",
+              "text": "魚が新鮮になること"
+            },
+            {
+              "id": "D",
+              "text": "港が広くなること"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04w-read-q06",
+          "category": "reading",
+          "prompt": "夕市の結果として正しいものはどれですか。",
+          "stimulus_id": "c04w-rs02",
+          "options": [
+            {
+              "id": "A",
+              "text": "朝市がすぐ閉鎖された"
+            },
+            {
+              "id": "B",
+              "text": "廃棄が減り新しい客が増えた"
+            },
+            {
+              "id": "C",
+              "text": "魚の値段がすべて上がった"
+            },
+            {
+              "id": "D",
+              "text": "店員が魚を売らなくなった"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c04w-read-q07",
+          "category": "reading",
+          "prompt": "「遠い近道」とはどのような道ですか。",
+          "stimulus_id": "c04w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "距離も時間も最も短い道"
+            },
+            {
+              "id": "B",
+              "text": "車だけが利用できる道"
+            },
+            {
+              "id": "C",
+              "text": "時間は余計にかかるが安全で楽な道"
+            },
+            {
+              "id": "D",
+              "text": "大学とは反対方向の道"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c04w-read-q08",
+          "category": "reading",
+          "prompt": "「一方」は何を対比していますか。",
+          "stimulus_id": "c04w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "大学と駅の建物"
+            },
+            {
+              "id": "B",
+              "text": "夏と冬の授業"
+            },
+            {
+              "id": "C",
+              "text": "学生と教員の人数"
+            },
+            {
+              "id": "D",
+              "text": "車の多い近道と川沿いの道"
+            }
+          ],
+          "correct_option_id": "D"
+        },
+        {
+          "id": "c04w-read-q09",
+          "category": "reading",
+          "prompt": "学生の表現にはどんな評価がありますか。",
+          "stimulus_id": "c04w-rs03",
+          "options": [
+            {
+              "id": "A",
+              "text": "川沿いの道を肯定的に見ている"
+            },
+            {
+              "id": "B",
+              "text": "どちらの道も危険だと批判している"
+            },
+            {
+              "id": "C",
+              "text": "大学へ行く必要がないと考えている"
+            },
+            {
+              "id": "D",
+              "text": "時間だけを最重要だと考えている"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04w-read-q10",
+          "category": "reading",
+          "prompt": "「この町らしい」が表す評価はどれですか。",
+          "stimulus_id": "c04w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "古い物はすべて捨てるべきだという批判"
+            },
+            {
+              "id": "B",
+              "text": "住民が受け継いだ特徴への肯定"
+            },
+            {
+              "id": "C",
+              "text": "新品だけに価値があるという判断"
+            },
+            {
+              "id": "D",
+              "text": "机の大きさへの不満"
+            }
+          ],
+          "correct_option_id": "B"
+        },
+        {
+          "id": "c04w-read-q11",
+          "category": "reading",
+          "prompt": "なぜ傷を全部消さなかったのですか。",
+          "stimulus_id": "c04w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "修理する道具が一つもなかったため"
+            },
+            {
+              "id": "B",
+              "text": "机を販売するため"
+            },
+            {
+              "id": "C",
+              "text": "使われてきた年月を特徴として残すため"
+            },
+            {
+              "id": "D",
+              "text": "参加者が傷を増やしたため"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c04w-read-q12",
+          "category": "reading",
+          "prompt": "文章の中心に最も近いものはどれですか。",
+          "stimulus_id": "c04w-rs04",
+          "options": [
+            {
+              "id": "A",
+              "text": "机を最も安く輸入する方法"
+            },
+            {
+              "id": "B",
+              "text": "新品の家具を選ぶ基準"
+            },
+            {
+              "id": "C",
+              "text": "地域センターを閉鎖する理由"
+            },
+            {
+              "id": "D",
+              "text": "古い物を地域の記憶として生かす取り組み"
+            }
+          ],
+          "correct_option_id": "D"
+        }
+      ]
+    }
+  ]
+}

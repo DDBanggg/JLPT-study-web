@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-037",
+  "study_day": 37,
+  "items": [
+    {
+      "id": 3701,
+      "kanji": "復",
+      "han_viet": "PHỤC, PHÚC",
+      "meaning_vi": "trở lại; lặp lại",
+      "onyomi": [
+        "フク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "復習",
+          "reading": "ふくしゅう",
+          "meaning_vi": "ôn tập"
+        },
+        {
+          "word": "往復",
+          "reading": "おうふく",
+          "meaning_vi": "khứ hồi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 41 | BÀI 3 > CHỮ HÁN > 復"
+    },
+    {
+      "id": 3702,
+      "kanji": "複",
+      "han_viet": "PHỨC",
+      "meaning_vi": "phức; nhiều",
+      "onyomi": [
+        "フク"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "複雑",
+          "reading": "ふくざつ",
+          "meaning_vi": "phức tạp"
+        },
+        {
+          "word": "複数",
+          "reading": "ふくすう",
+          "meaning_vi": "số nhiều"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 41 | BÀI 3 > CHỮ HÁN > 複"
+    },
+    {
+      "id": 3703,
+      "kanji": "腹",
+      "han_viet": "PHÚC",
+      "meaning_vi": "bụng",
+      "onyomi": [
+        "フク"
+      ],
+      "kunyomi": [
+        "はら"
+      ],
+      "compounds": [
+        {
+          "word": "お腹",
+          "reading": "おなか",
+          "meaning_vi": "bụng"
+        },
+        {
+          "word": "腹",
+          "reading": "はら",
+          "meaning_vi": "bụng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 41 | BÀI 3 > CHỮ HÁN > 腹"
+    },
+    {
+      "id": 3704,
+      "kanji": "各",
+      "han_viet": "CÁC",
+      "meaning_vi": "mỗi; từng",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "おのおの"
+      ],
+      "compounds": [
+        {
+          "word": "各駅",
+          "reading": "かくえき",
+          "meaning_vi": "mỗi ga"
+        },
+        {
+          "word": "各自",
+          "reading": "かくじ",
+          "meaning_vi": "mỗi người"
+        },
+        {
+          "word": "各地",
+          "reading": "かくち",
+          "meaning_vi": "các nơi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 42 | BÀI 3 > CHỮ HÁN > 各"
+    },
+    {
+      "id": 3705,
+      "kanji": "格",
+      "han_viet": "CÁCH",
+      "meaning_vi": "cách; tiêu chuẩn",
+      "onyomi": [
+        "カク",
+        "コウ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "価格",
+          "reading": "かかく",
+          "meaning_vi": "giá cả"
+        },
+        {
+          "word": "性格",
+          "reading": "せいかく",
+          "meaning_vi": "tính cách"
+        },
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning_vi": "đỗ"
+        },
+        {
+          "word": "不合格",
+          "reading": "ふごうかく",
+          "meaning_vi": "trượt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 42 | BÀI 3 > CHỮ HÁN > 格"
+    },
+    {
+      "id": 3706,
+      "kanji": "路",
+      "han_viet": "LỘ",
+      "meaning_vi": "đường",
+      "onyomi": [
+        "ロ"
+      ],
+      "kunyomi": [
+        "じ"
+      ],
+      "compounds": [
+        {
+          "word": "高速道路",
+          "reading": "こうそくどうろ",
+          "meaning_vi": "đường cao tốc"
+        },
+        {
+          "word": "線路",
+          "reading": "せんろ",
+          "meaning_vi": "đường ray"
+        },
+        {
+          "word": "道路",
+          "reading": "どうろ",
+          "meaning_vi": "đường bộ"
+        },
+        {
+          "word": "路面",
+          "reading": "ろめん",
+          "meaning_vi": "mặt đường"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 42 | BÀI 3 > CHỮ HÁN > 路"
+    },
+    {
+      "id": 3707,
+      "kanji": "落",
+      "han_viet": "LẠC",
+      "meaning_vi": "rơi; đánh rơi",
+      "onyomi": [
+        "ラク"
+      ],
+      "kunyomi": [
+        "お・ちる",
+        "お・とす"
+      ],
+      "compounds": [
+        {
+          "word": "落ちる",
+          "reading": "おちる",
+          "meaning_vi": "rơi"
+        },
+        {
+          "word": "落とす",
+          "reading": "おとす",
+          "meaning_vi": "đánh rơi"
+        },
+        {
+          "word": "落とし物",
+          "reading": "おとしもの",
+          "meaning_vi": "đồ đánh rơi"
+        },
+        {
+          "word": "落ち着く",
+          "reading": "おちつく",
+          "meaning_vi": "bình tĩnh"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 43 | BÀI 3 > CHỮ HÁN > 落"
+    }
+  ]
+}

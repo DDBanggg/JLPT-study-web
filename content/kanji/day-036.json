@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-036",
+  "study_day": 36,
+  "items": [
+    {
+      "id": 3601,
+      "kanji": "燃",
+      "han_viet": "NHIÊN",
+      "meaning_vi": "cháy; đốt",
+      "onyomi": [
+        "ネン"
+      ],
+      "kunyomi": [
+        "も・える",
+        "も・やす",
+        "も・す"
+      ],
+      "compounds": [
+        {
+          "word": "燃える",
+          "reading": "もえる",
+          "meaning_vi": "cháy"
+        },
+        {
+          "word": "燃やす",
+          "reading": "もやす",
+          "meaning_vi": "đốt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 24 | BÀI 2 > CHỮ HÁN > 燃"
+    },
+    {
+      "id": 3602,
+      "kanji": "雑",
+      "han_viet": "TẠP",
+      "meaning_vi": "lộn xộn; tạp",
+      "onyomi": [
+        "ザツ",
+        "ゾウ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "混雑",
+          "reading": "こんざつ",
+          "meaning_vi": "đông đúc"
+        },
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "meaning_vi": "tạp chí"
+        },
+        {
+          "word": "複雑",
+          "reading": "ふくざつ",
+          "meaning_vi": "phức tạp"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 25 | BÀI 2 > CHỮ HÁN > 雑"
+    },
+    {
+      "id": 3603,
+      "kanji": "難",
+      "han_viet": "NAN, NẠN",
+      "meaning_vi": "khó; tai nạn",
+      "onyomi": [
+        "ナン"
+      ],
+      "kunyomi": [
+        "むずか・しい",
+        "かた・い"
+      ],
+      "compounds": [
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "meaning_vi": "khó"
+        },
+        {
+          "word": "有り難い",
+          "reading": "ありがたい",
+          "meaning_vi": "đáng quý"
+        },
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "meaning_vi": "sơ tán"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 25 | BÀI 2 > CHỮ HÁN > 難"
+    },
+    {
+      "id": 3604,
+      "kanji": "観",
+      "han_viet": "QUAN",
+      "meaning_vi": "quan sát; tham quan",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "観客",
+          "reading": "かんきゃく",
+          "meaning_vi": "khán giả"
+        },
+        {
+          "word": "観光",
+          "reading": "かんこう",
+          "meaning_vi": "du lịch"
+        },
+        {
+          "word": "観光地",
+          "reading": "かんこうち",
+          "meaning_vi": "địa điểm du lịch"
+        },
+        {
+          "word": "観察",
+          "reading": "かんさつ",
+          "meaning_vi": "quan sát"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 25 | BÀI 2 > CHỮ HÁN > 観"
+    },
+    {
+      "id": 3605,
+      "kanji": "覚",
+      "han_viet": "GIÁC",
+      "meaning_vi": "nhớ; tỉnh",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "おぼ・える",
+        "さ・ます",
+        "さ・める"
+      ],
+      "compounds": [
+        {
+          "word": "覚える",
+          "reading": "おぼえる",
+          "meaning_vi": "nhớ"
+        },
+        {
+          "word": "覚ます",
+          "reading": "さます",
+          "meaning_vi": "đánh thức"
+        },
+        {
+          "word": "覚める",
+          "reading": "さめる",
+          "meaning_vi": "tỉnh dậy"
+        },
+        {
+          "word": "目覚まし時計",
+          "reading": "めざましどけい",
+          "meaning_vi": "đồng hồ báo thức"
+        },
+        {
+          "word": "覚悟",
+          "reading": "かくご",
+          "meaning_vi": "chuẩn bị tinh thần"
+        },
+        {
+          "word": "感覚",
+          "reading": "かんかく",
+          "meaning_vi": "cảm giác"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 26 | BÀI 2 > CHỮ HÁN > 覚"
+    },
+    {
+      "id": 3606,
+      "kanji": "現",
+      "han_viet": "HIỆN",
+      "meaning_vi": "xuất hiện; hiện tại",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "あらわ・れる",
+        "あらわ・す"
+      ],
+      "compounds": [
+        {
+          "word": "現れる",
+          "reading": "あらわれる",
+          "meaning_vi": "xuất hiện"
+        },
+        {
+          "word": "現す",
+          "reading": "あらわす",
+          "meaning_vi": "biểu lộ"
+        },
+        {
+          "word": "現金",
+          "reading": "げんきん",
+          "meaning_vi": "tiền mặt"
+        },
+        {
+          "word": "現在",
+          "reading": "げんざい",
+          "meaning_vi": "hiện tại"
+        },
+        {
+          "word": "現実",
+          "reading": "げんじつ",
+          "meaning_vi": "hiện thực"
+        },
+        {
+          "word": "現代",
+          "reading": "げんだい",
+          "meaning_vi": "hiện đại"
+        },
+        {
+          "word": "表現",
+          "reading": "ひょうげん",
+          "meaning_vi": "biểu hiện"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 26 | BÀI 2 > CHỮ HÁN > 現"
+    },
+    {
+      "id": 3607,
+      "kanji": "規",
+      "han_viet": "QUY",
+      "meaning_vi": "quy tắc",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "meaning_vi": "quy tắc, nội quy"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 26 | BÀI 2 > CHỮ HÁN > 規"
+    }
+  ]
+}

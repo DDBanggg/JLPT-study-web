@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-034",
+  "study_day": 34,
+  "target": 50,
+  "pool_size": 36,
+  "items": [
+    {
+      "id": 3401,
+      "surface": "預かる",
+      "hiragana": "あずかる",
+      "kanji": "預かる",
+      "meaning_vi": "trông nom, giữ hộ",
+      "examples": [
+        {
+          "jp": "友達の子供を預かる。",
+          "vi": "Tôi trông con hộ bạn."
+        },
+        {
+          "jp": "ホテルで荷物を預かってもらえます。",
+          "vi": "Bạn có thể nhờ trông hộ hành lý tại khách sạn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 038 — 預かる"
+    },
+    {
+      "id": 3402,
+      "surface": "頼る",
+      "hiragana": "たよる",
+      "kanji": "頼る",
+      "meaning_vi": "dựa dẫm, nhờ cậy",
+      "examples": [
+        {
+          "jp": "20 歳までは親に頼って生活する。",
+          "vi": "Sống phụ thuộc vào bố mẹ cho đến 20 tuổi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 039 — 頼る"
+    },
+    {
+      "id": 3403,
+      "surface": "言い返す",
+      "hiragana": "いいかえす",
+      "kanji": "言い返す",
+      "meaning_vi": "nói lại, đáp lại",
+      "examples": [
+        {
+          "jp": "彼女は何を言われても、決して言い返さない。",
+          "vi": "Cô ấy dù có bị nói gì đi nữa, cũng không bao giờ cãi lại."
+        },
+        {
+          "jp": "彼は私の意見に対して、いつも言い返してくる。",
+          "vi": "Anh ấy luôn phản bác lại ý kiến của tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 040 — 言い返す"
+    },
+    {
+      "id": 3404,
+      "surface": "返る",
+      "hiragana": "かえる",
+      "kanji": "返る",
+      "meaning_vi": "được trả lại",
+      "examples": [
+        {
+          "jp": "友達に貸したマンガが返ってきた。",
+          "vi": "Cuốn truyện tôi cho bạn mượn đã được trả lại."
+        },
+        {
+          "jp": "彼からメッセージの返事が返ってこない。",
+          "vi": "Tin nhắn phản hồi từ anh ấy vẫn chưa tới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 041 — 返る"
+    },
+    {
+      "id": 3405,
+      "surface": "暖める",
+      "hiragana": "あたためる",
+      "kanji": "暖める",
+      "meaning_vi": "làm ấm",
+      "examples": [
+        {
+          "jp": "ストーブをつけて部屋を暖める。",
+          "vi": "Bật lò sưởi làm ấm phòng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 042 — 暖める"
+    },
+    {
+      "id": 3406,
+      "surface": "暖まる",
+      "hiragana": "あたたまる",
+      "kanji": "暖まる",
+      "meaning_vi": "ấm lên",
+      "examples": [
+        {
+          "jp": "冬の朝は、暖かいお茶を飲むと体が暖まる。",
+          "vi": "Sáng mùa đông mà uống trà nóng thì cơ thể sẽ ấm lên."
+        },
+        {
+          "jp": "運動したら体が暖まってきた。",
+          "vi": "Sau khi vận động cơ thể đã dần ấm lên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 043 — 暖まる"
+    },
+    {
+      "id": 3407,
+      "surface": "受かる",
+      "hiragana": "うかる",
+      "kanji": "受かる",
+      "meaning_vi": "đỗ, đậu",
+      "examples": [
+        {
+          "jp": "何度も挑戦して、やっと試験に受かった。",
+          "vi": "Sau nhiều lần thử thách, cuối cùng tôi cũng đã đỗ kỳ thi."
+        },
+        {
+          "jp": "娘は行きたい大学に受かって喜んでいる。",
+          "vi": "Con gái tôi đang rất vui vì đã đỗ được vào trường đại học nó muốn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 044 — 受かる"
+    },
+    {
+      "id": 3408,
+      "surface": "受ける",
+      "hiragana": "うける",
+      "kanji": "受ける",
+      "meaning_vi": "nhận, tiếp nhận, dự thi",
+      "examples": [
+        {
+          "jp": "友人が亡くなったと聞いて、強いショックを受けた。",
+          "vi": "Khi nghe tin người bạn qua đời, tôi đã bị sốc nặng."
+        },
+        {
+          "jp": "来週、日本語能力試験を受けます。",
+          "vi": "Tuần sau tôi sẽ sẽ tham dự kỳ thi năng lực tiếng Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 045 — 受ける"
+    },
+    {
+      "id": 3409,
+      "surface": "受け付ける",
+      "hiragana": "うけつける",
+      "kanji": "受け付ける",
+      "meaning_vi": "tiếp nhận",
+      "examples": [
+        {
+          "jp": "返品は出来ませんが、交換は受け付けます。",
+          "vi": "Không thể hoàn trả, nhưng chấp nhận đổi hàng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 046 — 受け付ける"
+    },
+    {
+      "id": 3410,
+      "surface": "引き受ける",
+      "hiragana": "ひきうける",
+      "kanji": "引き受ける",
+      "meaning_vi": "đảm nhận, tiếp nhận công việc",
+      "examples": [
+        {
+          "jp": "先輩が残した仕事を引き受けた。",
+          "vi": "Tôi đã nhận công việc mà tiền bối để lại."
+        },
+        {
+          "jp": "大変な仕事を引き受けてしまった。",
+          "vi": "Tôi đã trót đảm nhận một công việc rất vất vả."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 047 — 引き受ける"
+    },
+    {
+      "id": 3411,
+      "surface": "教わる",
+      "hiragana": "おそわる",
+      "kanji": "教わる",
+      "meaning_vi": "được dạy dỗ, được chỉ bảo TỪ VỰNG ❸",
+      "examples": [
+        {
+          "jp": "日本人の友達に日本語を教わっています。",
+          "vi": "Tôi đang được người bạn là người Nhật dạy tiếng Nhật."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 048 — 教わる"
+    },
+    {
+      "id": 3412,
+      "surface": "怒鳴る",
+      "hiragana": "どなる",
+      "kanji": "怒鳴る",
+      "meaning_vi": "quát tháo, hét lớn",
+      "examples": [
+        {
+          "jp": "先生の怒鳴る声が廊下に響いた。",
+          "vi": "Tiếng quát của giáo viên vang xuống tận hành lang."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 049 — 怒鳴る"
+    },
+    {
+      "id": 3413,
+      "surface": "合わせる",
+      "hiragana": "あわせる",
+      "kanji": "合わせる",
+      "meaning_vi": "kết hợp, hợp lực ❖ điều chỉnh, làm cho hợp ❖ so sánh, đọ",
+      "examples": [
+        {
+          "jp": "これからは妻と二人で力を合わせて頑張ります。",
+          "vi": "Từ nay hai vợ chồng tôi sẽ cùng chung sức nỗ lực."
+        },
+        {
+          "jp": "場所に合わせて服装をかえる。",
+          "vi": "Thay đổi trang phục cho phù hợp với địa điểm."
+        },
+        {
+          "jp": "試験後、みんなで答えを合わせた。",
+          "vi": "Mọi người cùng so đáp án với nhau sau kì thi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 050 — 合わせる"
+    },
+    {
+      "id": 3414,
+      "surface": "まとまる",
+      "hiragana": "まとまる",
+      "kanji": null,
+      "meaning_vi": "được thu gọn ❖ được sắp xếp hợp lý ❖ được thỏa thuận, thống nhất",
+      "examples": [
+        {
+          "jp": "引っ越し荷物がまとまる。",
+          "vi": "Hành lý chuyển nhà được thu gọn lại."
+        },
+        {
+          "jp": "考えがまとまらなくて、レポートが書けない。",
+          "vi": "Vì chưa sắp xếp được ý tưởng nên tôi không viết được báo cáo."
+        },
+        {
+          "jp": "なかなかみんなの意見がまとまらない。",
+          "vi": "Mãi mà chưa thống nhất được ý kiến của mọi người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 051 — まとまる"
+    },
+    {
+      "id": 3415,
+      "surface": "勧める",
+      "hiragana": "すすめる",
+      "kanji": "勧める",
+      "meaning_vi": "khuyên; giới thiệu, gợi ý",
+      "examples": [
+        {
+          "jp": "先生に勧められて、日本への留学を決めた。",
+          "vi": "Được thầy/ cô khuyên nên tôi đã quyết định đi du học Nhật Bản."
+        },
+        {
+          "jp": "友達に私の好きな映画を見るように勧める。",
+          "vi": "Tôi giới thiệu cho bạn bè bộ phim tôi yêu thích."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 11 | BÀI 1 > TỪ VỰNG > mục 052 — 勧める"
+    },
+    {
+      "id": 3416,
+      "surface": "下る",
+      "hiragana": "くだる",
+      "kanji": "下る",
+      "meaning_vi": "đi xuống",
+      "examples": [
+        {
+          "jp": "ここから坂を下ると、駅に着きます。",
+          "vi": "Từ đây đi xuống hết con dốc, bạn sẽ đến nhà ga."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 053 — 下る"
+    },
+    {
+      "id": 3417,
+      "surface": "殺す",
+      "hiragana": "ころす",
+      "kanji": "殺す",
+      "meaning_vi": "giết, sát hại",
+      "examples": [
+        {
+          "jp": "犯人は 10 人も殺した。",
+          "vi": "Tên tội phạm đã sát hại tận 10 người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 054 — 殺す"
+    },
+    {
+      "id": 3418,
+      "surface": "済む",
+      "hiragana": "すむ",
+      "kanji": "済む",
+      "meaning_vi": "hoàn tất, kết thúc",
+      "examples": [
+        {
+          "jp": "留学のための手続きはすべて済んだ。",
+          "vi": "Các thủ tục để đi du học đã được hoàn tất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 055 — 済む"
+    },
+    {
+      "id": 3419,
+      "surface": "はやる",
+      "hiragana": "はやる",
+      "kanji": null,
+      "meaning_vi": "lưu hành, thịnh hành",
+      "examples": [
+        {
+          "jp": "この夏は、紫色のアイテムがはやっている。",
+          "vi": "Hè năm nay đang thịnh hành mốt phụ kiện màu tím."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 056 — はやる"
+    },
+    {
+      "id": 3420,
+      "surface": "稼ぐ",
+      "hiragana": "かせぐ",
+      "kanji": "稼ぐ",
+      "meaning_vi": "を稼ぐ。 (Câu giờ.) kiếm (tiền), câu (giờ)",
+      "examples": [
+        {
+          "jp": "お金をもっと稼いで、高級マンションに住みたい。",
+          "vi": "Muốn kiếm được thêm nhiều tiền và sống trong một căn hộ cao cấp."
+        },
+        {
+          "jp": "時間",
+          "vi": "Câu giờ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 057 — 稼ぐ"
+    },
+    {
+      "id": 3421,
+      "surface": "通る",
+      "hiragana": "とおる",
+      "kanji": "通る",
+      "meaning_vi": "đi qua, băng qua ❖ thông qua, vượt qua ❖ hiểu được",
+      "examples": [
+        {
+          "jp": "この道は狭すぎて、車では通れない。",
+          "vi": "Con đường này quá hẹp nên xe ô tô không thể đi qua."
+        },
+        {
+          "jp": "国家公務員試験に通った。",
+          "vi": "Tôi đã vượt qua kỳ thi tuyển công chức quốc gia."
+        },
+        {
+          "jp": "そんな言い訳は通らない。",
+          "vi": "Lý do kiểu đó không được chấp nhận."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 058 — 通る"
+    },
+    {
+      "id": 3422,
+      "surface": "騒ぐ",
+      "hiragana": "さわぐ",
+      "kanji": "騒ぐ",
+      "meaning_vi": "làm ồn, làm ầm lên",
+      "examples": [
+        {
+          "jp": "お店の前で誰かが騒いでいる。",
+          "vi": "Có ai đó đang gây ồn trước cửa hàng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 059 — 騒ぐ"
+    },
+    {
+      "id": 3423,
+      "surface": "似ている",
+      "hiragana": "にている",
+      "kanji": "似ている",
+      "meaning_vi": "giống nhau",
+      "examples": [
+        {
+          "jp": "私と兄は顔が似ていて、よく間違えられる。",
+          "vi": "Tôi và anh trai có khuôn mặt giống nhau, nên thường bị nhầm lẫn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 060 — 似ている"
+    },
+    {
+      "id": 3424,
+      "surface": "楽しめる",
+      "hiragana": "たのしめる",
+      "kanji": "楽しめる",
+      "meaning_vi": "có thể tận hưởng, có thể vui thú",
+      "examples": [
+        {
+          "jp": "このレストランでは色々な料理を楽しめる。",
+          "vi": "Ở nhà hàng này, bạn có thể thưởng thức đa dạng các món ăn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 061 — 楽しめる"
+    },
+    {
+      "id": 3425,
+      "surface": "依頼",
+      "hiragana": "いらい",
+      "kanji": "依頼",
+      "meaning_vi": "yêu cầu, đề nghị, nhờ vả",
+      "examples": [
+        {
+          "jp": "社長の依頼で、大阪に出張した。",
+          "vi": "Tôi đã đến Osaka công tác theo yêu cầu của giám đốc."
+        },
+        {
+          "jp": "ご依頼いただきありがとうございます。",
+          "vi": "Xin cảm ơn quý khách đã đưa ra yêu cầu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 062 — 依頼"
+    },
+    {
+      "id": 3426,
+      "surface": "離婚",
+      "hiragana": "りこん",
+      "kanji": "離婚",
+      "meaning_vi": "ly hôn",
+      "examples": [
+        {
+          "jp": "働かない夫と離婚することにした。",
+          "vi": "Tôi đã quyết định ly hôn với người chồng không chịu làm việc."
+        },
+        {
+          "jp": "最近、離婚する夫婦が増えている。",
+          "vi": "Gần đây ngày càng có nhiều các cặp vợ chồng ly hôn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 12 | BÀI 1 > TỪ VỰNG > mục 063 — 離婚"
+    },
+    {
+      "id": 3427,
+      "surface": "提案",
+      "hiragana": "ていあん",
+      "kanji": "提案",
+      "meaning_vi": "đề xuất, đề án",
+      "examples": [
+        {
+          "jp": "今度の家族旅行は海に行きたいと提案した。",
+          "vi": "Tôi đã đề xuất rằng trong chuyến du lịch gia đình sắp tới, tôi muốn đi biển."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 064 — 提案"
+    },
+    {
+      "id": 3428,
+      "surface": "退院",
+      "hiragana": "たいいん",
+      "kanji": "退院",
+      "meaning_vi": "xuất viện",
+      "examples": [
+        {
+          "jp": "退院のお祝いに、花をもらった。",
+          "vi": "Tôi đã nhận được hoa chúc mừng xuất viện."
+        },
+        {
+          "jp": "退院の日が決まったので、家族に電話した。",
+          "vi": "Vì ngày xuất viện đã được quyết định, tôi đã gọi điện cho gia đình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 065 — 退院"
+    },
+    {
+      "id": 3429,
+      "surface": "訪問",
+      "hiragana": "ほうもん",
+      "kanji": "訪問",
+      "meaning_vi": "đến thăm, thăm viếng",
+      "examples": [
+        {
+          "jp": "来週、交換留学生が市内の小学校を訪問する。",
+          "vi": "Tuần tới, du học sinh trao đổi sẽ đến thăm một trường tiểu học trong thành phố."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする",
+        "Câu ví dụ bổ sung được biên soạn theo đúng nghĩa và cách dùng trong nguồn Chương 4."
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 066 — 訪問"
+    },
+    {
+      "id": 3430,
+      "surface": "要求",
+      "hiragana": "ようきゅう",
+      "kanji": "要求",
+      "meaning_vi": "yêu cầu, đòi hỏi",
+      "examples": [
+        {
+          "jp": "取引先が値引きを要求してきた。",
+          "vi": "Đối tác đã yêu cầu giảm giá."
+        },
+        {
+          "jp": "警察は犯人の要求を受け入れた。",
+          "vi": "Cảnh sát đã chấp nhận yêu cầu của phạm nhân."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 067 — 要求"
+    },
+    {
+      "id": 3431,
+      "surface": "承知",
+      "hiragana": "しょうち",
+      "kanji": "承知",
+      "meaning_vi": "thừa nhận, hiểu",
+      "examples": [
+        {
+          "jp": "日本に留学したいと伝えたら、両親は快く承知してくれた。",
+          "vi": "Bố mẹ tôi đã thoải mái đồng ý khi tôi nói muốn du học Nhật Bản."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 068 — 承知"
+    },
+    {
+      "id": 3432,
+      "surface": "いたずら",
+      "hiragana": "いたずら",
+      "kanji": null,
+      "meaning_vi": "nghịch ngợm, phá phách",
+      "examples": [
+        {
+          "jp": "いたずらをして母に怒られた。",
+          "vi": "Nghịch ngợm nên bị mẹ mắng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/NするAな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 069 — いたずら"
+    },
+    {
+      "id": 3433,
+      "surface": "引っ越し",
+      "hiragana": "ひっこし",
+      "kanji": "引っ越し",
+      "meaning_vi": "chuyển nhà",
+      "examples": [
+        {
+          "jp": "私は引っ越ししてきたばかりで、この土地には詳しくない。",
+          "vi": "Tôi vừa mới chuyển đến, nên không rõ về khu vực này."
+        },
+        {
+          "jp": "引っ越しの準備がすべて終わった。",
+          "vi": "Việc chuẩn bị chuyển nhà đã hoàn tất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 070 — 引っ越し"
+    },
+    {
+      "id": 3434,
+      "surface": "大騒ぎ",
+      "hiragana": "おおさわぎ",
+      "kanji": "大騒ぎ",
+      "meaning_vi": "làm ầm, ầm ĩ, rùm beng",
+      "examples": [
+        {
+          "jp": "小さなことで大騒ぎする。",
+          "vi": "Làm ầm lên vì chuyện nhỏ nhặt."
+        },
+        {
+          "jp": "親戚が集まると、いつも子供たちが走り回って大騒ぎになる。",
+          "vi": "Hễ họ hàng tụ họp là bọn trẻ lại chạy nhảy khắp nơi và làm ầm ĩ hết cả lên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 071 — 大騒ぎ"
+    },
+    {
+      "id": 3435,
+      "surface": "司会",
+      "hiragana": "しかい",
+      "kanji": "司会",
+      "meaning_vi": "chủ trì, điều hành, người dẫn chương trình",
+      "examples": [
+        {
+          "jp": "会議の司会は、経験豊富な先輩が適任だ。",
+          "vi": "Tiền bối có kinh nghiệm làm chủ tọa cuộc họp là thích hợp nhất."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 072 — 司会"
+    },
+    {
+      "id": 3436,
+      "surface": "コメント",
+      "hiragana": "こめんと",
+      "kanji": null,
+      "meaning_vi": "bình luận, nhận xét",
+      "examples": [
+        {
+          "jp": "スピーチのあとで、何かコメントをいただけるとありが たいです。",
+          "vi": "comment"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 13 | BÀI 1 > TỪ VỰNG > mục 073 — コメント"
+    }
+  ]
+}

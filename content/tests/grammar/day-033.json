@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-033",
+  "type": "grammar",
+  "title": "Grammar Test — Day 33",
+  "study_day": 33,
+  "coverage": {
+    "from_day": 33,
+    "to_day": 33
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "市役所で新しいごみ分別制度（　　　）住民説明会が開かれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "海底トンネルの調査は二年間（　　　）行われた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "研究チームは鳥の渡り（　　　）観察結果を公表した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたる"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に関する"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "台風の影響で広い範囲（　　　）停電が続いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "を込めて"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "にわたって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "食品アレルギー（　　　）質問がある方は医師に相談してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "祭りの期間中、三日間（　　　）駅前の道路が通行止めになる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関し"
+            },
+            {
+              "id": "B",
+              "text": "にわたり"
+            },
+            {
+              "id": "C",
+              "text": "を込め"
+            },
+            {
+              "id": "D",
+              "text": "に応じ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "この遺跡（　　　）資料は二階の展示室にあります。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたる"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に関する"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "五十ページ（　　　）調査報告書を一晩で読み終えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に応じた"
+            },
+            {
+              "id": "D",
+              "text": "にわたる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "海外での運転（　　　）保険会社から注意を受けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "式典は午前から夕方（　　　）複数の会場で開催された。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "契約の更新（　　　）担当部署へ正式な回答を送った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたって"
+            },
+            {
+              "id": "B",
+              "text": "を込めて"
+            },
+            {
+              "id": "C",
+              "text": "に関して"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "豪雨は山間部の全域（　　　）大きな被害を与えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関し"
+            },
+            {
+              "id": "B",
+              "text": "を込め"
+            },
+            {
+              "id": "C",
+              "text": "に応じ"
+            },
+            {
+              "id": "D",
+              "text": "にわたり"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "睡眠と記憶の関係（　　　）記事を科学雑誌で読んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "にわたる"
+            },
+            {
+              "id": "C",
+              "text": "を込めた"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "この壁画は幅二十メートル（　　　）描かれている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "空港の手荷物制限（　　　）航空会社に確認した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたって"
+            },
+            {
+              "id": "B",
+              "text": "を込めて"
+            },
+            {
+              "id": "C",
+              "text": "に関して"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "全国（　　　）聞き取り調査には千人以上が協力した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に応じた"
+            },
+            {
+              "id": "D",
+              "text": "にわたる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "来年度の奨学金（　　　）大学から重要な通知が届いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "雪まつりは一か月（　　　）市内各地で楽しめる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "患者の個人情報（　　　）書類は鍵のある棚に保管する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたる"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に関する"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "交渉は深夜（　　　）、ようやく合意に達した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関し"
+            },
+            {
+              "id": "B",
+              "text": "を込め"
+            },
+            {
+              "id": "C",
+              "text": "に応じ"
+            },
+            {
+              "id": "D",
+              "text": "にわたり"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "新商品の安全性（　　　）第三者機関が検査を行った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "川沿い十キロ（　　　）桜の木が植えられている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "に応じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "文化財の修理（　　　）費用を議会で話し合った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "にわたる"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "に関する"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "彼女は生涯（　　　）地域医療に力を尽くした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "を込めて"
+            },
+            {
+              "id": "C",
+              "text": "に応じて"
+            },
+            {
+              "id": "D",
+              "text": "にわたって"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3302"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "留学生向け住宅（　　　）大学の窓口で説明を受けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3301"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-036",
+  "study_day": 36,
+  "items": [
+    {
+      "id": 3601,
+      "structure": "～ほうがいい",
+      "formation": [
+        "Vた／Vない + ほうがいい"
+      ],
+      "meaning_vi": "nên; không nên",
+      "usage_vi": "Đưa ra lời khuyên hoặc phương án để tránh vấn đề hay ngăn tình hình xấu đi.",
+      "examples": [
+        {
+          "jp": "この辺は夜危ないですから、女性は一人で歩かないほうがいいですよ。",
+          "vi": "Khu vực này ban đêm nguy hiểm nên phụ nữ không nên đi một mình."
+        },
+        {
+          "jp": "小さな問題でも早く解決したほうがいい。",
+          "vi": "Dù là vấn đề nhỏ cũng nên giải quyết sớm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 37 | BÀI 2 > NGỮ PHÁP > mục 4 — ～ほうがいい"
+    },
+    {
+      "id": 3602,
+      "structure": "～べきだ",
+      "formation": [
+        "Vる／N・Aな + である + べきだ"
+      ],
+      "meaning_vi": "nên; cần phải theo lẽ thường",
+      "usage_vi": "Nêu điều được xem là đúng đắn hoặc đương nhiên theo chuẩn mực, thường thức hay trách nhiệm.",
+      "examples": [
+        {
+          "jp": "難しい文法を学ぶ前に、基礎的な文法をしっかり学ぶべきだ。",
+          "vi": "Trước khi học ngữ pháp khó, nên học chắc ngữ pháp cơ bản."
+        },
+        {
+          "jp": "ゲームに熱中するのはいいけど、勉強を忘れるべきじゃない。",
+          "vi": "Mê trò chơi cũng được nhưng không nên quên việc học."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 38 | BÀI 2 > NGỮ PHÁP > mục 5 — ～べきだ"
+    }
+  ]
+}

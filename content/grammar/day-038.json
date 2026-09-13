@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-038",
+  "study_day": 38,
+  "items": [
+    {
+      "id": 3801,
+      "structure": "～まま",
+      "formation": [
+        "Vた／Vない・Aい・Aな・Nの + まま（で／だ）／Vる + ままに"
+      ],
+      "meaning_vi": "cứ để nguyên; vẫn như vậy; làm theo đúng",
+      "usage_vi": "Diễn tả trạng thái không thay đổi, giữ nguyên khi làm việc khác, hoặc hành động theo đúng sự dẫn dắt/chỉ thị.",
+      "examples": [
+        {
+          "jp": "母の味は昔のままで美味しかった。",
+          "vi": "Hương vị món mẹ nấu vẫn ngon như xưa."
+        },
+        {
+          "jp": "学校でマスクをかけたまま授業に出ることになった。",
+          "vi": "Tôi phải dự giờ học trong khi vẫn đeo khẩu trang."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 57 | BÀI 3 > NGỮ PHÁP > mục 5 — ～まま"
+    },
+    {
+      "id": 3802,
+      "structure": "～っぱなし",
+      "formation": [
+        "Vます + っぱなし（だ／で）／っぱなしにする・なる／っぱなしの + N"
+      ],
+      "meaning_vi": "cứ để nguyên; làm suốt",
+      "usage_vi": "Diễn tả trạng thái bị để nguyên hoặc hành động tiếp diễn lâu, thường mang sắc thái tiêu cực.",
+      "examples": [
+        {
+          "jp": "彼からお金を借りっぱなしだったことを今思い出した。",
+          "vi": "Bây giờ tôi mới nhớ ra mình vẫn chưa trả số tiền đã vay anh ấy."
+        },
+        {
+          "jp": "夫はテレビをつけっぱなしで寝てしまう。",
+          "vi": "Chồng tôi cứ để TV bật rồi ngủ mất."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 58 | BÀI 3 > NGỮ PHÁP > mục 6 — ～っぱなし"
+    }
+  ]
+}

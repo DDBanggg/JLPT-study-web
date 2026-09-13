@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-036",
+  "type": "grammar",
+  "title": "Grammar Test — Day 36",
+  "study_day": 36,
+  "coverage": {
+    "from_day": 36,
+    "to_day": 36
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "足首を痛めたなら、今日は走らない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "公共の場所では互いの迷惑にならないよう行動する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "この魚は生で食べず、十分に焼いた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "研究者は都合の悪い結果も正直に公表する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "濃い霧が出ているから、車の速度を落とした（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "災害時には高齢者や子どもの避難を優先する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "目覚まし時計を一つだけでなく二つセットした（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "借りた道具は約束した日までに返す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "野菜が傷む前に、今夜の料理で使った（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "会社は利用者の個人情報を厳重に守る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "耳鳴りが数日治まらないなら、耳鼻科を受診した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "観光客も地域の生活習慣を尊重する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "混雑を避けたいなら、開店直後に行った（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "親は子どもの意見を最後まで聞く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "部屋に煙が入ってきたら、すぐ窓を閉めた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "事故を見た人は警察に事実を伝える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "食中毒を防ぐため、調理した料理は早めに冷蔵庫へ入れた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "限りある資源は次の世代のために大切に使う（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "眠気が強いときは、無理に運転しない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "重要な決定ほど複数の立場から検討する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "つもりだ"
+            },
+            {
+              "id": "D",
+              "text": "べきだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "焦げた鍋は力を入れて洗う前に水につけた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "医師は治療の利点だけでなく危険も説明する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "べきだ"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "電池が熱くなったら、機器から外した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "失敗の責任を一人だけに負わせる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はずがない"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "つもりはない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "大事なファイルは別の場所にも保存した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "B",
+              "text": "ことになっている"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        }
+      ]
+    }
+  ]
+}

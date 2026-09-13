@@ -1,0 +1,707 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-036",
+  "study_day": 36,
+  "target": 50,
+  "pool_size": 34,
+  "items": [
+    {
+      "id": 3601,
+      "surface": "現す",
+      "hiragana": "あらわす",
+      "kanji": "現す",
+      "meaning_vi": "làm cho xuất hiện, lộ diện, lộ ra",
+      "examples": [
+        {
+          "jp": "雲の間から太陽が姿を現した。",
+          "vi": "Mặt trời ló dạng từ giữa những đám mây."
+        },
+        {
+          "jp": "犯人が警察の前に姿を現した。",
+          "vi": "Hung thủ đã lộ diện trước cảnh sát."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 035 — 現す"
+    },
+    {
+      "id": 3602,
+      "surface": "現れる",
+      "hiragana": "あらわれる",
+      "kanji": "現れる",
+      "meaning_vi": "xuất hiện, lộ diện",
+      "examples": [
+        {
+          "jp": "薬を飲むとすぐに効果が現れた。",
+          "vi": "Thuốc lập tức có tác dụng sau khi uống."
+        },
+        {
+          "jp": "雲が流れて、月が現れた。",
+          "vi": "Mây trôi và trăng xuất hiện."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 036 — 現れる"
+    },
+    {
+      "id": 3603,
+      "surface": "覚える",
+      "hiragana": "おぼえる",
+      "kanji": "覚える",
+      "meaning_vi": "nhớ, học thuộc",
+      "examples": [
+        {
+          "jp": "毎日漢字を 10 個覚えないといけません。",
+          "vi": "Ngày nào tôi cũng phải học thuộc 10 chữ Hán."
+        },
+        {
+          "jp": "3 年前、一緒に富士山に登ったのを覚えていますか。",
+          "vi": "Cậu có nhớ 3 năm trước mình đã cùng leo núi Phú Sĩ không?"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 037 — 覚える"
+    },
+    {
+      "id": 3604,
+      "surface": "覚ます",
+      "hiragana": "さます",
+      "kanji": "覚ます",
+      "meaning_vi": "đánh thức, làm tỉnh",
+      "examples": [
+        {
+          "jp": "大きな音で目を覚ました。",
+          "vi": "Tôi tỉnh giấc bởi một tiếng động lớn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 038 — 覚ます"
+    },
+    {
+      "id": 3605,
+      "surface": "覚める",
+      "hiragana": "さめる",
+      "kanji": "覚める",
+      "meaning_vi": "から覚める。 (Tỉnh giấc khỏi giấc mơ.) tỉnh táo, tỉnh dậy, tỉnh ngộ",
+      "examples": [
+        {
+          "jp": "母の声で目が覚めた。",
+          "vi": "Bị tỉnh giấc bởi tiếng của mẹ."
+        },
+        {
+          "jp": "夢",
+          "vi": "Tỉnh giấc khỏi giấc mơ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 039 — 覚める"
+    },
+    {
+      "id": 3606,
+      "surface": "燃える",
+      "hiragana": "もえる",
+      "kanji": "燃える",
+      "meaning_vi": "cháy, bốc cháy",
+      "examples": [
+        {
+          "jp": "火事で家が燃えてしまった。",
+          "vi": "Ngôi nhà đã bị cháy do hỏa hoạn."
+        },
+        {
+          "jp": "燃えるゴミは向こうのゴミ箱に入れてください。",
+          "vi": "Rác cháy được hãy vứt vào thùng rác đằng kia."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 040 — 燃える"
+    },
+    {
+      "id": 3607,
+      "surface": "燃やす",
+      "hiragana": "もやす",
+      "kanji": "燃やす",
+      "meaning_vi": "えるごみを燃やす。 (Đốt rác cháy được.) đốt, thiêu",
+      "examples": [
+        {
+          "jp": "いらなくなった紙を燃やす。",
+          "vi": "Đốt tờ giấy đã không còn cần thiết."
+        },
+        {
+          "jp": "燃",
+          "vi": "Đốt rác cháy được."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 041 — 燃やす"
+    },
+    {
+      "id": 3608,
+      "surface": "熱中",
+      "hiragana": "ねっちゅう",
+      "kanji": "熱中",
+      "meaning_vi": "đam mê, mải mê",
+      "examples": [
+        {
+          "jp": "学生の頃はスポーツに熱中していた。",
+          "vi": "Thời học sinh tôi đã rất đam mê thể thao."
+        },
+        {
+          "jp": "弟はゲームに熱中すると、いくら呼んでも気づかない。",
+          "vi": "Em trai tôi hễ mải chơi game là gọi bao nhiêu lần cũng không để ý."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 042 — 熱中"
+    },
+    {
+      "id": 3609,
+      "surface": "喫煙",
+      "hiragana": "きつえん",
+      "kanji": "喫煙",
+      "meaning_vi": "hút thuốc",
+      "examples": [
+        {
+          "jp": "この場所での喫煙はご遠慮ください。",
+          "vi": "Xin vui lòng không hút thuốc tại đây."
+        },
+        {
+          "jp": "会社の屋上に喫煙所があります。",
+          "vi": "Trên sân thượng công ty có chỗ hút thuốc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 043 — 喫煙"
+    },
+    {
+      "id": 3610,
+      "surface": "混雑",
+      "hiragana": "こんざつ",
+      "kanji": "混雑",
+      "meaning_vi": "đông đúc, hỗn loạn TỪ VỰNG ❸",
+      "examples": [
+        {
+          "jp": "あの店は人気で、いつも混雑している。",
+          "vi": "Cửa hàng đó nổi tiếng nên lúc nào cũng đông đúc."
+        },
+        {
+          "jp": "平日の朝と夕方は電車が混雑する。",
+          "vi": "Vào buổi sáng và chiều tối các ngày trong tuần, tàu điện thường đông đúc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 044 — 混雑"
+    },
+    {
+      "id": 3611,
+      "surface": "避難",
+      "hiragana": "ひなん",
+      "kanji": "避難",
+      "meaning_vi": "いで避難してください。 (Hãy mau chóng sơ tán!) lánh nạn, sơ tán",
+      "examples": [
+        {
+          "jp": "台風が来たので、地下に避難した。",
+          "vi": "Vì bão đến nên đã sơ tán xuống hầm."
+        },
+        {
+          "jp": "急",
+          "vi": "Hãy mau chóng sơ tán!"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 045 — 避難"
+    },
+    {
+      "id": 3612,
+      "surface": "観光",
+      "hiragana": "かんこう",
+      "kanji": "観光",
+      "meaning_vi": "du lịch, tham quan",
+      "examples": [
+        {
+          "jp": "家族で京都を観光しました。",
+          "vi": "Tôi đã đi tham quan Kyoto cùng gia đình."
+        },
+        {
+          "jp": "明日から沖縄に観光に行きます。",
+          "vi": "Từ ngày mai tôi sẽ đi du lịch Okinawa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 046 — 観光"
+    },
+    {
+      "id": 3613,
+      "surface": "欠席",
+      "hiragana": "けっせき",
+      "kanji": "欠席",
+      "meaning_vi": "vắng mặt",
+      "examples": [
+        {
+          "jp": "かぜを引いたので、授業を欠席する。",
+          "vi": "Vì bị cảm nên đã nghỉ học."
+        },
+        {
+          "jp": "あの学生は最近、欠席が多い。",
+          "vi": "Học sinh đó dạo gần đây hay nghỉ học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 047 — 欠席"
+    },
+    {
+      "id": 3614,
+      "surface": "集合",
+      "hiragana": "しゅうごう",
+      "kanji": "集合",
+      "meaning_vi": "tập hợp, tập trung",
+      "examples": [
+        {
+          "jp": "選手の集合が遅れて、試合の開始が遅れた。",
+          "vi": "Việc tập hợp các tuyển thủ bị muộn nên trận đấu bắt đầu muộn."
+        },
+        {
+          "jp": "17 時にここに集合してください。",
+          "vi": "Hãy tập trung lúc 17h tại đây."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 048 — 集合"
+    },
+    {
+      "id": 3615,
+      "surface": "我慢",
+      "hiragana": "がまん",
+      "kanji": "我慢",
+      "meaning_vi": "chịu đựng, nhẫn nại",
+      "examples": [
+        {
+          "jp": "彼にはもう我慢ができない。",
+          "vi": "Tôi không thể chịu đựng anh ấy thêm."
+        },
+        {
+          "jp": "ダイエット中なので、甘い物を我慢する。",
+          "vi": "Vì đang ăn kiêng nên tôi nhịn ăn đồ ngọt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 049 — 我慢"
+    },
+    {
+      "id": 3616,
+      "surface": "解決",
+      "hiragana": "かいけつ",
+      "kanji": "解決",
+      "meaning_vi": "giải quyết",
+      "examples": [
+        {
+          "jp": "夫婦のトラブルを解決する。",
+          "vi": "Giải quyết rắc rối vợ chồng."
+        },
+        {
+          "jp": "なかなか問題が解決しない。",
+          "vi": "Vấn đề mãi không được giải quyết."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 050 — 解決"
+    },
+    {
+      "id": 3617,
+      "surface": "演技",
+      "hiragana": "えんぎ",
+      "kanji": "演技",
+      "meaning_vi": "diễn xuất",
+      "examples": [
+        {
+          "jp": "観客の前で演技する時はいつも緊張します。",
+          "vi": "Tôi luôn cảm thấy căng thẳng khi biểu diễn trước khán giả."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 30 | BÀI 2 > TỪ VỰNG > mục 051 — 演技"
+    },
+    {
+      "id": 3618,
+      "surface": "拍手",
+      "hiragana": "はくしゅ",
+      "kanji": "拍手",
+      "meaning_vi": "vỗ tay える。(Đón khách bằng một tràng vỗ tay.)",
+      "examples": [
+        {
+          "jp": "優勝者に拍手を送る。",
+          "vi": "Gửi một tràng pháo tay đến nhà vô địch."
+        },
+        {
+          "jp": "お客様を拍手で迎",
+          "vi": "Đón khách bằng một tràng vỗ tay."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 052 — 拍手"
+    },
+    {
+      "id": 3619,
+      "surface": "専攻",
+      "hiragana": "せんこう",
+      "kanji": "専攻",
+      "meaning_vi": "chuyên ngành, chuyên môn",
+      "examples": [
+        {
+          "jp": "私の専攻は日本文化です。",
+          "vi": "Chuyên ngành của tôi là văn hóa Nhật Bản."
+        },
+        {
+          "jp": "大学では、経営学を専攻した。",
+          "vi": "Tôi đã học chuyên ngành Quản trị kinh doanh ở trường Đại học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 053 — 専攻"
+    },
+    {
+      "id": 3620,
+      "surface": "遠慮",
+      "hiragana": "えんりょ",
+      "kanji": "遠慮",
+      "meaning_vi": "ngần ngại, khách khí",
+      "examples": [
+        {
+          "jp": "遠慮せずに使ってください。",
+          "vi": "Đừng ngại ngần, hãy sử dụng đi."
+        },
+        {
+          "jp": "ここでの飲食はご遠慮ください。",
+          "vi": "Xin đừng ăn uống ở đây."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 054 — 遠慮"
+    },
+    {
+      "id": 3621,
+      "surface": "復習",
+      "hiragana": "ふくしゅう",
+      "kanji": "復習",
+      "meaning_vi": "ôn tập",
+      "examples": [
+        {
+          "jp": "毎日の予習と復習が大切だ。",
+          "vi": "Việc chuẩn bị bài và ôn bài hằng ngày là rất quan trọng."
+        },
+        {
+          "jp": "授業の後は、内容をしっかり復習しましょう。",
+          "vi": "Sau giờ học, hãy ôn tập kỹ nội dung bài học nhé."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 055 — 復習"
+    },
+    {
+      "id": 3622,
+      "surface": "サービス",
+      "hiragana": "さーびす",
+      "kanji": null,
+      "meaning_vi": "dịch vụ, phục vụ ❖ giảm giá, ưu đãi",
+      "examples": [
+        {
+          "jp": "あのレストランはサービスがいいので人気だ。",
+          "vi": "Nhà hàng đó nổi tiếng vì dịch vụ tốt."
+        },
+        {
+          "jp": "タオルを買ったら、もう一枚サービスしてもらえた。",
+          "vi": "Tôi mua một chiếc khăn và được tặng thêm một chiếc nữa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 056 — サービス"
+    },
+    {
+      "id": 3623,
+      "surface": "わざわざ",
+      "hiragana": "わざわざ",
+      "kanji": null,
+      "meaning_vi": "cất công, mất công",
+      "examples": [
+        {
+          "jp": "彼は雨の中、わざわざ駅まで私を迎えに来てくれた。",
+          "vi": "Trời mưa mà anh ấy vẫn cất công ra tận ga đón tôi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 057 — わざわざ"
+    },
+    {
+      "id": 3624,
+      "surface": "ずいぶん",
+      "hiragana": "ずいぶん",
+      "kanji": null,
+      "meaning_vi": "khá là ❖ nhiều",
+      "examples": [
+        {
+          "jp": "今日はずいぶん寒いですね。",
+          "vi": "Hôm nay khá là lạnh đấy nhỉ."
+        },
+        {
+          "jp": "甥はしばらく見ないうちに、ずいぶん大きくなった。",
+          "vi": "Mới không gặp một thời gian mà cháu trai tôi đã lớn phổng lên rồi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 058 — ずいぶん"
+    },
+    {
+      "id": 3625,
+      "surface": "ずっと",
+      "hiragana": "ずっと",
+      "kanji": null,
+      "meaning_vi": "suốt, mãi mãi ❖ hơn hẳn",
+      "examples": [
+        {
+          "jp": "ずっと前から好きでした。",
+          "vi": "Tôi đã thích nó suốt từ trước rồi."
+        },
+        {
+          "jp": "ずっと前に旅行でアメリカに行ったことがある。",
+          "vi": "Tôi đã từng đi du lịch đến Mỹ từ rất lâu trước đây."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 059 — ずっと"
+    },
+    {
+      "id": 3626,
+      "surface": "せっかく",
+      "hiragana": "せっかく",
+      "kanji": null,
+      "meaning_vi": "tốn công, cất công",
+      "examples": [
+        {
+          "jp": "せっかくの休みだからずっと家にいよう。",
+          "vi": "Chẳng mấy khi có ngày nghỉ, nên cứ ở nhà suốt thôi."
+        },
+        {
+          "jp": "せっかく学校に来たのに、今日は休校だった。",
+          "vi": "Đã mất công tới trường rồi thế mà hôm nay trường lại nghỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 060 — せっかく"
+    },
+    {
+      "id": 3627,
+      "surface": "そっと",
+      "hiragana": "そっと",
+      "kanji": null,
+      "meaning_vi": "nhẹ nhàng; rón rén, khẽ khàng; そっとしておく : để yên",
+      "examples": [
+        {
+          "jp": "私はそっと目を閉じる。",
+          "vi": "Tôi nhẹ nhàng nhắm mắt lại."
+        },
+        {
+          "jp": "子供を起こさないようにそっと歩いた。",
+          "vi": "Tôi đi khẽ để không đánh thức con."
+        },
+        {
+          "jp": "彼は怒っているので、しばらくそっとしておいたほうがいい。",
+          "vi": "Anh ấy đang giận nên tốt nhất là cứ để anh ấy yên một lát."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 31 | BÀI 2 > TỪ VỰNG > mục 061 — そっと"
+    },
+    {
+      "id": 3628,
+      "surface": "たった",
+      "hiragana": "たった",
+      "kanji": null,
+      "meaning_vi": "chỉ, vẻn vẹn",
+      "examples": [
+        {
+          "jp": "財布の中にはたった 100 円しか入っていない。",
+          "vi": "Trong ví tôi chỉ có 100 yên."
+        },
+        {
+          "jp": "教室には、たったの 3 人しか学生がいなかった。",
+          "vi": "Chỉ có 3 học sinh trong lớp học."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 062 — たった"
+    },
+    {
+      "id": 3629,
+      "surface": "だいぶ",
+      "hiragana": "だいぶ",
+      "kanji": null,
+      "meaning_vi": "nhiều, rất, cực kỳ",
+      "examples": [
+        {
+          "jp": "体調はだいぶよくなった。",
+          "vi": "Tôi thấy khoẻ ra nhiều."
+        },
+        {
+          "jp": "去年会ったときより、だいぶ太ったね。",
+          "vi": "So với lần cuối gặp nhau vào năm ngoái, thì đã béo ra nhiều đấy nhỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 063 — だいぶ"
+    },
+    {
+      "id": 3630,
+      "surface": "突然",
+      "hiragana": "とつぜん",
+      "kanji": "突然",
+      "meaning_vi": "đột nhiên, bất ngờ",
+      "examples": [
+        {
+          "jp": "突然電気が消えて、びっくりした。",
+          "vi": "Tự nhiên mất điện làm tôi giật hết cả mình."
+        },
+        {
+          "jp": "友達が連絡もしないで、突然家に来た。",
+          "vi": "Bạn tôi không hề liên lạc trước mà đột nhiên đến nhà."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 064 — 突然"
+    },
+    {
+      "id": 3631,
+      "surface": "偶然",
+      "hiragana": "ぐうぜん",
+      "kanji": "偶然",
+      "meaning_vi": "tình cờ, ngẫu nhiên",
+      "examples": [
+        {
+          "jp": "スーパーで偶然、高校時代の友だちに会った。",
+          "vi": "Tôi tình cờ gặp một người bạn thời cấp ba ở siêu thị."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 065 — 偶然"
+    },
+    {
+      "id": 3632,
+      "surface": "それぞれ",
+      "hiragana": "それぞれ",
+      "kanji": null,
+      "meaning_vi": "mỗi, từng",
+      "examples": [
+        {
+          "jp": "クラスのみんなはそれぞれ違う意見を言った。",
+          "vi": "Mọi người trong lớp đưa ra ý kiến khác nhau."
+        },
+        {
+          "jp": "家族それぞれに自分の部屋がある。",
+          "vi": "Gia đình tôi mỗi người đều có phòng riêng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 066 — それぞれ"
+    },
+    {
+      "id": 3633,
+      "surface": "たいてい",
+      "hiragana": "たいてい",
+      "kanji": null,
+      "meaning_vi": "thường thường ❖ đại để, nói chung",
+      "examples": [
+        {
+          "jp": "休日はたいてい家で寝ています。",
+          "vi": "Ngày nghỉ tôi thường ở nhà ngủ."
+        },
+        {
+          "jp": "世界中のたいていの人が携帯電話を持っている。",
+          "vi": "Hầu hết mọi người trên thế giới đều có điện thoại di động."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 067 — たいてい"
+    },
+    {
+      "id": 3634,
+      "surface": "多少",
+      "hiragana": "たしょう",
+      "kanji": "多少",
+      "meaning_vi": "một chút, ít nhiều",
+      "examples": [
+        {
+          "jp": "最近涼しくなりましたが、今日は多少暑いと感じます。",
+          "vi": "Gần đây thời tiết mát mẻ, nhưng hôm nay hơi nóng một chút."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 32 | BÀI 2 > TỪ VỰNG > mục 068 — 多少"
+    }
+  ]
+}

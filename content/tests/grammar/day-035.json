@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-035",
+  "type": "grammar",
+  "title": "Grammar Test — Day 35",
+  "study_day": 35,
+  "coverage": {
+    "from_day": 35,
+    "to_day": 35
+  },
+  "lesson_groups": [
+    {
+      "lesson": 2,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "【実験室の安全規則】保護眼鏡を必ず着用する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こと"
+            },
+            {
+              "id": "B",
+              "text": "はず"
+            },
+            {
+              "id": "C",
+              "text": "つもり"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "少し道に迷っただけだから、そんなに心配する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "ことはない"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "エレベーターが故障しているので、階段を使う（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほかない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "【申込書の記入方法】連絡可能な電話番号を書く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "つもり"
+            },
+            {
+              "id": "C",
+              "text": "ため"
+            },
+            {
+              "id": "D",
+              "text": "こと"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "結果が出る前から失敗したと決めつける（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "予約した便が欠航になり、翌朝まで待つ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "【美術館からのお願い】展示品には手を触れない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "つもり"
+            },
+            {
+              "id": "C",
+              "text": "こと"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "会議は延期されたので、今日急いで資料を仕上げる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "つもりはない"
+            },
+            {
+              "id": "D",
+              "text": "ことはない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "鍵を紛失したため、管理会社に開けてもらう（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほかない"
+            },
+            {
+              "id": "B",
+              "text": "ことはない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "【工具の使用規則】使用後の器具は元の棚に戻す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "こと"
+            },
+            {
+              "id": "C",
+              "text": "つもり"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "風邪は軽いから、入院まで考える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことはない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "山道が雪で閉ざされ、来た道を引き返す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "べきではない"
+            },
+            {
+              "id": "D",
+              "text": "しかない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "【工場内の注意】指定された通路を歩く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こと"
+            },
+            {
+              "id": "B",
+              "text": "はず"
+            },
+            {
+              "id": "C",
+              "text": "つもり"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "一つ漢字を間違えただけで、答案を全部書き直す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "ことはない"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "財布を家に忘れたので、友人に昼食代を借りる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "ほかない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "【会議室の利用規則】退室時に窓と電気を確認する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "つもり"
+            },
+            {
+              "id": "C",
+              "text": "ため"
+            },
+            {
+              "id": "D",
+              "text": "こと"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "注文はまだ変更できるから、今すぐ店へ行く（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "C",
+              "text": "はずがない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "この薬が売り切れなら、別の薬局を探す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "【公園の利用規則】ペットには必ず綱を付ける（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "つもり"
+            },
+            {
+              "id": "C",
+              "text": "こと"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "発表時間は十分あるので、早口で話す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "つもりはない"
+            },
+            {
+              "id": "D",
+              "text": "ことはない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "証拠となる映像がない以上、目撃者の話を信じる（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ほかない"
+            },
+            {
+              "id": "B",
+              "text": "ことはない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "べきではない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "【避難時の注意】非常ベルが鳴ったら荷物を置いて避難する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "はず"
+            },
+            {
+              "id": "B",
+              "text": "こと"
+            },
+            {
+              "id": "C",
+              "text": "つもり"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "電車は十分おきに来るから、一本逃しても走る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "わけにはいかない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "ことはない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3502"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "材料費が上がったため、商品の価格を見直す（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "べきではない"
+            },
+            {
+              "id": "D",
+              "text": "しかない"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3503"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "【図書館の複写規則】資料を複写するときは受付で許可を得る（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こと"
+            },
+            {
+              "id": "B",
+              "text": "はず"
+            },
+            {
+              "id": "C",
+              "text": "つもり"
+            },
+            {
+              "id": "D",
+              "text": "ため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3501"
+          ]
+        }
+      ]
+    }
+  ]
+}

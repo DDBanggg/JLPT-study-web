@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-035",
+  "type": "daily",
+  "title": "Daily Test — Day 35",
+  "study_day": 35,
+  "coverage": {
+    "from_day": 34,
+    "to_day": 34
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "雨季（　　　）山道の一部が閉鎖される。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "合格を祝う気持ち（　　　）手作りのカードが届いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "にわたる"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "絵本（　　　）子どもに水の大切さを伝えている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "航海期間（　　　）船員は交代で海の様子を見守った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を通して"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "救助へのお礼（　　　）消防署へ花を届けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を込めて"
+            },
+            {
+              "id": "B",
+              "text": "に関して"
+            },
+            {
+              "id": "C",
+              "text": "にわたって"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "現地の案内人（　　　）少数民族の暮らしを知った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通して"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "繁忙期（　　　）臨時の相談窓口が設けられる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "成功への強い決意（　　　）演説に会場が静まり返った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "にわたる"
+            },
+            {
+              "id": "C",
+              "text": "を通じた"
+            },
+            {
+              "id": "D",
+              "text": "を込めた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "手話（　　　）聞こえない観客にも舞台の内容を届けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "観測期間（　　　）気温は平年より低かった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通して"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "友達の子供を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "預かる"
+            },
+            {
+              "id": "B",
+              "text": "頼る"
+            },
+            {
+              "id": "C",
+              "text": "言い返す"
+            },
+            {
+              "id": "D",
+              "text": "返る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3401"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "ストーブをつけて部屋を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "頼る"
+            },
+            {
+              "id": "B",
+              "text": "暖める"
+            },
+            {
+              "id": "C",
+              "text": "言い返す"
+            },
+            {
+              "id": "D",
+              "text": "返る"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3405"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "冬の朝は、暖かいお茶を飲むと体が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "言い返す"
+            },
+            {
+              "id": "B",
+              "text": "返る"
+            },
+            {
+              "id": "C",
+              "text": "暖まる"
+            },
+            {
+              "id": "D",
+              "text": "暖める"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3406"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "先生の（　　　）声が廊下に響いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "返る"
+            },
+            {
+              "id": "B",
+              "text": "暖める"
+            },
+            {
+              "id": "C",
+              "text": "暖まる"
+            },
+            {
+              "id": "D",
+              "text": "怒鳴る"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3412"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "引っ越し荷物が（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まとまる"
+            },
+            {
+              "id": "B",
+              "text": "暖める"
+            },
+            {
+              "id": "C",
+              "text": "暖まる"
+            },
+            {
+              "id": "D",
+              "text": "受かる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3414"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "友達に私の好きな映画を見るように（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "暖まる"
+            },
+            {
+              "id": "B",
+              "text": "勧める"
+            },
+            {
+              "id": "C",
+              "text": "受かる"
+            },
+            {
+              "id": "D",
+              "text": "受ける"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3415"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "ここから坂を（　　　）と、駅に着きます。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "受かる"
+            },
+            {
+              "id": "B",
+              "text": "受ける"
+            },
+            {
+              "id": "C",
+              "text": "下る"
+            },
+            {
+              "id": "D",
+              "text": "受け付ける"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3416"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "このレストランでは色々な料理を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "受ける"
+            },
+            {
+              "id": "B",
+              "text": "受け付ける"
+            },
+            {
+              "id": "C",
+              "text": "引き受ける"
+            },
+            {
+              "id": "D",
+              "text": "楽しめる"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3424"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "社長の（　　　）で、大阪に出張した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "依頼"
+            },
+            {
+              "id": "B",
+              "text": "大騒ぎ"
+            },
+            {
+              "id": "C",
+              "text": "司会"
+            },
+            {
+              "id": "D",
+              "text": "コメント"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3425"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "働かない夫と（　　　）することにした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "司会"
+            },
+            {
+              "id": "B",
+              "text": "離婚"
+            },
+            {
+              "id": "C",
+              "text": "コメント"
+            },
+            {
+              "id": "D",
+              "text": "依頼"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3426"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "今度の家族旅行は海に行きたいと（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "コメント"
+            },
+            {
+              "id": "B",
+              "text": "依頼"
+            },
+            {
+              "id": "C",
+              "text": "提案"
+            },
+            {
+              "id": "D",
+              "text": "離婚"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3427"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "会議の司会は、経験豊富な先輩が適任だ。 【司会】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "さわぐ"
+            },
+            {
+              "id": "B",
+              "text": "とおる"
+            },
+            {
+              "id": "C",
+              "text": "かせぐ"
+            },
+            {
+              "id": "D",
+              "text": "しかい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3435"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "小さなことで大騒ぎする。 【大騒ぎ】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おおさわぎ"
+            },
+            {
+              "id": "B",
+              "text": "とおる"
+            },
+            {
+              "id": "C",
+              "text": "かせぐ"
+            },
+            {
+              "id": "D",
+              "text": "すむ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3434"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "私は引っ越ししてきたばかりで、この土地には詳しくない。 【引っ越し】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かせぐ"
+            },
+            {
+              "id": "B",
+              "text": "ひっこし"
+            },
+            {
+              "id": "C",
+              "text": "すむ"
+            },
+            {
+              "id": "D",
+              "text": "ころす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3433"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "日本に留学したいと伝えたら、両親は快く承知してくれた。 【承知】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "すむ"
+            },
+            {
+              "id": "B",
+              "text": "ころす"
+            },
+            {
+              "id": "C",
+              "text": "しょうち"
+            },
+            {
+              "id": "D",
+              "text": "くだる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3431"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "来月、会社の健康診断を受ける。 【受ける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うける"
+            },
+            {
+              "id": "B",
+              "text": "うかる"
+            },
+            {
+              "id": "C",
+              "text": "うけつける"
+            },
+            {
+              "id": "D",
+              "text": "ひきうける"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "姉は希望していた大学に受かった。 【受かる】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うけつける"
+            },
+            {
+              "id": "B",
+              "text": "うかる"
+            },
+            {
+              "id": "C",
+              "text": "ひきうける"
+            },
+            {
+              "id": "D",
+              "text": "じゅけん"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "窓口では午後四時まで申請を受け付ける。 【受け付ける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひきうける"
+            },
+            {
+              "id": "B",
+              "text": "じゅけん"
+            },
+            {
+              "id": "C",
+              "text": "うけつける"
+            },
+            {
+              "id": "D",
+              "text": "じゅしん"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "経験のある先輩が司会を引き受けた。 【引き受ける】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅけん"
+            },
+            {
+              "id": "B",
+              "text": "じゅしん"
+            },
+            {
+              "id": "C",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "D",
+              "text": "ひきうける"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "受験の前日は早めに眠った。 【受験】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅけん"
+            },
+            {
+              "id": "B",
+              "text": "じゅしん"
+            },
+            {
+              "id": "C",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "D",
+              "text": "きょうじゅ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "山の中では携帯電話が電波を受信できない。 【受信】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "B",
+              "text": "じゅしん"
+            },
+            {
+              "id": "C",
+              "text": "きょうじゅ"
+            },
+            {
+              "id": "D",
+              "text": "じゅぎょうりょう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3401"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "大雪のため午後の授業が休みになった。 【授業】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きょうじゅ"
+            },
+            {
+              "id": "B",
+              "text": "じゅぎょうりょう"
+            },
+            {
+              "id": "C",
+              "text": "じゅぎょう"
+            },
+            {
+              "id": "D",
+              "text": "おこる"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3402"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "研究室で教授に卒業論文の相談をした。 【教授】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じゅぎょうりょう"
+            },
+            {
+              "id": "B",
+              "text": "おこる"
+            },
+            {
+              "id": "C",
+              "text": "どなる"
+            },
+            {
+              "id": "D",
+              "text": "きょうじゅ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3402"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "奨学金で大学の【じゅぎょうりょう】を払っている。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "授業料"
+            },
+            {
+              "id": "B",
+              "text": "怒る"
+            },
+            {
+              "id": "C",
+              "text": "怒鳴る"
+            },
+            {
+              "id": "D",
+              "text": "努力"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3402"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "何度注意しても約束を忘れる弟に父が【おこる】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "怒鳴る"
+            },
+            {
+              "id": "B",
+              "text": "怒る"
+            },
+            {
+              "id": "C",
+              "text": "努力"
+            },
+            {
+              "id": "D",
+              "text": "離婚"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3403"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "店員を大声で【どなる】客を周りの人が止めた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "努力"
+            },
+            {
+              "id": "B",
+              "text": "離婚"
+            },
+            {
+              "id": "C",
+              "text": "怒鳴る"
+            },
+            {
+              "id": "D",
+              "text": "主婦"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3403"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "毎日の【どりょく】が大会での優勝につながった。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "離婚"
+            },
+            {
+              "id": "B",
+              "text": "主婦"
+            },
+            {
+              "id": "C",
+              "text": "案内"
+            },
+            {
+              "id": "D",
+              "text": "努力"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3404"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "二人は十分に話し合った末、【りこん】を決めた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "離婚"
+            },
+            {
+              "id": "B",
+              "text": "主婦"
+            },
+            {
+              "id": "C",
+              "text": "案内"
+            },
+            {
+              "id": "D",
+              "text": "受ける"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3405"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "【しゅふ】を対象にした再就職講座が開かれた。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "案内"
+            },
+            {
+              "id": "B",
+              "text": "主婦"
+            },
+            {
+              "id": "C",
+              "text": "受ける"
+            },
+            {
+              "id": "D",
+              "text": "受かる"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3406"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "駅員が外国人旅行者を乗り場まで【あんない】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "受ける"
+            },
+            {
+              "id": "B",
+              "text": "受かる"
+            },
+            {
+              "id": "C",
+              "text": "案内"
+            },
+            {
+              "id": "D",
+              "text": "受け付ける"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3407"
+          ]
+        }
+      ]
+    }
+  ]
+}

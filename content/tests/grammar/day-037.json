@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-037",
+  "type": "grammar",
+  "title": "Grammar Test — Day 37",
+  "study_day": 37,
+  "coverage": {
+    "from_day": 37,
+    "to_day": 37
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "名前の欄が空白のまま、受付の机に書き（　　　）申込書が置いてあった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけの"
+            },
+            {
+              "id": "B",
+              "text": "きった"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "終えた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "強い風で帽子が飛ばされ、川に落ち（　　　）が、木の枝に引っかかって水には入らなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きった"
+            },
+            {
+              "id": "B",
+              "text": "かけた"
+            },
+            {
+              "id": "C",
+              "text": "っぱなしだった"
+            },
+            {
+              "id": "D",
+              "text": "たままだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "初めて手に取り、一度も前のページに戻らず、三百ページの小説を週末だけで最後まで読み（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけた"
+            },
+            {
+              "id": "B",
+              "text": "直した"
+            },
+            {
+              "id": "C",
+              "text": "きった"
+            },
+            {
+              "id": "D",
+              "text": "返した"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "三日間ほとんど眠らずに交渉を終えた二人は（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "疲れかけていたが、まだ余裕があった"
+            },
+            {
+              "id": "B",
+              "text": "疲れを感じず、平然としていた"
+            },
+            {
+              "id": "C",
+              "text": "疲れから完全に回復していた"
+            },
+            {
+              "id": "D",
+              "text": "疲れきって、立ち上がれなかった"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "客が来たので、食べ（　　　）弁当にふたをした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけの"
+            },
+            {
+              "id": "B",
+              "text": "きった"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "終えた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "階段で足を滑らせ、転び（　　　）が、手すりにつかまったため床には倒れなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "、床に倒れた"
+            },
+            {
+              "id": "B",
+              "text": "かけた"
+            },
+            {
+              "id": "C",
+              "text": "、ひざを強く打った"
+            },
+            {
+              "id": "D",
+              "text": "、階段を数段落ちた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "大きなケーキを一人では食べ（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "始められない"
+            },
+            {
+              "id": "B",
+              "text": "残せない"
+            },
+            {
+              "id": "C",
+              "text": "きれない"
+            },
+            {
+              "id": "D",
+              "text": "ても足りない"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "迷子の少年は母親が必ず迎えに来ると一度も疑わず、母親を信じ（　　　）入口で待っていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、まだ疑って"
+            },
+            {
+              "id": "B",
+              "text": "るふりだけをして"
+            },
+            {
+              "id": "C",
+              "text": "ようとせず、疑ったまま"
+            },
+            {
+              "id": "D",
+              "text": "きり、疑う様子もなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "雨が降り始めたので、（　　　）洗濯物を取り込んだ。干してからまだ一時間で、半分ほどしか乾いていなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乾きかけの"
+            },
+            {
+              "id": "B",
+              "text": "完全に乾いた"
+            },
+            {
+              "id": "C",
+              "text": "まだ一度も干していない"
+            },
+            {
+              "id": "D",
+              "text": "すでに畳んでしまった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "電池が切れて、救助隊への連絡が途切れ（　　　）が、予備電源に切り替わって通話を続けられた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "、完全に切れた"
+            },
+            {
+              "id": "B",
+              "text": "かけた"
+            },
+            {
+              "id": "C",
+              "text": "っぱなしだった"
+            },
+            {
+              "id": "D",
+              "text": "たままだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "朝までに残った仕事を全部やり（　　　）つもりだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かける"
+            },
+            {
+              "id": "B",
+              "text": "っぱなしにする"
+            },
+            {
+              "id": "C",
+              "text": "きる"
+            },
+            {
+              "id": "D",
+              "text": "残す"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "観客は彼の実力に一度も疑いを持たず、彼が必ず勝つと信じ（　　　）いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、まだ疑って"
+            },
+            {
+              "id": "B",
+              "text": "るふりだけをして"
+            },
+            {
+              "id": "C",
+              "text": "ようとせずに疑い続けて"
+            },
+            {
+              "id": "D",
+              "text": "きり、疑う様子もなく"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "編み（　　　）セーターを今年の冬こそ完成させたい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけの"
+            },
+            {
+              "id": "B",
+              "text": "きった"
+            },
+            {
+              "id": "C",
+              "text": "直した"
+            },
+            {
+              "id": "D",
+              "text": "終えた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "熱い鍋に手を伸ばして触り（　　　）、まだ触れる前に母に止められた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "続けて"
+            },
+            {
+              "id": "B",
+              "text": "かけて"
+            },
+            {
+              "id": "C",
+              "text": "始めて"
+            },
+            {
+              "id": "D",
+              "text": "終えて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "医師から一錠も残さないよう指示されたので、処方された薬は（　　　）ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "量を減らして飲んで"
+            },
+            {
+              "id": "B",
+              "text": "何錠か残して"
+            },
+            {
+              "id": "C",
+              "text": "最後まで飲みきって"
+            },
+            {
+              "id": "D",
+              "text": "症状が消えたら中止して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "どんな証拠を示されても、彼は一度も疑わず、自分だけが正しいと信じ（　　　）いる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、まだ疑って"
+            },
+            {
+              "id": "B",
+              "text": "るふりだけをして"
+            },
+            {
+              "id": "C",
+              "text": "ようとせずに疑い続けて"
+            },
+            {
+              "id": "D",
+              "text": "きり、他人の意見を退けて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "工事が止まり、建て（　　　）家だけが空き地に残った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけの"
+            },
+            {
+              "id": "B",
+              "text": "きった"
+            },
+            {
+              "id": "C",
+              "text": "替えた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "小さな船が波で傾き、ひっくり返り（　　　）が、乗員が重心を戻したため転覆せずに済んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きった"
+            },
+            {
+              "id": "B",
+              "text": "かけた"
+            },
+            {
+              "id": "C",
+              "text": "っぱなしだった"
+            },
+            {
+              "id": "D",
+              "text": "続けた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "選手は最後の力を振り絞り、残り一周を走り（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、途中で棄権した"
+            },
+            {
+              "id": "B",
+              "text": "直そうとして、失格になった"
+            },
+            {
+              "id": "C",
+              "text": "きり、正式な完走者となった"
+            },
+            {
+              "id": "D",
+              "text": "戻って、コースの外へ出た"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "初めて海外で一人暮らしをした妹は、解決策が一つも見つからず、電話口では声も出ない状態で（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "困りかけたが、まだ余裕があった"
+            },
+            {
+              "id": "B",
+              "text": "困り事をすべて解決していた"
+            },
+            {
+              "id": "C",
+              "text": "困ることなく落ち着いていた"
+            },
+            {
+              "id": "D",
+              "text": "困りきって、何も話せなかった"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "春になり、表面が少し柔らかくなった湖の氷は、解け（　　　）状態で亀裂が入った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたばかりの"
+            },
+            {
+              "id": "B",
+              "text": "きって水だけになった"
+            },
+            {
+              "id": "C",
+              "text": "始める前の"
+            },
+            {
+              "id": "D",
+              "text": "る気配のない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "幼い子が車道へ飛び出し（　　　）が、父親が腕をつかんだため歩道を出ずに済んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "、道路の中央まで走った"
+            },
+            {
+              "id": "B",
+              "text": "かけた"
+            },
+            {
+              "id": "C",
+              "text": "、近くの公園へ向かった"
+            },
+            {
+              "id": "D",
+              "text": "、道路脇で転んだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "容量が非常に多く、毎日使っても一年後に半分以上残るので、この洗剤は一人暮らしでは（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一か月で使い終わる"
+            },
+            {
+              "id": "B",
+              "text": "半年で完全になくなる"
+            },
+            {
+              "id": "C",
+              "text": "一年でも使いきれそうにない"
+            },
+            {
+              "id": "D",
+              "text": "数週間で買い足す必要がある"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "元の色が一切残っておらず、十年使ったタオルは（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "色が抜けかけている"
+            },
+            {
+              "id": "B",
+              "text": "色が抜け始めている"
+            },
+            {
+              "id": "C",
+              "text": "色が抜けず鮮やかなままだ"
+            },
+            {
+              "id": "D",
+              "text": "色が抜けきっている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "倉庫から片方の翼しかない作り（　　　）模型が見つかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけの"
+            },
+            {
+              "id": "B",
+              "text": "きった"
+            },
+            {
+              "id": "C",
+              "text": "終えた"
+            },
+            {
+              "id": "D",
+              "text": "直した"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        }
+      ]
+    }
+  ]
+}

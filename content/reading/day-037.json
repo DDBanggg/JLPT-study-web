@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-037",
+  "study_day": 37,
+  "items": [
+    {
+      "id": 3701,
+      "title": "小さな店の「こぢんまり」",
+      "passage_jp": "駅の裏に新しい喫茶店ができた。店内は十人入ればいっぱいになるほど「こぢんまり」している。しかし、席の間には植物が置かれ、静かな音楽も流れているため、狭さより落ち着きを感じる。大きな店ではないが、一人で本を読むにはちょうどよい場所だ。",
+      "translation_vi": "Một quán cà phê mới đã mở phía sau ga. Không gian bên trong nhỏ gọn đến mức chỉ cần mười người là kín chỗ. Tuy nhiên, giữa các ghế có đặt cây xanh và nhạc nhẹ cũng đang phát nên người ta cảm nhận sự yên tĩnh dễ chịu hơn là chật chội. Đây không phải quán lớn, nhưng là nơi vừa vặn để đọc sách một mình.",
+      "media": [],
+      "source_ref": "supplemental-authored | Chapter 4 contextual inference 1",
+      "questions": [
+        {
+          "id": "c04r-d05-q01",
+          "question_type": "mcq",
+          "question_jp": "「こぢんまり」の意味として最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "小さくまとまっている"
+            },
+            {
+              "id": "B",
+              "text": "非常に騒がしい"
+            },
+            {
+              "id": "C",
+              "text": "席が外にしかない"
+            },
+            {
+              "id": "D",
+              "text": "高価な料理が多い"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d05-q02",
+          "question_type": "mcq",
+          "question_jp": "「しかし」の後の内容は何を示していますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "小さくても居心地がよいこと"
+            },
+            {
+              "id": "B",
+              "text": "店がすぐ閉まること"
+            },
+            {
+              "id": "C",
+              "text": "植物が枯れていること"
+            },
+            {
+              "id": "D",
+              "text": "客が本を読めないこと"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d05-q03",
+          "question_type": "mcq",
+          "question_jp": "筆者はこの店をどのように評価していますか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "一人で静かに過ごすのに適している"
+            },
+            {
+              "id": "B",
+              "text": "狭いので利用価値がない"
+            },
+            {
+              "id": "C",
+              "text": "音楽がうるさすぎる"
+            },
+            {
+              "id": "D",
+              "text": "大人数の宴会に最適だ"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

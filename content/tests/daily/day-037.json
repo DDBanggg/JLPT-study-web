@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-037",
+  "type": "daily",
+  "title": "Daily Test — Day 37",
+  "study_day": 37,
+  "coverage": {
+    "from_day": 36,
+    "to_day": 36
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "列に並んでいる人の前へ割り込む（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "べきではない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "海外へ行く前に、現地の交通規則を調べた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "情報を共有するときは出所を確認する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "べきだ"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "冗談でも相手が嫌がることは言わない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "つもりはない"
+            },
+            {
+              "id": "D",
+              "text": "ほうがいい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "スポーツの指導者は選手の健康を第一に考える（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "べきだ"
+            },
+            {
+              "id": "B",
+              "text": "ことはない"
+            },
+            {
+              "id": "C",
+              "text": "しかない"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "この申請は時間がかかるので、早めに準備した（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "文化財を未来へ残すため、修復の記録も保存する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことはない"
+            },
+            {
+              "id": "B",
+              "text": "しかない"
+            },
+            {
+              "id": "C",
+              "text": "べきだ"
+            },
+            {
+              "id": "D",
+              "text": "つもりだ"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "雨で路面が滑りやすいから、急に曲がらない（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "わけではない"
+            },
+            {
+              "id": "C",
+              "text": "つもりはない"
+            },
+            {
+              "id": "D",
+              "text": "ほうがいい"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "意見が違っても相手の人格を否定する（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "べきではない"
+            },
+            {
+              "id": "B",
+              "text": "はずがない"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3602"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "生ごみの臭いが強くなる前に袋を替えた（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ことになっている"
+            },
+            {
+              "id": "B",
+              "text": "ほうがいい"
+            },
+            {
+              "id": "C",
+              "text": "わけではない"
+            },
+            {
+              "id": "D",
+              "text": "つもりはない"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3601"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "（　　　）ゴミは向こうのゴミ箱に入れてください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "燃える"
+            },
+            {
+              "id": "B",
+              "text": "現す"
+            },
+            {
+              "id": "C",
+              "text": "現れる"
+            },
+            {
+              "id": "D",
+              "text": "覚える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3606"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "いらなくなった紙を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "現れる"
+            },
+            {
+              "id": "B",
+              "text": "燃やす"
+            },
+            {
+              "id": "C",
+              "text": "覚える"
+            },
+            {
+              "id": "D",
+              "text": "覚ます"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3607"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "学生の頃はスポーツに（　　　）していた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "避難"
+            },
+            {
+              "id": "B",
+              "text": "観光"
+            },
+            {
+              "id": "C",
+              "text": "熱中"
+            },
+            {
+              "id": "D",
+              "text": "欠席"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3608"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "この場所での（　　　）はご遠慮ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "観光"
+            },
+            {
+              "id": "B",
+              "text": "欠席"
+            },
+            {
+              "id": "C",
+              "text": "集合"
+            },
+            {
+              "id": "D",
+              "text": "喫煙"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3609"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "あの店は人気で、いつも（　　　）している。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "混雑"
+            },
+            {
+              "id": "B",
+              "text": "欠席"
+            },
+            {
+              "id": "C",
+              "text": "集合"
+            },
+            {
+              "id": "D",
+              "text": "我慢"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3610"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "台風が来たので、地下に（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "集合"
+            },
+            {
+              "id": "B",
+              "text": "避難"
+            },
+            {
+              "id": "C",
+              "text": "我慢"
+            },
+            {
+              "id": "D",
+              "text": "解決"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3611"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "家族で京都を（　　　）しました。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "我慢"
+            },
+            {
+              "id": "B",
+              "text": "解決"
+            },
+            {
+              "id": "C",
+              "text": "観光"
+            },
+            {
+              "id": "D",
+              "text": "演技"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3612"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "かぜを引いたので、授業を（　　　）する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "解決"
+            },
+            {
+              "id": "B",
+              "text": "演技"
+            },
+            {
+              "id": "C",
+              "text": "拍手"
+            },
+            {
+              "id": "D",
+              "text": "欠席"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3613"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "選手の（　　　）が遅れて、試合の開始が遅れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "集合"
+            },
+            {
+              "id": "B",
+              "text": "演技"
+            },
+            {
+              "id": "C",
+              "text": "拍手"
+            },
+            {
+              "id": "D",
+              "text": "専攻"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3614"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "彼にはもう（　　　）ができない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "拍手"
+            },
+            {
+              "id": "B",
+              "text": "我慢"
+            },
+            {
+              "id": "C",
+              "text": "専攻"
+            },
+            {
+              "id": "D",
+              "text": "遠慮"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3615"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "夫婦のトラブルを（　　　）する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "専攻"
+            },
+            {
+              "id": "B",
+              "text": "遠慮"
+            },
+            {
+              "id": "C",
+              "text": "解決"
+            },
+            {
+              "id": "D",
+              "text": "復習"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3616"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "最近涼しくなりましたが、今日は多少暑いと感じます。 【多少】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かんこう"
+            },
+            {
+              "id": "B",
+              "text": "ひなん"
+            },
+            {
+              "id": "C",
+              "text": "こんざつ"
+            },
+            {
+              "id": "D",
+              "text": "たしょう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3634"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "スーパーで偶然、高校時代の友だちに会った。 【偶然】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぐうぜん"
+            },
+            {
+              "id": "B",
+              "text": "ひなん"
+            },
+            {
+              "id": "C",
+              "text": "こんざつ"
+            },
+            {
+              "id": "D",
+              "text": "きつえん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3631"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "突然電気が消えて、びっくりした。 【突然】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こんざつ"
+            },
+            {
+              "id": "B",
+              "text": "とつぜん"
+            },
+            {
+              "id": "C",
+              "text": "きつえん"
+            },
+            {
+              "id": "D",
+              "text": "ねっちゅう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3630"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "毎日の予習と復習が大切だ。 【復習】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きつえん"
+            },
+            {
+              "id": "B",
+              "text": "ねっちゅう"
+            },
+            {
+              "id": "C",
+              "text": "ふくしゅう"
+            },
+            {
+              "id": "D",
+              "text": "もやす"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3621"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "乾いた木は小さな火でもよく燃える。 【燃える】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もえる"
+            },
+            {
+              "id": "B",
+              "text": "もやす"
+            },
+            {
+              "id": "C",
+              "text": "こんざつ"
+            },
+            {
+              "id": "D",
+              "text": "ざっし"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3601"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "落ち葉を庭で燃やしてはいけない。 【燃やす】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "こんざつ"
+            },
+            {
+              "id": "B",
+              "text": "もやす"
+            },
+            {
+              "id": "C",
+              "text": "ざっし"
+            },
+            {
+              "id": "D",
+              "text": "ふくざつ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3601"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "連休初日は高速道路の混雑が予想される。 【混雑】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ざっし"
+            },
+            {
+              "id": "B",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "C",
+              "text": "こんざつ"
+            },
+            {
+              "id": "D",
+              "text": "むずかしい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3602"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "研究室で最新の科学雑誌を読んだ。 【雑誌】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "B",
+              "text": "むずかしい"
+            },
+            {
+              "id": "C",
+              "text": "ありがたい"
+            },
+            {
+              "id": "D",
+              "text": "ざっし"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3602"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "駅の地下は通路が複雑で迷いやすい。 【複雑】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "B",
+              "text": "むずかしい"
+            },
+            {
+              "id": "C",
+              "text": "ありがたい"
+            },
+            {
+              "id": "D",
+              "text": "ひなん"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3602"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "この問題は専門家でも答えるのが難しい。 【難しい】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ありがたい"
+            },
+            {
+              "id": "B",
+              "text": "むずかしい"
+            },
+            {
+              "id": "C",
+              "text": "ひなん"
+            },
+            {
+              "id": "D",
+              "text": "かんきゃく"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3603"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "急な仕事を同僚が手伝ってくれて有り難い。 【有り難い】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ひなん"
+            },
+            {
+              "id": "B",
+              "text": "かんきゃく"
+            },
+            {
+              "id": "C",
+              "text": "ありがたい"
+            },
+            {
+              "id": "D",
+              "text": "かんこう"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3603"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "津波警報を聞いて高台へ避難した。 【避難】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かんきゃく"
+            },
+            {
+              "id": "B",
+              "text": "かんこう"
+            },
+            {
+              "id": "C",
+              "text": "かんこうち"
+            },
+            {
+              "id": "D",
+              "text": "ひなん"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3603"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "選手の逆転勝利に【かんきゃく】が立ち上がった。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "観客"
+            },
+            {
+              "id": "B",
+              "text": "観光"
+            },
+            {
+              "id": "C",
+              "text": "観光地"
+            },
+            {
+              "id": "D",
+              "text": "覚える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3604"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "午前中は古い城を【かんこう】する予定だ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "観光地"
+            },
+            {
+              "id": "B",
+              "text": "観光"
+            },
+            {
+              "id": "C",
+              "text": "覚える"
+            },
+            {
+              "id": "D",
+              "text": "目覚まし時計"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3604"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "休日の【かんこうち】は大勢の旅行者でにぎわう。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "覚える"
+            },
+            {
+              "id": "B",
+              "text": "目覚まし時計"
+            },
+            {
+              "id": "C",
+              "text": "観光地"
+            },
+            {
+              "id": "D",
+              "text": "現金"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3604"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "海外旅行の前に簡単な挨拶を【おぼえる】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "目覚まし時計"
+            },
+            {
+              "id": "B",
+              "text": "現金"
+            },
+            {
+              "id": "C",
+              "text": "規則"
+            },
+            {
+              "id": "D",
+              "text": "覚える"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3605"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "早朝に起きるため【めざましどけい】を二つ用意した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "目覚まし時計"
+            },
+            {
+              "id": "B",
+              "text": "現金"
+            },
+            {
+              "id": "C",
+              "text": "規則"
+            },
+            {
+              "id": "D",
+              "text": "燃える"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3605"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "この小さな店では【げんきん】しか使えない。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "規則"
+            },
+            {
+              "id": "B",
+              "text": "現金"
+            },
+            {
+              "id": "C",
+              "text": "燃える"
+            },
+            {
+              "id": "D",
+              "text": "燃やす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3606"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "寮の【きそく】を守らない学生は注意される。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "燃える"
+            },
+            {
+              "id": "B",
+              "text": "燃やす"
+            },
+            {
+              "id": "C",
+              "text": "規則"
+            },
+            {
+              "id": "D",
+              "text": "混雑"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3607"
+          ]
+        }
+      ]
+    }
+  ]
+}

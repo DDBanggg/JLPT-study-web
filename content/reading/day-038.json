@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-038",
+  "study_day": 38,
+  "items": [
+    {
+      "id": 3801,
+      "title": "計画を「見送る」",
+      "passage_jp": "町は今年、古い体育館を建て替える予定だった。ところが、資材の価格が予想以上に上がり、今の予算では安全な建物を完成させられないことが分かった。そこで町は、工事を急いで始めるのではなく、今年の建て替えを「見送る」ことにした。来年度、費用をもう一度計算してから新しい計画を発表するという。",
+      "translation_vi": "Năm nay thị trấn dự định xây lại nhà thi đấu cũ. Tuy nhiên, giá vật liệu tăng cao hơn dự tính và người ta nhận ra rằng với ngân sách hiện tại thì không thể hoàn thành một công trình an toàn. Vì vậy, thay vì vội bắt đầu thi công, thị trấn quyết định hoãn việc xây lại trong năm nay. Họ cho biết sẽ tính toán lại chi phí vào năm tài chính tới rồi công bố kế hoạch mới.",
+      "media": [],
+      "source_ref": "supplemental-authored | Chapter 4 contextual inference 2",
+      "questions": [
+        {
+          "id": "c04r-d06-q01",
+          "question_type": "mcq",
+          "question_jp": "ここで「見送る」はどんな意味ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "今年は実施せず延期する"
+            },
+            {
+              "id": "B",
+              "text": "工事を見学する"
+            },
+            {
+              "id": "C",
+              "text": "計画を直ちに完成させる"
+            },
+            {
+              "id": "D",
+              "text": "体育館を売却する"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d06-q02",
+          "question_type": "mcq",
+          "question_jp": "その意味を判断する最も強い手がかりはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "来年度に費用を再計算して計画を出すこと"
+            },
+            {
+              "id": "B",
+              "text": "体育館が町にあること"
+            },
+            {
+              "id": "C",
+              "text": "資材には色があること"
+            },
+            {
+              "id": "D",
+              "text": "町民が運動すること"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d06-q03",
+          "question_type": "mcq",
+          "question_jp": "町がその判断をした理由は何ですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "現在の予算では安全な建物を完成できないから"
+            },
+            {
+              "id": "B",
+              "text": "体育館を使う人が一人もいないから"
+            },
+            {
+              "id": "C",
+              "text": "来年度は資材が無料になるから"
+            },
+            {
+              "id": "D",
+              "text": "工事会社がすでに完成させたから"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

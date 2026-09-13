@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-037",
+  "study_day": 37,
+  "items": [
+    {
+      "id": 3701,
+      "structure": "～かける／～かけの（1）",
+      "formation": [
+        "Vます + かける／かけの + N／かけ（だ）"
+      ],
+      "meaning_vi": "đang làm dở; đang dần",
+      "usage_vi": "Diễn tả hành động đã bắt đầu nhưng chưa kết thúc, hoặc trạng thái mới thay đổi một phần.",
+      "examples": [
+        {
+          "jp": "テーブルの上に飲みかけのコーヒーが置いてある。",
+          "vi": "Trên bàn có cốc cà phê đang uống dở."
+        },
+        {
+          "jp": "忘れかけていた自分の夢を思い出した。",
+          "vi": "Tôi nhớ lại ước mơ của mình mà tôi đã gần quên."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 53 | BÀI 3 > NGỮ PHÁP > mục 1 — ～かける／～かけの（1）"
+    },
+    {
+      "id": 3702,
+      "structure": "～かける／～かけの（2）",
+      "formation": [
+        "Vます + かける／かけの + N／かけ（だ）"
+      ],
+      "meaning_vi": "suýt; sắp sửa nhưng không xảy ra",
+      "usage_vi": "Diễn tả hành động hoặc trạng thái suýt xảy ra nhưng thực tế đã không xảy ra.",
+      "examples": [
+        {
+          "jp": "駅のホームで線路に落ちかけたんです。",
+          "vi": "Tôi đã suýt rơi xuống đường ray ở sân ga."
+        },
+        {
+          "jp": "財布を落として、あきらめかけていた。",
+          "vi": "Tôi đánh rơi ví và đã gần như định bỏ cuộc."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 54 | BÀI 3 > NGỮ PHÁP > mục 2 — ～かける／～かけの（2）"
+    },
+    {
+      "id": 3703,
+      "structure": "～きる（1）",
+      "formation": [
+        "Vます + きる／きれる／きれない"
+      ],
+      "meaning_vi": "làm hết; hoàn thành trọn vẹn",
+      "usage_vi": "Diễn tả hành động được thực hiện đến hết hoặc khả năng hoàn thành toàn bộ.",
+      "examples": [
+        {
+          "jp": "調味料をいつも使いきれないで捨ててしまう。",
+          "vi": "Tôi luôn không dùng hết gia vị rồi phải bỏ đi."
+        },
+        {
+          "jp": "長すぎて読みきれなかった。",
+          "vi": "Vì quá dài nên tôi đã không thể đọc hết."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 55 | BÀI 3 > NGỮ PHÁP > mục 3 — ～きる（1）"
+    },
+    {
+      "id": 3704,
+      "structure": "～きる（2）",
+      "formation": [
+        "Vます + きる"
+      ],
+      "meaning_vi": "hoàn toàn; đến cực điểm",
+      "usage_vi": "Đi với động từ trạng thái, cảm xúc để nhấn mạnh mức độ hoàn toàn hoặc cực hạn.",
+      "examples": [
+        {
+          "jp": "信頼しきっていた人に利用されていた。",
+          "vi": "Tôi đã bị người mình hoàn toàn tin tưởng lợi dụng."
+        },
+        {
+          "jp": "どうしてそんなわかりきったことを聞くの。",
+          "vi": "Tại sao lại hỏi một điều rõ mười mươi như thế?"
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 56 | BÀI 3 > NGỮ PHÁP > mục 4 — ～きる（2）"
+    }
+  ]
+}

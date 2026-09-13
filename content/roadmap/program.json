@@ -1878,52 +1878,411 @@
     },
     {
       "day": 33,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 33 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 1 Part 1",
+      "tasks": [
+        {
+          "task_id": "grammar_day_33",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 1,
+          "resource_id": "grammar-day-033"
+        },
+        {
+          "task_id": "grammar-test-033",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-test-033"
+        },
+        {
+          "task_id": "vocabulary_day_33",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 3,
+          "resource_id": "vocabulary-day-033"
+        },
+        {
+          "task_id": "kanji_day_33",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 4,
+          "resource_id": "kanji-day-033"
+        },
+        {
+          "task_id": "reading_day_33",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 5,
+          "resource_id": "reading-day-033"
+        },
+        {
+          "task_id": "listening_day_33",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 6,
+          "resource_id": "listening-day-033"
+        }
+      ]
     },
     {
       "day": 34,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 34 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 1 Part 2",
+      "tasks": [
+        {
+          "task_id": "daily-034",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-034"
+        },
+        {
+          "task_id": "grammar_day_34",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-034"
+        },
+        {
+          "task_id": "grammar-test-034",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-034"
+        },
+        {
+          "task_id": "vocabulary_day_34",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-034"
+        },
+        {
+          "task_id": "kanji_day_34",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-034"
+        },
+        {
+          "task_id": "reading_day_34",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-034"
+        },
+        {
+          "task_id": "listening_day_34",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-034"
+        }
+      ]
     },
     {
       "day": 35,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 35 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 2 Part 1",
+      "tasks": [
+        {
+          "task_id": "daily-035",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-035"
+        },
+        {
+          "task_id": "grammar_day_35",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-035"
+        },
+        {
+          "task_id": "grammar-test-035",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-035"
+        },
+        {
+          "task_id": "vocabulary_day_35",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-035"
+        },
+        {
+          "task_id": "kanji_day_35",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-035"
+        },
+        {
+          "task_id": "reading_day_35",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-035"
+        },
+        {
+          "task_id": "listening_day_35",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-035"
+        }
+      ]
     },
     {
       "day": 36,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 36 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 2 Part 2",
+      "tasks": [
+        {
+          "task_id": "daily-036",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-036"
+        },
+        {
+          "task_id": "grammar_day_36",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-036"
+        },
+        {
+          "task_id": "grammar-test-036",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-036"
+        },
+        {
+          "task_id": "vocabulary_day_36",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-036"
+        },
+        {
+          "task_id": "kanji_day_36",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-036"
+        },
+        {
+          "task_id": "reading_day_36",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-036"
+        },
+        {
+          "task_id": "listening_day_36",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-036"
+        }
+      ]
     },
     {
       "day": 37,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 37 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 3 Part 1",
+      "tasks": [
+        {
+          "task_id": "daily-037",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-037"
+        },
+        {
+          "task_id": "grammar_day_37",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-037"
+        },
+        {
+          "task_id": "grammar-test-037",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-037"
+        },
+        {
+          "task_id": "vocabulary_day_37",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-037"
+        },
+        {
+          "task_id": "kanji_day_37",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-037"
+        },
+        {
+          "task_id": "reading_day_37",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-037"
+        },
+        {
+          "task_id": "listening_day_37",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-037"
+        }
+      ]
     },
     {
       "day": 38,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 38 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Lesson 3 Part 2",
+      "tasks": [
+        {
+          "task_id": "daily-038",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-038"
+        },
+        {
+          "task_id": "grammar_day_38",
+          "type": "grammar",
+          "label": "Grammar",
+          "required": true,
+          "order": 2,
+          "resource_id": "grammar-day-038"
+        },
+        {
+          "task_id": "grammar-test-038",
+          "type": "grammar_test",
+          "label": "Grammar Test",
+          "required": true,
+          "order": 3,
+          "resource_id": "grammar-test-038"
+        },
+        {
+          "task_id": "vocabulary_day_38",
+          "type": "vocabulary",
+          "label": "Vocabulary",
+          "required": true,
+          "order": 4,
+          "resource_id": "vocabulary-day-038"
+        },
+        {
+          "task_id": "kanji_day_38",
+          "type": "kanji",
+          "label": "Kanji",
+          "required": true,
+          "order": 5,
+          "resource_id": "kanji-day-038"
+        },
+        {
+          "task_id": "reading_day_38",
+          "type": "reading",
+          "label": "Reading",
+          "required": true,
+          "order": 6,
+          "resource_id": "reading-day-038"
+        },
+        {
+          "task_id": "listening_day_38",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 7,
+          "resource_id": "listening-day-038"
+        }
+      ]
     },
     {
       "day": 39,
-      "roadmap_state": "pending",
+      "roadmap_state": "planned",
       "phase": "n3_learning",
-      "title": "Study Day 39 — Planning Pending",
-      "tasks": []
+      "title": "N3 Chapter 4 Weekly Test",
+      "tasks": [
+        {
+          "task_id": "daily-039",
+          "type": "daily_test",
+          "label": "Daily Test",
+          "required": true,
+          "order": 1,
+          "resource_id": "daily-039"
+        },
+        {
+          "task_id": "weekly-04",
+          "type": "weekly_test",
+          "label": "Weekly Test — Chapter 4",
+          "required": true,
+          "order": 2,
+          "resource_id": "weekly-04"
+        },
+        {
+          "task_id": "listening_day_39",
+          "type": "listening",
+          "label": "Listening",
+          "required": true,
+          "order": 3,
+          "resource_id": "listening-day-039"
+        }
+      ]
     },
     {
       "day": 40,

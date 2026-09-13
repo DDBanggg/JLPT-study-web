@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-034",
+  "type": "grammar",
+  "title": "Grammar Test — Day 34",
+  "study_day": 34,
+  "coverage": {
+    "from_day": 34,
+    "to_day": 34
+  },
+  "lesson_groups": [
+    {
+      "lesson": 1,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "オンライン講座（　　　）地方の職人から技術を学んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "この植物園では一年（　　　）珍しい花が見られる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通して"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "家族への感謝（　　　）自分で夕食を作った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "共通の友人（　　　）今の仕事を紹介してもらった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を通して"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "夏の間（　　　）湖の水質を毎日測定した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通じて"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "選手たちは平和への願い（　　　）白い風船を飛ばした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "を込めて"
+            },
+            {
+              "id": "C",
+              "text": "にわたって"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "地域ラジオ（　　　）行方不明の犬の情報が広まった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "研修期間（　　　）同じ指導員が新人を支える。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を通して"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "職人が心（　　　）仕上げた器を結婚祝いに選んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を込めて"
+            },
+            {
+              "id": "B",
+              "text": "に関して"
+            },
+            {
+              "id": "C",
+              "text": "にわたって"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "通訳（　　　）海外の監督に撮影方法を質問した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通して"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "冬休み（　　　）体育館の屋根を修理する予定だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "祖父は孫の健康への祈り（　　　）人形を作った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "にわたる"
+            },
+            {
+              "id": "C",
+              "text": "を通じた"
+            },
+            {
+              "id": "D",
+              "text": "を込めた"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "読書会（　　　）世代の違う人の考えに触れた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通して"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "滞在期間（　　　）同じ家庭に泊まり、農作業を手伝った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通じて"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "観客は励ましの気持ち（　　　）大きな拍手を送った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を込めて"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "衛星画像（　　　）離れた島の火山活動を確認できる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "販売期間（　　　）商品の価格は変更されません。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通して"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "卒業生は先生への敬意（　　　）記念品を学校に贈った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関する"
+            },
+            {
+              "id": "B",
+              "text": "を込めた"
+            },
+            {
+              "id": "C",
+              "text": "にわたる"
+            },
+            {
+              "id": "D",
+              "text": "を通じた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "交換日記（　　　）普段言えない悩みを姉に伝えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通して"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "入院期間（　　　）看護師が毎朝体温を記録してくれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "に先立って"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "被災地の復興を願う思い（　　　）慈善公演が開かれた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を込めて"
+            },
+            {
+              "id": "B",
+              "text": "に関して"
+            },
+            {
+              "id": "C",
+              "text": "にわたって"
+            },
+            {
+              "id": "D",
+              "text": "を通じて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "防災訓練（　　　）隣近所と助け合う方法を覚えた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を通じて"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "大会期間（　　　）選手専用バスが運行される。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に限って"
+            },
+            {
+              "id": "B",
+              "text": "を中心に"
+            },
+            {
+              "id": "C",
+              "text": "を通して"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3402"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "作者は故郷への愛情（　　　）この小説を書いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "に関して"
+            },
+            {
+              "id": "B",
+              "text": "にわたって"
+            },
+            {
+              "id": "C",
+              "text": "を通じて"
+            },
+            {
+              "id": "D",
+              "text": "を込めて"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3403"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "匿名のアンケート（　　　）社員の本音を集めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "を通して"
+            },
+            {
+              "id": "B",
+              "text": "に限って"
+            },
+            {
+              "id": "C",
+              "text": "を中心に"
+            },
+            {
+              "id": "D",
+              "text": "に先立って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3401"
+          ]
+        }
+      ]
+    }
+  ]
+}

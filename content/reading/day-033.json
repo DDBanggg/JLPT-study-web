@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-033",
+  "study_day": 33,
+  "items": [
+    {
+      "id": 3301,
+      "title": "周囲の説明から意味を推測する（前半）",
+      "passage_jp": "① 最近、〇〇商品が人気だ。例えば、環境にやさしい素材を使った服や、リサイクルできるバッグなどだ。\n② 彼の話し方はいつも〇〇感じがする。相手の意見を聞こうとしない。\n③ 雨の日に昔の写真を見ると、なんだか〇〇気持ちになる。",
+      "translation_vi": "① Gần đây, các sản phẩm 〇〇 đang được ưa chuộng. Ví dụ như quần áo làm từ vật liệu thân thiện với môi trường và túi có thể tái chế.\n② Cách nói chuyện của anh ấy lúc nào cũng tạo cảm giác 〇〇. Anh ấy không hề muốn nghe ý kiến của người khác.\n③ Vào ngày mưa, khi xem ảnh cũ, không hiểu sao tôi lại có tâm trạng 〇〇.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 4 | trang in 20 | 練習1・項目1–3",
+      "questions": [
+        {
+          "id": "c04r-d01-q01",
+          "question_type": "mcq",
+          "question_jp": "①の〇〇に入る意味として最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "環境への負担が少ない"
+            },
+            {
+              "id": "B",
+              "text": "値段だけが高い"
+            },
+            {
+              "id": "C",
+              "text": "流行に遅れている"
+            },
+            {
+              "id": "D",
+              "text": "持ち運びにくい"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d01-q02",
+          "question_type": "mcq",
+          "question_jp": "②の〇〇に入る意味として最も適切なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "謙虚な"
+            },
+            {
+              "id": "B",
+              "text": "親しみやすい"
+            },
+            {
+              "id": "C",
+              "text": "偉そうな"
+            },
+            {
+              "id": "D",
+              "text": "控えめな"
+            }
+          ],
+          "correct_option_id": "C"
+        },
+        {
+          "id": "c04r-d01-q03",
+          "question_type": "mcq",
+          "question_jp": "③の〇〇に入る気持ちとして最も自然なものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "懐かしく少し寂しい"
+            },
+            {
+              "id": "B",
+              "text": "腹が立って仕方がない"
+            },
+            {
+              "id": "C",
+              "text": "勝負に興奮している"
+            },
+            {
+              "id": "D",
+              "text": "何も感じていない"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

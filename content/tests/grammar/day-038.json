@@ -1,0 +1,753 @@
+{
+  "schema_version": 1,
+  "id": "grammar-test-038",
+  "type": "grammar",
+  "title": "Grammar Test — Day 38",
+  "study_day": 38,
+  "coverage": {
+    "from_day": 38,
+    "to_day": 38
+  },
+  "lesson_groups": [
+    {
+      "lesson": 3,
+      "question_ids": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025"
+      ]
+    }
+  ],
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 25,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "停電し、代わりの明かりがなかったため、ろうそくをつけた（　　　）朝まで過ごした。その間、室内はずっと明るかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、一度も消さずに"
+            },
+            {
+              "id": "B",
+              "text": "後、すぐに消して"
+            },
+            {
+              "id": "C",
+              "text": "ものの、途中で消して"
+            },
+            {
+              "id": "D",
+              "text": "後、暗い部屋に戻って"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "蛇口を（　　　）、一晩中水が流れて庭が水浸しになった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しっかり閉めたため"
+            },
+            {
+              "id": "B",
+              "text": "開けっぱなしにしたため"
+            },
+            {
+              "id": "C",
+              "text": "少しだけ使ったため"
+            },
+            {
+              "id": "D",
+              "text": "開けてすぐ閉めたため"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "拾った財布は、持ち主の個人情報を守るため、中を開けない（　　　）交番へ届けた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と言いながら、カードを取り出してから"
+            },
+            {
+              "id": "B",
+              "text": "つもりだったが、中身を確認してから"
+            },
+            {
+              "id": "C",
+              "text": "まま、中身を一切確認せずに"
+            },
+            {
+              "id": "D",
+              "text": "どころか、現金まで数えてから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "何度注意しても、子どもは脱いだ服を床に（　　　）。一週間分が山になっている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "置いてから片づけている"
+            },
+            {
+              "id": "B",
+              "text": "置かずに洗っている"
+            },
+            {
+              "id": "C",
+              "text": "置かずに外で干している"
+            },
+            {
+              "id": "D",
+              "text": "置きっぱなしにしている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "昔の駅舎は部材も交換せず、建てられた当時の（　　　）保存されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、姿を変えずに"
+            },
+            {
+              "id": "B",
+              "text": "姿に似せて建て直されて"
+            },
+            {
+              "id": "C",
+              "text": "設計図から造り直されて"
+            },
+            {
+              "id": "D",
+              "text": "材料を替えて修復されて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "この一週間、苦情への対応で休む間もなく電話を（　　　）ため、声がかれてしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一度も受けなかった"
+            },
+            {
+              "id": "B",
+              "text": "受けっぱなしだった"
+            },
+            {
+              "id": "C",
+              "text": "すぐ留守番電話へ回した"
+            },
+            {
+              "id": "D",
+              "text": "同僚だけに任せていた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "畳を汚さないため、靴を履いた（　　　）畳の部屋に入ってはいけない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "後、玄関で脱いでから"
+            },
+            {
+              "id": "B",
+              "text": "ものの、すぐ脱いでから"
+            },
+            {
+              "id": "C",
+              "text": "まま、玄関でも脱がずに"
+            },
+            {
+              "id": "D",
+              "text": "後、靴下に履き替えてから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "冷蔵庫の扉を（　　　）と庫内灯が一晩中消えず、電気を無駄にする。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きちんと閉めておく"
+            },
+            {
+              "id": "B",
+              "text": "必要な時だけ開ける"
+            },
+            {
+              "id": "C",
+              "text": "開けずにおく"
+            },
+            {
+              "id": "D",
+              "text": "開けっぱなしにする"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "行き先を自分で確認せず、医師に言われる（　　　）検査室へ向かった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、行き先を確かめずに"
+            },
+            {
+              "id": "B",
+              "text": "前に、自分で場所を確認してから"
+            },
+            {
+              "id": "C",
+              "text": "内容に逆らい、別の部屋を選んで"
+            },
+            {
+              "id": "D",
+              "text": "ことなく、自分の判断だけで"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "彼は借りた本を半年も返さず、（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "返却期限前に返している"
+            },
+            {
+              "id": "B",
+              "text": "借りっぱなしにしている"
+            },
+            {
+              "id": "C",
+              "text": "借りたことさえない"
+            },
+            {
+              "id": "D",
+              "text": "図書館へ寄付している"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q011",
+          "category": "grammar",
+          "prompt": "祖母は眼鏡を外し忘れ、かけた（　　　）眠ってしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "後、きちんと外してから"
+            },
+            {
+              "id": "B",
+              "text": "ものの、寝る前に外してから"
+            },
+            {
+              "id": "C",
+              "text": "まま、朝まで外さずに"
+            },
+            {
+              "id": "D",
+              "text": "後、別の眼鏡に替えてから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "grammar",
+          "prompt": "雨にぬれた傘を車内に（　　　）ため、翌朝も座席が湿っていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "置かずに持ち帰った"
+            },
+            {
+              "id": "B",
+              "text": "置いてすぐ乾かした"
+            },
+            {
+              "id": "C",
+              "text": "持ち込まずに帰った"
+            },
+            {
+              "id": "D",
+              "text": "置きっぱなしにした"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "grammar",
+          "prompt": "地震後、誰も近づけないようにしただけで、傾いた看板が危険な（　　　）放置されている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、固定もされずに"
+            },
+            {
+              "id": "B",
+              "text": "状態ではなく、安全に固定されて"
+            },
+            {
+              "id": "C",
+              "text": "場所から倉庫へ移されて"
+            },
+            {
+              "id": "D",
+              "text": "ものではないと確認されて"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "grammar",
+          "prompt": "今日は朝から客が続き、座る暇が一度もなく（　　　）足が痛い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "座って休んだので"
+            },
+            {
+              "id": "B",
+              "text": "立ちっぱなしだったので"
+            },
+            {
+              "id": "C",
+              "text": "途中で横になったので"
+            },
+            {
+              "id": "D",
+              "text": "十分に休憩したので"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "grammar",
+          "prompt": "説明を聞かない（　　　）契約書に署名するのは危険だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と言いながら、最後まで聞いてから"
+            },
+            {
+              "id": "B",
+              "text": "つもりだったが、質問してから"
+            },
+            {
+              "id": "C",
+              "text": "まま、内容も確認せずに"
+            },
+            {
+              "id": "D",
+              "text": "どころか、疑問点を確認してから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "grammar",
+          "prompt": "パソコンを一晩（　　　）熱くなっていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "使わず電源を切っていたので"
+            },
+            {
+              "id": "B",
+              "text": "短時間だけ使ったので"
+            },
+            {
+              "id": "C",
+              "text": "修理に出していたので"
+            },
+            {
+              "id": "D",
+              "text": "つけっぱなしにしていたので"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "grammar",
+          "prompt": "港へ戻るまで乗客は不安な（　　　）船内で待った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、落ち着くことができずに"
+            },
+            {
+              "id": "B",
+              "text": "気持ちを伝え、落ち着いて"
+            },
+            {
+              "id": "C",
+              "text": "表情を見せず、安心して"
+            },
+            {
+              "id": "D",
+              "text": "点を確認し、納得して"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "grammar",
+          "prompt": "彼女は休憩も水分補給もせず二時間も（　　　）。そのため、声がかれてしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "黙ったままでいた"
+            },
+            {
+              "id": "B",
+              "text": "話しっぱなしだった"
+            },
+            {
+              "id": "C",
+              "text": "静かに座っていた"
+            },
+            {
+              "id": "D",
+              "text": "途中で何度も休んだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "grammar",
+          "prompt": "値札を外し忘れ、付けた（　　　）贈り物を渡してしまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "後、きちんと外してから"
+            },
+            {
+              "id": "B",
+              "text": "ものの、渡す前に外してから"
+            },
+            {
+              "id": "C",
+              "text": "まま、値札を外さずに"
+            },
+            {
+              "id": "D",
+              "text": "後、箱を開け直してから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "grammar",
+          "prompt": "駅前の通路では、自転車を（　　　）はいけない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "駐輪場へ移して"
+            },
+            {
+              "id": "B",
+              "text": "家まで押して帰って"
+            },
+            {
+              "id": "C",
+              "text": "友人に貸して"
+            },
+            {
+              "id": "D",
+              "text": "止めっぱなしにして"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "grammar",
+          "prompt": "審査を公平にするため、応募者は名前を伏せた（　　　）作品を提出する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "まま、本名を一切書かずに"
+            },
+            {
+              "id": "B",
+              "text": "後、すぐ本名を明かしてから"
+            },
+            {
+              "id": "C",
+              "text": "ものの、表紙には本名を書いて"
+            },
+            {
+              "id": "D",
+              "text": "つもりだったが、結局本名で"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "grammar",
+          "prompt": "忙しくて昼食を取れず、朝から（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一日休んでいた"
+            },
+            {
+              "id": "B",
+              "text": "働きっぱなしだった"
+            },
+            {
+              "id": "C",
+              "text": "昼まで寝ていた"
+            },
+            {
+              "id": "D",
+              "text": "早く帰宅していた"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "grammar",
+          "prompt": "換気扇も使わず、窓を閉めた（　　　）料理をしたら、部屋に煙がたまった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "後、すぐ開けて換気して"
+            },
+            {
+              "id": "B",
+              "text": "ものの、換気扇を回しながら"
+            },
+            {
+              "id": "C",
+              "text": "まま、換気をせずに"
+            },
+            {
+              "id": "D",
+              "text": "後、十分に換気してから"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "grammar",
+          "prompt": "雑誌は読後に閉じて棚へ戻す決まりです。机の上が散らかるので、読み終えた雑誌を（　　　）ください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "何冊も重ねて置いて"
+            },
+            {
+              "id": "B",
+              "text": "開いたまま残して"
+            },
+            {
+              "id": "C",
+              "text": "ばらばらに破いて"
+            },
+            {
+              "id": "D",
+              "text": "広げっぱなしにしないで"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "grammar",
+          "prompt": "引っ越した後も、二人の関係は以前の（　　　）だ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ままで、何も変わっていない"
+            },
+            {
+              "id": "B",
+              "text": "関係とはまったく別"
+            },
+            {
+              "id": "C",
+              "text": "状態から大きく変化したもの"
+            },
+            {
+              "id": "D",
+              "text": "ように見えて実は別"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        }
+      ]
+    }
+  ]
+}

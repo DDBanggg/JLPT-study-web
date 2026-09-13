@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-034",
+  "study_day": 34,
+  "items": [
+    {
+      "id": 3401,
+      "structure": "～を通して／～を通じて（1）",
+      "formation": [
+        "N + を通して／を通じて／を通しての + N"
+      ],
+      "meaning_vi": "thông qua; qua trung gian",
+      "usage_vi": "Nêu phương thức, phương tiện hoặc người trung gian giúp hình thành thông tin, quan hệ hay trải nghiệm.",
+      "examples": [
+        {
+          "jp": "私は学生生活を通して、色々なことを学んだ。",
+          "vi": "Thông qua đời sống sinh viên, tôi đã học được nhiều điều."
+        },
+        {
+          "jp": "このような交流会を通じて、国と国との理解が深まっていくことを願っています。",
+          "vi": "Tôi mong rằng thông qua những buổi giao lưu như thế này, sự thấu hiểu giữa các quốc gia sẽ sâu sắc hơn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 17 | BÀI 1 > NGỮ PHÁP > mục 3 — ～を通して／～を通じて（1）"
+    },
+    {
+      "id": 3402,
+      "structure": "～を通して／～を通じて（2）",
+      "formation": [
+        "Thời gian + を通して／を通じて"
+      ],
+      "meaning_vi": "trong suốt một khoảng thời gian",
+      "usage_vi": "Diễn tả trạng thái hoặc sự việc duy trì xuyên suốt một thời kỳ.",
+      "examples": [
+        {
+          "jp": "夏休みを通して息子に英語を教えてあげた。",
+          "vi": "Tôi đã dạy tiếng Anh cho con trai suốt kỳ nghỉ hè."
+        },
+        {
+          "jp": "このホテルでは、年間を通じていつも結婚式が行われている。",
+          "vi": "Khách sạn này tổ chức lễ cưới quanh năm."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 18 | BÀI 1 > NGỮ PHÁP > mục 4 — ～を通して／～を通じて（2）"
+    },
+    {
+      "id": 3403,
+      "structure": "～を込めて",
+      "formation": [
+        "N + を込めて／を込めた + N"
+      ],
+      "meaning_vi": "gửi gắm; dồn cả tình cảm vào",
+      "usage_vi": "Cho biết hành động chứa đựng tình cảm, tâm ý, lời cầu chúc hoặc nỗ lực.",
+      "examples": [
+        {
+          "jp": "愛を込めて作ったチョコレートを彼に渡した。",
+          "vi": "Tôi đã trao cho anh ấy sô-cô-la làm bằng cả tình yêu."
+        },
+        {
+          "jp": "母に感謝の思いを込めて手紙を書いた。",
+          "vi": "Tôi viết thư gửi mẹ với tất cả lòng biết ơn."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 19 | BÀI 1 > NGỮ PHÁP > mục 5 — ～を込めて"
+    }
+  ]
+}

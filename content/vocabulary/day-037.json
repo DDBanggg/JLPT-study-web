@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-037",
+  "study_day": 37,
+  "target": 50,
+  "pool_size": 35,
+  "items": [
+    {
+      "id": 3701,
+      "surface": "複数",
+      "hiragana": "ふくすう",
+      "kanji": "複数",
+      "meaning_vi": "số nhiều",
+      "examples": [
+        {
+          "jp": "ヨーロッパは複数の言語が話せる人が多い。",
+          "vi": "Ở châu Âu, có nhiều người có thể nói được nhiều thứ tiếng."
+        },
+        {
+          "jp": "この問題には複数の答えがあります。",
+          "vi": "Bài tập này có nhiều đáp án."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 001 — 複数"
+    },
+    {
+      "id": 3702,
+      "surface": "お腹",
+      "hiragana": "おなか",
+      "kanji": "お腹",
+      "meaning_vi": "bụng",
+      "examples": [
+        {
+          "jp": "朝から何も食べていないので、お腹が空いている。",
+          "vi": "Từ sáng đến giờ tôi chưa ăn gì nên đang đói bụng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 002 — お腹"
+    },
+    {
+      "id": 3703,
+      "surface": "各自",
+      "hiragana": "かくじ",
+      "kanji": "各自",
+      "meaning_vi": "mỗi người, từng cá nhân",
+      "examples": [
+        {
+          "jp": "お昼ご飯は各自で用意することになっている。",
+          "vi": "Bữa trưa được quy định là mỗi người tự chuẩn bị."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 003 — 各自"
+    },
+    {
+      "id": 3704,
+      "surface": "各地",
+      "hiragana": "かくち",
+      "kanji": "各地",
+      "meaning_vi": "các nơi, các vùng",
+      "examples": [
+        {
+          "jp": "７月下旬から８月中旬にかけて、日本各地で夏祭りが 行われる。",
+          "vi": "Từ cuối tháng 7 đến giữa tháng 8, lễ hội mùa hè được tổ chức trên khắp các vùng của Nhật Bản."
+        },
+        {
+          "jp": "今年に入ってから、各地で地震が発生している。",
+          "vi": "Từ đầu năm đến nay, động đất đã xảy ra ở nhiều nơi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 004 — 各地"
+    },
+    {
+      "id": 3705,
+      "surface": "価格",
+      "hiragana": "かかく",
+      "kanji": "価格",
+      "meaning_vi": "giá cả",
+      "examples": [
+        {
+          "jp": "この商品は価格が改定されて、少し安くなった。",
+          "vi": "Giá của sản phẩm này đã được điều chỉnh nên rẻ hơn một chút."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 005 — 価格"
+    },
+    {
+      "id": 3706,
+      "surface": "不合格",
+      "hiragana": "ふごうかく",
+      "kanji": "不合格",
+      "meaning_vi": "trượt, thi rớt",
+      "examples": [
+        {
+          "jp": "勉強しないでテストを受けたら、やっぱり不合格だった。",
+          "vi": "Tôi đã đi thi mà không học bài, và quả nhiên là đã trượt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 006 — 不合格"
+    },
+    {
+      "id": 3707,
+      "surface": "線路",
+      "hiragana": "せんろ",
+      "kanji": "線路",
+      "meaning_vi": "đường ray",
+      "examples": [
+        {
+          "jp": "危ないから、線路に降りてはいけない。",
+          "vi": "Nguy hiểm đấy, cấm không được xuống đường ray."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 007 — 線路"
+    },
+    {
+      "id": 3708,
+      "surface": "道路",
+      "hiragana": "どうろ",
+      "kanji": "道路",
+      "meaning_vi": "con đường",
+      "examples": [
+        {
+          "jp": "休日は道路が混む。",
+          "vi": "Ngày nghỉ đường rất đông."
+        },
+        {
+          "jp": "道路の上で、子供が遊んでいる。",
+          "vi": "Trẻ con đang chơi đùa trên đường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 008 — 道路"
+    },
+    {
+      "id": 3709,
+      "surface": "高速道路",
+      "hiragana": "こうそくどうろ",
+      "kanji": "高速道路",
+      "meaning_vi": "đường cao tốc",
+      "examples": [
+        {
+          "jp": "事故の影響で、高速道路が渋滞していた。",
+          "vi": "Do ảnh hưởng của tai nạn, đường cao tốc đã bị tắc nghẽn."
+        },
+        {
+          "jp": "高速道路は、速くて便利だがお金を取られる。",
+          "vi": "Đường cao tốc thì nhanh và tiện nhưng mất phí."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 009 — 高速道路"
+    },
+    {
+      "id": 3710,
+      "surface": "路面",
+      "hiragana": "ろめん",
+      "kanji": "路面",
+      "meaning_vi": "mặt đường",
+      "examples": [
+        {
+          "jp": "路面がでこぼこしていて、走りにくい。",
+          "vi": "Mặt đường lồi lõm, khó chạy."
+        },
+        {
+          "jp": "この町には、路面電車が走っている。",
+          "vi": "Thành phố này có tàu điện chạy trên đường."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 010 — 路面"
+    },
+    {
+      "id": 3711,
+      "surface": "落とし物",
+      "hiragana": "おとしもの",
+      "kanji": "落とし物",
+      "meaning_vi": "đồ đánh rơi",
+      "examples": [
+        {
+          "jp": "落とし物をしたら、警察に連絡してください。",
+          "vi": "Nếu đánh rơi đồ thì hãy liên lạc cho cảnh sát."
+        },
+        {
+          "jp": "落とし物を拾ったので、交番に届けた。",
+          "vi": "Vì tôi nhặt được đồ đánh rơi nên đã đem đến đồn cảnh sát."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 011 — 落とし物"
+    },
+    {
+      "id": 3712,
+      "surface": "涙",
+      "hiragana": "なみだ",
+      "kanji": "涙",
+      "meaning_vi": "nước mắt",
+      "examples": [
+        {
+          "jp": "彼の話を聞いて、涙が止まらなかった。",
+          "vi": "Nước mắt tôi không thể ngừng rơi khi nghe câu chuyện của anh ấy."
+        },
+        {
+          "jp": "映画を見て感動し、涙が出た。",
+          "vi": "Tôi xúc động khi xem phim và bật khóc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 012 — 涙"
+    },
+    {
+      "id": 3713,
+      "surface": "乗客",
+      "hiragana": "じょうきゃく",
+      "kanji": "乗客",
+      "meaning_vi": "hành khách",
+      "examples": [
+        {
+          "jp": "電車から乗客が続々と降りてきた。",
+          "vi": "Hành khách lần lượt xuống tàu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 013 — 乗客"
+    },
+    {
+      "id": 3714,
+      "surface": "借り",
+      "hiragana": "かり",
+      "kanji": "借り",
+      "meaning_vi": "khoản vay, vay mượn",
+      "examples": [
+        {
+          "jp": "彼に１つ大きな借りができた。",
+          "vi": "Tôi đã mắc nợ anh ấy một khoản vay lớn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 014 — 借り"
+    },
+    {
+      "id": 3715,
+      "surface": "人数",
+      "hiragana": "にんずう",
+      "kanji": "人数",
+      "meaning_vi": "số người",
+      "examples": [
+        {
+          "jp": "このクラスの人数は 20 人です。",
+          "vi": "Sĩ số của lớp này là 20 người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 015 — 人数"
+    },
+    {
+      "id": 3716,
+      "surface": "片道",
+      "hiragana": "かたみち",
+      "kanji": "片道",
+      "meaning_vi": "một chiều, một lượt",
+      "examples": [
+        {
+          "jp": "片道の料金は 1000 円です。",
+          "vi": "Giá vé một chiều là 1000 yên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 016 — 片道"
+    },
+    {
+      "id": 3717,
+      "surface": "石油",
+      "hiragana": "せきゆ",
+      "kanji": "石油",
+      "meaning_vi": "dầu mỏ",
+      "examples": [
+        {
+          "jp": "石油価格はどんどん上がっている。",
+          "vi": "Giá dầu đang liên tục tăng lên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 017 — 石油"
+    },
+    {
+      "id": 3718,
+      "surface": "途中",
+      "hiragana": "とちゅう",
+      "kanji": "途中",
+      "meaning_vi": "giữa chừng",
+      "examples": [
+        {
+          "jp": "この道は途中で 2 つに分かれている。",
+          "vi": "Con đường này giữa chừng chia làm hai nhánh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 018 — 途中"
+    },
+    {
+      "id": 3719,
+      "surface": "共通",
+      "hiragana": "きょうつう",
+      "kanji": "共通",
+      "meaning_vi": "chung, phổ thông",
+      "examples": [
+        {
+          "jp": "私達は、共通の趣味で知り合った。",
+          "vi": "Chúng tôi quen nhau vì cùng chung sở thích."
+        },
+        {
+          "jp": "シンガポールの共通語は英語だ。",
+          "vi": "Ngôn ngữ phổ thông của Singapore là tiếng Anh."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 019 — 共通"
+    },
+    {
+      "id": 3720,
+      "surface": "バランス",
+      "hiragana": "ばらんす",
+      "kanji": null,
+      "meaning_vi": "cân bằng",
+      "examples": [
+        {
+          "jp": "バランスのいい食事を心がけている。",
+          "vi": "Tôi cố gắng duy trì một chế độ ăn uống cân bằng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 020 — バランス"
+    },
+    {
+      "id": 3721,
+      "surface": "ピザ",
+      "hiragana": "ぴざ",
+      "kanji": null,
+      "meaning_vi": "bánh pizza",
+      "examples": [
+        {
+          "jp": "イタリア料理のレストランでピザを食べた。",
+          "vi": "Tôi đã ăn pizza ở một nhà hàng Ý."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 46 | BÀI 3 > TỪ VỰNG > mục 021 — ピザ"
+    },
+    {
+      "id": 3722,
+      "surface": "スープ",
+      "hiragana": "すーぷ",
+      "kanji": null,
+      "meaning_vi": "súp",
+      "examples": [
+        {
+          "jp": "スープが熱いので、ちょっと冷ましている。",
+          "vi": "Vì súp còn nóng nên tôi để nguội một chút."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 022 — スープ"
+    },
+    {
+      "id": 3723,
+      "surface": "ホーム",
+      "hiragana": "ほーむ",
+      "kanji": null,
+      "meaning_vi": "sân ga, nhà ga",
+      "examples": [
+        {
+          "jp": "東京行きの電車は３番ホームから出発します。",
+          "vi": "Tàu điện đi Tokyo sẽ xuất phát từ sân ga số 3."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 023 — ホーム"
+    },
+    {
+      "id": 3724,
+      "surface": "タオル",
+      "hiragana": "たおる",
+      "kanji": null,
+      "meaning_vi": "khăn tắm, khăn lau TỪ VỰNG ❷",
+      "examples": [
+        {
+          "jp": "プールに行くときはタオルを忘れないでください。",
+          "vi": "Khi đi bơi, đừng quên mang theo khăn nhé."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 024 — タオル"
+    },
+    {
+      "id": 3725,
+      "surface": "夢中",
+      "hiragana": "むちゅう",
+      "kanji": "夢中",
+      "meaning_vi": "mải mê, nghiện",
+      "examples": [
+        {
+          "jp": "小学生のころ、アニメに夢中になった。",
+          "vi": "Hồi tiểu học tôi nghiện phim hoạt hình."
+        },
+        {
+          "jp": "息子は夢中でゲームをしている。",
+          "vi": "Con trai tôi đang mải mê chơi game."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 025 — 夢中"
+    },
+    {
+      "id": 3726,
+      "surface": "完全",
+      "hiragana": "かんぜん",
+      "kanji": "完全",
+      "meaning_vi": "hoàn toàn",
+      "examples": [
+        {
+          "jp": "簡単な説明だけでは、完全な理解は難しい。",
+          "vi": "Chỉ với giải thích đơn giản thì khó để hiểu được một cách hoàn toàn."
+        },
+        {
+          "jp": "体調はだいぶよくなったが、まだ完全には回復していない。",
+          "vi": "Tình trạng sức khỏe đã cải thiện khá nhiều, nhưng vẫn chưa hoàn toàn hồi phục."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 026 — 完全"
+    },
+    {
+      "id": 3727,
+      "surface": "でこぼこ",
+      "hiragana": "でこぼこ",
+      "kanji": null,
+      "meaning_vi": "gập ghềnh, lồi lõm",
+      "examples": [
+        {
+          "jp": "この道路はでこぼこしていて運転しにくい。",
+          "vi": "Con đường này lồi lõm, khó lái xe."
+        },
+        {
+          "jp": "みかんの皮の表面は、よく見るとでこぼこしている。",
+          "vi": "Bề mặt vỏ quả quýt, nếu nhìn kĩ sẽ thấy lồi lõm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな/Nする"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 027 — でこぼこ"
+    },
+    {
+      "id": 3728,
+      "surface": "可能",
+      "hiragana": "かのう",
+      "kanji": "可能",
+      "meaning_vi": "có thể, có khả năng",
+      "examples": [
+        {
+          "jp": "この成績なら大学進学も十分可能だ。",
+          "vi": "Với thành tích này, việc học lên đại học là hoàn toàn đủ khả năng."
+        },
+        {
+          "jp": "この店はインターネットでの予約が可能だ。",
+          "vi": "Cửa hàng này có thể đặt trước trên mạng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 028 — 可能"
+    },
+    {
+      "id": 3729,
+      "surface": "不可能",
+      "hiragana": "ふかのう",
+      "kanji": "不可能",
+      "meaning_vi": "là điều không thể.) bất khả thi, không thể",
+      "examples": [
+        {
+          "jp": "今日中にこの量の仕事を終わらせるなんて不可能だ。",
+          "vi": "Hoàn thành hết từng này khối lượng công việc chỉ trong hôm nay ❖ là điều không thể."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 029 — 不可能"
+    },
+    {
+      "id": 3730,
+      "surface": "不注意",
+      "hiragana": "ふちゅうい",
+      "kanji": "不注意",
+      "meaning_vi": "không chú ý, vô ý",
+      "examples": [
+        {
+          "jp": "あなたが転んだのは不注意だからだ。",
+          "vi": "Bạn bị ngã là vì không chú ý đấy."
+        },
+        {
+          "jp": "彼女を泣かせるような不注意なことを言ってしまった。",
+          "vi": "Tôi lỡ nói những lời vô ý làm cô ấy khóc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 47 | BÀI 3 > TỪ VỰNG > mục 030 — 不注意"
+    },
+    {
+      "id": 3731,
+      "surface": "薄い",
+      "hiragana": "うすい",
+      "kanji": "薄い",
+      "meaning_vi": "mỏng ❖ nhạt",
+      "examples": [
+        {
+          "jp": "私のアパートは壁が薄くて、隣の部屋の話し声が聞こえてくる。",
+          "vi": "Căn hộ của tôi tường mỏng nên nghe được cả tiếng nói chuyện từ phòng bên cạnh."
+        },
+        {
+          "jp": "スープの味が薄かったので、塩を入れた。",
+          "vi": "Vì vị súp nhạt nên tôi cho thêm muối."
+        },
+        {
+          "jp": "あの喫茶店のコーヒーは薄くておいしくない。",
+          "vi": "Cà phê ở quán đó loãng nên không ngon."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 48 | BÀI 3 > TỪ VỰNG > mục 031 — 薄い"
+    },
+    {
+      "id": 3732,
+      "surface": "大人しい",
+      "hiragana": "おとなしい",
+      "kanji": "大人しい",
+      "meaning_vi": "nhẹ nhàng, hiền lành ❖ ngoan ngoãn",
+      "examples": [
+        {
+          "jp": "彼は大人しい性格で、あまり怒らない。",
+          "vi": "Anh ấy có tính cách điềm đạm, không hay tức giận."
+        },
+        {
+          "jp": "子供たちに、お店の中では大人しくするよう伝えた。",
+          "vi": "Tôi đã dặn bọn trẻ là ở trong cửa hàng thì phải cư xử ngoan ngoãn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 48 | BÀI 3 > TỪ VỰNG > mục 032 — 大人しい"
+    },
+    {
+      "id": 3733,
+      "surface": "おかしい",
+      "hiragana": "おかしい",
+      "kanji": null,
+      "meaning_vi": "buồn cười, kỳ quặc ❖ lạ, khác thường",
+      "examples": [
+        {
+          "jp": "彼はおかしいことを言って笑わせてくれた。",
+          "vi": "Anh ấy nói những điều kỳ quặc gây cười cho mọi người."
+        },
+        {
+          "jp": "スマートフォンの調子がおかしい。",
+          "vi": "Tình trạng của điện thoại thông minh không bình thường."
+        },
+        {
+          "jp": "朝から子どもの様子がおかしい。",
+          "vi": "Từ sáng bộ dạng của con tôi trông khá lạ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 48 | BÀI 3 > TỪ VỰNG > mục 033 — おかしい"
+    },
+    {
+      "id": 3734,
+      "surface": "散らす",
+      "hiragana": "ちらす",
+      "kanji": "散らす",
+      "meaning_vi": "làm rơi vãi, làm phân tán",
+      "examples": [
+        {
+          "jp": "料理の仕上げに、パセリを散らす。",
+          "vi": "Rắc rau mùi tây lên món ăn vừa hoàn thành."
+        },
+        {
+          "jp": "仕事中は気を散らさないでください。",
+          "vi": "Đừng để bị xao nhãng khi đang làm việc."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 48 | BÀI 3 > TỪ VỰNG > mục 034 — 散らす"
+    },
+    {
+      "id": 3735,
+      "surface": "散らかす",
+      "hiragana": "ちらかす",
+      "kanji": "散らかす",
+      "meaning_vi": "làm bừa bộn, làm lung tung",
+      "examples": [
+        {
+          "jp": "子供が部屋をおもちゃで散らかした。",
+          "vi": "Đứa trẻ đã làm cho đồ chơi vương vãi khắp phòng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 48 | BÀI 3 > TỪ VỰNG > mục 035 — 散らかす"
+    }
+  ]
+}

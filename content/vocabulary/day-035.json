@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-035",
+  "study_day": 35,
+  "target": 50,
+  "pool_size": 34,
+  "items": [
+    {
+      "id": 3501,
+      "surface": "腰",
+      "hiragana": "こし",
+      "kanji": "腰",
+      "meaning_vi": "eo, hông, thắt lưng",
+      "examples": [
+        {
+          "jp": "ずっと同じ姿勢で座っていたので、腰が痛い。",
+          "vi": "Phần thắt lưng của tôi bị đau do ngồi lâu ở một tư thế."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 001 — 腰"
+    },
+    {
+      "id": 3502,
+      "surface": "煙",
+      "hiragana": "けむり",
+      "kanji": "煙",
+      "meaning_vi": "khói",
+      "examples": [
+        {
+          "jp": "たばこの煙のせいで服が臭くなる。",
+          "vi": "Quần áo bị ám mùi do khói thuốc lá."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 002 — 煙"
+    },
+    {
+      "id": 3503,
+      "surface": "生",
+      "hiragana": "なま",
+      "kanji": "生",
+      "meaning_vi": "sống, tươi む。 (Uống bia tươi vào ngày nghỉ.) (chưa chế biến)",
+      "examples": [
+        {
+          "jp": "生野菜は健康にいい。",
+          "vi": "Rau tươi thì tốt cho sức khỏe."
+        },
+        {
+          "jp": "休日に生ビールを飲",
+          "vi": "Uống bia tươi vào ngày nghỉ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 003 — 生"
+    },
+    {
+      "id": 3504,
+      "surface": "辺り",
+      "hiragana": "あたり",
+      "kanji": "辺り",
+      "meaning_vi": "gần, lân cận い。 (Vùng vai phải hơi đau một chút.)",
+      "examples": [
+        {
+          "jp": "昔、この辺りは広い田んぼだった。",
+          "vi": "Ngày xưa, khu vực quanh đây là những cánh đồng lúa rộng lớn."
+        },
+        {
+          "jp": "右肩辺りが少し痛",
+          "vi": "Vùng vai phải hơi đau một chút."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 004 — 辺り"
+    },
+    {
+      "id": 3505,
+      "surface": "冗談",
+      "hiragana": "じょうだん",
+      "kanji": "冗談",
+      "meaning_vi": "đùa giỡn, bông đùa",
+      "examples": [
+        {
+          "jp": "冗談を言ってみんなを笑わせる。",
+          "vi": "Nói đùa để làm mọi người cười."
+        },
+        {
+          "jp": "彼の冗談は本当の話のように聞こえる。",
+          "vi": "Những câu nói đùa của anh ấy nghe cứ như chuyện thật vậy."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 005 — 冗談"
+    },
+    {
+      "id": 3506,
+      "surface": "観客",
+      "hiragana": "かんきゃく",
+      "kanji": "観客",
+      "meaning_vi": "khán giả",
+      "examples": [
+        {
+          "jp": "今日のサッカーの試合は、観客が多い。",
+          "vi": "Trận bóng ngày hôm nay có nhiều khán giả."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 006 — 観客"
+    },
+    {
+      "id": 3507,
+      "surface": "感覚",
+      "hiragana": "かんかく",
+      "kanji": "感覚",
+      "meaning_vi": "cảm giác, giác quan",
+      "examples": [
+        {
+          "jp": "寒さで、手足の感覚がない。",
+          "vi": "Vì lạnh mà chân tay không còn cảm giác."
+        },
+        {
+          "jp": "スポーツ選手はバランス感覚がいい。",
+          "vi": "Vận động viên thể thao rất giỏi giữ thăng bằng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 007 — 感覚"
+    },
+    {
+      "id": 3508,
+      "surface": "現金",
+      "hiragana": "げんきん",
+      "kanji": "現金",
+      "meaning_vi": "tiền mặt",
+      "examples": [
+        {
+          "jp": "この店は現金でしか支払いができない。",
+          "vi": "Cửa hàng này chỉ có thể thanh toán bằng tiền mặt."
+        },
+        {
+          "jp": "ATM で現金を引き出してきます。",
+          "vi": "Tôi sẽ đi rút tiền mặt ở cây ATM."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 008 — 現金"
+    },
+    {
+      "id": 3509,
+      "surface": "普通",
+      "hiragana": "ふつう",
+      "kanji": "普通",
+      "meaning_vi": "bình thường, thông thường",
+      "examples": [
+        {
+          "jp": "普通は、部屋に入る時はドアをノックする。",
+          "vi": "Thường thì vào phòng sẽ gõ cửa."
+        },
+        {
+          "jp": "私は普通、朝 7 時に起きます。",
+          "vi": "Tôi thường dậy lúc 7h sáng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 009 — 普通"
+    },
+    {
+      "id": 3510,
+      "surface": "税金",
+      "hiragana": "ぜいきん",
+      "kanji": "税金",
+      "meaning_vi": "tiền thuế, thuế",
+      "examples": [
+        {
+          "jp": "毎月税金を払う。",
+          "vi": "Trả tiền thuế hàng tháng."
+        },
+        {
+          "jp": "家を買っても、税金がかかる。",
+          "vi": "Mua nhà cũng mất thuế."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 010 — 税金"
+    },
+    {
+      "id": 3511,
+      "surface": "期限",
+      "hiragana": "きげん",
+      "kanji": "期限",
+      "meaning_vi": "thời hạn, kỳ hạn",
+      "examples": [
+        {
+          "jp": "このパスポートは期限が切れている。",
+          "vi": "Hộ chiếu này hết hạn rồi."
+        },
+        {
+          "jp": "レポートの提出期限は明日の午前１０時です。",
+          "vi": "Hạn nộp báo cáo là 10 giờ sáng mai."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 011 — 期限"
+    },
+    {
+      "id": 3512,
+      "surface": "目下",
+      "hiragana": "めした／もっか",
+      "kanji": "目下",
+      "meaning_vi": "めした : người có vai vế thấp; もっか : ngay trước mắt",
+      "examples": [
+        {
+          "jp": "彼は目下の人にも礼儀正しい。",
+          "vi": "Anh ấy cư xử đúng mực kể cả với người dưới mình."
+        },
+        {
+          "jp": "目下のところ、大きな問題は起きていません。",
+          "vi": "Cho đến hiện tại, chưa có vấn đề nghiêm trọng nào xảy ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N",
+        "Nguồn dạy cùng chữ 目下 với hai cách đọc: めした (người dưới vai) và もっか (hiện tại, lúc này)."
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 012 — 目下"
+    },
+    {
+      "id": 3513,
+      "surface": "目上",
+      "hiragana": "めうえ",
+      "kanji": "目上",
+      "meaning_vi": "người có vai vế cao hơn mình",
+      "examples": [
+        {
+          "jp": "目上の人には礼儀正しくしなければならない。",
+          "vi": "Cần phải giữ đúng lễ nghĩa với người trên."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 013 — 目上"
+    },
+    {
+      "id": 3514,
+      "surface": "姿勢",
+      "hiragana": "しせい",
+      "kanji": "姿勢",
+      "meaning_vi": "tư thế, thái độ",
+      "examples": [
+        {
+          "jp": "彼の仕事に対する姿勢は素晴らしい。",
+          "vi": "Thái độ đối với công việc của anh ấy thật tuyệt vời."
+        },
+        {
+          "jp": "机に向かっていると、つい姿勢が悪くなってしまう。",
+          "vi": "Hễ ngồi vào bàn là tư thế của tôi lại vô tình xấu đi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 014 — 姿勢"
+    },
+    {
+      "id": 3515,
+      "surface": "焼き肉",
+      "hiragana": "やきにく",
+      "kanji": "焼き肉",
+      "meaning_vi": "thịt nướng う。 (Thịt nướng rất hợp với bia.)",
+      "examples": [
+        {
+          "jp": "週末は家族で焼き肉を食べに行った。",
+          "vi": "Cuối tuần cả gia đình tôi đã đi ăn thịt nướng."
+        },
+        {
+          "jp": "焼き肉にはビールがよく合",
+          "vi": "Thịt nướng rất hợp với bia."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 015 — 焼き肉"
+    },
+    {
+      "id": 3516,
+      "surface": "熱中症",
+      "hiragana": "ねっちゅうしょう",
+      "kanji": "熱中症",
+      "meaning_vi": "sốc nhiệt, say nắng",
+      "examples": [
+        {
+          "jp": "熱中症にならないように、こまめに水を飲んでください。",
+          "vi": "Hãy uống nước thường xuyên để không bị say nắng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 016 — 熱中症"
+    },
+    {
+      "id": 3517,
+      "surface": "思い出",
+      "hiragana": "おもいで",
+      "kanji": "思い出",
+      "meaning_vi": "kí ức, kỉ niệm",
+      "examples": [
+        {
+          "jp": "彼女とはいい思い出が作れた。",
+          "vi": "Tôi đã có những kỉ niệm đẹp với cô ấy."
+        },
+        {
+          "jp": "昔の思い出は、忘れられない。",
+          "vi": "Không thể quên được những kỷ niệm ngày xưa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 017 — 思い出"
+    },
+    {
+      "id": 3518,
+      "surface": "売り上げ",
+      "hiragana": "うりあげ",
+      "kanji": "売り上げ",
+      "meaning_vi": "doanh thu, doanh số",
+      "examples": [
+        {
+          "jp": "最近はすっかり、店の売り上げが落ちてしまった。",
+          "vi": "Gần đây doanh thu của cửa hàng đã sụt giảm rõ ràng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 018 — 売り上げ"
+    },
+    {
+      "id": 3519,
+      "surface": "目覚まし時計",
+      "hiragana": "めざましどけい",
+      "kanji": "目覚まし時計",
+      "meaning_vi": "đồng hồ báo thức",
+      "examples": [
+        {
+          "jp": "目覚まし時計を 7 時に合わせた。",
+          "vi": "Tôi đã đặt đồng hồ báo thức vào lúc 7 giờ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 019 — 目覚まし時計"
+    },
+    {
+      "id": 3520,
+      "surface": "生ゴミ",
+      "hiragana": "なまゴミ",
+      "kanji": "生ゴミ",
+      "meaning_vi": "rác hữu cơ",
+      "examples": [
+        {
+          "jp": "生ゴミは燃えるゴミに分類されます。",
+          "vi": "Rác hữu cơ được phân loại là rác cháy được."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 020 — 生ゴミ"
+    },
+    {
+      "id": 3521,
+      "surface": "ユーモア",
+      "hiragana": "ゆーもあ",
+      "kanji": null,
+      "meaning_vi": "sự hài hước",
+      "examples": [
+        {
+          "jp": "ユーモアがあって明るい人がタイプです。",
+          "vi": "Kiểu người tôi thích là người có khiếu hài hước và vui vẻ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 021 — ユーモア"
+    },
+    {
+      "id": 3522,
+      "surface": "ヨーロッパ",
+      "hiragana": "よーろっぱ",
+      "kanji": null,
+      "meaning_vi": "châu Âu (Europe)",
+      "examples": [
+        {
+          "jp": "日本のカラスはアメリカやヨーロッパのカラスよりも大きい。",
+          "vi": "Quạ ở Nhật Bản to hơn quạ ở Mỹ hay Châu Âu."
+        },
+        {
+          "jp": "私はヨーロッパの建築が好きです。",
+          "vi": "Tôi thích những kiến trúc châu Âu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 27 | BÀI 2 > TỪ VỰNG > mục 022 — ヨーロッパ"
+    },
+    {
+      "id": 3523,
+      "surface": "複雑",
+      "hiragana": "ふくざつ",
+      "kanji": "複雑",
+      "meaning_vi": "phức tạp",
+      "examples": [
+        {
+          "jp": "この漢字は複雑で、覚えられない。",
+          "vi": "Chữ Hán này phức tạp, không nhớ nổi."
+        },
+        {
+          "jp": "この本の内容は複雑でわかりにくい。",
+          "vi": "Nội dung cuốn sách này phức tạp và khó hiểu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 023 — 複雑"
+    },
+    {
+      "id": 3524,
+      "surface": "無料",
+      "hiragana": "むりょう",
+      "kanji": "無料",
+      "meaning_vi": "miễn phí",
+      "examples": [
+        {
+          "jp": "この動物園は、小学生以下の子供は無料で入れる。",
+          "vi": "Ở vườn thú này, trẻ em tiểu học trở xuống được vào cửa miễn phí."
+        },
+        {
+          "jp": "このゲームは無料で遊ぶことができる。",
+          "vi": "Trò này được chơi miễn phí."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 024 — 無料"
+    },
+    {
+      "id": 3525,
+      "surface": "有り難い",
+      "hiragana": "ありがたい",
+      "kanji": "有り難い",
+      "meaning_vi": "đáng quý, biết ơn",
+      "examples": [
+        {
+          "jp": "有り難いことに、試合の間だけは雨が止んでいた。",
+          "vi": "Thật may là mưa đã tạnh đúng trong thời gian diễn ra trận đấu."
+        },
+        {
+          "jp": "手伝っていただけると有り難いです。",
+          "vi": "Tôi sẽ rất biết ơn nếu được bạn giúp đỡ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 025 — 有り難い"
+    },
+    {
+      "id": 3526,
+      "surface": "懐かしい",
+      "hiragana": "なつかしい",
+      "kanji": "懐かしい",
+      "meaning_vi": "hoài niệm, nhớ nhung",
+      "examples": [
+        {
+          "jp": "学生時代が懐かしい。",
+          "vi": "Nhớ thời học sinh."
+        },
+        {
+          "jp": "遠くから懐かしい声が聞こえた。",
+          "vi": "Nghe thấy tiếng nói thân thuộc từ xa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 026 — 懐かしい"
+    },
+    {
+      "id": 3527,
+      "surface": "焼ける",
+      "hiragana": "やける",
+      "kanji": "焼ける",
+      "meaning_vi": "cháy, nướng chín",
+      "examples": [
+        {
+          "jp": "このオーブンは肉がよく焼ける。",
+          "vi": "Lò này nướng thịt chín khá kỹ."
+        },
+        {
+          "jp": "日に焼けて、はだの色が変わった。",
+          "vi": "Bị rám nắng nên màu da thay đổi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 027 — 焼ける"
+    },
+    {
+      "id": 3528,
+      "surface": "叱る",
+      "hiragana": "しかる",
+      "kanji": "叱る",
+      "meaning_vi": "la mắng",
+      "examples": [
+        {
+          "jp": "子供を叱るときは、理由を説明することが大切です。",
+          "vi": "Khi la mắng trẻ, điều quan trọng là phải giải thích lý do."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 028 — 叱る"
+    },
+    {
+      "id": 3529,
+      "surface": "煮る",
+      "hiragana": "にる",
+      "kanji": "煮る",
+      "meaning_vi": "nấu, hầm, kho",
+      "examples": [
+        {
+          "jp": "魚をしょうゆで煮る。",
+          "vi": "Nấu cá với nước tương."
+        },
+        {
+          "jp": "野菜を柔らかくなるまで煮てください。",
+          "vi": "Hãy hầm rau đến khi mềm ra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 029 — 煮る"
+    },
+    {
+      "id": 3530,
+      "surface": "動かす",
+      "hiragana": "うごかす",
+      "kanji": "動かす",
+      "meaning_vi": "di chuyển, làm chuyển động; ❖ vận hành",
+      "examples": [
+        {
+          "jp": "事故でけがをして、足を動かすことができなくなって しまった。",
+          "vi": "Tôi không cử động chân được vì bị thương do tai nạn."
+        },
+        {
+          "jp": "人形を動かす。",
+          "vi": "Làm con búp bê chuyển động."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 030 — 動かす"
+    },
+    {
+      "id": 3531,
+      "surface": "育てる",
+      "hiragana": "そだてる",
+      "kanji": "育てる",
+      "meaning_vi": "nuôi dưỡng, dạy dỗ でトマトを育てている。 (Tôi trồng cà chua trong vườn.)",
+      "examples": [
+        {
+          "jp": "一人で子供を育てる。",
+          "vi": "Một mình nuôi con."
+        },
+        {
+          "jp": "庭",
+          "vi": "Tôi trồng cà chua trong vườn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 031 — 育てる"
+    },
+    {
+      "id": 3532,
+      "surface": "届ける",
+      "hiragana": "とどける",
+      "kanji": "届ける",
+      "meaning_vi": "đưa đến, giao đến",
+      "examples": [
+        {
+          "jp": "友達がお土産を届けに来てくれた。",
+          "vi": "Bạn tôi đã đến để đưa quà lưu niệm."
+        },
+        {
+          "jp": "バイクで新聞",
+          "vi": "Dùng xe máy để giao báo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 28 | BÀI 2 > TỪ VỰNG > mục 032 — 届ける"
+    },
+    {
+      "id": 3533,
+      "surface": "進める",
+      "hiragana": "すすめる",
+      "kanji": "進める",
+      "meaning_vi": "làm tiến lên, thúc đẩy, xúc tiến",
+      "examples": [
+        {
+          "jp": "バイクを前に進める。",
+          "vi": "Tiến xe máy lên trước."
+        },
+        {
+          "jp": "時間があるうちに、仕事を進める。",
+          "vi": "Xúc tiến công việc trong lúc còn thời gian."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 033 — 進める"
+    },
+    {
+      "id": 3534,
+      "surface": "冷ます",
+      "hiragana": "さます",
+      "kanji": "冷ます",
+      "meaning_vi": "làm nguội",
+      "examples": [
+        {
+          "jp": "スープを冷ましてから子供に食べさせる。",
+          "vi": "Làm nguội súp rồi cho con ăn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: V"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 29 | BÀI 2 > TỪ VỰNG > mục 034 — 冷ます"
+    }
+  ]
+}

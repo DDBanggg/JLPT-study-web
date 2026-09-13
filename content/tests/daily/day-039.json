@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-039",
+  "type": "daily",
+  "title": "Daily Test — Day 39",
+  "study_day": 39,
+  "coverage": {
+    "from_day": 38,
+    "to_day": 38
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "旅行中、朝から晩まで休まず（　　　）、足の裏にまめができた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "歩きっぱなしだったため"
+            },
+            {
+              "id": "B",
+              "text": "バスで移動していたため"
+            },
+            {
+              "id": "C",
+              "text": "宿で休んでいたため"
+            },
+            {
+              "id": "D",
+              "text": "ほとんど動かなかったため"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "行儀が悪いと注意されても、子どもは口に食べ物を入れた（　　　）返事をした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "後で、口の中を空にしてから"
+            },
+            {
+              "id": "B",
+              "text": "まま、飲み込まずに"
+            },
+            {
+              "id": "C",
+              "text": "ものの、すぐ飲み込んでから"
+            },
+            {
+              "id": "D",
+              "text": "後、口を閉じてから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "洗った皿を（　　　）、翌朝、皿に水あかが付いていた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "水につけず棚へ戻したため"
+            },
+            {
+              "id": "B",
+              "text": "水につけてすぐ完全に乾かしたため"
+            },
+            {
+              "id": "C",
+              "text": "水につけっぱなしにしたため"
+            },
+            {
+              "id": "D",
+              "text": "布で拭いて乾かしたため"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "地図を自分で確認せず、案内人に言われる（　　　）、細い山道を進んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "前に、自分で道を選んで"
+            },
+            {
+              "id": "B",
+              "text": "内容とは反対の方向へ"
+            },
+            {
+              "id": "C",
+              "text": "ことなく、自分の判断で"
+            },
+            {
+              "id": "D",
+              "text": "まま、自分では確かめずに"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "彼は試合中、一度も反撃できず、相手に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "攻められっぱなしだった"
+            },
+            {
+              "id": "B",
+              "text": "余裕を持って応戦していた"
+            },
+            {
+              "id": "C",
+              "text": "積極的に攻め返していた"
+            },
+            {
+              "id": "D",
+              "text": "対して主導権を握っていた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "演出上、泣いている姿を見せるため、涙を拭かない（　　　）、彼女は舞台に戻った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "と言ったが、舞台袖で拭いてから"
+            },
+            {
+              "id": "B",
+              "text": "まま、その涙を顔に残して"
+            },
+            {
+              "id": "C",
+              "text": "つもりだったが、鏡の前で拭いてから"
+            },
+            {
+              "id": "D",
+              "text": "どころか、化粧まで直してから"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "大きな工事の音が朝から夕方まで一度も止まらず（　　　）、集中できなかった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "短時間だけ聞こえたので"
+            },
+            {
+              "id": "B",
+              "text": "ほとんど聞こえなかったので"
+            },
+            {
+              "id": "C",
+              "text": "鳴りっぱなしだったので"
+            },
+            {
+              "id": "D",
+              "text": "昼には完全に止んだので"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "古い写真は修復しないという方針で、色が薄い（　　　）、大切に飾られている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ので処分され"
+            },
+            {
+              "id": "B",
+              "text": "ため倉庫にしまわれ"
+            },
+            {
+              "id": "C",
+              "text": "ことに気づかれず"
+            },
+            {
+              "id": "D",
+              "text": "まま、あえて手を加えず"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "電車がひどく混雑して身動きが取れず、空席も一度もなかったので、終点まで（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "立ちっぱなしだった"
+            },
+            {
+              "id": "B",
+              "text": "ずっと座っていた"
+            },
+            {
+              "id": "C",
+              "text": "何度も席を替えた"
+            },
+            {
+              "id": "D",
+              "text": "車内を歩き回った"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3802"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "説明どおりに行うため、先生が示した順番の（　　　）実験を進めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "一部を勝手に変えて"
+            },
+            {
+              "id": "B",
+              "text": "まま、何も変えずに"
+            },
+            {
+              "id": "C",
+              "text": "反対から始めて"
+            },
+            {
+              "id": "D",
+              "text": "最初だけを守って"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3801"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "道路に（　　　）と危険です。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "飛び出す"
+            },
+            {
+              "id": "B",
+              "text": "散らかる"
+            },
+            {
+              "id": "C",
+              "text": "散る"
+            },
+            {
+              "id": "D",
+              "text": "腐る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3805"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "ドンを円に（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "散る"
+            },
+            {
+              "id": "B",
+              "text": "替える"
+            },
+            {
+              "id": "C",
+              "text": "腐る"
+            },
+            {
+              "id": "D",
+              "text": "数える"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3808"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "やっぱり家が一番（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "腐る"
+            },
+            {
+              "id": "B",
+              "text": "数える"
+            },
+            {
+              "id": "C",
+              "text": "落ち着く"
+            },
+            {
+              "id": "D",
+              "text": "飛び出す"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3816"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "味が濃いので水を（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "数える"
+            },
+            {
+              "id": "B",
+              "text": "飛び出す"
+            },
+            {
+              "id": "C",
+              "text": "あふれる"
+            },
+            {
+              "id": "D",
+              "text": "足す"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3818"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "サッカーボールを（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "蹴る"
+            },
+            {
+              "id": "B",
+              "text": "飛び出す"
+            },
+            {
+              "id": "C",
+              "text": "あふれる"
+            },
+            {
+              "id": "D",
+              "text": "凍る"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3822"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "JLPT の試験に（　　　）する。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "化粧"
+            },
+            {
+              "id": "B",
+              "text": "合格"
+            },
+            {
+              "id": "C",
+              "text": "カーブ"
+            },
+            {
+              "id": "D",
+              "text": "ボランティア"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3824"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "家から職場まで、（　　　）で２時間ぐらいです。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "カーブ"
+            },
+            {
+              "id": "B",
+              "text": "ボランティア"
+            },
+            {
+              "id": "C",
+              "text": "往復"
+            },
+            {
+              "id": "D",
+              "text": "合格"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3825"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "大学の入学試験に（　　　）した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ボランティア"
+            },
+            {
+              "id": "B",
+              "text": "合格"
+            },
+            {
+              "id": "C",
+              "text": "往復"
+            },
+            {
+              "id": "D",
+              "text": "失敗"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3826"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "毎年、（　　　）者が増えている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "失業"
+            },
+            {
+              "id": "B",
+              "text": "合格"
+            },
+            {
+              "id": "C",
+              "text": "往復"
+            },
+            {
+              "id": "D",
+              "text": "失敗"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3827"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "千円札を（　　　）して、百円玉 10 枚にした。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "合格"
+            },
+            {
+              "id": "B",
+              "text": "両替"
+            },
+            {
+              "id": "C",
+              "text": "往復"
+            },
+            {
+              "id": "D",
+              "text": "失敗"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3828"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "来月までに 50 万円の（　　　）を返さなければならない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "合格"
+            },
+            {
+              "id": "B",
+              "text": "往復"
+            },
+            {
+              "id": "C",
+              "text": "借金"
+            },
+            {
+              "id": "D",
+              "text": "失敗"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3829"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "家に帰ったら、化粧を落とす。 【化粧】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "たす"
+            },
+            {
+              "id": "B",
+              "text": "ゆれる"
+            },
+            {
+              "id": "C",
+              "text": "おちつく"
+            },
+            {
+              "id": "D",
+              "text": "けしょう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3830"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "来月までに 50 万円の借金を返さなければならない。 【借金】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "しゃっきん"
+            },
+            {
+              "id": "B",
+              "text": "ゆれる"
+            },
+            {
+              "id": "C",
+              "text": "おちつく"
+            },
+            {
+              "id": "D",
+              "text": "もどる"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3829"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "千円札を両替して、百円玉 10 枚にした。 【両替】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おちつく"
+            },
+            {
+              "id": "B",
+              "text": "りょうがえ"
+            },
+            {
+              "id": "C",
+              "text": "もどる"
+            },
+            {
+              "id": "D",
+              "text": "はらいもどす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3828"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "毎年、失業者が増えている。 【失業】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もどる"
+            },
+            {
+              "id": "B",
+              "text": "はらいもどす"
+            },
+            {
+              "id": "C",
+              "text": "しつぎょう"
+            },
+            {
+              "id": "D",
+              "text": "もどす"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3827"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "子どものころから宇宙飛行士になるのが夢だった。 【夢】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ゆめ"
+            },
+            {
+              "id": "B",
+              "text": "むちゅう"
+            },
+            {
+              "id": "C",
+              "text": "おうぼ"
+            },
+            {
+              "id": "D",
+              "text": "ぼしゅう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3801"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "弟は昆虫の観察に夢中になっている。 【夢中】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おうぼ"
+            },
+            {
+              "id": "B",
+              "text": "むちゅう"
+            },
+            {
+              "id": "C",
+              "text": "ぼしゅう"
+            },
+            {
+              "id": "D",
+              "text": "もどす"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3801"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "写真コンテストに初めて応募した。 【応募】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ぼしゅう"
+            },
+            {
+              "id": "B",
+              "text": "もどす"
+            },
+            {
+              "id": "C",
+              "text": "おうぼ"
+            },
+            {
+              "id": "D",
+              "text": "はらいもどす"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3802"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "市は夏祭りのボランティアを募集している。 【募集】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もどす"
+            },
+            {
+              "id": "B",
+              "text": "はらいもどす"
+            },
+            {
+              "id": "C",
+              "text": "もどる"
+            },
+            {
+              "id": "D",
+              "text": "ぼしゅう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3802"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "使った道具を元の場所に戻す。 【戻す】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もどす"
+            },
+            {
+              "id": "B",
+              "text": "はらいもどす"
+            },
+            {
+              "id": "C",
+              "text": "もどる"
+            },
+            {
+              "id": "D",
+              "text": "なみだ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3803"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "中止になった公演の代金を払い戻す。 【払い戻す】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "もどる"
+            },
+            {
+              "id": "B",
+              "text": "はらいもどす"
+            },
+            {
+              "id": "C",
+              "text": "なみだ"
+            },
+            {
+              "id": "D",
+              "text": "うしなう"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3803"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "忘れ物に気づいて家へ戻る。 【戻る】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "なみだ"
+            },
+            {
+              "id": "B",
+              "text": "うしなう"
+            },
+            {
+              "id": "C",
+              "text": "もどる"
+            },
+            {
+              "id": "D",
+              "text": "しっぱい"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3803"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "卒業式で先生の言葉を聞き、涙が出た。 【涙】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "うしなう"
+            },
+            {
+              "id": "B",
+              "text": "しっぱい"
+            },
+            {
+              "id": "C",
+              "text": "しつれい"
+            },
+            {
+              "id": "D",
+              "text": "なみだ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3804"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "事故で大切な資料を【うしなう】可能性がある。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "失う"
+            },
+            {
+              "id": "B",
+              "text": "失敗"
+            },
+            {
+              "id": "C",
+              "text": "失礼"
+            },
+            {
+              "id": "D",
+              "text": "失業"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3805"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "小さな【しっぱい】を恐れて挑戦をやめる必要はない。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "失礼"
+            },
+            {
+              "id": "B",
+              "text": "失敗"
+            },
+            {
+              "id": "C",
+              "text": "失業"
+            },
+            {
+              "id": "D",
+              "text": "賛成"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3805"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "挨拶をせずに帰るのは【しつれい】だ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "失業"
+            },
+            {
+              "id": "B",
+              "text": "賛成"
+            },
+            {
+              "id": "C",
+              "text": "失礼"
+            },
+            {
+              "id": "D",
+              "text": "替える"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3805"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "工場の閉鎖で多くの人が【しつぎょう】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "賛成"
+            },
+            {
+              "id": "B",
+              "text": "替える"
+            },
+            {
+              "id": "C",
+              "text": "両替"
+            },
+            {
+              "id": "D",
+              "text": "失業"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3805"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "住民の多くが公園を残す案に【さんせい】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "賛成"
+            },
+            {
+              "id": "B",
+              "text": "替える"
+            },
+            {
+              "id": "C",
+              "text": "両替"
+            },
+            {
+              "id": "D",
+              "text": "夢"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3806"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "季節が変わったので店の飾りを【かえる】。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "両替"
+            },
+            {
+              "id": "B",
+              "text": "替える"
+            },
+            {
+              "id": "C",
+              "text": "夢"
+            },
+            {
+              "id": "D",
+              "text": "夢中"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3807"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "空港で円を外国のお金に【りょうがえ】した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "夢"
+            },
+            {
+              "id": "B",
+              "text": "夢中"
+            },
+            {
+              "id": "C",
+              "text": "両替"
+            },
+            {
+              "id": "D",
+              "text": "応募"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3807"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "schema_version": 1,
+  "id": "vocabulary-day-033",
+  "study_day": 33,
+  "target": 50,
+  "pool_size": 37,
+  "items": [
+    {
+      "id": 3301,
+      "surface": "頼み",
+      "hiragana": "たのみ",
+      "kanji": "頼み",
+      "meaning_vi": "lời nhờ vả, điều nhờ cậy",
+      "examples": [
+        {
+          "jp": "父が頼みを聞いてくれた。",
+          "vi": "Cha lắng nghe lời nhờ vả của tôi."
+        },
+        {
+          "jp": "恋人の頼みは断りにくい。",
+          "vi": "Lời nhờ vả của người yêu thì khó mà từ chối."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 001 — 頼み"
+    },
+    {
+      "id": 3302,
+      "surface": "教え",
+      "hiragana": "おしえ",
+      "kanji": "教え",
+      "meaning_vi": "lời chỉ bảo, dạy dỗ",
+      "examples": [
+        {
+          "jp": "祖母の教えは今でも役に立っている。",
+          "vi": "Lời dạy của bà cho tới bây giờ vẫn còn hữu ích."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 002 — 教え"
+    },
+    {
+      "id": 3303,
+      "surface": "怒り",
+      "hiragana": "いかり",
+      "kanji": "怒り",
+      "meaning_vi": "cơn giận, sự phẫn nộ",
+      "examples": [
+        {
+          "jp": "怒りを抑えて冷静に行動しよう。",
+          "vi": "Hãy kiềm chế cơn giận và hành động một cách bình tĩnh."
+        },
+        {
+          "jp": "犯人の自分勝手な言い訳に怒りを感じる。",
+          "vi": "Tôi cảm thấy tức giận trước những lời biện minh ích kỷ của hung thủ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 003 — 怒り"
+    },
+    {
+      "id": 3304,
+      "surface": "板",
+      "hiragana": "いた",
+      "kanji": "板",
+      "meaning_vi": "tấm ván, tấm gỗ",
+      "examples": [
+        {
+          "jp": "木の板を切る。",
+          "vi": "Cắt tấm ván gỗ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 004 — 板"
+    },
+    {
+      "id": 3305,
+      "surface": "まな板",
+      "hiragana": "まないた",
+      "kanji": "まな板",
+      "meaning_vi": "ってください。 (Hãy rửa thớt đi.) thớt",
+      "examples": [
+        {
+          "jp": "まな板の上で野菜を切る。",
+          "vi": "Thái rau trên thớt."
+        },
+        {
+          "jp": "まな板を洗",
+          "vi": "Hãy rửa thớt đi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 005 — まな板"
+    },
+    {
+      "id": 3306,
+      "surface": "黒板",
+      "hiragana": "こくばん",
+      "kanji": "黒板",
+      "meaning_vi": "bảng viết phấn",
+      "examples": [
+        {
+          "jp": "黒板に字を書く。",
+          "vi": "Viết chữ lên bảng."
+        },
+        {
+          "jp": "前の席に座ると、黒板が見やすい。",
+          "vi": "Ngồi ở hàng ghế đầu thì dễ nhìn thấy bảng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 006 — 黒板"
+    },
+    {
+      "id": 3307,
+      "surface": "授業料",
+      "hiragana": "じゅぎょうりょう",
+      "kanji": "授業料",
+      "meaning_vi": "học phí",
+      "examples": [
+        {
+          "jp": "大学の授業料は高いので、奨学金を申請した。",
+          "vi": "Vì học phí đại học cao nên tôi đã nộp đơn xin học bổng."
+        },
+        {
+          "jp": "私はアルバイトをして、自分の授業料を稼いでいる。",
+          "vi": "Tôi làm thêm để tự trang trải học phí của mình."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 007 — 授業料"
+    },
+    {
+      "id": 3308,
+      "surface": "主婦",
+      "hiragana": "しゅふ",
+      "kanji": "主婦",
+      "meaning_vi": "bà nội trợ",
+      "examples": [
+        {
+          "jp": "子供が生まれたら、仕事を辞めて主婦になりたい。",
+          "vi": "Sau khi sinh con, tôi muốn nghỉ việc và trở thành bà nội trợ."
+        },
+        {
+          "jp": "最近は主婦が減っているらしい。",
+          "vi": "Gần đây, có vẻ ngày càng ít phụ nữ làm nội trợ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 008 — 主婦"
+    },
+    {
+      "id": 3309,
+      "surface": "夫婦",
+      "hiragana": "ふうふ",
+      "kanji": "夫婦",
+      "meaning_vi": "vợ chồng",
+      "examples": [
+        {
+          "jp": "あの夫婦は仲がよさそうですね。",
+          "vi": "Đôi vợ chồng kia có vẻ hòa thuận nhỉ."
+        },
+        {
+          "jp": "このお店のお客さんは、若い夫婦が多いです。",
+          "vi": "Khách của cửa hàng này chủ yếu là các cặp vợ chồng trẻ."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 009 — 夫婦"
+    },
+    {
+      "id": 3310,
+      "surface": "案",
+      "hiragana": "あん",
+      "kanji": "案",
+      "meaning_vi": "します。(Tôi đồng ý với phương án của trưởng ban.) ý tưởng, kế hoạch",
+      "examples": [
+        {
+          "jp": "問題を解決するためのいい案はありますか。",
+          "vi": "Bạn có ý tưởng nào hay để giải quyết vấn đề không?"
+        },
+        {
+          "jp": "部長の案に賛成",
+          "vi": "Tôi đồng ý với phương án của trưởng ban."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 010 — 案"
+    },
+    {
+      "id": 3311,
+      "surface": "答案",
+      "hiragana": "とうあん",
+      "kanji": "答案",
+      "meaning_vi": "bài làm, tờ đáp án",
+      "examples": [
+        {
+          "jp": "答案用紙に名前を書いてください。",
+          "vi": "Hãy viết tên vào bài làm."
+        },
+        {
+          "jp": "これがテストの答案です。",
+          "vi": "Cái này là phần bài làm của bài kiểm tra."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 011 — 答案"
+    },
+    {
+      "id": 3312,
+      "surface": "気温",
+      "hiragana": "きおん",
+      "kanji": "気温",
+      "meaning_vi": "nhiệt độ không khí がる。 (Trời mưa thì nhiệt độ sẽ giảm.)",
+      "examples": [
+        {
+          "jp": "今日は午後から気温が高くなるそうだ。",
+          "vi": "Nghe nói chiều nay nhiệt độ sẽ tăng cao."
+        },
+        {
+          "jp": "雨が降ると気温が下",
+          "vi": "Trời mưa thì nhiệt độ sẽ giảm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 012 — 気温"
+    },
+    {
+      "id": 3313,
+      "surface": "住民",
+      "hiragana": "じゅうみん",
+      "kanji": "住民",
+      "meaning_vi": "dân cư, người dân",
+      "examples": [
+        {
+          "jp": "この地域の住民は親切な人ばかりだ。",
+          "vi": "Người dân trong khu vực này toàn là những người tốt bụng."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 013 — 住民"
+    },
+    {
+      "id": 3314,
+      "surface": "交通",
+      "hiragana": "こうつう",
+      "kanji": "交通",
+      "meaning_vi": "giao thông",
+      "examples": [
+        {
+          "jp": "私の職場は駅が近くて交通の便がいい。",
+          "vi": "Chỗ làm của tôi gần ga nên giao thông rất thuận tiện."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 014 — 交通"
+    },
+    {
+      "id": 3315,
+      "surface": "仲",
+      "hiragana": "なか",
+      "kanji": "仲",
+      "meaning_vi": "mối quan hệ",
+      "examples": [
+        {
+          "jp": "亜希さんと友希さんは、仲が悪い。",
+          "vi": "Mối quan hệ giữa Aki và Yuki không tốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 015 — 仲"
+    },
+    {
+      "id": 3316,
+      "surface": "年間",
+      "hiragana": "ねんかん",
+      "kanji": "年間",
+      "meaning_vi": "trong năm, trong vòng một năm",
+      "examples": [
+        {
+          "jp": "この町の年間の平均気温は 17 度だ",
+          "vi": "Nhiệt độ trung bình trong một năm của thị trấn này là 17 độ."
+        },
+        {
+          "jp": "年間行事のスケジュールを作成します。",
+          "vi": "Tôi sẽ tạo lịch trình cho các sự kiện trong năm."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 016 — 年間"
+    },
+    {
+      "id": 3317,
+      "surface": "現在",
+      "hiragana": "げんざい",
+      "kanji": "現在",
+      "meaning_vi": "hiện tại, bây giờ",
+      "examples": [
+        {
+          "jp": "私は現在、東京に住んでいます。",
+          "vi": "Hiện nay tôi đang sống ở Tokyo."
+        },
+        {
+          "jp": "1 月 10 日現在、イベントの参加者はまだ 10 人です。",
+          "vi": "Tính đến ngày 10 tháng 1, số người tham gia sự kiện vẫn chỉ có 10 người."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 017 — 現在"
+    },
+    {
+      "id": 3318,
+      "surface": "迷子",
+      "hiragana": "まいご",
+      "kanji": "迷子",
+      "meaning_vi": "bị lạc",
+      "examples": [
+        {
+          "jp": "息子がデパートで迷子になった。",
+          "vi": "Con trai tôi đi lạc trong siêu thị."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 018 — 迷子"
+    },
+    {
+      "id": 3319,
+      "surface": "製品",
+      "hiragana": "せいひん",
+      "kanji": "製品",
+      "meaning_vi": "chế phẩm, sản phẩm",
+      "examples": [
+        {
+          "jp": "新しい家電製品を買いに行く。",
+          "vi": "Đi mua đồ điện gia dụng mới."
+        },
+        {
+          "jp": "日本製品は、安心で安全だ。",
+          "vi": "Sản phẩm của Nhật, vừa an tâm lại an toàn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 019 — 製品"
+    },
+    {
+      "id": 3320,
+      "surface": "親友",
+      "hiragana": "しんゆう",
+      "kanji": "親友",
+      "meaning_vi": "bạn thân",
+      "examples": [
+        {
+          "jp": "親友からの頼みなので、聞いてあげることにした。",
+          "vi": "Vì là nhờ vả từ người bạn thân nên tôi đã quyết định sẽ lắng nghe."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 020 — 親友"
+    },
+    {
+      "id": 3321,
+      "surface": "騒ぎ",
+      "hiragana": "さわぎ",
+      "kanji": "騒ぎ",
+      "meaning_vi": "sự ồn ào, gây phiền",
+      "examples": [
+        {
+          "jp": "警察が来て、やっと騒ぎが収まった。",
+          "vi": "Cuối cùng sự ồn ào cũng đã chấm dứt khi cảnh sát tới."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 021 — 騒ぎ"
+    },
+    {
+      "id": 3322,
+      "surface": "騒音",
+      "hiragana": "そうおん",
+      "kanji": "騒音",
+      "meaning_vi": "tiếng ồn",
+      "examples": [
+        {
+          "jp": "騒音を出すなと怒られてしまった。",
+          "vi": "Tôi bị mắng là \"không được làm ồn\"."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 022 — 騒音"
+    },
+    {
+      "id": 3323,
+      "surface": "睡眠",
+      "hiragana": "すいみん",
+      "kanji": "睡眠",
+      "meaning_vi": "giấc ngủ",
+      "examples": [
+        {
+          "jp": "睡眠不足は体に悪い。",
+          "vi": "Thiếu ngủ có hại cho cơ thể."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 8 | BÀI 1 > TỪ VỰNG > mục 023 — 睡眠"
+    },
+    {
+      "id": 3324,
+      "surface": "暖房",
+      "hiragana": "だんぼう",
+      "kanji": "暖房",
+      "meaning_vi": "hệ thống sưởi, lò sưởi",
+      "examples": [
+        {
+          "jp": "冬は寒いので、毎日暖房をつける。",
+          "vi": "Vì mùa đông lạnh nên hàng ngày đều bật lò sưởi."
+        },
+        {
+          "jp": "部屋が暖かくなったので、暖房を消した。",
+          "vi": "Vì phòng đã ấm lên nên tôi tắt lò sưởi."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 024 — 暖房"
+    },
+    {
+      "id": 3325,
+      "surface": "チラシ",
+      "hiragana": "ちらし",
+      "kanji": null,
+      "meaning_vi": "tờ quảng cáo",
+      "examples": [
+        {
+          "jp": "チラシを見て、安いほうのスーパーまで買い物に行く。",
+          "vi": "Tôi xem tờ quảng cáo rồi sẽ đi mua sắm ở siêu thị rẻ hơn."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 025 — チラシ"
+    },
+    {
+      "id": 3326,
+      "surface": "ホームページ",
+      "hiragana": "ほーむぺーじ",
+      "kanji": null,
+      "meaning_vi": "trang web, trang chủ",
+      "examples": [
+        {
+          "jp": "このホームページで台風の発生状況を確認することができる。",
+          "vi": "homepage"
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 026 — ホームページ"
+    },
+    {
+      "id": 3327,
+      "surface": "コース",
+      "hiragana": "こーす",
+      "kanji": null,
+      "meaning_vi": "khóa học ❖ đường đi, lộ trình",
+      "examples": [
+        {
+          "jp": "日本語の会話コースを受ける。",
+          "vi": "Tham gia khóa học hội thoại tiếng Nhật."
+        },
+        {
+          "jp": "この山には色々な登山コースがあるが、一番簡単なコースで登った。",
+          "vi": "Ngọn núi này có rất nhiều đường đi, nhưng tôi đã chọn con đường dễ nhất để leo."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 027 — コース"
+    },
+    {
+      "id": 3328,
+      "surface": "ルール",
+      "hiragana": "るーる",
+      "kanji": null,
+      "meaning_vi": "luật lệ, quy tắc",
+      "examples": [
+        {
+          "jp": "交通ルールを守って運転しましょう。",
+          "vi": "Hãy lái xe tuân thủ luật giao thông."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 028 — ルール"
+    },
+    {
+      "id": 3329,
+      "surface": "メンバー",
+      "hiragana": "めんばー",
+      "kanji": null,
+      "meaning_vi": "thành viên",
+      "examples": [
+        {
+          "jp": "来月でチームのメンバーを外れることになった。",
+          "vi": "Tháng sau, tôi sẽ không còn là thành viên của nhóm nữa."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 029 — メンバー"
+    },
+    {
+      "id": 3330,
+      "surface": "ロッカー",
+      "hiragana": "ろっかー",
+      "kanji": null,
+      "meaning_vi": "tủ khóa",
+      "examples": [
+        {
+          "jp": "荷物が多かったので、駅のロッカーに預けて観光した。",
+          "vi": "Vì hành lý nhiều nên tôi đã gửi vào tủ khóa ở nhà ga rồi đi tham quan."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 030 — ロッカー"
+    },
+    {
+      "id": 3331,
+      "surface": "アプリ",
+      "hiragana": "あぷり",
+      "kanji": null,
+      "meaning_vi": "ứng dụng",
+      "examples": [
+        {
+          "jp": "このアプリはよくエラーが出て困る。",
+          "vi": "Ứng dụng này thường xuyên bị lỗi, làm tôi khó chịu."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 031 — アプリ"
+    },
+    {
+      "id": 3332,
+      "surface": "無事",
+      "hiragana": "ぶじ",
+      "kanji": "無事",
+      "meaning_vi": "bình an, vô sự",
+      "examples": [
+        {
+          "jp": "大けがをしたが、無事退院できた。",
+          "vi": "Tuy bị thương nặng nhưng tôi đã có thể bình an xuất viện."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 032 — 無事"
+    },
+    {
+      "id": 3333,
+      "surface": "不要",
+      "hiragana": "ふよう",
+      "kanji": "不要",
+      "meaning_vi": "không cần thiết は不要です。 (Vì trời ấm nên không cần áo khoác.)",
+      "examples": [
+        {
+          "jp": "このメールへの返信は不要です。",
+          "vi": "Không cần phải trả lời email này."
+        },
+        {
+          "jp": "暖かいので上着",
+          "vi": "Vì trời ấm nên không cần áo khoác."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: N/Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 033 — 不要"
+    },
+    {
+      "id": 3334,
+      "surface": "案外",
+      "hiragana": "あんがい",
+      "kanji": "案外",
+      "meaning_vi": "ngoài dự tính, bất ngờ",
+      "examples": [
+        {
+          "jp": "試験は難しいと思っていたが、案外簡単だった。",
+          "vi": "Kỳ thi tôi tưởng là khó nhưng không ngờ lại dễ."
+        },
+        {
+          "jp": "予定よりも案外早く着",
+          "vi": "Tôi đã tới sớm bất ngờ so với dự tính."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな/PT"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 9 | BÀI 1 > TỪ VỰNG > mục 034 — 案外"
+    },
+    {
+      "id": 3335,
+      "surface": "主要",
+      "hiragana": "しゅよう",
+      "kanji": "主要",
+      "meaning_vi": "chính, chủ yếu, chủ chốt",
+      "examples": [
+        {
+          "jp": "チームの主要なメンバーが集まった。",
+          "vi": "Tập hợp thành viên chủ chốt của đội."
+        },
+        {
+          "jp": "自動車産業は日本の主要な産業である。",
+          "vi": "Ngành công nghiệp ô tô là ngành chủ chốt của Nhật Bản."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aな"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 035 — 主要"
+    },
+    {
+      "id": 3336,
+      "surface": "頼もしい",
+      "hiragana": "たのもしい",
+      "kanji": "頼もしい",
+      "meaning_vi": "đáng tin cậy",
+      "examples": [
+        {
+          "jp": "部長はとても頼もしくて、部下から信頼されている。",
+          "vi": "Trưởng ban rất đáng tin cậy và được các nhân viên tin tưởng."
+        },
+        {
+          "jp": "部長みたいな責任感があって、頼もしい人になりたい。",
+          "vi": "Tôi muốn trở thành một người có tinh thần trách nhiệm và đáng tin cậy như trưởng ban."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 036 — 頼もしい"
+    },
+    {
+      "id": 3337,
+      "surface": "ぬるい",
+      "hiragana": "ぬるい",
+      "kanji": null,
+      "meaning_vi": "không lạnh, không nóng, nguội ❖ hời hợt",
+      "examples": [
+        {
+          "jp": "ぬるい牛乳はおいしくない。",
+          "vi": "Sữa nguội uống không ngon."
+        },
+        {
+          "jp": "ぬるくなった飲み物を冷やす。",
+          "vi": "Làm lạnh đồ uống đã hết lạnh."
+        },
+        {
+          "jp": "そんなぬるい考えではよくない。",
+          "vi": "Kiểu suy nghĩ hời hợt như vậy không tốt."
+        }
+      ],
+      "notes_vi": [
+        "Từ loại nguồn: Aい"
+      ],
+      "source_ref": "Chương 4.pdf | trang in 10 | BÀI 1 > TỪ VỰNG > mục 037 — ぬるい"
+    }
+  ]
+}

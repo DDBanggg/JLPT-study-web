@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "reading-day-036",
+  "study_day": 36,
+  "items": [
+    {
+      "id": 3601,
+      "title": "同じニュアンスの言い換えを選ぶ",
+      "passage_jp": "① 便利さばかりを求める現代社会には問題があると思う。\n② 子どもには、自然の中で遊ぶ時間がもっと必要だと思う。\n③ この地域では、昔から米作りが盛んだと言われている。",
+      "translation_vi": "① Tôi nghĩ xã hội hiện đại chỉ mải tìm kiếm sự tiện lợi đang có vấn đề.\n② Tôi nghĩ trẻ em cần có thêm thời gian vui chơi trong thiên nhiên.\n③ Người ta nói rằng khu vực này từ xưa đã phát triển nghề trồng lúa.",
+      "media": [],
+      "source_ref": "Đọc hiểu.pdf | CHƯƠNG 4 | trang in 21–22 | 練習3",
+      "questions": [
+        {
+          "id": "c04r-d04-q01",
+          "question_type": "mcq",
+          "question_jp": "①と同じ方向の考えはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "現代社会の便利さには課題もある。"
+            },
+            {
+              "id": "B",
+              "text": "便利なら問題は一つもない。"
+            },
+            {
+              "id": "C",
+              "text": "昔の生活はすべて不便だった。"
+            },
+            {
+              "id": "D",
+              "text": "便利さについて判断できない。"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d04-q02",
+          "question_type": "mcq",
+          "question_jp": "②の主張を最も自然に言い換えたものはどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "子どもが自然の中で遊ぶことは大切だ。"
+            },
+            {
+              "id": "B",
+              "text": "子どもは外へ出るべきではない。"
+            },
+            {
+              "id": "C",
+              "text": "自然は大人だけが楽しむものだ。"
+            },
+            {
+              "id": "D",
+              "text": "家で勉強する時間だけを増やしたい。"
+            }
+          ],
+          "correct_option_id": "A"
+        },
+        {
+          "id": "c04r-d04-q03",
+          "question_type": "mcq",
+          "question_jp": "③の文に最も近い内容はどれですか。",
+          "options": [
+            {
+              "id": "A",
+              "text": "この地域では以前から米作りが活発だそうだ。"
+            },
+            {
+              "id": "B",
+              "text": "この地域では米を作ったことがない。"
+            },
+            {
+              "id": "C",
+              "text": "米作りは禁止されている。"
+            },
+            {
+              "id": "D",
+              "text": "筆者は米作りに反対している。"
+            }
+          ],
+          "correct_option_id": "A"
+        }
+      ]
+    }
+  ]
+}

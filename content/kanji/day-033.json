@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-033",
+  "study_day": 33,
+  "items": [
+    {
+      "id": 3301,
+      "kanji": "預",
+      "han_viet": "DỰ",
+      "meaning_vi": "gửi; giao phó; giữ hộ",
+      "onyomi": [
+        "ヨ"
+      ],
+      "kunyomi": [
+        "あず・ける",
+        "あず・かる"
+      ],
+      "compounds": [
+        {
+          "word": "預ける",
+          "reading": "あずける",
+          "meaning_vi": "gửi, giao phó"
+        },
+        {
+          "word": "預かる",
+          "reading": "あずかる",
+          "meaning_vi": "trông nom, giữ hộ"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 3 | BÀI 1 > CHỮ HÁN > 預"
+    },
+    {
+      "id": 3302,
+      "kanji": "頼",
+      "han_viet": "LẠI",
+      "meaning_vi": "nhờ; dựa vào; đáng tin",
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "たの・む",
+        "たの・もしい",
+        "たよ・る"
+      ],
+      "compounds": [
+        {
+          "word": "頼む",
+          "reading": "たのむ",
+          "meaning_vi": "nhờ vả, yêu cầu"
+        },
+        {
+          "word": "頼る",
+          "reading": "たよる",
+          "meaning_vi": "dựa dẫm, nhờ cậy"
+        },
+        {
+          "word": "頼み",
+          "reading": "たのみ",
+          "meaning_vi": "lời nhờ vả"
+        },
+        {
+          "word": "頼もしい",
+          "reading": "たのもしい",
+          "meaning_vi": "đáng tin cậy"
+        },
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "meaning_vi": "yêu cầu, ủy thác"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 3 | BÀI 1 > CHỮ HÁN > 頼"
+    },
+    {
+      "id": 3303,
+      "kanji": "願",
+      "han_viet": "NGUYỆN",
+      "meaning_vi": "mong muốn; cầu xin",
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "ねが・う"
+      ],
+      "compounds": [
+        {
+          "word": "願う",
+          "reading": "ねがう",
+          "meaning_vi": "mong muốn, cầu xin"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 3 | BÀI 1 > CHỮ HÁN > 願"
+    },
+    {
+      "id": 3304,
+      "kanji": "返",
+      "han_viet": "PHẢN",
+      "meaning_vi": "trả lại; trở lại",
+      "onyomi": [
+        "ヘン"
+      ],
+      "kunyomi": [
+        "かえ・す",
+        "かえ・る"
+      ],
+      "compounds": [
+        {
+          "word": "返す",
+          "reading": "かえす",
+          "meaning_vi": "trả lại"
+        },
+        {
+          "word": "繰り返す",
+          "reading": "くりかえす",
+          "meaning_vi": "lặp đi lặp lại"
+        },
+        {
+          "word": "言い返す",
+          "reading": "いいかえす",
+          "meaning_vi": "đáp lại"
+        },
+        {
+          "word": "返る",
+          "reading": "かえる",
+          "meaning_vi": "được trả lại"
+        },
+        {
+          "word": "返信",
+          "reading": "へんしん",
+          "meaning_vi": "hồi âm"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 4 | BÀI 1 > CHỮ HÁN > 返"
+    },
+    {
+      "id": 3305,
+      "kanji": "板",
+      "han_viet": "BẢN",
+      "meaning_vi": "tấm ván; bảng",
+      "onyomi": [
+        "ハン",
+        "バン"
+      ],
+      "kunyomi": [
+        "いた"
+      ],
+      "compounds": [
+        {
+          "word": "板",
+          "reading": "いた",
+          "meaning_vi": "tấm ván"
+        },
+        {
+          "word": "看板",
+          "reading": "かんばん",
+          "meaning_vi": "biển hiệu"
+        },
+        {
+          "word": "黒板",
+          "reading": "こくばん",
+          "meaning_vi": "bảng đen"
+        },
+        {
+          "word": "まな板",
+          "reading": "まないた",
+          "meaning_vi": "thớt"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 4 | BÀI 1 > CHỮ HÁN > 板"
+    },
+    {
+      "id": 3306,
+      "kanji": "坂",
+      "han_viet": "PHẢN",
+      "meaning_vi": "dốc",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [
+        "さか"
+      ],
+      "compounds": [
+        {
+          "word": "坂道",
+          "reading": "さかみち",
+          "meaning_vi": "đường dốc"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 4 | BÀI 1 > CHỮ HÁN > 坂"
+    },
+    {
+      "id": 3307,
+      "kanji": "暖",
+      "han_viet": "NOÃN",
+      "meaning_vi": "ấm; làm ấm",
+      "onyomi": [
+        "ダン"
+      ],
+      "kunyomi": [
+        "あたた・かい",
+        "あたた・まる",
+        "あたた・める"
+      ],
+      "compounds": [
+        {
+          "word": "暖める",
+          "reading": "あたためる",
+          "meaning_vi": "làm ấm"
+        },
+        {
+          "word": "暖まる",
+          "reading": "あたたまる",
+          "meaning_vi": "ấm lên"
+        },
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "meaning_vi": "ấm áp"
+        },
+        {
+          "word": "暖房",
+          "reading": "だんぼう",
+          "meaning_vi": "hệ thống sưởi"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 5 | BÀI 1 > CHỮ HÁN > 暖"
+    }
+  ]
+}

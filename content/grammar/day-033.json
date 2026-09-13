@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "grammar-day-033",
+  "study_day": 33,
+  "items": [
+    {
+      "id": 3301,
+      "structure": "～に関して",
+      "formation": [
+        "N + に関して（は）／に関する + N／に関しての + N"
+      ],
+      "meaning_vi": "về; liên quan đến",
+      "usage_vi": "Nêu chủ đề hoặc phạm vi liên quan theo cách trang trọng hơn ～について.",
+      "examples": [
+        {
+          "jp": "12月に行われるJLPTに関しての情報を調べる。",
+          "vi": "Tìm thông tin liên quan đến kỳ thi JLPT được tổ chức vào tháng 12."
+        },
+        {
+          "jp": "全社員に睡眠時間に関してのアンケートを取った。",
+          "vi": "Đã thực hiện khảo sát toàn thể nhân viên về thời gian ngủ."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 15 | BÀI 1 > NGỮ PHÁP > mục 1 — ～に関して"
+    },
+    {
+      "id": 3302,
+      "structure": "～にわたって",
+      "formation": [
+        "N + にわたって／にわたり／にわたる + N"
+      ],
+      "meaning_vi": "trên toàn; trong suốt",
+      "usage_vi": "Diễn tả một trạng thái hoặc hoạt động trải rộng liên tục trên toàn phạm vi thời gian hay không gian.",
+      "examples": [
+        {
+          "jp": "三日間にわたった試験が昨日終わった。",
+          "vi": "Kỳ thi kéo dài suốt ba ngày đã kết thúc hôm qua."
+        },
+        {
+          "jp": "この道の渋滞は10キロにわたって続いている。",
+          "vi": "Tắc đường kéo dài trên quãng đường 10 km."
+        }
+      ],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 16 | BÀI 1 > NGỮ PHÁP > mục 2 — ～にわたって"
+    }
+  ]
+}

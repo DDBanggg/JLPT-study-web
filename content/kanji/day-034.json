@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "id": "kanji-day-034",
+  "study_day": 34,
+  "items": [
+    {
+      "id": 3401,
+      "kanji": "受",
+      "han_viet": "THỤ",
+      "meaning_vi": "nhận; dự thi; đỗ",
+      "onyomi": [
+        "ジュ"
+      ],
+      "kunyomi": [
+        "う・ける",
+        "う・かる"
+      ],
+      "compounds": [
+        {
+          "word": "受ける",
+          "reading": "うける",
+          "meaning_vi": "nhận, dự thi"
+        },
+        {
+          "word": "受かる",
+          "reading": "うかる",
+          "meaning_vi": "đỗ"
+        },
+        {
+          "word": "受け入れる",
+          "reading": "うけいれる",
+          "meaning_vi": "chấp nhận"
+        },
+        {
+          "word": "受け付ける",
+          "reading": "うけつける",
+          "meaning_vi": "tiếp nhận"
+        },
+        {
+          "word": "引き受ける",
+          "reading": "ひきうける",
+          "meaning_vi": "đảm nhận"
+        },
+        {
+          "word": "受験",
+          "reading": "じゅけん",
+          "meaning_vi": "dự thi"
+        },
+        {
+          "word": "受信",
+          "reading": "じゅしん",
+          "meaning_vi": "nhận tin"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 5 | BÀI 1 > CHỮ HÁN > 受"
+    },
+    {
+      "id": 3402,
+      "kanji": "授",
+      "han_viet": "THỤ",
+      "meaning_vi": "trao; truyền dạy",
+      "onyomi": [
+        "ジュ"
+      ],
+      "kunyomi": [
+        "さず・ける",
+        "さず・かる"
+      ],
+      "compounds": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning_vi": "buổi học"
+        },
+        {
+          "word": "教授",
+          "reading": "きょうじゅ",
+          "meaning_vi": "giáo sư"
+        },
+        {
+          "word": "授業料",
+          "reading": "じゅぎょうりょう",
+          "meaning_vi": "học phí"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 5 | BÀI 1 > CHỮ HÁN > 授"
+    },
+    {
+      "id": 3403,
+      "kanji": "怒",
+      "han_viet": "NỘ",
+      "meaning_vi": "tức giận",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "おこ・る",
+        "いか・る"
+      ],
+      "compounds": [
+        {
+          "word": "怒る",
+          "reading": "おこる",
+          "meaning_vi": "nổi giận"
+        },
+        {
+          "word": "怒り",
+          "reading": "いかり",
+          "meaning_vi": "cơn giận"
+        },
+        {
+          "word": "怒鳴る",
+          "reading": "どなる",
+          "meaning_vi": "quát tháo"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 6 | BÀI 1 > CHỮ HÁN > 怒"
+    },
+    {
+      "id": 3404,
+      "kanji": "努",
+      "han_viet": "NỖ",
+      "meaning_vi": "nỗ lực",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "つと・める"
+      ],
+      "compounds": [
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning_vi": "nỗ lực"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 6 | BÀI 1 > CHỮ HÁN > 努"
+    },
+    {
+      "id": 3405,
+      "kanji": "婚",
+      "han_viet": "HÔN",
+      "meaning_vi": "hôn nhân",
+      "onyomi": [
+        "コン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "離婚",
+          "reading": "りこん",
+          "meaning_vi": "ly hôn"
+        },
+        {
+          "word": "結婚式",
+          "reading": "けっこんしき",
+          "meaning_vi": "lễ cưới"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 7 | BÀI 1 > CHỮ HÁN > 婚"
+    },
+    {
+      "id": 3406,
+      "kanji": "婦",
+      "han_viet": "PHỤ",
+      "meaning_vi": "phụ nữ; vợ",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "主婦",
+          "reading": "しゅふ",
+          "meaning_vi": "bà nội trợ"
+        },
+        {
+          "word": "夫婦",
+          "reading": "ふうふ",
+          "meaning_vi": "vợ chồng"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 7 | BÀI 1 > CHỮ HÁN > 婦"
+    },
+    {
+      "id": 3407,
+      "kanji": "案",
+      "han_viet": "ÁN",
+      "meaning_vi": "ý tưởng; phương án",
+      "onyomi": [
+        "アン"
+      ],
+      "kunyomi": [],
+      "compounds": [
+        {
+          "word": "案",
+          "reading": "あん",
+          "meaning_vi": "đề xuất"
+        },
+        {
+          "word": "案内",
+          "reading": "あんない",
+          "meaning_vi": "hướng dẫn"
+        },
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning_vi": "đề xuất"
+        },
+        {
+          "word": "答案",
+          "reading": "とうあん",
+          "meaning_vi": "bài làm"
+        },
+        {
+          "word": "案外",
+          "reading": "あんがい",
+          "meaning_vi": "ngoài dự tính"
+        }
+      ],
+      "examples": [],
+      "notes_vi": [],
+      "source_ref": "Chương 4.pdf | trang in 7 | BÀI 1 > CHỮ HÁN > 案"
+    }
+  ]
+}

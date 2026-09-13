@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "daily-038",
+  "type": "daily",
+  "title": "Daily Test — Day 38",
+  "study_day": 38,
+  "coverage": {
+    "from_day": 37,
+    "to_day": 37
+  },
+  "stimuli": [],
+  "sections": [
+    {
+      "id": "grammar",
+      "title": "Grammar",
+      "max_score": 10,
+      "questions": [
+        {
+          "id": "q001",
+          "category": "grammar",
+          "prompt": "会議で眠り（　　　）ところを隣の人に肩をたたかれ、完全に寝入らずに済んだ。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけた"
+            },
+            {
+              "id": "B",
+              "text": "込んでいた"
+            },
+            {
+              "id": "C",
+              "text": "続けていた"
+            },
+            {
+              "id": "D",
+              "text": "終えていた"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q002",
+          "category": "grammar",
+          "prompt": "審査員は各作品の細部まで正確に評価するため、応募された短編小説を一作も残さず読み（　　　）、全作品の評価表を提出した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが"
+            },
+            {
+              "id": "B",
+              "text": "きって"
+            },
+            {
+              "id": "C",
+              "text": "残して"
+            },
+            {
+              "id": "D",
+              "text": "飛ばして"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q003",
+          "category": "grammar",
+          "prompt": "警察が近くにいる可能性を少しも考えず、犯人は誰にも気づかれていないと安心し（　　　）いた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、まだ疑って"
+            },
+            {
+              "id": "B",
+              "text": "たふりだけをして"
+            },
+            {
+              "id": "C",
+              "text": "きり、警戒を完全に解いて"
+            },
+            {
+              "id": "D",
+              "text": "ようとせず警戒して"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q004",
+          "category": "grammar",
+          "prompt": "炎が細くなった消え（　　　）ろうそくに新しい火を移した。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きっている"
+            },
+            {
+              "id": "B",
+              "text": "たばかりの"
+            },
+            {
+              "id": "C",
+              "text": "る様子のない"
+            },
+            {
+              "id": "D",
+              "text": "かけている"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q005",
+          "category": "grammar",
+          "prompt": "駅へ向かう途中で財布を忘れたことに気づき、乗り遅れ（　　　）が、タクシーに乗って発車直前に間に合った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけた"
+            },
+            {
+              "id": "B",
+              "text": "た"
+            },
+            {
+              "id": "C",
+              "text": "てしまった"
+            },
+            {
+              "id": "D",
+              "text": "た後だった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q006",
+          "category": "grammar",
+          "prompt": "大雪の中でも配達員は担当区域を一か所も残さず回り（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけたが、途中で引き返した"
+            },
+            {
+              "id": "B",
+              "text": "きり、予定どおり配り終えた"
+            },
+            {
+              "id": "C",
+              "text": "始めた直後に中止した"
+            },
+            {
+              "id": "D",
+              "text": "終える前に戻った"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        },
+        {
+          "id": "q007",
+          "category": "grammar",
+          "prompt": "長い間放置された木の扉は、水分がまったく残っておらず（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "乾きかけていた"
+            },
+            {
+              "id": "B",
+              "text": "乾き始めていた"
+            },
+            {
+              "id": "C",
+              "text": "乾ききっていた"
+            },
+            {
+              "id": "D",
+              "text": "乾ききらず湿っていた"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "grammar:3704"
+          ]
+        },
+        {
+          "id": "q008",
+          "category": "grammar",
+          "prompt": "まだ途中なので、読み（　　　）新聞に印を付けて席を立った。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "きった"
+            },
+            {
+              "id": "B",
+              "text": "直した"
+            },
+            {
+              "id": "C",
+              "text": "終えた"
+            },
+            {
+              "id": "D",
+              "text": "かけの"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "grammar:3701"
+          ]
+        },
+        {
+          "id": "q009",
+          "category": "grammar",
+          "prompt": "急な知らせを聞いて、持っていた皿を落とし（　　　）が、ぎりぎりで受け止めた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かけた"
+            },
+            {
+              "id": "B",
+              "text": "た"
+            },
+            {
+              "id": "C",
+              "text": "てしまった"
+            },
+            {
+              "id": "D",
+              "text": "た後だった"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "grammar:3702"
+          ]
+        },
+        {
+          "id": "q010",
+          "category": "grammar",
+          "prompt": "決勝戦が終わったとき、選手たちは持てる力を一切残さず（　　　）。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "出しかけただけだった"
+            },
+            {
+              "id": "B",
+              "text": "出しきって試合を終えた"
+            },
+            {
+              "id": "C",
+              "text": "出し惜しんでいた"
+            },
+            {
+              "id": "D",
+              "text": "出し始めたばかりだった"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "grammar:3703"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "title": "Vocabulary",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q011",
+          "category": "vocabulary",
+          "prompt": "この地域には（　　　）の言語を話せる人が多い。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "複数"
+            },
+            {
+              "id": "B",
+              "text": "お腹"
+            },
+            {
+              "id": "C",
+              "text": "各自"
+            },
+            {
+              "id": "D",
+              "text": "各地"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3701"
+          ]
+        },
+        {
+          "id": "q012",
+          "category": "vocabulary",
+          "prompt": "朝から何も食べていないので、（　　　）が空いている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "各自"
+            },
+            {
+              "id": "B",
+              "text": "お腹"
+            },
+            {
+              "id": "C",
+              "text": "各地"
+            },
+            {
+              "id": "D",
+              "text": "価格"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3702"
+          ]
+        },
+        {
+          "id": "q013",
+          "category": "vocabulary",
+          "prompt": "お昼ご飯は（　　　）で用意することになっている。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "各地"
+            },
+            {
+              "id": "B",
+              "text": "価格"
+            },
+            {
+              "id": "C",
+              "text": "各自"
+            },
+            {
+              "id": "D",
+              "text": "不合格"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3703"
+          ]
+        },
+        {
+          "id": "q014",
+          "category": "vocabulary",
+          "prompt": "７月下旬から８月中旬にかけて、日本（　　　）で夏祭りが 行われる。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "価格"
+            },
+            {
+              "id": "B",
+              "text": "不合格"
+            },
+            {
+              "id": "C",
+              "text": "線路"
+            },
+            {
+              "id": "D",
+              "text": "各地"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3704"
+          ]
+        },
+        {
+          "id": "q015",
+          "category": "vocabulary",
+          "prompt": "この商品は（　　　）が改定されて、少し安くなった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "価格"
+            },
+            {
+              "id": "B",
+              "text": "不合格"
+            },
+            {
+              "id": "C",
+              "text": "線路"
+            },
+            {
+              "id": "D",
+              "text": "道路"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3705"
+          ]
+        },
+        {
+          "id": "q016",
+          "category": "vocabulary",
+          "prompt": "勉強しないでテストを受けたら、やっぱり（　　　）だった。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "線路"
+            },
+            {
+              "id": "B",
+              "text": "不合格"
+            },
+            {
+              "id": "C",
+              "text": "道路"
+            },
+            {
+              "id": "D",
+              "text": "高速道路"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3706"
+          ]
+        },
+        {
+          "id": "q017",
+          "category": "vocabulary",
+          "prompt": "危ないから、（　　　）に降りてはいけない。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "道路"
+            },
+            {
+              "id": "B",
+              "text": "高速道路"
+            },
+            {
+              "id": "C",
+              "text": "線路"
+            },
+            {
+              "id": "D",
+              "text": "路面"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3707"
+          ]
+        },
+        {
+          "id": "q018",
+          "category": "vocabulary",
+          "prompt": "休日は（　　　）が混む。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "高速道路"
+            },
+            {
+              "id": "B",
+              "text": "路面"
+            },
+            {
+              "id": "C",
+              "text": "落とし物"
+            },
+            {
+              "id": "D",
+              "text": "道路"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3708"
+          ]
+        },
+        {
+          "id": "q019",
+          "category": "vocabulary",
+          "prompt": "事故の影響で、（　　　）が渋滞していた。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "高速道路"
+            },
+            {
+              "id": "B",
+              "text": "落とし物"
+            },
+            {
+              "id": "C",
+              "text": "涙"
+            },
+            {
+              "id": "D",
+              "text": "乗客"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3709"
+          ]
+        },
+        {
+          "id": "q020",
+          "category": "vocabulary",
+          "prompt": "（　　　）がでこぼこしていて、走りにくい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "落とし物"
+            },
+            {
+              "id": "B",
+              "text": "路面"
+            },
+            {
+              "id": "C",
+              "text": "涙"
+            },
+            {
+              "id": "D",
+              "text": "乗客"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3710"
+          ]
+        },
+        {
+          "id": "q021",
+          "category": "vocabulary",
+          "prompt": "（　　　）をしたら、警察に連絡してください。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "涙"
+            },
+            {
+              "id": "B",
+              "text": "乗客"
+            },
+            {
+              "id": "C",
+              "text": "落とし物"
+            },
+            {
+              "id": "D",
+              "text": "借り"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3711"
+          ]
+        },
+        {
+          "id": "q022",
+          "category": "vocabulary",
+          "prompt": "料理の仕上げに、パセリを散らす。 【散らす】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かたみち"
+            },
+            {
+              "id": "B",
+              "text": "にんずう"
+            },
+            {
+              "id": "C",
+              "text": "かり"
+            },
+            {
+              "id": "D",
+              "text": "ちらす"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "vocabulary:3734"
+          ]
+        },
+        {
+          "id": "q023",
+          "category": "vocabulary",
+          "prompt": "彼は大人しい性格で、あまり怒らない。 【大人しい】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おとなしい"
+            },
+            {
+              "id": "B",
+              "text": "にんずう"
+            },
+            {
+              "id": "C",
+              "text": "かり"
+            },
+            {
+              "id": "D",
+              "text": "じょうきゃく"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "vocabulary:3732"
+          ]
+        },
+        {
+          "id": "q024",
+          "category": "vocabulary",
+          "prompt": "あなたが転んだのは不注意だからだ。 【不注意】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かり"
+            },
+            {
+              "id": "B",
+              "text": "ふちゅうい"
+            },
+            {
+              "id": "C",
+              "text": "じょうきゃく"
+            },
+            {
+              "id": "D",
+              "text": "なみだ"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "vocabulary:3730"
+          ]
+        },
+        {
+          "id": "q025",
+          "category": "vocabulary",
+          "prompt": "今日中にこの量の仕事を終わらせるなんて不可能だ。 【不可能】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "じょうきゃく"
+            },
+            {
+              "id": "B",
+              "text": "なみだ"
+            },
+            {
+              "id": "C",
+              "text": "ふかのう"
+            },
+            {
+              "id": "D",
+              "text": "おとしもの"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "vocabulary:3729"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kanji",
+      "title": "Kanji",
+      "max_score": 15,
+      "questions": [
+        {
+          "id": "q026",
+          "category": "kanji",
+          "prompt": "授業の後で新しい文法を復習した。 【復習】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくしゅう"
+            },
+            {
+              "id": "B",
+              "text": "おうふく"
+            },
+            {
+              "id": "C",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "D",
+              "text": "ふくすう"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3701"
+          ]
+        },
+        {
+          "id": "q027",
+          "category": "kanji",
+          "prompt": "大阪までの往復切符を駅で買った。 【往復】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "B",
+              "text": "おうふく"
+            },
+            {
+              "id": "C",
+              "text": "ふくすう"
+            },
+            {
+              "id": "D",
+              "text": "おなか"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3701"
+          ]
+        },
+        {
+          "id": "q028",
+          "category": "kanji",
+          "prompt": "この機械は構造が複雑で修理に時間がかかる。 【複雑】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "ふくすう"
+            },
+            {
+              "id": "B",
+              "text": "おなか"
+            },
+            {
+              "id": "C",
+              "text": "ふくざつ"
+            },
+            {
+              "id": "D",
+              "text": "はら"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3702"
+          ]
+        },
+        {
+          "id": "q029",
+          "category": "kanji",
+          "prompt": "事故を複数の人が目撃していた。 【複数】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おなか"
+            },
+            {
+              "id": "B",
+              "text": "はら"
+            },
+            {
+              "id": "C",
+              "text": "かくえき"
+            },
+            {
+              "id": "D",
+              "text": "ふくすう"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3702"
+          ]
+        },
+        {
+          "id": "q030",
+          "category": "kanji",
+          "prompt": "朝から何も食べず、お腹が空いた。 【お腹】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "おなか"
+            },
+            {
+              "id": "B",
+              "text": "はら"
+            },
+            {
+              "id": "C",
+              "text": "かくえき"
+            },
+            {
+              "id": "D",
+              "text": "かくじ"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3703"
+          ]
+        },
+        {
+          "id": "q031",
+          "category": "kanji",
+          "prompt": "医師がお腹の痛む場所を確認した。 【腹】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくえき"
+            },
+            {
+              "id": "B",
+              "text": "はら"
+            },
+            {
+              "id": "C",
+              "text": "かくじ"
+            },
+            {
+              "id": "D",
+              "text": "かくち"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3703"
+          ]
+        },
+        {
+          "id": "q032",
+          "category": "kanji",
+          "prompt": "この電車は各駅に停車します。 【各駅】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくじ"
+            },
+            {
+              "id": "B",
+              "text": "かくち"
+            },
+            {
+              "id": "C",
+              "text": "かくえき"
+            },
+            {
+              "id": "D",
+              "text": "かかく"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3704"
+          ]
+        },
+        {
+          "id": "q033",
+          "category": "kanji",
+          "prompt": "避難訓練では各自が非常口を確認した。 【各自】の読み方として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "かくち"
+            },
+            {
+              "id": "B",
+              "text": "かかく"
+            },
+            {
+              "id": "C",
+              "text": "せいかく"
+            },
+            {
+              "id": "D",
+              "text": "かくじ"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3704"
+          ]
+        },
+        {
+          "id": "q034",
+          "category": "kanji",
+          "prompt": "春になると全国【かくち】で祭りが開かれる。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "各地"
+            },
+            {
+              "id": "B",
+              "text": "価格"
+            },
+            {
+              "id": "C",
+              "text": "性格"
+            },
+            {
+              "id": "D",
+              "text": "合格"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3704"
+          ]
+        },
+        {
+          "id": "q035",
+          "category": "kanji",
+          "prompt": "原料不足で商品の【かかく】が上がった。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "性格"
+            },
+            {
+              "id": "B",
+              "text": "価格"
+            },
+            {
+              "id": "C",
+              "text": "合格"
+            },
+            {
+              "id": "D",
+              "text": "線路"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3705"
+          ]
+        },
+        {
+          "id": "q036",
+          "category": "kanji",
+          "prompt": "双子でも二人の【せいかく】はかなり違う。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "合格"
+            },
+            {
+              "id": "B",
+              "text": "線路"
+            },
+            {
+              "id": "C",
+              "text": "性格"
+            },
+            {
+              "id": "D",
+              "text": "道路"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3705"
+          ]
+        },
+        {
+          "id": "q037",
+          "category": "kanji",
+          "prompt": "資格試験の【ごうかく】を家族に報告した。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "線路"
+            },
+            {
+              "id": "B",
+              "text": "道路"
+            },
+            {
+              "id": "C",
+              "text": "高速道路"
+            },
+            {
+              "id": "D",
+              "text": "合格"
+            }
+          ],
+          "correct_option_id": "D",
+          "source_item_refs": [
+            "kanji:3705"
+          ]
+        },
+        {
+          "id": "q038",
+          "category": "kanji",
+          "prompt": "【せんろ】に物が落ちたので駅員を呼んだ。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "線路"
+            },
+            {
+              "id": "B",
+              "text": "道路"
+            },
+            {
+              "id": "C",
+              "text": "高速道路"
+            },
+            {
+              "id": "D",
+              "text": "復習"
+            }
+          ],
+          "correct_option_id": "A",
+          "source_item_refs": [
+            "kanji:3706"
+          ]
+        },
+        {
+          "id": "q039",
+          "category": "kanji",
+          "prompt": "工事のため、この【どうろ】は夜間通行できない。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "高速道路"
+            },
+            {
+              "id": "B",
+              "text": "道路"
+            },
+            {
+              "id": "C",
+              "text": "復習"
+            },
+            {
+              "id": "D",
+              "text": "往復"
+            }
+          ],
+          "correct_option_id": "B",
+          "source_item_refs": [
+            "kanji:3706"
+          ]
+        },
+        {
+          "id": "q040",
+          "category": "kanji",
+          "prompt": "事故で【こうそくどうろ】が一部閉鎖された。 【　】に入る漢字として最も適切なものを選びなさい。",
+          "stimulus_id": null,
+          "options": [
+            {
+              "id": "A",
+              "text": "復習"
+            },
+            {
+              "id": "B",
+              "text": "往復"
+            },
+            {
+              "id": "C",
+              "text": "高速道路"
+            },
+            {
+              "id": "D",
+              "text": "複雑"
+            }
+          ],
+          "correct_option_id": "C",
+          "source_item_refs": [
+            "kanji:3706"
+          ]
+        }
+      ]
+    }
+  ]
+}
